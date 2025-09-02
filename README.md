@@ -4,7 +4,7 @@
 * Wednesday, August 27, 2025
   🔵 Pulaski
   * Intro to [Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/)
-  * Exercise: [Virtue ethics reflection]() (due before class September 3rd)
+  * Exercise: [Virtue ethics reflection](reflections/01%20Virtue%20ethics.pdf) (due before class September 3rd)
 
 ## Week 2
 * Monday, September 1, 2025
