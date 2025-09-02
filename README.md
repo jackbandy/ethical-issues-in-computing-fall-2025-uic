@@ -2,7 +2,8 @@
 * Monday, August 25, 2025
   * 🔵 Cicero
 * Wednesday, August 27, 2025
-  * 🔵 Pulaski
+  🔵 Pulaski
+  * Intro to (Virtue Ethics)[https://plato.stanford.edu/entries/ethics-virtue/]
 
 ## Week 2
 * Monday, September 1, 2025
