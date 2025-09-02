@@ -1,18 +1,23 @@
 ## Week 1
 * Monday, August 25, 2025  
   🔵 *Cicero* 🔵
-  * Overview of [syllabus](syllabus-cs-377-fall-2025.pdf)
-  * [Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
+  * Overview of [📄 syllabus](syllabus-cs-377-fall-2025.pdf)
+  * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
 * Wednesday, August 27, 2025  
   🔵 *Pulaski* 🔵
-  * Intro to [Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/)
-  * Exercise: [Virtue Ethics Reflection](reflections/01-virtue-ethics.pdf) (due before class September 3rd)
+  * Warm-up: What is a virtue?
+  * Mini-lecture on [🔗 Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/)
+  * Discussion: means between vices (deficiency and excess)
+  * After-class exercise: [📄 Virtue Ethics Reflection](reflections/01-virtue-ethics.pdf) (due before class September 3rd)
 
 ## Week 2
 * Monday, September 1, 2025
   * No class (labor day)
-* Wednesday, September 3, 2025
-  * 🔵 Kedzie-Homan
+* Wednesday, September 3, 2025  
+  🔵 *Kedzie-Homan* 🔵
+  * Warm-up: Exemplars
+  * Review virtue ethics
+  * Mini-lecture on [🔗 Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
 
 ## Week 3
 * Monday, September 8, 2025
