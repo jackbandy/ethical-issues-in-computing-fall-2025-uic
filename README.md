@@ -22,26 +22,41 @@
 ## Week 3
 * Monday, September 8, 2025
   * 🔵 Western (Forest Park Branch)
+  * Topic:
+  * Details TBA
 * Wednesday, September 10, 2025
   * 🔵 Illinois Medical District
+  * Details TBA
 
 ## Week 4
 * Monday, September 15, 2025
   * 🔵 Racine
+  * Topic:
+  * Details TBA
 * Wednesday, September 17, 2025
   * 🔵 UIC-Halsted
+  * Topic:
+  * Details TBA
 
 ## Week 5
 * Monday, September 22, 2025
   * 🔵 Clinton
+  * Topic:
+  * Details TBA
 * Wednesday, September 24, 2025
   * 🔵 LaSalle
+  * Topic:
+  * Details TBA
 
 ## Week 6
 * Monday, September 29, 2025
   * 🔵 Jackson
+  * Topic:
+  * Details TBA
 * Wednesday, October 1, 2025
   * 🔵 Monroe
+  * Topic:
+  * Details TBA
 
 ## Week 7
 * Monday, October 6, 2025
@@ -52,47 +67,79 @@
 ## Week 8
 * Monday, October 13, 2025
   * 🔵 Grand
+  * Topic:
+  * Details TBA
 * Wednesday, October 15, 2025
   * 🔵 Chicago
+  * Topic:
+  * Details TBA
 
 ## Week 9
 * Monday, October 20, 2025
   * 🔵 Division
+  * Topic:
+  * Details TBA
 * Wednesday, October 22, 2025
   * 🔵 Damen
+  * Topic:
+  * Details TBA
 
 ## Week 10
 * Monday, October 27, 2025
   * 🔵 Western (O'Hare Branch)
+  * Topic:
+  * Details TBA
 * Wednesday, October 29, 2025
   * 🔵 California
+  * Topic:
+  * Details TBA
 
 ## Week 11
 * Monday, November 3, 2025
   * 🔵 Logan Square
+  * Topic:
+  * Details TBA
 * Wednesday, November 5, 2025
   * 🔵 Belmont
+  * Topic:
+  * Details TBA
 
 ## Week 12
 * Monday, November 10, 2025
   * 🔵 Addison
+  * Topic:
+  * Details TBA
 * Wednesday, November 12, 2025
   * 🔵 Irving Park
+  * Topic:
+  * Details TBA
 
 ## Week 13
 * Monday, November 17, 2025
   * 🔵 Montrose
+  * Topic:
+  * Details TBA
 * Wednesday, November 19, 2025
   * 🔵 Jefferson Park
+  * Topic:
+  * Details TBA
 
 ## Week 14
 * Monday, November 24, 2025
   * 🔵 Harlem
+  * Topic:
+  * Details TBA
 * Wednesday, November 26, 2025
   * 🔵 Cumberland
+  * Topic:
+  * Details TBA
 
 ## Week 15
 * Monday, December 1, 2025
   * 🔵 Rosemont
+  * Topic:
+  * Details TBA
 * Wednesday, December 3, 2025
   * 🔵 O'Hare
+  * Topic:
+  * Details TBA
