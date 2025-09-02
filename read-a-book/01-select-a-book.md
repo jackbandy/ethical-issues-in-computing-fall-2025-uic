@@ -12,7 +12,7 @@ The requirements are pretty loose:
 * It must be a book you have not read before
 * There are no formal criteria for length, genre, language, etc.
 
-## What to turn in for Part 1
+## What to turn in for this part
 To receive full credit for Part 1, complete the Gradescope assignment called "Book Selection," which includes five questions:
 1. Which book did you choose?
 2. Who wrote the book?
@@ -20,3 +20,4 @@ To receive full credit for Part 1, complete the Gradescope assignment called "Bo
 4. How did you learn about the book?
 5. What is one thing you want to learn from reading this book?
 6. Give two additional reasons why this book seems interesting to you.
+
