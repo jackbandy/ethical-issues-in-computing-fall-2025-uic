@@ -1,5 +1,5 @@
 # Blue Line Ethics
-
+The trolley problem is only the beginning.
 
 ## Week 1
 * Monday, August 25, 2025  
@@ -83,27 +83,27 @@
   * Details TBA
 * Wednesday, October 15, 2025  
   🔵 _Division_ 🔵
-  * Topic: Computing's Role in Peace, Conflict, War
+  * Topic: 💣 Computing's Role in Peace, Conflict, War
   * Details TBA
 
 ## Week 9
 * Monday, October 20, 2025  
   🔵 _Damen_ 🔵
-  * Topic: Large Language Models (bias)
+  * Topic: 💬 Large Language Models (bias)
   * Details TBA
 * Wednesday, October 22, 2025  
   🔵 _Western (O'Hare Branch)_ 🔵
-  * Topic: Large Language Models (other issues)
+  * Topic: 💬 Large Language Models (other issues)
   * Details TBA
 
 ## Week 10
 * Monday, October 27, 2025  
   🔵 _California_ 🔵
-  * Topic: Big Tech, Capitalism, Monopolies, and Freedom
+  * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
   * Details TBA
 * Wednesday, October 29, 2025  
   🔵 _Logan Square_ 🔵
-  * Topic: "Dark Patterns" and Addiction in UI Design
+  * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
   * Details TBA
 
 ## Week 11
