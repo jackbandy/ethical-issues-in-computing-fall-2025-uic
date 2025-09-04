@@ -1,3 +1,6 @@
+# Blue Line Ethics
+
+
 ## Week 1
 * Monday, August 25, 2025  
   🔵 _Pulaski_ 🔵
@@ -25,6 +28,8 @@
 * Monday, September 8, 2025  
   🔵 _Illinois Medical District_ 🔵
   * Topic: Care Ethics
+  * Read [🔗 The Porcupine and the Moles](https://labs.psychology.illinois.edu/~lyubansk/Gilligan.htm)
+  * Mini-lecture on [🔗 Care Ethics](https://iep.utm.edu/care-ethics/)
   * Details TBA
 * Wednesday, September 10, 2025  
   🔵 _Racine_ 🔵
