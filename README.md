@@ -8,6 +8,7 @@ The trolley problem is only the beginning.
   * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
 * Wednesday, August 27, 2025  
   🔵 _Kedzie-Homan_ 🔵
+  * Topic: **Virtue Ethics**
   * Warm-up: What is a virtue?
   * Mini-lecture on [🔗 Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/)
   * Discussion: means between vices (deficiency and excess)
@@ -18,6 +19,7 @@ The trolley problem is only the beginning.
   * Labor Day holiday. **No classes**.
 * Wednesday, September 3, 2025  
   🔵 _Western (Forest Park Branch)_ 🔵
+  * Topic: **Deontological Ethics**
   * Warm-up: Exemplars
   * Review virtue ethics
   * Discussion: class rules
@@ -27,13 +29,16 @@ The trolley problem is only the beginning.
 ## Week 3
 * Monday, September 8, 2025  
   🔵 _Illinois Medical District_ 🔵
-  * Topic: Care Ethics
-  * Read [🔗 The Porcupine and the Moles](https://labs.psychology.illinois.edu/~lyubansk/Gilligan.htm)
+  * Topic: **Care Ethics**
+  * Read and discuss [🔗 The Porcupine and the Moles](https://labs.psychology.illinois.edu/~lyubansk/Gilligan.htm)
+    * Optional reading by [Beverly Beyette Graber](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html)
   * Mini-lecture on [🔗 Care Ethics](https://iep.utm.edu/care-ethics/)
-  * Details TBA
+    * Context: [🔗 Kohlberg's theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
+  * After-class exercise: [📄 Care Ethics Reflection](reflections/02-deontological-ethics.pdf) (due at start of class September 10th)
+  * More details TBA
 * Wednesday, September 10, 2025  
   🔵 _Racine_ 🔵
-  * Topic: Utilitarian Ethics
+  * Topic: **Utilitarian Ethics**
   * Details TBA
 
 ## Week 4
