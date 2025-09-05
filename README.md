@@ -1,3 +1,6 @@
+# Blue Line Ethics
+The trolley problem is only the beginning.
+
 ## Week 1
 * Monday, August 25, 2025  
   🔵 _Pulaski_ 🔵
@@ -5,6 +8,7 @@
   * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
 * Wednesday, August 27, 2025  
   🔵 _Kedzie-Homan_ 🔵
+  * Topic: **🏛️ Virtue Ethics**
   * Warm-up: What is a virtue?
   * Mini-lecture on [🔗 Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/)
   * Discussion: means between vices (deficiency and excess)
@@ -15,6 +19,7 @@
   * Labor Day holiday. **No classes**.
 * Wednesday, September 3, 2025  
   🔵 _Western (Forest Park Branch)_ 🔵
+  * Topic: **📖 Deontological Ethics**
   * Warm-up: Exemplars
   * Review virtue ethics
   * Discussion: class rules
@@ -24,11 +29,16 @@
 ## Week 3
 * Monday, September 8, 2025  
   🔵 _Illinois Medical District_ 🔵
-  * Topic: Care Ethics
-  * Details TBA
+  * Topic: **💟 Care Ethics**
+  * Read and discuss [🔗 The Porcupine and the Moles](https://labs.psychology.illinois.edu/~lyubansk/Gilligan.htm)
+    * Optional [🔗 reading about Carol Gilligan](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html) by Beverly Beyette Graber
+  * Mini-lecture on [🔗 Care Ethics](https://iep.utm.edu/care-ethics/)
+    * Context: [🔗 Kohlberg's theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
+  * After-class exercise: [📄 Care Ethics Reflection]() (due at start of class September 10th)
+  * More details TBA
 * Wednesday, September 10, 2025  
   🔵 _Racine_ 🔵
-  * Topic: Utilitarian Ethics
+  * Topic: **📊 Utilitarian Ethics**
   * Details TBA
 
 ## Week 4
@@ -78,27 +88,27 @@
   * Details TBA
 * Wednesday, October 15, 2025  
   🔵 _Division_ 🔵
-  * Topic: Computing's Role in Peace, Conflict, War
+  * Topic: 💣 Computing's Role in Peace, Conflict, War
   * Details TBA
 
 ## Week 9
 * Monday, October 20, 2025  
   🔵 _Damen_ 🔵
-  * Topic: Large Language Models (bias)
+  * Topic: 💬 Large Language Models (bias)
   * Details TBA
 * Wednesday, October 22, 2025  
   🔵 _Western (O'Hare Branch)_ 🔵
-  * Topic: Large Language Models (other issues)
+  * Topic: 💬 Large Language Models (other issues)
   * Details TBA
 
 ## Week 10
 * Monday, October 27, 2025  
   🔵 _California_ 🔵
-  * Topic: Big Tech, Capitalism, Monopolies, and Freedom
+  * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
   * Details TBA
 * Wednesday, October 29, 2025  
   🔵 _Logan Square_ 🔵
-  * Topic: "Dark Patterns" and Addiction in UI Design
+  * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
   * Details TBA
 
 ## Week 11
@@ -148,3 +158,10 @@
   🔵 _O'Hare_ 🔵
   * Topic: 🏁 Synthesis / Conclusions
   * Details TBA
+
+ ---
+# Reference courses
+* CS 181 at Stanford: [Computers, Ethics, and Public Policy](https://stanfordcs181.github.io)
+* CS 396 at NYU: [Computing, Ethics, Society](https://nu-tech-ethics.github.io/winter2021/)
+* CS 294 at UC Berkeley: [Fairness in Machine Learning](https://fairmlclass.github.io)
+* ECS 188 at UC Davis: [Ethics in an Age of Technology](https://www.cs.ucdavis.edu/~rogaway/classes/188/materials/reader.html)
