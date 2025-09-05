@@ -153,3 +153,10 @@ The trolley problem is only the beginning.
   🔵 _O'Hare_ 🔵
   * Topic: 🏁 Synthesis / Conclusions
   * Details TBA
+
+ ---
+# Reference courses
+* CS 181 at Stanford: [Computers, Ethics, and Public Policy](https://stanfordcs181.github.io)
+* CS 396 at NYU: [Computing, Ethics, Society](https://nu-tech-ethics.github.io/winter2021/)
+* CS 294 at UC Berkeley: [Fairness in Machine Learning](https://fairmlclass.github.io)
+* ECS 188 at UC Davis: [Ethics in an Age of Technology](https://www.cs.ucdavis.edu/~rogaway/classes/188/materials/reader.html)
