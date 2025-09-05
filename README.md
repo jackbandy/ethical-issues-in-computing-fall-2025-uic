@@ -34,7 +34,7 @@ The trolley problem is only the beginning.
     * Optional [🔗 reading about Carol Gilligan](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html) by Beverly Beyette Graber
   * Mini-lecture on [🔗 Care Ethics](https://iep.utm.edu/care-ethics/)
     * Context: [🔗 Kohlberg's theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
-  * After-class exercise: [📄 Care Ethics Reflection]()reflections/03-care-ethics.pdf) (due at start of class September 10th)
+  * After-class exercise: [📄 Care Ethics Reflection](reflections/03-care-ethics.pdf) (due at start of class September 10th)
   * More details TBA
 * Wednesday, September 10, 2025  
   `🔵 Racine 🔵` 
