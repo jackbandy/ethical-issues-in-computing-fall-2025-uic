@@ -35,17 +35,21 @@ The trolley problem is only the beginning.
   * Mini-lecture on [🔗 Care Ethics](https://iep.utm.edu/care-ethics/)
     * Context: [🔗 Kohlberg's theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
   * After-class exercise: [📄 Care Ethics Reflection](reflections/03-care-ethics.pdf) (due at start of class September 10th)
-  * More details TBA
 * Wednesday, September 10, 2025  
   `🔵 Racine 🔵` 
   * Topic: **📊 Utilitarian Ethics**
-  * Details TBA
+  * Review care ethics, deontological ethics, virtue ethics
+  * Kidney transplant exercise
+  * Mini-lecture on [🔗 Utilitarian Ethics](https://plato.stanford.edu/entries/utilitarianism-history/)
+  * Trolley problem discussion
+  * After-class exercise: [📄 Utilitarian Ethics Reflection]() (due at start of class September 15th)
 
 ## Week 4
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
   * Topic: Algorithmic Feeds
   * Details TBA
+  * After-class exercise: food in your feed / media diary
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
   * Topic: Algorithmic Feeds, Advertising, and Content Moderation
