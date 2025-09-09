@@ -42,7 +42,7 @@ The trolley problem is only the beginning.
   * Review care ethics, deontological ethics, virtue ethics
   * Kidney transplant exercise
   * Mini-lecture on [🔗 Utilitarian Ethics](https://plato.stanford.edu/entries/utilitarianism-history/)
-  * Trolley problem discussion
+  * Discuss the [🔗 trolley problem(s)](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
   * After-class exercise: [📄 Utilitarian Ethics Reflection](04-utilitarian-ethics.pdf) (due at start of class September 15th)
 
 
