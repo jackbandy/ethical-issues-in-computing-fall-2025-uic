@@ -1,6 +1,7 @@
 # Blue Line Ethics
 The trolley problem is only the beginning.
 
+# Unit 1: Theoretical Ethics
 ## Week 1
 * Monday, August 25, 2025  
   `🔵 Pulaski 🔵`
@@ -42,8 +43,10 @@ The trolley problem is only the beginning.
   * Kidney transplant exercise
   * Mini-lecture on [🔗 Utilitarian Ethics](https://plato.stanford.edu/entries/utilitarianism-history/)
   * Trolley problem discussion
-  * After-class exercise: [📄 Utilitarian Ethics Reflection]() (due at start of class September 15th)
+  * After-class exercise: [📄 Utilitarian Ethics Reflection](04-utilitarian-ethics.pdf) (due at start of class September 15th)
 
+
+# Unit 2: Practical Ethics
 ## Week 4
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
