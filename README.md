@@ -47,12 +47,12 @@ The trolley problem is only the beginning.
 ## Week 4
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
-  * Topic: Algorithmic Feeds
+  * Topic: **📱 Algorithmic Feeds**
   * Details TBA
   * After-class exercise: food in your feed / media diary
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
-  * Topic: Algorithmic Feeds, Advertising, and Content Moderation
+  * Topic: **📱 Algorithmic Feeds, Advertising, and Content Moderation**
   * Details TBA
 
 ## Week 5
