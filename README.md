@@ -43,6 +43,7 @@ The trolley problem is only the beginning.
   * Kidney transplant exercise
   * Mini-lecture on [🔗 Utilitarian Ethics](https://plato.stanford.edu/entries/utilitarianism-history/)
   * Discuss the [🔗 trolley problem(s)](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
+    * Bonus content: [🔗 Absurd trolley problems](https://neal.fun/absurd-trolley-problems/)
   * After-class exercise: [📄 Utilitarian Ethics Reflection](reflections/04-utilitarian-ethics.pdf) (due at start of class September 15th)
 
 
