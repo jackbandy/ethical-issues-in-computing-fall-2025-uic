@@ -53,6 +53,7 @@ The trolley problem is only the beginning.
   `🔵 UIC-Halsted 🔵` 
   * Topic: **📱 Algorithmic Feeds**
   * Details TBA
+  * Reading: [Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
   * After-class exercise: food in your feed / media diary
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
