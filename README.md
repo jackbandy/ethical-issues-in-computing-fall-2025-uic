@@ -52,18 +52,24 @@ The trolley problem is only the beginning.
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
   * Topic: **📱 Algorithmic Feeds**
-  * Details TBA
-  * Reading: [Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
+  * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
+  * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
+  * Research: [🔗 Stray et al., Building Human Values into Recommender Systems: An Interdisciplinary Synthesis](https://doi.org/10.1145/3632297)
+  * Reading: [🔗 Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
+  * Reading: [🔗 Simone Weil, Attention and Will](https://rohandrape.net/ut/rttcc-text/Weil1952d.pdf)
   * After-class exercise: food in your feed / media diary
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
   * Topic: **📱 Algorithmic Feeds, Advertising, and Content Moderation**
+  * For discussion:
+    * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
+    * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
   * Details TBA
 
 ## Week 5
 * Monday, September 22, 2025  
   `🔵 LaSalle 🔵` 
-  * Topic: Digital Rights and Identity Protection
+  * Topic: Digital Rights and Identity
   * Details TBA
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
