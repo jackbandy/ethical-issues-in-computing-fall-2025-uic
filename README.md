@@ -60,7 +60,7 @@ The trolley problem is only the beginning.
   * Mini-lecture on [🔗 Feeds and Recommender Systems](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf)
   * Activity: uprank / downrank / remove
   * Mini-lecture: values in (ranking) algorithms
-  * **After-class exercise**: food in your feed / media diary
+  * **After-class exercise**: [📄 food in your feed / media diary](reflections/05-feed-diary.pdf) (due at start of class September 17th)
   * Bonus materials
     * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
     * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
