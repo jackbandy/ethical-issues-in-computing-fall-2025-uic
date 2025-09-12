@@ -13,7 +13,7 @@ The trolley problem is only the beginning.
   * Warm-up: What is a virtue?
   * Mini-lecture on [🔗 Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/)
   * Discussion: means between vices (deficiency and excess)
-  * After-class exercise: [📄 Virtue Ethics Reflection](reflections/01-virtue-ethics.pdf) (due at start of class September 3rd)
+  * **After-class exercise**: [📄 Virtue Ethics Reflection](reflections/01-virtue-ethics.pdf) (due at start of class September 3rd)
 
 ## Week 2
 * Monday, September 1, 2025
@@ -25,7 +25,7 @@ The trolley problem is only the beginning.
   * Review virtue ethics
   * Discussion: class rules
   * Mini-lecture on [🔗 Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
-  * After-class exercise: [📄 Deontological Ethics Reflection](reflections/02-deontological-ethics.pdf) (due at start of class September 8th)
+  * **After-class exercise**: [📄 Deontological Ethics Reflection](reflections/02-deontological-ethics.pdf) (due at start of class September 8th)
 
 ## Week 3
 * Monday, September 8, 2025  
@@ -35,7 +35,7 @@ The trolley problem is only the beginning.
     * Optional [🔗 reading about Carol Gilligan](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html) by Beverly Beyette Graber
   * Mini-lecture on [🔗 Care Ethics](https://iep.utm.edu/care-ethics/)
     * Context: [🔗 Kohlberg's theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
-  * After-class exercise: [📄 Care Ethics Reflection](reflections/03-care-ethics.pdf) (due at start of class September 10th)
+  * **After-class exercise**: [📄 Care Ethics Reflection](reflections/03-care-ethics.pdf) (due at start of class September 10th)
 * Wednesday, September 10, 2025  
   `🔵 Racine 🔵` 
   * Topic: **📊 Utilitarian Ethics**
@@ -43,24 +43,32 @@ The trolley problem is only the beginning.
   * Kidney transplant exercise
   * Mini-lecture on [🔗 Utilitarian Ethics](https://plato.stanford.edu/entries/utilitarianism-history/)
   * Discuss the [🔗 trolley problem(s)](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
-    * Bonus content: [🔗 Absurd trolley problems](https://neal.fun/absurd-trolley-problems/)
-  * After-class exercise: [📄 Utilitarian Ethics Reflection](reflections/04-utilitarian-ethics.pdf) (due at start of class September 15th)
+  * **After-class exercise**: [📄 Utilitarian Ethics Reflection](reflections/04-utilitarian-ethics.pdf) (due at start of class September 15th)
+  * Bonus materials
+    * [🔗 Absurd trolley problems](https://neal.fun/absurd-trolley-problems/) by Neal Agarwal
+
+
+---
 
 
 # Unit 2: Practical Ethics
 ## Week 4
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
-  * Topic: **📱 Algorithmic Feeds**
-  * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
-  * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
-  * Research: [🔗 Stray et al., Building Human Values into Recommender Systems: An Interdisciplinary Synthesis](https://doi.org/10.1145/3632297)
-  * Reading: [🔗 Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
-  * Reading: [🔗 Simone Weil, Attention and Will](https://rohandrape.net/ut/rttcc-text/Weil1952d.pdf)
-  * After-class exercise: food in your feed / media diary
+  * Topic: **📱 Algorithmic Feeds Part 1: Values in Ranking**
+  * Activity: samples from your feeds
+  * Mini-lecture: values in (ranking) algorithms
+  * Activity: uprank / downrank / remove
+  * **After-class exercise**: food in your feed / media diary
+  * Bonus materials
+    * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
+    * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
+    * Research: [🔗 Stray et al., Building Human Values into Recommender Systems: An Interdisciplinary Synthesis](https://doi.org/10.1145/3632297)
+    * Reading: [🔗 Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
+    * Reading: [🔗 Simone Weil, Attention and Will](https://rohandrape.net/ut/rttcc-text/Weil1952d.pdf)
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
-  * Topic: **📱 Algorithmic Feeds, Advertising, and Content Moderation**
+  * Topic: **📱 Algorithmic Feeds Part 2: Content Moderation and Advertising**
   * For discussion:
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
