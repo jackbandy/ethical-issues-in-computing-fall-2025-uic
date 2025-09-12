@@ -57,8 +57,9 @@ The trolley problem is only the beginning.
   `🔵 UIC-Halsted 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 1: Values in Ranking**
   * Activity: samples from your feeds
-  * Mini-lecture: values in (ranking) algorithms
+  * Mini-lecture on [🔗 Feeds and Recommender Systems](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf)
   * Activity: uprank / downrank / remove
+  * Mini-lecture: values in (ranking) algorithms
   * **After-class exercise**: food in your feed / media diary
   * Bonus materials
     * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
