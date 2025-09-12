@@ -65,8 +65,9 @@ The trolley problem is only the beginning.
     * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
     * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
     * Research: [🔗 Stray et al., Building Human Values into Recommender Systems: An Interdisciplinary Synthesis](https://doi.org/10.1145/3632297)
-    * Reading: [🔗 Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
-    * Reading: [🔗 Simone Weil, Attention and Will](https://rohandrape.net/ut/rttcc-text/Weil1952d.pdf)
+    * Analysis: [🔗 Tom Cunningham, Ranking by Engagement](https://tecunningham.github.io/posts/2023-04-28-ranking-by-engagement.html)
+    * Analysis: [🔗 Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
+    * Poetry: [🔗 Simone Weil, Attention and Will](https://rohandrape.net/ut/rttcc-text/Weil1952d.pdf)
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 2: Content Moderation and Advertising**
