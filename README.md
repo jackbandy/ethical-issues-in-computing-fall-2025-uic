@@ -77,12 +77,16 @@ The trolley problem is only the beginning.
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
   * Details TBA
+  * Bonus materials:
+    * Research: [🔗 Tarleton Gillespie, Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
 
 ## Week 5
 * Monday, September 22, 2025  
   `🔵 LaSalle 🔵` 
   * Topic: Digital Rights and Identity
   * Details TBA
+  * Bonus materials
+    * Report: [🔗 The White House, Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
   * Topic: Facial Recognition
