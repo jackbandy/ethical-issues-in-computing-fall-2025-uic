@@ -58,7 +58,7 @@ The trolley problem is only the beginning.
   * Topic: **📱 Algorithmic Feeds Part 1: Values in Ranking**
   * Activity: samples from your feeds
   * Mini-lecture on [🔗 Feeds and Recommender Systems](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf)
-  * Activity: uprank / downrank / remove
+  * Activity: uprank / downrank
   * Mini-lecture: values in (ranking) algorithms
   * **After-class exercise**: [📄 food in your feed / media diary](reflections/05-feed-diary.pdf) (due at start of class September 17th)
   * Bonus materials
@@ -71,6 +71,8 @@ The trolley problem is only the beginning.
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 2: Content Moderation and Advertising**
+  * Check-in survey
+  * Activity: content moderation and removal
   * For discussion:
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
