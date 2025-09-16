@@ -1,7 +1,7 @@
 # Blue Line Ethics
 The trolley problem is only the beginning.
 
-# Unit 1: Theoretical Ethics
+# Unit 1: Theory
 ## Week 1
 * Monday, August 25, 2025  
   `🔵 Pulaski 🔵`
@@ -51,7 +51,7 @@ The trolley problem is only the beginning.
 ---
 
 
-# Unit 2: Practical Ethics
+# Unit 2: Applications
 ## Week 4
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
@@ -78,6 +78,8 @@ The trolley problem is only the beginning.
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
   * Details TBA
   * Bonus materials:
+    * Resource: [🔗 UChicago, Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
+    * Research: [🔗 "Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
     * Research: [🔗 Tarleton Gillespie, Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
 
 ## Week 5
