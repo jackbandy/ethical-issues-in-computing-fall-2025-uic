@@ -72,10 +72,13 @@ The trolley problem is only the beginning.
   `🔵 Clinton 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 2: Content Moderation and Advertising**
   * Discuss feed diary
+  * Mini-lecture: content moderation
+  * Content moderation activity
   * Check-in survey
   * For discussion:
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
+    * [🔗 Reddit ``Platform-wide'' Rules](https://redditinc.com/policies/reddit-rules)
   * Bonus materials:
     * Resource: [🔗 Nick Hopkins, Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
     * Resource: [🔗 UChicago, Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
