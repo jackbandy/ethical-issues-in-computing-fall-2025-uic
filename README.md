@@ -74,7 +74,7 @@ The trolley problem is only the beginning.
   * Discuss feed diary
   * Mini-lecture: content moderation
   * Content moderation activity
-  * Check-in survey
+  * [Check-in survey](https://forms.gle/bUT7jN14agbc52B47)
   * For discussion:
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
