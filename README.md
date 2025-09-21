@@ -61,7 +61,7 @@ The trolley problem is only the beginning.
   * Activity: uprank / downrank
   * Mini-lecture: values in (ranking) algorithms
   * **After-class exercise**: [📄 food in your feed / media diary](reflections/05-feed-diary.pdf) (due at start of class September 17th)
-  * Bonus materials
+  * Source materials
     * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
     * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
     * Research: [🔗 Stray et al., Building Human Values into Recommender Systems: An Interdisciplinary Synthesis](https://doi.org/10.1145/3632297)
@@ -79,7 +79,7 @@ The trolley problem is only the beginning.
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
     * [🔗 Reddit ``Platform-wide'' Rules](https://redditinc.com/policies/reddit-rules)
-  * Bonus materials:
+  * Source materials:
     * Resource: [🔗 Nick Hopkins, Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
     * Resource: [🔗 UChicago, Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
     * Research: [🔗 Schaffner et al., "Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
@@ -90,12 +90,15 @@ The trolley problem is only the beginning.
   `🔵 LaSalle 🔵` 
   * Topic: Digital Rights and Identity
   * Details TBA
-  * Bonus materials
+  * Source materials
     * Report: [🔗 The White House, Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
   * Topic: Facial Recognition
   * Details TBA
+  * Source materials
+    * Report: [🔗 Algorithmic Justice League, Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
+
 
 ## Week 6
 * Monday, September 29, 2025  
