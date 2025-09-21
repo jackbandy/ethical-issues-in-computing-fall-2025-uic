@@ -92,6 +92,11 @@ The trolley problem is only the beginning.
   * Details TBA
   * Source materials
     * Report: [🔗 The White House, Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
+    * Resource: [🔗 iFixIt, What is Right to Repair?](https://www.ifixit.com/Right-to-Repair#repair-is-freedom)
+    * Video: [🎞️ Trevor Noah on Right to Repair](https://www.youtube.com/watch?v=LeGTvaYRTB8)
+    * Video: [🎞️ *VICE*, Farmers Are Hacking Their Tractors Because of a Right to Repair Ban](https://www.youtube.com/watch?v=EPYy_g8NzmI)
+    * Video: [🎞️ More Perfect Union, How John Deere Robs Farmers Of $4 Billion A Year](https://www.youtube.com/watch?v=jaOS6bGta7M)
+    * Organization: [🔗 Repair Preservation Group](https://fighttorepair.org)
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
   * Topic: Facial Recognition
