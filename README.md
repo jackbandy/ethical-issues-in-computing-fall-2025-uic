@@ -91,6 +91,7 @@ The trolley problem is only the beginning.
   * Topic: Digital Rights and Identity
   * Details TBA
   * Source materials
+    * Resource: [🔗 United Nations, Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
     * Report: [🔗 The White House, Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
     * Resource: [🔗 iFixIt, What is Right to Repair?](https://www.ifixit.com/Right-to-Repair#repair-is-freedom)
     * Video: [🎞️ Trevor Noah on Right to Repair](https://www.youtube.com/watch?v=LeGTvaYRTB8)
