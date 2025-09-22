@@ -88,20 +88,23 @@ The trolley problem is only the beginning.
 ## Week 5
 * Monday, September 22, 2025  
   `🔵 LaSalle 🔵` 
-  * Topic: Digital Rights and Identity
-  * Details TBA
+  * Topic: **Digital Rights and Identity**
+  * Discuss human rights
+  * Mini-lecture on rights
+  * Lawmaking activity
   * Source materials
-    * Resource: [🔗 United Nations, Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
     * Report: [🔗 The White House, Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
+    * Resource: [🔗 United Nations, Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
     * Resource: [🔗 iFixIt, What is Right to Repair?](https://www.ifixit.com/Right-to-Repair#repair-is-freedom)
-    * Video: [🎞️ Trevor Noah on Right to Repair](https://www.youtube.com/watch?v=LeGTvaYRTB8)
-    * Video: [🎞️ *VICE*, Farmers Are Hacking Their Tractors Because of a Right to Repair Ban](https://www.youtube.com/watch?v=EPYy_g8NzmI)
-    * Video: [🎞️ More Perfect Union, How John Deere Robs Farmers Of $4 Billion A Year](https://www.youtube.com/watch?v=jaOS6bGta7M)
+    * Video: [📺 Trevor Noah on Right to Repair](https://www.youtube.com/watch?v=LeGTvaYRTB8)
+    * Video: [📺 *VICE*, Farmers Are Hacking Their Tractors Because of a Right to Repair Ban](https://www.youtube.com/watch?v=EPYy_g8NzmI)
+    * Video: [📺 More Perfect Union, How John Deere Robs Farmers Of $4 Billion A Year](https://www.youtube.com/watch?v=jaOS6bGta7M)
     * Organization: [🔗 Repair Preservation Group](https://fighttorepair.org)
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
-  * Topic: Facial Recognition
-  * Details TBA
+  * Topic: **Facial Recognition**
+  * **Before Class**: Watch [📺 John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
+  * **Before Class**: Watch [📺 Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
   * Source materials
     * Report: [🔗 Algorithmic Justice League, Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
 
@@ -109,11 +112,12 @@ The trolley problem is only the beginning.
 ## Week 6
 * Monday, September 29, 2025  
   `🔵 Monroe 🔵` 
-  * Topic: Privacy (fundamentals)
+  * Topic: Privacy Fundamentals
+  * **Before Class**: Read [📄 Dolly by Elizabeth Bear](https://www.apexbookcompany.com/a/blog/apex-magazine/post/dolly)
   * Details TBA
 * Wednesday, October 1, 2025  
   `🔵 Washington 🔵` 
-  * Topic: Privacy (in data analytics)
+  * Topic: Privacy in Data Analytics
   * Details TBA
 
 ## Week 7
