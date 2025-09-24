@@ -103,6 +103,10 @@ The trolley problem is only the beginning.
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
   * Topic: **Facial Recognition**
+  * Background on facial recognition systems
+  * Discuss real-world implementations
+  * Overview of ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
+  * Group reflection/debrief
   * **Before Class**: Watch [📺 John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
   * **Before Class**: Watch [📺 Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
   * Source materials
