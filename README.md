@@ -117,9 +117,10 @@ The trolley problem is only the beginning.
 * Monday, September 29, 2025  
   `🔵 Monroe 🔵` 
   * Topic: Privacy Fundamentals
-  * **Before Class**: Read [📄 Dolly by Elizabeth Bear](https://www.apexbookcompany.com/a/blog/apex-magazine/post/dolly)
+  * **Before Class**: Read [📄 "Dolly" by Elizabeth Bear](https://www.apexbookcompany.com/a/blog/apex-magazine/post/dolly)
     * Audio version available via [StarShipSofa episode 204 (34 minutes)](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
-  * Details TBA
+  * "Dolly" Reenactment
+  * Group Discussion
 * Wednesday, October 1, 2025  
   `🔵 Washington 🔵` 
   * **Before Class**: Turn in Book Selection (available in Gradescope)
