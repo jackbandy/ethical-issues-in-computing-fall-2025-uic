@@ -122,6 +122,7 @@ The trolley problem is only the beginning.
   * Details TBA
 * Wednesday, October 1, 2025  
   `🔵 Washington 🔵` 
+  * **Before Class**: Turn in Book Selection (available in Gradescope)
   * Topic: Privacy in Data Analytics
   * Details TBA
 
@@ -131,13 +132,14 @@ The trolley problem is only the beginning.
   * Topic: Intellectual Property (licensing and open-sourcing)
   * Details TBA
 * Wednesday, October 8, 2025  
-  `🔵 Grand 🔵` 
+  `🔵 Grand 🔵`
   * Topic: Intellectual Property (piracy and more)
   * Details TBA
 
 ## Week 8
 * Monday, October 13, 2025  
-  `🔵 Chicago 🔵` 
+  `🔵 Chicago 🔵`
+  **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
   * Topic: Inequality and the Digital Divide
   * Details TBA
 * Wednesday, October 15, 2025  
@@ -147,7 +149,8 @@ The trolley problem is only the beginning.
 
 ## Week 9
 * Monday, October 20, 2025  
-  `🔵 Damen 🔵` 
+  `🔵 Damen 🔵`
+   **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
   * Topic: 💬 Large Language Models (bias)
   * Details TBA
 * Wednesday, October 22, 2025  
@@ -161,13 +164,14 @@ The trolley problem is only the beginning.
   * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
   * Details TBA
 * Wednesday, October 29, 2025  
-  `🔵 Logan Square 🔵` 
+  `🔵 Logan Square 🔵`
   * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
   * Details TBA
 
 ## Week 11
 * Monday, November 3, 2025  
-  `🔵 Belmont 🔵` 
+  `🔵 Belmont 🔵`
+  **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
   * Topic: ⚖️ Algorithmic Bias and Fairness
   * Details TBA
 * Wednesday, November 5, 2025  
@@ -187,7 +191,8 @@ The trolley problem is only the beginning.
 
 ## Week 13
 * Monday, November 17, 2025  
-  `🔵 Jefferson Park 🔵` 
+  `🔵 Jefferson Park 🔵`
+  **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
   * Topic: 💼 Computing and Labor (The Hiring Process)
   * Details TBA
 * Wednesday, November 19, 2025  
