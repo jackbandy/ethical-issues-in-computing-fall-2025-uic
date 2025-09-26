@@ -2,8 +2,7 @@
 
 Thanks to the General Data Protection Regulation (GDPR), and especially [Article 15](https://gdpr-info.eu/art-15-gdpr/), companies now provide various ways to access the data they hold about us. This is often an option buried in the privacy settings menu somewhere and titled "export my data," "data export request," "download my profile," or something like that.
 
-The purpose of this exercise is to retrieve and meditate on these data.
-consider where it came from, what it includes, what it excludes, 
+*The purpose of this exercise is to retrieve and meditate on these data, guided by the metaphor of a "digital rag doll."*
 
 
 ## Part 1: Collect Personal Trace Data
@@ -67,3 +66,4 @@ Yes, an actual doll! Consider your observations from part 2 and the essence that
 * How much data were you able to access?
 * How usable was the data provided?
 * What questions and concerns do you still have?
+
