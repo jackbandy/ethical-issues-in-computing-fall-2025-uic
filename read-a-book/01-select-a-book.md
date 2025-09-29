@@ -37,6 +37,7 @@ Computer ethics books with an emphasis on artificial intelligence
 
 Computer ethics books with an emphasis on data science
 * Weapons of Math Destruction by Cathy O'Neil
+* Data Science Ethics: Concepts, Techniques, and Cautionary Tales by David Martens
 * Data Feminism by Catherine D'Ignazio and Lauren Klein
 * Invisible Women: Exposing Data Bias in a World Designed for Men by Caroline Criado Perez 
 
@@ -46,6 +47,7 @@ Computer ethics books with an emphasis on communication
 * Breaking the Social Media Prism by Chris Bail
 * Digital Disconnect by Robert W. McChesney
 * The Master Switch by Tim Wu
+* Obfuscation: A User's Guide for Privacy and Protest by Finn Brunton and Helen Nissenbaum
 
 Computer ethics books with an emphasis on race, class, and sociology
 * Race After Technology by Ruha Benjamin
@@ -64,7 +66,3 @@ Computer ethics books with an emphasis on politics
 * If Then: How the Simulmatics Corporation Invented the Future by Jill Lepore
 * After Democracy: Imagining Our Political Future by Zizi Papacharissi
 * Coding Freedom: The Ethics and Politics of Free and Open Source Software by Gabriella Coleman
-Computer ethics books with an emphasis on privacy
-* Obfuscation: A User's Guide for Privacy and Protest by Finn Brunton and Helen Nissenbaum
-* Data Science Ethics: Concepts, Techniques, and Cautionary Tales by David Martens
-
