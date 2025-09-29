@@ -13,7 +13,7 @@ The requirements are pretty loose:
 * There are no formal criteria for length, genre, language, etc.
 
 ## What to turn in for this part
-To receive full credit for Part 1, complete the Gradescope assignment called "Book Selection," which includes five questions:
+To receive full credit for Part 1, complete the Gradescope assignment called "Book Selection," which includes the following six questions:
 1. Which book did you choose?
 2. Who wrote the book?
 3. How long is the book?
@@ -66,3 +66,4 @@ Computer ethics books with an emphasis on politics
 * If Then: How the Simulmatics Corporation Invented the Future by Jill Lepore
 * After Democracy: Imagining Our Political Future by Zizi Papacharissi
 * Coding Freedom: The Ethics and Politics of Free and Open Source Software by Gabriella Coleman
+
