@@ -116,25 +116,29 @@ The trolley problem is only the beginning.
 ## Week 6
 * Monday, September 29, 2025  
   `🔵 Monroe 🔵` 
-  * Topic: Privacy Fundamentals
+  * Topic: **Privacy Fundamentals**
   * **Before Class**: Read [📄 "Dolly" by Elizabeth Bear](https://www.apexbookcompany.com/a/blog/apex-magazine/post/dolly)
     * Audio version available via [StarShipSofa episode 204 (34 minutes)](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
-  * "Dolly" Reenactment
+  * "Dolly" Film Pitch Activity
   * Group Discussion
 * Wednesday, October 1, 2025  
   `🔵 Washington 🔵` 
   * **Before Class**: Turn in Book Selection (available in Gradescope)
-  * Topic: Privacy in Data Analytics
-  * Details TBA
+  * Topic: **Privacy in Data Analytics**
+  * Source materials:
+    * Demo: [🔗 How unique am I?](https://aboutmyinfo.org/identity
+    * Research: [📄 Latanya Sweeney, Simple Demographics Often Identify People Uniquely](https://dataprivacylab.org/projects/identifiability/paper1.pdf)
+    * Research: [📄 Narayanan and Shmatikov, How To Break Anonymity of the Netflix Prize Dataset](https://arxiv.org/abs/cs/0610105)
+    * Article: [🔗 Bruce Schneier, Why 'Anonymous' Data Sometimes Isn't](https://www.schneier.com/essays/archives/2007/12/why_anonymous_data_s.html)
 
 ## Week 7
 * Monday, October 6, 2025  
   `🔵 Clark/Lake 🔵` 
-  * Topic: Intellectual Property (licensing and open-sourcing)
+  * Topic: Privacy, Continued
   * Details TBA
 * Wednesday, October 8, 2025  
   `🔵 Grand 🔵`
-  * Topic: Intellectual Property (piracy and more)
+  * Topic: Intellectual Property (piracy, licensing, and open-sourcing)
   * Details TBA
 
 ## Week 8
