@@ -126,9 +126,10 @@ The trolley problem is only the beginning.
   * **Before Class**: Turn in Book Selection (available in Gradescope)
   * Topic: **Privacy in Data Analytics**
   * Source materials:
-    * Demo: [🔗 How unique am I?](https://aboutmyinfo.org/identity
+    * Demo: [🔗 How unique am I?](https://aboutmyinfo.org/identity)
     * Research: [📄 Latanya Sweeney, Simple Demographics Often Identify People Uniquely](https://dataprivacylab.org/projects/identifiability/paper1.pdf)
     * Research: [📄 Narayanan and Shmatikov, How To Break Anonymity of the Netflix Prize Dataset](https://arxiv.org/abs/cs/0610105)
+    * Research: [📄 Helen Nissenbaum, Privacy as Contextual Integrity](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/)
     * Article: [🔗 Bruce Schneier, Why 'Anonymous' Data Sometimes Isn't](https://www.schneier.com/essays/archives/2007/12/why_anonymous_data_s.html)
 
 ## Week 7
