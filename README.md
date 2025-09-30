@@ -135,7 +135,8 @@ The trolley problem is only the beginning.
 ## Week 7
 * Monday, October 6, 2025  
   `🔵 Clark/Lake 🔵` 
-  * Topic: Privacy, Continued
+  * Topic: **Privacy, Continued**
+  * **Before Class**: Read [📕 Data Feminism, Chapter 1: The Power Chapter](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
   * Details TBA
 * Wednesday, October 8, 2025  
   `🔵 Grand 🔵`
