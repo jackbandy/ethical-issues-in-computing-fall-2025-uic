@@ -1,8 +1,8 @@
-# Blue Line Ethics
+# 🟦 Blue Line Ethics 🟦
 The trolley problem is only the beginning.
 
-# Unit 1: Theory
-## Week 1
+## Unit 1: Theory
+### Week 1
 * Monday, August 25, 2025  
   `🔵 Pulaski 🔵`
   * Overview of [📄 syllabus](syllabus-cs-377-fall-2025.pdf)
@@ -15,7 +15,7 @@ The trolley problem is only the beginning.
   * Discussion: means between vices (deficiency and excess)
   * **After-class exercise**: [📄 Virtue Ethics Reflection](reflections/01-virtue-ethics.pdf) (due at start of class September 3rd)
 
-## Week 2
+### Week 2
 * Monday, September 1, 2025
   * Labor Day holiday. **No classes**.
 * Wednesday, September 3, 2025  
@@ -27,7 +27,7 @@ The trolley problem is only the beginning.
   * Mini-lecture on [🔗 Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
   * **After-class exercise**: [📄 Deontological Ethics Reflection](reflections/02-deontological-ethics.pdf) (due at start of class September 8th)
 
-## Week 3
+### Week 3
 * Monday, September 8, 2025  
   `🔵 Illinois Medical District 🔵` 
   * Topic: **💟 Care Ethics**
@@ -51,8 +51,8 @@ The trolley problem is only the beginning.
 ---
 
 
-# Unit 2: Applications
-## Week 4
+## Unit 2: Applications
+### Week 4
 * Monday, September 15, 2025  
   `🔵 UIC-Halsted 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 1: Values in Ranking**
@@ -85,7 +85,7 @@ The trolley problem is only the beginning.
     * Research: [🔗 Schaffner et al., "Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
     * Research: [🔗 Tarleton Gillespie, Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
 
-## Week 5
+### Week 5
 * Monday, September 22, 2025  
   `🔵 LaSalle 🔵` 
   * Topic: **Digital Rights and Identity**
@@ -113,7 +113,7 @@ The trolley problem is only the beginning.
     * Report: [🔗 Algorithmic Justice League, Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
 
 
-## Week 6
+### Week 6
 * Monday, September 29, 2025  
   `🔵 Monroe 🔵` 
   * Topic: **Privacy Fundamentals**
@@ -133,7 +133,7 @@ The trolley problem is only the beginning.
     * Research: [📄 Helen Nissenbaum, Contextual Integrity Up and Down the Data Food Chain](https://nissenbaum.tech.cornell.edu/papers/Contextual%20Integrity%20Up%20and%20Down.pdf)
     * Article: [🔗 Bruce Schneier, Why 'Anonymous' Data Sometimes Isn't](https://www.schneier.com/essays/archives/2007/12/why_anonymous_data_s.html)
 
-## Week 7
+### Week 7
 * Monday, October 6, 2025  
   `🔵 Clark/Lake 🔵` 
   * Topic: **Privacy, Continued**
@@ -144,7 +144,7 @@ The trolley problem is only the beginning.
   * Topic: Intellectual Property (piracy, licensing, and open-sourcing)
   * Details TBA
 
-## Week 8
+### Week 8
 * Monday, October 13, 2025  
   `🔵 Chicago 🔵`
   **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
@@ -155,7 +155,7 @@ The trolley problem is only the beginning.
   * Topic: 💣 Computing's Role in Peace, Conflict, War
   * Details TBA
 
-## Week 9
+### Week 9
 * Monday, October 20, 2025  
   `🔵 Damen 🔵`
    **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
@@ -166,7 +166,7 @@ The trolley problem is only the beginning.
   * Topic: 💬 Large Language Models (other issues)
   * Details TBA
 
-## Week 10
+### Week 10
 * Monday, October 27, 2025  
   `🔵 California 🔵` 
   * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
@@ -176,7 +176,7 @@ The trolley problem is only the beginning.
   * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
   * Details TBA
 
-## Week 11
+### Week 11
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵`
   **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
@@ -187,7 +187,7 @@ The trolley problem is only the beginning.
   * Topic: 🎁 Mystery Box
   * Details TBA
 
-## Week 12
+### Week 12
 * Monday, November 10, 2025  
   `🔵 Irving Park 🔵` 
   * Topic: 🎞️ Ethics in the Movies
@@ -197,7 +197,7 @@ The trolley problem is only the beginning.
   * Topic: 🦜 Computing and the Environment
   * Details TBA
 
-## Week 13
+### Week 13
 * Monday, November 17, 2025  
   `🔵 Jefferson Park 🔵`
   **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
@@ -207,8 +207,8 @@ The trolley problem is only the beginning.
   `🔵 Harlem 🔵` 
   * Topic: 💼 Computing and Labor (The Working Process)
   * Details TBA
-
-## Week 14
+ 
+### Week 14
 * Monday, November 24, 2025  
   `🔵 Cumberland 🔵` 
   * Topic: 🫧 Hype cycles and economic bubbles
@@ -216,7 +216,7 @@ The trolley problem is only the beginning.
 * Wednesday, November 26, 2025  
    Student Wellness Day. **No Classes**.
 
-## Week 15
+### Week 15
 * Monday, December 1, 2025  
   `🔵 Rosemont 🔵` 
   * Topic: 🏁 Synthesis / Conclusions
@@ -227,7 +227,7 @@ The trolley problem is only the beginning.
   * Details TBA
 
  ---
-# Reference courses
+### Reference courses
 * CS 181 at Stanford: [Computers, Ethics, and Public Policy](https://stanfordcs181.github.io)
 * CS 396 at NYU: [Computing, Ethics, Society](https://nu-tech-ethics.github.io/winter2021/)
 * CS 294 at UC Berkeley: [Fairness in Machine Learning](https://fairmlclass.github.io)
