@@ -138,7 +138,9 @@ The trolley problem is only the beginning.
   `🔵 Clark/Lake 🔵` 
   * Topic: **Privacy, Continued**
   * **Before Class**: Read [📕 Data Feminism, Chapter 1: The Power Chapter](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-  * Details TBA
+  * Discuss digital rag doll examples
+  * Group reflection on The Power Chapter
+  * Connections to privacy and Ida B. Wells
 * Wednesday, October 8, 2025  
   `🔵 Grand 🔵`
   * Topic: Intellectual Property (piracy, licensing, and open-sourcing)
