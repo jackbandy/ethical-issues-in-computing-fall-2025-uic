@@ -150,8 +150,8 @@ The trolley problem is only the beginning.
 
 ### Week 8
 * Monday, October 13, 2025  
-  `🔵 Chicago 🔵` 
-  **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
+  `🔵 Chicago 🔵`  
+  * **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
   * Topic: Inequality and the Digital Divide
   * Details TBA
 * Wednesday, October 15, 2025  
@@ -162,7 +162,7 @@ The trolley problem is only the beginning.
 ### Week 9
 * Monday, October 20, 2025  
   `🔵 Damen 🔵` 
-   **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
+  * **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
   * Topic: 💬 Large Language Models (bias)
   * Details TBA
 * Wednesday, October 22, 2025  
