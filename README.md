@@ -138,15 +138,15 @@ The trolley problem is only the beginning.
   `🔵 Clark/Lake 🔵` 
   * Topic: **Privacy, Continued**
   * **Before Class**: Read [📕 Data Feminism, Chapter 1: The Power Chapter](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-  * Discuss digital rag doll examples
+  * Digital rag doll examples
   * Group reflection on The Power Chapter
-  * Connections to privacy and Ida B. Wells
+  * Connections to privacy and [Ida B. Wells](https://chicago.suntimes.com/2019/2/11/18328682/ida-b-wells-finally-gets-a-top-honor-with-street-name)
 * Wednesday, October 8, 2025  
   `🔵 Grand 🔵`
   * Topic: Intellectual Property (piracy, licensing, and open-sourcing)
   * Book selections
   * Mini-lecture on intellectual property
-  * Arts & crafts time
+  * Arts & crafts time to work on [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
 
 ### Week 8
 * Monday, October 13, 2025  
@@ -155,7 +155,8 @@ The trolley problem is only the beginning.
   * Topic: Inequality and the Digital Divide
   * Details TBA
 * Wednesday, October 15, 2025  
-  `🔵 Division 🔵` 
+  `🔵 Division 🔵`
+  * **Before Class**: Read [Not Without Us by Joseph Weizenbaum](https://www.jstor.org/stable/48617451)
   * Topic: 💣 Computing's Role in Peace, Conflict, War
   * Details TBA
 
