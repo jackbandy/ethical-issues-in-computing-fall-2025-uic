@@ -147,6 +147,10 @@ The trolley problem is only the beginning.
   * Book selections
   * Mini-lecture on intellectual property
   * Arts & crafts time to work on [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
+  * Source materials:
+    * Article: [🔗 Ashley Belanger, OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million.](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/)
+    * Article: [🔗 Matt O'Brien, Anthropic to pay authors $1.5 billion to settle lawsuit over pirated books used to train AI chatbots](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164)
+    * Report: [🔗 Exhibit J to The New York Times’s Complaint against Microsoft and OpenAI](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
 
 ### Week 8
 * Monday, October 13, 2025  
