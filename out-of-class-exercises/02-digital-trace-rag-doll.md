@@ -1,6 +1,8 @@
 # Digital Trace Rag Doll
 
-Thanks to the General Data Protection Regulation (GDPR), and especially [Article 15](https://gdpr-info.eu/art-15-gdpr/), companies now provide various ways to access the data they hold about us. This is often an option buried in the privacy settings menu somewhere and titled "export my data," "data export request," "download my profile," or something like that.
+Big Tech companies [don't need to listen through your microphone to serve you creepy ads](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads). Some ads make it seem like they are listening, but in reality, these companies are _simulating_ the kinds of conversations, purchases, and other behaviors you will carry out in the real world. These simulations are based on a digital profile made up of extensive online trace data -- digital "scraps" like locations, clicks, watch history, and more -- which are combined to create a [doll-like](https://futurism.com/the-byte/google-company-voodoo-doll-avatar) model of you.
+
+Thanks to the General Data Protection Regulation (GDPR), and especially [Article 15](https://gdpr-info.eu/art-15-gdpr/), companies now provide various ways to access this trace data they hold about us. This is often an option buried in the privacy settings menu somewhere and titled "export my data," "data export request," "download my profile," or something like that.
 
 *The purpose of this exercise is to retrieve and meditate on these data, guided by the metaphor of a "digital rag doll."*
 
@@ -66,4 +68,5 @@ Yes, an actual doll! Consider your observations from part 2 and the essence that
 * How much data were you able to access?
 * How usable was the data provided?
 * What questions and concerns do you still have?
+
 
