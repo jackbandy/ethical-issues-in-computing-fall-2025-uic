@@ -158,6 +158,10 @@ The trolley problem is only the beginning.
   * **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
   * Topic: Inequality and the Digital Divide
   * Details TBA
+  * Source materials:
+    * Article: [🔗 Slow Internet? Find Out What Side of the Digital Divide You’re On](https://themarkup.org/build-your-own-dataset/2023/05/11/slow-internet-find-out-what-side-of-the-digital-divide-youre-on)
+    * Article: [🔗 Dollars to Megabits, You May Be Paying 400 Times As Much As Your Neighbor for Internet Service](https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service)
+    * Chapter: [📕 Kate Williams, Rethinking digital divide research: datasets and theoretical frameworks](https://katewill.web.ischool.illinois.edu/work/10-williams-2011-rethinking-digital-divide-research.pdf)
 * Wednesday, October 15, 2025  
   `🔵 Division 🔵`
   * **Before Class**: Read [Not Without Us by Joseph Weizenbaum](https://www.jstor.org/stable/48617451)
