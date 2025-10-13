@@ -172,7 +172,6 @@ The trolley problem is only the beginning.
 ### Week 9
 * Monday, October 20, 2025  
   `🔵 Damen 🔵` 
-  * **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
   * Topic: 💬 Large Language Models (bias)
   * Details TBA
 * Wednesday, October 22, 2025  
@@ -182,7 +181,8 @@ The trolley problem is only the beginning.
 
 ### Week 10
 * Monday, October 27, 2025  
-  `🔵 California 🔵` 
+  `🔵 California 🔵`
+  * **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
   * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
   * Details TBA
 * Wednesday, October 29, 2025  
