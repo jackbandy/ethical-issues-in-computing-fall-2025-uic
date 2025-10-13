@@ -143,7 +143,7 @@ The trolley problem is only the beginning.
   * Connections to privacy and [Ida B. Wells](https://chicago.suntimes.com/2019/2/11/18328682/ida-b-wells-finally-gets-a-top-honor-with-street-name)
 * Wednesday, October 8, 2025  
   `🔵 Grand 🔵`
-  * Topic: Intellectual Property (piracy, licensing, and open-sourcing)
+  * Topic: **Intro to Intellectual Property**
   * Book selections
   * Mini-lecture on intellectual property
   * Arts & crafts time to work on [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
@@ -156,9 +156,10 @@ The trolley problem is only the beginning.
 * Monday, October 13, 2025  
   `🔵 Chicago 🔵`  
   * **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
-  * Topic: Inequality and the Digital Divide
-  * Details TBA
+  * Topic: **Digital Inequality**
   * Source materials:
+    * Project: [🔗 Folded Map](https://www.foldedmapproject.com/context)
+    * Research: [📄 From Unequal Access to Differentiated Use: A Literature Review and Agenda for Research on Digital Inequality](https://www.russellsage.org/research/outputs/unequal-access-differentiated-use-literature-review-and-agenda-research-digital)
     * Article: [🔗 Slow Internet? Find Out What Side of the Digital Divide You’re On](https://themarkup.org/build-your-own-dataset/2023/05/11/slow-internet-find-out-what-side-of-the-digital-divide-youre-on)
     * Article: [🔗 Dollars to Megabits, You May Be Paying 400 Times As Much As Your Neighbor for Internet Service](https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service)
     * Chapter: [📕 Kate Williams, Rethinking digital divide research: datasets and theoretical frameworks](https://katewill.web.ischool.illinois.edu/work/10-williams-2011-rethinking-digital-divide-research.pdf)
@@ -192,7 +193,7 @@ The trolley problem is only the beginning.
 ### Week 11
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵` 
-  **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
+  * **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
   * Topic: ⚖️ Algorithmic Bias and Fairness
   * Details TBA
 * Wednesday, November 5, 2025  
@@ -213,7 +214,7 @@ The trolley problem is only the beginning.
 ### Week 13
 * Monday, November 17, 2025  
   `🔵 Jefferson Park 🔵` 
-  **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
+  * **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
   * Topic: 💼 Computing and Labor (The Hiring Process)
   * Details TBA
 * Wednesday, November 19, 2025  
