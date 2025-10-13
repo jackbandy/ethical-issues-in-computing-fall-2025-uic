@@ -159,6 +159,7 @@ The trolley problem is only the beginning.
   * Topic: **Digital Inequality**
   * Source materials:
     * Project: [🔗 Folded Map](https://www.foldedmapproject.com/context)
+    * Project: [🔗 Mapping Inequality: Redlining in New Deal America](https://dsl.richmond.edu/panorama/redlining/about)
     * Research: [📄 From Unequal Access to Differentiated Use: A Literature Review and Agenda for Research on Digital Inequality](https://www.russellsage.org/research/outputs/unequal-access-differentiated-use-literature-review-and-agenda-research-digital)
     * Article: [🔗 Slow Internet? Find Out What Side of the Digital Divide You’re On](https://themarkup.org/build-your-own-dataset/2023/05/11/slow-internet-find-out-what-side-of-the-digital-divide-youre-on)
     * Article: [🔗 Dollars to Megabits, You May Be Paying 400 Times As Much As Your Neighbor for Internet Service](https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service)
