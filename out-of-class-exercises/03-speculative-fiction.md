@@ -32,5 +32,5 @@ Now write the story! It must be at least two pages, double-spaced, with 12pt fon
 ## Part 3: Promotional Slide
 Finally, create a promotional slide for your episode. Specifically, be sure to (1) choose a title, (2) write a log line for the episode, and (3) take a photo that goes with the story you wrote.
 
-# Example
-Coming soon.
+# Examples
+More topic ideas and examples available in [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing)
