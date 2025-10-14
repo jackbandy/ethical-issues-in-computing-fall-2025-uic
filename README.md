@@ -160,15 +160,20 @@ The trolley problem is only the beginning.
   * Source materials:
     * Project: [🔗 Folded Map](https://www.foldedmapproject.com/context)
     * Project: [🔗 Mapping Inequality: Redlining in New Deal America](https://dsl.richmond.edu/panorama/redlining/about)
-    * Research: [📄 From Unequal Access to Differentiated Use: A Literature Review and Agenda for Research on Digital Inequality](https://www.russellsage.org/research/outputs/unequal-access-differentiated-use-literature-review-and-agenda-research-digital)
-    * Article: [🔗 Slow Internet? Find Out What Side of the Digital Divide You’re On](https://themarkup.org/build-your-own-dataset/2023/05/11/slow-internet-find-out-what-side-of-the-digital-divide-youre-on)
-    * Article: [🔗 Dollars to Megabits, You May Be Paying 400 Times As Much As Your Neighbor for Internet Service](https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service)
-    * Chapter: [📕 Kate Williams, Rethinking digital divide research: datasets and theoretical frameworks](https://katewill.web.ischool.illinois.edu/work/10-williams-2011-rethinking-digital-divide-research.pdf)
+    * Research: [📄 Paul DiMaggio et al., "From Unequal Access to Differentiated Use: A Literature Review and Agenda for Research on Digital Inequality"](https://www.russellsage.org/research/outputs/unequal-access-differentiated-use-literature-review-and-agenda-research-digital)
+    * Article: [🔗 Aaron Sankin and Leon Yin, "Slow Internet? Find Out What Side of the Digital Divide You’re On"](https://themarkup.org/build-your-own-dataset/2023/05/11/slow-internet-find-out-what-side-of-the-digital-divide-youre-on)
+    * Article: [🔗 Leon Yin and Aaron Sankin, "Dollars to Megabits, You May Be Paying 400 Times As Much As Your Neighbor for Internet Service"](https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service)
+    * Chapter: [📕 Kate Williams, "Rethinking digital divide research: datasets and theoretical frameworks"](https://katewill.web.ischool.illinois.edu/work/10-williams-2011-rethinking-digital-divide-research.pdf)
 * Wednesday, October 15, 2025  
   `🔵 Division 🔵`
-  * **Before Class**: Read [Not Without Us by Joseph Weizenbaum](https://www.jstor.org/stable/48617451)
+  * **Before Class**: Read [Joseph Weizenbaum's speech, "Not Without Us"](https://www.jstor.org/stable/48617451)
   * Topic: 💣 Computing's Role in Peace, Conflict, War
-  * Details TBA
+  * Source Materials:
+    * Article: [📰 Edward Ongweso Jr, "Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
+    * Article: [📰 Pavel Aksenov, "Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
+    * Article: [📰 Stavroula Pabst, "How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
+    * Research: [📄 Roberto J. González, "How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+    * Data: [📋 Annual Report on Top Defense Companies](https://people.defensenews.com/top-100/)
 
 ### Week 9
 * Monday, October 20, 2025  
