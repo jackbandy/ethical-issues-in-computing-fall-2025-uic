@@ -172,7 +172,9 @@ The trolley problem is only the beginning.
     * Article: [📰 Edward Ongweso Jr, "Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
     * Article: [📰 Pavel Aksenov, "Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
     * Article: [📰 Stavroula Pabst, "How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
-    * Research: [📄 Roberto J. González, "How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+    * Report: [📄 Roberto J. González, "How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+    * Research: [📄 Eric P.S. Baumer and M. Six Silberman, "When the implication is not to design (technology)"](https://doi.org/10.1145/1978942.1979275)
+    * Research: [📄 Juan Pablo Hourcade, "Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
     * Data: [📋 Annual Report on Top Defense Companies](https://people.defensenews.com/top-100/)
 
 ### Week 9
