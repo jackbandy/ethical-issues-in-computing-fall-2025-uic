@@ -179,11 +179,13 @@ The trolley problem is only the beginning.
 
 ### Week 9
 * Monday, October 20, 2025  
-  `🔵 Damen 🔵` 
+  `🔵 Damen 🔵`
   * Topic: 💬 Large Language Models (bias)
   * Details TBA
 * Wednesday, October 22, 2025  
-  `🔵 Western (O'Hare Branch) 🔵` 
+  `🔵 Western (O'Hare Branch) 🔵`
+  * **Before class**: Read [Claire Jia-Wen's story, "If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
+    * Audio version [available here (34min)](https://clarkesworldmagazine.com/audio_06_25a/)
   * Topic: 💬 Large Language Models (other issues)
   * Details TBA
 
