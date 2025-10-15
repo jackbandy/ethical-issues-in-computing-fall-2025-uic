@@ -180,13 +180,13 @@ The trolley problem is only the beginning.
 ### Week 9
 * Monday, October 20, 2025  
   `🔵 Damen 🔵`
-  * Topic: 💬 Large Language Models (bias)
+  * Topic: 💬 **Large Language Models (bias, safeguards, red-teaming)**
   * Details TBA
 * Wednesday, October 22, 2025  
   `🔵 Western (O'Hare Branch) 🔵`
   * **Before class**: Read [Claire Jia-Wen's story, "If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
     * Audio version [available here (34min)](https://clarkesworldmagazine.com/audio_06_25a/)
-  * Topic: 💬 Large Language Models (other issues)
+  * Topic: 💬 **Large Language Models, Continued**
   * Details TBA
 
 ### Week 10
