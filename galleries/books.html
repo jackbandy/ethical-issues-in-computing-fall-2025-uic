@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bookshop Gallery</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  background: #fafafa;
+}
+h1 {
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background-color: #357abd;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5em;
+}
+.card {
+  text-align: center;
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.card h3 {
+  font-size: 1em;
+  margin: 0.5em 0 0.3em;
+}
+.card p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<h1>Bookshop Gallery</h1>
+<div class="buttons">
+  <button onclick="shuffleBooks()">Shuffle</button>
+  <button onclick="sortBooks()">Sort A–Z</button>
+</div>
+<div class="gallery" id="gallery"></div>
+
+<script>
+const books = [
+  {
+    "Title": "A Gift of Fire: Social, Legal, and Ethical Issues for Computing Technology",
+    "Author": "Timothy Henry and Sara Baase",
+    "Link": "https://bookshop.org/p/books/a-gift-of-fire-social-legal-and-ethical-issues-for-computing-technology-timothy-henry/9446498?ean=9780134615271",
+    "Image": "https://images-us.bookshop.org/ingram/9780134615271.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Addiction by Design: Machine Gambling in Las Vegas",
+    "Author": "Natasha Dow Sch\u00fcll",
+    "Link": "https://bookshop.org/p/books/addiction-by-design-machine-gambling-in-las-vegas-natasha-dow-schull/8970988?ean=9780691160887",
+    "Image": "https://images-us.bookshop.org/ingram/9780691160887.jpg?height=500&v=v2-3b6baf93e1753354aa729a78344df1b7"
+  },
+  {
+    "Title": "AI 2041: Ten Visions for Our Future",
+    "Author": "Kai-Fu Lee and Chen Qiufan",
+    "Link": "https://bookshop.org/p/books/ai-2041-ten-visions-for-our-future-kai-fu-lee/15911526?ean=9780593238318",
+    "Image": "https://images-us.bookshop.org/ingram/9780593238318.jpg?height=500&v=v2-9b50a89a985d2bbcd45af70c7e20551a"
+  },
+  {
+    "Title": "AI Ethics in Higher Education: Insights from Africa and Beyond (2023)",
+    "Author": "Jerry John Kponyo, Caitlin C. Corrigan, et al.",
+    "Link": "https://bookshop.org/p/books/ai-ethics-in-higher-education-insights-from-africa-and-beyond-2023-christoph-lutge/19045871?ean=9783031230349",
+    "Image": "https://images-us.bookshop.org/ingram/9783031230349.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference",
+    "Author": "Sayash Kapoor and Arvind Narayanan",
+    "Link": "https://bookshop.org/p/books/ai-snake-oil-what-artificial-intelligence-can-do-what-it-can-t-and-how-to-tell-the-difference-arvind-narayanan/21324674?ean=9780691249148",
+    "Image": "https://images-us.bookshop.org/ingram/9780691249148.jpg?height=500&v=v2-ef5d757aa9ceec699f9da5cb493fb9c1"
+  },
+  {
+    "Title": "Algorithms of Oppression: How Search Engines Reinforce Racism",
+    "Author": "Safiya Umoja Noble",
+    "Link": "https://bookshop.org/p/books/algorithms-of-oppression-how-search-engines-reinforce-racism-safiya-umoja-noble/966821?ean=9781479837243",
+    "Image": "https://images-us.bookshop.org/ingram/9781479837243.jpg?height=500&v=v2-3512467cb0fa5407dbfec0b29d68874f"
+  },
+  {
+    "Title": "Algorithms to Live by: The Computer Science of Human Decisions",
+    "Author": "Tom Griffiths and Brian Christian",
+    "Link": "https://bookshop.org/p/books/algorithms-to-live-by-the-computer-science-of-human-decisions-tom-griffiths/230238?ean=9781250118363",
+    "Image": "https://images-us.bookshop.org/ingram/9781250118363.jpg?height=500&v=v2-4ae616b6ea5d3fc72146bbffa0ea898a"
+  },
+  {
+    "Title": "All Systems Red",
+    "Author": "Martha Wells",
+    "Link": "https://bookshop.org/p/books/all-systems-red-martha-wells/7104100?ean=9780765397539",
+    "Image": "https://images-us.bookshop.org/ingram/9780765397539.jpg?height=500&v=v2-f65a450467e18ffba3d7ae555786acbf"
+  },
+  {
+    "Title": "Amusing Ourselves to Death: Public Discourse in the Age of Show Business",
+    "Author": "Neil Postman and Andrew Postman",
+    "Link": "https://bookshop.org/p/books/amusing-ourselves-to-death-public-discourse-in-the-age-of-show-business-neil-postman/6781325?ean=9780143036531",
+    "Image": "https://images-us.bookshop.org/ingram/9780143036531.jpg?height=500&v=v2-c7d5465cc6e0031b506bae12ee7768bb"
+  },
+  {
+    "Title": "Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence",
+    "Author": "Kate Crawford",
+    "Link": "https://bookshop.org/p/books/atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial-intelligence-kate-crawford/17465404?ean=9780300264630",
+    "Image": "https://images-us.bookshop.org/ingram/9780300264630.jpg?height=500&v=v2-b383bd51a9084bc667ae28bf97822552"
+  },
+  {
+    "Title": "Automation and the Future of Work",
+    "Author": "Aaron Benanav",
+    "Link": "https://bookshop.org/p/books/automation-and-the-future-of-work-aaron-benanav/14654313?ean=9781839761324",
+    "Image": "https://images-us.bookshop.org/ingram/9781839761324.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "Author": "Robert Martin",
+    "Link": "https://bookshop.org/p/books/clean-code-a-handbook-of-agile-software-craftsmanship-robert-martin/8829316?ean=9780132350884",
+    "Image": "https://images-us.bookshop.org/ingram/9780132350884.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Cobalt Red: How the Blood of the Congo Powers Our Lives",
+    "Author": "Siddharth Kara",
+    "Link": "https://bookshop.org/p/books/cobalt-red-how-the-blood-of-the-congo-powers-our-lives-siddharth-kara/18411025?ean=9781250322159",
+    "Image": "https://images-us.bookshop.org/ingram/9781250322159.jpg?height=500&v=v2-d313fec179460fd37e88bda775b0ffb4"
+  },
+  {
+    "Title": "Code Dependent: Living in the Shadow of AI",
+    "Author": "Madhumita Murgia",
+    "Link": "https://bookshop.org/p/books/code-dependent-our-lives-with-algorithms-madhumita-murgia/19995380?ean=9781250867391",
+    "Image": "https://images-us.bookshop.org/ingram/9781250867391.jpg?height=500&v=v2-61b7cfec704afeb1e11573ec9fc369d5"
+  },
+  {
+    "Title": "Code Work: Hacking Across the Us/M\u00e9xico Techno-Borderlands",
+    "Author": "H\u00e9ctor Beltr\u00e1n",
+    "Link": "https://bookshop.org/p/books/code-work-hacking-across-the-us-mexico-techno-borderlands-hector-beltran/19947891?ean=9780691245041",
+    "Image": "https://images-us.bookshop.org/ingram/9780691245041.jpg?height=500&v=v2-44f9f3d73fdb9bb43dbedf3dd1faea11"
+  },
+  {
+    "Title": "Coding to Kindness",
+    "Author": "Valerie Sousa and Jennifer Leban",
+    "Link": "https://bookshop.org/p/books/coding-to-kindness-valerie-sousa/15023606?ean=9781970133936",
+    "Image": "https://images-us.bookshop.org/ingram/9781970133936.jpg?height=500&v=v2-91bcadfe45400870a718783a2484937b"
+  },
+  {
+    "Title": "Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",
+    "Author": "Eric Schlosser",
+    "Link": "https://bookshop.org/p/books/command-and-control-nuclear-weapons-the-damascus-accident-and-the-illusion-of-safety-eric-schlosser/6676064?ean=9780143125785",
+    "Image": "https://images-us.bookshop.org/ingram/9780143125785.jpg?height=500&v=v2-17d15bed5efbf187a07f2165d9c3e2ff"
+  },
+  {
+    "Title": "Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon",
+    "Author": "Kim Zetter",
+    "Link": "https://bookshop.org/p/books/countdown-to-zero-day-stuxnet-and-the-launch-of-the-world-s-first-digital-weapon-kim-zetter/7650650?ean=9780770436193",
+    "Image": "https://images-us.bookshop.org/ingram/9780770436193.jpg?height=500&v=v2-908f1e101179113ddbfecff88ac4d8b2"
+  },
+  {
+    "Title": "Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World",
+    "Author": "Bruce Schneier",
+    "Link": "https://bookshop.org/p/books/data-and-goliath-the-hidden-battles-to-collect-your-data-and-control-your-world-bruce-schneier/8771636?ean=9780393352177",
+    "Image": "https://images-us.bookshop.org/ingram/9780393352177.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Data Feminism",
+    "Author": "Catherine D'Ignazio and Lauren F. Klein",
+    "Link": "https://bookshop.org/p/books/data-feminism-lauren-f-klein/13050994?ean=9780262547185",
+    "Image": "https://images-us.bookshop.org/ingram/9780262547185.jpg?height=500&v=v2-beac2e16af66c276bd83fc8e247c4cbc"
+  },
+  {
+    "Title": "Data Versus Democracy: How Big Data Algorithms Shape Opinions and Alter the Course of History",
+    "Author": "Kris Shaffer",
+    "Link": "https://bookshop.org/p/books/data-versus-democracy-how-big-data-algorithms-shape-opinions-and-alter-the-course-of-history-kris-shaffer/8862690?ean=9781484245392",
+    "Image": "https://images-us.bookshop.org/ingram/9781484245392.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Digital Disconnect: How Capitalism Is Turning the Internet Against Democracy",
+    "Author": "Robert W. McChesney",
+    "Link": "https://bookshop.org/p/books/digital-disconnect-how-capitalism-is-turning-the-internet-against-democracy-robert-w-mcchesney/594496?ean=9781620970317",
+    "Image": "https://images-us.bookshop.org/ingram/9781620970317.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
+    "Author": "Cal Newport",
+    "Link": "https://bookshop.org/p/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world-cal-newport/12081448?ean=9780525536512",
+    "Image": "https://images-us.bookshop.org/ingram/9780525536512.jpg?height=500&v=v2-e2220c4f0251619e7025bddcce051139"
+  },
+  {
+    "Title": "Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI",
+    "Author": "Karen Hao",
+    "Link": "https://bookshop.org/p/books/empire-of-ai-dreams-and-nightmares-in-sam-altman-s-openai-karen-hao/22156498?ean=9780593657508",
+    "Image": "https://images-us.bookshop.org/ingram/9780593657508.jpg?height=500&v=v2-58322673ac904ac76869519a5910af4c"
+  },
+  {
+    "Title": "Ethical and Legal Aspects of Computing: A Professional Perspective from Software Engineering (2024)",
+    "Author": "Gerard O'Regan",
+    "Link": "https://bookshop.org/p/books/ethical-and-legal-aspects-of-computing-a-professional-perspective-from-software-engineering-2024-gerard-o-regan/20985526?ean=9783031526633",
+    "Image": "https://images-us.bookshop.org/ingram/9783031526633.jpg?height=500&v=v2-a3f5f385e970f93e71fefaecd15643c8"
+  },
+  {
+    "Title": "Extremely Online: The Untold Story of Fame, Influence, and Power on the Internet",
+    "Author": "Taylor Lorenz",
+    "Link": "https://bookshop.org/p/books/extremely-online-the-untold-story-of-fame-influence-and-power-on-the-internet-taylor-lorenz/19718842?ean=9781982146870",
+    "Image": "https://images-us.bookshop.org/ingram/9781982146870.jpg?height=500&v=v2-a160420cd941e665c1a751541612e4a3"
+  },
+  {
+    "Title": "Fahrenheit 451 (Reissue)",
+    "Author": "Ray Bradbury",
+    "Link": "https://bookshop.org/p/books/fahrenheit-451-ray-d-bradbury/18152942?ean=9781451673319",
+    "Image": "https://images-us.bookshop.org/ingram/9781451673319.jpg?height=500&v=v2-dc65e30376a0b848ad515d65993e1aed"
+  },
+  {
+    "Title": "Flowers for Algernon",
+    "Author": "Daniel Keyes",
+    "Link": "https://bookshop.org/p/books/flowers-for-algernon-daniel-keyes/6683258?ean=9780156030304",
+    "Image": "https://images-us.bookshop.org/ingram/9780156030304.jpg?height=500&v=v2-908ea7c6953b52a6a0dda40027640be4"
+  },
+  {
+    "Title": "I Have No Mouth & I Must Scream and Other Works",
+    "Author": "Harlan Ellison and Luis Moreno",
+    "Link": "https://bookshop.org/p/books/i-have-no-mouth-i-must-scream-and-other-works-harlan-ellison/22332043?ean=9781665082686",
+    "Image": "https://images-us.bookshop.org/ingram/9781665082686.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "If Then: How the Simulmatics Corporation Invented the Future",
+    "Author": "Jill Lepore",
+    "Link": "https://bookshop.org/p/books/if-then-how-the-simulmatics-corporation-invented-the-future-jill-lepore/14327786?ean=9781324091127",
+    "Image": "https://images-us.bookshop.org/ingram/9781324091127.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "iGen: Why Today's Super-Connected Kids Are Growing Up Less Rebellious, More Tolerant, Less Happy--And Completely Unprepared for Adulthood--And What Th",
+    "Author": "Jean M. Twenge",
+    "Link": "https://bookshop.org/p/books/igen-why-today-s-super-connected-kids-are-growing-up-less-rebellious-more-tolerant-less-happy-and-completely-unprepared-jean-m-twenge/6690796?ean=9781501152016",
+    "Image": "https://images-us.bookshop.org/ingram/9781501152016.jpg?height=500&v=v2-6cc34e832703a6c943c682ebf500a4a4"
+  },
+  {
+    "Title": "Life 3.0: Being Human in the Age of Artificial Intelligence",
+    "Author": "Max Tegmark",
+    "Link": "https://bookshop.org/p/books/life-3-0-being-human-in-the-age-of-artificial-intelligence-max-tegmark/7482820?ean=9781101970317",
+    "Image": "https://images-us.bookshop.org/ingram/9781101970317.jpg?height=500&v=v2-6cb92d5fd4289b2160ef8bf9ca3a4191"
+  },
+  {
+    "Title": "Likewar: The Weaponization of Social Media",
+    "Author": "P. W. Singer and Emerson T Brooking",
+    "Link": "https://bookshop.org/p/books/likewar-the-weaponization-of-social-media-p-w-singer/6961043?ean=9780358108474",
+    "Image": "https://images-us.bookshop.org/ingram/9780358108474.jpg?height=500&v=v2-4faa76c96ff8c1558d16a273ad8e5a51"
+  },
+  {
+    "Title": "Meme Wars: The Untold Story of the Online Battles Upending Democracy in America",
+    "Author": "Joan Donovan, Emily Dreyfuss, et al.",
+    "Link": "https://bookshop.org/p/books/meme-wars-the-untold-story-of-the-online-battles-upending-democracy-in-america-joan-donovan/17875088?ean=9781635578638",
+    "Image": "https://images-us.bookshop.org/ingram/9781635578638.jpg?height=500&v=v2-d6f6c37394fd3fe3319066bf2a5fa0f5"
+  },
+  {
+    "Title": "More Than a Glitch: Confronting Race, Gender, and Ability Bias in Tech",
+    "Author": "Meredith Broussard",
+    "Link": "https://bookshop.org/p/books/more-than-a-glitch-confronting-race-gender-and-ability-bias-in-tech-meredith-broussard/20870739?ean=9780262548328",
+    "Image": "https://images-us.bookshop.org/ingram/9780262548328.jpg?height=500&v=v2-fe8905a47d6aacce2511e32f03a352f6"
+  },
+  {
+    "Title": "Neuromancer",
+    "Author": "William Gibson",
+    "Link": "https://bookshop.org/p/books/neuromancer-william-gibson/7503287?ean=9780441007462",
+    "Image": "https://images-us.bookshop.org/ingram/9780441007462.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Ready Player One",
+    "Author": "Ernest Cline",
+    "Link": "https://bookshop.org/p/books/ready-player-one-ernest-cline/228873?ean=9780307887443",
+    "Image": "https://images-us.bookshop.org/ingram/9780307887443.jpg?height=500&v=v2-dad53e23bfdc141ee88cdb4798534045"
+  },
+  {
+    "Title": "Society 5.0: A People-Centric Super-Smart Society",
+    "Author": "Hitachi-Utokyo Laboratory(h-Utokyo Lab )",
+    "Link": "https://bookshop.org/p/books/society-5-0-a-people-centric-super-smart-society-hitachi-utokyo-laboratory-h-utokyo-lab/15531937?ean=9789811529917",
+    "Image": "https://images-us.bookshop.org/ingram/9789811529917.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Sports and Technology Have the Power to Change the World: Driving Positive Change Through the Use of Data and AI",
+    "Author": "Jon Flynn",
+    "Link": "https://bookshop.org/p/books/sports-and-technology-have-the-power-to-change-the-world-driving-positive-change-through-the-use-of-data-and-ai-jon-flynn/20594804?ean=9781394227709",
+    "Image": "https://images-us.bookshop.org/ingram/9781394227709.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech",
+    "Author": "Sara Wachter-Boettcher",
+    "Link": "https://bookshop.org/p/books/technically-wrong-sexist-apps-biased-algorithms-and-other-threats-of-toxic-tech-sara-wachter-boettcher/11186625?ean=9780393356045",
+    "Image": "https://images-us.bookshop.org/ingram/9780393356045.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "The AI Con: How to Fight Big Tech's Hype and Create the Future We Want",
+    "Author": "Emily M. Bender and Alex Hanna",
+    "Link": "https://bookshop.org/p/books/the-ai-con-how-to-fight-big-tech-s-hype-and-create-the-future-we-want-alex-hanna/22044744?ean=9780063418561",
+    "Image": "https://images-us.bookshop.org/ingram/9780063418561.jpg?height=500&v=v2-4bdfd16707e1d28d8c04ea12ba6c83b5"
+  },
+  {
+    "Title": "The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking",
+    "Author": "Shannon Vallor",
+    "Link": "https://bookshop.org/p/books/the-ai-mirror-how-to-reclaim-our-humanity-in-an-age-of-machine-thinking-shannon-vallor/20842432?ean=9780197759066",
+    "Image": "https://images-us.bookshop.org/ingram/9780197759066.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, and Fired and Why We Need to Fight Back Now",
+    "Author": "Hilke Schellmann",
+    "Link": "https://bookshop.org/p/books/the-algorithm-how-ai-decides-who-get-hired-monitored-promoted-and-fired-and-why-we-need-to-fight-back-now-hilke-schellmann/20055224?ean=9780306827341",
+    "Image": "https://images-us.bookshop.org/ingram/9780306827341.jpg?height=500&v=v2-d712839470cb3c2eb104e71cef298606"
+  },
+  {
+    "Title": "The Diamond Age: Or, a Young Lady's Illustrated Primer",
+    "Author": "Neal Stephenson",
+    "Link": "https://bookshop.org/p/books/the-diamond-age-or-a-young-lady-s-illustrated-primer-neal-stephenson/8466804?ean=9780553380965",
+    "Image": "https://images-us.bookshop.org/ingram/9780553380965.jpg?height=500&v=v2-c041df464430345e0f9335f3e293d585"
+  },
+  {
+    "Title": "The Ethical Algorithm: The Science of Socially Aware Algorithm Design",
+    "Author": "Michael Kearns and Aaron Roth",
+    "Link": "https://bookshop.org/p/books/the-ethical-algorithm-the-science-of-socially-aware-algorithm-design-michael-kearns/11705689?ean=9780190948207",
+    "Image": "https://images-us.bookshop.org/ingram/9780190948207.jpg?height=500&v=v2-6d02da94294b0595b0f5facd0532abc2"
+  },
+  {
+    "Title": "The Glass Cage: How Our Computers Are Changing Us",
+    "Author": "Nicholas Carr",
+    "Link": "https://bookshop.org/p/books/the-glass-cage-how-our-computers-are-changing-us-nicholas-carr/8769635?ean=9780393351637",
+    "Image": "https://images-us.bookshop.org/ingram/9780393351637.jpg?height=500&v=v2"
+  },
+  {
+    "Title": "The Internet Con: How to Seize the Means of Computation",
+    "Author": "Cory Doctorow",
+    "Link": "https://bookshop.org/p/books/the-internet-con-how-to-seize-the-means-of-computation-cory-doctorow/18771891?ean=9781804292143",
+    "Image": "https://images-us.bookshop.org/ingram/9781804292143.jpg?height=500&v=v2-51a8e25efb2e0954626ea1677d11059c"
+  },
+  {
+    "Title": "The Myth of Artificial Intelligence: Why Computers Can't Think the Way We Do",
+    "Author": "Erik J. Larson",
+    "Link": "https://bookshop.org/p/books/the-myth-of-artificial-intelligence-why-computers-can-t-think-the-way-we-do-erik-j-larson/18467605?ean=9780674278660",
+    "Image": "https://images-us.bookshop.org/ingram/9780674278660.jpg?height=500&v=v2-a2b0f99387e02160d7d276c3b9dec6ac"
+  },
+  {
+    "Title": "The Promises and Perils of AI in Education: Ethics and Equity Have Entered The Chat",
+    "Author": "Dee Lanier and Ken Shelton",
+    "Link": "https://bookshop.org/p/books/the-promises-and-perils-of-ai-in-education-ethics-and-equity-have-entered-the-chat-ken-shelton/22161072?ean=9798990840508",
+    "Image": "https://images-us.bookshop.org/ingram/9798990840508.jpg?height=500&v=v2-4266c395fc4cd7a5227723ba63ac581d"
+  },
+  {
+    "Title": "The Shallows: What the Internet Is Doing to Our Brains",
+    "Author": "Nicholas Carr",
+    "Link": "https://bookshop.org/p/books/the-shallows-what-the-internet-is-doing-to-our-brains-nicholas-carr/15563044?ean=9780393357820",
+    "Image": "https://images-us.bookshop.org/ingram/9780393357820.jpg?height=500&v=v2-8e1c1d03c07d41f894d11e6667bb33bc"
+  },
+  {
+    "Title": "The Structure of Scientific Revolutions: 50th Anniversary Edition",
+    "Author": "Thomas S. Kuhn and Ian Hacking",
+    "Link": "https://bookshop.org/p/books/the-structure-of-scientific-revolutions-50th-anniversary-edition-thomas-s-kuhn/6803288?ean=9780226458120",
+    "Image": "https://images-us.bookshop.org/ingram/9780226458120.jpg?height=500&v=v2-b5283d2bccaef1a7fbbe64ad9b4468fe"
+  },
+  {
+    "Title": "Unmasking AI: My Mission to Protect What Is Human in a World of Machines",
+    "Author": "Joy Buolamwini",
+    "Link": "https://bookshop.org/p/books/unmasking-ai-a-story-of-hope-and-justice-in-a-world-of-algorithms-joy-buolamwini/20010838?ean=9780593241844",
+    "Image": "https://images-us.bookshop.org/ingram/9780593241844.jpg?height=500&v=v2-3af71f0ecb94b12d8f377e16e7a299df"
+  },
+  {
+    "Title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
+    "Author": "Cathy O'Neil",
+    "Link": "https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/11438502?ean=9780553418835",
+    "Image": "https://images-us.bookshop.org/ingram/9780553418835.jpg?height=500&v=v2-0daf1df3c61c1ec0eef175afa82f8b11"
+  },
+  {
+    "Title": "Your Utopia: Stories",
+    "Author": "Bora Chung and Anton Hur",
+    "Link": "https://bookshop.org/p/books/your-utopia-stories-bora-chung/20142081?ean=9781643756219",
+    "Image": "https://images-us.bookshop.org/ingram/9781643756219.jpg?height=500&v=v2-2ac5a6aac04b8fc4771021d807324da8"
+  }
+];
+
+function renderGallery(bookList) {
+  const gallery = document.getElementById("gallery");
+  gallery.innerHTML = "";
+  bookList.forEach(book => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <a href="${book.Link}" target="_blank">
+        <img src="${book.Image}" alt="${book.Title}">
+      </a>
+      <h3>${book.Title}</h3>
+      <p>${book.Author}</p>
+    `;
+    gallery.appendChild(card);
+  });
+}
+
+function shuffleBooks() {
+  const shuffled = [...books].sort(() => Math.random() - 0.5);
+  renderGallery(shuffled);
+}
+
+function sortBooks() {
+  const sorted = [...books].sort((a, b) => a.Title.localeCompare(b.Title));
+  renderGallery(sorted);
+}
+
+sortBooks(); // render sorted by default
+</script>
+</body>
+</html>
