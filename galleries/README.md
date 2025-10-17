@@ -1,5 +1,7 @@
 # Books Selected by Students
-This list is sorted in alphabetical order without book covers. For a shuffle-sort option and visible book covers, see [the gallery at this link](https://raw.githack.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/main/galleries/books.html).
+**Note**: see [the gallery at this link](https://raw.githack.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/main/galleries/books.html) for a shuffle-sort option and visible book covers.
+
+(This list is sorted in alphabetical order without book covers.)
 
 | Title | Author | Bookshop |
 |-------|---------|----------|
@@ -57,5 +59,6 @@ This list is sorted in alphabetical order without book covers. For a shuffle-sor
 | Unmasking AI: My Mission to Protect What Is Human in a World of Machines | Joy Buolamwini | [Bookshop](https://bookshop.org/p/books/unmasking-ai-a-story-of-hope-and-justice-in-a-world-of-algorithms-joy-buolamwini/20010838?ean=9780593241844) |
 | Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy | Cathy O'Neil | [Bookshop](https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/11438502?ean=9780553418835) |
 | Your Utopia: Stories | Bora Chung and Anton Hur | [Bookshop](https://bookshop.org/p/books/your-utopia-stories-bora-chung/20142081?ean=9781643756219) |
+
 
 
