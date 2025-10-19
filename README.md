@@ -4,13 +4,13 @@ The trolley problem is only the beginning.
 
 | Forest Park Branch | Milwaukee–Dearborn Subway | O’Hare Branch |
 |--------|--------|--------|
-| [Week 1](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-1) | [Week 5](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-5) | [Week 9](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-9) |
-| [Week 2](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-2) | [Week 6](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-6) | [Week 10](https://example.com) |
-| [Week 3](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-3) | [Week 7](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-7) | [Week 11](https://example.com) |
-| [Week 4](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-4) | [Week 8](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-8) | [Week 12](https://example.com) |
-|  |  | [Week 13](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-13) |
-|  |  | [Week 14](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-14) |
-|  |  | [Week 15](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/edit/main/README.md#week-15) |
+| [Week 1](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-1) | [Week 5](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-5) | [Week 9](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-9) |
+| [Week 2](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-2) | [Week 6](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-6) | [Week 10](https://example.com) |
+| [Week 3](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-3) | [Week 7](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-7) | [Week 11](https://example.com) |
+| [Week 4](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-4) | [Week 8](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-8) | [Week 12](https://example.com) |
+|  |  | [Week 13](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-13) |
+|  |  | [Week 14](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-14) |
+|  |  | [Week 15](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-15) |
 
 
 ## Unit 1: Theory
