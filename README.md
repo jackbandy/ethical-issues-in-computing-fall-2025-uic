@@ -4,13 +4,13 @@ The trolley problem is only the beginning.
 
 | Forest Park Branch | Milwaukee–Dearborn Subway | O’Hare Branch |
 |--------|--------|--------|
-| [Week 1](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-1) | [Week 5](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-5) | [Week 9](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-9) |
-| [Week 2](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-2) | [Week 6](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-6) | [Week 10](https://example.com) |
-| [Week 3](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-3) | [Week 7](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-7) | [Week 11](https://example.com) |
-| [Week 4](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-4) | [Week 8](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-8) | [Week 12](https://example.com) |
-|  |  | [Week 13](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-13) |
-|  |  | [Week 14](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-14) |
-|  |  | [Week 15](https://github.com/jackbandy/ethical-issues-in-computing-fall-2025-uic/tree/main#week-15) |
+| [Week 1](#week-1) | [Week 5](#week-5) | [Week 9](#week-9) |
+| [Week 2](#week-2) | [Week 6](#week-6) | [Week 10](#week-10) |
+| [Week 3](#week-3) | [Week 7](#week-7) | [Week 11](#week-11) |
+| [Week 4](#week-4) | [Week 8](#week-8) | [Week 12](#week-12) |
+|  |  | [Week 13](#week-13) |
+|  |  | [Week 14](#week-14) |
+|  |  | [Week 15](#week-15) |
 
 
 ## Unit 1: Theory
