@@ -182,6 +182,9 @@ The trolley problem is only the beginning.
   `🔵 Damen 🔵`
   * Topic: 💬 **Large Language Models (bias, safeguards, red-teaming)**
   * Details TBA
+  * Source Materials
+    * Podcast: [🎧 _The Wall Street Journal_, Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
+    * Research: [📄 Bender and Gebru et al., On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
 * Wednesday, October 22, 2025  
   `🔵 Western (O'Hare Branch) 🔵`
   * **Before class**: Read [Claire Jia-Wen's story, "If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
