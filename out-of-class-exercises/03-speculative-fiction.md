@@ -31,11 +31,17 @@ Before you start a story, spend some time thinking about the following component
 ## Part 2: Writing
 Now write the story! It must be longer than one page (i.e. at least two pages, although page two can be short), double-spaced, with 12pt font. The story will be graded for completion, as I am encouraging you to activate your imagination and enjoy the writing process.
 
+Again, you must write the story yourself -- all the words must come from _you_! Not ChatGPT, not Claude, not Gemini, not any generative AI tool...  
+**you** 
+# 🫵🪞📸
+
+
 ## Part 3: Promotional Slide
 Finally, use [the templates in these slides](https://docs.google.com/presentation/d/1EznTXuwHykVb_PGJaNpEewgeQ3KMvRlvLSjepsB2BZc/edit?usp=sharing) to create a promotional slide for your episode. Specifically, be sure to (1) choose a title, (2) write a log line for the episode, and (3) take a photo that goes with the story you wrote.
 
 # Examples
 More topic ideas and examples available in [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing)
+
 
 
 
