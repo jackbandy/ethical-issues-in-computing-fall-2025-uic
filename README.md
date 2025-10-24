@@ -193,7 +193,8 @@ The trolley problem is only the beginning.
 * Monday, October 20, 2025  
   `🔵 Damen 🔵`
   * Topic: 💬 **Large Language Models (bias, safeguards, red-teaming)**
-  * Details TBA
+  * Discuss "Stochastic Parrots"
+  * Mini red-teaming activity
   * Source Materials:
     * Podcast: [🎧 _The Wall Street Journal_, Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
     * Research: [🦜 Bender and Gebru et al., On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
@@ -206,14 +207,18 @@ The trolley problem is only the beginning.
   * **Before class**: Read [Claire Jia-Wen's story, "If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
     * Audio version [available here (34min)](https://clarkesworldmagazine.com/audio_06_25a/)
   * Topic: 💬 **Large Language Models, Continued**
-  * Details TBA
+  * Discuss short story
+  * Address questions from Stochastic Parrots
 
 ### Week 10
 * Monday, October 27, 2025  
   `🔵 California 🔵`
   * **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
   * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
-  * Details TBA
+  * Peer review on speculative fiction
+  * Mini-lecture on "The Californian Ideology"
+  * Source Materials
+    * Essay: [📄 Richard Barbrook and Andy Cameron, "The californian ideology"](http://www.imaginaryfutures.net/2007/04/17/the-californian-ideology-2/)
 * Wednesday, October 29, 2025  
   `🔵 Logan Square 🔵` 
   * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
