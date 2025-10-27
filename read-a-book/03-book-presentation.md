@@ -2,7 +2,7 @@
 
 You chose a book, and you chose a book you wanted to read! As we approach the end of the semester, it's time to share what you've learned with the class.
 
-This will take the form of a ~10-minute presentation.
+This will take the form of a ~10-minute presentation, as [scheduled here](https://docs.google.com/spreadsheets/d/1FlONlnU9Dx2SlgFEHLl0qcOkbJElDrcBYJCm1qkRHXo/edit?usp=sharing).
 
 Here are some guidelines for "one way to make a successful presentation," adapted from [Colorado State University](https://writing.colostate.edu/guides/teaching/e238/paex.cfm).
 * **Talk to us, don't read**. You may use notes when you make your presentation, but you may not read from a fully written out text.
@@ -18,3 +18,4 @@ Here are some guidelines for "one way to make a successful presentation," adapte
   * It can be helpful to practice giving the presentation to friend and/or in a mirror.
 
 If you follow the guidlines above, you'll be in great shape to give your presentation to the class.
+
