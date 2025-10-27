@@ -216,6 +216,7 @@ The trolley problem is only the beginning.
   * **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
   * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
   * Peer review on speculative fiction
+  * Confirm [presentation schedule](https://docs.google.com/spreadsheets/d/1FlONlnU9Dx2SlgFEHLl0qcOkbJElDrcBYJCm1qkRHXo/edit?usp=sharing)
   * Mini-lecture on "The Californian Ideology"
   * Source Materials
     * Essay: [📄 Richard Barbrook and Andy Cameron, "The californian ideology"](http://www.imaginaryfutures.net/2007/04/17/the-californian-ideology-2/)
