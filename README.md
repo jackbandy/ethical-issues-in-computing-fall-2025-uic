@@ -214,7 +214,7 @@ The trolley problem is only the beginning.
 * Monday, October 27, 2025  
   `🔵 California 🔵`
   * **Before Class**: Turn in [Speculative Fiction](out-of-class-exercises/03-speculative-fiction.md)
-  * Topic: 🏦 Big Tech, Capitalism, Monopolies, and Freedom
+  * Topic: 🏦 **Big Tech, Capitalism, Monopolies, and Freedom**
   * Peer review on speculative fiction
   * Confirm [presentation schedule](https://docs.google.com/spreadsheets/d/1FlONlnU9Dx2SlgFEHLl0qcOkbJElDrcBYJCm1qkRHXo/edit?usp=sharing)
   * Mini-lecture on "The Californian Ideology"
@@ -222,18 +222,19 @@ The trolley problem is only the beginning.
     * Essay: [📄 Richard Barbrook and Andy Cameron, "The californian ideology"](http://www.imaginaryfutures.net/2007/04/17/the-californian-ideology-2/)
 * Wednesday, October 29, 2025  
   `🔵 Logan Square 🔵` 
-  * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
-  * Details TBA
+  * Topic: 💩 **Four Forces to Fight Enshittification**
+  * Source Materials:
+    * Book: [📘 Cory Doctorow, "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"](https://us.macmillan.com/books/9780374619329/enshittification/)
 
 ### Week 11
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵` 
-  * **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
-  * Topic: ⚖️ Algorithmic Bias and Fairness
+  * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
   * Details TBA
 * Wednesday, November 5, 2025  
-  `🔵 Addison 🔵` 
-  * Topic: 🎁 Mystery Box
+  `🔵 Addison 🔵`
+  * **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
+  * Topic: ⚖️ Algorithmic Bias and Fairness
   * Details TBA
 
 ### Week 12
