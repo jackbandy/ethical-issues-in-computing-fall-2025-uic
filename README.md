@@ -230,7 +230,9 @@ The trolley problem is only the beginning.
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵` 
   * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
-  * Details TBA
+  * Source Materials:
+    * Research: [📄 BJ Fogg, Persuasive Comptuers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
+    * Op-Ed: [📝 Yasmin Samrai, How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
 * Wednesday, November 5, 2025  
   `🔵 Addison 🔵`
   * **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
