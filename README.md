@@ -235,8 +235,9 @@ The trolley problem is only the beginning.
     * Op-Ed: [📝 Yasmin Samrai, How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
 * Wednesday, November 5, 2025  
   `🔵 Addison 🔵`
-  * **Before Class**: Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
+  * **Asynchronous Class** (no in-person meeting)
   * Topic: ⚖️ Algorithmic Bias and Fairness
+  * Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
   * Details TBA
 
 ### Week 12
