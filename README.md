@@ -229,16 +229,15 @@ The trolley problem is only the beginning.
 ### Week 11
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵` 
-  * Topic: 🎣 "Dark Patterns" and Addiction in UI Design
+  * Topic: 🎣 **"Dark Patterns" and Addiction in UI Design**
   * Source Materials:
     * Research: [📄 BJ Fogg, Persuasive Comptuers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
     * Op-Ed: [📝 Yasmin Samrai, How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
 * Wednesday, November 5, 2025  
   `🔵 Addison 🔵`
   * **Asynchronous Class** (no in-person meeting)
-  * Topic: ⚖️ Algorithmic Bias and Fairness
+  * Topic: ⚖️ **Algorithmic Bias and Fairness**
   * Turn in [Fairness Definition](out-of-class-exercises/04-fairness-definition.md)
-  * Details TBA
 
 ### Week 12
 * Monday, November 10, 2025  
