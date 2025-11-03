@@ -12,7 +12,7 @@ That's a great place to start, and the Wikipedia article includes some high-prof
 * Discrimination in computer vision (e.g. Google's photos app [mistakenly labeling Black couples as gorillas](https://www.bbc.com/news/technology-33347866))
 * Gender bias in machine translation (e.g. [defaulting to different pronouns based on professional/domestic roles](https://blog.google/products/translate/reducing-gender-bias-google-translate/))
 * Facial analysis tools (e.g. [higher error rates for darker-skinned women](http://gendershades.org/index.html))
-* Healthcare algorithms (e.g. underestimating health needs of Black patients)[https://www.science.org/doi/10.1126/science.aax2342]
+* Healthcare algorithms (e.g. [underestimating health needs of Black patients](https://www.science.org/doi/10.1126/science.aax2342))
 * Credit scoring and finance (e.g. [Apple offering higher credit limits to men than to women](https://www.bbc.com/news/business-50365609), even when their profiles are otherwise similar)
 
 ## Your Exercise
@@ -28,4 +28,5 @@ Specifically, you will:
   * According to the presentation, each definition is associated with moral and/or political values. Which values do you see in the definition you chose?
   * Can this definition be faithfully translated to a mathematical formula? If so, what is it? If not, why not?
   * Give a specific real-world case study where this definition could be used. Explain in detail what "fairness" would mean in this context, and what "bias" would mean.
+
 
