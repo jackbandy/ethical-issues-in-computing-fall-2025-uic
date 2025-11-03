@@ -16,7 +16,7 @@ That's a great place to start, and the Wikipedia article includes some high-prof
 * Credit scoring and finance (e.g. [Apple offering higher credit limits to men than to women](https://www.bbc.com/news/business-50365609), even when their profiles are otherwise similar)
 
 ## Your Exercise
-For this exercise, I was inspired by Walter Maner's [provocation](https://link.springer.com/article/10.1007/BF02583549) that ``conceptual shock therapy'' might not be the best way to approach computer ethics. In particular, ``A litany of horror stories does not itself provide a coherent concept of computer ethics.'' We seem to have broad agreement around the ``litany of horror stories'' when it comes to algorithmic bias, and the shock of these case studies hopefully grabs your attention.
+For this exercise, I was inspired by Walter Maner's [provocation](https://link.springer.com/article/10.1007/BF02583549) that "conceptual shock therapy" might not be the best way to approach computer ethics. In particular, `A litany of horror stories does not itself provide a coherent concept of computer ethics.` We seem to have broad agreement around the "litany of horror stories" when it comes to algorithmic bias, and the shock of these case studies hopefully grabs your attention.
 
 To nudge us toward a more constructive approach, for this exercise we will be defining ``the opposite of bias.''
 
@@ -28,3 +28,4 @@ Specifically, you will:
   * According to the presentation, each definition is associated with moral and/or political values. Which values do you see in the definition you chose?
   * Can this definition be faithfully translated to a mathematical formula? If so, what is it? If not, why not?
   * Give a specific real-world case study where this definition could be used. Explain in detail what "fairness" would mean in this context, and what "bias" would mean.
+
