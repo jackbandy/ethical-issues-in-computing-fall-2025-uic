@@ -242,29 +242,33 @@ The trolley problem is only the beginning.
 ### Week 12
 * Monday, November 10, 2025  
   `🔵 Irving Park 🔵` 
-  * Topic: 🎞️ Ethics in the Movies
-  * Details TBA
+  * Topic: ⚖️ **Algorithmic Bias and Fairness**
+  * More Details TBA
 * Wednesday, November 12, 2025  
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
-  * Details TBA
+  * Peer Presentations
+  * More Details TBA
 
 ### Week 13
 * Monday, November 17, 2025  
   `🔵 Jefferson Park 🔵` 
   * **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
   * Topic: 💼 Computing and Labor (The Hiring Process)
-  * Details TBA
+  * Peer Presentations
+  * More Details TBA
 * Wednesday, November 19, 2025  
   `🔵 Harlem 🔵` 
   * Topic: 💼 Computing and Labor (The Working Process)
-  * Details TBA
+  * Peer Presentations
+  * More Details TBA
  
 ### Week 14
 * Monday, November 24, 2025  
   `🔵 Cumberland 🔵` 
   * Topic: 🫧 Hype cycles and economic bubbles
-  * Details TBA
+  * Peer Presentations
+  * More Details TBA
 * Wednesday, November 26, 2025  
    Student Wellness Day. **No Classes**.
 
@@ -272,11 +276,13 @@ The trolley problem is only the beginning.
 * Monday, December 1, 2025  
   `🔵 Rosemont 🔵` 
   * Topic: 🏁 Synthesis / Conclusions
-  * Details TBA
+  * Peer Presentations
+  * More Details TBA
 * Wednesday, December 3, 2025  
   `🔵 O'Hare 🔵` 
   * Topic: 🏁 Synthesis / Conclusions
-  * Details TBA
+  * Peer Presentations
+  * More Details TBA
 
  ---
 ### Reference courses
