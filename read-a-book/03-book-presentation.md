@@ -19,3 +19,14 @@ Here are some guidelines for "one way to make a successful presentation," adapte
 
 If you follow the guidlines above, you'll be in great shape to give your presentation to the class.
 
+## Frequently Asked Questions
+* **Question**: What exactly should the presentation be about?
+  * **Answer**: Teach us something from the book you read, or something closely related to the book!
+* **Question**: Can you give an example?
+  * **Answer**: You can view a [demo presentation here](https://docs.google.com/presentation/d/1tggnphB6tbu_nj1kYEVYBRgTsNI2nVbTjdjleAReTyc/edit?usp=sharing)
+* **Question**: How many slides should I have?
+  * **Answer**: Using the heuristic of 1 minute per slide, a 10-minute presentation will probably have about 10 slides. 
+* **Question**: Where should I put my slides?
+  * **Answer**: To minimize technical hiccups, please make your presentation in Google Slides and place them [in this folder](https://drive.google.com/drive/folders/1Uqdj2rv5DhZZha7jmTWdCdtA7mJcXL-l?usp=share_link)
+ * **Question**: I have another question that's not on this list, what do I do?
+   * **Answer**: Email me (`jxb@uic.edu`)
