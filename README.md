@@ -256,6 +256,8 @@ The trolley problem is only the beginning.
   * Topic: 🦜 Computing and the Environment
   * Peer Presentations
   * More Details TBA
+  * Source Materials:
+    * Article: [📰 Maxwell Evans, Quantum Developers Share Plan For How They’ll Clean Up Pollutants At Old South Works Site](https://blockclubchicago.org/2025/11/05/quantum-developers-share-plan-for-how-theyll-clean-up-pollutants-at-old-south-works-site/)
 
 ### Week 13
 * Monday, November 17, 2025  
