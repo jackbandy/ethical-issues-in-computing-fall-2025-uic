@@ -22,7 +22,7 @@ For this exercise, I was inspired by Walter Maner's [provocation](https://link.s
 To nudge us toward a more constructive approach, for this exercise we will be defining ``the opposite of bias.''
 
 Specifically, you will:
-* Watch Arvind Narayanan's presentation, "[21 fairness definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk)"
+* **Watch Arvind Narayanan's presentation, "[21 fairness definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk)"**
 * Write out at least ten of the definitions mentioned
   * Include the name and a brief summary, e.g. "group parity: people in different groups have equal probabilities of being assigned to the positive predicted class"
 * Identify one definition that you found especially compelling, and answer the following questions:
@@ -32,4 +32,6 @@ Specifically, you will:
     * If so, what is it?
     * If not, why not?
   * Give a specific real-world case study where this definition could be used. Explain in detail what "fairness" would mean in this context, and what "bias" would mean.
+* Turn in your work through Gradescope
+
 
