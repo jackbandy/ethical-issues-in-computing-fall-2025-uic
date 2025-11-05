@@ -245,6 +245,7 @@ The trolley problem is only the beginning.
   * Topic: ⚖️ **Algorithmic Bias and Fairness**
   * More Details TBA
   * Source Materials:
+    * Interview: [🎙️ Mohar Chatterjee and Rumman Chowdhury, "Bias in AI is real. But it doesn't have to exist"](https://archive.ph/iKnYd)
     * Research: [📄 Kyra Yee, Uthaipon Tantipongpipat, and Shubhanshu Mishra, "Image Cropping on Twitter"](https://doi.org/10.1145/3479594)
     * Project: [🖼️ Analyzing bias in Twitter's image crop algorithm](https://github.com/twitter-research/image-crop-analysis)
     * Research: [📄 Shubham Singh et al. "Fair decision-making for food inspections."](https://doi.org/10.1145/3551624.3555289)
