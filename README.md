@@ -231,7 +231,9 @@ The trolley problem is only the beginning.
   `🔵 Belmont 🔵` 
   * Topic: 🎣 **"Dark Patterns" and Addiction in UI Design**
   * Source Materials:
-    * Research: [📄 BJ Fogg, Persuasive Comptuers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
+    * Research: [📄 BJ Fogg, Persuasive Computers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
+    * Lab: [🔗 Behavior Design Lab](https://behaviordesign.stanford.edu/about-us)
+    * Book: [📙 Nir Eyal, Hooked - How to Build Habit-Forming Products](https://www.nirandfar.com/hooked/)
     * Op-Ed: [📝 Yasmin Samrai, How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
 * Wednesday, November 5, 2025  
   `🔵 Addison 🔵`
@@ -252,6 +254,7 @@ The trolley problem is only the beginning.
     * Report: [📄 Chicago Food Inspections Evaluation](https://chicago.github.io/food-inspections-evaluation/)
     * Project: [🔗 Chicago Food Inspections Evaluation](https://github.com/Chicago/food-inspections-evaluation/tree/master)
     * Project: [🔗 Google Pair Explorables, "Measuring Diversity"](https://pair.withgoogle.com/explorables/measuring-diversity/)
+    * Article: [📰 Karen Hao and Jonathan Stray, "Can you make AI fairer than a judge? Play our courtroom algorithm game"](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
 * Wednesday, November 12, 2025  
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
