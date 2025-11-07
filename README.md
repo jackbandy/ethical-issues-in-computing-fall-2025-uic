@@ -255,6 +255,7 @@ The trolley problem is only the beginning.
     * Project: [🔗 Chicago Food Inspections Evaluation](https://github.com/Chicago/food-inspections-evaluation/tree/master)
     * Project: [🔗 Google Pair Explorables, "Measuring Diversity"](https://pair.withgoogle.com/explorables/measuring-diversity/)
     * Article: [📰 Karen Hao and Jonathan Stray, "Can you make AI fairer than a judge? Play our courtroom algorithm game"](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
+    * Article: [📰 Jeremy Cherson, Policy Position Brief: On Pretrial Algorithms](https://bailproject.org/policy/pretrial-algorithms/)
 * Wednesday, November 12, 2025  
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
