@@ -251,6 +251,7 @@ The trolley problem is only the beginning.
     * Research: [📄 Shubham Singh et al. "Fair decision-making for food inspections."](https://doi.org/10.1145/3551624.3555289)
     * Report: [📄 Chicago Food Inspections Evaluation](https://chicago.github.io/food-inspections-evaluation/)
     * Project: [🔗 Chicago Food Inspections Evaluation](https://github.com/Chicago/food-inspections-evaluation/tree/master)
+    * Project: [🔗 Google Pair Explorables, "Measuring Diversity"](https://pair.withgoogle.com/explorables/measuring-diversity/)
 * Wednesday, November 12, 2025  
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
