@@ -1,7 +1,7 @@
 # Fairness Definition
 
 ## Background on Algorithmic Bias
-In 2016, ProPublica released a report titled [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). Public nterest in the topic has steadily grown since then, according to [Google trends](https://trends.google.com/trends/explore?date=all&geo=US&q=machine%20bias,algorithmic%20bias,AI%20bias&hl=en), with swelling interest in terms like "algorithmic bias," "AI bias." 
+In 2016, ProPublica released a report titled [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing). Public interest in the topic has steadily grown since then, according to [Google trends](https://trends.google.com/trends/explore?date=all&geo=US&q=machine%20bias,algorithmic%20bias,AI%20bias&hl=en), with swelling interest in terms like "algorithmic bias" and "AI bias." 
 
 In particular, searches for "AI Bias" have seen a significant spike since Fall 2022, I seem to remember some kind of app or product released around that time... Still, the term "algorithmic bias" is [winning out in books](https://books.google.com/ngrams/graph?content=algorithmic+bias%2Calgorithmic+fairness%2Cmachine+bias%2CAI+bias&year_start=1990&year_end=2022&corpus=en&smoothing=3). 
 
@@ -19,7 +19,7 @@ That's a great place to start, and the [Wikipedia article](https://en.wikipedia.
 ## Your Exercise
 For this exercise, I was inspired by Walter Maner's [provocation](https://link.springer.com/article/10.1007/BF02583549) that "conceptual shock therapy" might not be the best way to approach computer ethics. In particular, `A litany of horror stories does not itself provide a coherent concept of computer ethics.` We seem to have broad agreement around the "litany of horror stories" when it comes to algorithmic bias, and the shock of these case studies hopefully grabs your attention.
 
-To nudge us toward a more constructive approach, for this exercise we will be defining ``the opposite of bias.''
+To nudge us toward a more constructive approach, for this exercise we will be defining "the opposite of bias."
 
 Specifically, you will:
 * **Watch Arvind Narayanan's presentation, "[21 fairness definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk)"**
@@ -33,5 +33,6 @@ Specifically, you will:
     * If not, why not?
   * Give a specific real-world case study where this definition could be used. Explain in detail what "fairness" would mean in this context, and what "bias" would mean.
 * Turn in your work through Gradescope
+
 
 
