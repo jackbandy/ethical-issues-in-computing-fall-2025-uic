@@ -267,7 +267,6 @@ The trolley problem is only the beginning.
 ### Week 13
 * Monday, November 17, 2025  
   `🔵 Jefferson Park 🔵` 
-  * **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
   * Topic: 💼 Computing and Labor (The Hiring Process)
   * Peer Presentations
   * More Details TBA
@@ -279,7 +278,8 @@ The trolley problem is only the beginning.
  
 ### Week 14
 * Monday, November 24, 2025  
-  `🔵 Cumberland 🔵` 
+  `🔵 Cumberland 🔵`
+  * **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
   * Topic: 🫧 Hype cycles and economic bubbles
   * Peer Presentations
   * More Details TBA
