@@ -4,6 +4,34 @@ You selected a book, you read the book, and you will soon present to the class a
 
 This exercise is a two-page book report (12pt font, double-spaced) intended to help you digest what you have been reading and **form your own thoughts** about the material.
 
+The prompt is intentionally open-ended: tell us about the book. If you are looking for more structure, here are some pointers from 
+[John Minniear](https://www.uwosh.edu/faculty_staff/minniear/Book%20Review%20European%20Geo.pdf)
+* Consider the following questions while reading:
+  * What is the author’s main goal in writing this book? (Convince you of his position on a
+controversy? Explain the background of an event? Raise awareness of a particular issue?)
+  * What are the author’s main points?
+  * What kind of evidence does the author provide to make his or her points? How convincing is
+this evidence?
+  * Did you find the book was well-written? (Easily understandable? Good style?)
+  * What group of readers would find this book most useful (Lay people? Students? Experts in
+the area?)
+
+One stanrad template for a book review includes the following components:
+1. Introduction (one or two paragraphs)
+  * Bibliographic information (author, title, date of publication, publisher, number of pages,
+type of book)
+  * Brief overview of the theme, purpose and your evaluation
+2. Summary of the content
+  * Brief summary of the key points of each chapter or group of chapters
+  * Paraphrase the information, and use quotes sparingly
+3. Evaluation and conclusion
+  * Give your opinion about the book.
+  * Was it easy to read or confusing?
+  * Was the book interesting, entertaining, instructive?
+  * Does the author support the arguments well?
+  * What are the book’s greatest strengths and weaknesses?
+  * Who would you recommend the book to?
+
 There is an example book report [here](https://docs.google.com/document/d/1UT_nIA8ryzXOvWd1fy2Xd9UecEXDzXKFc0Ebol4bHJw/edit?usp=sharing).
 
 I plan to use the following rubric, mostly borrowed from Behrooz Shirazi at [Washington State University](https://eecs.wsu.edu/~shirazi/cs402/book%20review%20rubric.html):
@@ -65,3 +93,4 @@ I plan to use the following rubric, mostly borrowed from Behrooz Shirazi at [Was
 </details>
 
 As always, please do email me (`jxb@uic.edu`) with any questions.
+
