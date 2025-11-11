@@ -30,3 +30,34 @@ If you follow the guidlines above, you'll be in great shape to give your present
   * **Answer**: To minimize technical hiccups, please make your presentation in Google Slides and place them [in this folder](https://drive.google.com/drive/folders/1Uqdj2rv5DhZZha7jmTWdCdtA7mJcXL-l?usp=share_link)
  * **Question**: I have another question that's not on this list, what do I do?
    * **Answer**: Email me (`jxb@uic.edu`)
+
+## Rubric
+I will be using a rubric derived from two sources: [this analytic rubric](https://uofi.box.com/s/ojkbtoa3g5rmvgvr4tfm8mmid2gqq4st) for a presentation from UIC's Center for the Advancement of Teaching Excellence, and [this rubric for CS 440 presentations](https://www.cs.uic.edu/~i440/CS_440_Presentation_Evaluation_Rubric.pdf).
+
+| **Category** | **Score** | **Description** |
+|:-------------|:---------|:----------------|
+| **Content** | Excellent (10 pts) | Detailed explanation of accurate information, key themes, arguments, and supporting evidence that demonstrates deep understanding and knowledge of the book. |
+| | Good (8 pts) | Effective explanation of accurate information, key themes, arguments, and supporting evidence that demonstrates solid understanding and knowledge of the book. |
+| | Adequate (6 pts) | Adequate explanation of information, key themes, and supporting evidence with minimal incomplete or incorrect information. |
+| | Developing (4 pts) | Attempted explanation of information and themes with incomplete information or some accuracy errors. |
+| | Needs Revision (0-2 pts) | Partial explanation of the book with missing supporting evidence, incomplete information, and/or numerous accuracy errors. |
+| **Organization** | Excellent (10 pts) | The report flows logically from beginning to end with a strong introduction that lays the foundation, clear transitions, and a conclusion that wraps up nicely. The presentation lasts 8-12 minutes. |
+| | Good (8 pts) | The report flows logically with a clear introduction, transitions, and conclusion. Generally makes good use of time with minor pacing adjustments needed. |
+| | Adequate (6 pts) | The report has an introduction and conclusion but transitions are basic or uneven. |
+| | Developing (4 pts) | The report has attempted organization with an introduction and conclusion but lacks clear transitions. |
+| | Needs Revision (0-2 pts) | The report lacks clear organization and logical flow. Missing key elements such as introduction, conclusion, or coherent transitions. |
+| **Visual Aids** | Excellent (10 pts) | Visuals are highly readable, professional, and appropriate to the report. Relevant visuals are included without overwhelming the audience. |
+| | Good (8 pts) | Visuals are readable and mostly professional with good relevance to the report. Appropriate quantity that supports the content. |
+| | Adequate (6 pts) | Visuals are present and readable but may have minor design issues or be slightly distracting. Quantity is somewhat appropriate. |
+| | Developing (4 pts) | Visuals attempt to support the report but lack clarity or professionalism. Quantity may be too much or too little. |
+| | Needs Revision (0-2 pts) | Visuals are difficult to read, unprofessional, or inappropriate. Too many or too few visuals; they do not enhance understanding. |
+| **Oral Communication** | Excellent (10 pts) | Speaker speaks clearly and loudly enough to be heard easily, using proper grammar and clear pronunciation throughout. Language is professional and free from slang or distracting filler words like "um," "like," or "you know." |
+| | Good (8 pts) | Speaker speaks clearly with adequate volume and generally uses proper grammar and pronunciation. Mostly professional language with minimal filler words. |
+| | Adequate (6 pts) | Speaker is understandable but volume or clarity may be inconsistent. Some grammar issues or filler words are present but do not seriously hinder communication. |
+| | Developing (4 pts) | Speaker has difficulty with clarity, volume, or pronunciation at times. Occasional grammar errors or frequent filler words distract from the message. |
+| | Needs Revision (0-2 pts) | Difficult to understand due to poor volume, unclear speech, and/or excessive filler words that significantly detract from the report. |
+| **Physical Presence** | Excellent (10 pts) | Speaker faces the audience and maintains consistent eye contact throughout. Uses appropriate gestures and purposeful movement while avoiding distracting physical mannerisms. Professional posture. |
+| | Good (8 pts) | Speaker maintains good eye contact and uses appropriate gestures. |
+| | Adequate (6 pts) | Speaker attempts eye contact and uses some gestures but may have occasional distracting mannerisms. |
+| | Developing (4 pts) | Speaker shows limited eye contact or frequent distracting mannerisms. Gestures are minimal. |
+| | Needs Revision (0-2 pts) | Speaker avoids eye contact, faces away from audience, and/or exhibits frequent distracting mannerisms. Gestures are absent. |
