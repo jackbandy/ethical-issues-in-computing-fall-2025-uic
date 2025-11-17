@@ -2,7 +2,7 @@
 
 This is your final out-of-class exercise for this class! If we have been (at least somewhat) successful this semester, you will be leaving with a sense of social responsibility. We have talked a lot about acting well in the world -- ethics. At this point, you hopefully have developed "a means and a process for achieving your own moral judgments" ([Callahan 1980](https://link.springer.com/chapter/10.1007/978-1-4613-3138-4_2), as cited by [Computing and Technology Ethics](https://mitpress.mit.edu/9780262048064/computing-and-technology-ethics/), Chapter 1, page 5).
 
-To help you develop this process and take this responsibility into the real world, you will be writing your own personal commitments regarding how you want to act and make decisions. In other words, your personal ethics statement.
+To help you develop this process and take this responsibility into the real world, you will be writing your own personal commitments regarding how you want to act and make decisions. In other words, **you will write a personal ethics commitment**.
 
 For this exercise, I am drawing on an assignment I encountered from working with [Adam Waytz](https://www.adamwaytz.com) as a TA for his "Ethics and Leadership" class at Kellogg. Here are some guidelines adapted from his version of the exercise:
 * You can think of this as a "personal credo" or honor code that you are committing to.
