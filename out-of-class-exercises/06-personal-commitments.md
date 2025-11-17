@@ -43,4 +43,6 @@ Although your submission does not need to contain detailed explanations, you sho
 
 There is no length requirement for this exercise, however, the main statements should fit on a page. If you find yourself writing more, consider organizing into "summary" and "explanation" sections.
 
+If you have no idea where to start, you might begin by reviewing the [ACM Code of Ethics](https://www.acm.org/code-of-ethics) to see potential principles that you may want to adopt and/or revise.
+
 As always, please do email me (`jxb@uic.edu`) with any questions.
