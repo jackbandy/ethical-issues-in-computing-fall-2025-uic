@@ -261,7 +261,6 @@ The trolley problem is only the beginning.
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
   * Peer Presentations
-  * More Details TBA
   * Source Materials:
     * Article: [📰 Maxwell Evans, Quantum Developers Share Plan For How They’ll Clean Up Pollutants At Old South Works Site](https://blockclubchicago.org/2025/11/05/quantum-developers-share-plan-for-how-theyll-clean-up-pollutants-at-old-south-works-site/)
 
@@ -270,12 +269,10 @@ The trolley problem is only the beginning.
   `🔵 Jefferson Park 🔵` 
   * Topic: 💼 Computing and Labor (The Hiring Process)
   * Peer Presentations
-  * More Details TBA
 * Wednesday, November 19, 2025  
   `🔵 Harlem 🔵` 
   * Topic: 💼 Computing and Labor (The Working Process)
   * Peer Presentations
-  * More Details TBA
  
 ### Week 14
 * Monday, November 24, 2025  
