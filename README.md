@@ -277,10 +277,9 @@ The trolley problem is only the beginning.
 ### Week 14
 * Monday, November 24, 2025  
   `🔵 Cumberland 🔵`
-  * **Before Class**: Turn in [Automated Decisions](out-of-class-exercises/05-automated-decisions.md)
   * Topic: 🫧 Hype cycles and economic bubbles
   * Peer Presentations
-  * More Details TBA
+  * Virtual class via zoom - check email for details
 * Wednesday, November 26, 2025  
    Student Wellness Day. **No Classes**.
 
