@@ -288,12 +288,16 @@ The trolley problem is only the beginning.
   `🔵 Rosemont 🔵` 
   * Topic: 🏁 Synthesis / Conclusions
   * Peer Presentations
-  * More Details TBA
+  * Additional Materials:
+    * Article: [📰 NYC Mayor-elect Zohran Mamdani announces transition committees](https://www.cbsnews.com/newyork/news/zohran-mamdani-transition-committees/)
+      * See Committee on Technology
+    * Article: [📰 Matthew Gault, Poems Can Trick AI Into Helping You Make a Nuclear Weapon](https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/)
+      * Research: [📄 Bisconti et al., Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models](https://arxiv.org/abs/2511.15304v1)
+    * Article: [📰 Austin Carr, How Local Governments Got Hooked on One Company's Janky Software](https://archive.is/15ewS)
 * Wednesday, December 3, 2025  
   `🔵 O'Hare 🔵` 
   * Topic: 🏁 Synthesis / Conclusions
   * Peer Presentations
-  * More Details TBA
 
  ---
 ### Reference courses
