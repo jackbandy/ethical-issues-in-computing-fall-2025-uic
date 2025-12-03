@@ -245,7 +245,6 @@ The trolley problem is only the beginning.
 * Monday, November 10, 2025  
   `🔵 Irving Park 🔵` 
   * Topic: ⚖️ **Algorithmic Bias and Fairness**
-  * More Details TBA
   * Source Materials:
     * Article: [Siôn Geschwindt, "ChatGPT advises women to ask for lower salaries, study finds"](https://thenextweb.com/news/chatgpt-advises-women-to-ask-for-lower-salaries-finds-new-study)
     * Interview: [🎙️ Mohar Chatterjee and Rumman Chowdhury, "Bias in AI is real. But it doesn't have to exist"](https://archive.ph/iKnYd)
