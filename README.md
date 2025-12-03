@@ -295,7 +295,7 @@ The trolley problem is only the beginning.
       * Research: [📄 Bisconti et al., Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models](https://arxiv.org/abs/2511.15304v1)
     * Article: [📰 Austin Carr, How Local Governments Got Hooked on One Company's Janky Software](https://archive.is/15ewS)
 * Wednesday, December 3, 2025  
-  `🔵 O'Hare 🔵` 
+  `🔵 O'Hare 🔵` [🥚](https://www.youtube.com/watch?v=YcnTKaVfCf4)
   * Topic: 🏁 Synthesis / Conclusions
   * Peer Presentations
 
