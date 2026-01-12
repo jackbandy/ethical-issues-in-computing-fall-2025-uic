@@ -13,7 +13,7 @@ The trolley problem is only the beginning.
 |  |  | [Week 15](#week-15) |
 
 ### Week 1
-* Monday, January 12, 2026
+* Monday, January 12, 2026  
   `🟦 Forest Park 🟦`
   * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
 * Wednesday, January 14, 2026
@@ -79,5 +79,5 @@ The trolley problem is only the beginning.
 
 ### Week 16
 * Monday, April 27, 2026
-* Wednesday, April 29, 2026
+* Wednesday, April 29, 2026  
   `🟦 O'Hare 🟦`
