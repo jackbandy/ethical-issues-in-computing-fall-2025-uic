@@ -2,7 +2,7 @@
 
 You chose a book, and you chose a book you wanted to read! As we approach the end of the semester, it's time to share what you've learned with the class.
 
-This will take the form of a ~10-minute presentation, as [scheduled here](https://docs.google.com/spreadsheets/d/1FlONlnU9Dx2SlgFEHLl0qcOkbJElDrcBYJCm1qkRHXo/edit?usp=sharing).
+This will take the form of a ~10-minute presentation, with the schedule to be announced later in the semester.
 
 Here are some guidelines for "one way to make a successful presentation," adapted from [Colorado State University](https://writing.colostate.edu/guides/teaching/e238/paex.cfm).
 * **Talk to us, don't read**. You may use notes when you make your presentation, but you may not read from a fully written out text.
@@ -61,3 +61,4 @@ I will be using a rubric derived from two sources: [this analytic rubric](https:
 | | Adequate (6 pts) | Speaker attempts eye contact and uses some gestures but may have occasional distracting mannerisms. |
 | | Developing (4 pts) | Speaker shows limited eye contact or frequent distracting mannerisms. Gestures are minimal. |
 | | Needs Revision (0-2 pts) | Speaker avoids eye contact, faces away from audience, and/or exhibits frequent distracting mannerisms. Gestures are absent. |
+
