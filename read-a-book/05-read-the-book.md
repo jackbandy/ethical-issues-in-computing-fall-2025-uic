@@ -10,3 +10,8 @@ You have to actually read the book, of course! This portion is worth 5% of your 
 | 3      | I read about 60% of the book |
 | 4      | I read about 80% of the book |
 | 5      | I read the whole book! |
+
+
+In the text entry portal, please answer the following:
+1. The extent to which you read the book, on the 0-5 scale described above
+2. Would you recommend this book for students in future sections of the class? Why or why not?
