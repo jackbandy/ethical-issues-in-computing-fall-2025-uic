@@ -1,5 +1,5 @@
 # 🟦 Blue Line Ethics 🟦
-## Spring 2026, Ethical Issues in Computing
+## Schedule for Ethical Issues in Computing, Spring 2026
 The trolley problem is only the beginning.
 
 | Forest Park Branch | Milwaukee–Dearborn Subway | O’Hare Branch |
@@ -22,18 +22,22 @@ The trolley problem is only the beginning.
   * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
 * Wednesday, January 14, 2026  
   `🟦 Oak Park 🟦`
+  * Introduction to Virtue Ethics
 
 #### Week 2
 * Monday, January 19, 2026  
   * Martin Luther King Jr. Day. **No classes.**
 * Wednesday, January 21, 2026  
   `🟦 Cicero 🟦`
+  * Introduction to Deontological Ethics
 
 #### Week 3
 * Monday, January 26, 2026  
   `🟦 Western 🟦`
+  * Introduction to Utilitarian Ethics
 * Wednesday, January 28, 2026  
   `🟦 Illinois Medical District 🟦`
+  * Introduction to Care Ethics
 
 #### Week 4
 * Monday, February 2, 2026  
@@ -54,6 +58,7 @@ The trolley problem is only the beginning.
   `🟦 Jackson 🟦`
 * Wednesday, February 18, 2026  
   `🟦 Monroe 🟦`
+  * Dr. Bandy in St. Louis for [SIGCSE](https://sigcse2026.sigcse.org)
 
 #### Week 7
 * Monday, February 23, 2026  
