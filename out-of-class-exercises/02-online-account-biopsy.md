@@ -1,4 +1,4 @@
-# Digital Trace Rag Doll
+# Online Account Biopsy
 
 Big Tech companies [don't need to listen through your microphone to serve you creepy ads](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads). Some ads make it seem like they are listening, but in reality, these companies are _simulating_ the kinds of conversations, purchases, and other behaviors you will carry out in the real world. These simulations are based on a digital profile made up of extensive online trace data -- digital "scraps" like locations, clicks, watch history, and more -- which are combined to create a [doll-like](https://futurism.com/the-byte/google-company-voodoo-doll-avatar) model of you.
 
@@ -42,31 +42,4 @@ In addition to these quantitative questions, consider the substance represented 
 * Which data represent me accurately? Inaccurately? Unsure?
 * Does this data capture specific time periods with more or less accuracy?
 * How much of this data would I feel comfortable sharing more broadly?
-
-
-## Part 3: Make a Doll
-Yes, an actual doll! Consider your observations from part 2 and the essence that is captured by the digital trace data. Remember to consider how the data were created, what they include, what they exclude, and whatever else came up as you reviewed the data. Although the title of the exercise is "rag doll," the doll can be made of any material you find fitting and/or convenient, for example:
-* yarn
-* tape
-* newspaper
-* printer paper
-* cans
-* cardboard
-* aluminum foil
-* plastic bags
-* paper bags
-* wire
-
-
-## Class Discussion Questions
-* What material did you use for your doll, and why?
-* How did you capture the data in your doll?
-* What elements did you have to leave out of your doll?
-* If the rag doll could speak, what would it say?
-* If you could collect more data for your rag doll, what would it be? How would that change its appearance?
-* How will you shape your digital rag doll in the future?
-* How much data were you able to access?
-* How usable was the data provided?
-* What questions and concerns do you still have?
-
 
