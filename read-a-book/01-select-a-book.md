@@ -13,7 +13,7 @@ The requirements are pretty loose:
 * There are no formal criteria for genre or language
 
 ## What to turn in for this part
-To receive full credit for Part 1, complete the Gradescope assignment called "Book Selection," which includes the following six questions:
+To receive full credit answer the following six questions in the Canvas text box:
 1. Which book did you choose?
 2. Who wrote the book?
 3. How long is the book?
@@ -85,4 +85,5 @@ Computer ethics books with an emphasis on politics
 * _Spying on Democracy: Government Surveillance, Corporate Power, and Public Resistance_ by Heidi Boghosian
 * _Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship_ by Bruce Schneier and Nathan E. Sanders
 * _The Tech Coup: How to Save Democracy from Silicon Valley_ by Marietje Schaake
+
 
