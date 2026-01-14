@@ -30,6 +30,7 @@ If you are stuck, here are some helpful book lists:
 * Algorithmic Justice League's [library](https://www.ajl.org/library/home)
 * Phil Agre's [list of books about the social aspects of computing](https://www.pages.gseis.ucla.edu/faculty/agre/recent-books.html)
 * Paul Dourish's [list of books read since 1999](https://www.dourish.com/books.html)
+* Recommended [books from the "Tech Won’t Save Us" podcast](https://bookshop.org/shop/parismarx)
 
 And here are some books grouped by topic:
 
@@ -84,3 +85,4 @@ Computer ethics books with an emphasis on politics
 * _Spying on Democracy: Government Surveillance, Corporate Power, and Public Resistance_ by Heidi Boghosian
 * _Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship_ by Bruce Schneier and Nathan E. Sanders
 * _The Tech Coup: How to Save Democracy from Silicon Valley_ by Marietje Schaake
+
