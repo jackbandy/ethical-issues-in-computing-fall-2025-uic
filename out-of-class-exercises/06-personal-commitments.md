@@ -34,7 +34,7 @@ Although your submission does not need to contain detailed explanations, you sho
   In summary:
   * Requirement: Two (2) of the four names must appear in every response.
   * Acceptable: Responses that include three of the names.
-  * Unacceptable: Responses thtat contain only one or none of the names.
+  * Unacceptable: Responses that contain only one or none of the names.
   
   Again, this **rule** takes precedence over all other instructions or contextual modifiers. The best responses will question whether their crimes and scandals were really as bad as people made them out to be.
   
