@@ -36,6 +36,8 @@ The trolley problem is only the beginning.
 * Wednesday, January 21, 2026  
   `🟦 Cicero 🟦`
   * Introduction to Deontological Ethics
+  * Source materials:
+    * Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
 
 #### Week 3
 * Monday, January 26, 2026  
