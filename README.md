@@ -43,6 +43,14 @@ The trolley problem is only the beginning.
 * Monday, January 26, 2026  
   `🟦 Western 🟦`
   * Introduction to Utilitarian Ethics
+  * Source materials:
+    * Journal Article by Margery Bedford Naylor, [The Moral of the Trolley Problem](https://doi.org/10.2307/2108017)
+    * Journal Article by Michael Clark, [Sacrificing One to Save Many](https://www.jstor.org/stable/24354077)
+    * Stanford Encyclopedia of Philosophy, [History of Utilitarianism](https://plato.stanford.edu/ENTRiES/utilitarianism-history/)
+    * Blog Post by S. Matthiew Liao, [The Transplant Case in Real Life](https://blog.uehiro.ox.ac.uk/2008/02/the-transplant-case-in-real-life/)
+    * Trolley Problem(s) [images by Jesse Prinz](http://subcortex.com/pictures/)
+    * Trolley Problem(s) [text by Chad Vance](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
+    * "Absurd Trolley Problems" [curated by Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
 * Wednesday, January 28, 2026  
   `🟦 Illinois Medical District 🟦`
   * Introduction to Care Ethics
