@@ -43,6 +43,10 @@ The trolley problem is only the beginning.
 * Monday, January 26, 2026  
   `🟦 Western 🟦`
   * Introduction to Utilitarian Ethics
+  * Source materials:
+    * Journal Article by Margery Bedford Naylor, [The Moral of the Trolley Problem](https://doi.org/10.2307/2108017)
+    * Journal Article by Michael Clark, [Sacrificing One to Save Many](https://www.jstor.org/stable/24354077)
+    * Stanford Encyclopedia of Philosophy, [History of Utilitarianism](https://plato.stanford.edu/ENTRiES/utilitarianism-history/)
 * Wednesday, January 28, 2026  
   `🟦 Illinois Medical District 🟦`
   * Introduction to Care Ethics
