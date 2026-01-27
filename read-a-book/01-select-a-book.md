@@ -1,6 +1,6 @@
 # Select a Book to Read!
 
-Based on a survey from Fall 2025, almost half of the students (45%) in 377 had yet to read a book in the first eight months of the year.
+Based on a survey from Fall 2025, almost half of the students (45%) in 377 had yet to read a book in the first eight months of the year (N=83). In Spring 2026, 42% of students said they had not read any books in 2025 (N=50).
 
 If all goes well, everyone in this class will have read a book by the end of the semester.
 
@@ -8,6 +8,7 @@ But nobody is going to tell you what to read -- **you must choose which book to 
 
 The requirements are pretty loose:
 * The book must be related to technology and society
+  * It can also be an ethics-focused book
 * It must be a book you have not read before
 * It must be at least ~100 pages
 * There are no formal criteria for genre or language
@@ -85,5 +86,6 @@ Computer ethics books with an emphasis on politics
 * _Spying on Democracy: Government Surveillance, Corporate Power, and Public Resistance_ by Heidi Boghosian
 * _Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship_ by Bruce Schneier and Nathan E. Sanders
 * _The Tech Coup: How to Save Democracy from Silicon Valley_ by Marietje Schaake
+
 
 
