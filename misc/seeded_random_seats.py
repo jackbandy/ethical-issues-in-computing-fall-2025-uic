@@ -26,7 +26,7 @@ def spin_animation(duration=2):
     sys.stdout.flush()
 
 
-def animate_numbers(name, final_table, duration=0.4):
+def animate_numbers(name, final_table, duration=0.3):
     total_width, name_len = 50, len(name)
     dash_string = "- " * max(0, (total_width - name_len - 8) // 2)
     end_time = time.time() + duration
@@ -58,6 +58,12 @@ def process_section(filepath, seed):
     df = pd.read_excel(filepath, header=14)
     df['Student Name'] = df['Student Name'].str.replace(r'\s*\([^)]*\)', '', regex=True)
     df['first_last'] = df['Student Name'].str.split(', ').str[::-1].str.join(' ')
+
+    include_ta = input("\nInclude a Teaching Assistant in the shuffle? (y/n): ").strip().lower()
+    if include_ta == 'y':
+        ta_row = pd.DataFrame({'first_last': ['TA']})
+        df = pd.concat([df, ta_row], ignore_index=True)
+
     assignments, attempt = assign_tables(len(df), seed)
     df['table'] = assignments
     return df, attempt
@@ -98,8 +104,8 @@ def main():
     seed_input = input("\nEnter a seed number: ").strip()
     seed = int(seed_input) if seed_input else None
     
-    print(f"\nProcessing Section {section_name}...\n")
-    spin_animation(1)
+    print(f"\nProcessing Section {section_name}...")
+    #spin_animation(1)
     
     df, attempt = create_demo_data(seed) if section == 'd' else process_section(filepath, seed)
     
