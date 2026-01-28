@@ -54,6 +54,14 @@ The trolley problem is only the beginning.
 * Wednesday, January 28, 2026  
   `🟦 Illinois Medical District 🟦`
   * Introduction to Care Ethics
+  * Source materials:
+    * The [Porcupine and the Moles](dilemmas/care-ethics-porcupine-and-moles.md)
+    * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
+    * Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/)
+    * Encyclopedia Britannica, [Carol Gilligan](https://www.britannica.com/biography/Carol-Gilligan)
+    * From "a different voice" to ["a human voice"](https://www.newstatesman.com/culture/books/2023/10/carol-gilligan-gender-binary-human-voice)
+    * Kohlberg's [theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
+    * More [about Carol Gilligan](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html)
 
 #### Week 4
 * Monday, February 2, 2026  
