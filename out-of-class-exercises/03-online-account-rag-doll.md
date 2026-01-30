@@ -1,8 +1,8 @@
 # Online Account Scrap Doll
 
 
-## Part 3: Make a Doll
-Yes, an actual doll! Consider your observations from part 2 and the essence that is captured by the digital trace data. Remember to consider how the data were created, what they include, what they exclude, and whatever else came up as you reviewed the data. Although the title of the exercise is "rag doll," the doll can be made of any material you find fitting and/or convenient, for example:
+## Make a Doll
+Yes, an actual doll! Consider your observations from reviewing your trace data in the Online Account Biopsy exercise, and the essence that is captured by the digital trace data. Remember to consider how the data were created, what they include, what they exclude, and whatever else came up as you reviewed the data. Although the title of the exercise is "rag doll," the doll can be made of any material you find fitting and/or convenient, for example:
 * yarn
 * tape
 * newspaper
@@ -25,5 +25,6 @@ Yes, an actual doll! Consider your observations from part 2 and the essence that
 * How much data were you able to access?
 * How usable was the data provided?
 * What questions and concerns do you still have?
+
 
 
