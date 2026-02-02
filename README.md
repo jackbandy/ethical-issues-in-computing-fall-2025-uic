@@ -66,6 +66,7 @@ The trolley problem is only the beginning.
 #### Week 4
 * Monday, February 2, 2026  
   `🟦 Racine 🟦`
+  * Review theories of ethics
 * Wednesday, February 4, 2026  
   `🟦 UIC-Halsted 🟦`
 
