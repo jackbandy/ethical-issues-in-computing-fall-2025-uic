@@ -67,6 +67,12 @@ The trolley problem is only the beginning.
 * Monday, February 2, 2026  
   `🟦 Racine 🟦`
   * Review theories of ethics
+  * Source materials:
+    * (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
+    * (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
+    * Caleb Williams [responds to a trolley problem](https://www.youtube.com/watch?v=iM3Bu_S82Jc)
+    * Discussing Anthropic's 80-page "Constitution" document with [Amanda Askell](https://archive.is/Xlv9q)
+      * The [constitution in full](https://www.anthropic.com/constitution)
 * Wednesday, February 4, 2026  
   `🟦 UIC-Halsted 🟦`
 
