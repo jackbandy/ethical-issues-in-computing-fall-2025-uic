@@ -1,8 +1,8 @@
 # The "Food" in your "Feed" (Media Diary Worksheet)
 
-In this exercise, students collect data from an algorithmic feed as a starting point for class discussion and reflection.
+For this exercise, you will collect data from an algorithmic feed as a starting point for class discussion and reflection.
 This is essentially a guided media diary, with the following table provided.
-Students are encouraged to use the final column to collect additional information (e.g. number of likes, account follower count).
+Use the final column to collect additional data related to some information you are curious about (e.g. carousels, music, account follower count, etc.).
 
 ## Data Template
 
@@ -33,10 +33,11 @@ Students are encouraged to use the final column to collect additional informatio
 
 ## Discussion Questions
 * How many "suggested" posts did you see (from non-subscribed / non-followed accounts)?
-* How many posts were from friends? Influencers? Advertisers?
+* How many posts were from friends? Influencers? Advertisers? Other?
 * How many posts contained multiple images? Shopping links? Other features?
 * What surprised you most about your feed?
 * What patterns did you notice in your feed?
 * Was there any "borderline" content in your feed?
 * Who shaped this feed, and how?
 * What questions do you have about your feed?
+
