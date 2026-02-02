@@ -6,7 +6,9 @@ Use the final column to collect additional data related to some information you 
 
 ## Data Template
 
-| Post | Account Name | Account Type | Ad (Yes/No) | Video (Yes/No) | Additional Notes |
+I recommend completing this exercise on real paper (either in your own notebook or using the [PDF available here](./01-food-in-your-feed-worksheet.pdf)).
+
+| Post | Account Name | Account Type | Ad (Yes/No) | Video (Yes/No) | Additional Data |
 |------|--------------|--------------|-------------|----------------|------------------|
 | *Example* | *thisisuic* | *school* | *No* | *No* | 123 likes |
 | Post 1 | | | | | |
@@ -40,4 +42,5 @@ Use the final column to collect additional data related to some information you 
 * Was there any "borderline" content in your feed?
 * Who shaped this feed, and how?
 * What questions do you have about your feed?
+
 
