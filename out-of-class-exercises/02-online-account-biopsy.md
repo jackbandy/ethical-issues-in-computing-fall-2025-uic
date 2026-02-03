@@ -29,17 +29,40 @@ First, retrieve some of the data these companies have about you. You can choose 
 
 ## Part 2: Review Trace Data
 
-Spend some time reviewing the data. It should be fairly straightforward to bring it into a structured data analysis library (i.e. Pandas) if you were given a [CSV](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_csv.html#) or [JSON](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_json.html). This can be useful for getting some interesting lifetime stats, such as:
+Spend some time reviewing the data. It should be fairly straightforward to bring it into a structured data analysis library (i.e. Pandas) if you were given a [CSV](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_csv.html#) or [JSON](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_json.html). Then, do some exploring!
+
+The following are suggested starting points for exploration and reflection -- not requirements.
+
+You might begin with some basic descriptive information from the dataset:
+* How many total data points are available in the export?
+* What time period was included in this export?
+  * Check earliest date and latest date included
+* How many days are in that time period, and how many of those days was I "active"?
+  * What was my longest streak of consecutive active days? Consecutive non-active days?
+* Does the export include the expected data, in terms of time period and activities?
+  * If not, what is missing?
+  * Is anything there that should not be there (e.g. deleted messages, removed likes)?
+ 
+After you get a high-level view of the data, try to find some interesting lifetime statistics, such as:
 * How many total TikToks have I watched?
 * How many total posts have I liked on Instagram?
 * Which accounts have I engaged with the most?
+* Which topics or hashtags have I engaged with the most?
+  * How do these align with my real interests?
+* How many unique accounts have I engaged with? How many total engagements are captured?
+* What information is available about follows/unfollows?
 * How many comments have I posted?
 * How many hours of YouTube videos have I watched?
+* How has my activity chagned over time?
 
-In addition to these quantitative questions, consider the substance represented in the data. Guiding questions might be:
+Finally, in addition to these quantitative questions, consider the substance represented in the data, particularly in terms of your privacy. Guiding questions might include:
 * If someone only had this data about a person, what would they infer about that person?
 * Which advertisers might try to reach a person with this kind of data?
-* Which data represent me accurately? Inaccurately? Unsure?
+* How specific is this data -- how many others could fit the emerging "profile?"
+* Which data represents me accurately? Inaccurately? Unsure?
 * Does this data capture specific time periods with more or less accuracy?
 * How much of this data would I feel comfortable sharing more broadly?
+  * Which statistics seem "safe" to share publicly?
+  * Which inferences/statistics would I want to keep private?
+
 
