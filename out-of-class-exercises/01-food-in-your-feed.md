@@ -34,13 +34,15 @@ I recommend completing this exercise on real paper (either in your own notebook 
 
 
 ## Discussion Questions
+Review the posts and write a brief reflection (100-200 words) to help you prepare for class discussion. The reflection is open-ended, however, you may want to reflect on the following questions:
+* What sticks out to you? What surprised you?
+* What patterns do you notice in your feed?
 * How many "suggested" posts did you see (from non-subscribed / non-followed accounts)?
 * How many posts were from friends? Influencers? Advertisers? Other?
 * How many posts contained multiple images? Shopping links? Other features?
-* What surprised you most about your feed?
-* What patterns did you notice in your feed?
 * Was there any "borderline" content in your feed?
 * Who shaped this feed, and how?
 * What questions do you have about your feed?
+
 
 
