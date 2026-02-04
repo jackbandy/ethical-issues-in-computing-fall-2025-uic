@@ -7,6 +7,7 @@ Two main goals of discussing these dilemmas are (1) to build descriptive clarity
   * ["S" Version](utilitarian-ethics-trolley-f.md) (switch)
   * ["F" Version](utilitarian-ethics-trolley-s.md) (footbridge)
 * The [transplant case](utilitarian-ethics-transplant.md)
+* The [tortured child](utilitarian-ethics-tortured-child.md)
 
 ## Dilemmas from Care Ethics
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
