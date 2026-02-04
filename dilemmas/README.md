@@ -1,6 +1,6 @@
-This folder contains various ethical dilemmas discussed in class.
-
-Two main goals of discussing these dilemmas are (1) to build descriptive clarity and (2) to recognize patterns in ethical decision-making.
+This folder contains various ethical dilemmas discussed in class. Two main goals of discussing these dilemmas are:
+1. to practice bringing descriptive clarity to such dilemmas, and
+2. to recognize patterns in ethical decision-making.
 
 ## Dilemmas from Utilitarian Ethics
 * The trolley problem
