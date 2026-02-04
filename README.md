@@ -75,6 +75,15 @@ The trolley problem is only the beginning.
       * The [constitution in full](https://www.anthropic.com/constitution)
 * Wednesday, February 4, 2026  
   `🟦 UIC-Halsted 🟦`
+  * Ethics in Algorithmic Feeds
+    * Values in Ranking
+    * Content Moderation
+  * Source materials:
+    * Nick Hopkins, [Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
+    * UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
+    * Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
+    * Tarleton Gillespie, [Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
+
 
 
 ## Unit 2: Stories and Histories
