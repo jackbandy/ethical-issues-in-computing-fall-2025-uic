@@ -90,41 +90,64 @@ The trolley problem is only the beginning.
 #### Week 5
 * Monday, February 9, 2026  
   `🟦 Clinton 🟦`
+  * Algorithmic Feeds and Content Moderation, Continued
+  * Intro to Privacy
+  * Preview short story ("Here and Now")
 * Wednesday, February 11, 2026  
   `🟦 LaSalle 🟦`
+  * Privacy, Continued
 
 #### Week 6
 * Monday, February 16, 2026  
   `🟦 Jackson 🟦`
+  * Privacy, Continued
+  * Discuss short story ("Here and Now")
+  * Preview short story ("Message in a Bottle")
 * Wednesday, February 18, 2026  
   `🟦 Monroe 🟦`
   * Dr. Bandy in St. Louis for [SIGCSE](https://sigcse2026.sigcse.org)
+  * In-class Activity TBA
 
 #### Week 7
 * Monday, February 23, 2026  
   `🟦 Washington 🟦`
+  * Inequality and Justice
+  * Discuss short story ("Message in a Bottle")
+  * Preview short story ("Codename Delphi")
 * Wednesday, February 25, 2026  
   `🟦 Clark/Lake 🟦`
+  * Inequality and Justice, Continued
+    * Faces and Fairness
 
 #### Week 8
 * Monday, March 2, 2026  
   `🟦 Grand 🟦`
+  * CyberSecurity
+  * Discuss short story ("Codename Delphi")
+  * Preview short story ("If an Algorithm Can Cast a Shadow")
 * Wednesday, March 4, 2026  
   `🟦 Chicago 🟦`
+  * Medical and health technologies
 
 
 ## Unit 3: Contemporary Issues
 #### Week 9
 * Monday, March 9, 2026  
   `🟦 Division 🟦`
+  * Intro to Ethical Challenges from LLMs
+  * Discuss short story ("If an Algorithm Can Cast a Shadow")
+  
 * Wednesday, March 11, 2026  
   `🟦 Damen 🟦`
+  * Ethical Challenges from LLMs, Continued
 
 #### Week 10
 * Monday, March 16, 2026  
   `🟦 Western 🟦`
+  * Intellectual property
 * Wednesday, March 18, 2026  
   `🟦 California 🟦`
+  * Intellectual property
 
 #### Week 11
 * Monday, March 23, 2026  
@@ -135,29 +158,40 @@ The trolley problem is only the beginning.
 #### Week 12
 * Monday, March 30, 2026  
   `🟦 Logan Square 🟦`
+  * Environmental impact of computing
+  * Presentation Tips
 * Wednesday, April 1, 2026  
   `🟦 Belmont 🟦`
+  * Book Presentations
 
 #### Week 13
 * Monday, April 6, 2026  
   `🟦 Addison 🟦`
+  * Book Presentations
 * Wednesday, April 8, 2026  
   `🟦 Irving Park 🟦`
+  * Book Presentations
 
 #### Week 14
 * Monday, April 13, 2026  
   `🟦 Montrose 🟦`
+  * Book Presentations
 * Wednesday, April 15, 2026  
   `🟦 Jefferson Park 🟦`
+  * Book Presentations
 
 #### Week 15
 * Monday, April 20, 2026  
   `🟦 Harlem 🟦`
+  * Book Presentations
 * Wednesday, April 22, 2026  
   `🟦 Cumberland 🟦`
+  * Book Presentations
 
 #### Week 16
 * Monday, April 27, 2026  
   `🟦 Rosemont 🟦`
+  * Synthesis and conclusions
 * Wednesday, April 29, 2026  
   `🟦 O'Hare 🟦`
+  * Synthesis and conclusions
