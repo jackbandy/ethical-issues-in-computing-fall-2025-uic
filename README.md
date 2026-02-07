@@ -136,7 +136,6 @@ The trolley problem is only the beginning.
   `🟦 Division 🟦`
   * Intro to Ethical Challenges from LLMs
   * Discuss short story ("If an Algorithm Can Cast a Shadow")
-  
 * Wednesday, March 11, 2026  
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
