@@ -128,6 +128,8 @@ The trolley problem is only the beginning.
 * Wednesday, March 4, 2026  
   `🟦 Chicago 🟦`
   * Medical and health technologies
+  * Source materials:
+    * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
 
 
 ## Unit 3: Contemporary Issues
