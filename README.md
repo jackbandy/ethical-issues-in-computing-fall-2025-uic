@@ -92,7 +92,7 @@ The trolley problem is only the beginning.
   `🟦 Clinton 🟦`
   * Algorithmic Feeds and Content Moderation, Continued
   * Intro to Privacy
-  * Preview short story ("Here and Now")
+  * Preview short story ("[Here and Now](https://archive.ph/p7w46)")
 * Wednesday, February 11, 2026  
   `🟦 LaSalle 🟦`
   * Privacy, Continued
