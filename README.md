@@ -101,6 +101,8 @@ The trolley problem is only the beginning.
 * Wednesday, February 11, 2026  
   `🟦 LaSalle 🟦`
   * Privacy, Continued
+  * Source materials:
+    * Nathan Malkin, [Contextual Integrity, Explained:  A More Usable Privacy Definition](https://doi.org/10.1109/MSEC.2022.3201585)
 
 #### Week 6
 * Monday, February 16, 2026  
