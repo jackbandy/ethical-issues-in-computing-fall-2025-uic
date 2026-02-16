@@ -14,6 +14,9 @@ Yes, an actual doll! Consider your observations from reviewing your trace data i
 * paper bags
 * wire
 
+## Examples
+* If you need some inspiration, [pictures of dolls from Fall 2025 are available here](https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/galleries/doll-gallery.pdf)
+
 
 ## Class Discussion Questions
 * What material did you use for your doll, and why?
@@ -25,6 +28,7 @@ Yes, an actual doll! Consider your observations from reviewing your trace data i
 * How much data were you able to access?
 * How usable was the data provided?
 * What questions and concerns do you still have?
+
 
 
 
