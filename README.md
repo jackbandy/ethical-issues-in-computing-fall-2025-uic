@@ -109,7 +109,8 @@ The trolley problem is only the beginning.
   `🟦 Jackson 🟦`
   * Privacy, Continued
   * Discuss short story ("Here and Now")
-  * Preview short story ("Message in a Bottle")
+  * Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
+    * PDF available in Canvas
 * Wednesday, February 18, 2026  
   `🟦 Monroe 🟦`
   * Dr. Bandy in St. Louis for [SIGCSE](https://sigcse2026.sigcse.org)
