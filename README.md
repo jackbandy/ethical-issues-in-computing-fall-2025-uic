@@ -114,7 +114,7 @@ The trolley problem is only the beginning.
 * Wednesday, February 18, 2026  
   `🟦 Monroe 🟦`
   * Dr. Bandy in St. Louis for [SIGCSE](https://sigcse2026.sigcse.org)
-  * In-class Activity TBA
+  * Asynchronous class to work on exercises
 
 #### Week 7
 * Monday, February 23, 2026  
