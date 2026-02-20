@@ -53,7 +53,7 @@ After you get a high-level view of the data, try to find some interesting lifeti
 * What information is available about follows/unfollows?
 * How many comments have I posted?
 * How many hours of YouTube videos have I watched?
-* How has my activity chagned over time?
+* How has my activity changed over time?
 
 Finally, in addition to these quantitative questions, consider the substance represented in the data, particularly in terms of your privacy. Guiding questions might include:
 * If someone only had this data about a person, what would they infer about that person?
@@ -65,4 +65,8 @@ Finally, in addition to these quantitative questions, consider the substance rep
   * Which statistics seem "safe" to share publicly?
   * Which inferences/statistics would I want to keep private?
 
+
+## Submission
+
+Submit a **1-page PDF reflection** in canvas, which should include about 200-400 words, written in complete sentences. Make sure your reflection is grounded in the data you collected and analyzed. Charts and graphs are welcome but not required (if you do include them, your report can be more than 1 page).
 
