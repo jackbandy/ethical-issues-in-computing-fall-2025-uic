@@ -149,6 +149,8 @@ The trolley problem is only the beginning.
 * Wednesday, March 11, 2026  
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
+  * Source materials:
+    * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
 
 #### Week 10
 * Monday, March 16, 2026  
