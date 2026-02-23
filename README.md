@@ -151,6 +151,7 @@ The trolley problem is only the beginning.
   * Ethical Challenges from LLMs, Continued
   * Source materials:
     * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
+    * Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
 
 #### Week 10
 * Monday, March 16, 2026  
