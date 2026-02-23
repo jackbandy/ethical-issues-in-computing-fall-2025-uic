@@ -121,7 +121,7 @@ The trolley problem is only the beginning.
   `🟦 Washington 🟦`
   * Inequality and Justice
   * Discuss short story ("Message in a Bottle")
-  * Preview short story ("Codename Delphi")
+  * Preview short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
 * Wednesday, February 25, 2026  
   `🟦 Clark/Lake 🟦`
   * Inequality and Justice, Continued
