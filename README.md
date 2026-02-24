@@ -125,7 +125,9 @@ The trolley problem is only the beginning.
 * Wednesday, February 25, 2026  
   `🟦 Clark/Lake 🟦`
   * Inequality and Justice, Continued
-    * Faces and Fairness
+  * Faces and Fairness
+  * Source materials:
+    * New York Times, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
 
 #### Week 8
 * Monday, March 2, 2026  
