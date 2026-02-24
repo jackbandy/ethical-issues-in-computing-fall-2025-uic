@@ -152,6 +152,7 @@ The trolley problem is only the beginning.
   * Source materials:
     * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
     * Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
+    * Futurism, [New AI Agent Logs Directly Into College Platform Canvas to Do Your Homework for You](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
 
 #### Week 10
 * Monday, March 16, 2026  
