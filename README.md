@@ -127,7 +127,11 @@ The trolley problem is only the beginning.
   * Inequality and Justice, Continued
   * Faces and Fairness
   * Source materials:
-    * New York Times, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
+    * ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
+    * [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
+    * [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
+    * Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
+    * _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
 
 #### Week 8
 * Monday, March 2, 2026  
