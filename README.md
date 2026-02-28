@@ -139,6 +139,7 @@ The trolley problem is only the beginning.
   * Computing and War
   * Discuss short story ("Codename Delphi")
   * Preview short story ("[If an Algorithm Can Cast a Shadow](https://clarkesworldmagazine.com/jia-wen_06_25/)")
+    * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
   * Source materials:
     * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
     * Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
