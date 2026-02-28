@@ -136,12 +136,22 @@ The trolley problem is only the beginning.
 #### Week 8
 * Monday, March 2, 2026  
   `🟦 Grand 🟦`
-  * CyberSecurity
+  * Computing and War
   * Discuss short story ("Codename Delphi")
   * Preview short story ("If an Algorithm Can Cast a Shadow")
+  * Source materials:
+    * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
+    * Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
+    * Edward Ongweso Jr, ["Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
+    * Pavel Aksenov, ["Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
+    * Stavroula Pabst, ["How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
+    * Roberto J. González, ["How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+    * Eric P.S. Baumer and M. Six Silberman ["When the implication is not to design (technology)"](https://doi.org/10.1145/1978942.1979275)
+    * Juan Pablo Hourcade, ["Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
 * Wednesday, March 4, 2026  
   `🟦 Chicago 🟦`
   * Medical and health technologies
+  * Intro to CyberSecurity
   * Source materials:
     * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
 
