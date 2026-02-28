@@ -1,0 +1,16 @@
+Rank,Topic,Mean,Median,Std Dev,Min,Max,N
+1,Applied ethics in AI and algorithms,8.78,9.0,1.67,1,10,50
+2,Privacy and surveillance,8.60,9.0,1.71,1,10,50
+3,Cybersecurity,8.18,9.0,1.93,1,10,50
+4,Medical/health technologies,7.48,8.0,2.05,1,10,50
+5,"Inequality, justice, and human rights",7.44,8.0,2.40,1,10,50
+6,Environmental impact of computing,7.22,8.0,2.57,1,10,50
+7,Civic responsibility and misinformation,7.00,7.0,2.19,1,10,50
+8,Philosophy and moral theory,6.92,7.0,2.56,1,10,50
+9,Work and labor,6.86,7.0,2.19,1,10,50
+10,Business and economics,6.66,7.5,2.62,1,10,50
+11,Law and policy,6.60,7.0,2.36,1,10,50
+12,Robotics,6.54,7.0,2.43,1,10,50
+13,Design ethics,6.28,6.0,2.27,1,10,50
+14,Research ethics,6.24,7.0,2.22,1,10,50
+15,Professional ethics,6.20,6.0,2.05,1,10,50
