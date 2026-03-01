@@ -167,9 +167,12 @@ The trolley problem is only the beginning.
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
   * Source materials:
+    * Open to Debate, [Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
     * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
     * Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
     * Futurism, [New AI Agent Logs Directly Into College Platform Canvas to Do Your Homework for You](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
+    * Matthew Gault, [What’s the Point of School When AI Can Do Your Homework?](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
+
 
 #### Week 10
 * Monday, March 16, 2026  
