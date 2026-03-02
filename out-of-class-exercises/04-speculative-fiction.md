@@ -37,10 +37,11 @@ Again, you must write the story yourself -- all the words must come from _you_! 
 
 
 ## Part 3: Promotional Slide
-Finally, use [the templates in these slides](https://docs.google.com/presentation/d/1EznTXuwHykVb_PGJaNpEewgeQ3KMvRlvLSjepsB2BZc/edit?usp=sharing) to create a promotional slide for your episode. Specifically, be sure to (1) choose a title, (2) write a log line for the episode, and (3) take a photo that goes with the story you wrote.
+Finally, use [the templates in these slides](https://docs.google.com/presentation/d/1SCwztKbu63bmV9BgYrdtvGuxztcMk7k6AFFlOpXPclw/edit?usp=sharing) to create a promotional slide for your episode. Specifically, be sure to (1) choose a title, (2) write a log line for the episode, and (3) take a photo that goes with the story you wrote.
 
 # Examples
 More topic ideas and examples available in [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing)
+
 
 
 
