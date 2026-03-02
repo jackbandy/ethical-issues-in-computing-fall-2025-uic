@@ -197,10 +197,11 @@ The trolley problem is only the beginning.
 * Monday, March 9, 2026  
   `🟦 Division 🟦`
   * Intro to Ethical Challenges from LLMs
-  * Discuss short story ("If an Algorithm Can Cast a Shadow")
+  * Discuss Speculative Fiction Exercise
 * Wednesday, March 11, 2026  
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
+  * Discuss short story ("If an Algorithm Can Cast a Shadow")
   * <details><summary>Source materials</summary>
 
     * Open to Debate, [Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
