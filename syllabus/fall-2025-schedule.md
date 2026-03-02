@@ -74,9 +74,9 @@ The trolley problem is only the beginning.
   * Mini-lecture: values in (ranking) algorithms
   * **After-class exercise**: [📄 food in your feed / media diary](reflections/05-feed-diary.pdf) (due at start of class September 17th)
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 2: Content Moderation and Advertising**
@@ -89,9 +89,9 @@ The trolley problem is only the beginning.
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
     * [🔗 Reddit ``Platform-wide'' Rules](https://redditinc.com/policies/reddit-rules)
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 ### Week 5
 * Monday, September 22, 2025  
@@ -101,9 +101,9 @@ The trolley problem is only the beginning.
   * Mini-lecture on rights
   * Lawmaking activity
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
   * Topic: **Facial Recognition**
@@ -114,9 +114,9 @@ The trolley problem is only the beginning.
   * **Before Class**: Watch [📺 John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
   * **Before Class**: Watch [📺 Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 
 ### Week 6
@@ -132,9 +132,9 @@ The trolley problem is only the beginning.
   * **Before Class**: Turn in Book Selection (available in Gradescope)
   * Topic: **Privacy in Data Analytics**
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 ### Week 7
 * Monday, October 6, 2025  
@@ -151,9 +151,9 @@ The trolley problem is only the beginning.
   * Mini-lecture on intellectual property
   * Arts & crafts time to work on [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 ### Week 8
 * Monday, October 13, 2025  
@@ -161,17 +161,17 @@ The trolley problem is only the beginning.
   * **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
   * Topic: **Digital Inequality**
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, October 15, 2025  
   `🔵 Division 🔵`
   * **Before Class**: Read [Joseph Weizenbaum's speech, "Not Without Us"](https://www.jstor.org/stable/48617451)
   * Topic: 💣 Computing's Role in Peace, Conflict, War
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 ### Week 9
 * Monday, October 20, 2025  
@@ -180,9 +180,9 @@ The trolley problem is only the beginning.
   * Discuss "Stochastic Parrots"
   * Mini red-teaming activity
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, October 22, 2025  
   `🔵 Western (O'Hare Branch) 🔵`
   * **Before class**: Read [Claire Jia-Wen's story, "If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
@@ -200,25 +200,25 @@ The trolley problem is only the beginning.
   * Confirm [presentation schedule](https://docs.google.com/spreadsheets/d/1FlONlnU9Dx2SlgFEHLl0qcOkbJElDrcBYJCm1qkRHXo/edit?usp=sharing)
   * Mini-lecture on "The Californian Ideology"
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, October 29, 2025  
   `🔵 Logan Square 🔵` 
   * Topic: 💩 **Four Forces to Fight Enshittification**
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 ### Week 11
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵` 
   * Topic: 🎣 **"Dark Patterns" and Addiction in UI Design**
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, November 5, 2025  
   `🔵 Addison 🔵`
   * **Asynchronous Class** (no in-person meeting)
@@ -230,17 +230,17 @@ The trolley problem is only the beginning.
   `🔵 Irving Park 🔵` 
   * Topic: ⚖️ **Algorithmic Bias and Fairness**
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 * Wednesday, November 12, 2025  
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
   * Peer Presentations
   * <details><summary>Source materials</summary>
-<ul>
-</ul>
-  </details>
+
+
+    </details>
 
 ### Week 13
 * Monday, November 17, 2025  
