@@ -170,7 +170,9 @@ The trolley problem is only the beginning.
   * <details><summary>Source materials</summary>
 
     * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
+    * Ross Andersen, ["Inside Anthropic’s Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/)
     * Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
+    * Ed Pilkington, ["US military reportedly used Claude in Iran strikes despite Trump’s ban"](https://www.theguardian.com/technology/2026/mar/01/claude-anthropic-iran-strikes-us-military)
     * Edward Ongweso Jr, ["Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
     * Pavel Aksenov, ["Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
     * Stavroula Pabst, ["How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
