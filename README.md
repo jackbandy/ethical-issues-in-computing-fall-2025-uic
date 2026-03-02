@@ -24,17 +24,14 @@ The trolley problem is only the beginning.
   `🟦 Oak Park 🟦`
   * Introduction to Virtue Ethics
   * <details><summary>Source materials</summary>
-<ul>
-<li><a href="https://plato.stanford.edu/entries/ethics-virtue/">Virtue Ethics, Stanford Encyclopedia of Philosophy</a></li>
-<li><a href="https://archive.org/details/isbn_0268006040"><em>After Virtue</em> by Alasdair MacIntyre</a></li>
-<li><a href="https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted">List of Moral Virtues, Wikipedia</a></li>
-<li><a href="https://www.imdb.com/title/tt0227868/">Adventures from the Book of Virtues, IMDB</a>
-<ul>
-<li>Some episodes available online, e.g. <a href="https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted">Generosity</a></li>
-</ul>
-</li>
-</ul>
-  </details>
+
+    * [Virtue Ethics, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/)
+    * [_After Virtue_ by Alasdair MacIntyre](https://archive.org/details/isbn_0268006040)
+    * [List of Moral Virtues, Wikipedia](https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted)
+    * [Adventures from the Book of Virtues, IMDB](https://www.imdb.com/title/tt0227868/)
+      * Some episodes available online, e.g. [Generosity](https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted)
+
+    </details>
 
 #### Week 2
 * Monday, January 19, 2026  
@@ -43,69 +40,66 @@ The trolley problem is only the beginning.
   `🟦 Cicero 🟦`
   * Introduction to Deontological Ethics
   * <details><summary>Source materials</summary>
-<ul>
-<li>Stanford Encyclopedia of Philosophy, <a href="https://plato.stanford.edu/entries/ethics-deontological/">Deontological Ethics</a></li>
-</ul>
-  </details>
+
+    * Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
+
+    </details>
 
 #### Week 3
 * Monday, January 26, 2026  
   `🟦 Western 🟦`
   * Introduction to Utilitarian Ethics
   * <details><summary>Source materials</summary>
-<ul>
-<li>Journal Article by Margery Bedford Naylor, <a href="https://doi.org/10.2307/2108017">The Moral of the Trolley Problem</a></li>
-<li>Journal Article by Michael Clark, <a href="https://www.jstor.org/stable/24354077">Sacrificing One to Save Many</a></li>
-<li>Stanford Encyclopedia of Philosophy, <a href="https://plato.stanford.edu/ENTRiES/utilitarianism-history/">History of Utilitarianism</a></li>
-<li>Blog Post by S. Matthiew Liao, <a href="https://blog.uehiro.ox.ac.uk/2008/02/the-transplant-case-in-real-life/">The Transplant Case in Real Life</a></li>
-<li>Trolley Problem(s) <a href="http://subcortex.com/pictures/">images by Jesse Prinz</a></li>
-<li>Trolley Problem(s) <a href="https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf">text by Chad Vance</a></li>
-<li>"Absurd Trolley Problems" <a href="https://neal.fun/absurd-trolley-problems/">curated by Neal Agarwal</a></li>
-</ul>
-  </details>
+
+    * Journal Article by Margery Bedford Naylor, [The Moral of the Trolley Problem](https://doi.org/10.2307/2108017)
+    * Journal Article by Michael Clark, [Sacrificing One to Save Many](https://www.jstor.org/stable/24354077)
+    * Stanford Encyclopedia of Philosophy, [History of Utilitarianism](https://plato.stanford.edu/ENTRiES/utilitarianism-history/)
+    * Blog Post by S. Matthiew Liao, [The Transplant Case in Real Life](https://blog.uehiro.ox.ac.uk/2008/02/the-transplant-case-in-real-life/)
+    * Trolley Problem(s) [images by Jesse Prinz](http://subcortex.com/pictures/)
+    * Trolley Problem(s) [text by Chad Vance](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
+    * "Absurd Trolley Problems" [curated by Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
+
+    </details>
 * Wednesday, January 28, 2026  
   `🟦 Illinois Medical District 🟦`
   * Introduction to Care Ethics
   * <details><summary>Source materials</summary>
-<ul>
-<li>The <a href="dilemmas/care-ethics-porcupine-and-moles.md">Porcupine and the Moles</a></li>
-<li>The <a href="care-ethics-heinz-dilemma.md">Heinz Dilemma</a></li>
-<li>Internet Encyclopedia of Philosophy, <a href="https://iep.utm.edu/care-ethics/">Care Ethics</a></li>
-<li>Encyclopedia Britannica, <a href="https://www.britannica.com/biography/Carol-Gilligan">Carol Gilligan</a></li>
-<li>From "a different voice" to <a href="https://www.newstatesman.com/culture/books/2023/10/carol-gilligan-gender-binary-human-voice">"a human voice"</a></li>
-<li>Kohlberg's <a href="https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf">theory of moral development</a></li>
-<li>More <a href="https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html">about Carol Gilligan</a></li>
-</ul>
-  </details>
+
+    * The [Porcupine and the Moles](dilemmas/care-ethics-porcupine-and-moles.md)
+    * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
+    * Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/)
+    * Encyclopedia Britannica, [Carol Gilligan](https://www.britannica.com/biography/Carol-Gilligan)
+    * From "a different voice" to ["a human voice"](https://www.newstatesman.com/culture/books/2023/10/carol-gilligan-gender-binary-human-voice)
+    * Kohlberg's [theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
+    * More [about Carol Gilligan](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html)
+
+    </details>
 
 #### Week 4
 * Monday, February 2, 2026  
   `🟦 Racine 🟦`
   * Review theories of ethics
   * <details><summary>Source materials</summary>
-<ul>
-<li>(2016) <a href="https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges">Illinois Panhandling Laws Face Renewed Legal Challenges</a></li>
-<li>(2023) <a href="https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews">Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews</a></li>
-<li>Caleb Williams <a href="https://www.youtube.com/watch?v=iM3Bu_S82Jc">responds to a trolley problem</a></li>
-<li>Discussing Anthropic's 80-page "Constitution" document with <a href="https://archive.is/Xlv9q">Amanda Askell</a>
-<ul>
-<li>The <a href="https://www.anthropic.com/constitution">constitution in full</a></li>
-</ul>
-</li>
-</ul>
-  </details>
+
+    * (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
+    * (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
+    * Caleb Williams [responds to a trolley problem](https://www.youtube.com/watch?v=iM3Bu_S82Jc)
+    * Discussing Anthropic's 80-page "Constitution" document with [Amanda Askell](https://archive.is/Xlv9q)
+      * The [constitution in full](https://www.anthropic.com/constitution)
+
+    </details>
 * Wednesday, February 4, 2026  
   `🟦 UIC-Halsted 🟦`
   * Ethics in Algorithmic Feeds
     * Values in Ranking
     * Content Moderation
   * <details><summary>Source materials</summary>
-<ul>
-<li>Nick Hopkins, <a href="https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence">Facebook's internal rulebook on sex, terrorism and violence (2017)</a></li>
-<li>UChicago <a href="https://ocmp43.cs.uchicago.edu">Online Content Moderation Policies from 43 Platforms</a></li>
-<li>Schaffner et al., <a href="https://doi.org/10.1145/3613904.3642333">"Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies</a></li>
-</ul>
-  </details>
+
+    * Nick Hopkins, [Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
+    * UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
+    * Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
+
+    </details>
 
 
 
@@ -117,22 +111,22 @@ The trolley problem is only the beginning.
   * Intro to Privacy
   * Preview short story ("[Here and Now](https://archive.ph/p7w46)")
   * <details><summary>Source materials</summary>
-<ul>
-<li>Tarleton Gillespie, <a href="https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf"><em>Custodians of the Internet: platforms, content moderation, and the hidden decisions that shape social media</em></a></li>
-<li>Tarleton Gillespie, <a href="https://doi.org/10.1177/2053951720943234">Content Moderation, AI, and the Question of Scale</a></li>
-<li>Meta's <a href="https://transparency.meta.com/policies/community-standards/">Community Standards</a></li>
-<li>Meta's <a href="https://transparency.meta.com/features/approach-to-newsworthy-content">exceptions for newsworthy content</a></li>
-<li>Reddit's <a href="https://redditinc.com/policies/reddit-rules">Platform-wide Rules</a></li>
-</ul>
-  </details>
+
+    * Tarleton Gillespie, [*Custodians of the Internet: platforms, content moderation, and the hidden decisions that shape social media*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf)
+    * Tarleton Gillespie, [Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
+    * Meta's [Community Standards](https://transparency.meta.com/policies/community-standards/)
+    * Meta's [exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
+    * Reddit's [Platform-wide Rules](https://redditinc.com/policies/reddit-rules)
+
+    </details>
 * Wednesday, February 11, 2026  
   `🟦 LaSalle 🟦`
   * Privacy, Continued
   * <details><summary>Source materials</summary>
-<ul>
-<li>Nathan Malkin, <a href="https://doi.org/10.1109/MSEC.2022.3201585">Contextual Integrity, Explained:  A More Usable Privacy Definition</a></li>
-</ul>
-  </details>
+
+    * Nathan Malkin, [Contextual Integrity, Explained:  A More Usable Privacy Definition](https://doi.org/10.1109/MSEC.2022.3201585)
+
+    </details>
 
 #### Week 6
 * Monday, February 16, 2026  
@@ -157,14 +151,14 @@ The trolley problem is only the beginning.
   * Inequality and Justice, Continued
   * Faces and Fairness
   * <details><summary>Source materials</summary>
-<ul>
-<li><a href="https://proceedings.mlr.press/v81/buolamwini18a.html">"Gender Shades" study</a></li>
-<li><a href="https://youtu.be/jZjmlJPJgug">John Oliver's Segment on Facial Recognition (21 minutes)</a></li>
-<li><a href="https://www.youtube.com/watch?v=UG_X_7g63rY">Joy Buolamwini's TED Talk (9 minutes)</a></li>
-<li>Report by Algorithmic Justice League, <a href="https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf">Facial Recognition Technologies: A Primer</a></li>
-<li>_New York Times_, <a href="https://archive.ph/hwGd4">Meta Plans to Add Facial Recognition Technology to Its Smart Glasses</a></li>
-</ul>
-  </details>
+
+    * ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
+    * [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
+    * [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
+    * Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
+    * _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
+
+    </details>
 
 #### Week 8
 * Monday, March 2, 2026  
@@ -174,26 +168,28 @@ The trolley problem is only the beginning.
   * Preview short story ("[If an Algorithm Can Cast a Shadow](https://clarkesworldmagazine.com/jia-wen_06_25/)")
     * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
   * <details><summary>Source materials</summary>
-<ul>
-<li>Joseph Weizenbaum's speech <a href="https://www.jstor.org/stable/48617451">"Not Without Us"</a></li>
-<li>Keach Hagey, <a href="https://archive.ph/qcGEY">"Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"</a></li>
-<li>Edward Ongweso Jr, <a href="https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/">"Big Tech Has Made Billions Off the 20-Year War on Terror"</a></li>
-<li>Pavel Aksenov, <a href="https://www.bbc.com/news/world-europe-24280831">"Stanislav Petrov: The man who may have saved the world"</a></li>
-<li>Stavroula Pabst, <a href="https://responsiblestatecraft.org/silicon-valley/">"How the Pentagon Built Silicon Valley"</a></li>
-<li>Roberto J. González, <a href="https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex">"How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"</a></li>
-<li>Eric P.S. Baumer and M. Six Silberman <a href="https://doi.org/10.1145/1978942.1979275">"When the implication is not to design (technology)"</a></li>
-<li>Juan Pablo Hourcade, <a href="https://doi.org/10.1145/1520340.1520354">"Give peace a chance: a call to design technologies for peace"</a></li>
-</ul>
-  </details>
+
+    * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
+    * Ross Andersen, ["Inside Anthropic’s Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/)
+    * Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
+    * Ed Pilkington, ["US military reportedly used Claude in Iran strikes despite Trump’s ban"](https://www.theguardian.com/technology/2026/mar/01/claude-anthropic-iran-strikes-us-military)
+    * Edward Ongweso Jr, ["Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
+    * Pavel Aksenov, ["Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
+    * Stavroula Pabst, ["How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
+    * Roberto J. González, ["How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+    * Eric P.S. Baumer and M. Six Silberman ["When the implication is not to design (technology)"](https://doi.org/10.1145/1978942.1979275)
+    * Juan Pablo Hourcade, ["Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
+
+    </details>
 * Wednesday, March 4, 2026  
   `🟦 Chicago 🟦`
   * Medical and health technologies
   * Intro to CyberSecurity
   * <details><summary>Source materials</summary>
-<ul>
-<li>Reuters, <a href="https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/">As AI enters the operating room, reports arise of botched surgeries and misidentified body parts</a></li>
-</ul>
-  </details>
+
+    * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
+
+    </details>
 
 
 ## Unit 3: Contemporary Issues
@@ -201,19 +197,20 @@ The trolley problem is only the beginning.
 * Monday, March 9, 2026  
   `🟦 Division 🟦`
   * Intro to Ethical Challenges from LLMs
-  * Discuss short story ("If an Algorithm Can Cast a Shadow")
+  * Discuss Speculative Fiction Exercise
 * Wednesday, March 11, 2026  
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
+  * Discuss short story ("If an Algorithm Can Cast a Shadow")
   * <details><summary>Source materials</summary>
-<ul>
-<li>Open to Debate, <a href="https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030">Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”</a></li>
-<li>Financial Times, <a href="https://archive.ph/msZJ3">Amazon service was taken down by AI coding bot</a></li>
-<li>Wall Street Journal, <a href="https://archive.ph/5WWdU">OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago</a></li>
-<li>Futurism, <a href="https://futurism.com/artificial-intelligence/ai-agent-canvas-homework">New AI Agent Logs Directly Into College Platform Canvas to Do Your Homework for You</a></li>
-<li>Matthew Gault, <a href="https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/">What’s the Point of School When AI Can Do Your Homework?</a></li>
-</ul>
-  </details>
+
+    * Open to Debate, [Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
+    * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
+    * Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
+    * Futurism, [New AI Agent Logs Directly Into College Platform Canvas to Do Your Homework for You](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
+    * Matthew Gault, [What’s the Point of School When AI Can Do Your Homework?](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
+
+    </details>
 
 
 #### Week 10
