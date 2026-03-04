@@ -188,6 +188,12 @@ The trolley problem is only the beginning.
   * <details><summary>Source materials</summary>
 
     * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
+    * California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
+      * "Botched Operaion" YouTube Series about electronic health records:
+        * [Part 1](https://www.youtube.com/watch?v=-45n_0Rl8M4)
+        * [Part 2](https://www.youtube.com/watch?v=UjFFaN0Ue2E)
+        * [Part 3](https://www.youtube.com/watch?v=-3EJdWDMCa0)
+        * [Part 4](https://www.youtube.com/watch?v=g3te10iU9Vk)
 
     </details>
 
