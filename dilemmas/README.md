@@ -13,6 +13,10 @@ This folder contains various ethical dilemmas discussed in class. Two main goals
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
 * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
 
+## Other Dilemmas
+* The [Good Doctor](good-doctor.md)
+* "[Under the Rug](good-doctor.md)"
+
 
 ---
 
