@@ -204,6 +204,16 @@ The trolley problem is only the beginning.
   `🟦 Division 🟦`
   * Intro to Ethical Challenges from LLMs
   * Discuss Speculative Fiction Exercise
+  * <details><summary>Source materials</summary>
+
+    * _The Wall Street Journal_, [Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
+    * Bender and Gebru et al. [On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
+      * [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
+    * Chiang and Zheng et al. [An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=3MW8GKNyzI)
+      * [LMArena](https://lmarena.ai/?mode=side-by-side) / [About](https://lmarena.ai/about)
+    * [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
+  </details>
+
 * Wednesday, March 11, 2026  
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
