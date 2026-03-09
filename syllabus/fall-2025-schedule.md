@@ -73,10 +73,13 @@ The trolley problem is only the beginning.
   * Activity: uprank / downrank
   * Mini-lecture: values in (ranking) algorithms
   * **After-class exercise**: [📄 food in your feed / media diary](reflections/05-feed-diary.pdf) (due at start of class September 17th)
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials
+    * Report: [🔗 Knight-Georgetown Institute, Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/research-and-commentary/better-feeds/)
+    * Research: [🔗 Eslami et al., FeedVis: A Path for Exploring News Feed Curation Algorithms](https://doi.org/10.1145/2685553.2702690)
+    * Research: [🔗 Stray et al., Building Human Values into Recommender Systems: An Interdisciplinary Synthesis](https://doi.org/10.1145/3632297)
+    * Analysis: [🔗 Tom Cunningham, Ranking by Engagement](https://tecunningham.github.io/posts/2023-04-28-ranking-by-engagement.html)
+    * Analysis: [🔗 Neil Postman, Informing Ourselves to Death](https://www.exodusbooks.com/Samples/Penguin/1235Informing.pdf)
+    * Poetry: [🔗 Simone Weil, Attention and Will](https://rohandrape.net/ut/rttcc-text/Weil1952d.pdf)
 * Wednesday, September 17, 2025  
   `🔵 Clinton 🔵` 
   * Topic: **📱 Algorithmic Feeds Part 2: Content Moderation and Advertising**
@@ -88,10 +91,11 @@ The trolley problem is only the beginning.
     * [🔗 Meta's Community Standards](https://transparency.meta.com/policies/community-standards/)
     * [🔗 Meta's exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
     * [🔗 Reddit ``Platform-wide'' Rules](https://redditinc.com/policies/reddit-rules)
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials:
+    * Resource: [🔗 Nick Hopkins, Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
+    * Resource: [🔗 UChicago, Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
+    * Research: [🔗 Schaffner et al., "Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
+    * Research: [🔗 Tarleton Gillespie, Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
 
 ### Week 5
 * Monday, September 22, 2025  
@@ -100,10 +104,14 @@ The trolley problem is only the beginning.
   * Discuss human rights
   * Mini-lecture on rights
   * Lawmaking activity
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials
+    * Report: [🔗 The White House, Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/)
+    * Resource: [🔗 United Nations, Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+    * Resource: [🔗 iFixIt, What is Right to Repair?](https://www.ifixit.com/Right-to-Repair#repair-is-freedom)
+    * Video: [📺 Trevor Noah on Right to Repair](https://www.youtube.com/watch?v=LeGTvaYRTB8)
+    * Video: [📺 *VICE*, Farmers Are Hacking Their Tractors Because of a Right to Repair Ban](https://www.youtube.com/watch?v=EPYy_g8NzmI)
+    * Video: [📺 More Perfect Union, How John Deere Robs Farmers Of $4 Billion A Year](https://www.youtube.com/watch?v=jaOS6bGta7M)
+    * Organization: [🔗 Repair Preservation Group](https://fighttorepair.org)
 * Wednesday, September 24, 2025  
   `🔵 Jackson 🔵` 
   * Topic: **Facial Recognition**
@@ -113,10 +121,8 @@ The trolley problem is only the beginning.
   * Group reflection/debrief
   * **Before Class**: Watch [📺 John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
   * **Before Class**: Watch [📺 Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials
+    * Report: [🔗 Algorithmic Justice League, Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
 
 
 ### Week 6
@@ -131,10 +137,13 @@ The trolley problem is only the beginning.
   `🔵 Washington 🔵` 
   * **Before Class**: Turn in Book Selection (available in Gradescope)
   * Topic: **Privacy in Data Analytics**
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials:
+    * Demo: [🔗 How unique am I?](https://aboutmyinfo.org/identity)
+    * Research: [📄 Latanya Sweeney, Simple Demographics Often Identify People Uniquely](https://dataprivacylab.org/projects/identifiability/paper1.pdf)
+    * Research: [📄 Narayanan and Shmatikov, How To Break Anonymity of the Netflix Prize Dataset](https://arxiv.org/abs/cs/0610105)
+    * Research: [📄 Helen Nissenbaum, Privacy as Contextual Integrity](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/)
+    * Research: [📄 Helen Nissenbaum, Contextual Integrity Up and Down the Data Food Chain](https://nissenbaum.tech.cornell.edu/papers/Contextual%20Integrity%20Up%20and%20Down.pdf)
+    * Article: [🔗 Bruce Schneier, Why 'Anonymous' Data Sometimes Isn't](https://www.schneier.com/essays/archives/2007/12/why_anonymous_data_s.html)
 
 ### Week 7
 * Monday, October 6, 2025  
@@ -150,28 +159,35 @@ The trolley problem is only the beginning.
   * Book selections
   * Mini-lecture on intellectual property
   * Arts & crafts time to work on [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials:
+    * Article: [🔗 Ashley Belanger, OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million.](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/)
+    * Article: [🔗 Matt O'Brien, Anthropic to pay authors $1.5 billion to settle lawsuit over pirated books used to train AI chatbots](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164)
+    * Report: [🔗 Exhibit J to The New York Times’s Complaint against Microsoft and OpenAI](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
 
 ### Week 8
 * Monday, October 13, 2025  
   `🔵 Chicago 🔵`  
   * **Before Class**: Turn in [Digital Rag Doll](out-of-class-exercises/02-digital-trace-rag-doll.md)
   * Topic: **Digital Inequality**
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source materials:
+    * Project: [🔗 Folded Map](https://www.foldedmapproject.com/context)
+    * Project: [🔗 Mapping Inequality: Redlining in New Deal America](https://dsl.richmond.edu/panorama/redlining/about)
+    * Research: [📄 Paul DiMaggio et al., "From Unequal Access to Differentiated Use: A Literature Review and Agenda for Research on Digital Inequality"](https://www.russellsage.org/research/outputs/unequal-access-differentiated-use-literature-review-and-agenda-research-digital)
+    * Article: [🔗 Aaron Sankin and Leon Yin, "Slow Internet? Find Out What Side of the Digital Divide You’re On"](https://themarkup.org/build-your-own-dataset/2023/05/11/slow-internet-find-out-what-side-of-the-digital-divide-youre-on)
+    * Article: [🔗 Leon Yin and Aaron Sankin, "Dollars to Megabits, You May Be Paying 400 Times As Much As Your Neighbor for Internet Service"](https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service)
+    * Chapter: [📕 Kate Williams, "Rethinking digital divide research: datasets and theoretical frameworks"](https://katewill.web.ischool.illinois.edu/work/10-williams-2011-rethinking-digital-divide-research.pdf)
 * Wednesday, October 15, 2025  
   `🔵 Division 🔵`
   * **Before Class**: Read [Joseph Weizenbaum's speech, "Not Without Us"](https://www.jstor.org/stable/48617451)
   * Topic: 💣 Computing's Role in Peace, Conflict, War
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials:
+    * Article: [📰 Edward Ongweso Jr, "Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
+    * Article: [📰 Pavel Aksenov, "Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
+    * Article: [📰 Stavroula Pabst, "How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
+    * Report: [📄 Roberto J. González, "How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+    * Research: [📄 Eric P.S. Baumer and M. Six Silberman, "When the implication is not to design (technology)"](https://doi.org/10.1145/1978942.1979275)
+    * Research: [📄 Juan Pablo Hourcade, "Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
+    * Data: [📋 Annual Report on Top Defense Companies](https://people.defensenews.com/top-100/)
 
 ### Week 9
 * Monday, October 20, 2025  
@@ -179,10 +195,13 @@ The trolley problem is only the beginning.
   * Topic: 💬 **Large Language Models (bias, safeguards, red-teaming)**
   * Discuss "Stochastic Parrots"
   * Mini red-teaming activity
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials:
+    * Podcast: [🎧 _The Wall Street Journal_, Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
+    * Research: [🦜 Bender and Gebru et al., On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
+      * Data: [📋 List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
+    * Research: [📄 Chiang and Zheng et al., An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=3MW8GKNyzI)
+    * Project: [🔗 LMArena](https://lmarena.ai/?mode=side-by-side) / [About](https://lmarena.ai/about)
+    * Project: [🔗 ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
 * Wednesday, October 22, 2025  
   `🔵 Western (O'Hare Branch) 🔵`
   * **Before class**: Read [Claire Jia-Wen's story, "If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
@@ -199,26 +218,23 @@ The trolley problem is only the beginning.
   * Peer review on speculative fiction
   * Confirm [presentation schedule](https://docs.google.com/spreadsheets/d/1FlONlnU9Dx2SlgFEHLl0qcOkbJElDrcBYJCm1qkRHXo/edit?usp=sharing)
   * Mini-lecture on "The Californian Ideology"
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials
+    * Essay: [📄 Richard Barbrook and Andy Cameron, "The californian ideology"](http://www.imaginaryfutures.net/2007/04/17/the-californian-ideology-2/)
 * Wednesday, October 29, 2025  
   `🔵 Logan Square 🔵` 
   * Topic: 💩 **Four Forces to Fight Enshittification**
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials:
+    * Book: [📘 Cory Doctorow, "Enshittification: Why Everything Suddenly Got Worse and What to Do About It"](https://us.macmillan.com/books/9780374619329/enshittification/)
 
 ### Week 11
 * Monday, November 3, 2025  
   `🔵 Belmont 🔵` 
   * Topic: 🎣 **"Dark Patterns" and Addiction in UI Design**
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials:
+    * Research: [📄 BJ Fogg, Persuasive Computers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
+    * Lab: [🔗 Behavior Design Lab](https://behaviordesign.stanford.edu/about-us)
+    * Book: [📙 Nir Eyal, Hooked - How to Build Habit-Forming Products](https://www.nirandfar.com/hooked/)
+    * Op-Ed: [📝 Yasmin Samrai, How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
 * Wednesday, November 5, 2025  
   `🔵 Addison 🔵`
   * **Asynchronous Class** (no in-person meeting)
@@ -229,18 +245,23 @@ The trolley problem is only the beginning.
 * Monday, November 10, 2025  
   `🔵 Irving Park 🔵` 
   * Topic: ⚖️ **Algorithmic Bias and Fairness**
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials:
+    * Article: [Siôn Geschwindt, "ChatGPT advises women to ask for lower salaries, study finds"](https://thenextweb.com/news/chatgpt-advises-women-to-ask-for-lower-salaries-finds-new-study)
+    * Interview: [🎙️ Mohar Chatterjee and Rumman Chowdhury, "Bias in AI is real. But it doesn't have to exist"](https://archive.ph/iKnYd)
+    * Research: [📄 Kyra Yee, Uthaipon Tantipongpipat, and Shubhanshu Mishra, "Image Cropping on Twitter"](https://doi.org/10.1145/3479594)
+    * Project: [🖼️ Analyzing bias in Twitter's image crop algorithm](https://github.com/twitter-research/image-crop-analysis)
+    * Research: [📄 Shubham Singh et al. "Fair decision-making for food inspections."](https://doi.org/10.1145/3551624.3555289)
+    * Report: [📄 Chicago Food Inspections Evaluation](https://chicago.github.io/food-inspections-evaluation/)
+    * Project: [🔗 Chicago Food Inspections Evaluation](https://github.com/Chicago/food-inspections-evaluation/tree/master)
+    * Project: [🔗 Google Pair Explorables, "Measuring Diversity"](https://pair.withgoogle.com/explorables/measuring-diversity/)
+    * Article: [📰 Karen Hao and Jonathan Stray, "Can you make AI fairer than a judge? Play our courtroom algorithm game"](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
+    * Article: [📰 Jeremy Cherson, Policy Position Brief: On Pretrial Algorithms](https://bailproject.org/policy/pretrial-algorithms/)
 * Wednesday, November 12, 2025  
   `🔵 Montrose 🔵` 
   * Topic: 🦜 Computing and the Environment
   * Peer Presentations
-  * <details><summary>Source materials</summary>
-
-
-    </details>
+  * Source Materials:
+    * Article: [📰 Maxwell Evans, Quantum Developers Share Plan For How They’ll Clean Up Pollutants At Old South Works Site](https://blockclubchicago.org/2025/11/05/quantum-developers-share-plan-for-how-theyll-clean-up-pollutants-at-old-south-works-site/)
 
 ### Week 13
 * Monday, November 17, 2025  
