@@ -224,6 +224,7 @@ The trolley problem is only the beginning.
     * Casey Newton, [Grammarly turned me into an AI editor against my will and I hate it](https://www.platformer.news/grammarly-expert-review-reviewed/)
     * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
     * Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
+      * Laura Cress (BBC), [Family of child injured in Canada school shooting sues OpenAI](https://www.bbc.com/news/articles/c309y25prnlo)
     * Futurism, [New AI Agent Logs Directly Into College Platform Canvas to Do Your Homework for You](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
     * Matthew Gault, [What’s the Point of School When AI Can Do Your Homework?](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
 
