@@ -22,12 +22,14 @@ If you follow the guidlines above, you'll be in great shape to give your present
 ## Frequently Asked Questions
 * **Question**: What exactly should the presentation be about?
   * **Answer**: Teach us something from the book you read, or something closely related to the book!
+* **Question**: When am I presenting?
+  * **Answer**: The tentative schedule is [here](https://docs.google.com/spreadsheets/d/1GV2mnezeAFHRA8JgUrsDWzd8TxXDBT5gMuYYrwXK3yw/edit?usp=sharing). Email me as soon as possible if you have a scheduling conflict.
 * **Question**: Can you give an example?
   * **Answer**: You can view a [demo presentation here](https://docs.google.com/presentation/d/1lrDW5fJiRcH11KbADqtgpV8koovaQopEiosfvo-MPJ8/edit?usp=sharing)
 * **Question**: How many slides should I have?
   * **Answer**: Using the heuristic of 1 minute per slide, a 10-minute presentation will probably have about 10 slides. 
 * **Question**: Where should I put my slides?
-  * **Answer**: To minimize technical hiccups, please make your presentation in Google Slides and place them [in this folder](https://drive.google.com/drive/folders/1Uqdj2rv5DhZZha7jmTWdCdtA7mJcXL-l?usp=share_link)
+  * **Answer**: To minimize technical hiccups, please make your presentation in Google Slides and place them [in this folder](https://drive.google.com/drive/folders/1XHjgT77PbD8fiSejnHGDNiBrthpYTDoi?usp=share_link)
  * **Question**: I have another question that's not on this list, what do I do?
    * **Answer**: Email me (`jxb@uic.edu`)
 
@@ -61,5 +63,6 @@ I will be using a rubric derived from two sources: [this analytic rubric](https:
 | | Adequate (6 pts) | Speaker attempts eye contact and uses some gestures but may have occasional distracting mannerisms. |
 | | Developing (4 pts) | Speaker shows limited eye contact or frequent distracting mannerisms. Gestures are minimal. |
 | | Needs Revision (0-2 pts) | Speaker avoids eye contact, faces away from audience, and/or exhibits frequent distracting mannerisms. Gestures are absent. |
+
 
 
