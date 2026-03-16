@@ -21,7 +21,7 @@ Your submission will have two parts:
 
 1. **Personal commitments** — your ethics commitment statements. There is no strict length requirement, however, the main statements should fit on a page. If you find yourself writing more, consider moving some of it to the reflection. 
 
-2. **Reflection** (1 page) — a written reflection about the process of developing your commitments and what they mean for your practice as a computing professional. The reflection must be at least one page (12-point font, double-spaced) and should address questions such as:
+2. **Reflection** (1 page) — a written reflection about the process of developing your commitments and what they mean for you in a practical sense. The reflection must be at least one page (12-point font, double-spaced) and should address questions such as:
    * What legal and ethical principles from the course most shaped your commitments, and why?
    * What responsibilities do your commitments reflect? Are there rules or responsibilities you considered but decided not to include? Explain.
    * How do your commitments reflect a broader social concern? In other words, how do they relate to the "greater good" beyond just your own professional conduct?
