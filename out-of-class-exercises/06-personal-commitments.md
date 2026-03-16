@@ -10,9 +10,11 @@ For this exercise, I am drawing on an assignment from [Adam Waytz](https://www.a
 * Identify your own core values, virtues, and character strengths.
 * Try to make it memorable -- simple and sticky!
 * Be concrete, specific, and practical.
-  * Non-specific example:
+  * Non-specific example: "I will always do the right thing." (What is the right thing? What situations do you have in mind?)
+  * Non-specific example: "I will act with integrity." (What does integrity mean to you? What does it look like in practice?)
 * Avoid melodramatic or grandiose statements.
-  * Melodramatic example:
+  * Melodramatic example: "I will ensure that technology never harms another human being."
+  * Melodramatic example: "I will dedicate every waking moment to fighting injustice."
 
 
 Your submission will have two parts:
