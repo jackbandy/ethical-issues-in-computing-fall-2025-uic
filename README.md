@@ -236,6 +236,14 @@ The trolley problem is only the beginning.
 * Monday, March 16, 2026  
   `🟦 Western 🟦`
   * Intellectual property
+  * <details><summary>Source materials</summary>
+
+    * Digital Millenium Copyright Act (DMCA), [Section 1202: Integrity of copyright management information](https://www.law.cornell.edu/uscode/text/17/1202)
+    * Ashley Belanger, [OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million.](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/)
+    * Matt O'Brien, [Anthropic to pay authors $1.5 billion to settle lawsuit over pirated books used to train AI chatbots](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164)
+    * The New York Times’s Complaint against Microsoft and OpenAI, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
+
+  </details>
 * Wednesday, March 18, 2026  
   `🟦 California 🟦`
   * Intellectual property
