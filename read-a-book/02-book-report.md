@@ -31,7 +31,7 @@ type of book)
   * What are the book’s greatest strengths and weaknesses?
   * Who would you recommend the book to?
 
-There is an example book report in progress [here](https://docs.google.com/document/d/1UT_nIA8ryzXOvWd1fy2Xd9UecEXDzXKFc0Ebol4bHJw/edit?usp=sharing).
+There is an example book report [here](https://docs.google.com/document/d/1OftR2At4jJsN6LPDjcYTOsjX-vnPaFd_pBx7PQIKPic/edit?usp=sharing).
 
 <details>
   <summary>Standard Guidelines for Academic Integrity Apply</summary>
