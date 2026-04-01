@@ -257,11 +257,21 @@ The trolley problem is only the beginning.
 #### Week 12
 * Monday, March 30, 2026  
   `🟦 Logan Square 🟦`
-  * Environmental impact of computing
+  * "Hooks" and "Nudges" in Design
+  * <details><summary>Source materials</summary>
+    
+    * BJ Fogg, [Persuasive Computers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
+    * [Behavior Design Lab](https://behaviordesign.stanford.edu/about-us)
+    * Nir Eyal, [Hooked - How to Build Habit-Forming Products](https://www.nirandfar.com/hooked/)
+    * Yasmin Samrai, [How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
+    * Thomas Mildner, [Cheat Sheet of Dark Design Patterns](https://thomasessmeyer.com/darkpatterns.html)
+    * ASCI Academy, [Gallery of "Conscious" Design patterns](https://www.consciouspatterns.in/ethical-gallery)
+  </details>
   * Presentation Tips
 * Wednesday, April 1, 2026  
   `🟦 Belmont 🟦`
   * Book Presentations
+  * Overview of Fairness Definitions Exercise
 
 #### Week 13
 * Monday, April 6, 2026  
