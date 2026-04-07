@@ -48,21 +48,21 @@ I will be using a rubric derived from two sources: [this analytic rubric](https:
 | | Adequate (6 pts) | The report has an introduction and conclusion but transitions are basic or uneven. |
 | | Developing (4 pts) | The report has attempted organization with an introduction and conclusion but lacks clear transitions. |
 | | Needs Revision (0-2 pts) | The report lacks clear organization and logical flow. Missing key elements such as introduction, conclusion, or coherent transitions. |
-| **Visual Aids** | Excellent (10 pts) | Visuals are highly readable, professional, and appropriate to the report. Relevant visuals are included without overwhelming the audience. |
+| **Visual Aids** | Excellent (10 pts) | Visuals are highly readable, professional, and appropriate. Relevant visuals are included without overwhelming the audience. |
 | | Good (8 pts) | Visuals are readable and mostly professional with good relevance to the report. Appropriate quantity that supports the content. |
 | | Adequate (6 pts) | Visuals are present and readable but may have minor design issues or be slightly distracting. Quantity is somewhat appropriate. |
 | | Developing (4 pts) | Visuals attempt to support the report but lack clarity or professionalism. Quantity may be too much or too little. |
 | | Needs Revision (0-2 pts) | Visuals are difficult to read, unprofessional, or inappropriate. Too many or too few visuals; they do not enhance understanding. |
-| **Oral Communication** | Excellent (10 pts) | Speaker speaks clearly and loudly enough to be heard easily, using proper grammar and clear pronunciation throughout. Language is professional and free from slang or distracting filler words like "um," "like," or "you know." |
+| **Oral Communication** | Excellent (10 pts) | Speaker speaks clearly and loudly enough to be heard easily, using proper grammar and clear pronunciation throughout. Strong inflections and dramatic delivery. Language is professional and free from slang or distracting filler words like "um," "like," or "you know." |
 | | Good (8 pts) | Speaker speaks clearly with adequate volume and generally uses proper grammar and pronunciation. Mostly professional language with minimal filler words. |
-| | Adequate (6 pts) | Speaker is understandable but volume or clarity may be inconsistent. Some grammar issues or filler words are present but do not seriously hinder communication. |
-| | Developing (4 pts) | Speaker has difficulty with clarity, volume, or pronunciation at times. Occasional grammar errors or frequent filler words distract from the message. |
+| | Adequate (6 pts) | Speaker is understandable but volume or clarity may be inconsistent. Monotone delivery with minimal inflection. Some grammar issues or filler words are present but do not seriously hinder communication. |
+| | Developing (4 pts) | Speaker has difficulty with clarity, volume, or pronunciation at times. Occasional grammar errors or frequent filler words may distract from the message. |
 | | Needs Revision (0-2 pts) | Difficult to understand due to poor volume, unclear speech, and/or excessive filler words that significantly detract from the report. |
-| **Physical Presence** | Excellent (10 pts) | Speaker faces the audience and maintains consistent eye contact throughout. Uses appropriate gestures and purposeful movement while avoiding distracting physical mannerisms. Professional posture. |
-| | Good (8 pts) | Speaker maintains good eye contact and uses appropriate gestures. |
-| | Adequate (6 pts) | Speaker attempts eye contact and uses some gestures but may have occasional distracting mannerisms. |
-| | Developing (4 pts) | Speaker shows limited eye contact or frequent distracting mannerisms. Gestures are minimal. |
-| | Needs Revision (0-2 pts) | Speaker avoids eye contact, faces away from audience, and/or exhibits frequent distracting mannerisms. Gestures are absent. |
+| **Physical Presence** | Excellent (10 pts) | Speaker faces the audience and maintains consistent eye contact throughout. Uses appropriate gestures and purposeful movement without being distracting. Professional posture. |
+| | Good (8 pts) | Speaker maintains good eye contact, uses appropriate gestures, and occasional movement. |
+| | Adequate (6 pts) | Speaker attempts eye contact and uses some gestures, but overall does not engage with the audience. |
+| | Developing (4 pts) | Speaker shows limited eye contact, minimal gestures, and little to no movement. |
+| | Needs Revision (0-2 pts) | Speaker avoids eye contact, faces away from audience, etc. Gestures are absent. Little to no movement - robotic delivery. |
 
 
 
