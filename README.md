@@ -1,5 +1,8 @@
 # 🟦 Blue Line Ethics 🟦
 ## Schedule for Ethical Issues in Computing, Spring 2026
+
+![Trolley to 74181](images/trolley-to-74181.pdf)
+
 The trolley problem is only the beginning.
 
 | Forest Park Branch | Milwaukee–Dearborn Subway | O’Hare Branch |
