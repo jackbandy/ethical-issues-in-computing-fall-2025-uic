@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Book Gallery - Student Selections for Ethical Issues in Computing</title>
+<link rel="stylesheet" href="books.css">
+</head>
+<body>
+<div class="top-bar">
+  <h1>Book Gallery – Ethical Issues in Computing</h1>
+  <button onclick="shuffleBooks()">🔀 Shuffle</button>
+  <button onclick="sortBooks()">Sort A–Z</button>
+</div>
+<div class="gallery" id="gallery"></div>
+
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
+<div class="side-panel" id="sidePanel">
+  <button class="panel-close" onclick="closePanel()">&times;</button>
+  <div id="panelContent"></div>
+</div>
+
+<script src="books-data.js"></script>
+
+<div class="footnotes">
+  <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
+  <a href="https://bookshop.org/lists/ethical-issues-in-computing">Bookshop uses affiliate links</a>
+</div>
+<script>
+const AFFILIATE_ID = "122922";
+function affiliateLink(isbn) {
+  return `https://bookshop.org/a/${AFFILIATE_ID}/${isbn}`;
+}
+
+function renderGallery(bookList) {
+  const gallery = document.getElementById("gallery");
+  gallery.innerHTML = "";
+  bookList.forEach(book => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${book.Image}" alt="${book.Title}">
+      <h3>${book.Title}</h3>
+      <p>${book.Author}</p>
+    `;
+    card.addEventListener("click", () => openPanel(book));
+    gallery.appendChild(card);
+  });
+}
+
+function stars(n) {
+  return "\u2605".repeat(n) + "\u2606".repeat(5 - n);
+}
+
+function openPanel(book) {
+  const reviews = book.reviews && book.reviews.length > 0
+    ? book.reviews.map(r => `
+        <div class="review">
+          <div class="review-meta">${r.reviewer} <span class="review-stars">${stars(r.rating)}</span></div>
+          <p>${r.text}</p>
+        </div>`).join("")
+    : '<p class="no-reviews">No reviews yet.</p>';
+
+  document.getElementById("panelContent").innerHTML = `
+    <img class="panel-cover" src="${book.Image}" alt="${book.Title}">
+    <h2 class="panel-title">${book.Title}</h2>
+    <p class="panel-author">${book.Author}</p>
+    <p class="panel-isbn">ISBN: ${book.ISBN}</p>
+    <a class="panel-link" href="${affiliateLink(book.ISBN)}" target="_blank">View on Bookshop.org &rarr;</a>
+    <div class="reviews-heading">
+      <h3>Reviews from students who chose this book (${book.reviews ? book.reviews.length : 0})</h3>
+      ${reviews}
+    </div>
+  `;
+  document.getElementById("sidePanel").classList.add("open");
+  document.getElementById("overlay").classList.add("visible");
+}
+
+function closePanel() {
+  document.getElementById("sidePanel").classList.remove("open");
+  document.getElementById("overlay").classList.remove("visible");
+}
+
+function shuffleBooks() {
+  const shuffled = [...books].sort(() => Math.random() - 0.5);
+  renderGallery(shuffled);
+}
+
+function sortBooks() {
+  const sorted = [...books].sort((a, b) => a.Title.localeCompare(b.Title));
+  renderGallery(sorted);
+}
+
+document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
+sortBooks();
+</script>
+</body>
+</html>
