@@ -15,7 +15,7 @@ This folder contains various ethical dilemmas discussed in class. Two main goals
 
 ## Other Dilemmas
 * The [Good Doctor](good-doctor.md)
-* "[Under the Rug](good-doctor.md)"
+* "[Under the Rug](under-the-rug.md)"
 
 
 ---
