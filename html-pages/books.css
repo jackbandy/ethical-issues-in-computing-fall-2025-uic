@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap');
+
 *,*::before,*::after { box-sizing: border-box; }
 body {
-  font-family: sans-serif;
+  font-family: 'Mulish', sans-serif;
   margin: 0;
   background: #fafafa;
+}
+
+.blue-line {
+  border: none;
+  height: 12px;
+  background-color: #00A1DE;
+  display: block;
+  width: 100%;
 }
 
 /* Sticky header bar */
@@ -11,8 +21,8 @@ body {
   top: 0;
   z-index: 50;
   background: #fafafa;
-  padding: 0.6em 1.5em;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 1em 1.5em;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.22);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,13 +33,14 @@ body {
   font-size: 1.1em;
   margin: 0;
 }
-.top-bar button {
+.top-bar button, .top-bar .btn {
   font-size: 0.85em;
   padding: 0.4em 0.9em;
+  line-height: 1.4;
 }
 
-button {
-  background-color: #4a90e2;
+button, .btn {
+  background-color: #00A1DE;
   color: white;
   border: none;
   padding: 0.6em 1.2em;
@@ -37,8 +48,24 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1em;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1.4;
 }
-button:hover { background-color: #357abd; }
+button:hover, .btn:hover { background-color: #007aa8; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path fill="%23ffffff" d="M6 1h5v5L8.5 3.5 4.8 7.2 3.8 6.2l3.7-3.7z"/><path fill="%23ffffff" d="M2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/></svg>') no-repeat center;
+  flex-shrink: 0;
+}
 
 /* Gallery grid */
 .gallery {
@@ -91,7 +118,7 @@ button:hover { background-color: #357abd; }
 .side-panel.open { right: 0; }
 .panel-close {
   float: right;
-  background: none;
+  background: none !important;
   border: none;
   font-size: 1.5em;
   cursor: pointer;
