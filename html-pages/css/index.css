@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Nunito:wght@900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+.blue-line {
+  border: none;
+  height: 12px;
+  background-color: #00A1DE;
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 700px;
+  margin: 48px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+/* ── Closed sign ── */
+.sign {
+  border: 3px solid #2b2b2b;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 540px;
+  margin-bottom: 40px;
+}
+
+.sign-top {
+  background: #2e2e2e;
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sign-icon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #2e2e2e;
+}
+
+.sign-attention {
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
+.sign-bottom {
+  background: #fff;
+  padding: 24px 28px;
+}
+
+.sign-closed {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+.sign-detail {
+  font-size: 1.05rem;
+  color: #444;
+  font-weight: 400;
+  max-width: 540px;
+  margin-bottom: 32px;
+}
+
+/* ── Links ── */
+.links a {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #00A1DE;
+  text-decoration: none;
+  border-bottom: 2px solid #00A1DE;
+  padding-bottom: 2px;
+}
+
+.links a:hover {
+  color: #007aa8;
+  border-bottom-color: #007aa8;
+}
