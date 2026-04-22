@@ -1145,6 +1145,11 @@ const books = [
     Link: "https://bookshop.org/p/books/enshittification-why-everything-suddenly-got-worse-and-what-to-do-about-it-cory-doctorow/d3f8483b158906ce?ean=9780374619329",
     Image: "https://images-us.bookshop.org/ingram/9780374619329.jpg?height=500&v=v2",
     reviews: [
+      {
+        reviewer: "Jack Bandy",
+        rating: 3,
+        text: "Solid book that synthesizes a lot of arguments from Cory's talks and blog posts. I really liked the 'what do we do about it' section and I wish there was more!"
+      }
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
       //   reviewer: "Your Name",
