@@ -10,6 +10,7 @@
   <h1>Book Gallery – Ethical Issues in Computing</h1>
   <button onclick="shuffleBooks()">🔀 Shuffle</button>
   <button onclick="sortBooks()">Sort A–Z</button>
+  <a class="btn" href="https://bookshop.org/lists/ethical-issues-in-computing" target="_blank" rel="noopener">View on Bookshop</a>
 </div>
 <div class="gallery" id="gallery"></div>
 
@@ -91,7 +92,7 @@ function sortBooks() {
 }
 
 document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
-sortBooks();
+shuffleBooks();
 </script>
 </body>
 </html>
