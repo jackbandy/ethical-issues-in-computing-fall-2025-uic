@@ -3,3 +3,16 @@
 *.pages
 rosters/
 interests/
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.log
+missfont.log
+
+# Unneeded files in latex-syllabus-in-progress
+syllabus/latex-syllabus-in-progress/OriginalSyllabusTemplate.tex
+syllabus/latex-syllabus-in-progress/syllabus-cs-377-spring-2026.tex
+syllabus/latex-syllabus-in-progress/syllabus-cs-377-spring-2026.pdf
+syllabus/latex-syllabus-in-progress/syllabusTemplate.pdf
+syllabus/latex-syllabus-in-progress/SCHEDULE.txt
