@@ -1,0 +1,117 @@
+/* ── Exercise page typography & content styles ── */
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.breadcrumb a {
+  color: #00A1DE;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.exercise-label {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #00A1DE;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+/* Override the very large h1 from index.css for exercise pages */
+.container h1 {
+  font-size: 1.9rem;
+  margin-bottom: 28px;
+  line-height: 1.2;
+}
+
+/* ── Markdown content ── */
+.exercise-body h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.exercise-body p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.exercise-body ul,
+.exercise-body ol {
+  padding-left: 1.4em;
+  margin-bottom: 1em;
+}
+
+.exercise-body li {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 0.3em;
+  color: #333;
+}
+
+/* ── Tables ── */
+.exercise-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-bottom: 1.5em;
+  overflow-x: auto;
+  display: block;
+}
+
+.exercise-body th {
+  background: #f0f0f0;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+}
+
+.exercise-body td {
+  padding: 7px 10px;
+  border: 1px solid #ddd;
+  color: #444;
+}
+
+.exercise-body tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+/* ── Footer ── */
+.exercise-divider {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 48px 0 24px;
+}
+
+.back-link {
+  font-size: 0.95rem;
+  margin-bottom: 48px;
+}
+
+.back-link a {
+  color: #00A1DE;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}

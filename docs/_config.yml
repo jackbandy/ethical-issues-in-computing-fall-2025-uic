@@ -1,0 +1,18 @@
+title: Blue Line Ethics
+description: Ethical Issues in Computing — CS 377, UIC
+
+# Leave baseurl empty; GitHub Pages sets it from the repository settings.
+# Use relative paths in layouts instead of {{ site.baseurl }}.
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Don't process these with Jekyll
+exclude:
+  - "*.csv"
+  - "*.bib"
+  - in-progress/

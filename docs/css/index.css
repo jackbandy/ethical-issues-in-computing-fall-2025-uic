@@ -108,3 +108,35 @@ h1 {
   color: #007aa8;
   border-bottom-color: #007aa8;
 }
+
+/* ── Footer ── */
+.site-footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #444;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #00A1DE;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

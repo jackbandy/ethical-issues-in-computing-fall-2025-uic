@@ -10,6 +10,17 @@ interests/
 *.log
 missfont.log
 
+<<<<<<< Updated upstream
+=======
+# Jekyll build output
+docs/_site/
+docs/.jekyll-cache/
+docs/Gemfile.lock
+
+# LaTeX generated content directory
+syllabus/latex-syllabus-in-progress/generated/
+
+>>>>>>> Stashed changes
 # Unneeded files in latex-syllabus-in-progress
 syllabus/latex-syllabus-in-progress/OriginalSyllabusTemplate.tex
 syllabus/latex-syllabus-in-progress/syllabus-cs-377-spring-2026.tex
