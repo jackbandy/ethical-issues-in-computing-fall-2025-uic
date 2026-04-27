@@ -163,15 +163,83 @@
       accent-color: #333;
     }
 
+    /* ── Info button ── */
+    .info-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      border: 1.5px solid #3d6080;
+      background: none;
+      color: #3d6080;
+      font-size: 0.75em;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 6px;
+      flex-shrink: 0;
+      vertical-align: middle;
+      line-height: 1;
+      transition: background 0.2s, color 0.2s;
+    }
+    .info-btn:hover { background: #3d6080; color: #fff; }
+
+    /* ── Side panel ── */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.3);
+      z-index: 99;
+    }
+    .overlay.visible { display: block; }
+
+    .side-panel {
+      position: fixed;
+      top: 0; right: -430px;
+      width: 420px;
+      height: 100%;
+      background: #fff;
+      box-shadow: -3px 0 12px rgba(0,0,0,0.15);
+      transition: right 0.3s;
+      overflow-y: auto;
+      z-index: 100;
+      padding: 1.5em;
+    }
+    .side-panel.open { right: 0; }
+
+    .panel-close {
+      float: right;
+      background: none;
+      border: none;
+      font-size: 1.5em;
+      cursor: pointer;
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+    .panel-close:hover { color: #000; }
+
+    #panel-content { margin-top: 2em; line-height: 1.7; color: #222; }
+    #panel-content h1 { font-size: 1.4em; margin-bottom: 0.4em; }
+    #panel-content h2 { font-size: 1.1em; margin: 1.2em 0 0.4em; border-top: 1px solid #eee; padding-top: 0.8em; }
+    #panel-content p  { margin-bottom: 0.8em; font-size: 0.95em; }
+    #panel-content ul { margin: 0 0 0.8em 1.4em; font-size: 0.95em; }
+    #panel-content li { margin-bottom: 0.3em; }
+
     /* ── Room container ── */
     .room {
       background: #fff;
       border: 2px solid #ccc;
       border-radius: 12px;
-      padding: 32px 48px 48px;
+      padding: 0 48px 48px 0;
       display: flex;
       flex-direction: column;
-      gap: 32px;
+      gap: 64px;
       width: fit-content;
       position: relative; /* needed for SVG overlay */
     }
@@ -203,23 +271,39 @@
       display: flex;
       gap: 40px;
       align-items: stretch;
+      padding-left: 48px;
     }
 
     /* ── Left-wall blue panels ── */
     /* Grid mirrors the 3 table rows; one panel per row */
     .left-panels {
       display: grid;
-      grid-template-rows: repeat(3, 280px);
-      row-gap: 64px;
+      grid-template-rows: repeat(3, 245px);
+      row-gap: 80px;
       align-items: center;
+      margin-left: -48px;
     }
 
     .blue-panel {
       width: 36px;
       height: 180px;
-      border: 5px solid #1a8fff;
+      border: none;
       border-radius: 4px;
-      background: transparent;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .blue-panel::before {
+      content: 'Window';
+      color: #666;
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+      transform: rotate(90deg);
+      letter-spacing: 0.05em;
     }
 
     .blue-panel:nth-child(1) { grid-row: 1; }
@@ -230,18 +314,18 @@
     .tables-area {
       display: flex;
       flex-direction: column;
-      gap: 64px;
+      gap: 80px;
     }
 
     .table-row {
       display: flex;
-      gap: 64px;
+      gap: 80px;
       align-items: center;
     }
 
     .table {
-      width: 200px;
-      height: 280px;
+      width: 175px;
+      height: 245px;
       background: #555;
       border-radius: 16px;
       display: flex;
@@ -282,8 +366,8 @@
 
     /* Lectern cell holds the same column width as a table so cols align */
     .lectern-cell {
-      width: 200px;
-      height: 280px;
+      width: 175px;
+      height: 245px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -411,6 +495,14 @@
     </div>
   </div><!-- .room -->
   </div><!-- .page -->
+
+  <div class="overlay" id="overlay"></div>
+  <div class="side-panel" id="side-panel">
+    <button class="panel-close" id="panel-close" aria-label="Close">&times;</button>
+    <div id="panel-content"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="shuffle.js"></script>
 
   <div class="footnotes">
@@ -421,6 +513,7 @@
       jackbandy/ethical-issues-in-computing-uic
     </a>
     <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
+    <a href="#" id="about-link">About this tool</a>
   </div>
 
 </body>
