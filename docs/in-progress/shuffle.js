@@ -19,7 +19,7 @@ const CTA_TABLE_COLORS = [
   '#e06000', // 5 Orange (dark enough for white text, clearly orange not red)
   '#e27ea6', // 6 Pink
   '#522398', // 7 Purple
-  '#c09000', // 8 Yellow (golden yellow, not brown)
+  '#dcc800', // 8 Yellow (between golden and bright CTA yellow)
 ];
 
 // Grid positions (row, col) for tables in DOM order: t1…t8
