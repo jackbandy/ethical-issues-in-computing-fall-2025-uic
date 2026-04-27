@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Seat Shuffle</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f5f5f5;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    /* ── Page wrapper ── */
+    .page {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 20px;
+    }
+
+    /* ── Header: title | controls bunched left | status indicator floated right ── */
+    .header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #222;
+      margin-right: 32px;
+      white-space: nowrap;
+    }
+
+    /* Controls sit together on the left; status indicator pushed to far right */
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header label {
+      font-size: 15px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .header input[type="number"] {
+      width: 80px;
+      padding: 7px 10px;
+      font-size: 15px;
+      border: 1.5px solid #bbb;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .header button {
+      padding: 8px 22px;
+      font-size: 15px;
+      font-weight: 600;
+      background: #333;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .header button:hover {
+      background: #555;
+    }
+
+    /* Shuffle status indicator (spinner → checkmark) — floated to far right */
+    #shuffle-status {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      margin-left: auto;
+    }
+
+    #shuffle-status.status-loading::after {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 16px;
+      border: 2.5px solid rgba(0,0,0,0.12);
+      border-top-color: #444;
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+    }
+
+    #shuffle-status.status-done::after {
+      content: '✅';
+      font-size: 18px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ── Footer ── */
+    .footnotes {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 8px 15px;
+      font-size: 11px;
+      color: #999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background: #f5f5f5;
+    }
+
+    .footnotes a {
+      color: #888;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .footnotes a:hover { text-decoration: underline; }
+
+    .footnotes .gh-icon {
+      width: 13px;
+      height: 13px;
+      fill: #888;
+      flex-shrink: 0;
+    }
+
+    .header .paths-label {
+      font-size: 15px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      cursor: pointer;
+      user-select: none;
+      border: 1.5px solid #bbb;
+      border-radius: 8px;
+      padding: 7px 14px;
+    }
+
+    .header .paths-label input[type="checkbox"] {
+      width: 17px;
+      height: 17px;
+      cursor: pointer;
+      accent-color: #333;
+    }
+
+    /* ── Room container ── */
+    .room {
+      background: #fff;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 32px 48px 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      width: fit-content;
+      position: relative; /* needed for SVG overlay */
+    }
+
+    /* ── Front wall: screens only ── */
+    .front-wall {
+      display: flex;
+      justify-content: center;
+    }
+
+    .screens {
+      display: flex;
+      gap: 48px;
+    }
+
+    .projector-screen {
+      background: #d0d0d0;
+      color: #444;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 10px 0;
+      width: 300px;
+      text-align: center;
+      border-radius: 4px;
+    }
+
+    /* ── Main area: left panels + tables ── */
+    .main-area {
+      display: flex;
+      gap: 40px;
+      align-items: stretch;
+    }
+
+    /* ── Left-wall blue panels ── */
+    /* Grid mirrors the 3 table rows; one panel per row */
+    .left-panels {
+      display: grid;
+      grid-template-rows: repeat(3, 280px);
+      row-gap: 64px;
+      align-items: center;
+    }
+
+    .blue-panel {
+      width: 36px;
+      height: 180px;
+      border: 5px solid #1a8fff;
+      border-radius: 4px;
+      background: transparent;
+    }
+
+    .blue-panel:nth-child(1) { grid-row: 1; }
+    .blue-panel:nth-child(2) { grid-row: 2; }
+    .blue-panel:nth-child(3) { grid-row: 3; }
+
+    /* ── Table grid ── */
+    .tables-area {
+      display: flex;
+      flex-direction: column;
+      gap: 64px;
+    }
+
+    .table-row {
+      display: flex;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .table {
+      width: 200px;
+      height: 280px;
+      background: #555;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .table-num {
+      text-align: center;
+      color: rgba(255,255,255,0.85);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 8px 0 6px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .table-seats {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 4px;
+      padding: 6px;
+    }
+
+    .seat {
+      background: rgba(255,255,255,0.1);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 36px;
+      font-weight: 500;
+    }
+
+    /* Lectern cell holds the same column width as a table so cols align */
+    .lectern-cell {
+      width: 200px;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Lectern sits in the "0" slot (top-left of the table grid) */
+    .lectern {
+      width: 140px;
+      height: 140px;
+      background: #d8d8d8;
+      color: #555;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transform: rotate(-10deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Visual Seat Shuffle</h1>
+    <div class="header-controls">
+      <label>Seed (0–1000) <input type="number" id="seed" min="0" max="1000"></label>
+      <button id="shuffle-btn">🔀 Shuffle</button>
+      <label class="paths-label"><input type="checkbox" id="paths-cb"> Draw Paths</label>
+    </div>
+    <span id="shuffle-status"></span>
+  </div>
+
+  <div class="room">
+
+    <!-- Front wall: screens only -->
+    <div class="front-wall">
+      <div class="screens">
+        <div class="projector-screen">Projector Screen</div>
+        <div class="projector-screen">Projector Screen</div>
+      </div>
+    </div>
+
+    <!-- Main area -->
+    <div class="main-area">
+
+      <!-- Left wall panels (one per row) -->
+      <div class="left-panels">
+        <div class="blue-panel"></div>
+        <div class="blue-panel"></div>
+        <div class="blue-panel"></div>
+      </div>
+
+      <!-- Tables -->
+      <div class="tables-area">
+        <div class="table-row">
+          <div class="lectern-cell"><div class="lectern">Lectern thing</div></div>
+          <div class="table">
+            <div class="table-num">Table 1</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 2</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="table">
+            <div class="table-num">Table 3</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 4</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 5</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="table">
+            <div class="table-num">Table 6</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 7</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 8</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- .room -->
+  </div><!-- .page -->
+  <script src="shuffle.js"></script>
+
+  <div class="footnotes">
+    <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic" target="_blank" rel="noopener">
+      <svg class="gh-icon" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
+      </svg>
+      jackbandy/ethical-issues-in-computing-uic
+    </a>
+    <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
+  </div>
+
+</body>
+</html>

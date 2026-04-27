@@ -14,4 +14,3 @@ kramdown:
 exclude:
   - "*.csv"
   - "*.bib"
-  - in-progress/
