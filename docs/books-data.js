@@ -1157,5 +1157,26 @@ const books = [
       //   text: "Write your review here."
       // },
     ]
+  },
+  {
+    id: "doorbells-danger-and-dead-batteries-user-research-war-stories",
+    Title: "Doorbells, Danger, and Dead Batteries: User Research War Stories",
+    Author: "Steve Portigal",
+    ISBN: "9781492018582",
+    Link: "https://www.amazon.com/Doorbells-Danger-Dead-Batteries-Research/dp/1933820349",
+    Image: "https://rm-media.nyc3.digitaloceanspaces.com/wp-content/uploads/2023/04/31-doorbells-danger-dead-batteries.jpg",
+    reviews: [
+      {
+        reviewer: "Trenton Coleman",
+        rating: 5,
+        text: "Surprisingly humorous yet informative book about research! Changed the way I viewed research and how to build better, more 'human' UX thinking. Recommend if you want a good blend of humor and anthropology."
+      }
+      // ---- To add a review, uncomment the block below and fill it in ----
+      // {
+      //   reviewer: "Your Name",
+      //   rating: 5,          // 1-5
+      //   text: "Write your review here."
+      // },
+    ]
   }
 ];
