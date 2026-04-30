@@ -402,22 +402,6 @@ const books = [
     ]
   },
   {
-    id: "doorbells--danger--and-dead-batteries--user-research-war-sto",
-    Title: "Doorbells, Danger, and Dead Batteries: User Research War Stories",
-    Author: "Steve Portigal",
-    ISBN: "9781933820347",
-    Link: "https://bookshop.org/search?keywords=9781933820347",
-    Image: "https://images-us.bookshop.org/ingram/9781933820347.jpg?height=500&v=v2",
-    reviews: [
-      // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
-    ]
-  },
-  {
     id: "the-alignment-problem--machine-learning-and-human-values",
     Title: "The Alignment Problem: Machine Learning and Human Values",
     Author: "Brian Christian",
@@ -1162,9 +1146,9 @@ const books = [
     id: "doorbells-danger-and-dead-batteries-user-research-war-stories",
     Title: "Doorbells, Danger, and Dead Batteries: User Research War Stories",
     Author: "Steve Portigal",
-    ISBN: "9781492018582",
-    Link: "https://www.amazon.com/Doorbells-Danger-Dead-Batteries-Research/dp/1933820349",
-    Image: "https://rm-media.nyc3.digitaloceanspaces.com/wp-content/uploads/2023/04/31-doorbells-danger-dead-batteries.jpg",
+    ISBN: "9781933820347",
+    Link: "https://bookshop.org/p/books/doorbells-danger-and-dead-batteries-user-research-war-stories-steve-portigal/ade90384212ba5d0?ean=9781933820347&next=t",
+    Image: "https://images-us.bookshop.org/ingram/9781933820347.jpg?height=500&v=v2",
     reviews: [
       {
         reviewer: "Trenton Coleman",
