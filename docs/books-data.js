@@ -602,11 +602,11 @@ const books = [
     Image: "https://images-us.bookshop.org/ingram/9780765397539.jpg?height=500&v=v2-f65a450467e18ffba3d7ae555786acbf",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
+      {
+        reviewer: "Asher Theys",
+        rating: 5,          // 1-5
+        text: "I really enjoyed this book! It's a relatively short science fiction book without a lot of academic or technical language so it was pretty quick and easy to read. I enjoy connecting fiction stories to real life more than reading nonfiction, and even though it's short there's still lots of things you could analyze relating to ethics and technology in our world depending on what stood out to you specifically."
+      },
     ]
   },
   {
