@@ -442,11 +442,11 @@ const books = [
     Image: "https://images-us.bookshop.org/ingram/9780593653425.jpg?height=500&v=v2",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
+      {
+        reviewer: "Musa Tahir",
+        rating: 2,          // 1-5
+        text: "Out of all art forms, I love music the most. So when I had the opportunity to read a book written by a well-established producer in the industry who could give me insight on their creative process, I was really excited. I was expecting to see some technical processes, how Rubin might interpret different sounds, etc., but as I read through the book, it felt more like his 'spiritual' connection with creativity. As I read the book, I did some research on him and his label. I felt that he was sort of contradicting himself, or maybe I interpreted his words differently. Either way I personall had a negative experience with the book. With that being said, if I just interpret his words the way I want to, and ignore his actions/beliefs outside the book, then I did enjoy some aspects of it, especially the chapter about intention in art. But as of now, I would give the book a 2 out of 5. rating"
+      },
     ]
   },
   {
