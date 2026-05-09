@@ -218,11 +218,11 @@ const books = [
     Image: "https://images-us.bookshop.org/ingram/9780262304511.jpg?height=500&v=v2",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
+       {
+         reviewer: "Neel Patel",
+         rating: 4.5,          // 1-5
+         text: "A thought-provoking book that tackles a question we rarely stop to consider: do AI and robots deserve moral consideration? Gunkel walks through the history of philosophy and ethics to explore whether machines can be moral agents or moral patients. The book challenges the assumption that technology is just a tool, and connects AI ethics to broader philosophical debates about rights and personhood. Highly recommended for anyone interested in the ethical implications of AI."
+       },
     ]
   },
   {
