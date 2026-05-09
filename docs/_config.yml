@@ -1,8 +1,8 @@
 title: Blue Line Ethics
 description: Ethical Issues in Computing — CS 377, UIC
 
-url: "https://jackbandy.com"
-baseurl: "/ethical-issues-in-computing-uic"
+url: "https://doethics.fun"
+baseurl: ""
 
 markdown: kramdown
 kramdown:
