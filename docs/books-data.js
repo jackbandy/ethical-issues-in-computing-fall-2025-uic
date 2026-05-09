@@ -1,4 +1,6 @@
-// Auto-generated from books.csv — do not edit the book metadata by hand.
+// Auto-generated from books.csv
+// Add reviews here
+// Don't edit the book metadata by hand.
 
 const books = [
   {
@@ -218,11 +220,11 @@ const books = [
     Image: "https://images-us.bookshop.org/ingram/9780262304511.jpg?height=500&v=v2",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
+       {
+         reviewer: "Neel Patel",
+         rating: 4,          // 1-5
+         text: "A thought-provoking book that tackles a question we rarely stop to consider: do AI and robots deserve moral consideration? Gunkel walks through the history of philosophy and ethics to explore whether machines can be moral agents or moral patients. The book challenges the assumption that technology is just a tool, and connects AI ethics to broader philosophical debates about rights and personhood. Highly recommended for anyone interested in the ethical implications of AI."
+       },
     ]
   },
   {
@@ -442,11 +444,11 @@ const books = [
     Image: "https://images-us.bookshop.org/ingram/9780593653425.jpg?height=500&v=v2",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
+      {
+        reviewer: "Musa Tahir",
+        rating: 2,          // 1-5
+        text: "Out of all art forms, I love music the most. So when I had the opportunity to read a book written by a well-established producer in the industry who could give me insight on their creative process, I was really excited. I was expecting to see some technical processes, how Rubin might interpret different sounds, etc., but as I read through the book, it felt more like his 'spiritual' connection with creativity. As I read the book, I did some research on him and his label. I felt that he was sort of contradicting himself, or maybe I interpreted his words differently. Either way I personall had a negative experience with the book. With that being said, if I just interpret his words the way I want to, and ignore his actions/beliefs outside the book, then I did enjoy some aspects of it, especially the chapter about intention in art. But as of now, I would give the book a 2 out of 5. rating"
+      },
     ]
   },
   {
@@ -602,11 +604,11 @@ const books = [
     Image: "https://images-us.bookshop.org/ingram/9780765397539.jpg?height=500&v=v2-f65a450467e18ffba3d7ae555786acbf",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
-      // {
-      //   reviewer: "Your Name",
-      //   rating: 5,          // 1-5
-      //   text: "Write your review here."
-      // },
+      {
+        reviewer: "Asher Theys",
+        rating: 5,          // 1-5
+        text: "I really enjoyed this book! It's a relatively short science fiction book without a lot of academic or technical language so it was pretty quick and easy to read. I enjoy connecting fiction stories to real life more than reading nonfiction, and even though it's short there's still lots of things you could analyze relating to ethics and technology in our world depending on what stood out to you specifically."
+      },
     ]
   },
   {
