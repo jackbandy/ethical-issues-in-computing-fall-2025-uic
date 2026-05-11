@@ -605,6 +605,9 @@ const books = [
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       {
+        reviewer: "Samira Ali",
+        rating: 5,          // 1-5
+        text: "I really enjoyed this book! If you have not read it yet I highly recommend it because it will completely change the way you see technology and make you question what it even means to be human. There is so much to digest in this story that you will keep coming back for more. I cannot wait to read the rest of the series!"
         reviewer: "Asher Theys",
         rating: 5,          // 1-5
         text: "I really enjoyed this book! It's a relatively short science fiction book without a lot of academic or technical language so it was pretty quick and easy to read. I enjoy connecting fiction stories to real life more than reading nonfiction, and even though it's short there's still lots of things you could analyze relating to ethics and technology in our world depending on what stood out to you specifically."
