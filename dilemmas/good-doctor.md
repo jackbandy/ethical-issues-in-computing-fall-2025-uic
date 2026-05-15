@@ -1,10 +1,10 @@
 # The Good Doctor Dilemma
 
 
-A medical facility anticipates an approaching disaster with life-threatening consequences. Medical systems will fail and evacuation is impossible for many patients, who face imminent death due to the conditions.
+A medical facility anticipates approaching weather which will have disastrous, life-threatening consequences. Medical systems will fail and evacuation is impossible for many patients, who face imminent death due to the conditions.
 
-Although death seems inevitable, physicians must decide how to proceed, and are considering several options:
-1. **Non-intervention**: Allow patients to die slowly (as predicted by the disaster's natural course) and avoid active intervention.
+Physicians must decide how to proceed, and have proposed several options:
+1. **Non-intervention**: Allow patients to die slowly (as predicted by the disaster's natural course) and avoid any active intervention.
 2. **Euthanasia**: Administer lethal medications to end patient suffering before it increases.
 3. **Palliative sedation**: Use sedatives to render patients unconscious until death occurs naturally.
 4. **Active life-sustaining measures**: Continue all available medical interventions (with diminishing likelihood of success).

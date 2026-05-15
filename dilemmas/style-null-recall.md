@@ -5,3 +5,4 @@ Suppose you work at pharmeceutical company that manufactures an over-the-counter
 Your company is considering a regional recall of Style-Null, a nationwide recall, or waiting for more evidence, while also crafting public messaging and accounting for employees, regulators, and shareholders. What should be done?
 
 Source: [University of New Mexico](https://business.unm.edu/ethics/pdf/tylenol-case.pdf)
+Source: [Wharton School of the University of Pennsylvania](https://knowledge.wharton.upenn.edu/article/tylenol-and-the-legacy-of-jjs-james-burke/)
