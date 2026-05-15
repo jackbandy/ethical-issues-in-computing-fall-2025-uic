@@ -1,6 +1,6 @@
 This folder contains various ethical dilemmas discussed in class. Two main goals of discussing these dilemmas are:
 1. to practice bringing descriptive clarity to such dilemmas, and
-2. to recognize patterns in ethical decision-making.
+2. to recognize themes and patterns in ethical decision-making.
 
 ## Dilemmas from Utilitarian Ethics
 * The trolley problem
@@ -13,9 +13,19 @@ This folder contains various ethical dilemmas discussed in class. Two main goals
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
 * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
 
-## Other Dilemmas
+
+
+## Other Dilemmas / Yet-to-be categorized
 * The [Good Doctor](good-doctor.md)
 * "[Under the Rug](under-the-rug.md)"
+* [Jerusalem to Jericho](jerusalem-to-jericho.md)
+* [Jericho to Jerusalem](jericho-to-jerusalem.md)
+* [Plug In](plug-in.md) ("The Experience Machine")
+* [Recall Style-Null?](style-null-recall.md)
+* [The Eternal Recurrence](existential-eternal-recurrence.md)
+* [The Prisoner's Dilemma (TK)](prisoners-dilemma.md)
+* [Factory Rebuild (TK)](factory-rebuild.md)
+
 
 
 ---
