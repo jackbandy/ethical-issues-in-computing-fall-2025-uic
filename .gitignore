@@ -15,6 +15,16 @@ docs/_site/
 docs/.jekyll-cache/
 docs/Gemfile.lock
 
+# Quarto slides
+docs/slides/.quarto/
+docs/slides/**/*.quarto_ipynb
+docs/slides/.*-pdf-export.html
+docs/slides/*_files/
+docs/slides/*.pdf
+docs/slides/export-pdf.js
+
+# Slide HTML is CI-managed; local PDF export is optional.
+
 # LaTeX generated content directory
 syllabus/latex-syllabus-in-progress/generated/
 

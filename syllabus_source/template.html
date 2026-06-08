@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$if(title)$$title$$else$CS 377 Syllabus$endif$</title>
+  <style>
+    :root {
+      --blue: #00a1de;
+      --blue-dark: #005daa;
+      --ink: #231f20;
+      --paper: #fff;
+      --soft: #f4f4f4;
+      --border: #d8d8d8;
+    }
+    * { box-sizing: border-box; }
+    html { color: var(--ink); background: var(--soft); font: 17px/1.55 FreeSans, Helvetica, Arial, sans-serif; }
+    body { position: relative; max-width: 900px; margin: 0 auto; padding: 3rem 4rem 5rem; background: var(--paper); }
+    body::before {
+      content: "DRAFT";
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      z-index: 0;
+      color: rgba(35, 31, 32, .055);
+      font-size: clamp(5rem, 16vw, 11rem);
+      font-weight: 900;
+      letter-spacing: .08em;
+      pointer-events: none;
+      transform: translate(-50%, -50%) rotate(-28deg);
+      white-space: nowrap;
+    }
+    body > * { position: relative; z-index: 1; }
+    header { border-top: 12px solid var(--blue); padding-top: 1.5rem; }
+    h1, h2, h3 { line-height: 1.15; }
+    h1 { margin: 0; color: var(--blue-dark); font-size: 2.6rem; }
+    h2 { margin-top: 2.5rem; padding-bottom: .35rem; border-bottom: 4px solid var(--blue); }
+    h3 { color: var(--blue-dark); }
+    a { color: var(--blue-dark); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: .55rem; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { background: var(--soft); }
+    nav { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
+    nav ul { columns: 2; }
+    .meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; color: #666; font-size: .85rem; }
+    @media (max-width: 700px) {
+      body { padding: 2rem 1.25rem 4rem; }
+      nav ul { columns: 1; }
+      .meta { display: block; }
+      table { font-size: .85rem; }
+    }
+    @media print {
+      html { background: #fff; font-size: 11pt; }
+      body { max-width: none; padding: 0; }
+      body::before { color: rgba(35, 31, 32, .07); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="meta">
+      <span>Generated $created$</span>
+      <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
+    </div>
+    $if(title)$<h1>$title$</h1>$endif$
+    $if(subtitle)$<p>$subtitle$</p>$endif$
+  </header>
+  $if(toc)$<nav aria-label="Table of contents">$toc$</nav>$endif$
+  <main>$body$</main>
+</body>
+</html>

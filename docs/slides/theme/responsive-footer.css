@@ -1,0 +1,55 @@
+/* Reserve space for Reveal's separate slide-number element. */
+.reveal.reveal .footer {
+  padding: 0 148px 0 64px;
+}
+
+.reveal.reveal .slide-number,
+.reveal.reveal .slide-number span {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+  .reveal.reveal .footer {
+    padding-left: 32px;
+    padding-right: 116px;
+  }
+
+  .reveal.reveal .footer p {
+    gap: 24px !important;
+  }
+
+  .reveal.reveal .footer .footer-text:last-child {
+    display: none;
+  }
+
+  .reveal.reveal .slide-number {
+    right: 8px !important;
+    width: 84px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  /* Reveal scroll mode hides slide numbers by default on mobile. */
+  .reveal-viewport.reveal-scroll .slide-number {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .reveal.reveal .footer {
+    padding-left: 16px;
+    padding-right: 88px;
+  }
+
+  .reveal.reveal .footer .footer-text {
+    display: none;
+  }
+
+  .reveal.reveal .footer img[alt="CC BY-NC-SA"] {
+    display: none;
+  }
+
+  .reveal.reveal .slide-number {
+    width: 72px;
+  }
+}
