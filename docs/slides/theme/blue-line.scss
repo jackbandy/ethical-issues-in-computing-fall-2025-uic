@@ -1,0 +1,324 @@
+/*-- scss:defaults --*/
+
+$cta-blue: #00a1de;
+$cta-blue-dark: #005daa;
+$cta-blue-deep: #003087;
+$cta-red: #c60c30;
+$ink: #231f20;
+$charcoal: #333;
+$muted: #666;
+$quiet: #aaa;
+$paper: #fff;
+$soft: #f4f4f4;
+$border: #d8d8d8;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $cta-blue-dark;
+$link-color-hover: $cta-blue-deep;
+$selection-bg: rgba(0, 161, 222, 0.28);
+$font-family-sans-serif: FreeSans, Helvetica, Arial, sans-serif;
+$font-family-monospace: "IBM Plex Mono", "Courier New", monospace;
+$presentation-font-size-root: 34px;
+$presentation-line-height: 1.35;
+$presentation-heading-font: "Arial Narrow", "Helvetica Neue Condensed", FreeSans, sans-serif;
+$presentation-heading-color: $cta-blue-dark;
+$presentation-heading-font-weight: 700;
+$presentation-heading-line-height: 1.05;
+$presentation-heading-text-transform: none;
+$presentation-h1-font-size: 3.35rem;
+$presentation-h2-font-size: 2rem;
+$code-block-bg: $soft;
+$code-block-border-color: $border;
+
+/*-- scss:rules --*/
+
+.reveal {
+  color: $ink;
+  background: $paper;
+
+  .slides {
+    text-align: left;
+
+    section {
+      box-sizing: border-box;
+      padding: 48px 64px 84px;
+      background: $paper;
+    }
+  }
+
+  h1 {
+    margin-bottom: 28px;
+    padding-bottom: 10px;
+    border-bottom: 6px solid $cta-blue;
+  }
+
+  h2, h3, strong {
+    color: $cta-blue-deep;
+  }
+
+  ul, ol {
+    line-height: 1.65;
+  }
+
+  a {
+    text-decoration-color: rgba(0, 93, 170, 0.35);
+    text-underline-offset: 0.12em;
+  }
+
+  blockquote {
+    width: auto;
+    margin: 1.2em 0;
+    padding: 0.2em 0 0.2em 0.85em;
+    border-left: 10px solid $cta-blue;
+    color: $charcoal;
+    box-shadow: none;
+    font-style: normal;
+  }
+
+  code {
+    color: $cta-blue-deep;
+    background: $soft;
+    border-radius: 3px;
+    padding: 0.08em 0.2em;
+  }
+
+  .title-slide {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    color: $ink;
+    background: $paper !important;
+
+    h1 {
+      max-width: 900px;
+      padding-bottom: 14px;
+      border-bottom: 6px solid $cta-blue;
+      color: $cta-blue-dark;
+      font-size: 4.4rem;
+    }
+
+    h2 {
+      color: $ink;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    p {
+      color: $muted;
+    }
+  }
+
+  .arrival-board {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: 0 0 32px;
+    padding: 22px 28px;
+    color: $paper;
+    background: $cta-blue;
+    border: 1px solid darken($cta-blue, 8%);
+
+    .arrival-copy {
+      flex: 1;
+    }
+
+    .eyebrow {
+      display: block;
+      font-size: 0.55em;
+      opacity: 0.9;
+    }
+
+    strong {
+      color: $paper;
+      font-size: 1.45em;
+    }
+
+    .arrival-time {
+      font-size: 1.35em;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+  }
+
+  .quote-slide {
+    display: flex !important;
+    align-items: center;
+    background: $paper !important;
+
+    h1 {
+      display: none;
+    }
+
+    blockquote {
+      margin: 0;
+      color: $ink;
+      border-left-color: $cta-blue;
+      font-size: 1.45em;
+      line-height: 1.35;
+    }
+  }
+
+  .embed-slide {
+    display: grid !important;
+    grid-template-rows: auto 1fr;
+  }
+
+  .embed-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 42px;
+    min-height: 0;
+  }
+
+  .embed-copy {
+    align-self: center;
+  }
+
+  .embed-frame {
+    min-height: 0;
+    overflow: hidden;
+    border: 2px solid $border;
+    border-radius: 6px;
+    background: $soft;
+    box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 470px;
+      border: 0;
+      background: $paper;
+    }
+  }
+
+  .sources ol,
+  .sources .references {
+    color: $muted;
+    font-size: 0.78em;
+    line-height: 1.9;
+  }
+
+  .sources .references {
+    margin: 0 0 0 1.5em;
+    padding: 0;
+  }
+
+  .sources .csl-entry {
+    display: list-item;
+    margin: 0;
+    padding-left: 0.2em;
+    text-indent: 0;
+    list-style-type: decimal;
+  }
+}
+
+.reveal.reveal {
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0 !important;
+    left: 0 !important;
+    box-sizing: border-box;
+    width: auto !important;
+    height: 50px;
+    margin: 0 !important;
+    padding: 0 150px 0 64px;
+    border-top: 1px solid $border;
+    color: $quiet;
+    background: $soft;
+    font-size: 17px !important;
+    line-height: 1.2;
+    text-align: left !important;
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      height: 50px;
+      margin: 0;
+    }
+
+    a {
+      color: inherit !important;
+      font: inherit;
+    }
+
+    .footer-text {
+      opacity: 0.68;
+    }
+
+    img {
+      display: block;
+      flex-shrink: 0;
+      width: auto;
+      margin: 0;
+      border: 0;
+      box-shadow: none;
+    }
+
+    img[alt="UIC logo"] {
+      height: 28px;
+      opacity: 0.42;
+    }
+
+    img[alt="CC BY-NC-SA"] {
+      height: 15px;
+      opacity: 0.42;
+    }
+  }
+
+  .slide-number {
+    right: 24px !important;
+    bottom: 0 !important;
+    width: 100px;
+    height: 50px;
+    color: $cta-blue-dark;
+    background: transparent;
+    font-size: 17px !important;
+    line-height: 1;
+    text-align: center;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25em;
+    transform: translateY(3px);
+
+    .slide-number-current {
+      font-weight: 700;
+    }
+  }
+
+  .progress {
+    color: $cta-blue;
+  }
+
+  .controls {
+    color: $cta-blue-dark;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .reveal .slides section {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .reveal .arrival-board {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .reveal .embed-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .reveal .embed-copy {
+    display: none;
+  }
+
+  .reveal.reveal .footer {
+    padding-left: 24px;
+  }
+}

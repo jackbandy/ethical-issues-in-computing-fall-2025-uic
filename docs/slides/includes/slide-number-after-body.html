@@ -1,0 +1,70 @@
+<script>
+(() => {
+  let installed = false;
+  let observer = null;
+
+  function updateSlideNumber() {
+    if (!window.Reveal) return;
+
+    const slideNumber = document.querySelector(".reveal .slide-number");
+    if (!slideNumber) return;
+
+    const current = Reveal.getSlidePastCount() + 1;
+    const total = Reveal.getTotalSlides();
+    const expectedText = `${current} of ${total}`;
+
+    if (
+      slideNumber.textContent.trim() === expectedText &&
+      slideNumber.querySelector(".slide-number-current")
+    ) {
+      return;
+    }
+
+    slideNumber.innerHTML =
+      `<span class="slide-number-current">${current}</span> ` +
+      `<span class="slide-number-of">of</span> ` +
+      `<span class="slide-number-total">${total}</span>`;
+  }
+
+  function scheduleSlideNumberUpdate() {
+    window.requestAnimationFrame(updateSlideNumber);
+    window.setTimeout(updateSlideNumber, 0);
+    window.setTimeout(updateSlideNumber, 80);
+  }
+
+  function observeSlideNumber() {
+    const slideNumber = document.querySelector(".reveal .slide-number");
+    if (!slideNumber || observer) return;
+
+    observer = new MutationObserver(scheduleSlideNumberUpdate);
+    observer.observe(slideNumber, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+    });
+  }
+
+  function installSlideNumberFormatter() {
+    if (!window.Reveal) {
+      window.setTimeout(installSlideNumberFormatter, 50);
+      return;
+    }
+
+    observeSlideNumber();
+
+    if (!installed) {
+      installed = true;
+      Reveal.on("ready", scheduleSlideNumberUpdate);
+      Reveal.on("slidechanged", scheduleSlideNumberUpdate);
+      Reveal.on("fragmentshown", scheduleSlideNumberUpdate);
+      Reveal.on("fragmenthidden", scheduleSlideNumberUpdate);
+      window.addEventListener("hashchange", scheduleSlideNumberUpdate);
+    }
+
+    scheduleSlideNumberUpdate();
+  }
+
+  document.addEventListener("DOMContentLoaded", installSlideNumberFormatter);
+  window.addEventListener("load", installSlideNumberFormatter);
+})();
+</script>

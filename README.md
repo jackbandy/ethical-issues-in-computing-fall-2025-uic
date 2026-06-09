@@ -1,6 +1,11 @@
 # 🟦 Blue Line Ethics 🟦
 ## Schedule for Ethical Issues in Computing, Spring 2026
 
+Course publishing sources:
+
+- Edit `syllabus_source/syllabus.md`, then run `syllabus_source/build.sh` to publish HTML and PDF versions under `docs/syllabus/`.
+- Edit the Quarto decks under `docs/slides/`. GitHub Actions builds the slide HTML on pushes to `main`; run `docs/slides/build.sh` locally when you want to preview changes or generate PDFs.
+
 ![Trolley to 74181](images/trolley-to-74181.png)
 The trolley problem is only the beginning.
 
