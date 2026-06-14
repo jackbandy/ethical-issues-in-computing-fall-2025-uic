@@ -2,6 +2,10 @@ This folder contains various ethical dilemmas discussed in class. Two main goals
 1. to practice bringing descriptive clarity to such dilemmas, and
 2. to recognize themes and patterns in ethical decision-making.
 
+I have tried to surface dilemmas which are open-ended, rather than this-or-that. In some cases (e.g. good doctor), it seems important to start with a set of potential options, as the situation is rare/unfamiliar and may be difficult to consider. In cases where multiple options are added, I also include a "something else" option.
+
+I have also made an effort to include "established" ethical dilemmas rather than coming up with new ones. Each dilemma has a source which references a movie, TV show, book, story, real-world event, etc.
+
 ## Dilemmas from Utilitarian Ethics
 * The trolley problem
   * ["S" Version](utilitarian-ethics-trolley-f.md) (switch)
@@ -18,9 +22,11 @@ This folder contains various ethical dilemmas discussed in class. Two main goals
 * "[Under the Rug](under-the-rug.md)"
 * [Jerusalem to Jericho](jerusalem-to-jericho.md)
 * [Jericho to Jerusalem](jericho-to-jerusalem.md)
+* [JV's Conscience](jean-valjeans-conscience.md)
 * [Plug In](plug-in.md) ("The Experience Machine")
 * [Recall Style-Null?](style-null-recall.md)
 * [The Eternal Recurrence](existential-eternal-recurrence.md)
+* [Marcel's Crime](marcels-crime-confidentiality.md)
 * [The Prisoner's Dilemma (TK)](prisoners-dilemma.md)
 * [Factory Rebuild (TK)](factory-rebuild.md)
 
