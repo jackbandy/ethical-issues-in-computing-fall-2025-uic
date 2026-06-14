@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="957" height="1267" viewBox="0 0 957 1267">
+  <!-- NOTICE: LLM-generated (Claude Code) vector recreation of blue-line-full-path.tiff.
+       Geometry extracted from the raster: stroke centerlines, corner radii, and station
+       circle centers/radii were fit to subpixel precision and verified by rendering this
+       SVG and diffing against the original (all shapes match within 1px antialiasing). -->
+  <defs>
+    <!-- In the original raster, the white halo of the Clinton-corner transfer station
+         is cut off flat at y=793 (just above the line edge); this clip reproduces that. -->
+    <clipPath id="t1clip"><rect x="780" y="793" width="46" height="46"/></clipPath>
+  </defs>
+
+  <!-- Blue Line route. The top straight is 25px wide in the original while the rest
+       of the route is 26px (centered y=60), so it is drawn as a separate line. -->
+  <line x1="36" y1="59.5" x2="400" y2="59.5" stroke="rgb(1,139,255)" stroke-width="25"/>
+  <path d="M400,60 L399.36,60 A40.5,40.5 0 0 1 433.99,79.5 L561.9,290.41 A45.5,45.5 0 0 1 568.5,314.01 L568.5,358.75 A66.5,66.5 0 0 0 573.71,384.56 L746.2,794.23 A22.5,22.5 0 0 0 766.94,808 L828.5,808 A21.5,21.5 0 0 1 850,829.5 L850,958 A21,21 0 0 1 829,979 L106,979"
+        fill="none" stroke="rgb(1,139,255)" stroke-width="26"/>
+
+  <!-- Regular stations: white circles -->
+  <circle cx="58.12" cy="59.54" r="9.4" fill="#fff"/>
+  <circle cx="151.97" cy="59.54" r="9.4" fill="#fff"/>
+  <circle cx="245.9" cy="59.55" r="9.4" fill="#fff"/>
+  <circle cx="339.73" cy="59.53" r="9.4" fill="#fff"/>
+  <circle cx="443.06" cy="94.73" r="9.4" fill="#fff"/>
+  <circle cx="478.1" cy="152.48" r="9.4" fill="#fff"/>
+  <circle cx="511.97" cy="208.2" r="9.4" fill="#fff"/>
+  <circle cx="545.75" cy="264.55" r="9.4" fill="#fff"/>
+  <circle cx="568.77" cy="321.23" r="9.4" fill="#fff"/>
+  <circle cx="570.99" cy="377.7" r="9.4" fill="#fff"/>
+  <circle cx="594.48" cy="434.33" r="9.4" fill="#fff"/>
+  <circle cx="618.02" cy="490.98" r="9.4" fill="#fff"/>
+  <circle cx="641.69" cy="547.54" r="9.4" fill="#fff"/>
+  <circle cx="666.1" cy="604.13" r="9.4" fill="#fff"/>
+  <circle cx="689.95" cy="660.74" r="9.4" fill="#fff"/>
+  <circle cx="713.81" cy="717.35" r="9.4" fill="#fff"/>
+  <circle cx="850.33" cy="894.79" r="9.4" fill="#fff"/>
+  <circle cx="122.38" cy="979.07" r="9.4" fill="#fff"/>
+  <circle cx="179.55" cy="979.06" r="9.4" fill="#fff"/>
+  <circle cx="236.76" cy="979.08" r="9.4" fill="#fff"/>
+  <circle cx="293.99" cy="979.05" r="9.4" fill="#fff"/>
+  <circle cx="351.15" cy="979.08" r="9.4" fill="#fff"/>
+  <circle cx="408.39" cy="979.07" r="9.4" fill="#fff"/>
+  <circle cx="465.59" cy="979.07" r="9.4" fill="#fff"/>
+  <circle cx="522.8" cy="979.09" r="9.4" fill="#fff"/>
+  <circle cx="579.99" cy="979.05" r="9.4" fill="#fff"/>
+  <circle cx="637.18" cy="979.08" r="9.4" fill="#fff"/>
+  <circle cx="694.4" cy="979.07" r="9.4" fill="#fff"/>
+  <circle cx="751.59" cy="979.07" r="9.4" fill="#fff"/>
+  <circle cx="808.8" cy="979.09" r="9.4" fill="#fff"/>
+
+  <!-- Transfer stations: white halo, black ring, white center -->
+  <circle cx="802.83" cy="808.26" r="18.3" fill="#fff" clip-path="url(#t1clip)"/>
+  <circle cx="850.33" cy="850.6" r="18.3" fill="#fff"/>
+  <circle cx="850.34" cy="942.49" r="18.3" fill="#fff"/>
+  <circle cx="802.83" cy="808.26" r="15.5" fill="#000"/>
+  <circle cx="850.33" cy="850.6" r="15.5" fill="#000"/>
+  <circle cx="850.34" cy="942.49" r="15.5" fill="#000"/>
+  <circle cx="802.83" cy="808.26" r="9.7" fill="#fff"/>
+  <circle cx="850.33" cy="850.6" r="9.7" fill="#fff"/>
+  <circle cx="850.34" cy="942.49" r="9.7" fill="#fff"/>
+</svg>

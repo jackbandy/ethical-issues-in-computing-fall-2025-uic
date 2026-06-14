@@ -1,3 +1,9 @@
+# Draft — Needs Review {.draft-notice}
+
+> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
+
+---
+
 # Demo Slide Deck {.title-slide}
 
 Jack Bandy · CS 377 · UIC

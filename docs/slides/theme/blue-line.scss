@@ -109,6 +109,27 @@ $code-block-border-color: $border;
     }
   }
 
+  // Photo title slide: pair with a full-bleed background-image and
+  // data-state="photo-title" (the state restyles the fixed footer below).
+  .title-slide.photo-title {
+    background: transparent !important;
+
+    h1 {
+      color: $paper;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+    }
+
+    h2,
+    p {
+      color: rgba(255, 255, 255, 0.94);
+      text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    a {
+      color: rgba(255, 255, 255, 0.94);
+    }
+  }
+
   .arrival-board {
     display: flex;
     align-items: center;
@@ -296,6 +317,34 @@ $code-block-border-color: $border;
 
   .controls {
     color: $cta-blue-dark;
+  }
+}
+
+// Active while a slide with data-state="photo-title" is shown: a scrim keeps
+// the title legible over the photo, and the footer goes semi-transparent so
+// the image runs full-bleed behind it.
+.photo-title {
+  .backgrounds .slide-background.present::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(35, 31, 32, 0.52) 0%,
+      rgba(35, 31, 32, 0.18) 52%,
+      rgba(35, 31, 32, 0.42) 100%
+    );
+  }
+
+  .reveal.reveal .footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    color: $charcoal;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+
+    .footer-text {
+      opacity: 0.9;
+    }
   }
 }
 

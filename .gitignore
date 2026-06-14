@@ -22,6 +22,7 @@ docs/slides/.*-pdf-export.html
 docs/slides/*_files/
 docs/slides/*.pdf
 docs/slides/export-pdf.js
+docs/slides/old-slides/
 
 # Slide HTML is CI-managed; local PDF export is optional.
 
@@ -30,6 +31,7 @@ syllabus/latex-syllabus-in-progress/generated/
 
 # Reference-only artifacts
 docs/in-progress/tables.pdf
+docs/assets/blue-line-stops/
 
 # Unneeded files in latex-syllabus-in-progress
 syllabus/latex-syllabus-in-progress/OriginalSyllabusTemplate.tex
@@ -37,3 +39,4 @@ syllabus/latex-syllabus-in-progress/syllabus-cs-377-spring-2026.tex
 syllabus/latex-syllabus-in-progress/syllabus-cs-377-spring-2026.pdf
 syllabus/latex-syllabus-in-progress/syllabusTemplate.pdf
 syllabus/latex-syllabus-in-progress/SCHEDULE.txt
+.unsplash.txt

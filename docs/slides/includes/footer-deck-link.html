@@ -1,0 +1,16 @@
+<script>
+// Point the footer link at the current deck (e.g. doethics.fun/slides/week1).
+// The footer in _metadata.yml links to doethics.fun/slides/; this appends the
+// deck's slug, derived from the page filename, so each deck shows its own URL.
+document.addEventListener("DOMContentLoaded", () => {
+  const link = document.querySelector(".footer a[href*='doethics.fun/slides']");
+  if (!link) return;
+  const slug = window.location.pathname
+    .split("/")
+    .pop()
+    .replace(/\.html?$/, "");
+  if (!slug || slug === "index") return;
+  link.href = "https://doethics.fun/slides/" + slug;
+  link.textContent = "doethics.fun/slides/" + slug;
+});
+</script>
