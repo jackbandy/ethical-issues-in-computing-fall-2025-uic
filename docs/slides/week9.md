@@ -20,6 +20,10 @@ CS 377 · Week 9, Day 1 · 🟦 Division 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -259,6 +263,10 @@ CS 377 · Week 9, Day 2 · 🟦 Damen 🟦
 CS 377 · Week 9, Day 2 · 🟦 Damen 🟦
 
 <!-- image source: photo by Graham Garfield -->
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop21-damen-c.jpg" background-size="cover"}
 
 ---
 

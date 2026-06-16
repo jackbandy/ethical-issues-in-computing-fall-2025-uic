@@ -18,6 +18,10 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -315,6 +319,10 @@ CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
 
 CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
 
 ---
 

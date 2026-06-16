@@ -18,6 +18,10 @@ CS 377 · Week 1, Day 1 · 🟦 Forest Park 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover"}
+
+---
+
 # Agenda for Today
 
 :::: columns
@@ -29,7 +33,7 @@ CS 377 · Week 1, Day 1 · 🟦 Forest Park 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop01-forest-park.svg)
 :::
 ::::
 
@@ -248,6 +252,10 @@ CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
+
+---
+
 # Agenda for Today
 
 :::: columns
@@ -260,7 +268,7 @@ CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop03-oak-park.svg)
 :::
 ::::
 
@@ -463,10 +471,7 @@ See you next week!
 
 # References & Credits {.sources}
 
-1. Conocimiento activity adapted from a version developed by leaders at
-   San José State University (¡Somos SJSU!). See also [UIC's Conocimiento activity guide](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/).
-2. Virtue ethics definition from the
-   [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/).
-3. Title photo: [Jane M. Byrne Interchange](https://commons.wikimedia.org/wiki/File:Jane_M._Byrne_Interchange_4-1-22.jpg)
-   by Sea Cow, via Wikimedia Commons, CC BY-SA 4.0.
+1. Conocimiento activity adapted from a version developed by leaders at San José State University (¡Somos SJSU!). See also [UIC's Conocimiento activity guide](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/).
+2. Virtue ethics definition from the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/).
+3. Title photo: [Jane M. Byrne Interchange](https://commons.wikimedia.org/wiki/File:Jane_M._Byrne_Interchange_4-1-22.jpg) by Sea Cow, via Wikimedia Commons, CC BY-SA 4.0.
 4. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

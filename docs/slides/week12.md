@@ -20,6 +20,10 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -325,6 +329,10 @@ CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover"}
 
 CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover"}
 
 ---
 

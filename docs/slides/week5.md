@@ -20,6 +20,10 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -318,6 +322,10 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 <!-- image source: LaSalle station, photo by Cragin Spring -->
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
 
 ---
 

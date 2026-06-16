@@ -20,6 +20,10 @@ CS 377 · Week 2, Day 1 · 🟦 Cicero 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover"}
+
+---
+
 # Agenda for Today
 
 :::: columns
@@ -250,6 +254,10 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
 
 CS 377 · Week 2, Day 2 · 🟦 Western 🟦
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
 
 ---
 

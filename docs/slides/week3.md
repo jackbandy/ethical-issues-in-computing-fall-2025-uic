@@ -20,6 +20,10 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
+
+---
+
 # Agenda for Today
 
 :::: columns
@@ -318,6 +322,10 @@ CS 377 · Week 3, Day 2 · 🟦 Racine 🟦
 CS 377 · Week 3, Day 2 · 🟦 Racine 🟦
 
 <!-- image source: view of Blue Line station house, circa 1970. Image: CTA via jlkarch.com -->
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
 
 ---
 

@@ -18,6 +18,10 @@ CS 377 · Week 6, Day 1 · 🟦 Jackson 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -236,6 +240,10 @@ CS 377 · Week 6, Day 2 · 🟦 Monroe 🟦
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
 
 CS 377 · Week 6, Day 2 · 🟦 Monroe 🟦
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
 
 ---
 

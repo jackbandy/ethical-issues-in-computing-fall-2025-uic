@@ -20,6 +20,10 @@ CS 377 · Week 4, Day 1 · 🟦 Racine 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -239,6 +243,10 @@ CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
 
 CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
 
 ---
 

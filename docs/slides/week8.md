@@ -20,6 +20,10 @@ CS 377 · Week 8, Day 1 · 🟦 Grand 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -242,6 +246,10 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 <!-- image source: Rendering via altusworks.com -->
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
 
 ---
 

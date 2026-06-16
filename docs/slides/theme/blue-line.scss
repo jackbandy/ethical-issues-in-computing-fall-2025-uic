@@ -117,6 +117,7 @@ $code-block-border-color: $border;
     h1 {
       color: $paper;
       text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+      border-bottom-color: rgba(255, 255, 255, 0.5);
     }
 
     h2,
@@ -127,6 +128,17 @@ $code-block-border-color: $border;
 
     a {
       color: rgba(255, 255, 255, 0.94);
+    }
+  }
+
+  // Photo-only slide: a full-bleed background image with no title or chrome.
+  // The section background must stay transparent so the photo shows, and the
+  // empty heading (and its blue rule) is hidden.
+  .photo-only {
+    background: transparent !important;
+
+    h1 {
+      display: none;
     }
   }
 
@@ -238,26 +250,29 @@ $code-block-border-color: $border;
 .reveal.reveal {
   .footer {
     position: fixed;
-    right: 0;
+    right: 0 !important;
     bottom: 0 !important;
     left: 0 !important;
     box-sizing: border-box;
     width: auto !important;
-    height: 50px;
+    height: 52px;
     margin: 0 !important;
-    padding: 0 150px 0 64px;
-    border-top: 1px solid $border;
+    padding: 0 96px;
+    border-top: 1px solid #e8e8e8;
     color: $quiet;
-    background: $soft;
-    font-size: 17px !important;
-    line-height: 1.2;
+    background: $paper;
+    font-size: 18px !important;
+    font-weight: 520;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 20;
     text-align: left !important;
 
     p {
       display: flex;
       align-items: center;
       gap: 32px;
-      height: 50px;
+      height: 52px;
       margin: 0;
     }
 
@@ -267,7 +282,12 @@ $code-block-border-color: $border;
     }
 
     .footer-text {
-      opacity: 0.68;
+      font-size: 0.94em;
+      font-weight: 400;
+
+      &:first-of-type {
+        margin-left: 16px;
+      }
     }
 
     img {
@@ -281,33 +301,36 @@ $code-block-border-color: $border;
 
     img[alt="UIC logo"] {
       height: 28px;
-      opacity: 0.42;
+      filter: invert(67%);
     }
 
     img[alt="CC BY-NC-SA"] {
-      height: 15px;
-      opacity: 0.42;
+      height: 16px;
+      opacity: 0.33;
     }
   }
 
   .slide-number {
-    right: 24px !important;
+    right: 20px !important;
     bottom: 0 !important;
-    width: 100px;
-    height: 50px;
-    color: $cta-blue-dark;
-    background: transparent;
-    font-size: 17px !important;
-    line-height: 1;
-    text-align: center;
+    // Reveal sets display inline, so !important is needed to flex-center.
     display: flex !important;
     align-items: center;
     justify-content: center;
-    gap: 0.25em;
-    transform: translateY(3px);
+    width: 104px;
+    height: 52px;
+    padding: 0;
+    color: $quiet;
+    background: transparent;
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    z-index: 21;
 
+    // Current and total share one weight — neither number is emphasized.
     .slide-number-current {
-      font-weight: 700;
+      font-weight: 400;
     }
   }
 
@@ -321,8 +344,7 @@ $code-block-border-color: $border;
 }
 
 // Active while a slide with data-state="photo-title" is shown: a scrim keeps
-// the title legible over the photo, and the footer goes semi-transparent so
-// the image runs full-bleed behind it.
+// the title legible over the photo.
 .photo-title {
   .backgrounds .slide-background.present::after {
     content: "";
@@ -335,7 +357,15 @@ $code-block-border-color: $border;
       rgba(35, 31, 32, 0.42) 100%
     );
   }
+}
 
+// On any photo slide (titled or picture-only) the footer goes semi-transparent
+// so the image runs full-bleed behind it. Every footer element — text, both
+// badges, and the slide number — shares one opacity so nothing stands out.
+$photo-title-footer-opacity: 0.7;
+$photo-only-footer-opacity: 0.6;
+
+@mixin photo-footer($opacity) {
   .reveal.reveal .footer {
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     color: $charcoal;
@@ -343,9 +373,31 @@ $code-block-border-color: $border;
     backdrop-filter: blur(8px);
 
     .footer-text {
-      opacity: 0.9;
+      opacity: $opacity;
+    }
+
+    img[alt="UIC logo"] {
+      filter: none;
+      opacity: $opacity;
+    }
+
+    img[alt="CC BY-NC-SA"] {
+      opacity: $opacity;
     }
   }
+
+  .reveal.reveal .slide-number {
+    color: $charcoal;
+    opacity: $opacity;
+  }
+}
+
+.photo-title {
+  @include photo-footer($photo-title-footer-opacity);
+}
+
+.photo-only {
+  @include photo-footer($photo-only-footer-opacity);
 }
 
 @media screen and (max-width: 760px) {

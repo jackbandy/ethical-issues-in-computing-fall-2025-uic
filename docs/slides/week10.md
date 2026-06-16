@@ -18,6 +18,10 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover"}
+
+---
+
 # Administrivia
 
 :::: columns
@@ -281,6 +285,10 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 <!-- image source: John Ringor -->
+
+---
+
+# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover"}
 
 ---
 

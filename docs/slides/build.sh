@@ -4,7 +4,7 @@ set -euo pipefail
 SLIDES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DOCS_DIR="$(cd "$SLIDES_DIR/.." && pwd)"
 QUARTO="${QUARTO_CMD:-quarto}"
-BUILD_PDFS="${BUILD_PDFS:-true}"
+BUILD_PDFS="${BUILD_PDFS:-false}"
 PORT="${QUARTO_PORT:-}"
 export HOME="${QUARTO_BUILD_HOME:-$SLIDES_DIR/.quarto/home}"
 export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$SLIDES_DIR/.quarto/cache}"
@@ -42,6 +42,10 @@ find_chrome() {
     fi
   done
 }
+
+if [[ "$BUILD_PDFS" == "false" ]]; then
+  echo "Building HTML only. To generate PDFs, use: BUILD_PDFS=true $0"
+fi
 
 shopt -s nullglob
 decks=("$SLIDES_DIR"/*.md "$SLIDES_DIR"/*.qmd)
@@ -82,7 +86,7 @@ fi
 
 CHROME_CMD="$(find_chrome || true)"
 if [[ -z "$CHROME_CMD" ]]; then
-  echo "Error: Chrome/Chromium is required for PDF export. Set CHROME or BUILD_PDFS=false." >&2
+  echo "Error: Chrome/Chromium is required for PDF export. Set CHROME or use BUILD_PDFS=false to skip PDF generation." >&2
   exit 1
 fi
 

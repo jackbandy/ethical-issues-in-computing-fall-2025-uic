@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(qlmanage -t *)",
+      "Bash(quarto render *)"
+    ]
+  }
+}
