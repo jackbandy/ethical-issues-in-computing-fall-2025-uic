@@ -8,6 +8,10 @@
   font-weight: 400;
 }
 
+.reveal.reveal .slide-number {
+  gap: 0.3em;
+}
+
 @media screen and (max-width: 1100px) {
   .reveal.reveal .footer {
     padding-left: 52px;

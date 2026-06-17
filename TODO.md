@@ -35,6 +35,13 @@ Convert the PDFs to have markdown/LaTeX source files (similar to syllabus):
   - [ ] `05-read-the-book.md`
 
 ## Slides
+- [ ] Fix timer embed in slides - some options
+   1. Disable embedding for this iframe only - Add a Quarto attribute to prevent `embed-resources` from processing it
+   2. Use external URL as-is - Keep the external iframe link (doesn't embed in data URL, loads directly)
+   3. Adjust `embed-resources` config - Set to false globally or use a filter script
+   4. Add `<base>` tag - Modify how Quarto processes embedded HTML (?)
+  - **Current source**: `/docs/slides/week0.md`
+  - **Embedded file**: https://jackbandy.com/extras/cta-style-timer.html
 - [ ] Make slide PDFs for each week/unit
   - [ ] Week 1: Ethical Theories
   - [ ] Week 2: Ethical Theories
