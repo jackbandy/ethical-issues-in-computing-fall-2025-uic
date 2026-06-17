@@ -49,7 +49,7 @@ CS 377 · Week 6, Day 1 · 🟦 Jackson 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop14-jackson.svg)
 :::
 ::::
 

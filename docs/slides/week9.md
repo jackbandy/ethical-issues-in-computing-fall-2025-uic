@@ -51,7 +51,7 @@ CS 377 · Week 9, Day 1 · 🟦 Division 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop20-division.svg)
 :::
 ::::
 

@@ -37,7 +37,7 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop09-illinois-medical-district.svg)
 :::
 ::::
 
@@ -342,7 +342,7 @@ CS 377 · Week 3, Day 2 · 🟦 Racine 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop10-racine.svg)
 :::
 ::::
 

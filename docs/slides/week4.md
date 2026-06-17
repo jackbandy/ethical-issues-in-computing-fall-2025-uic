@@ -53,7 +53,7 @@ CS 377 · Week 4, Day 1 · 🟦 Racine 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop10-racine.svg)
 :::
 ::::
 
@@ -278,7 +278,7 @@ CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop11-uic-halsted.svg)
 :::
 ::::
 

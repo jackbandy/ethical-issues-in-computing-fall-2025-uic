@@ -51,7 +51,7 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop16-washington.svg)
 :::
 ::::
 
@@ -356,7 +356,7 @@ CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop17-clark-lake.svg)
 :::
 ::::
 

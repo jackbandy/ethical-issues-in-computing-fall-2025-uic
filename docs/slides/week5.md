@@ -53,7 +53,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop12-clinton.svg)
 :::
 ::::
 
@@ -358,7 +358,7 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop13-lasalle.svg)
 :::
 ::::
 

@@ -52,7 +52,7 @@ CS 377 · Week 8, Day 1 · 🟦 Grand 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop18-grand.svg)
 :::
 ::::
 
@@ -280,7 +280,7 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop19-chicago.svg)
 :::
 ::::
 

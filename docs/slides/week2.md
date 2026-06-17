@@ -38,7 +38,7 @@ CS 377 · Week 2, Day 1 · 🟦 Cicero 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop05-cicero.svg)
 :::
 ::::
 
@@ -274,7 +274,7 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop08-western.svg)
 :::
 ::::
 
