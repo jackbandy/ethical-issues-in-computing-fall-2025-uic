@@ -62,11 +62,18 @@ if [[ ${#decks[@]} -eq 0 ]]; then
 fi
 
 for deck in "${decks[@]}"; do
-  echo "Rendering $(basename "$deck")"
+  base_md="$(basename "$deck")"
+  echo "Rendering $base_md"
+  # Stamp the compile time into the Sources slide of a throwaway copy, render,
+  # then restore the pristine source so the timestamp never gets committed.
+  cp "$deck" "$deck.stampbak"
+  python3 "$SLIDES_DIR/stamp_source_note.py" "$deck" \
+    || { mv -f "$deck.stampbak" "$deck"; exit 1; }
   (
     cd "$SLIDES_DIR"
-    "$QUARTO" render "$(basename "$deck")" --to revealjs
-  )
+    "$QUARTO" render "$base_md" --to revealjs
+  ) || { mv -f "$deck.stampbak" "$deck"; exit 1; }
+  mv -f "$deck.stampbak" "$deck"
 done
 
 if [[ "$BUILD_PDFS" == "false" ]]; then
