@@ -2,16 +2,61 @@
   <rect width="1000" height="618" fill="#ffffff"/>
   <rect x="0" y="0" width="8" height="618" fill="#00a1de"/>
 
-  <!-- distilled logo mark: a blue route segment that turns, with two stops -->
-  <g transform="translate(500 300)">
-    <path d="M -110 90 L -110 -10 C -110 -34 -94 -50 -70 -50 L 40 -50 C 64 -50 80 -66 80 -90"
-          fill="none" stroke="#00a1de" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="-110" cy="60" r="17" fill="#ffffff" stroke="#00a1de" stroke-width="9"/>
-    <circle cx="-20" cy="-50" r="17" fill="#ffffff" stroke="#00a1de" stroke-width="9"/>
-    <circle cx="80" cy="-90" r="13" fill="#00a1de"/>
-  </g>
+  <!-- full Blue Line route path at small scale (source: blue-line-full-path-tweak.svg) -->
+  <svg x="360" y="95" width="280" height="314" viewBox="20 40 855 955" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <clipPath id="t1clip"><rect x="780" y="793" width="46" height="46"/></clipPath>
+    </defs>
+    <path fill="none" stroke="#00a1de" stroke-width="26" d="M 36 59.5 L 400 60.002197"/>
+    <path fill="none" stroke="#00a1de" stroke-width="26"
+      d="M 400 60 L 399.359985 60 C 413.51828 60.000122 426.648682 67.393799 433.98999 79.5
+         L 561.900024 290.410034 C 566.216919 297.525024 568.499695 305.687744 568.5 314.01001
+         L 568.5 358.75 C 568.499023 367.614624 570.270447 376.389893 573.710022 384.559998
+         L 746.200012 794.22998 C 749.713013 802.57489 757.885803 808.001099 766.940002 808
+         L 828.5 808 C 840.374146 808 850 817.625854 850 829.5
+         L 850 958 C 850 969.597961 840.597961 979 829 979 L 106 979"/>
+    <circle cx="58.12" cy="59.54" r="9.4" fill="#fff"/>
+    <circle cx="151.97" cy="59.54" r="9.4" fill="#fff"/>
+    <circle cx="245.9" cy="59.55" r="9.4" fill="#fff"/>
+    <circle cx="339.73" cy="59.53" r="9.4" fill="#fff"/>
+    <circle cx="443.06" cy="94.73" r="9.4" fill="#fff"/>
+    <circle cx="478.1" cy="152.48" r="9.4" fill="#fff"/>
+    <circle cx="511.97" cy="208.2" r="9.4" fill="#fff"/>
+    <circle cx="545.75" cy="264.55" r="9.4" fill="#fff"/>
+    <circle cx="568.77" cy="321.23" r="9.4" fill="#fff"/>
+    <circle cx="570.99" cy="377.7" r="9.4" fill="#fff"/>
+    <circle cx="594.48" cy="434.33" r="9.4" fill="#fff"/>
+    <circle cx="618.02" cy="490.98" r="9.4" fill="#fff"/>
+    <circle cx="641.69" cy="547.54" r="9.4" fill="#fff"/>
+    <circle cx="666.1" cy="604.13" r="9.4" fill="#fff"/>
+    <circle cx="689.95" cy="660.74" r="9.4" fill="#fff"/>
+    <circle cx="713.81" cy="717.35" r="9.4" fill="#fff"/>
+    <circle cx="850.33" cy="894.79" r="9.4" fill="#fff"/>
+    <circle cx="122.38" cy="979.07" r="9.4" fill="#fff"/>
+    <circle cx="179.55" cy="979.06" r="9.4" fill="#fff"/>
+    <circle cx="236.76" cy="979.08" r="9.4" fill="#fff"/>
+    <circle cx="293.99" cy="979.05" r="9.4" fill="#fff"/>
+    <circle cx="351.15" cy="979.08" r="9.4" fill="#fff"/>
+    <circle cx="408.39" cy="979.07" r="9.4" fill="#fff"/>
+    <circle cx="465.59" cy="979.07" r="9.4" fill="#fff"/>
+    <circle cx="522.8" cy="979.09" r="9.4" fill="#fff"/>
+    <circle cx="579.99" cy="979.05" r="9.4" fill="#fff"/>
+    <circle cx="637.18" cy="979.08" r="9.4" fill="#fff"/>
+    <circle cx="694.4" cy="979.07" r="9.4" fill="#fff"/>
+    <circle cx="751.59" cy="979.07" r="9.4" fill="#fff"/>
+    <circle cx="808.8" cy="979.09" r="9.4" fill="#fff"/>
+    <circle cx="802.83" cy="808.26" r="18.3" fill="#fff" clip-path="url(#t1clip)"/>
+    <circle cx="850.33" cy="850.6" r="18.3" fill="#fff"/>
+    <circle cx="850.34" cy="942.49" r="18.3" fill="#fff"/>
+    <circle cx="802.83" cy="808.26" r="15.5" fill="#000"/>
+    <circle cx="850.33" cy="850.6" r="15.5" fill="#000"/>
+    <circle cx="850.34" cy="942.49" r="15.5" fill="#000"/>
+    <circle cx="802.83" cy="808.26" r="9.7" fill="#fff"/>
+    <circle cx="850.33" cy="850.6" r="9.7" fill="#fff"/>
+    <circle cx="850.34" cy="942.49" r="9.7" fill="#fff"/>
+  </svg>
 
   <text x="500" y="500" text-anchor="middle" font-size="34" font-weight="700" fill="#231f20" letter-spacing="1">LINE MARK</text>
-  <text x="500" y="534" text-anchor="middle" font-size="17" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif">the transit motif distilled to a compact mark — rounded joins, ringed stops</text>
-  <text x="500" y="592" text-anchor="middle" font-size="13" fill="#aaaaaa" font-family="'IBM Plex Mono',monospace">Original mark · CTA Blue Line color #00A1DE · not a CTA logo or approximation</text>
+  <text x="500" y="534" text-anchor="middle" font-size="17" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif">full Blue Line route path at small scale — real geometry, real stops</text>
+  <text x="500" y="592" text-anchor="middle" font-size="13" fill="#aaaaaa" font-family="'IBM Plex Mono',monospace">Source: blue-line-full-path-tweak.svg · CTA Blue Line color #00A1DE · not a CTA logo or approximation</text>
 </svg>

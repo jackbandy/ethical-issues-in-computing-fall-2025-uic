@@ -1,17 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="618" viewBox="0 0 1000 618" font-family="'Big Shoulders','Arial Narrow','Helvetica Neue Condensed',sans-serif">
   <rect width="1000" height="618" fill="#ffffff"/>
 
-  <!-- route line motif: a short blue run with one stop node -->
-  <g>
-    <path d="M 120 300 L 360 300" fill="none" stroke="#00a1de" stroke-width="16" stroke-linecap="round"/>
-    <circle cx="200" cy="300" r="20" fill="#ffffff" stroke="#00a1de" stroke-width="9"/>
-    <path d="M 360 300 q 40 0 40 -40 L 400 210" fill="none" stroke="#00a1de" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <!-- route line motif: real crop of blue-line-full-path-tweak.svg top horizontal section -->
+  <svg x="55" y="233" width="362" height="134" viewBox="15 30 445 165" preserveAspectRatio="xMinYMid meet">
+    <path fill="none" stroke="#00a1de" stroke-width="26" d="M 36 59.5 L 400 60.002197"/>
+    <path fill="none" stroke="#00a1de" stroke-width="26"
+      d="M 400 60 L 399.359985 60 C 413.51828 60.000122 426.648682 67.393799 433.98999 79.5
+         L 561.900024 290.410034 C 566.216919 297.525024 568.499695 305.687744 568.5 314.01001
+         L 568.5 358.75 C 568.499023 367.614624 570.270447 376.389893 573.710022 384.559998
+         L 746.200012 794.22998 C 749.713013 802.57489 757.885803 808.001099 766.940002 808
+         L 828.5 808 C 840.374146 808 850 817.625854 850 829.5
+         L 850 958 C 850 969.597961 840.597961 979 829 979 L 106 979"/>
+    <circle cx="58.12" cy="59.54" r="9.4" fill="#fff"/>
+    <circle cx="151.97" cy="59.54" r="9.4" fill="#fff"/>
+    <circle cx="245.9" cy="59.55" r="9.4" fill="#fff"/>
+    <circle cx="339.73" cy="59.53" r="9.4" fill="#fff"/>
+    <circle cx="443.06" cy="94.73" r="9.4" fill="#fff"/>
+    <circle cx="478.1" cy="152.48" r="9.4" fill="#fff"/>
+  </svg>
 
   <!-- wordmark -->
   <text x="430" y="290" font-size="78" font-weight="700" fill="#231f20" letter-spacing="0.5">DOETHICS<tspan fill="#00a1de">.FUN</tspan></text>
   <text x="432" y="338" font-size="30" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif" letter-spacing="3">BLUE LINE ETHICS · CS 377 · UIC</text>
 
-  <text x="120" y="470" font-size="17" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif">Wordmark concept — Blue Line run + a single stop node reads as the “do…” of the domain.</text>
-  <text x="120" y="586" font-size="13" fill="#aaaaaa" font-family="'IBM Plex Mono',monospace">Original mark · CTA Blue Line color #00A1DE · not a CTA logo or approximation</text>
+  <text x="120" y="470" font-size="17" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif">Wordmark concept — real crop of the Blue Line top section (4 stations) leading into the wordmark.</text>
+  <text x="120" y="586" font-size="13" fill="#aaaaaa" font-family="'IBM Plex Mono',monospace">Source: blue-line-full-path-tweak.svg · CTA Blue Line color #00A1DE · not a CTA logo or approximation</text>
 </svg>
