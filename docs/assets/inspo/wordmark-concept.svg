@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="618" viewBox="0 0 1000 618" font-family="'Big Shoulders','Arial Narrow','Helvetica Neue Condensed',sans-serif">
+  <rect width="1000" height="618" fill="#ffffff"/>
+
+  <!-- route line motif: a short blue run with one stop node -->
+  <g>
+    <path d="M 120 300 L 360 300" fill="none" stroke="#00a1de" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="200" cy="300" r="20" fill="#ffffff" stroke="#00a1de" stroke-width="9"/>
+    <path d="M 360 300 q 40 0 40 -40 L 400 210" fill="none" stroke="#00a1de" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="430" y="290" font-size="78" font-weight="700" fill="#231f20" letter-spacing="0.5">DOETHICS<tspan fill="#00a1de">.FUN</tspan></text>
+  <text x="432" y="338" font-size="30" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif" letter-spacing="3">BLUE LINE ETHICS · CS 377 · UIC</text>
+
+  <text x="120" y="470" font-size="17" fill="#666666" font-family="'Mulish',FreeSans,Helvetica,Arial,sans-serif">Wordmark concept — Blue Line run + a single stop node reads as the “do…” of the domain.</text>
+  <text x="120" y="586" font-size="13" fill="#aaaaaa" font-family="'IBM Plex Mono',monospace">Original mark · CTA Blue Line color #00A1DE · not a CTA logo or approximation</text>
+</svg>

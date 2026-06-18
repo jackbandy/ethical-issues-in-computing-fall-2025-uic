@@ -4,6 +4,12 @@ description: Ethical Issues in Computing — CS 377, UIC
 url: "https://doethics.fun"
 baseurl: ""
 
+plugins:
+  - jekyll-sitemap
+
+include:
+  - .well-known
+
 markdown: kramdown
 kramdown:
   input: GFM

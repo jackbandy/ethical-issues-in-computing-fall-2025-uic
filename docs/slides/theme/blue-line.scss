@@ -17,11 +17,11 @@ $body-color: $ink;
 $link-color: $cta-blue-dark;
 $link-color-hover: $cta-blue-deep;
 $selection-bg: rgba(0, 161, 222, 0.28);
-$font-family-sans-serif: FreeSans, Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Mulish", FreeSans, Helvetica, Arial, sans-serif;
 $font-family-monospace: "IBM Plex Mono", "Courier New", monospace;
 $presentation-font-size-root: 34px;
 $presentation-line-height: 1.35;
-$presentation-heading-font: "Arial Narrow", "Helvetica Neue Condensed", FreeSans, sans-serif;
+$presentation-heading-font: "Big Shoulders", "Arial Narrow", "Helvetica Neue Condensed", sans-serif;
 $presentation-heading-color: $cta-blue-dark;
 $presentation-heading-font-weight: 700;
 $presentation-heading-line-height: 1.05;
@@ -32,6 +32,21 @@ $code-block-bg: $soft;
 $code-block-border-color: $border;
 
 /*-- scss:rules --*/
+
+// Self-hosted variable fonts (OFL, in assets/fonts/ — never a CDN).
+// Path is relative to the compiled theme CSS in <deck>_files/libs/revealjs/dist/theme/.
+@font-face {
+  font-family: "Big Shoulders";
+  src: url("../../../../../../assets/fonts/big-shoulders/BigShoulders.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../../../../../../assets/fonts/mulish/Mulish-wght.ttf") format("truetype-variations");
+  font-weight: 200 1000;
+  font-display: swap;
+}
 
 .reveal {
   color: $ink;

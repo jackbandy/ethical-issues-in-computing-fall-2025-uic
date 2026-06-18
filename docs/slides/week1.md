@@ -163,34 +163,6 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 ---
 
-# Topics from past students
-
-:::: columns
-::: {.column width="48%"}
-- Value-sensitive / culturally-sensitive design
-- Labor displacement and deskilling
-- Privacy as contextual integrity
-- Ethics through speculative fiction and sci-fi
-- Addiction and "dark patterns" in UI design
-- Methods for measuring fairness and bias
-- Economic bubbles and hype cycles in tech
-- Online safety and content moderation
-- Bias, discrimination in large language models
-:::
-
-::: {.column width="48%"}
-- Digital rights (to repair, to be forgotten, etc.)
-- Ethics and emotion in data visualization
-- Microtargeting and behavioral manipulation
-- Environmental costs of computing
-- Facial recognition (privacy and discrimination)
-- Anonymity and security for data analytics
-- Monopoly power / the politics of "big tech"
-- Inequality and the "digital divide"
-:::
-::::
-
----
 
 # What piques your interest?
 
@@ -201,7 +173,6 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 - Privacy as contextual integrity
 - Ethics through speculative fiction and sci-fi
 - Addiction and "dark patterns" in UI design
-- Methods for measuring fairness and bias
 - Economic bubbles and hype cycles in tech
 - Online safety and content moderation
 - Bias, discrimination in large language models
@@ -209,7 +180,6 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 ::: {.column width="48%"}
 - Digital rights (to repair, to be forgotten, etc.)
-- Ethics and emotion in data visualization
 - Microtargeting and behavioral manipulation
 - Environmental costs of computing
 - Facial recognition (privacy and discrimination)

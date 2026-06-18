@@ -1,0 +1,4 @@
+Contact: https://github.com/jackbandy/ethical-issues-in-computing-uic/issues
+Expires: 2027-01-01T00:00:00.000Z
+Canonical: https://doethics.fun/.well-known/security.txt
+Preferred-Languages: en

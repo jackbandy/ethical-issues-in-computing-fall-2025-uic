@@ -1,0 +1,14 @@
+# robots.txt — doethics.fun (CS 377, Blue Line Ethics)
+# PRE-LAUNCH: only the homepage is crawlable until the Fall 2026 semester
+# (UIC classes start ~late August 2026). The site stays online and shareable
+# by direct link; course materials just won't surface in search yet.
+#
+# TO GO LIVE FOR FALL 2026: delete the "Disallow: /" line below to open the
+# whole site to crawlers.
+
+User-agent: *
+Allow: /$
+Allow: /index.html
+Disallow: /
+
+Sitemap: https://doethics.fun/sitemap.xml
