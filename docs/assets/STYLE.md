@@ -48,10 +48,13 @@ Defaults (shared with `data-science-fun`):
 
 ## Fonts
 
-- headings/titles: Big Shoulders (`"Big Shoulders", "Arial Narrow", "Helvetica Neue Condensed", sans-serif`)
-- body: Mulish (`"Mulish", FreeSans, Helvetica, Arial, sans-serif`)
-- code: `"IBM Plex Mono", "Courier New", monospace`
-- figures: Big Shoulders headings + Mulish text (older SVGs use Helvetica); headings 700, text 400
+- **Slides & figures** (`docs/slides/theme/blue-line.scss`): headings Big Shoulders (`"Big Shoulders", "Arial Narrow", "Helvetica Neue Condensed", sans-serif`); body Mulish (`"Mulish", FreeSans, Helvetica, Arial, sans-serif`); code `"IBM Plex Mono", "Courier New", monospace`. Figures: Big Shoulders headings + Mulish text (older SVGs use Helvetica); headings 700, text 400.
+- **Site pages** (`docs/css/index.css`, `docs/css/exercise.css` — homepage, exercise pages): Libre Franklin / ITC Franklin Gothic for body copy, Nunito for the homepage sign-icon numeral.
+- If adding a new page, match whichever surface it belongs to rather than introducing a third stack.
+
+## The "closed sign" panel
+
+The homepage (`docs/css/index.css` `.sign`/`.sign-top`/`.sign-bottom`) renders a literal transit-style "closed" sign — dark header bar with a circular icon badge, white body — as the page's one illustrative element. It's the only place ornamentation is allowed to be playful; everything else (exercise pages, syllabus) stays plain text on white/neutral with the blue accent doing all the work (labels, links, dividers — see `docs/css/exercise.css`).
 
 ## Other norms
 
