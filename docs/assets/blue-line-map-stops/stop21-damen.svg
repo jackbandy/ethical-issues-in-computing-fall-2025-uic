@@ -47,10 +47,10 @@
     <path id="path40" fill="#ffffff" stroke="none" d="M 860.039978 942.48999 C 860.039978 947.847168 855.697144 952.190002 850.340027 952.190002 C 844.982849 952.190002 840.640015 947.847168 840.640015 942.48999 C 840.640015 937.132813 844.982849 932.789978 850.340027 932.789978 C 855.697144 932.789978 860.039978 937.132813 860.039978 942.48999 Z"/>
     <path id="divider-damen-division" fill="#000000" stroke="#ffffff" stroke-width="6" stroke-linecap="round" d="M 635.460022 583.599976 L 672.330017 568.070007"/>
     <path id="divider-uic-clinton" fill="#000000" stroke="#ffffff" stroke-width="6" stroke-linecap="round" d="M 722.190002 960 L 722.190002 1000"/>
-    <circle cx="689.95" cy="660.74" r="36.5" fill="none" stroke="#c60c30" stroke-width="3" opacity="0.66"/>
-    <circle cx="689.95" cy="660.74" r="63.5" fill="none" stroke="#c60c30" stroke-width="3" opacity="0.66"/>
-    <circle id="coverage-dot" cx="689.95" cy="660.74" r="11" fill="#c60c30" stroke="none"/>
-    <g id="you-are-here" transform="translate(-115.24,-165.28) rotate(12.00,715.77,830.71)">
+    <circle cx="641.69" cy="547.54" r="36.5" fill="none" stroke="#c60c30" stroke-width="3" opacity="0.66"/>
+    <circle cx="641.69" cy="547.54" r="63.5" fill="none" stroke="#c60c30" stroke-width="3" opacity="0.66"/>
+    <circle id="coverage-dot" cx="641.69" cy="547.54" r="11" fill="#c60c30" stroke="none"/>
+    <g id="you-are-here" transform="translate(-162.12,-266.85) rotate(4.50,715.77,830.71)">
         <g id="Group">
             <path id="path44" fill="#c60c30" stroke="none" d="M 461.15976 933.009155 L 584.95813 894.288452 L 588.322021 939.350708 L 715.768555 830.709839 L 551.095032 800.24585 L 570.687805 840.964844 L 444.097382 869.252808 Z"/>
             <g id="g1">
