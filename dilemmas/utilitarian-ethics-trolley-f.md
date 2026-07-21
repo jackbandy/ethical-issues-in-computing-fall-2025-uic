@@ -1,3 +1,7 @@
+---
+summary: Would you push a man off a footbridge to stop a trolley from killing five people?
+---
+
 # The Trolley Problem (F Version)
 
 There is a runaway trolley barreling down the railway tracks. Ahead, on the tracks, there are five people. The trolley is headed straight for them.

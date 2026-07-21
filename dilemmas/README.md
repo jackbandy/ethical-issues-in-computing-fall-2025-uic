@@ -8,14 +8,18 @@ I have also made an effort to include "established" ethical dilemmas rather than
 
 ## Dilemmas from Utilitarian Ethics
 * The trolley problem
-  * ["S" Version](utilitarian-ethics-trolley-f.md) (switch)
-  * ["F" Version](utilitarian-ethics-trolley-s.md) (footbridge)
+  * ["S" Version](utilitarian-ethics-trolley-s.md) (switch)
+  * ["F" Version](utilitarian-ethics-trolley-f.md) (footbridge)
 * The [transplant case](utilitarian-ethics-transplant.md)
 * The [tortured child](utilitarian-ethics-tortured-child.md)
 
 ## Dilemmas from Care Ethics
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
 * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
+
+## Dilemmas from Plato
+* The [Ring of Gyges](plato-ring-of-gyges.md)
+* [Crito's Offer](plato-critos-offer.md)
 
 ## Other Dilemmas / Yet-to-be categorized
 * The [Good Doctor](good-doctor.md)
@@ -27,8 +31,10 @@ I have also made an effort to include "established" ethical dilemmas rather than
 * [Recall Style-Null?](style-null-recall.md)
 * [The Eternal Recurrence](existential-eternal-recurrence.md)
 * [Marcel's Crime](marcels-crime-confidentiality.md)
+* [The Ulysses Contract](odyssey-ulysses-contract.md)
 * [The Prisoner's Dilemma (TK)](prisoners-dilemma.md)
 * [Factory Rebuild (TK)](factory-rebuild.md)
+* [The Deadly Fuel Tank](deadly-fuel-tank.md)
 
 
 

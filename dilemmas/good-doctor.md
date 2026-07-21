@@ -1,3 +1,7 @@
+---
+summary: Disaster is approaching, evacuation is impossible, and physicians must decide how to care for patients facing imminent death.
+---
+
 # The Good Doctor Dilemma
 
 

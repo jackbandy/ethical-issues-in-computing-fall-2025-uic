@@ -1,0 +1,124 @@
+---
+permalink: /dilemmas/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00A1DE">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Dilemmas — Blue Line Ethics</title>
+  <meta name="description" content="Ethical dilemmas discussed in Ethical Issues in Computing (CS 377) at UIC.">
+  <link rel="canonical" href="https://doethics.fun/dilemmas/">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/dilemmas.css">
+</head>
+<body>
+  <hr class="blue-line">
+  <div class="container">
+    <h1><a href="{{ site.baseurl }}/">Blue Line Ethics</a></h1>
+  </div>
+  <hr class="blue-line">
+
+  <main class="dilemmas-main">
+    <h2>Dilemmas</h2>
+    <p class="dilemmas-intro">Ethical dilemmas discussed in class. Click a card to read the full scenario.</p>
+    <div class="search-row">
+      <input type="search" id="searchInput" class="dilemma-search" placeholder="Search dilemmas&hellip;" aria-label="Search dilemmas">
+      <button id="shuffleBtn" class="shuffle-btn">🔀 Shuffle</button>
+    </div>
+    <p class="dilemma-count" id="dilemmaCount"></p>
+    <div class="card-grid" id="cardGrid"></div>
+    <p class="no-results" id="noResults" hidden>No dilemmas match your search.</p>
+  </main>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="side-panel" id="sidePanel" aria-label="Dilemma detail">
+    <button class="panel-close" id="panelClose" aria-label="Close">&times;</button>
+    <div id="panelContent"></div>
+  </aside>
+
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/dilemmas-data.js"></script>
+  <script>
+    const grid = document.getElementById("cardGrid");
+    const searchInput = document.getElementById("searchInput");
+    const countEl = document.getElementById("dilemmaCount");
+    const noResults = document.getElementById("noResults");
+    const overlay = document.getElementById("overlay");
+    const sidePanel = document.getElementById("sidePanel");
+    const panelContent = document.getElementById("panelContent");
+
+    function render(list) {
+      grid.innerHTML = "";
+      list.forEach(dilemma => {
+        const card = document.createElement("div");
+        card.className = "dilemma-card";
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+
+        const title = document.createElement("h3");
+        title.textContent = dilemma.title;
+        const summary = document.createElement("p");
+        summary.textContent = dilemma.summary;
+        card.append(title, summary);
+
+        card.addEventListener("click", () => openPanel(dilemma));
+        card.addEventListener("keydown", e => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            openPanel(dilemma);
+          }
+        });
+        grid.appendChild(card);
+      });
+      countEl.textContent = list.length + " of " + dilemmas.length + " dilemmas";
+      noResults.hidden = list.length > 0;
+    }
+
+    function openPanel(dilemma) {
+      panelContent.innerHTML = "";
+      const title = document.createElement("h2");
+      title.className = "panel-title";
+      title.textContent = dilemma.title;
+      const body = document.createElement("div");
+      body.className = "dilemma-body";
+      body.innerHTML = dilemma.html;
+      panelContent.append(title, body);
+      sidePanel.classList.add("open");
+      overlay.classList.add("visible");
+      sidePanel.scrollTop = 0;
+    }
+
+    function closePanel() {
+      sidePanel.classList.remove("open");
+      overlay.classList.remove("visible");
+    }
+
+    let order = [...dilemmas];
+
+    function applyFilter() {
+      const query = searchInput.value.trim().toLowerCase();
+      render(order.filter(d =>
+        d.title.toLowerCase().includes(query) ||
+        d.summary.toLowerCase().includes(query)
+      ));
+    }
+
+    searchInput.addEventListener("input", applyFilter);
+
+    document.getElementById("shuffleBtn").addEventListener("click", () => {
+      order = [...order].sort(() => Math.random() - 0.5);
+      applyFilter();
+    });
+
+    overlay.addEventListener("click", closePanel);
+    document.getElementById("panelClose").addEventListener("click", closePanel);
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
+
+    render(order);
+  </script>
+</body>
+</html>

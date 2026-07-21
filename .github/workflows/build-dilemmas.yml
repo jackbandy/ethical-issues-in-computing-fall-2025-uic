@@ -1,0 +1,35 @@
+name: Build dilemmas data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dilemmas/**"
+      - ".github/workflows/build-dilemmas.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # build-dilemmas-data.py uses only the Python standard library.
+      - name: Generate docs/dilemmas-data.js
+        run: python3 dilemmas/build-dilemmas-data.py
+
+      - name: Commit generated dilemma outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/dilemmas-data.js docs/images/dilemmas
+          git diff --staged --quiet || (git commit -m "Build dilemmas data" && git push)

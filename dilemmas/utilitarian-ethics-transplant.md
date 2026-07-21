@@ -1,3 +1,7 @@
+---
+summary: A surgeon could save five dying patients by killing one healthy traveler — would it be permissible?
+---
+
 # The Transplant Case
 
 A brilliant transplant surgeon has five patients, each in need of a different organ, each of whom will die without that organ. Unfortunately, there are no organs available to perform any of these five transplant operations.

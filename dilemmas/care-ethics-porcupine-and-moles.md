@@ -1,3 +1,7 @@
+---
+summary: A prickly houseguest refuses to leave the moles' crowded cave — what should be done?
+---
+
 # The Porcupine and the Moles
 
 As the winter grew cold, a porcupine was looking for a home and found a most desirable cave. The cave was occupied by a family of moles.

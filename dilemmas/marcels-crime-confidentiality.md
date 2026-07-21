@@ -1,3 +1,7 @@
+---
+summary: A patient confesses a hidden death during therapy and forbids his psychiatrist from telling the authorities.
+---
+
 # Marcel's Crime
 
 During a routine therapy session, Marcel tells his longtime psychiatrist (Dr. Cooper) that he once shoved his neighbor (Olivia) during an argument, causing her to fall down his stairs, break her neck, and die. Marcel buried the body in a state park. He reveals the location to Dr. Cooper, and insists the death was accidental. Olivia's body has never been found, her family still believes she may be alive, and Marcel refuses to tell the authorities.

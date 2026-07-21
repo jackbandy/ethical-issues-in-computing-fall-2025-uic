@@ -1,3 +1,7 @@
+---
+summary: Running late to give a presentation, you pass a man slumped against a wall, coughing and groaning.
+---
+
 # Jericho to Jerusalem
 
 You are walking across campus to get to a class in which you are scheduled to give a presentation. You are running slightly late and will need to hurry to arrive on time. As you hurry along, you pass a lecture center building and see a man slumped against a wall, coughing and groaning.

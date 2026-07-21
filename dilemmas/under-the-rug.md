@@ -1,3 +1,7 @@
+---
+summary: Your startup is marketing a product you know does not work, and your manager says keep quiet.
+---
+
 # Under the Rug
 
 After graduation from UIC, you accept a well-paying job at a fast-growing technology startup that has raised millions of dollars in funding. You make a good salary, your benefits are excellent (401k, healthcare, and generous parental leave!), and you work on a small, friendly team with a dozen other people.

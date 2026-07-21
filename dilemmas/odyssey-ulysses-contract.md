@@ -1,0 +1,21 @@
+---
+summary: Odysseus begs to be untied from the mast — should his crew obey his past orders or his present pleas?
+---
+
+# The Ulysses Contract
+
+In Homer's *Odyssey*, Odysseus must sail past the Sirens, whose song is so enchanting that sailors who hear it steer toward the sound and wreck their ships. Odysseus wants to hear the song anyway. He has his crew plug their ears with wax, then orders them to tie him to the ship's mast.
+
+He also tells his crew that if he begs or commands them to release him, they must only bind him tighter.
+
+When Odysseus hears the song, he strains against the ropes and signals frantically for the crew to free him. Odysseus in the moment genuinely wanted to be released, and his crew deliberately ignored him.
+
+Philosophers sometimes call such an advance directive a "Ulysses contract," and versions of it appear in real life. For example, a psychiatric patient who signs an advance directive authorizing treatment for potential future crises.
+
+Another common example is the [do-not-resuscitate (DNR) order](https://en.wikipedia.org/wiki/Do_not_resuscitate), where a patient instructs doctors not to perform resuscitation in future medical crises.
+
+What would you do if someone's present self and future self disagree?
+
+Source: [Homer, *Odyssey*, Book XII, trans. Samuel Butler, The Internet Classics Archive (MIT)](http://classics.mit.edu/Homer/odyssey.12.xii.html)  
+
+See also: [Agnieszka Jaworska, "Advance Directives and Substitute Decision-Making", The Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/advance-directives/)

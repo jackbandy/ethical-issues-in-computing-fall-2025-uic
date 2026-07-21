@@ -1,3 +1,7 @@
+---
+summary: Would you pull a lever to divert a trolley, killing one person instead of five?
+---
+
 # The Trolley Problem (S Version)
 
 There is a runaway trolley barreling down the railway tracks. Ahead, on the tracks, there are five people. The trolley is headed straight for them.

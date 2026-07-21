@@ -1,3 +1,7 @@
+---
+summary: Deaths are being linked to your company's over-the-counter drug — recall it, or wait for more evidence?
+---
+
 # Recall Style-Null?
 
 Suppose you work at pharmeceutical company that manufactures an over-the-counter drug called Style-Null which can relieve pain and reduce fevers. One day, a man named Adler is found collapsed on his living room floor and died in the hospital shortly thereafter. Adler's brother and sister went to Adler's house. Experiencing headaches, they both took an Extra-Strength Style-Null capsule from a bottle on the kitchen counter. They collapsed soon afterward and died later in the hospital. Three more deaths are reported the next day, all of which occurred after the victims had consumed Style-Null.
