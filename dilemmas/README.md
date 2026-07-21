@@ -52,3 +52,9 @@ This page is a work-in-progress. Here are six sources of moral dilemmas I have b
 
 Dilemmas to add:
 * space rescue (inspo: For All Mankind S3E4, Happy Valley)
+* classic lifeboat ethics — throw some overboard to save the rest? (*US v. Holmes*, 1842 real case; also *Regina v. Dudley and Stephens*, 1884; via Friesian)
+* returning a weapon — return what you borrowed to a friend who is now "unstable?" (Plato, *Republic* Book I, via SEP)
+* dilemma of Sartre's studentjoin the resistance or stay home to care for mother? (Sartre, *Existentialism Is a Humanism*, 1946; via SEP)
+* Antigone — bury her brother? obey the law of the city? (Sophocles, *Antigone* via SEP)
+* underwater tunnel — proceed with a project when worker deaths are statistically certain? (Grassian, via Friesian; check chicago history as well - 1909 Crib Disaster (Intermediate Crib Fire))
+* problematic images — publish newsworthy but offensive images/cartoons? describe them without showing them? (SPJ ethics case study on the 2005–06 Danish Mohammed cartoons, Facebook 'terror of war' case study in custodians of the internet)

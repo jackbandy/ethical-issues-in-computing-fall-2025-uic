@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,7 +17,7 @@
     }
     * { box-sizing: border-box; }
     html { color: var(--ink); background: var(--soft); font: 17px/1.55 FreeSans, Helvetica, Arial, sans-serif; }
-    body { position: relative; max-width: 900px; margin: 0 auto; padding: 3rem 4rem 5rem; background: var(--paper); }
+    body { position: relative; max-width: 900px; margin: 0 auto; padding: 0 4rem 5rem; background: var(--paper); }
     body::before {
       content: "DRAFT";
       position: fixed;
@@ -31,7 +33,7 @@
       white-space: nowrap;
     }
     body > * { position: relative; z-index: 1; }
-    header { border-top: 12px solid var(--blue); padding-top: 1.5rem; }
+    header { padding-top: 1.5rem; }
     h1, h2, h3 { line-height: 1.15; }
     h1 { margin: 0; color: var(--blue-dark); font-size: 2.6rem; }
     h2 { margin-top: 2.5rem; padding-bottom: .35rem; border-bottom: 4px solid var(--blue); }
@@ -57,6 +59,7 @@
   </style>
 </head>
 <body>
+  {% include masthead.html %}
   <header>
     <div class="meta">
       <span>Generated $created$</span>

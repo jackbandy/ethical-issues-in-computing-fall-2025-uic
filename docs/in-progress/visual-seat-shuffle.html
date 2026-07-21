@@ -16,30 +16,32 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      padding: 40px;
+      justify-content: flex-start;
+      padding: 16px 32px;
     }
 
     /* ── Page wrapper ── */
     .page {
       display: flex;
       flex-direction: column;
-      align-items: stretch;
-      gap: 20px;
+      align-items: center;
+      gap: 12px;
     }
 
     /* ── Header: title | controls bunched left | status indicator floated right ── */
     .header {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
+      row-gap: 8px;
       width: 100%;
     }
 
     .header h1 {
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 600;
       color: #222;
-      margin-right: 32px;
+      margin-right: 20px;
       white-space: nowrap;
     }
 
@@ -47,29 +49,29 @@
     .header-controls {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 14px;
     }
 
     .header label {
-      font-size: 15px;
+      font-size: 14px;
       color: #444;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
 
     .header input[type="number"] {
-      width: 80px;
-      padding: 7px 10px;
-      font-size: 15px;
+      width: 64px;
+      padding: 6px 8px;
+      font-size: 14px;
       border: 1.5px solid #bbb;
       border-radius: 6px;
       text-align: center;
     }
 
     .header button {
-      padding: 8px 22px;
-      font-size: 15px;
+      padding: 7px 16px;
+      font-size: 14px;
       font-weight: 600;
       background: #333;
       color: #fff;
@@ -118,13 +120,13 @@
       bottom: 0;
       left: 0;
       right: 0;
-      padding: 8px 15px;
-      font-size: 11px;
+      padding: 4px 15px;
+      font-size: 9px;
       color: #999;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 20px;
+      gap: 14px;
       background: #f5f5f5;
     }
 
@@ -139,28 +141,28 @@
     .footnotes a:hover { text-decoration: underline; }
 
     .footnotes .gh-icon {
-      width: 13px;
-      height: 13px;
+      width: 11px;
+      height: 11px;
       fill: #888;
       flex-shrink: 0;
     }
 
     .header .paths-label {
-      font-size: 15px;
+      font-size: 14px;
       color: #444;
       display: flex;
       align-items: center;
-      gap: 7px;
+      gap: 6px;
       cursor: pointer;
       user-select: none;
       border: 1.5px solid #bbb;
       border-radius: 8px;
-      padding: 7px 14px;
+      padding: 6px 12px;
     }
 
     .header .paths-label input[type="checkbox"] {
-      width: 17px;
-      height: 17px;
+      width: 15px;
+      height: 15px;
       cursor: pointer;
       accent-color: #333;
     }
@@ -233,17 +235,26 @@
     #panel-content ul { margin: 0 0 0.8em 1.4em; font-size: 0.95em; }
     #panel-content li { margin-bottom: 0.3em; }
 
+    /* ── Room scale wrapper: sized in JS to the post-scale footprint of .room,
+       so the flex layout collapses to match what's actually visible. Overflow
+       stays visible so path lines that briefly run outside .room's own box
+       (e.g. aisles just past its edge) aren't clipped. ── */
+    .room-scale {
+      overflow: visible;
+    }
+
     /* ── Room container ── */
     .room {
       background: #fff;
       border: 2px solid #ccc;
       border-radius: 12px;
-      padding: 0 48px 48px 0;
+      padding: 0 32px 32px 0;
       display: flex;
       flex-direction: column;
-      gap: 64px;
+      gap: 40px;
       width: fit-content;
       position: relative; /* needed for SVG overlay */
+      transform-origin: top left;
     }
 
     /* ── Front wall: screens only ── */
@@ -254,7 +265,7 @@
 
     .screens {
       display: flex;
-      gap: 48px;
+      gap: 32px;
     }
 
     .projector-screen {
@@ -271,9 +282,9 @@
     /* ── Main area: left panels + tables ── */
     .main-area {
       display: flex;
-      gap: 40px;
+      gap: 28px;
       align-items: stretch;
-      padding-left: 48px;
+      padding-left: 32px;
     }
 
     /* ── Left-wall blue panels ── */
@@ -281,9 +292,9 @@
     .left-panels {
       display: grid;
       grid-template-rows: repeat(3, 245px);
-      row-gap: 80px;
+      row-gap: 48px;
       align-items: center;
-      margin-left: -48px;
+      margin-left: -32px;
     }
 
     .blue-panel {
@@ -316,12 +327,12 @@
     .tables-area {
       display: flex;
       flex-direction: column;
-      gap: 80px;
+      gap: 48px;
     }
 
     .table-row {
       display: flex;
-      gap: 80px;
+      gap: 48px;
       align-items: center;
     }
 
@@ -338,7 +349,7 @@
     .table-num {
       text-align: center;
       color: rgba(255,255,255,0.85);
-      font-size: 15px;
+      font-size: 19px;
       font-weight: 700;
       letter-spacing: 0.06em;
       text-transform: uppercase;
@@ -407,6 +418,7 @@
     <span id="shuffle-status"></span>
   </div>
 
+  <div class="room-scale" id="room-scale">
   <div class="room">
 
     <!-- Front wall: screens only -->
@@ -496,6 +508,7 @@
 
     </div>
   </div><!-- .room -->
+  </div><!-- .room-scale -->
   </div><!-- .page -->
 
   <div class="overlay" id="overlay"></div>

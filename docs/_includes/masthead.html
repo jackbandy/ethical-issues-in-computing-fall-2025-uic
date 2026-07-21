@@ -1,0 +1,39 @@
+<style>
+  @font-face {
+    font-family: 'Libre Franklin';
+    src: url('{{ site.baseurl }}/assets/fonts/libre-franklin/LibreFranklin.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  .ble-masthead { margin: 0 0 2rem; }
+  .ble-masthead__bar {
+    border: none;
+    height: 12px;
+    background-color: #00A1DE;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+  .ble-masthead__inner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 16px 24px;
+  }
+  .ble-masthead__wordmark {
+    display: inline-block;
+    font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1;
+    color: #222;
+    text-decoration: none;
+  }
+  .ble-masthead__wordmark:hover { color: #222; text-decoration: none; }
+</style>
+<div class="ble-masthead">
+  <hr class="ble-masthead__bar">
+  <div class="ble-masthead__inner">
+    <a class="ble-masthead__wordmark" href="{{ site.baseurl }}/">Blue Line Ethics</a>
+  </div>
+  <hr class="ble-masthead__bar">
+</div>

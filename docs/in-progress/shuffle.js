@@ -22,6 +22,11 @@ const CTA_TABLE_COLORS = [
   '#dcc800', // 8 Yellow (between golden and bright CTA yellow)
 ];
 
+// Destination marker (pill) geometry — lifted above the table's top edge so it
+// clears the "TABLE N" label instead of sitting on top of it.
+const PILL_R    = 8;
+const PILL_LIFT = 8;
+
 // Grid positions (row, col) for tables in DOM order: t1…t8
 const TABLE_GRID = [
   {row:0, col:1}, {row:0, col:2},
@@ -222,20 +227,26 @@ function drawLines() {
   const room     = document.querySelector('.room');
   const roomRect = room.getBoundingClientRect();
 
-  // Full rect for each table (room-relative)
+  // The SVG overlay is a child of .room, so its own coordinate system is
+  // .room's pre-transform (local) box — but getBoundingClientRect reports
+  // post-transform (visual) pixels. Divide screen-space deltas by the
+  // current scale to convert them back into the SVG's local space.
+  const scale = currentRoomScale || 1;
+
+  // Full rect for each table (room-relative, in SVG-local units)
   const tRects = tables.map(t => {
     const r    = t.getBoundingClientRect();
-    const left = r.left - roomRect.left, right  = r.right  - roomRect.left;
-    const top  = r.top  - roomRect.top,  bottom = r.bottom - roomRect.top;
+    const left = (r.left - roomRect.left) / scale, right  = (r.right  - roomRect.left) / scale;
+    const top  = (r.top  - roomRect.top)  / scale, bottom = (r.bottom - roomRect.top)  / scale;
     return { left, right, top, bottom, midX: (left+right)/2, midY: (top+bottom)/2 };
   });
 
-  // Individual seat centers (room-relative)
+  // Individual seat centers (room-relative, in SVG-local units)
   const allSeats = tables.map(t => Array.from(t.querySelectorAll('.seat')));
   const seatCenters = tables.map((_, ti) =>
     allSeats[ti].map(s => {
       const r = s.getBoundingClientRect();
-      return [r.left - roomRect.left + r.width/2, r.top - roomRect.top + r.height/2];
+      return [(r.left - roomRect.left + r.width/2) / scale, (r.top - roomRect.top + r.height/2) / scale];
     })
   );
 
@@ -311,6 +322,14 @@ function drawLines() {
   // Offset lines sharing an aisle so they run as adjacent parallel tracks
   applyParallelOffsets(routes, aisles);
 
+  // The parallel-lane offset above can push a route's approach-aisle segment
+  // as low as (or lower than) its own destination pill when many routes share
+  // an aisle — which would make the final segment climb into the pill from
+  // below instead of dropping into it from above. Re-clamp the last "lane"
+  // waypoint (and its horizontal partner) so the final descent always has a
+  // safe, strictly-downward run into the pill's top.
+  clampApproachDescents(routes);
+
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.id = 'lines-svg';
   Object.assign(svg.style, {
@@ -362,12 +381,11 @@ function drawLines() {
     dotElems.push(dot);
   });
 
-  // One horizontal pill per destination table, straddling the top edge
-  const PILL_R = 8;
+  // One horizontal pill per destination table, lifted clear of the table label
   const pillGroups = {};
   routes.forEach(({ dti, pts }) => {
-    const [ex] = pts[pts.length - 1]; // entryX at dst.top
-    if (!pillGroups[dti]) pillGroups[dti] = { top: tRects[dti].top, exs: [] };
+    const [ex] = pts[pts.length - 1]; // entryX at the pill's top edge
+    if (!pillGroups[dti]) pillGroups[dti] = { top: tRects[dti].top - PILL_LIFT, exs: [] };
     pillGroups[dti].exs.push(ex);
   });
   Object.values(pillGroups).forEach(({ top, exs }) => {
@@ -477,6 +495,22 @@ function applyParallelOffsets(routes, aisles) {
   });
 }
 
+// Guarantee the final approach-to-pill segment always descends. Each route's
+// points are [exit, vAisle@exitY, vAisle@approach, entry@approach, entry@pillTop];
+// the parallel-lane offset above can push the "@approach" pair as low as (or
+// below) pillTop when many routes share that aisle, so clamp both to stay a
+// fixed margin above it.
+function clampApproachDescents(routes) {
+  const MIN_GAP = 6;
+  routes.forEach(({ pts }) => {
+    const n = pts.length;
+    const pillY = pts[n - 1][1];
+    const safeY = Math.min(pts[n - 2][1], pillY - MIN_GAP);
+    pts[n - 2][1] = safeY;
+    pts[n - 3][1] = safeY;
+  });
+}
+
 // V-aisle immediately to the right / left of column c
 function rightOf(c, a) { return [a.aisleX_01, a.aisleX_12, a.aisleX_R][c]; }
 function leftOf(c, a)  { return [a.aisleX_L,  a.aisleX_01, a.aisleX_12][c]; }
@@ -503,7 +537,7 @@ function computeRoute(ti, dti, tRects, aisles, exitY, entryX, exitLeft) {
     [vA,     exitY],
     [vA,     approachAisle],
     [entryX, approachAisle],
-    [entryX, dst.top],
+    [entryX, dst.top - PILL_LIFT - PILL_R],
   ];
 }
 
@@ -541,6 +575,53 @@ function shuffle() {
       });
     });
   });
+}
+
+// ── Fit room to viewport ───────────────────────────────────────────────────────
+// The room's contents have fixed pixel sizes. Scale it to fill as much of the
+// space between header and footer as possible — up when there's room to
+// spare, down when the window is small — bounded by whichever of width/height
+// is tighter so it never overflows sideways either.
+
+let roomNaturalSize = null; // cached; the room's own content size never changes
+let currentRoomScale = 1;   // last scale factor applied to .room; used by drawLines()
+
+function fitRoom() {
+  const wrapper = document.getElementById('room-scale');
+  const room    = document.querySelector('.room');
+  if (!wrapper || !room) return;
+
+  if (!roomNaturalSize) {
+    room.style.transform = 'none';
+    roomNaturalSize = { w: room.offsetWidth, h: room.offsetHeight };
+  }
+
+  const header = document.querySelector('.header');
+  const footer = document.querySelector('.footnotes');
+  const page   = document.querySelector('.page');
+
+  const bodyStyle = getComputedStyle(document.body);
+  const padX = parseFloat(bodyStyle.paddingLeft) + parseFloat(bodyStyle.paddingRight);
+  const padY = parseFloat(bodyStyle.paddingTop)  + parseFloat(bodyStyle.paddingBottom);
+  const pageGap = parseFloat(getComputedStyle(page).rowGap || getComputedStyle(page).gap) || 0;
+
+  const availW = window.innerWidth - padX;
+
+  // Forcing the header to the room's width can make it wrap onto a second
+  // line, which changes its own height — and thus how much vertical space is
+  // left for the room. Iterate a couple of times so that feedback settles
+  // before committing to a final scale.
+  let scale = currentRoomScale;
+  for (let i = 0; i < 3; i++) {
+    const availH = window.innerHeight - padY - header.offsetHeight - footer.offsetHeight - pageGap;
+    scale = Math.min(availW / roomNaturalSize.w, availH / roomNaturalSize.h);
+    header.style.width = `${roomNaturalSize.w * scale}px`;
+  }
+
+  currentRoomScale = scale;
+  room.style.transform = `scale(${scale})`;
+  wrapper.style.width  = `${roomNaturalSize.w * scale}px`;
+  wrapper.style.height = `${roomNaturalSize.h * scale}px`;
 }
 
 // ── Info panel ────────────────────────────────────────────────────────────────
@@ -586,4 +667,10 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('panel-close').addEventListener('click', closePanel);
   document.getElementById('overlay').addEventListener('click', closePanel);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+
+  fitRoom();
+  window.addEventListener('resize', () => {
+    fitRoom();
+    if (document.getElementById('paths-cb').checked) drawLines();
+  });
 });

@@ -1,6 +1,7 @@
 # Summer 2026 To-Do List
 
 ## GitHub Pages
+- [ ] Seat shuffler needs way to mark absences / empty seats
 - [ ] Convert schedule/home page to Jekyll / GitHub Pages
   - [ ] Add navigation/index for all course materials
   - [ ] Link PDFs from pages
