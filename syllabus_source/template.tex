@@ -1,44 +1,79 @@
+% NOTICE: Rewritten by an LLM coding agent to match the style of
+% syllabus/latex-syllabus-in-progress/SP26_CS377_jxb.tex (template by Jakob Eriksson,
+% https://cs.uic.edu/profiles/jakob-eriksson/).
 \documentclass[11pt]{article}
-\usepackage[margin=0.85in]{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage{fontspec}
+\usepackage{microtype}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{calc}
 \usepackage{longtable}
-\usepackage{booktabs}
 \usepackage{array}
-\usepackage[explicit]{titlesec}
-\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{float}
+\floatplacement{figure}{H}
+\usepackage[labelformat=empty]{caption}
+\usepackage[explicit]{titlesec}
+\usepackage{tikz}
 \usepackage{eso-pic}
 
 \IfFontExistsTF{CMU Serif}{\setmainfont{CMU Serif}}{\setmainfont{Times New Roman}}
 \IfFontExistsTF{CMU Sans Serif}{\setsansfont{CMU Sans Serif}}{\setsansfont{Arial}}
 
-\definecolor{ctablue}{HTML}{00A1DE}
-\definecolor{ctadarkblue}{HTML}{005DAA}
-\definecolor{ink}{HTML}{231F20}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
 
-\hypersetup{colorlinks=true, urlcolor=ctadarkblue, linkcolor=ctadarkblue}
+% Word-like paragraph behavior (tighter)
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.45em}
-\setlist{itemsep=0.15em, topsep=0.25em}
+\setlength{\parskip}{0.18\baselineskip}
+\setstretch{1.03}
+\raggedbottom
+
+% Lists (Word-like indentation and tight spacing)
+\setlist[itemize]{leftmargin=1.25em, itemsep=0.15em, topsep=0.15em, parsep=0pt, partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.25em, itemsep=0.15em, topsep=0.15em, parsep=0pt, partopsep=0pt}
+
+% Gray boxed section heading (Word-like)
+\definecolor{uiclightgray}{RGB}{200,200,200}
+
 \setcounter{secnumdepth}{-1}
+\titleformat{\section}
+  {\Large\bfseries\sffamily}
+  {}
+  {0em}
+  {%
+    \begin{tikzpicture}[baseline=(title.base)]
+      \node[
+        inner sep=8pt,
+        fill=uiclightgray,
+        draw=black,
+        line width=0.8pt,
+        text width=\dimexpr\textwidth-16pt\relax,
+        align=left,
+        anchor=west
+      ] (title) {#1};
+    \end{tikzpicture}%
+  }
+  []
+\titlespacing*{\section}{0pt}{0.9\baselineskip}{0.6\baselineskip}
+
+% Subsections: compact and bold like the Word template
+\titleformat{\subsection}{\bfseries}{}{0em}{#1}
+\titlespacing*{\subsection}{0pt}{0.8\baselineskip}{0.35\baselineskip}
+
+% Longtable spacing and padding similar to Word
+\setlength{\LTpre}{0.4\baselineskip}
+\setlength{\LTpost}{0.4\baselineskip}
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{6pt}
+
+% Pandoc shims
 \newcounter{none}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-
-\titleformat{\section}{\Large\bfseries\sffamily\color{ctadarkblue}}{}{0pt}{#1}[\vspace{2pt}\color{ctablue}\titlerule]
-\titleformat{\subsection}{\large\bfseries\sffamily\color{ctadarkblue}}{}{0pt}{#1}
-\titlespacing*{\section}{0pt}{1.5em}{0.6em}
-
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\small\sffamily CS 377: Ethical Issues in Computing}
-\fancyhead[R]{\small\sffamily\color{gray}Generated $created$}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{2pt}
-\renewcommand{\headrule}{\hbox to\headwidth{\color{ctablue}\leaders\hrule height \headrulewidth\hfill}}
-\setlength{\headheight}{15pt}
+\providecommand{\pandocbounded}[1]{#1}
 
 \begin{document}
 
@@ -54,15 +89,25 @@
   }%
 }
 
-$if(title)$
-{\sffamily\bfseries\color{ctadarkblue}\fontsize{25}{29}\selectfont $title$\par}
-$endif$
-$if(subtitle)$
-{\large\sffamily $subtitle$\par}
-$endif$
-\vspace{0.5em}
-{\small\sffamily\href{https://doethics.fun/syllabus/}{HTML version} \quad
-\href{https://doethics.fun/}{Course site}}
+\begin{center}
+  {\LARGE\bfseries $college$}\par
+  \vspace{0.75em}
+  {\Large\bfseries
+    $course$\quad
+    $course-title$\quad
+    ($credit-hours$ Credit Hours)
+  }\par
+  \vspace{0.5em}
+  {\itshape $epigraph$}\par
+  \vspace{0.5em}
+  {\large $term$}\par
+  \vspace{0.5em}
+  {\small\sffamily Generated $created$ \quad
+  \href{https://doethics.fun/syllabus/}{HTML version} \quad
+  \href{https://doethics.fun/}{Course site}}\par
+\end{center}
+
+\vspace{0.9\baselineskip}
 
 $body$
 

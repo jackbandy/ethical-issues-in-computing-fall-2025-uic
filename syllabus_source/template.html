@@ -33,11 +33,15 @@
       white-space: nowrap;
     }
     body > * { position: relative; z-index: 1; }
-    header { padding-top: 1.5rem; }
+    header { padding-top: 1.5rem; text-align: center; }
     h1, h2, h3 { line-height: 1.15; }
-    h1 { margin: 0; color: var(--blue-dark); font-size: 2.6rem; }
-    h2 { margin-top: 2.5rem; padding-bottom: .35rem; border-bottom: 4px solid var(--blue); }
-    h3 { color: var(--blue-dark); }
+    header h1 { margin: 0; font-size: 2rem; }
+    header .course-line { margin: .5rem 0 0; font-size: 1.3rem; font-weight: 700; }
+    header .epigraph { margin: .5rem 0 0; font-style: italic; }
+    header .term { margin: .5rem 0 0; font-size: 1.15rem; }
+    main h1 { margin-top: 2.5rem; padding: .5rem .75rem; border: 1px solid var(--ink); background: #c8c8c8; font-size: 1.5rem; }
+    h2 { margin-top: 1.8rem; margin-bottom: .4rem; font-size: 1.15rem; }
+    h2 + p, h2 + ul, h2 + table { margin-top: 0; }
     a { color: var(--blue-dark); }
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: .55rem; border: 1px solid var(--border); text-align: left; vertical-align: top; }
@@ -65,8 +69,10 @@
       <span>Generated $created$</span>
       <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
     </div>
-    $if(title)$<h1>$title$</h1>$endif$
-    $if(subtitle)$<p>$subtitle$</p>$endif$
+    <h1>$college$</h1>
+    <p class="course-line">$course$ &nbsp; $course-title$ &nbsp; ($credit-hours$ Credit Hours)</p>
+    <p class="epigraph">$epigraph$</p>
+    <p class="term">$term$</p>
   </header>
   $if(toc)$<nav aria-label="Table of contents">$toc$</nav>$endif$
   <main>$body$</main>

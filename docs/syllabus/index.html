@@ -33,11 +33,15 @@
       white-space: nowrap;
     }
     body > * { position: relative; z-index: 1; }
-    header { padding-top: 1.5rem; }
+    header { padding-top: 1.5rem; text-align: center; }
     h1, h2, h3 { line-height: 1.15; }
-    h1 { margin: 0; color: var(--blue-dark); font-size: 2.6rem; }
-    h2 { margin-top: 2.5rem; padding-bottom: .35rem; border-bottom: 4px solid var(--blue); }
-    h3 { color: var(--blue-dark); }
+    header h1 { margin: 0; font-size: 2rem; }
+    header .course-line { margin: .5rem 0 0; font-size: 1.3rem; font-weight: 700; }
+    header .epigraph { margin: .5rem 0 0; font-style: italic; }
+    header .term { margin: .5rem 0 0; font-size: 1.15rem; }
+    main h1 { margin-top: 2.5rem; padding: .5rem .75rem; border: 1px solid var(--ink); background: #c8c8c8; font-size: 1.5rem; }
+    h2 { margin-top: 1.8rem; margin-bottom: .4rem; font-size: 1.15rem; }
+    h2 + p, h2 + ul, h2 + table { margin-top: 0; }
     a { color: var(--blue-dark); }
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: .55rem; border: 1px solid var(--border); text-align: left; vertical-align: top; }
@@ -62,37 +66,112 @@
   {% include masthead.html %}
   <header>
     <div class="meta">
-      <span>Generated June 8, 2026 at 9:10 AM CDT</span>
+      <span>Generated July 22, 2026 at 6:49 PM CDT</span>
       <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
     </div>
-    <h1>CS 377 Syllabus</h1>
-    <p>Ethical Issues in Computing · University of Illinois Chicago</p>
+    <h1>COLLEGE OF ENGINEERING, UIC</h1>
+    <p class="course-line">CS 377 &nbsp; Ethical Issues in
+Computing &nbsp; (3 Credit Hours)</p>
+    <p class="epigraph">“Evil comes from a failure to think” —Hannah
+Arendt</p>
+    <p class="term">Spring 2026</p>
   </header>
   <nav aria-label="Table of contents"><ul>
-<li><a href="#course-details" id="toc-course-details">Course
-Details</a></li>
+<li><a href="#instructor-course-details"
+id="toc-instructor-course-details">Instructor &amp; Course Details</a>
+<ul>
+<li><a href="#course-site" id="toc-course-site">Course Site</a></li>
+</ul></li>
+<li><a href="#course-information" id="toc-course-information">Course
+Information</a>
+<ul>
+<li><a href="#catalog-course-description"
+id="toc-catalog-course-description">Catalog Course Description</a></li>
+<li><a href="#dr.-bandys-course-description"
+id="toc-dr.-bandys-course-description">Dr. Bandy’s Course
+Description</a></li>
 <li><a href="#learning-outcomes" id="toc-learning-outcomes">Learning
 Outcomes</a></li>
 <li><a href="#course-materials" id="toc-course-materials">Course
 Materials</a></li>
+<li><a href="#growth-mindset" id="toc-growth-mindset">Growth
+Mindset</a></li>
+<li><a href="#required-technology" id="toc-required-technology">Required
+Technology</a></li>
+</ul></li>
+<li><a href="#course-policies-classroom-expectations"
+id="toc-course-policies-classroom-expectations">Course Policies &amp;
+Classroom Expectations</a>
+<ul>
 <li><a href="#assessment" id="toc-assessment">Assessment</a></li>
+<li><a href="#tests" id="toc-tests">Tests</a></li>
 <li><a href="#attendance-and-participation"
 id="toc-attendance-and-participation">Attendance and
 Participation</a></li>
 <li><a href="#late-work" id="toc-late-work">Late Work</a></li>
 <li><a href="#academic-integrity" id="toc-academic-integrity">Academic
 Integrity</a></li>
-<li><a href="#accommodations"
-id="toc-accommodations">Accommodations</a></li>
+<li><a href="#visitors" id="toc-visitors">Visitors</a></li>
+<li><a href="#email-expectations" id="toc-email-expectations">Email
+Expectations</a></li>
+</ul></li>
+<li><a href="#course-schedule" id="toc-course-schedule">Course
+Schedule</a>
+<ul>
+<li><a href="#disclaimer" id="toc-disclaimer">Disclaimer</a></li>
+</ul></li>
+<li><a href="#accommodations" id="toc-accommodations">Accommodations</a>
+<ul>
+<li><a href="#disability-accommodation-procedures"
+id="toc-disability-accommodation-procedures">Disability Accommodation
+Procedures</a></li>
+<li><a href="#religious-accommodations"
+id="toc-religious-accommodations">Religious Accommodations</a></li>
+</ul></li>
+<li><a href="#classroom-environment"
+id="toc-classroom-environment">Classroom Environment</a>
+<ul>
 <li><a href="#classroom-community"
 id="toc-classroom-community">Classroom Community</a></li>
-<li><a href="#schedule" id="toc-schedule">Schedule</a></li>
+<li><a href="#name-and-pronoun-use" id="toc-name-and-pronoun-use">Name
+and Pronoun Use</a></li>
+<li><a href="#guidelines-for-participation-and-classroom-conduct"
+id="toc-guidelines-for-participation-and-classroom-conduct">Guidelines
+for Participation and Classroom Conduct</a></li>
+<li><a href="#content-notices" id="toc-content-notices">Content
+Notices</a></li>
+</ul></li>
+<li><a href="#resources-academic-success-wellness-and-safety"
+id="toc-resources-academic-success-wellness-and-safety">Resources:
+Academic Success, Wellness, and Safety</a>
+<ul>
+<li><a href="#student-wellbeing" id="toc-student-wellbeing">Student
+Wellbeing</a></li>
+<li><a href="#academic-success" id="toc-academic-success">Academic
+Success</a></li>
+<li><a href="#wellness" id="toc-wellness">Wellness</a></li>
+<li><a href="#safety" id="toc-safety">Safety</a></li>
+<li><a href="#support-for-parenting-students"
+id="toc-support-for-parenting-students">Support for Parenting
+Students</a></li>
+</ul></li>
 </ul></nav>
-  <main><h2 id="course-details">Course Details</h2>
+  <main><h1 id="instructor-course-details">Instructor &amp; Course
+Details</h1>
 <p><strong>Instructor:</strong> Jack Bandy (<a
 href="mailto:jxb@uic.edu">jxb@uic.edu</a>)</p>
+<p><strong>Teaching assistants:</strong> TBD</p>
 <p><strong>Course site:</strong> <a
 href="https://doethics.fun/">doethics.fun</a></p>
+<p>The current meeting times, room, office hours, teaching assistants,
+assignment deadlines, and grades are listed in Canvas.</p>
+<h2 id="course-site">Course Site</h2>
+<p><a href="https://canvas.uic.edu">Canvas course</a> — Students are
+expected to log in to Canvas regularly to learn about any developments
+related to the course, upload assignments, and communicate with
+classmates.</p>
+<h1 id="course-information">Course Information</h1>
+<h2 id="catalog-course-description">Catalog Course Description</h2>
 <p><strong>Course description:</strong> Communication skills for
 computing professionals, including presentation organization, visual
 aids, delivery techniques, and argument support. Ethical and societal
@@ -100,8 +179,23 @@ issues in computing include privacy, intellectual property and
 ownership, and crime.</p>
 <p><strong>Prerequisite:</strong> Credit or concurrent registration in
 CS 251.</p>
-<p>The current meeting times, room, office hours, teaching assistants,
-assignment deadlines, and grades are listed in Canvas.</p>
+<h2 id="dr.-bandys-course-description">Dr. Bandy’s Course
+Description</h2>
+<p>What does it mean for Computer Scientists to be socially responsible?
+Billions of people interact with computational systems every day for
+communication, amusement, work, and more. Although many interactions
+appear to happen seamlessly, even the most mundane human-computer
+interaction often has ethical implications related to privacy, climate,
+power, inequality, public health, and more. To explore these ethical
+implications, this course will survey classical perspectives of ethics
+(i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care
+Ethics) and practice using them to interpret real-world situations
+involving humans and computers. Students will engage with recent
+scholarship about ethical issues in algorithmic decision-making, data
+management, user interface design, software engineering, search engines,
+algorithmic media feeds, large language models, and chatbots, to name
+some examples. Class sessions will promote active engagement through
+peer teaching, small group discussions, games, and more.</p>
 <h2 id="learning-outcomes">Learning Outcomes</h2>
 <p>By the end of the course, students should be able to:</p>
 <ul>
@@ -114,48 +208,167 @@ computing systems; and</li>
 <li>communicate ethical analysis clearly to technical and nontechnical
 audiences.</li>
 </ul>
+<p><strong>Course requirement status:</strong> CS 377 is <a
+href="https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/">required</a>
+for a BS in Computer Science at UIC</p>
+<p><strong>Topics overview:</strong> Classical ethical theories (Virtue,
+Deontological, Utilitarian, Care Ethics); algorithmic feeds and content
+moderation; privacy and contextual integrity; inequality and algorithmic
+fairness; general cybersecurity; AI and large language models;
+intellectual property; environmental costs of computing.</p>
 <h2 id="course-materials">Course Materials</h2>
 <p>Core readings will be provided through Canvas, printed copies, web
 archives, or linked PDFs. There is no required textbook. The course
 draws from <em>Computing and Technology Ethics: Engaging through Science
 Fiction</em> by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory
 Siler, and Sara-Jo Swiatek.</p>
+<p>Students will also make their own selections of different research
+papers, case studies, books, and other materials to present and discuss
+in class.</p>
+<h2 id="growth-mindset">Growth Mindset</h2>
+<p>Course materials and assignments can be complex and challenging, but
+they are crucial to your intellectual and personal growth and
+development. There are times you may need extra help. Students who
+attend class consistently, complete all assignments, thoughtfully engage
+with feedback on work, develop good study strategies, visit the tutoring
+center, and contact faculty when struggling can develop a thorough
+understanding of the course material and ultimately succeed in the
+course.</p>
+<h2 id="required-technology">Required Technology</h2>
 <p>Students need a web browser that can access Canvas and the course
 website.</p>
+<h1 id="course-policies-classroom-expectations">Course Policies &amp;
+Classroom Expectations</h1>
 <h2 id="assessment">Assessment</h2>
+<p>This class aims to use principles of student-centered teaching, also
+referred to as “non-directive teaching,” which de-emphasizes
+quantitative grading. This style focuses on open-ended dialogue,
+project-based learning, and student curiosity, rather than regurgitation
+and examinations. Still, in order to provide a final letter grade at the
+end of the class, I will use the following combination of exercises:</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Category</th>
-<th style="text-align: right;">Weight</th>
+<th style="text-align: left;"><strong>Category</strong></th>
+<th style="text-align: right;"><strong>Weight</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">Out-of-class exercises</td>
-<td style="text-align: right;">20%</td>
+<td style="text-align: left;"><strong>Out-of-class
+exercises</strong></td>
+<td style="text-align: right;"><strong>20%</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;">Read a Book project</td>
-<td style="text-align: right;">20%</td>
+<td style="text-align: left;"><em>Food in your feed</em></td>
+<td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">In-class group exercises</td>
-<td style="text-align: right;">20%</td>
+<td style="text-align: left;"><em>Online account biopsy</em></td>
+<td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">Pre-class reflections</td>
-<td style="text-align: right;">20%</td>
+<td style="text-align: left;"><em>Online account scrap doll</em></td>
+<td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">Attendance, participation, and
-civility</td>
-<td style="text-align: right;">20%</td>
+<td style="text-align: left;"><em>Speculative fiction</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Fairness definition</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Personal ethical commitment</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Read a Book project</strong></td>
+<td style="text-align: right;"><strong>20%</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Book selection</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>2-page book report or
+un-essay</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Peer instruction / book
+presentation</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Actually reading the book</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>In-class group
+exercises</strong></td>
+<td style="text-align: right;"><strong>20%</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Expect about one per week</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pre-class
+reflections</strong></td>
+<td style="text-align: right;"><strong>20%</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Expect about one per week</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Attendance, participation, and
+civility</strong></td>
+<td style="text-align: right;"><strong>20%</strong></td>
 </tr>
 </tbody>
 </table>
 <p>Final grades use the following scale: A = 90–100%, B = 80–89%, C =
 70–79%, D = 60–69%, and F = below 60%.</p>
+<p>You can expect the following correspondence between your percentage
+grade in the course and your final letter grade, and the “equivalent”
+description from the registrar.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>F</strong></th>
+<th style="text-align: left;"><strong>D</strong></th>
+<th style="text-align: left;"><strong>C</strong></th>
+<th style="text-align: left;"><strong>B</strong></th>
+<th style="text-align: left;"><strong>A</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">59% or below</td>
+<td style="text-align: left;">60–69%</td>
+<td style="text-align: left;">70–79%</td>
+<td style="text-align: left;">80–89%</td>
+<td style="text-align: left;">90–100%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Failure</td>
+<td style="text-align: left;">Poor but passing</td>
+<td style="text-align: left;">Average</td>
+<td style="text-align: left;">Good</td>
+<td style="text-align: left;">Excellent</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tests">Tests</h2>
+<p>There will be no tests or examinations in this class. I agree with
+Carl Rogers<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a> that life itself offers enough
+examinations, and I hope the resources from this class help you meet
+life’s tests with more confidence and satisfaction. See above for
+details regarding your final grade in the class.</p>
 <h2 id="attendance-and-participation">Attendance and Participation</h2>
 <p>Showing up makes a substantial difference in this course. Class
 meetings are designed around discussion and group work, so students
@@ -167,6 +380,13 @@ attendance.</p>
 than half of all class sessions will not be able to pass the course.
 Make-up instructions for missed in-class exercises will be provided when
 appropriate.</p>
+<p>I will keep attendance on paper via roll call this semester and note
+any absences in Canvas. If you miss a fourth class without notifying the
+instructor, you will be contacted by the instructor.</p>
+<p>The spring semester at UIC is fifteen weeks long (not including
+spring vacation), and we meet Mondays and Wednesdays. With no class on
+Martin Luther King Jr. Day (Monday, January 19th), we will have 29 total
+class periods.</p>
 <h2 id="late-work">Late Work</h2>
 <p>Due dates are listed in Canvas. Out-of-class exercises and pre-class
 reflections may not be accepted more than one week after the deadline.
@@ -179,7 +399,161 @@ and policies on <a
 href="https://dos.uic.edu/community-standards/academic-integrity/">academic
 integrity</a>. Protect the copyright integrity of course materials,
 especially materials distributed through Canvas.</p>
-<h2 id="accommodations">Accommodations</h2>
+<p>More concretely, my job and my goal in this course is to help you as
+you learn skills and knowledge that will be valuable to you in your
+future courses, your career, and other areas of your life. In line with
+UIC’s mission to provide “an environment in which research, learning,
+and scholarship can flourish and in which all endeavors are guided by
+academic and professional integrity,” <strong>the work you turn in for
+this class must be your own work</strong>.</p>
+<p>This does not mean that you need to complete all work in a bunker.
+Rather, you are encouraged to discuss your ideas with friends and
+classmates, and to explore related work (i.e. academic papers, blogs,
+video essays, forums, etc.). An important part of scholarship is
+standing on the shoulders of giants,<a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a> (after all, we are in
+the City of the Big Shoulders<a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a>) and acknowledging whose
+shoulders we stand upon. In other words, <strong>cite your
+sources</strong>!</p>
+<p><strong>Please ask the instructor if you need clarity about academic
+integrity</strong> for specific exercises. When in doubt, it is always
+better to check with the instructor before proceeding.</p>
+<p>I will reach out to you personally before submitting a report of
+academic misconduct.</p>
+<h2 id="visitors">Visitors</h2>
+<p>This class may welcome visitors (i.e. prospective students, guest
+speakers, etc.) during the semester. When possible, students will be
+notified in advance of guest attendance.</p>
+<h2 id="email-expectations">Email Expectations</h2>
+<p>Students are responsible for all information instructors send to your
+UIC email and Canvas accounts. Faculty messages should be regularly
+monitored and read in a timely fashion.</p>
+<p>While I do not closely monitor my email on Saturdays and Sundays,
+during the week, I generally respond to emails within 24 hours.</p>
+<h1 id="course-schedule">Course Schedule</h1>
+<p>The detailed and most current schedule is published on the <a
+href="https://doethics.fun/">course homepage</a>. The instructor may
+revise readings, activities, or deadlines as course needs develop;
+changes will be announced in class and through Canvas.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Week</strong></th>
+<th style="text-align: left;"><strong>Topic(s) / In-Class
+Activities</strong></th>
+<th style="text-align: left;"><strong>Readings / Work Due</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Warm-up activity; intro to Virtue
+Ethics</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">MLK Day (no class); intro to Deontological
+Ethics</td>
+<td style="text-align: left;">Virtue Ethics Reflection</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Intro to Utilitarian Ethics and trolley
+problems; intro to Care Ethics</td>
+<td style="text-align: left;">Reflection(s)</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Ethical theory review and case studies;
+Ethics in Algorithmic Feeds</td>
+<td style="text-align: left;">Care Ethics Reflection; Select a Book;
+Food in your Feed; Ranking Exercise</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Algorithmic feeds; intro to Privacy and
+contextual integrity</td>
+<td style="text-align: left;">In-class Privacy Policy Exercise</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Privacy and short story analysis;
+Dr. Bandy at SIGCSE</td>
+<td style="text-align: left;">Here-and-Now Reflection; Online Account
+Biopsy</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Inequality, Justice, algorithmic
+fairness</td>
+<td style="text-align: left;">Message in a Bottle Reflection; Online
+Account Scrap Doll</td>
+</tr>
+<tr>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Cybersecurity; medical and health
+technologies in AI</td>
+<td style="text-align: left;">Speculative Fiction</td>
+</tr>
+<tr>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">LLM ethical challenges</td>
+<td style="text-align: left;">Reflection(s)</td>
+</tr>
+<tr>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Intellectual property</td>
+<td style="text-align: left;">Fairness Definitions</td>
+</tr>
+<tr>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;"><em>Spring Vacation — No Classes</em></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Environmental computing impact; book
+presentations begin</td>
+<td style="text-align: left;">Reflection(s)</td>
+</tr>
+<tr>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Book presentations</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">Book presentations</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">Book presentations</td>
+<td style="text-align: left;">Personal Ethics Commitments</td>
+</tr>
+<tr>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">Synthesis and conclusions</td>
+<td style="text-align: left;">Book Report/Un-essay, Presentation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>This syllabus is intended to give the student guidance on what may be
+covered during the semester and will be followed as closely as possible.
+However, the instructor might alter this syllabus as course needs arise.
+I will communicate such changes in advance through in-class
+announcements and in writing via Canvas and/or email.</p>
+<h1 id="accommodations">Accommodations</h1>
+<h2 id="disability-accommodation-procedures">Disability Accommodation
+Procedures</h2>
 <p>UIC is committed to full inclusion and participation of people with
 disabilities. Students who face or anticipate disability-related
 barriers should contact the <a href="https://drc.uic.edu/">Disability
@@ -187,21 +561,215 @@ Resource Center</a> at <a href="mailto:drc@uic.edu">drc@uic.edu</a> or
 (312) 413-2183. Upon receipt of a Letter of Accommodation, the
 instructor will work with the student and DRC to implement approved
 accommodations.</p>
+<h2 id="religious-accommodations">Religious Accommodations</h2>
 <p>Students seeking religious accommodations should notify the
 instructor by the tenth day of the semester, or at least five days in
-advance when the observance occurs earlier.</p>
+advance when the observance occurs earlier. Please submit this form by
+email with the subject heading: “YOUR NAME: Requesting Religious
+Accommodation.”</p>
+<h1 id="classroom-environment">Classroom Environment</h1>
 <h2 id="classroom-community">Classroom Community</h2>
 <p>Every member of the class is expected to contribute to a respectful,
 welcoming, and inclusive environment. Assume goodwill, listen carefully,
 debate ideas rather than people, respect privacy, and remain open to
 revising your position.</p>
+<h2 id="name-and-pronoun-use">Name and Pronoun Use</h2>
+<p>If your name does not match the name on my class roster, please let
+me know as soon as possible. My pronouns are he/him, and I welcome your
+pronouns if you would like to share them with me. For more information
+about pronouns, see: <a href="https://www.mypronouns.org/what-and-why"
+class="uri">https://www.mypronouns.org/what-and-why</a>.</p>
+<h2 id="guidelines-for-participation-and-classroom-conduct">Guidelines
+for Participation and Classroom Conduct</h2>
+<p>Active participation is one of the most important ways you will learn
+in this course. I am very aware that participation looks a little
+different for everyone, and will evaluate your participation
+accordingly. Still, in general, an engaged student will:</p>
+<ul>
+<li>come to class prepared, for example, by having completed pre-class
+reflections</li>
+<li>contribute regularly to class activities and discussions</li>
+<li>stay on-task during class</li>
+<li>listen attentively to peers (no side conversations or unnecessary
+disruptions)</li>
+<li>have an open mind and seek to understand (not judge and make
+assumptions)</li>
+<li>be gracious and open to change in their ideas, arguments, and
+positions</li>
+<li>assume goodwill in all interactions, even in disagreement</li>
+<li>complete their work in a timely manner</li>
+<li>reach out to the instructor if they start to fall behind</li>
+</ul>
+<h2 id="content-notices">Content Notices</h2>
 <p>Some course materials address war, discrimination, surveillance,
 violence, and other difficult subjects. These topics will be discussed
 with dignity, humanity, rigor, and respect for scholarly inquiry.</p>
-<h2 id="schedule">Schedule</h2>
-<p>The detailed and most current schedule is published on the <a
-href="https://doethics.fun/">course homepage</a>. The instructor may
-revise readings, activities, or deadlines as course needs develop;
-changes will be announced in class and through Canvas.</p></main>
+<p>Our classroom provides an open space for a civil exchange of ideas
+which will intentionally include a variety of perspectives and
+positions. Some readings and other content may expose you to ideas,
+subjects, or views that may challenge you, cause you discomfort, or
+recall past negative experiences or traumas. If you would like me to be
+aware of a specific topic of concern, please email or visit me during
+office hours.</p>
+<h1 id="resources-academic-success-wellness-and-safety">Resources:
+Academic Success, Wellness, and Safety</h1>
+<h2 id="student-wellbeing">Student Wellbeing</h2>
+<p>As a student at UIC, I hope you have come to enjoy the learning
+process and the life of the mind, and I hope you enjoy this particular
+course. I also understand that life as a college student can sometimes
+become distressing and overwhelming, which can make it difficult to
+engage in class.</p>
+<p>So, to help you succeed in this course (and in life), I encourage you
+to proactively care for your body and mind. If you are struggling or
+anticipate any trouble attending class or turning in assignments on
+time, please let me know as early as possible and I will do whatever I
+can to help you prioritize your wellbeing.</p>
+<p>Below are some of the many support services and resources available
+to all UIC students:</p>
+<ul>
+<li>Current Student Resources – a one-stop shop for links to resources
+in the following categories: General, Academic, Student Support, Student
+Life, Technology, Health and Safety, and Getting Around Campus</li>
+<li>UIC Tutoring Resources</li>
+<li>UIC College of Engineering Tutoring Program</li>
+<li>The First-at-LAS academic success program for first-generation
+students</li>
+<li>Programs and initiatives supporting the UIC undergraduate experience
+and academic programs through the Student Success Initiative</li>
+<li>If you are experiencing personal hardships (e.g. personal and family
+emergencies, academics, interpersonal conflicts, personal safety,
+physical and mental health concerns, food or housing insecurity) and
+need resources and assistance, please reach out to the Student
+Assistance division</li>
+<li>Student Guide for Information Technology – a comprehensive resource
+for UIC students describing the most commonly used IT services and tools
+supporting your success</li>
+<li>Navigating Health Resources at UIC – explore the many resources that
+are on campus to support students’ health and wellbeing and learn about
+how you can access them.</li>
+</ul>
+<p>Importantly, if you are in immediate distress, please know the UIC
+Counseling Center has crisis intervention services available 24 hours a
+day, 7 days a week. You can walk into the Counseling Center during
+business hours to request to talk to a crisis counselor, or you can call
+the Counseling Center main line at (312) 996-3490. If you are calling
+outside of business hours, select “2” during the automated greeting to
+be connected to a crisis counselor. You can find additional mental
+health resources and services on the Counseling Center Website and the
+Student’s Guide to Accessing Behavioral Health Services at UIC.</p>
+<p>For immediate crisis support outside of UIC, call or text “9-8-8” any
+time, 24 hours a day, 7 days a week. Dialing 988 will connect you to a
+trained crisis professional. 988 offers services in Spanish, American
+Sign Language, and over 240 languages through tele-interpretation
+services. The 988 website has an online chat feature, too.</p>
+<p>We all need the help and the support of our UIC community. Please
+visit my office hours for course consultation and other academic or
+research topics. For additional assistance, please contact your assigned
+college advisor and visit the support services available to all UIC
+students.</p>
+<h2 id="academic-success">Academic Success</h2>
+<ul>
+<li>Equity and Inclusion in Engineering Program</li>
+<li>UIC Library and UIC Library Research Guides</li>
+<li>Offices supporting the UIC undergraduate experience and academic
+programs</li>
+</ul>
+<h2 id="wellness">Wellness</h2>
+<ul>
+<li>Access U&amp;I Care Program for assistance with personal
+hardships</li>
+<li>Campus Advocacy Network (Title IX): <a
+href="mailto:TitleIX@uic.edu">TitleIX@uic.edu</a> and <a
+href="http://can.uic.edu/" class="uri">http://can.uic.edu/</a></li>
+</ul>
+<h2 id="safety">Safety</h2>
+<ul>
+<li>UIC Safe App (please download for your safety)</li>
+<li>UIC Safety Tips and Resources</li>
+<li>Night Ride</li>
+<li>Emergency: Dial 5-5555 from a campus phone, or (312) 355-5555 from a
+cell phone</li>
+</ul>
+<p><em>The following are mostly boilerplate blurbs from our Academic
+Center for Excellence (ACE).</em><a href="#fn4" class="footnote-ref"
+id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<h2 id="support-for-parenting-students">Support for Parenting
+Students</h2>
+<p>UIC supports parenting students by providing affordable, high-quality
+childcare for infants, toddlers, and young children, along with a
+comprehensive wraparound care system, study-play areas across campus,
+accessible lactation rooms, year-round family events, and more. For more
+information, contact Melinda Young (<a
+href="mailto:mmcghe2@uic.edu">mmcghe2@uic.edu</a>) or visit the <a
+href="https://littlesparks.uic.edu">Little Sparks website</a>.</p>
+<p><strong>The Writing Center</strong> offers friendly and supportive
+tutors who can help you with reading and writing in any of your courses,
+not just English. Tutors are ready to help with other writing as well,
+such as job applications, personal statements, and resumes. The tutor
+and you will work together to decide how to improve your writing. If you
+have not started your assignment, that is OK. A tutor can help you
+brainstorm or make an outline. Tutors understand that you might be using
+the Writing Center for the first time. They are ready to guide you
+through your first session. You can choose to work with a tutor in
+person or in real time over the internet using video, audio, or chat and
+a whiteboard. For more information and to schedule an appointment, visit
+the Writing Center website.</p>
+<p><strong>The Math and Science Learning Center</strong>, located in the
+Science and Engineering South Building (SES) at 845 W. Taylor St. 3rd
+Floor, Room 247, is a meeting place for students in Math, Biological
+Sciences, Chemistry, Earth and Environmental Sciences, and Physics. At
+the MSLC, students can meet with graduate teaching assistants for
+tutoring in 100-level courses, attend informal group study sessions with
+other students, or meet up with friends to attend one of the workshops,
+seminars, or other activities sponsored by the MSLC during the semester.
+Visit the MSLC website, call 312-355-4900, or email at <a
+href="mailto:mslc@uic.edu">mslc@uic.edu</a>.</p>
+<p><strong>The Academic Center for Excellence (ACE)</strong> can help if
+you feel you need more individualized instruction in reading and/or
+writing, study skills, time management, etc. Please call (312) 413-0031
+or visit the Academic Center for Excellence (ACE) website for more
+information.</p>
+<p><strong>Emergency response guides</strong> can be found at the Office
+of Preparedness and Response. Please review and acquaint yourself with
+the guide and recommendations for various emergency situations.</p>
+<p><strong>Student Health Services</strong> are available if you get
+sick during the semester. The Family Medicine Center is committed to
+providing high-quality, student centered care and services. It has
+attending physicians, residents, and nurse practitioners on staff to
+provide the full range of primary health care services. The Family
+Medicine Center also offers a limited set of health services at no
+additional cost to students who pay the Student Health Service Fee
+(SHSF). Services include caring for an acute or urgent illness (e.g.,
+cold, strep throat, asthma attack, flu) or an injury. More information
+can be found on the Family Medicine Center’s Student Health webpage.</p>
+<p><strong>Lastly</strong>, here is a picture of Hannah Arendt. She said
+that “evil comes from a failure to think.” If we are successful in this
+class, we will do some real thinking.</p>
+<figure>
+<img src="arendt.jpg" style="width:55.0%"
+alt="Hannah Arendt, photographed on New Year’s Day, 1944. © Fred Stein/dpa/Corbis" />
+<figcaption aria-hidden="true">Hannah Arendt, photographed on New Year’s
+Day, 1944. © Fred Stein/dpa/Corbis</figcaption>
+</figure>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><em>On Becoming a Person</em>, Chapter 14<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Ironically, while this phrase is often attributed to
+Isaac Newton in a letter from 1676, it was first recorded in John of
+Salisbury’s book <em>Metalogicon</em> from 1159. I learned this from a
+blog post on BookBrowse.com<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Sandburg, Carl. “Chicago.” <em>Poetry</em> (March
+1914).<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a
+href="https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/"
+class="uri">https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/</a><a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></main>
 </body>
 </html>

@@ -29,7 +29,10 @@ pandoc "$INPUT" \
   --template "$SOURCE_DIR/template.tex" \
   --pdf-engine=xelatex \
   --metadata created="$CREATED" \
+  --resource-path "$SOURCE_DIR" \
   -o "$OUTPUT_DIR/syllabus.pdf"
+
+cp "$SOURCE_DIR/arendt.jpg" "$OUTPUT_DIR/arendt.jpg"
 
 echo "Published $OUTPUT_DIR/index.html"
 echo "Published $OUTPUT_DIR/syllabus.pdf"
