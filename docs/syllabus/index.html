@@ -33,14 +33,6 @@
       white-space: nowrap;
     }
     body > * { position: relative; z-index: 1; }
-    /* Break the masthead train out of the centered 900px content column so it
-       spans the full viewport (like every other page) and sits above the DRAFT
-       watermark and page content. */
-    body > .ble-masthead {
-      width: 100vw;
-      margin-left: calc(50% - 50vw);
-      z-index: 2;
-    }
     header { padding-top: 1.5rem; text-align: center; }
     h1, h2, h3 { line-height: 1.15; }
     header h1 { margin: 0; font-size: 2rem; }
@@ -74,7 +66,7 @@
   {% include masthead.html %}
   <header>
     <div class="meta">
-      <span>Generated July 23, 2026 at 10:02 AM CDT</span>
+      <span>Generated July 23, 2026 at 4:51 PM CDT</span>
       <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
     </div>
     <h1>COLLEGE OF ENGINEERING, UIC</h1>
@@ -98,14 +90,17 @@ id="toc-catalog-course-description">Catalog Course Description</a></li>
 <li><a href="#dr.-bandys-course-description"
 id="toc-dr.-bandys-course-description">Dr. Bandy’s Course
 Description</a></li>
-<li><a href="#learning-outcomes" id="toc-learning-outcomes">Learning
-Outcomes</a></li>
-<li><a href="#course-materials" id="toc-course-materials">Course
+<li><a href="#learning-priorities" id="toc-learning-priorities">Learning
+Priorities</a></li>
+<li><a href="#learning-materials" id="toc-learning-materials">Learning
 Materials</a></li>
 <li><a href="#growth-mindset" id="toc-growth-mindset">Growth
 Mindset</a></li>
-<li><a href="#required-technology" id="toc-required-technology">Required
-Technology</a></li>
+<li><a href="#technology-outside-class"
+id="toc-technology-outside-class">Technology Outside Class</a></li>
+<li><a href="#technology-in-the-classroom"
+id="toc-technology-in-the-classroom">Technology in the
+Classroom</a></li>
 </ul></li>
 <li><a href="#course-policies-classroom-expectations"
 id="toc-course-policies-classroom-expectations">Course Policies &amp;
@@ -123,10 +118,11 @@ Integrity</a></li>
 <li><a href="#email-expectations" id="toc-email-expectations">Email
 Expectations</a></li>
 </ul></li>
-<li><a href="#course-schedule" id="toc-course-schedule">Course
-Schedule</a>
+<li><a href="#approximate-course-schedule"
+id="toc-approximate-course-schedule">Approximate Course Schedule</a>
 <ul>
-<li><a href="#disclaimer" id="toc-disclaimer">Disclaimer</a></li>
+<li><a href="#another-disclaimer" id="toc-another-disclaimer">Another
+Disclaimer</a></li>
 </ul></li>
 <li><a href="#accommodations" id="toc-accommodations">Accommodations</a>
 <ul>
@@ -141,8 +137,9 @@ id="toc-classroom-environment">Classroom Environment</a>
 <ul>
 <li><a href="#classroom-community"
 id="toc-classroom-community">Classroom Community</a></li>
-<li><a href="#name-and-pronoun-use" id="toc-name-and-pronoun-use">Name
-and Pronoun Use</a></li>
+<li><a href="#preferred-names-and-pronouns"
+id="toc-preferred-names-and-pronouns">Preferred Names and
+Pronouns</a></li>
 <li><a href="#guidelines-for-participation-and-classroom-conduct"
 id="toc-guidelines-for-participation-and-classroom-conduct">Guidelines
 for Participation and Classroom Conduct</a></li>
@@ -174,23 +171,31 @@ href="https://doethics.fun/">doethics.fun</a></p>
 <p>The current meeting times, room, office hours, teaching assistants,
 assignment deadlines, and grades are listed in Canvas.</p>
 <h2 id="course-site">Course Site</h2>
-<p><a href="https://canvas.uic.edu">Canvas course</a> — Students are
+<p><a href="https://canvas.uic.edu">Canvas Course</a> (<a
+href="https://canvas.uic.edu">canvas.uic.edu</a>) - Students are
 expected to log in to Canvas regularly to learn about any developments
 related to the course, upload assignments, etc.</p>
-<p><a href="https://doethics.fun">Online materials</a> - Reference
-materials for the course such as slides, assignment descriptions,
-ethical dilemmas, and more, are available on the course website. You are
-encouraged to edit the site and submit improvements in <a
+<p><a href="https://doethics.fun">Public Website</a> (<a
+href="https://doethics.fun">doethics.fun</a>) - Public site with
+reference materials for the course such as slides, assignment
+descriptions, ethical dilemmas, and more, are available on the course
+website. You are encouraged to edit the site and submit
+fixes/improvements in <a
 href="https://github.com/jackbandy/ethical-issues-in-computing-uic">Github</a>.</p>
 <h1 id="course-information">Course Information</h1>
 <h2 id="catalog-course-description">Catalog Course Description</h2>
-<p><strong>Course description:</strong> Communication skills for
-computing professionals, including presentation organization, visual
-aids, delivery techniques, and argument support. Ethical and societal
-issues in computing include privacy, intellectual property and
+<p><a href="https://catalog.uic.edu/search/?P=CS%20377">CS 377. Ethical
+Issues in Computing. 3 hours.</a></p>
+<p><strong>Official catalog course description:</strong> Communication
+skills for computing professionals, including presentation organization,
+visual aids, delivery techniques, and argument support. Ethical and
+societal issues in computing include privacy, intellectual property and
 ownership, and crime.</p>
 <p><strong>Prerequisite:</strong> Credit or concurrent registration in
 CS 251.</p>
+<p><strong>Further information:</strong> <a
+href="https://catalog.uic.edu/ucat/course-descriptions/cs/">UIC Computer
+Science course catalog</a>.</p>
 <h2 id="dr.-bandys-course-description">Dr. Bandy’s Course
 Description</h2>
 <p>What does it mean for Computer Scientists to be socially responsible?
@@ -208,11 +213,20 @@ management, user interface design, software engineering, search engines,
 algorithmic media feeds, large language models, and chatbots, to name
 some examples. Class sessions will promote active engagement through
 peer teaching, small group discussions, games, and more.</p>
-<h2 id="learning-outcomes">Learning Outcomes</h2>
-<p>By the end of the course, students should be able to:</p>
+<h2 id="learning-priorities">Learning Priorities</h2>
+<p>You are probably used to seeing concrete, specific “learning
+outcomes” for your math and CS classes. The outcomes for this class are
+more nebulous.</p>
+<p>Namely, learning ethics is an ongoing practice. This class will
+therefore encourage you to continue discovering and practicing your
+values and your personal ethical commitments. In your other math and CS
+classes, you may eventually reach full expertise in a topic area, such
+as binary arithmetic. But you will not know everything there is to know
+about ethics just by completing this course.</p>
+<p>Still, by the end of the course, students should be able to:</p>
 <ul>
-<li>explain professional responsibilities related to ethical, legal,
-security, and social issues in computing;</li>
+<li>explain fundamental professional responsibilities related to
+ethical, legal, security, and social issues in computing;</li>
 <li>analyze current events using virtue ethics, deontological ethics,
 utilitarian ethics, and care ethics;</li>
 <li>identify and describe recurring ethical challenges in the design and
@@ -225,37 +239,130 @@ for a BS in Computer Science at UIC</p>
 <p><strong>Topics overview:</strong> Classical ethical theories (Virtue,
 Deontological, Utilitarian, Care Ethics); algorithmic feeds and content
 moderation; privacy and contextual integrity; inequality and algorithmic
-fairness; general cybersecurity; AI and large language models;
+fairness/bias; general cybersecurity; AI and large language models;
 intellectual property; environmental costs of computing.</p>
-<h2 id="course-materials">Course Materials</h2>
-<p>Core readings will be provided through Canvas, printed copies, web
-archives, or linked PDFs. There is no required textbook, however, the
-course draws heavily from <em>Computing and Technology Ethics: Engaging
-through Science Fiction</em> by Emanuelle Burton, Judy Goldsmith,
-Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.</p>
+<h2 id="learning-materials">Learning Materials</h2>
+<p>Readings and other materials will be provided through Canvas, printed
+copies, web archives, and/or linked PDFs.</p>
+<p>There is no required textbook, however, the course draws heavily from
+<em>Computing and Technology Ethics: Engaging through Science
+Fiction</em> by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory
+Siler, and Sara-Jo Swiatek.</p>
 <p>Students will occasionally make their own selections of different
 research papers, news articles, case studies, books, and other materials
 to present and/or discuss in class.</p>
 <h2 id="growth-mindset">Growth Mindset</h2>
-<p>Unlike many other courses in the Computer Science department, the
-questions and problems discussed in this class often lack verifiable,
-complete, computable solutions. In many cases, there is no correct
-answer, nor even a consensus, to resolve ethical challenges.</p>
-<p>For this reason as well as others, course materials and assignments
-may be challenging. However, they are crucial to your intellectual and
-personal growth and development. There are times you may need extra
-help. Any student can succeed if they attend class consistently,
-participate in discussions, complete all assignments, thoughtfully
-engage with feedback, and contact faculty when struggling. These habits
-will help you develop a thorough understanding of the course material
-and ultimately succeed in the course.</p>
+<p>Once again, unlike many other courses in the Computer Science
+department, the questions and problems discussed in this class often
+lack verifiable, complete, computable solutions. In many cases, there is
+no correct answer, nor even a consensus, to resolve ethical
+challenges.</p>
+<p>For this reason as well as others, you may find course materials and
+exercises to be uniquely challenging. However, they are crucial to your
+intellectual and personal growth and development. There may be times
+when you need extra help or extra time to process materials in order to
+reach your own understanding of a concept. That is normal.</p>
+<p>Any student can succeed if they attend class consistently,
+participate in discussions, complete exercises, thoughtfully engage with
+feedback (including feedback from the instructor, TAs, and peers), and
+contact the instructor when struggling. These habits will help you
+develop a thorough understanding of the course material and ultimately
+succeed in the course.</p>
 <p>If we are indeed successful, by the end of the course, you will
 develop an understanding of your own values and the ethical reasoning
 behind them. This is useful not only for the course, and not only for
 your future career, but for your life in general.</p>
-<h2 id="required-technology">Required Technology</h2>
-<p>Students need a web browser that can access Canvas and the course
-website.</p>
+<h2 id="technology-outside-class">Technology Outside Class</h2>
+<p>Students will need access to a web browser in order to use Canvas and
+the course website. This can be on your own laptop or a campus
+computer.</p>
+<p>All exercises will be submitted and graded in Canvas.</p>
+<h2 id="technology-in-the-classroom">Technology in the Classroom</h2>
+<p>I remember the frustration and shock I felt when I showed up to my
+first Computer Science course in college and learned that I was not
+allowed to use my computer. I have slowly realized that this policy was
+best for me as a student, and in most cases, is the best policy for</p>
+<p>In Summer 2026, I looked at peer-reviewed scientific evidence on the
+subject. As with other times I have explored the evidence, my impression
+was that these <strong>devices in the classroom are still detrimental
+for learning</strong>, even when students feel accustomed to
+multitasking. Individual studies as well as meta-reviews continue to
+characterize devices in class as fundamentally distracting, with a
+negative influence on learning and performance.</p>
+<p>Interestingly, while some students can multitask and still comprehend
+material <em>during</em> class time, those students experience
+significantly reduced long-term retention (<a
+href="https://doi.org/10.1080/01443410.2018.1489046">Glass &amp; Kang,
+2019</a>).</p>
+<p>For these reasons, <strong>by default, all class periods will be free
+from cell phones, laptops, and tablets</strong>. In some cases, we will
+use devices for activities, usually for a few minutes at the end of
+class.</p>
+<p>This policy is intended for your own benefit as well as the benefit
+of your classmates, as using a device often has a chain reaction of
+distracting other students.</p>
+<p>You will be provided a notebook and/or paper for the course to take
+notes and write down questions that arise or factoids you wish to
+research after class. You are always encouraged to ask about factoids
+that you might otherwise look up on your device - someone in the class
+might know the answer, or at least have some insight!</p>
+<p>Also, if you prefer to take notes on a device that can sit flat on
+the table, and you are confident that you can do this without
+distracting yourself and without distracting others, pleas come see me
+to make an arrangement.</p>
+<p>Finally, <strong>I will revisit the no-phone no-laptop policy with
+students throughout the semester</strong>, and I remain open to revising
+the policy based on feedback / student needs.</p>
+<p>In case you are curious, here is some of the evidence I looked at
+during Summer 2026 regarding in-class device distractions:</p>
+<ul>
+<li>Flanigan, Brady, Dai, &amp; Ray (2023). Managing student digital
+distraction in the college classroom: A self-determination theory
+perspective. <em>Educational Psychology Review</em>. <a
+href="https://doi.org/10.1007/s10648-023-09780-y">doi.org/10.1007/s10648-023-09780-y</a>
+<ul>
+<li>“…research has suggested that these digital distractions can
+negatively impact learning and performance.”</li>
+</ul></li>
+<li>Dontre (2021). The influence of technology on academic distraction:
+A review. <em>Human Behavior and Emerging Technologies</em>. <a
+href="https://doi.org/10.1002/hbe2.229">doi.org/10.1002/hbe2.229</a>
+<ul>
+<li>“The detrimental effects of student smartphone and social media use
+on academic distraction are more conspicuous, especially with the
+pervasiveness of personal digital devices.”</li>
+</ul></li>
+<li>Martin, Long, Haywood, &amp; Xie (2025). Digital distractions in
+education: A systematic review of research on causes, consequences and
+prevention strategies. <em>Educational Technology Research and
+Development</em>. <a
+href="https://doi.org/10.1007/s11423-025-10550-6">doi.org/10.1007/s11423-025-10550-6</a>
+<ul>
+<li>“Consequences for digital distraction included personal performance
+issues (66.67%), ineffective classroom instruction (23.33%), and
+problematic technology use (10%).”</li>
+</ul></li>
+<li>Wang, Tigelaar, Zhou, &amp; Admiraal (2023). The effects of mobile
+technology usage on cognitive, affective, and behavioural learning
+outcomes in primary and secondary education: A systematic review with
+meta-analysis. <em>Journal of Computer Assisted Learning</em>. <a
+href="https://doi.org/10.1111/jcal.12759">doi.org/10.1111/jcal.12759</a>
+<ul>
+<li>Notably, this review found that <em>structured,
+instructor-directed</em> technology use can help: “using mobile
+technology produced medium positive and statistically significant
+effects on primary and secondary students’ learning.”</li>
+</ul></li>
+<li>Sana, Weston, &amp; Cepeda (2013). Laptop multitasking hinders
+classroom learning for both users and nearby peers. <em>Computers &amp;
+Education</em>. <a
+href="https://doi.org/10.1016/j.compedu.2012.10.003">doi.org/10.1016/j.compedu.2012.10.003</a>
+<ul>
+<li>“…multitasking on a laptop poses a significant distraction to both
+users and fellow students and can be detrimental to comprehension of
+lecture content.”</li>
+</ul></li>
+</ul>
 <h1 id="course-policies-classroom-expectations">Course Policies &amp;
 Classroom Expectations</h1>
 <h2 id="assessment">Assessment</h2>
@@ -448,6 +555,7 @@ integrity</strong> for specific exercises. When in doubt, it is always
 better to check with the instructor before proceeding.</p>
 <p>I will reach out to you personally before submitting a report of
 academic misconduct.</p>
+<p>TODO: AI specifics.</p>
 <h2 id="visitors">Visitors</h2>
 <p>This class may welcome visitors (i.e. prospective students, guest
 speakers, etc.) during the semester. When possible, students will be
@@ -458,8 +566,8 @@ Canvas accounts.</p>
 <p>While I do not closely monitor my email on Saturdays and Sundays,
 during the week, I generally aim to respond to emails within 24
 hours.</p>
-<h1 id="course-schedule">Course Schedule</h1>
-<p>The detailed and most current schedule is published on the <a
+<h1 id="approximate-course-schedule">Approximate Course Schedule</h1>
+<p>The detailed and most current schedule will be published on the <a
 href="https://doethics.fun/">“do ethics”</a> website. We may revise
 readings, activities, or due dates as course needs develop. Any changes
 will be announced in class and updated in Canvas.</p>
@@ -572,7 +680,7 @@ presentations begin</td>
 </tr>
 </tbody>
 </table>
-<h2 id="disclaimer">Disclaimer</h2>
+<h2 id="another-disclaimer">Another Disclaimer</h2>
 <p>This syllabus is intended to give the student guidance on what may be
 covered during the semester and will be followed as closely as possible.
 However, again, we might decide to alter this syllabus as course needs
@@ -600,10 +708,10 @@ Accommodation.”</p>
 welcoming, and inclusive environment. Assume goodwill, listen carefully,
 debate ideas rather than people, respect privacy, and remain open to
 revising your position.</p>
-<h2 id="name-and-pronoun-use">Name and Pronoun Use</h2>
-<p>If your name or pronouns do not match the name on the class roster,
-please let the class know so that we can address you the way you want to
-be addressed. I use he/him pronouns. For more information, see: <a
+<h2 id="preferred-names-and-pronouns">Preferred Names and Pronouns</h2>
+<p>If your name or pronouns do not match the class roster, please let
+the class know so that we can address you the way you want to be
+addressed. I use he/him pronouns. For more information, see: <a
 href="https://www.mypronouns.org/what-and-why"
 class="uri">https://www.mypronouns.org/what-and-why</a>.</p>
 <h2 id="guidelines-for-participation-and-classroom-conduct">Guidelines
@@ -630,8 +738,8 @@ positions</li>
 <h2 id="content-notices">Content Notices</h2>
 <p>This is a 300-level University course, and some course materials
 address war, discrimination, surveillance, sex, violence, and related
-subjects. We will aim to discuss these topics with dignity, humanity,
-rigor, and respect for scholarly inquiry.</p>
+subjects which may be distressing. We will aim to discuss these topics
+with dignity, humanity, rigor, and respect for scholarly inquiry.</p>
 <p>Our classroom provides a space for civil exchange of ideas, which
 intentionally includes a variety of perspectives and positions. Some
 readings and other content may expose you to ideas, subjects, or views

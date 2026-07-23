@@ -1,13 +1,19 @@
+<!--
+  Site masthead: the blue rail with a train car that glides across it.
+
+  The train starts at a random point on the rail, glides once to whichever window
+  edge is further away, and parks there. Neither of its edges ever crosses a window
+  edge. Motion lives in the script below rather than in CSS keyframes because the
+  start point is random and the travel bounds have to be measured against the real
+  window width.
+
+  Note: this file (styles and script) was largely written by an LLM (Claude Code).
+-->
+
 <style>
-  /* ── Masthead train drift — adjust these ─────────────────────────────
-     --masthead-drift-duration : time for one edge-to-edge sweep. The animation
-                                 alternates, so the full back-and-forth round trip
-                                 is twice this (32s → 64s there-and-back).
-     --masthead-drift-reach    : how far past the content box the train travels.
-     --masthead-train-height   : rendered height of the train car artwork.        */
+  /* --masthead-train-height: rendered height of the train car artwork.
+     Glide duration is SWEEP_MS in the script below. */
   :root {
-    --masthead-drift-duration: 32s;
-    --masthead-drift-reach: 0px;
     --masthead-train-height: 96px;
   }
 
@@ -18,11 +24,12 @@
     text-decoration: none;   /* whole masthead is a link to the homepage */
   }
   .ble-masthead__inner {
-    /* Full width so the train can drift all the way to each screen edge. */
+    /* Break out of any centered content column: the rail is the full window,
+       so the train can drift all the way to each screen edge. */
     max-width: none;
-    margin: 0 auto;
+    width: 100vw;
+    margin: 0 0 0 calc(50% - 50vw);
     padding: 14px 0 0;
-    overflow: hidden;   /* clip the train as it slides to the edges */
     line-height: 0;     /* no baseline gap beneath the artwork */
   }
   .ble-masthead__train {
@@ -34,16 +41,7 @@
        wheels rest at y≈332). Pull the blue bar up by that much so the wheels
        sit directly on the line, like rails. */
     margin-bottom: calc(var(--masthead-train-height) * -0.17);
-    /* Slowly roll from the left edge to the right edge and back, forever. */
-    animation: ble-train-drift var(--masthead-drift-duration) ease-in-out infinite alternate;
-    will-change: left, transform;
-  }
-  /* Travel is measured against the container (left 0 → 100%), so the train's
-     trailing edge stops at the content box and never overshoots the viewport,
-     regardless of scrollbar width. */
-  @keyframes ble-train-drift {
-    from { left: 0;    transform: translateX(0); }
-    to   { left: 100%; transform: translateX(calc(-100% + var(--masthead-drift-reach))); }
+    will-change: transform;   /* the script animates transform */
   }
   .ble-masthead__bar {
     border: none;
@@ -51,9 +49,6 @@
     background-color: #00A1DE;
     width: 100vw;
     margin: 0 0 0 calc(50% - 50vw);
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .ble-masthead__train { animation: none; }
   }
 </style>
 <a class="ble-masthead" href="{{ site.baseurl }}/">
@@ -64,3 +59,64 @@
   </div>
   <hr class="ble-masthead__bar">
 </a>
+<script>
+(function () {
+  var SWEEP_MS = 32000;   // how long the single edgeward glide takes
+  var rail = document.querySelector('.ble-masthead__inner');
+  var train = rail && rail.querySelector('.ble-masthead__train');
+  if (!train || !train.animate) return;
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var anim = null;        // the glide, once it is under way
+  var parked = false;     // true once the glide has finished
+  var x = 0;              // the train's current translateX, in px
+
+  /* How far the train may be translated: `min` puts its left edge on the window's
+     left edge, `max` puts its right edge on the window's right edge. The rail has
+     no horizontal padding, so the untranslated train sits at the rail's left edge.
+     clientWidth excludes any vertical scrollbar, so `max` stays on screen. */
+  function bounds() {
+    var railLeft = rail.getBoundingClientRect().left;
+    var min = -railLeft;
+    return {
+      min: min,
+      max: Math.max(min, document.documentElement.clientWidth - train.offsetWidth - railLeft)
+    };
+  }
+
+  function place(px) {
+    x = px;
+    train.style.transform = 'translateX(' + px + 'px)';
+  }
+
+  function start() {
+    if (anim) anim.cancel();
+    var b = bounds();
+
+    // A parked train (or a reduced-motion one) never glides again; on resize it
+    // just gets nudged back inside the window.
+    if (parked || reduce.matches) {
+      place(Math.min(Math.max(x, b.min), b.max));
+      return;
+    }
+
+    var from = b.min + Math.random() * (b.max - b.min);
+    var to = (from - b.min) > (b.max - from) ? b.min : b.max;   // the further edge
+    place(to);   // rest at the destination, so the glide has something to land on
+    anim = train.animate(
+      [{ transform: 'translateX(' + from + 'px)' },
+       { transform: 'translateX(' + to + 'px)' }],
+      { duration: SWEEP_MS, easing: 'ease-in-out', fill: 'backwards' }
+    );
+    anim.finished.then(function () { parked = true; }, function () { /* cancelled */ });
+  }
+
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(start, 150);
+  });
+  reduce.addEventListener('change', start);
+  if (train.complete) start(); else train.addEventListener('load', start);
+})();
+</script>

@@ -20,52 +20,99 @@ The current meeting times, room, office hours, teaching assistants, assignment d
 
 ## Course Site
 
-[Canvas course](https://canvas.uic.edu) — Students are expected to log in to Canvas regularly to learn about any developments related to the course, upload assignments, etc.
+[Canvas Course](https://canvas.uic.edu) ([canvas.uic.edu](https://canvas.uic.edu)) - Students are expected to log in to Canvas regularly to learn about any developments related to the course, upload assignments, etc.
 
-[Online materials](https://doethics.fun) - Reference materials for the course such as slides, assignment descriptions, ethical dilemmas, and more, are available on the course website. You are encouraged to edit the site and submit improvements in [Github](https://github.com/jackbandy/ethical-issues-in-computing-uic).
+[Public Website](https://doethics.fun) ([doethics.fun](https://doethics.fun)) - Public site with reference materials for the course such as slides, assignment descriptions, ethical dilemmas, and more, are available on the course website. You are encouraged to edit the site and submit fixes/improvements in [Github](https://github.com/jackbandy/ethical-issues-in-computing-uic).
 
 # Course Information
 
 ## Catalog Course Description
 
-**Course description:** Communication skills for computing professionals, including presentation organization, visual aids, delivery techniques, and argument support. Ethical and societal issues in computing include privacy, intellectual property and ownership, and crime.
+[CS 377. Ethical Issues in Computing. 3 hours.](https://catalog.uic.edu/search/?P=CS%20377)
+
+**Official catalog course description:** Communication skills for computing professionals, including presentation organization, visual aids, delivery techniques, and argument support. Ethical and societal issues in computing include privacy, intellectual property and ownership, and crime.
 
 **Prerequisite:** Credit or concurrent registration in CS 251.
+
+**Further information:** [UIC Computer Science course catalog](https://catalog.uic.edu/ucat/course-descriptions/cs/).
 
 ## Dr. Bandy's Course Description
 
 What does it mean for Computer Scientists to be socially responsible? Billions of people interact with computational systems every day for communication, amusement, work, and more. Although many interactions appear to happen seamlessly, even the most mundane human-computer interaction often has ethical implications related to privacy, climate, power, inequality, public health, and more. To explore these ethical implications, this course will survey classical perspectives of ethics (i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care Ethics) and practice using them to interpret real-world situations involving humans and computers. Students will engage with recent scholarship about ethical issues in algorithmic decision-making, data management, user interface design, software engineering, search engines, algorithmic media feeds, large language models, and chatbots, to name some examples. Class sessions will promote active engagement through peer teaching, small group discussions, games, and more.
 
-## Learning Outcomes
+## Learning Priorities
 
-By the end of the course, students should be able to:
+You are probably used to seeing concrete, specific "learning outcomes" for your math and CS classes. The outcomes for this class are more nebulous.
 
-- explain professional responsibilities related to ethical, legal, security, and social issues in computing;
+Namely, learning ethics is an ongoing practice. This class will therefore encourage you to continue discovering and practicing your values and your personal ethical commitments. In your other math and CS classes, you may eventually reach full expertise in a topic area, such as binary arithmetic. But you will not know everything there is to know about ethics just by completing this course.
+
+Still, by the end of the course, students should be able to:
+
+- explain fundamental professional responsibilities related to ethical, legal, security, and social issues in computing;
 - analyze current events using virtue ethics, deontological ethics, utilitarian ethics, and care ethics;
 - identify and describe recurring ethical challenges in the design and use of computing systems; and
 - communicate ethical analyses clearly to different audiences.
 
 **Course requirement status:** CS 377 is [required](https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/) for a BS in Computer Science at UIC
 
-**Topics overview:** Classical ethical theories (Virtue, Deontological, Utilitarian, Care Ethics); algorithmic feeds and content moderation; privacy and contextual integrity; inequality and algorithmic fairness; general cybersecurity; AI and large language models; intellectual property; environmental costs of computing.
+**Topics overview:** Classical ethical theories (Virtue, Deontological, Utilitarian, Care Ethics); algorithmic feeds and content moderation; privacy and contextual integrity; inequality and algorithmic fairness/bias; general cybersecurity; AI and large language models; intellectual property; environmental costs of computing.
 
-## Course Materials
+## Learning Materials
 
-Core readings will be provided through Canvas, printed copies, web archives, or linked PDFs. There is no required textbook, however, the course draws heavily from *Computing and Technology Ethics: Engaging through Science Fiction* by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
+Readings and other materials will be provided through Canvas, printed copies, web archives, and/or linked PDFs.
+
+There is no required textbook, however, the course draws heavily from *Computing and Technology Ethics: Engaging through Science Fiction* by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
 
 Students will occasionally make their own selections of different research papers, news articles, case studies, books, and other materials to present and/or discuss in class.
 
 ## Growth Mindset
 
-Unlike many other courses in the Computer Science department, the questions and problems discussed in this class often lack verifiable, complete, computable solutions. In many cases, there is no correct answer, nor even a consensus, to resolve ethical challenges.
+Once again, unlike many other courses in the Computer Science department, the questions and problems discussed in this class often lack verifiable, complete, computable solutions. In many cases, there is no correct answer, nor even a consensus, to resolve ethical challenges.
 
-For this reason as well as others, course materials and assignments may be challenging. However, they are crucial to your intellectual and personal growth and development. There are times you may need extra help. Any student can succeed if they attend class consistently, participate in discussions, complete all assignments, thoughtfully engage with feedback, and contact faculty when struggling. These habits will help you develop a thorough understanding of the course material and ultimately succeed in the course.
+For this reason as well as others, you may find course materials and exercises to be uniquely challenging. However, they are crucial to your intellectual and personal growth and development. There may be times when you need extra help or extra time to process materials in order to reach your own understanding of a concept. That is normal.
+
+Any student can succeed if they attend class consistently, participate in discussions, complete exercises, thoughtfully engage with feedback (including feedback from the instructor, TAs, and peers), and contact the instructor when struggling. These habits will help you develop a thorough understanding of the course material and ultimately succeed in the course.
 
 If we are indeed successful, by the end of the course, you will develop an understanding of your own values and the ethical reasoning behind them. This is useful not only for the course, and not only for your future career, but for your life in general.
 
-## Required Technology
+## Technology Outside Class
 
-Students need a web browser that can access Canvas and the course website.
+Students will need access to a web browser in order to use Canvas and the course website. This can be on your own laptop or a campus computer.
+
+All exercises will be submitted and graded in Canvas.
+
+## Technology in the Classroom
+
+I remember the frustration and shock I felt when I showed up to my first Computer Science course in college and learned that I was not allowed to use my computer. I have slowly realized that this policy was best for me as a student, and in most cases, is the best policy for 
+
+In Summer 2026, I looked at peer-reviewed scientific evidence on the subject. As with other times I have explored the evidence, my impression was that these **devices in the classroom are still detrimental for learning**, even when students feel accustomed to multitasking. Individual studies as well as meta-reviews continue to characterize devices in class as fundamentally distracting, with a negative influence on learning and performance.
+
+Interestingly, while some students can multitask and still comprehend material *during* class time, those students experience significantly reduced long-term retention ([Glass & Kang, 2019](https://doi.org/10.1080/01443410.2018.1489046)).
+
+For these reasons, **by default, all class periods will be free from cell phones, laptops, and tablets**. In some cases, we will use devices for activities, usually for a few minutes at the end of class.
+
+This policy is intended for your own benefit as well as the benefit of your classmates, as using a device often has a chain reaction of distracting other students.
+
+You will be provided a notebook and/or paper for the course to take notes and write down questions that arise or factoids you wish to research after class. You are always encouraged to ask about factoids that you might otherwise look up on your device - someone in the class might know the answer, or at least have some insight!
+
+Also, if you prefer to take notes on a device that can sit flat on the table, and you are confident that you can do this without distracting yourself and without distracting others, pleas come see me to make an arrangement.
+
+Finally, **I will revisit the no-phone no-laptop policy with students throughout the semester**, and I remain open to revising the policy based on feedback / student needs.
+
+In case you are curious, here is some of the evidence I looked at during Summer 2026 regarding in-class device distractions:
+
+- Flanigan, Brady, Dai, & Ray (2023). Managing student digital distraction in the college classroom: A self-determination theory perspective. *Educational Psychology Review*. [doi.org/10.1007/s10648-023-09780-y](https://doi.org/10.1007/s10648-023-09780-y)
+    - "...research has suggested that these digital distractions can negatively impact learning and performance."
+- Dontre (2021). The influence of technology on academic distraction: A review. *Human Behavior and Emerging Technologies*. [doi.org/10.1002/hbe2.229](https://doi.org/10.1002/hbe2.229)
+    - "The detrimental effects of student smartphone and social media use on academic distraction are more conspicuous, especially with the pervasiveness of personal digital devices."
+- Martin, Long, Haywood, & Xie (2025). Digital distractions in education: A systematic review of research on causes, consequences and prevention strategies. *Educational Technology Research and Development*. [doi.org/10.1007/s11423-025-10550-6](https://doi.org/10.1007/s11423-025-10550-6)
+    - "Consequences for digital distraction included personal performance issues (66.67%), ineffective classroom instruction (23.33%), and problematic technology use (10%)."
+- Wang, Tigelaar, Zhou, & Admiraal (2023). The effects of mobile technology usage on cognitive, affective, and behavioural learning outcomes in primary and secondary education: A systematic review with meta-analysis. *Journal of Computer Assisted Learning*. [doi.org/10.1111/jcal.12759](https://doi.org/10.1111/jcal.12759)
+    - Notably, this review found that *structured, instructor-directed* technology use can help: "using mobile technology produced medium positive and statistically significant effects on primary and secondary students' learning."
+- Sana, Weston, & Cepeda (2013). Laptop multitasking hinders classroom learning for both users and nearby peers. *Computers & Education*. [doi.org/10.1016/j.compedu.2012.10.003](https://doi.org/10.1016/j.compedu.2012.10.003)
+    - "...multitasking on a laptop poses a significant distraction to both users and fellow students and can be detrimental to comprehension of lecture content."
+
+
 
 # Course Policies & Classroom Expectations
 
@@ -144,6 +191,8 @@ This does not mean that you need to complete all work in a bunker. Rather, you a
 
 I will reach out to you personally before submitting a report of academic misconduct.
 
+TODO: AI specifics.
+
 ## Visitors
 
 This class may welcome visitors (i.e. prospective students, guest speakers, etc.) during the semester. When possible, students will be notified in advance of guest attendance.
@@ -154,9 +203,9 @@ Students are responsible for all messages sent to your UIC email and Canvas acco
 
 While I do not closely monitor my email on Saturdays and Sundays, during the week, I generally aim to respond to emails within 24 hours.
 
-# Course Schedule
+# Approximate Course Schedule
 
-The detailed and most current schedule is published on the ["do ethics"](https://doethics.fun/) website. We may revise readings, activities, or due dates as course needs develop. Any changes will be announced in class and updated in Canvas.
+The detailed and most current schedule will be published on the ["do ethics"](https://doethics.fun/) website. We may revise readings, activities, or due dates as course needs develop. Any changes will be announced in class and updated in Canvas.
 
 | **Week** | **Topic(s) / In-Class Activities** | **Readings / Work Due** |
 |:--|:--|:--|
@@ -177,7 +226,7 @@ The detailed and most current schedule is published on the ["do ethics"](https:/
 | 15 | Book presentations | Personal Ethics Commitments |
 | 16 | Synthesis and conclusions | Book Report/Un-essay, Presentation |
 
-## Disclaimer
+## Another Disclaimer
 
 This syllabus is intended to give the student guidance on what may be covered during the semester and will be followed as closely as possible. However, again, we might decide to alter this syllabus as course needs arise, and I will communicate such changes through in-class announcements and in writing via Canvas and/or email.
 
@@ -197,9 +246,9 @@ Students seeking religious accommodations should notify the instructor by the te
 
 Every member of the class is expected to contribute to a respectful, welcoming, and inclusive environment. Assume goodwill, listen carefully, debate ideas rather than people, respect privacy, and remain open to revising your position.
 
-## Name and Pronoun Use
+## Preferred Names and Pronouns
 
-If your name or pronouns do not match the name on the class roster, please let the class know so that we can address you the way you want to be addressed. I use he/him pronouns. For more information, see: <https://www.mypronouns.org/what-and-why>.
+If your name or pronouns do not match the class roster, please let the class know so that we can address you the way you want to be addressed. I use he/him pronouns. For more information, see: <https://www.mypronouns.org/what-and-why>.
 
 ## Guidelines for Participation and Classroom Conduct
 
@@ -217,7 +266,7 @@ Active participation is one of the most important ways you will learn in this co
 
 ## Content Notices
 
-This is a 300-level University course, and some course materials address war, discrimination, surveillance, sex, violence, and related subjects. We will aim to discuss these topics with dignity, humanity, rigor, and respect for scholarly inquiry.
+This is a 300-level University course, and some course materials address war, discrimination, surveillance, sex, violence, and related subjects which may be distressing. We will aim to discuss these topics with dignity, humanity, rigor, and respect for scholarly inquiry.
 
 Our classroom provides a space for civil exchange of ideas, which intentionally includes a variety of perspectives and positions. Some readings and other content may expose you to ideas, subjects, or views that may challenge you, cause you discomfort, or recall past negative experiences or traumas. I try to include content notices whenever appropriate. If you have suggested changes, or you would like me to be aware of a specific topic of concern, please email or visit me during office hours.
 
