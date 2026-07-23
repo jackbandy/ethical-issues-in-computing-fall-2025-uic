@@ -1,5 +1,5 @@
 ---
-summary: A machine can give you any experience you want, felt from the inside — would you plug in?
+summary: A machine is available that can give you any experience you want, felt from the inside. Would you plug in to the machine?
 ---
 
 # Plug In

@@ -19,7 +19,12 @@ permalink: /dilemmas/
 
   <main class="dilemmas-main">
     <h2>Dilemmas</h2>
-    <p class="dilemmas-intro">Ethical dilemmas discussed in class. Click a card to read the full scenario.</p>
+    <p class="dilemmas-intro">Ethical dilemmas discussed in class. Click a card to read the full scenario.
+      <button type="button" class="read-more-toggle" id="readMoreToggle" aria-expanded="false" aria-controls="dilemmasAbout">Read more</button>
+    </p>
+    <div class="dilemmas-about" id="dilemmasAbout" hidden>
+      {% include dilemmas-about.html %}
+    </div>
     <div class="search-row">
       <input type="search" id="searchInput" class="dilemma-search" placeholder="Search dilemmas&hellip;" aria-label="Search dilemmas">
       <button id="shuffleBtn" class="shuffle-btn">🔀 Shuffle</button>
@@ -29,31 +34,22 @@ permalink: /dilemmas/
     <p class="no-results" id="noResults" hidden>No dilemmas match your search.</p>
   </main>
 
-  <div class="overlay" id="overlay"></div>
-  <aside class="side-panel" id="sidePanel" aria-label="Dilemma detail">
-    <button class="panel-close" id="panelClose" aria-label="Close">&times;</button>
-    <div id="panelContent"></div>
-  </aside>
-
   {% include footer.html %}
 
   <script src="{{ site.baseurl }}/dilemmas-data.js"></script>
   <script>
+    const baseurl = "{{ site.baseurl }}";
     const grid = document.getElementById("cardGrid");
     const searchInput = document.getElementById("searchInput");
     const countEl = document.getElementById("dilemmaCount");
     const noResults = document.getElementById("noResults");
-    const overlay = document.getElementById("overlay");
-    const sidePanel = document.getElementById("sidePanel");
-    const panelContent = document.getElementById("panelContent");
 
     function render(list) {
       grid.innerHTML = "";
       list.forEach(dilemma => {
-        const card = document.createElement("div");
+        const card = document.createElement("a");
         card.className = "dilemma-card";
-        card.tabIndex = 0;
-        card.setAttribute("role", "button");
+        card.href = baseurl + "/dilemmas/" + dilemma.slug + "/";
 
         const title = document.createElement("h3");
         title.textContent = dilemma.title;
@@ -61,36 +57,10 @@ permalink: /dilemmas/
         summary.textContent = dilemma.summary;
         card.append(title, summary);
 
-        card.addEventListener("click", () => openPanel(dilemma));
-        card.addEventListener("keydown", e => {
-          if (e.key === "Enter" || e.key === " ") {
-            e.preventDefault();
-            openPanel(dilemma);
-          }
-        });
         grid.appendChild(card);
       });
       countEl.textContent = list.length + " of " + dilemmas.length + " dilemmas";
       noResults.hidden = list.length > 0;
-    }
-
-    function openPanel(dilemma) {
-      panelContent.innerHTML = "";
-      const title = document.createElement("h2");
-      title.className = "panel-title";
-      title.textContent = dilemma.title;
-      const body = document.createElement("div");
-      body.className = "dilemma-body";
-      body.innerHTML = dilemma.html;
-      panelContent.append(title, body);
-      sidePanel.classList.add("open");
-      overlay.classList.add("visible");
-      sidePanel.scrollTop = 0;
-    }
-
-    function closePanel() {
-      sidePanel.classList.remove("open");
-      overlay.classList.remove("visible");
     }
 
     let order = [...dilemmas];
@@ -110,9 +80,14 @@ permalink: /dilemmas/
       applyFilter();
     });
 
-    overlay.addEventListener("click", closePanel);
-    document.getElementById("panelClose").addEventListener("click", closePanel);
-    document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
+    const readMoreToggle = document.getElementById("readMoreToggle");
+    const dilemmasAbout = document.getElementById("dilemmasAbout");
+    readMoreToggle.addEventListener("click", () => {
+      const expanded = readMoreToggle.getAttribute("aria-expanded") === "true";
+      readMoreToggle.setAttribute("aria-expanded", String(!expanded));
+      dilemmasAbout.hidden = expanded;
+      readMoreToggle.textContent = expanded ? "Read more" : "Read less";
+    });
 
     render(order);
   </script>

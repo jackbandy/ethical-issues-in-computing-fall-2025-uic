@@ -1,5 +1,5 @@
 ---
-summary: Odysseus begs to be untied from the mast — should his crew obey his past orders or his present pleas?
+summary: Odysseus begs to be untied from the mast, but his past self said otherwise.
 ---
 
 # The Ulysses Contract
@@ -14,7 +14,7 @@ Philosophers sometimes call such an advance directive a "Ulysses contract," and 
 
 Another common example is the [do-not-resuscitate (DNR) order](https://en.wikipedia.org/wiki/Do_not_resuscitate), where a patient instructs doctors not to perform resuscitation in future medical crises.
 
-What would you do if someone's present self and future self disagree?
+_What would you do if someone's present self and future self disagree?_
 
 Source: [Homer, *Odyssey*, Book XII, trans. Samuel Butler, The Internet Classics Archive (MIT)](http://classics.mit.edu/Homer/odyssey.12.xii.html)  
 

@@ -16,6 +16,54 @@ body {
   line-height: 1.6;
 }
 
+/* "Read more" disclosure below the intro line */
+.read-more-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: #007aa8;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid #7fd0ef;
+}
+
+.read-more-toggle:hover {
+  color: #005d80;
+  border-bottom-color: #005d80;
+}
+
+.dilemmas-about {
+  max-width: 720px;
+  margin: -8px 0 24px;
+  color: #333;
+}
+
+.dilemmas-about p {
+  line-height: 1.65;
+  margin-bottom: 1em;
+}
+
+.dilemmas-about ul {
+  margin: 0 0 1em 1.4em;
+  line-height: 1.65;
+}
+
+.dilemmas-about li {
+  margin-bottom: 0.3em;
+}
+
+.dilemmas-about a {
+  color: #007aa8;
+  text-decoration: none;
+  border-bottom: 1px solid #7fd0ef;
+}
+
+.dilemmas-about a:hover {
+  color: #005d80;
+  border-bottom-color: #005d80;
+}
+
 .search-row {
   display: flex;
   align-items: center;
@@ -76,6 +124,9 @@ body {
 }
 
 .dilemma-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   background: #fff;
   border: 1px solid #e0e0e0;
   border-top: 6px solid #00A1DE;
@@ -116,39 +167,42 @@ body {
   margin-top: 24px;
 }
 
-/* Slide-in panel, after books.html */
-.side-panel {
-  position: fixed;
-  top: 0;
-  right: -560px;
-  width: 540px;
-  max-width: 94vw;
-  height: 100%;
-  background: #fff;
-  box-shadow: -3px 0 12px rgba(0, 0, 0, 0.15);
-  transition: right 0.3s;
-  overflow-y: auto;
-  z-index: 100;
-  padding: 28px 32px 40px;
+/* Individual dilemma page (/dilemmas/<slug>/) */
+/* Sticky footer: pin the footer to the bottom of the viewport on short
+   pages, and to the bottom of the content on long ones. */
+body.dilemma-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.side-panel.open {
-  right: 0;
+body.dilemma-page .dilemma-detail-main {
+  flex: 1 0 auto;
 }
 
-.panel-close {
-  float: right;
-  background: none;
-  border: none;
-  font-size: 1.6rem;
-  line-height: 1;
-  cursor: pointer;
-  color: #333;
-  padding: 4px;
+body.dilemma-page footer {
+  flex-shrink: 0;
 }
 
-.panel-close:hover {
-  color: #000;
+.dilemma-detail-main {
+  max-width: 700px;
+  margin: 24px auto 64px;
+  padding: 0 24px;
+}
+
+.dilemma-breadcrumb {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.dilemma-breadcrumb a {
+  color: #007aa8;
+  text-decoration: none;
+}
+
+.dilemma-breadcrumb a:hover {
+  color: #005d80;
+  text-decoration: underline;
 }
 
 .panel-title {
@@ -205,25 +259,13 @@ body {
   line-height: 1.6;
 }
 
-.overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 99;
-}
-
-.overlay.visible {
-  display: block;
-}
-
 @media (max-width: 640px) {
   .dilemmas-main {
     margin: 32px auto 48px;
     padding: 0 20px;
   }
 
-  .side-panel {
-    padding: 20px 20px 32px;
+  .dilemma-detail-main {
+    padding: 0 20px;
   }
 }

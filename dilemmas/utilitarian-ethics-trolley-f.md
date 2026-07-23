@@ -1,5 +1,5 @@
 ---
-summary: Would you push a man off a footbridge to stop a trolley from killing five people?
+summary: Pushing someone off a footbridge would stop a trolley and prevent it from killing five people.
 ---
 
 # The Trolley Problem (F Version)
@@ -12,7 +12,7 @@ You have two options:
 (1) Do nothing, and the trolley kills the five people.  
 (2) Push the man off the bridge, so that he dies, but the five others are saved.
 
-What should be done?
+_What should be done?_
 
 ![The footbridge version of the trolley problem](trolley-f.jpg "Trolley with Footbridge")
 

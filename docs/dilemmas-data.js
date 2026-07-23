@@ -3,7 +3,7 @@ const dilemmas = [
   {
     "slug": "plato-critos-offer",
     "title": "Crito's Offer",
-    "summary": "Socrates can escape an unjust death sentence — should he break the laws of the city that raised him?",
+    "summary": "Socrates is offered to escape an unjust death sentence, and considers breaking the laws of the city that raised him.",
     "html": "<p>Socrates has been sentenced to death by an Athenian jury on charges of corrupting the youth. While he awaits execution in prison, his wealthy friend Crito visits at dawn with a plan: the guards can be bribed, an escape is arranged, and Socrates can live safely in another city.</p>\n<p><em>What would you do if you were Socrates?</em></p>\n<p class=\"dilemma-source\">Source: <a href=\"http://classics.mit.edu/Plato/crito.html\" target=\"_blank\" rel=\"noopener\">Plato, <em>Crito</em>, trans. Benjamin Jowett, The Internet Classics Archive (MIT)</a></p>\n<p class=\"dilemma-source\">See also: <a href=\"https://plato.stanford.edu/entries/socrates/\" target=\"_blank\" rel=\"noopener\">Debra Nails &amp; S. Sara Monoson, &quot;Socrates&quot;, The Stanford Encyclopedia of Philosophy</a></p>"
   },
   {
@@ -15,14 +15,14 @@ const dilemmas = [
   {
     "slug": "jericho-to-jerusalem",
     "title": "Jericho to Jerusalem",
-    "summary": "Running late to give a presentation, you pass a man slumped against a wall, coughing and groaning.",
-    "html": "<p>You are walking across campus to get to a class in which you are scheduled to give a presentation. You are running slightly late and will need to hurry to arrive on time. As you hurry along, you pass a lecture center building and see a man slumped against a wall, coughing and groaning.</p>\n<p>What do you do?</p>\n<p class=\"dilemma-source\">Source: <a href=\"https://doi.org/10.1037/h0034449\" target=\"_blank\" rel=\"noopener\">John M. Darley &amp; C. Daniel Batson, 1973</a></p>"
+    "summary": "Running late to give a presentation, you pass someone slumped and distressed against a wall, coughing and groaning.",
+    "html": "<p>You are walking across campus to get to a class in which you are scheduled to give a presentation. You are running slightly late and will need to hurry to arrive on time. As you hurry along, you pass a lecture center building and see a distressed person slumped against a wall, coughing and groaning.</p>\n<p><em>What do you do?</em></p>\n<p class=\"dilemma-source\">Source: <a href=\"https://doi.org/10.1037/h0034449\" target=\"_blank\" rel=\"noopener\">John M. Darley &amp; C. Daniel Batson, 1973</a></p>"
   },
   {
     "slug": "jerusalem-to-jericho",
     "title": "Jerusalem to Jericho",
-    "summary": "With plenty of time before class, you pass a man slumped against a wall, coughing and groaning.",
-    "html": "<p>You are walking across campus to get to a class in which you are scheduled to give a presentation. You got to campus early and you have plenty of time before class. As you pass a lecture center building, you see a man slumped against a wall, coughing and groaning.</p>\n<p>What do you do?</p>\n<p class=\"dilemma-source\">Source: <a href=\"https://doi.org/10.1037/h0034449\" target=\"_blank\" rel=\"noopener\">John M. Darley &amp; C. Daniel Batson, 1973</a></p>"
+    "summary": "With plenty of time before class, you pass by a distressed person slumped against a wall, coughing and groaning.",
+    "html": "<p>You are walking across campus to get to a class in which you are scheduled to give a presentation. You got to campus early and you have plenty of time before class. As you pass a lecture center building, you see a man slumped against a wall, coughing and groaning.</p>\n<p><em>What do you do?</em></p>\n<p class=\"dilemma-source\">Source: <a href=\"https://doi.org/10.1037/h0034449\" target=\"_blank\" rel=\"noopener\">John M. Darley &amp; C. Daniel Batson, 1973</a></p>"
   },
   {
     "slug": "jean-valjeans-conscience",
@@ -39,14 +39,14 @@ const dilemmas = [
   {
     "slug": "plug-in",
     "title": "Plug In",
-    "summary": "A machine can give you any experience you want, felt from the inside — would you plug in?",
+    "summary": "A machine is available that can give you any experience you want, felt from the inside. Would you plug in to the machine?",
     "html": "<p>Suppose a company called PearLink offers a shiny new system that includes a headset, a sensory deprivation tank, and handful of (painless) biochemical links around your body. The system gives you any experience you want. When connected, you can have the experience of &quot;writing a great poem or bringing world peace or loving someone and being loved in return. You can experience the felt pleasures of these things, how they feel &#x27;from the inside.&#x27; You can program your experiences for tomorrow, or this week, or this year, or even for the rest of your life. If your imagination is impoverished, you can use the library of suggestions extracted from biographies and enhanced by novelists and psychologists&quot; and polished by LLMs to align with your personal preferences and history.</p>\n<p>Would you plug in to this machine?</p>\n<hr>\n<p class=\"dilemma-source\">Source: Robert Nozick, <a href=\"https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia\" target=\"_blank\" rel=\"noopener\"><em>Anarchy, State, and Utopia</em></a></p>\n<p class=\"dilemma-source\">Source: Lorenzo Buscicchi, <a href=\"https://iep.utm.edu/experience-machine/\" target=\"_blank\" rel=\"noopener\">The Experience Machine</a></p>"
   },
   {
     "slug": "style-null-recall",
     "title": "Recall Style-Null?",
-    "summary": "Deaths are being linked to your company's over-the-counter drug — recall it, or wait for more evidence?",
-    "html": "<p>Suppose you work at pharmeceutical company that manufactures an over-the-counter drug called Style-Null which can relieve pain and reduce fevers. One day, a man named Adler is found collapsed on his living room floor and died in the hospital shortly thereafter. Adler&#x27;s brother and sister went to Adler&#x27;s house. Experiencing headaches, they both took an Extra-Strength Style-Null capsule from a bottle on the kitchen counter. They collapsed soon afterward and died later in the hospital. Three more deaths are reported the next day, all of which occurred after the victims had consumed Style-Null.</p>\n<p>Your company is considering a regional recall of Style-Null, a nationwide recall, or waiting for more evidence, while also crafting public messaging and accounting for employees, regulators, and shareholders. What should be done?</p>\n<p class=\"dilemma-source\">Source: <a href=\"https://business.unm.edu/ethics/pdf/tylenol-case.pdf\" target=\"_blank\" rel=\"noopener\">University of New Mexico</a><br>\nSource: <a href=\"https://knowledge.wharton.upenn.edu/article/tylenol-and-the-legacy-of-jjs-james-burke/\" target=\"_blank\" rel=\"noopener\">Wharton School of the University of Pennsylvania</a></p>"
+    "summary": "Deaths have been linked to your company's over-the-counter drug, with small but certain evidence. What do you do?",
+    "html": "<p>Suppose you work at pharmeceutical company that manufactures an over-the-counter drug called Style-Null which can relieve pain and reduce fevers. One day, a man named Adler is found collapsed on his living room floor and died in the hospital shortly thereafter. Adler&#x27;s brother and sister went to Adler&#x27;s house. Experiencing headaches, they both took an Extra-Strength Style-Null capsule from a bottle on the kitchen counter. They collapsed soon afterward and died later in the hospital. Three more deaths are reported the next day, all of which occurred after the victims had consumed Style-Null.</p>\n<p>Your company is considering a regional recall of Style-Null, a nationwide recall, or waiting for more evidence, while also crafting public messaging and accounting for employees, regulators, and shareholders.</p>\n<p><em>What should be done?</em></p>\n<p class=\"dilemma-source\">Source: <a href=\"https://business.unm.edu/ethics/pdf/tylenol-case.pdf\" target=\"_blank\" rel=\"noopener\">University of New Mexico</a></p>\n<p class=\"dilemma-source\">Source: <a href=\"https://knowledge.wharton.upenn.edu/article/tylenol-and-the-legacy-of-jjs-james-burke/\" target=\"_blank\" rel=\"noopener\">Wharton School of the University of Pennsylvania</a></p>"
   },
   {
     "slug": "deadly-fuel-tank",

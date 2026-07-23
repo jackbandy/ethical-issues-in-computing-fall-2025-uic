@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00A1DE">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>{{ page.title }} — Blue Line Ethics</title>
+  {% if page.summary %}<meta name="description" content="{{ page.summary | escape }}">{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/dilemmas.css">
+</head>
+<body class="dilemma-page">
+  {% include masthead.html %}
+
+  <main class="dilemma-detail-main">
+    <p class="dilemma-breadcrumb"><a href="{{ site.baseurl }}/dilemmas/">&larr; All dilemmas</a></p>
+    <article>
+      <h1 class="panel-title">{{ page.title }}</h1>
+      <div class="dilemma-body">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

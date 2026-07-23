@@ -1,6 +1,4 @@
 ---
-# NOTICE: Sections from syllabus/latex-syllabus-in-progress/SP26_CS377_jxb.tex were
-# merged into this file by an LLM coding agent. Verify against the original.
 title: "CS 377 Syllabus"
 college: "COLLEGE OF ENGINEERING, UIC"
 course: "CS 377"
@@ -22,7 +20,9 @@ The current meeting times, room, office hours, teaching assistants, assignment d
 
 ## Course Site
 
-[Canvas course](https://canvas.uic.edu) — Students are expected to log in to Canvas regularly to learn about any developments related to the course, upload assignments, and communicate with classmates.
+[Canvas course](https://canvas.uic.edu) — Students are expected to log in to Canvas regularly to learn about any developments related to the course, upload assignments, etc.
+
+[Online materials](https://doethics.fun) - Reference materials for the course such as slides, assignment descriptions, ethical dilemmas, and more, are available on the course website. You are encouraged to edit the site and submit improvements in [Github](https://github.com/jackbandy/ethical-issues-in-computing-uic).
 
 # Course Information
 
@@ -42,8 +42,8 @@ By the end of the course, students should be able to:
 
 - explain professional responsibilities related to ethical, legal, security, and social issues in computing;
 - analyze current events using virtue ethics, deontological ethics, utilitarian ethics, and care ethics;
-- identify recurring ethical challenges in the design and use of computing systems; and
-- communicate ethical analysis clearly to technical and nontechnical audiences.
+- identify and describe recurring ethical challenges in the design and use of computing systems; and
+- communicate ethical analyses clearly to different audiences.
 
 **Course requirement status:** CS 377 is [required](https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/) for a BS in Computer Science at UIC
 
@@ -51,13 +51,17 @@ By the end of the course, students should be able to:
 
 ## Course Materials
 
-Core readings will be provided through Canvas, printed copies, web archives, or linked PDFs. There is no required textbook. The course draws from *Computing and Technology Ethics: Engaging through Science Fiction* by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
+Core readings will be provided through Canvas, printed copies, web archives, or linked PDFs. There is no required textbook, however, the course draws heavily from *Computing and Technology Ethics: Engaging through Science Fiction* by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
 
-Students will also make their own selections of different research papers, case studies, books, and other materials to present and discuss in class.
+Students will occasionally make their own selections of different research papers, news articles, case studies, books, and other materials to present and/or discuss in class.
 
 ## Growth Mindset
 
-Course materials and assignments can be complex and challenging, but they are crucial to your intellectual and personal growth and development. There are times you may need extra help. Students who attend class consistently, complete all assignments, thoughtfully engage with feedback on work, develop good study strategies, visit the tutoring center, and contact faculty when struggling can develop a thorough understanding of the course material and ultimately succeed in the course.
+Unlike many other courses in the Computer Science department, the questions and problems discussed in this class often lack verifiable, complete, computable solutions. In many cases, there is no correct answer, nor even a consensus, to resolve ethical challenges.
+
+For this reason as well as others, course materials and assignments may be challenging. However, they are crucial to your intellectual and personal growth and development. There are times you may need extra help. Any student can succeed if they attend class consistently, participate in discussions, complete all assignments, thoughtfully engage with feedback, and contact faculty when struggling. These habits will help you develop a thorough understanding of the course material and ultimately succeed in the course.
+
+If we are indeed successful, by the end of the course, you will develop an understanding of your own values and the ethical reasoning behind them. This is useful not only for the course, and not only for your future career, but for your life in general.
 
 ## Required Technology
 
@@ -67,7 +71,9 @@ Students need a web browser that can access Canvas and the course website.
 
 ## Assessment
 
-This class aims to use principles of student-centered teaching, also referred to as "non-directive teaching," which de-emphasizes quantitative grading. This style focuses on open-ended dialogue, project-based learning, and student curiosity, rather than regurgitation and examinations. Still, in order to provide a final letter grade at the end of the class, I will use the following combination of exercises:
+This class aims to use principles of student-centered teaching, also referred to as "non-directive teaching," which de-emphasizes quantitative grading. This teaching style focuses on open-ended dialogue, project-based learning, and student curiosity, rather than regurgitation and examinations.
+
+Still, in order to provide a final letter grade at the end of the class, I will use the following combination of exercises:
 
 | **Category** | **Weight** |
 |:--|--:|
@@ -78,8 +84,8 @@ This class aims to use principles of student-centered teaching, also referred to
 | *Speculative fiction* | |
 | *Fairness definition* | |
 | *Personal ethical commitment* | |
-| **Read a Book project** | **20%** |
-| *Book selection* | |
+| **"Read a Book" project** | **20%** |
+| *Book selection and justification* | |
 | *2-page book report or un-essay* | |
 | *Peer instruction / book presentation* | |
 | *Actually reading the book* | |
@@ -100,27 +106,37 @@ You can expect the following correspondence between your percentage grade in the
 
 ## Tests
 
-There will be no tests or examinations in this class. I agree with Carl Rogers^[*On Becoming a Person*, Chapter 14] that life itself offers enough examinations, and I hope the resources from this class help you meet life's tests with more confidence and satisfaction. See above for details regarding your final grade in the class.
+There will be no tests or examinations in this class. I agree with Carl Rogers^[*On Becoming a Person*, Chapter 14] that life itself offers enough examinations, and I hope that what you learn in this class will help you meet life's tests with more confidence and satisfaction. See above for details regarding your final grade.
 
 ## Attendance and Participation
 
-Showing up makes a substantial difference in this course. Class meetings are designed around discussion and group work, so students should attend, arrive on time, and participate. Notify the instructor as soon as possible when illness, personal emergencies, university obligations, religious observances, or other circumstances prevent attendance.
+Showing up makes a substantial difference in this course (and in life). Class meetings are designed around discussion and group work, so students should attend, arrive on time, and participate. Notify the instructor as soon as possible when illness, personal emergencies, university obligations, religious observances, or other circumstances may prevent attendance.
 
-Three absences may be taken without penalty. Students who miss more than half of all class sessions will not be able to pass the course. Make-up instructions for missed in-class exercises will be provided when appropriate.
+I take attendance each class. Three absences may be taken without penalty. If a student misses more than three classes without notifying the instructor...
+
+**Students who miss more than half of all class sessions will not be able to pass the course.** 
 
 I will keep attendance on paper via roll call this semester and note any absences in Canvas. If you miss a fourth class without notifying the instructor, you will be contacted by the instructor.
 
-The spring semester at UIC is fifteen weeks long (not including spring vacation), and we meet Mondays and Wednesdays. With no class on Martin Luther King Jr. Day (Monday, January 19th), we will have 29 total class periods.
+The semester at UIC is fifteen weeks long, and we meet Mondays and Wednesdays...
 
 ## Late Work
 
-Due dates are listed in Canvas. Out-of-class exercises and pre-class reflections may not be accepted more than one week after the deadline. Contact the instructor before a deadline when possible; flexibility is easier to provide in advance.
+Due dates will be listed in Canvas, and there is an automatic "sliding scale" that will deduct points based on how late you submitted the work, down to 50%.
+
+Anything submitted more than one week after the original due date will only receive 50% credit.
+
+If you anticipate any difficulty meeting a due date, contact the instructor as soon as possible.
 
 ## Academic Integrity
 
-Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/). Protect the copyright integrity of course materials, especially materials distributed through Canvas.
+Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/).
 
-More concretely, my job and my goal in this course is to help you as you learn skills and knowledge that will be valuable to you in your future courses, your career, and other areas of your life. In line with UIC's mission to provide "an environment in which research, learning, and scholarship can flourish and in which all endeavors are guided by academic and professional integrity," **the work you turn in for this class must be your own work**.
+Although I try to use open materials (i.e. public domain, Creative Commons, etc.), please help protect copyright integrity when appropriate, namely for materials distributed through Canvas.
+
+In line with UIC's mission to provide "an environment in which research, learning, and scholarship can flourish and in which all endeavors are guided by academic and professional integrity," **the work you turn in for this class must be your own work**.
+
+This is to ensure that **you** develop skills and knowledge from this course that will be valuable to you in your future courses, your career, and other areas of your life. 
 
 This does not mean that you need to complete all work in a bunker. Rather, you are encouraged to discuss your ideas with friends and classmates, and to explore related work (i.e. academic papers, blogs, video essays, forums, etc.). An important part of scholarship is standing on the shoulders of giants,^[Ironically, while this phrase is often attributed to Isaac Newton in a letter from 1676, it was first recorded in John of Salisbury's book *Metalogicon* from 1159. I learned this from a blog post on BookBrowse.com] (after all, we are in the City of the Big Shoulders^[Sandburg, Carl. "Chicago." *Poetry* (March 1914).]) and acknowledging whose shoulders we stand upon. In other words, **cite your sources**!
 
@@ -134,13 +150,13 @@ This class may welcome visitors (i.e. prospective students, guest speakers, etc.
 
 ## Email Expectations
 
-Students are responsible for all information instructors send to your UIC email and Canvas accounts. Faculty messages should be regularly monitored and read in a timely fashion.
+Students are responsible for all messages sent to your UIC email and Canvas accounts.
 
-While I do not closely monitor my email on Saturdays and Sundays, during the week, I generally respond to emails within 24 hours.
+While I do not closely monitor my email on Saturdays and Sundays, during the week, I generally aim to respond to emails within 24 hours.
 
 # Course Schedule
 
-The detailed and most current schedule is published on the [course homepage](https://doethics.fun/). The instructor may revise readings, activities, or deadlines as course needs develop; changes will be announced in class and through Canvas.
+The detailed and most current schedule is published on the ["do ethics"](https://doethics.fun/) website. We may revise readings, activities, or due dates as course needs develop. Any changes will be announced in class and updated in Canvas.
 
 | **Week** | **Topic(s) / In-Class Activities** | **Readings / Work Due** |
 |:--|:--|:--|
@@ -163,7 +179,7 @@ The detailed and most current schedule is published on the [course homepage](htt
 
 ## Disclaimer
 
-This syllabus is intended to give the student guidance on what may be covered during the semester and will be followed as closely as possible. However, the instructor might alter this syllabus as course needs arise. I will communicate such changes in advance through in-class announcements and in writing via Canvas and/or email.
+This syllabus is intended to give the student guidance on what may be covered during the semester and will be followed as closely as possible. However, again, we might decide to alter this syllabus as course needs arise, and I will communicate such changes through in-class announcements and in writing via Canvas and/or email.
 
 # Accommodations
 
@@ -183,7 +199,7 @@ Every member of the class is expected to contribute to a respectful, welcoming, 
 
 ## Name and Pronoun Use
 
-If your name does not match the name on my class roster, please let me know as soon as possible. My pronouns are he/him, and I welcome your pronouns if you would like to share them with me. For more information about pronouns, see: <https://www.mypronouns.org/what-and-why>.
+If your name or pronouns do not match the name on the class roster, please let the class know so that we can address you the way you want to be addressed. I use he/him pronouns. For more information, see: <https://www.mypronouns.org/what-and-why>.
 
 ## Guidelines for Participation and Classroom Conduct
 
@@ -201,9 +217,9 @@ Active participation is one of the most important ways you will learn in this co
 
 ## Content Notices
 
-Some course materials address war, discrimination, surveillance, violence, and other difficult subjects. These topics will be discussed with dignity, humanity, rigor, and respect for scholarly inquiry.
+This is a 300-level University course, and some course materials address war, discrimination, surveillance, sex, violence, and related subjects. We will aim to discuss these topics with dignity, humanity, rigor, and respect for scholarly inquiry.
 
-Our classroom provides an open space for a civil exchange of ideas which will intentionally include a variety of perspectives and positions. Some readings and other content may expose you to ideas, subjects, or views that may challenge you, cause you discomfort, or recall past negative experiences or traumas. If you would like me to be aware of a specific topic of concern, please email or visit me during office hours.
+Our classroom provides a space for civil exchange of ideas, which intentionally includes a variety of perspectives and positions. Some readings and other content may expose you to ideas, subjects, or views that may challenge you, cause you discomfort, or recall past negative experiences or traumas. I try to include content notices whenever appropriate. If you have suggested changes, or you would like me to be aware of a specific topic of concern, please email or visit me during office hours.
 
 # Resources: Academic Success, Wellness, and Safety
 
@@ -211,7 +227,7 @@ Our classroom provides an open space for a civil exchange of ideas which will in
 
 As a student at UIC, I hope you have come to enjoy the learning process and the life of the mind, and I hope you enjoy this particular course. I also understand that life as a college student can sometimes become distressing and overwhelming, which can make it difficult to engage in class.
 
-So, to help you succeed in this course (and in life), I encourage you to proactively care for your body and mind. If you are struggling or anticipate any trouble attending class or turning in assignments on time, please let me know as early as possible and I will do whatever I can to help you prioritize your wellbeing.
+So, to help you succeed in this course (and in life), I encourage you to proactively care for your body and mind. If you are struggling or anticipate any trouble attending class or turning in assignments on time, **please let me know as early as possible** and I will do whatever I can to help you prioritize your wellbeing.
 
 Below are some of the many support services and resources available to all UIC students:
 
@@ -224,7 +240,7 @@ Below are some of the many support services and resources available to all UIC s
 - Student Guide for Information Technology – a comprehensive resource for UIC students describing the most commonly used IT services and tools supporting your success
 - Navigating Health Resources at UIC – explore the many resources that are on campus to support students' health and wellbeing and learn about how you can access them.
 
-Importantly, if you are in immediate distress, please know the UIC Counseling Center has crisis intervention services available 24 hours a day, 7 days a week. You can walk into the Counseling Center during business hours to request to talk to a crisis counselor, or you can call the Counseling Center main line at (312) 996-3490. If you are calling outside of business hours, select "2" during the automated greeting to be connected to a crisis counselor. You can find additional mental health resources and services on the Counseling Center Website and the Student's Guide to Accessing Behavioral Health Services at UIC.
+Importantly, **if you are in immediate distress**, please know the UIC Counseling Center provides high-quality crisis intervention services, available 24 hours a day, 7 days a week. You can walk into the Counseling Center during business hours to request to talk to a crisis counselor, or you can call the Counseling Center main line at (312) 996-3490. If you are calling outside of business hours, select "2" during the automated greeting to be connected to a crisis counselor. You can find additional mental health resources and services on the Counseling Center Website and the Student's Guide to Accessing Behavioral Health Services at UIC.
 
 For immediate crisis support outside of UIC, call or text "9-8-8" any time, 24 hours a day, 7 days a week. Dialing 988 will connect you to a trained crisis professional. 988 offers services in Spanish, American Sign Language, and over 240 languages through tele-interpretation services. The 988 website has an online chat feature, too.
 
@@ -264,6 +280,6 @@ UIC supports parenting students by providing affordable, high-quality childcare 
 
 **Student Health Services** are available if you get sick during the semester. The Family Medicine Center is committed to providing high-quality, student centered care and services. It has attending physicians, residents, and nurse practitioners on staff to provide the full range of primary health care services. The Family Medicine Center also offers a limited set of health services at no additional cost to students who pay the Student Health Service Fee (SHSF). Services include caring for an acute or urgent illness (e.g., cold, strep throat, asthma attack, flu) or an injury. More information can be found on the Family Medicine Center's Student Health webpage.
 
-**Lastly**, here is a picture of Hannah Arendt. She said that "evil comes from a failure to think." If we are successful in this class, we will do some real thinking.
+**Lastly**, here is a picture of Hannah Arendt. She said that "evil comes from a failure to think." If we are successful in this class, we will do some real thinking, and perhaps prevent some evil.
 
 ![Hannah Arendt, photographed on New Year's Day, 1944. © Fred Stein/dpa/Corbis](arendt.jpg){width=55%}
