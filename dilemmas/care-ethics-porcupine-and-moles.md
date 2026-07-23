@@ -1,5 +1,5 @@
 ---
-summary: A prickly houseguest refuses to leave the moles' crowded cave — what should be done?
+summary: In the cold of winter, a prickly houseguest refuses to leave the moles' crowded cave.
 ---
 
 # The Porcupine and the Moles

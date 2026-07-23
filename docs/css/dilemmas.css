@@ -259,6 +259,31 @@ body.dilemma-page footer {
   line-height: 1.6;
 }
 
+/* "Show sources and context" disclosure on the dilemma page */
+.dilemma-body .context-toggle-row {
+  margin-top: 24px;
+}
+
+.context-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #007aa8;
+  cursor: pointer;
+  border-bottom: 1px solid #7fd0ef;
+}
+
+.context-toggle:hover {
+  color: #005d80;
+  border-bottom-color: #005d80;
+}
+
+.dilemma-context {
+  margin-top: 16px;
+}
+
 @media (max-width: 640px) {
   .dilemmas-main {
     margin: 32px auto 48px;

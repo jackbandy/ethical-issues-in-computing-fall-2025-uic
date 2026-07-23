@@ -2,6 +2,7 @@
 
 ## GitHub Pages
 - [ ] Seat shuffler needs way to mark absences / empty seats
+- [ ] Book gallery takes too long to load (remote images)
 - [ ] Convert schedule/home page to Jekyll / GitHub Pages
   - [ ] Add navigation/index for all course materials
   - [ ] Link PDFs from pages

@@ -15,6 +15,10 @@ docs/_site/
 docs/.jekyll-cache/
 docs/Gemfile.lock
 
+# Bundler local install (locally installed gems + config)
+docs/.bundle/
+docs/vendor/
+
 # Quarto slides
 docs/slides/.quarto/
 docs/slides/**/*.quarto_ipynb

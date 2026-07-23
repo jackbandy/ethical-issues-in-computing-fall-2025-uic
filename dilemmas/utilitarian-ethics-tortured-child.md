@@ -1,5 +1,5 @@
 ---
-summary: Would you build a perfectly happy society if it required the endless torture of one child?
+summary: You can build a perfectly happy society, but it requires the endless torture of one child.
 ---
 
 # The Tortured Child

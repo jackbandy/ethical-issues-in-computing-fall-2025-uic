@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="400" viewBox="0 0 1240 400">
+  <!-- Blank side-elevation schematic of a CTA 5000-series car.
+       Proportions from "5000 series plan & elevation dimensioned":
+       48'-0" body, doors at 11'7"–15'9" and 32'3"–36'5",
+       truck centers 33'-8" apart (7'-2" from each end), 28" wheels.
+       Scale: 1 ft = 24 px. Body x = 40..1192. -->
+  <rect width="1240" height="400" fill="#ffffff"/>
+
+  <g stroke="#565a5c" fill="none" stroke-width="3" stroke-linejoin="round">
+    <!-- roof -->
+    <path d="M 56 62 H 1176" stroke-width="2"/>
+    <!-- car body -->
+    <rect x="40" y="62" width="1152" height="208" rx="18" fill="#f8f8f8"/>
+    <!-- skirt line -->
+    <path d="M 44 246 H 1188" stroke-width="2"/>
+
+    <!-- anti-climbers / couplers -->
+    <path d="M 40 254 H 24 M 24 246 V 262" stroke-width="4"/>
+    <path d="M 1192 254 H 1216 M 1216 246 V 262" stroke-width="4"/>
+
+    <!-- door 1 (11'7"–15'9") -->
+    <g fill="#ffffff">
+      <rect x="318" y="76" width="100" height="170" rx="4"/>
+      <path d="M 368 76 V 246" stroke-width="2"/>
+      <rect x="328" y="92" width="30" height="72" rx="3" stroke-width="2"/>
+      <rect x="378" y="92" width="30" height="72" rx="3" stroke-width="2"/>
+    </g>
+    <!-- door 2 (32'3"–36'5") -->
+    <g fill="#ffffff">
+      <rect x="814" y="76" width="100" height="170" rx="4"/>
+      <path d="M 864 76 V 246" stroke-width="2"/>
+      <rect x="824" y="92" width="30" height="72" rx="3" stroke-width="2"/>
+      <rect x="874" y="92" width="30" height="72" rx="3" stroke-width="2"/>
+    </g>
+
+    <!-- windows -->
+    <g fill="#ffffff" stroke-width="2">
+      <!-- cab window -->
+      <rect x="62" y="92" width="52" height="72" rx="6"/>
+      <!-- cab-to-door bay -->
+      <rect x="150" y="92" width="128" height="72" rx="6"/>
+      <!-- mid bays (16'-6" between doors) -->
+      <rect x="448" y="92" width="128" height="72" rx="6"/>
+      <rect x="606" y="92" width="70" height="72" rx="6"/>
+      <rect x="706" y="92" width="70" height="72" rx="6"/>
+      <!-- rear bays (11'-7" past door 2) -->
+      <rect x="944" y="92" width="128" height="72" rx="6"/>
+      <rect x="1108" y="92" width="52" height="72" rx="6"/>
+    </g>
+
+    <!-- trucks: centers 7'-2" from each end, axles 6'-6" apart, 28" wheels -->
+    <g stroke-width="3">
+      <rect x="140" y="264" width="144" height="26" rx="6" fill="#f0f0f0"/>
+      <circle cx="173" cy="304" r="28" fill="#ffffff"/>
+      <circle cx="251" cy="304" r="28" fill="#ffffff"/>
+      <circle cx="173" cy="304" r="5" fill="#565a5c" stroke="none"/>
+      <circle cx="251" cy="304" r="5" fill="#565a5c" stroke="none"/>
+
+      <rect x="948" y="264" width="144" height="26" rx="6" fill="#f0f0f0"/>
+      <circle cx="981" cy="304" r="28" fill="#ffffff"/>
+      <circle cx="1059" cy="304" r="28" fill="#ffffff"/>
+      <circle cx="981" cy="304" r="5" fill="#565a5c" stroke="none"/>
+      <circle cx="1059" cy="304" r="5" fill="#565a5c" stroke="none"/>
+    </g>
+
+    <!-- underbody equipment boxes -->
+    <rect x="360" y="262" width="150" height="34" rx="4" fill="#f0f0f0" stroke-width="2"/>
+    <rect x="540" y="262" width="200" height="34" rx="4" fill="#f0f0f0" stroke-width="2"/>
+
+    <!-- rail -->
+    <path d="M 0 342 H 1240" stroke-width="4"/>
+  </g>
+
+  <text x="40" y="382" font-size="14" fill="#aaaaaa"
+        font-family="'IBM Plex Mono','Courier New',monospace">CTA 5000-series · side elevation · blank wrap template · 1 ft = 24 px · original drawing, not a CTA mark</text>
+</svg>

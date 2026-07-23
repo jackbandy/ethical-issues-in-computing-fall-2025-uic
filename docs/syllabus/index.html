@@ -33,6 +33,14 @@
       white-space: nowrap;
     }
     body > * { position: relative; z-index: 1; }
+    /* Break the masthead train out of the centered 900px content column so it
+       spans the full viewport (like every other page) and sits above the DRAFT
+       watermark and page content. */
+    body > .ble-masthead {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      z-index: 2;
+    }
     header { padding-top: 1.5rem; text-align: center; }
     h1, h2, h3 { line-height: 1.15; }
     header h1 { margin: 0; font-size: 2rem; }

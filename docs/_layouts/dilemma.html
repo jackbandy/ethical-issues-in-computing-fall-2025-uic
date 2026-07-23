@@ -25,5 +25,18 @@
   </main>
 
   {% include footer.html %}
+
+  <script>
+    const contextToggle = document.querySelector(".context-toggle");
+    if (contextToggle) {
+      const context = document.getElementById("dilemmaContext");
+      contextToggle.addEventListener("click", () => {
+        const expanded = contextToggle.getAttribute("aria-expanded") === "true";
+        contextToggle.setAttribute("aria-expanded", String(!expanded));
+        context.hidden = expanded;
+        contextToggle.textContent = expanded ? "Show sources and context" : "Hide sources and context";
+      });
+    }
+  </script>
 </body>
 </html>

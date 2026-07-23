@@ -12,29 +12,33 @@ I have also made an effort to include "established" ethical dilemmas rather than
   * ["F" Version](utilitarian-ethics-trolley-f.md) (footbridge)
 * The [transplant case](utilitarian-ethics-transplant.md)
 * The [tortured child](utilitarian-ethics-tortured-child.md)
+* [The Prisoner's Dilemma (TK)](utilitarian-prisoners-dilemma.md)
 
 ## Dilemmas from Care Ethics
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
 * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
 
-## Dilemmas from Plato
-* The [Ring of Gyges](plato-ring-of-gyges.md)
-* [Crito's Offer](plato-critos-offer.md)
+## Dilemmas from Virtue Ethics
+* The [Ring of Gyges](virtue-plato-ring-of-gyges.md)
+* [Crito's Offer](virtue-plato-critos-offer.md)
+* [Jerusalem to Jericho](virtue-jerusalem-to-jericho.md)
+* [Jericho to Jerusalem](virtue-jericho-to-jerusalem.md)
+* [JV's Conscience](virtue-jvs-conscience.md)
 
-## Other Dilemmas / Yet-to-be categorized
-* The [Good Doctor](good-doctor.md)
-* "[Under the Rug](under-the-rug.md)"
-* [Jerusalem to Jericho](jerusalem-to-jericho.md)
-* [Jericho to Jerusalem](jericho-to-jerusalem.md)
-* [JV's Conscience](jean-valjeans-conscience.md)
-* [Plug In](plug-in.md) ("The Experience Machine")
-* [Recall Style-Null?](style-null-recall.md)
+## Dilemmas from Deontological Ethics
+* [Marcel's Crime](deontological-marcels-crime-confidentiality.md)
+* [The Ulysses Contract](deontological-odyssey-ulysses-contract.md)
+
+## Existential Dilemmas
+* [Plug In](existential-plug-in.md) ("The Experience Machine")
 * [The Eternal Recurrence](existential-eternal-recurrence.md)
-* [Marcel's Crime](marcels-crime-confidentiality.md)
-* [The Ulysses Contract](odyssey-ulysses-contract.md)
-* [The Prisoner's Dilemma (TK)](prisoners-dilemma.md)
-* [Factory Rebuild (TK)](factory-rebuild.md)
-* [The Deadly Fuel Tank](deadly-fuel-tank.md)
+
+## Case Studies
+* The [Good Doctor](case-study-good-doctor.md)
+* "[Under the Rug](case-study-under-the-rug.md)"
+* [Recall Style-Null?](case-study-style-null-recall.md)
+* [Factory Rebuild (TK)](case-study-factory-rebuild.md)
+* [The Deadly Fuel Tank](case-study-deadly-fuel-tank.md)
 
 
 

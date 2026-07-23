@@ -1,39 +1,66 @@
 <style>
-  @font-face {
-    font-family: 'Libre Franklin';
-    src: url('{{ site.baseurl }}/assets/fonts/libre-franklin/LibreFranklin.woff2') format('woff2-variations');
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
+  /* ── Masthead train drift — adjust these ─────────────────────────────
+     --masthead-drift-duration : time for one edge-to-edge sweep. The animation
+                                 alternates, so the full back-and-forth round trip
+                                 is twice this (32s → 64s there-and-back).
+     --masthead-drift-reach    : how far past the content box the train travels.
+     --masthead-train-height   : rendered height of the train car artwork.        */
+  :root {
+    --masthead-drift-duration: 32s;
+    --masthead-drift-reach: 0px;
+    --masthead-train-height: 96px;
   }
-  .ble-masthead { margin: 0 0 2rem; }
+
+  .ble-masthead {
+    display: block;
+    margin: 0 0 2rem;
+    color: inherit;
+    text-decoration: none;   /* whole masthead is a link to the homepage */
+  }
+  .ble-masthead__inner {
+    /* Full width so the train can drift all the way to each screen edge. */
+    max-width: none;
+    margin: 0 auto;
+    padding: 14px 0 0;
+    overflow: hidden;   /* clip the train as it slides to the edges */
+    line-height: 0;     /* no baseline gap beneath the artwork */
+  }
+  .ble-masthead__train {
+    display: block;
+    height: var(--masthead-train-height);
+    width: auto;
+    position: relative;
+    /* The v4c artwork has ~17% empty space below the wheels (viewBox 0–400,
+       wheels rest at y≈332). Pull the blue bar up by that much so the wheels
+       sit directly on the line, like rails. */
+    margin-bottom: calc(var(--masthead-train-height) * -0.17);
+    /* Slowly roll from the left edge to the right edge and back, forever. */
+    animation: ble-train-drift var(--masthead-drift-duration) ease-in-out infinite alternate;
+    will-change: left, transform;
+  }
+  /* Travel is measured against the container (left 0 → 100%), so the train's
+     trailing edge stops at the content box and never overshoots the viewport,
+     regardless of scrollbar width. */
+  @keyframes ble-train-drift {
+    from { left: 0;    transform: translateX(0); }
+    to   { left: 100%; transform: translateX(calc(-100% + var(--masthead-drift-reach))); }
+  }
   .ble-masthead__bar {
     border: none;
     height: 12px;
     background-color: #00A1DE;
     width: 100vw;
-    margin-left: calc(50% - 50vw);
+    margin: 0 0 0 calc(50% - 50vw);
   }
-  .ble-masthead__inner {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 16px 24px;
+  @media (prefers-reduced-motion: reduce) {
+    .ble-masthead__train { animation: none; }
   }
-  .ble-masthead__wordmark {
-    display: inline-block;
-    font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 1;
-    color: #222;
-    text-decoration: none;
-  }
-  .ble-masthead__wordmark:hover { color: #222; text-decoration: none; }
 </style>
-<div class="ble-masthead">
-  <hr class="ble-masthead__bar">
+<a class="ble-masthead" href="{{ site.baseurl }}/">
   <div class="ble-masthead__inner">
-    <a class="ble-masthead__wordmark" href="{{ site.baseurl }}/">Blue Line Ethics</a>
+    <img class="ble-masthead__train"
+         src="{{ site.baseurl }}/assets/trains/blue-line-ethics-masthead-v4c.svg"
+         alt="Blue Line Ethics">
   </div>
   <hr class="ble-masthead__bar">
-</div>
+</a>

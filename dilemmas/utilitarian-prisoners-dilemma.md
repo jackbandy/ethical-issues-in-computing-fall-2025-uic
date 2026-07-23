@@ -4,7 +4,7 @@ summary: Two prisoners must each choose whether to stay silent or betray the oth
 
 # The Prisoner's Dilemma
 
-You and an accomplice have been arrested and placed in separate cells. You cannot talk to each other, and neither of you will learn what the other said until both of you have decided.
+After successfully hacking a corrupt bank and claiming millions of dollars, you and your accomplice have been arrested and placed in separate cells. You cannot talk to each other, and neither of you will learn what the other said until both of you have decided.
 
 The prosecutor offers each of you the same deal:
 
@@ -12,9 +12,12 @@ The prosecutor offers each of you the same deal:
 * If you testify against the other and they stay silent, you go **free** and they serve **10 years**. (And vice versa.)
 * If you both testify, you each serve **8 years**.
 
-Whatever your accomplice does, testifying leaves you better off than staying silent. The same is true for them. But if you both follow that reasoning, you both end up worse off than if you had both stayed silent.
+|                     | **Friend stays silent**         | **Friend testifies**            |
+| ------------------- | ------------------------------- | ------------------------------- |
+| **You stay silent** | You: 1 year<br>Friend: 1 year   | You: 10 years<br>Friend: free   |
+| **You testify**     | You: free<br>Friend: 10 years   | You: 8 years<br>Friend: 8 years |
 
-Situations with this structure show up well beyond interrogation rooms: arms races, overfishing, climate agreements, price wars, and the choice to contribute to (or free-ride on) shared infrastructure.
+Whatever your accomplice does, testifying leaves you better off than staying silent. The same is true for them. But if you both follow that reasoning, you both end up worse off than if you had both stayed silent.
 
 _What would you do, and does your answer change if you expect to face the same person again tomorrow?_
 

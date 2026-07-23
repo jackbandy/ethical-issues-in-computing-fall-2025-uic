@@ -1,5 +1,5 @@
 ---
-summary: A surgeon could save five dying patients by killing one healthy traveler — would it be permissible?
+summary: A surgeon could save five dying patients by killing one healthy traveler.
 ---
 
 # The Transplant Case
@@ -13,4 +13,5 @@ Suppose further that if the young traveler were to disappear, nobody would suspe
 Would it be permissible for the surgeon to kill the healthy traveler and distribute the organs to save the five patients?
 
 Source: [S. Matthew Liao (NYU)](https://blog.uehiro.ox.ac.uk/2008/02/the-transplant-case-in-real-life/)  
+
 Older source: [Judith Jarvis Thomson](http://www.psy.vanderbilt.edu/courses/hon182/thomsontrolley.pdf)

@@ -10,6 +10,9 @@
     body { max-width: 48rem; margin: 0 auto 4rem; padding: 0 1.25rem; color: #231f20; font: 18px/1.5 FreeSans, Helvetica, Arial, sans-serif; }
     h1 { color: #005daa; }
     a { color: #005daa; }
+    /* Break the masthead train out of the centered content column so it spans
+       the full viewport (like every other page). */
+    body > .ble-masthead { width: 100vw; margin-left: calc(50% - 50vw); }
   </style>
 </head>
 <body>

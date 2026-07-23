@@ -184,23 +184,23 @@ h2 {
 
 /* ── Footer ── */
 footer {
-  border-top: 1px solid #e5e5e5;
-  padding: 24px;
+  border-top: 1px solid #eee;
+  padding: 6px 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
-  margin-top: 48px;
+  margin-top: 12px;
 }
 
 footer a {
   display: inline-flex;
   align-items: center;
-  gap: 16px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #444;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #888;
   text-decoration: none;
 }
 
@@ -209,8 +209,8 @@ footer a:hover {
 }
 
 footer svg {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: currentColor;
   flex-shrink: 0;
 }
