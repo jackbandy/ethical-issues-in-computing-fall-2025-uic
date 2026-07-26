@@ -25,7 +25,7 @@ See also: ["Ford Pinto"](https://en.wikipedia.org/wiki/Ford_Pinto), Wikipedia, o
 
 ## A note on the real case
 
-This dilemma is drawn from the Ford Pinto. Schwartz the popular version of that story is a myth.
+This dilemma is drawn from the Ford Pinto. Schwartz argues that the popular version of that story is a myth.
 
 The "mythical" version of the story suggests that Ford did a cost-benefit analysis: a fix costing **$11 per car** across 12.5 million vehicles totals **$137 million**, while the deaths it would prevent (180 burn deaths at **$200,000** each, 180 serious burn injuries at $67,000, and 2,100 burned vehicles at $700) total only **$49.5 million**. 
 

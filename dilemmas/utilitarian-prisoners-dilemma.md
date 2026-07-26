@@ -24,3 +24,5 @@ _What would you do, and does your answer change if you expect to face the same p
 Source: [Steven Kuhn, "Prisoner's Dilemma", The Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/prisoner-dilemma/)
 
 See also: [Robert Axelrod, *The Evolution of Cooperation* (1984)](https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation) — on what happens when the dilemma is played repeatedly.
+
+See also: the boat/ferry sequence in [*The Dark Knight*](https://en.wikipedia.org/wiki/The_Dark_Knight) (2008). There are two ferries evacuating Gotham, one carrying civilians, and one carrying prisoners. There is a detonator aboard each ship which is wired to the other ship. The passengers are told that whichever ferry presses/detonates first will survive, and if neither presses by midnight, both will be destroyed. 

@@ -12,11 +12,14 @@ I have also made an effort to include "established" ethical dilemmas rather than
   * ["F" Version](utilitarian-ethics-trolley-f.md) (footbridge)
 * The [transplant case](utilitarian-ethics-transplant.md)
 * The [tortured child](utilitarian-ethics-tortured-child.md)
-* [The Prisoner's Dilemma (TK)](utilitarian-prisoners-dilemma.md)
+* [The Prisoner's Dilemma](utilitarian-prisoners-dilemma.md)
 
 ## Dilemmas from Care Ethics
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
 * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
+* [Dinner at Six-Thirty Sharp](care-ethics-dinner-at-six-thirty.md)
+* [Caring For and Caring About](care-ethics-for-and-about.md)
+* [Who Cares for the Caregiver?](care-ethics-meta-caregiver.md)
 
 ## Dilemmas from Virtue Ethics
 * The [Ring of Gyges](virtue-plato-ring-of-gyges.md)
@@ -28,6 +31,8 @@ I have also made an effort to include "established" ethical dilemmas rather than
 ## Dilemmas from Deontological Ethics
 * [Marcel's Crime](deontological-marcels-crime-confidentiality.md)
 * [The Ulysses Contract](deontological-odyssey-ulysses-contract.md)
+* [Murderer at the Door](deontological-inquiring-murderer.md)
+* [The Crowded Lifeboat](deontological-lifeboat.md)
 
 ## Existential Dilemmas
 * [Plug In](existential-plug-in.md) ("The Experience Machine")
@@ -37,7 +42,7 @@ I have also made an effort to include "established" ethical dilemmas rather than
 * The [Good Doctor](case-study-good-doctor.md)
 * "[Under the Rug](case-study-under-the-rug.md)"
 * [Recall Style-Null?](case-study-style-null-recall.md)
-* [Factory Rebuild (TK)](case-study-factory-rebuild.md)
+* [Factory Rebuild](case-study-factory-rebuild.md)
 * [The Deadly Fuel Tank](case-study-deadly-fuel-tank.md)
 
 
@@ -56,7 +61,6 @@ This page is a work-in-progress. Here are six sources of moral dilemmas I have b
 
 Dilemmas to add:
 * space rescue (inspo: For All Mankind S3E4, Happy Valley)
-* classic lifeboat ethics — throw some overboard to save the rest? (*US v. Holmes*, 1842 real case; also *Regina v. Dudley and Stephens*, 1884; via Friesian)
 * returning a weapon — return what you borrowed to a friend who is now "unstable?" (Plato, *Republic* Book I, via SEP)
 * dilemma of Sartre's studentjoin the resistance or stay home to care for mother? (Sartre, *Existentialism Is a Humanism*, 1946; via SEP)
 * Antigone — bury her brother? obey the law of the city? (Sophocles, *Antigone* via SEP)

@@ -19,4 +19,4 @@ What would you choose to do, and why?
 
 ---
 
-_Source: [August 2005 Scenario at the Memorial Medical Center in Louisiana, during Hurricane Katrina](https://en.wikipedia.org/wiki/Memorial_Medical_Center_and_Hurricane_Katrina)_*
+_Source: [August 2005 Scenario at the Memorial Medical Center in Louisiana, during Hurricane Katrina](https://en.wikipedia.org/wiki/Memorial_Medical_Center_and_Hurricane_Katrina)_
