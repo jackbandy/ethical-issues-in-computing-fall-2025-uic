@@ -18,6 +18,6 @@ Source: Victoria Davion, "Autonomy, Integrity, and Care," *Social Theory and Pra
 
 Context: This example illustrates a common objection to care ethics related to "slave morality." Slave morality is Nietzsche's term for the way that oppressed groups can sometimes develop ethical approaches that reinforce their own oppression. A shallow reading of care ethics would justify the dinner, as long as the caring relationship itself is going well.
 
-See also: Carol Gilligan, [*In a Different Voice: Psychological Theory and Women's Development*](https://www.hup.harvard.edu/books/9780674445444)
+See also: Carol Gilligan, [*In a Different Voice: Psychological Theory and Women's Development*](https://archive.org/details/indifferentvoice0000gill) (Harvard University Press, 1982)
 
-See also: Joan Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (Routledge, 1993), and Virginia Held, [*The Ethics of Care: Personal, Political, and Global*](https://global.oup.com/academic/product/the-ethics-of-care-9780195325904) (Oxford University Press, 2006) — care ethicists answer this objection by arguing that care must be social, communal, and political, not just a matter of individual relationships.
+See also: Joan Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (Routledge, 1993), and Virginia Held, [*The Ethics of Care: Personal, Political, and Global*](https://archive.org/details/ethicsofcarepers00held) (Oxford University Press, 2006) — care ethicists answer this objection by arguing that care must be social, communal, and political, not just a matter of individual relationships.

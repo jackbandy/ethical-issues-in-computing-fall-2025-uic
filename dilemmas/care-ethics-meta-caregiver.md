@@ -16,10 +16,10 @@ _What should be done?_
 
 ---
 
-Source: Arlie Russell Hochschild, "Love and Gold," in Barbara Ehrenreich and Arlie Russell Hochschild, eds., [*Global Woman: Nannies, Maids, and Sex Workers in the New Economy*](https://archive.org/details/globalwomannanni0000unse) (Metropolitan Books, 2002), 15–30 — on "global care chains"
+Source: Arlie Russell Hochschild, "Love and Gold," in Barbara Ehrenreich and Arlie Russell Hochschild, eds., [*Global Woman: Nannies, Maids, and Sex Workers in the New Economy*](https://archive.org/details/globalwomannanni00ehre) (Metropolitan Books, 2002), 15–30 — on "global care chains"
 
 Context: Care ethics observes that everyone is dependent at various points in life (as infants, when ill, in old age, etc.), and that someone always does the care work of meeting those needs. The core dilemma here is that care work is real, necessary, and continuous, but the work is distributed unevenly.
 
 See also: Joan Tronto, [*Caring Democracy: Markets, Equality, and Justice*](https://nyupress.org/9780814782781/caring-democracy/) (NYU Press, 2013) - "privileged irresponsibility"
 
-See also: Virginia Held, [*The Ethics of Care: Personal, Political, and Global*](https://global.oup.com/academic/product/the-ethics-of-care-9780195325904) (Oxford University Press, 2006).
+See also: Virginia Held, [*The Ethics of Care: Personal, Political, and Global*](https://archive.org/details/ethicsofcarepers00held) (Oxford University Press, 2006).

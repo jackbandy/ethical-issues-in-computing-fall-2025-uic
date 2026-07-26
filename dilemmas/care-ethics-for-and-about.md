@@ -26,4 +26,4 @@ Source: [Maureen Sander-Staudt, "Care Ethics", The Internet Encyclopedia of Phil
 
 See also: Joan Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (Routledge, 1993) - on "privileged irresponsibility."
 
-See also: Peter Singer, ["Famine, Affluence, and Morality"](https://personal.lse.ac.uk/robert49/teaching/mm/articles/Singer_1972Famine.pdf), *Philosophy & Public Affairs* 1, no. 3 (1972): 229–243 — argument that distance from suffering makes no difference.
+See also: Peter Singer, ["Famine, Affluence, and Morality"](https://web.archive.org/web/20241204150007/https://personal.lse.ac.uk/robert49/teaching/mm/articles/Singer_1972Famine.pdf), *Philosophy & Public Affairs* 1, no. 3 (1972): 229–243 — argument that distance from suffering makes no difference.
