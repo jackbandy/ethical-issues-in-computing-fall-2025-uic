@@ -9,3 +9,5 @@ You are walking across campus to get to a class in which you are scheduled to gi
 _What do you do?_
 
 Source: [John M. Darley & C. Daniel Batson, 1973](https://doi.org/10.1037/h0034449)
+
+See also: the SEP page on [Empirical Approaches to Moral Character](https://plato.stanford.edu/entries/moral-character-empirical/)

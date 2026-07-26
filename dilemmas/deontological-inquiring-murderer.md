@@ -29,3 +29,7 @@ In the paper listed above, Helga Varden writes: "Does Kant really mean to say th
 Real case: Le Chambon-sur-Lignon, a French Protestant village that sheltered and moved thousands of refugees during the German occupation. When a Vichy official demanded that pastor André Trocmé produce a list of Jews in the village, Trocmé replied: "We do not know what a Jew is. We know only men." The villagers also forged identity and ration cards, and never became comfortable doing so: Magda Trocmé recalled her horror on first hearing that a false card had been made, because "duplicity for any purpose was simply wrong."
 
 Source: Philip P. Hallie, [*Lest Innocent Blood Be Shed: The Story of the Village of Le Chambon and How Goodness Happened There*](https://archive.org/details/lestinnocentbloo00hall) (Harper & Row, 1979).
+
+See also: the SEP page on [Kant's Moral Philosophy](https://plato.stanford.edu/entries/kant-moral/), on the categorical imperative and perfect duties.
+
+See also: the SEP page on [The Definition of Lying and Deception](https://plato.stanford.edu/entries/lying-definition/)

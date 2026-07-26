@@ -26,3 +26,5 @@ Source: [Steven Kuhn, "Prisoner's Dilemma", The Stanford Encyclopedia of Philoso
 See also: [Robert Axelrod, *The Evolution of Cooperation* (1984)](https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation) — on what happens when the dilemma is played repeatedly.
 
 See also: the boat/ferry sequence in [*The Dark Knight*](https://en.wikipedia.org/wiki/The_Dark_Knight) (2008). There are two ferries evacuating Gotham, one carrying civilians, and one carrying prisoners. There is a detonator aboard each ship which is wired to the other ship. The passengers are told that whichever ferry presses/detonates first will survive, and if neither presses by midnight, both will be destroyed. 
+
+See also: the SEP page on [The Free Rider Problem](https://plato.stanford.edu/entries/free-rider/), alleged class of cases where individually rational choices supposedly leaves everyone worse off.

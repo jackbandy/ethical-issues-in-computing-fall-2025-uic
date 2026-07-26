@@ -21,3 +21,5 @@ Context: This example illustrates a common objection to care ethics related to "
 See also: Carol Gilligan, [*In a Different Voice: Psychological Theory and Women's Development*](https://archive.org/details/indifferentvoice0000gill) (Harvard University Press, 1982)
 
 See also: Joan Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (Routledge, 1993), and Virginia Held, [*The Ethics of Care: Personal, Political, and Global*](https://archive.org/details/ethicsofcarepers00held) (Oxford University Press, 2006) — care ethicists answer this objection by arguing that care must be social, communal, and political, not just a matter of individual relationships.
+
+See also: the SEP page on [Feminist Ethics](https://plato.stanford.edu/entries/feminism-ethics/)

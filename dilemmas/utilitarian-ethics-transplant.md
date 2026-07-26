@@ -17,3 +17,5 @@ Source: [S. Matthew Liao (NYU)](https://blog.uehiro.ox.ac.uk/2008/02/the-transpl
 Older source: [Judith Jarvis Thomson](http://www.psy.vanderbilt.edu/courses/hon182/thomsontrolley.pdf)
 
 See also: Coleman Reese sequence in [*The Dark Knight*](https://en.wikipedia.org/wiki/The_Dark_Knight) (2008). An accountant (Coleman Reese) at Wayne Enterprises goes on television to reveal Batman's identity. The Joker phones in and says that unless Reese is dead within the hour, he will blow up a hospital. Ordinary Gothamites (not the Joker) then try to kill Reese, making the scene a version of this transplant/sacrifice dilemma.
+
+See also: the SEP page on [Consequentialism](https://plato.stanford.edu/entries/consequentialism/)

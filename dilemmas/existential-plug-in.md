@@ -19,3 +19,5 @@ Source: Robert Nozick, [*The Examined Life: Philosophical Meditations*](https://
 Older source: Robert Nozick, [*Anarchy, State, and Utopia*](https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia) (Basic Books, 1974), pp. 42–45 — the original "experience machine," where plugging in is for two years at a time.
 
 Source: Lorenzo Buscicchi, [The Experience Machine](https://iep.utm.edu/experience-machine/)
+
+See also: the SEP page on [Well-Being](https://plato.stanford.edu/entries/well-being/), on hedonism and the objection that experience alone is not enough.

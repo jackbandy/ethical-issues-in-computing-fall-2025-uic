@@ -23,3 +23,5 @@ Context: Care ethics observes that everyone is dependent at various points in li
 See also: Joan Tronto, [*Caring Democracy: Markets, Equality, and Justice*](https://nyupress.org/9780814782781/caring-democracy/) (NYU Press, 2013) - "privileged irresponsibility"
 
 See also: Virginia Held, [*The Ethics of Care: Personal, Political, and Global*](https://archive.org/details/ethicsofcarepers00held) (Oxford University Press, 2006).
+
+See also: the SEP page on [Feminist Perspectives on Globalization](https://plato.stanford.edu/entries/feminism-globalization/)

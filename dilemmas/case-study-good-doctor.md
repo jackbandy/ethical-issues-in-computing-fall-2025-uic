@@ -20,3 +20,5 @@ What would you choose to do, and why?
 ---
 
 _Source: [August 2005 Scenario at the Memorial Medical Center in Louisiana, during Hurricane Katrina](https://en.wikipedia.org/wiki/Memorial_Medical_Center_and_Hurricane_Katrina)_
+
+See also: the SEP page on [Voluntary Euthanasia](https://plato.stanford.edu/entries/euthanasia-voluntary/) - the difference between allowing death and speeding it up.

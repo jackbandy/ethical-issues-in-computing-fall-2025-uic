@@ -18,3 +18,5 @@ _What should be done?_
 
 Image source: [Jesse Prinz](http://subcortex.com/pictures/)  
 Text Source: [Chad Vance](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
+
+See also: the SEP page on [Doctrine of Double Effect](https://plato.stanford.edu/entries/double-effect/) - different types of harm

@@ -18,3 +18,5 @@ _What should be done?_
 
 ---
 Source: [Mikhail Lyubansky, UIUC](https://labs.psychology.illinois.edu/~lyubansk/Gilligan.htm)
+
+See also: the SEP page on [Feminist Ethics](https://plato.stanford.edu/entries/feminism-ethics/)

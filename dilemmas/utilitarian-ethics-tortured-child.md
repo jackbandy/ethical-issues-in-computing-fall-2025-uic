@@ -23,3 +23,5 @@ See also: Fyodor Dostoyevsky, [The Brothers Karamazov](https://www.gutenberg.org
 See also: William James, ["The Moral Philosopher and the Moral Life"](https://www.gutenberg.org/cache/epub/26659/pg26659.txt) (1891), in *The Will to Believe* — "millions kept permanently happy on the one simple condition that a certain lost soul on the far-off edge of things should lead a life of lonely torture"
 
 (Le Guin credited James's essay as her starting point, and said she had forgotten Dostoyevsky's earlier version of the same idea when she wrote her story.)
+
+See also: the SEP page on [Consequentialism](https://plato.stanford.edu/entries/consequentialism/)

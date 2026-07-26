@@ -11,3 +11,5 @@ _What would you do if you were Socrates?_
 Source: [Plato, *Crito*, trans. Benjamin Jowett, The Internet Classics Archive (MIT)](http://classics.mit.edu/Plato/crito.html)  
 
 See also: [Debra Nails & S. Sara Monoson, "Socrates", The Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/socrates/)
+
+See also: the SEP page on [Political Obligation](https://plato.stanford.edu/entries/political-obligation/)

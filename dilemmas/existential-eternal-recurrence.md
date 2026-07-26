@@ -11,3 +11,5 @@ Would you live the same life you are living right now, on an infinite loop?
 Source: [Kevin Aho, "Existentialism", The Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/existentialism/#NietOver)  
 
 Related: in Homer's *Odyssey*, Calypso offers Odysseus immortality: "if you could only know how much suffering is in store for you before you get back to your own country, you would stay where you are, keep house along with me, and let me make you immortal." Trans. Samuel Butler, [The Internet Classics Archive (MIT)](http://classics.mit.edu/Homer/odyssey.5.v.html)
+
+See also: the SEP page on [Friedrich Nietzsche](https://plato.stanford.edu/entries/nietzsche/), on where the eternal recurrence fits in his wider thought.

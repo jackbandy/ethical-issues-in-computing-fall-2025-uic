@@ -13,3 +13,5 @@ Source: "Jean Valjean's Conscience," entry 11 in ["Some Moral Dilemmas"](https:/
 See also: _Les Miserables_ (1998), directed by Bille August, starring Liam Neeson, Uma Thurman, and Geoffrey Rush.
 
 See also: _Les Misérables_ (2012), directed by Tom Hooper, starring Hugh Jackman, Russell Crowe, and Anne Hathaway.
+
+See also: the SEP page on [Integrity](https://plato.stanford.edu/entries/integrity/)

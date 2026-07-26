@@ -18,4 +18,6 @@ Source: [Homer, *Odyssey*, Book XII, trans. Samuel Butler, The Internet Classics
 
 See also: [Agnieszka Jaworska, "Advance Directives and Substitute Decision-Making", The Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/advance-directives/)
 
+See also: the SEP page on [Personal Identity and Ethics](https://plato.stanford.edu/entries/identity-ethics/), on whether a past self has authority over a later one.
+
 A related but distinct example is the [do-not-resuscitate (DNR) order](https://en.wikipedia.org/wiki/Do_not_resuscitate), where a patient instructs doctors not to perform resuscitation in future medical crises. A DNR is an advance directive, and it binds others to a past decision, but it is not quite a Ulysses contract: the patient is unconscious and cannot object, so there is no "later self" straining against the ropes. What makes the mast scene a distinct dilemma is that Odysseus is awake, seemingly competent, and actively demanding to be released. A psychiatric advance directive is more similar to a Ulysses contract, since the patient may be very much awake and refusing the treatment they previously authorized.

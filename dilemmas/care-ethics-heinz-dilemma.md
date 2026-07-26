@@ -9,3 +9,5 @@ A lady was dying because she was very sick. There was one drug the doctors said 
 _Should Heinz have stolen the drug? Why or why not?_
 
 Source: [Eric Kim, Lane Community College](https://media.lanecc.edu/users/kime/Psy201Ch9b2.pdf)
+
+See also: the SEP page on [Feminist Ethics](https://plato.stanford.edu/entries/feminism-ethics/) (about Gilligan's response to Kohlberg's scoring approach for this dilemma)

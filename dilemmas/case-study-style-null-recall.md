@@ -13,3 +13,5 @@ _What should be done?_
 Source: [University of New Mexico](https://business.unm.edu/ethics/pdf/tylenol-case.pdf)
 
 Source: [Wharton School of the University of Pennsylvania](https://knowledge.wharton.upenn.edu/article/tylenol-and-the-legacy-of-jjs-james-burke/)
+
+See also: the SEP page on [Business Ethics](https://plato.stanford.edu/entries/ethics-business/) - corporate responsibility for product safety.

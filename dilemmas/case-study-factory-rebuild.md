@@ -17,3 +17,5 @@ _What would you do?_ (Note there may be other options than the three listed here
 Source: [Ross Kerber, "Aaron Feuerstein dies at 95", Reuters (2021)](https://www.reuters.com/world/us/aaron-feuerstein-dies-95-paid-idled-workers-after-fire-2021-11-05/)
 
 See also: [Malden Mills, Wikipedia](https://en.wikipedia.org/wiki/Malden_Mills) — on what happened to the company afterward.
+
+See also: the SEP page on [Business Ethics](https://plato.stanford.edu/entries/ethics-business/) - what firms owe their workers/communities.
