@@ -17,6 +17,16 @@
     --masthead-train-height: 96px;
   }
 
+  /* On a narrow screen the full-size car is nearly as wide as the window, so it
+     has nowhere to glide. Scale it to 40% of the window width instead, keeping
+     the artwork's 2440:400 aspect ratio (400 / 2440 = 0.1639). Sizing by height
+     keeps the wheels-on-the-rail offset below in one place. */
+  @media (max-width: 900px) {
+    :root {
+      --masthead-train-height: calc(40vw * 0.1639);
+    }
+  }
+
   .ble-masthead {
     display: block;
     margin: 0 0 2rem;
