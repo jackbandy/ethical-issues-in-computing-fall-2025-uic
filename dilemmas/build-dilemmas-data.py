@@ -112,9 +112,58 @@ def convert_inline(text, images):
     return text
 
 
+def split_row(line):
+    """Cells of a markdown table row, dropping the leading/trailing pipes."""
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def is_table_divider(line):
+    cells = split_row(line)
+    return bool(cells) and all(re.fullmatch(r':?-{3,}:?', c) for c in cells)
+
+
+def cell_alignments(divider):
+    aligns = []
+    for c in split_row(divider):
+        left, right = c.startswith(":"), c.endswith(":")
+        aligns.append("center" if left and right else
+                      "right" if right else
+                      "left" if left else None)
+    return aligns
+
+
+def convert_cell(text, images, aligns, index, tag):
+    html_out = convert_inline(html.escape(text), images)
+    # <br> is the only raw HTML these tables use; unescape it so payoff cells
+    # can stack two lines.
+    html_out = html_out.replace("&lt;br&gt;", "<br>").replace("&lt;br/&gt;", "<br>")
+    align = aligns[index] if index < len(aligns) else None
+    attr = f' style="text-align: {align}"' if align else ""
+    return f"<{tag}{attr}>{html_out}</{tag}>"
+
+
+def convert_table(rows, images):
+    """rows: header line, divider line, then zero or more body lines."""
+    aligns = cell_alignments(rows[1])
+    out = ['<div class="dilemma-table-wrap">', "<table>", "<thead>", "<tr>"]
+    for i, cell in enumerate(split_row(rows[0])):
+        out.append(convert_cell(cell, images, aligns, i, "th"))
+    out += ["</tr>", "</thead>", "<tbody>"]
+    for row in rows[2:]:
+        out.append("<tr>")
+        for i, cell in enumerate(split_row(row)):
+            # A leading empty cell in a payoff matrix labels the row, so keep
+            # the first column as a header cell when it carries text.
+            tag = "th" if i == 0 and cell else "td"
+            out.append(convert_cell(cell, images, aligns, i, tag))
+        out.append("</tr>")
+    out += ["</tbody>", "</table>", "</div>"]
+    return "\n".join(out)
+
+
 def convert_markdown(text, images):
     """Minimal markdown -> HTML for the subset these dilemma files use:
-    headings, paragraphs, ordered/unordered lists, ---, links, images,
+    headings, paragraphs, ordered/unordered lists, tables, ---, links, images,
     bold, italics. Single newlines inside a paragraph become <br>."""
     out = []
     paragraph = []
@@ -133,9 +182,12 @@ def convert_markdown(text, images):
             out.append(f"</{list_tag}>")
             list_tag = None
 
-    for raw in text.splitlines():
-        line = raw.rstrip()
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].rstrip()
         stripped = line.strip()
+        i += 1
         if not stripped:
             flush_paragraph()
             close_list()
@@ -151,6 +203,17 @@ def convert_markdown(text, images):
             close_list()
             level = len(heading.group(1))
             out.append(f"<h{level}>{convert_inline(html.escape(heading.group(2)), images)}</h{level}>")
+            continue
+        if (stripped.startswith("|") and i < len(lines)
+                and is_table_divider(lines[i])):
+            flush_paragraph()
+            close_list()
+            rows = [stripped, lines[i].strip()]
+            i += 1
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                rows.append(lines[i].strip())
+                i += 1
+            out.append(convert_table(rows, images))
             continue
         ordered = re.match(r'\d+\.\s+(.*)', stripped)
         unordered = re.match(r'[*-]\s+(.*)', stripped)

@@ -236,6 +236,42 @@ body.dilemma-page footer {
   margin: 0.5em 0 1em;
 }
 
+/* Payoff matrices (e.g. the prisoner's dilemma). The wrapper scrolls on narrow
+   screens so the page itself never scrolls sideways. */
+.dilemma-table-wrap {
+  overflow-x: auto;
+  margin: 0 0 1.25em;
+}
+
+.dilemma-body table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 380px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #222;
+}
+
+.dilemma-body th,
+.dilemma-body td {
+  border: 1px solid #d8d8d8;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Header row and row labels are the axes of the matrix, so they share a tint. */
+.dilemma-body thead th,
+.dilemma-body tbody th {
+  background: #f2f8fb;
+  font-weight: 600;
+}
+
+.dilemma-body thead th:empty {
+  background: transparent;
+  border-color: transparent;
+}
+
 .dilemma-body hr {
   border: none;
   border-top: 1px solid #e5e5e5;

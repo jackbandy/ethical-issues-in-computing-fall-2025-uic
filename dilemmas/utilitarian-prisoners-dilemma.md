@@ -12,6 +12,8 @@ The prosecutor offers each of you the same deal:
 * If you testify against the other and they stay silent, you go **free** and they serve **10 years**. (And vice versa.)
 * If you both testify, you each serve **8 years**.
 
+Here is how the dilemma is often captured visually, in what is referred to as a "payoff table:"
+
 |                     | **Friend stays silent**         | **Friend testifies**            |
 | ------------------- | ------------------------------- | ------------------------------- |
 | **You stay silent** | You: 1 year<br>Friend: 1 year   | You: 10 years<br>Friend: free   |
