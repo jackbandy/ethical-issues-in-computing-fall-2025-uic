@@ -1,0 +1,294 @@
+/* NOTICE: This file was substantially generated/modified by an LLM.
+   Adapted from jackbandy.com/extras/cta-style-timer */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  /* CTA's own stack — the tracker sets Helvetica, so match it rather than the
+     site's Franklin Gothic. FreeSans is the free/metric-compatible first choice. */
+  font-family: FreeSans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f4f4f4;
+  color: rgb(35, 31, 32);
+  line-height: 25.6px;
+}
+
+.interior-content-wrapper {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.pageHeading {
+  padding: 15px 0;
+  border-bottom: 3px solid #005daa;
+  display: flex;
+  align-items: center;
+}
+
+.pageHeading .title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #005daa;
+}
+
+.pageHeading .title b { font-weight: 700; }
+
+.tracker-title-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.timer-selector {
+  padding: 12px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer-selector label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.timer-selector select,
+.timer-selector input[type="number"] {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.timer-selector input[type="number"] { width: 70px; }
+
+.timer-selector select:disabled,
+.timer-selector input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Route pill, after the route buttons in `.title-routes` on a CTA station page:
+   solid fill, white bold label, small radius. Start matches it. Filled with the
+   darker interface blue rather than Blue Line #00a1de, for label contrast. */
+.timer-selector button,
+.timer-selector .route-btn {
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  background: #005daa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.timer-selector button:hover,
+.timer-selector .route-btn:hover { background: #004a8a; }
+
+/* Right-justified at the end of the control row */
+.timer-selector .route-btn {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.route-btn-icon {
+  width: 14px;
+  height: 14px;
+  fill: #fff;
+  flex-shrink: 0;
+}
+
+.estimated-arrivals { background: #fff; }
+
+.service-header-row {
+  background: #333;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.service-header {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.estimated-arrivals-header {
+  background: #444;
+  color: #fff;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.ea-header-title {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.info-btn .edit-icon {
+  width: 14px;
+  height: 14px;
+  fill: #fff;
+}
+
+.info-btn:hover { background: rgba(255,255,255,0.2); }
+
+.info-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.info-btn:disabled:hover { background: transparent; }
+
+.station-picker {
+  display: none;
+  background: #3a3a3a;
+  border-top: 1px solid #555;
+  padding: 10px 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.station-picker.visible { display: block; }
+
+.station-picker button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+}
+
+.station-picker button:last-child { border-bottom: none; }
+.station-picker button:hover { background: rgba(255,255,255,0.1); }
+
+.station-picker button.active {
+  background: #00a1de;
+  font-weight: 600;
+}
+
+.estimated-arrivals-subheader {
+  background: #555;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.estimated-arrivals-line-wrapper { border: 1px solid #ddd; }
+
+.estimated-arrivals-line {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  color: #fff;
+}
+
+.estimated-arrivals-line.blue-line { background: #00a1de; }
+
+.ea-line-title { flex: 1; }
+
+.ea-line-title-top {
+  display: block;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.ea-line-title-bottom {
+  display: block;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.ea-line-title-bottom img {
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.ea-line-time {
+  text-align: right;
+  white-space: nowrap;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ea-line-time-big {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.ea-line-icon {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  opacity: 0.85;
+}
+
+.ea-line-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+#customMinutesWrapper {
+  display: none;
+  align-items: center;
+  gap: 6px;
+}
+
+#customMinutesWrapper.visible { display: flex; }
+
+.footnotes {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 15px;
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.footnotes a {
+  color: #888;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footnotes a:hover { text-decoration: underline; }

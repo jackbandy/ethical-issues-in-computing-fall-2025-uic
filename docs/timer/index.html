@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- NOTICE: This file was substantially generated/modified by an LLM.
+     Adapted from jackbandy.com/extras/cta-style-timer -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00A1DE">
+  <meta name="description" content="A simple distraction-free countdown timer styled after the CTA Blue Line train tracker. Set the minutes and go — no sounds, no seconds, no frills.">
+  <title>Class Timer — Blue Line Ethics</title>
+  <link rel="canonical" href="https://doethics.fun/timer/">
+  <meta property="og:title" content="Class Timer — Blue Line Ethics">
+  <meta property="og:description" content="A distraction-free countdown timer that displays minutes only. Styled after the CTA Blue Line train tracker.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doethics.fun/timer/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+
+<div class="interior-content-wrapper">
+
+  <div class="pageHeading">
+    <h1 class="title">
+      <svg class="tracker-title-icon" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path fill="#005daa" d="M12 2C8.13 2 5 5.13 5 9c0 1.74.5 3.37 1.41 4.84.95 1.54 2.2 2.86 3.16 4.4.47.75.81 1.45 1.17 2.26.26.55.47 1.5 1.26 1.5s1-.95 1.26-1.5c.36-.81.7-1.51 1.17-2.26.96-1.54 2.21-2.86 3.16-4.4C18.5 12.37 19 10.74 19 9c0-3.87-3.13-7-7-7zm0 9.75a2.75 2.75 0 1 1 0-5.5 2.75 2.75 0 0 1 0 5.5z"/>
+      </svg>
+      <b>cta</b> style timer
+    </h1>
+  </div>
+
+  <div class="timer-selector">
+    <label for="minuteSelect">Set timer:</label>
+    <select id="minuteSelect">
+      <option value="1">1 minute</option>
+      <option value="2">2 minutes</option>
+      <option value="3">3 minutes</option>
+      <option value="4">4 minutes</option>
+      <option value="5" selected>5 minutes</option>
+      <option value="6">6 minutes</option>
+      <option value="7">7 minutes</option>
+      <option value="8">8 minutes</option>
+      <option value="9">9 minutes</option>
+      <option value="10">10 minutes</option>
+      <option value="custom">Custom...</option>
+    </select>
+    <div id="customMinutesWrapper">
+      <input type="number" id="customMinutes" min="1" max="999" placeholder="min">
+      <span>minutes</span>
+    </div>
+    <button id="startBtn">Start</button>
+    <a class="route-btn" href="../">
+      <svg class="route-btn-icon" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/>
+      </svg>
+      Course Home
+    </a>
+  </div>
+
+  <section class="estimated-arrivals">
+    <div class="service-header-row">
+      <h2 class="service-header">Estimated arrivals</h2>
+    </div>
+    <div class="estimated-arrivals-header">
+      <div class="ea-header-title">
+        <span id="stationName">UIC-Halsted</span>
+        <button class="info-btn" id="infoBtn" aria-label="Choose station"><svg class="edit-icon" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg></button>
+      </div>
+    </div>
+
+    <div class="station-picker" id="stationPicker"></div>
+
+    <div class="estimated-arrivals-subheader">
+      Service toward O'Hare
+    </div>
+
+    <div class="estimated-arrivals-line-wrapper">
+      <div class="estimated-arrivals-line blue-line">
+        <span class="ea-line-title">
+          <span class="ea-line-title-top">Blue Line #377 to</span>
+          <span class="ea-line-title-bottom">O'Hare&nbsp;<img alt="Airport" src="airport.svg"></span>
+        </span>
+        <span class="ea-line-time" id="timerDisplay"><span class="ea-line-time-big">Due</span></span>
+        <span class="ea-line-icon">
+          <svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div class="footnotes">
+  <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
+  <a href="https://www.transitchicago.com/traintracker/">Based on the CTA train tracker</a>
+</div>
+
+<script src="timer.js"></script>
+
+</body>
+</html>

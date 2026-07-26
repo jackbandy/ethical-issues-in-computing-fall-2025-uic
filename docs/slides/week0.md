@@ -86,6 +86,27 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
+# Discussion Template w Timer {.embed-slide}
+
+::: {.embed-layout}
+::: {.embed-copy}
+1. Demo question 1
+2. Demo question 2
+3. Demo question 3
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
 # Visual Seat Shuffle {.embed-slide}
 
 ::: {.embed-layout}
