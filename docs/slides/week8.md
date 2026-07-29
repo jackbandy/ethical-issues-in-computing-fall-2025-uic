@@ -336,6 +336,12 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 ---
 
+# Why We'll Try to Avoid the Word "Ethical" in This Class
+
+- TODO: fill in — placeholder slide
+
+---
+
 # Table Discussion: Real-World Ethical Dilemmas
 
 Using both normative and descriptive lenses:

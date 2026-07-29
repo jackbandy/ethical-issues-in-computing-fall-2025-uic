@@ -300,6 +300,47 @@ Turn off phones, laptops, other distractions
 
 ---
 
+# A Brief Aside: What Is "Ethics"?
+
+- People often say ethics is knowing "right vs. wrong"
+- This is just one branch: **normative ethics** — prescriptive - should
+- Other branches: applied, meta-ethics, descriptive ethics
+- Etymology: from ancient Greek *ethos* — "relating to one's character"
+
+---
+
+# Normative and Descriptive Ethics
+
+:::: columns
+::: {.column width="48%"}
+## Normative
+
+- Is it right?
+- Is it wrong?
+- What should be done?
+- "Is this unethical?"
+:::
+
+::: {.column width="48%"}
+## Descriptive
+
+- Who is involved?
+- Who is making the decision(s)?
+- What are the stakes?
+- What are the options?
+- What are the potential outcomes?
+- What decisions led to this situation?
+:::
+::::
+
+---
+
+# Why We'll Try to Avoid the Word "Ethical" in This Class
+
+- TODO: fill in — placeholder slide
+
+---
+
 # Four Theories for This Class
 
 :::: columns
