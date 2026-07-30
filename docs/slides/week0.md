@@ -1,9 +1,3 @@
-# Draft — Needs Review {.draft-notice}
-
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
-
 # Demo Slide Deck {.title-slide}
 
 Jack Bandy · CS 377 · UIC
@@ -97,7 +91,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ::: {.embed-frame}
 <iframe
-  src="../timer/"
+  src="/timer/"
   title="CTA-style countdown timer"
   loading="lazy"
   data-external="1">
@@ -115,7 +109,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 - Classroom seating chart, shown live in the deck
 - Enter a seed and shuffle to assign tables
-- "Draw Paths" traces each student's movement
+- "Draw Paths" kinda chaotic
 
 [Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
 :::
@@ -141,7 +135,27 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 > Technology is neither good nor bad; nor is it neutral.
 >
-> — Melvin Kranzberg [@kranzberg1986, 545]
+— Melvin Kranzberg [@kranzberg1986, 545]
+
+---
+
+# Full-Screen Webpage {.embed-slide}
+
+::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://plato.stanford.edu"
+  title="Embedded webpage"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://plato.stanford.edu)
+:::
+:::
 
 ---
 

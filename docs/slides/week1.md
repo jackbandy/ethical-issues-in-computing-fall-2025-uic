@@ -1,8 +1,3 @@
-# Draft — Needs Review {.draft-notice}
-
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
 
 # Introduction to Ethical Issues in Computing {.title-slide .photo-title data-state="photo-title" background-image="../assets/chicago-aerial-jane-byrne.jpg" background-size="cover"}
 
@@ -59,30 +54,33 @@ Let me know (1) you are here and (2) what you had for breakfast
 
 ---
 
-# A bit about me
+# A bit about me {.photo-grid-slide}
 
 :::: columns
-::: {.column width="32%"}
+::: {.column width="32%" .fragment}
+![](../assets/jack/jack-graduation-portrait.jpg)
+
 Northwestern graduation
 
 Evanston, 2023
 :::
 
-::: {.column width="32%"}
-Meeting Rumman Chowdhury
+::: {.column width="32%" .fragment}
+![](../assets/jack/jack-and-bohr-portrait.jpg)
 
-New York City, 2025
-:::
-
-::: {.column width="32%"}
 At the grave of Niels Bohr
 
 Copenhagen, 2025
 :::
-::::
 
-<!-- image: three photos -->
-- TODO: add image — *three photos*
+::: {.column width="32%" .fragment}
+![](../assets/jack/jack-and-sachita-portrait.jpg)
+
+Presenting work with Sachita Nishal
+
+San Diego, ACL 2026
+:::
+::::
 
 ---
 
@@ -112,19 +110,14 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 ::: {.column width="48%"}
 - Is there a place — or more than one place — you consider "home"?
   If so, where is it, and why? If not, why not?
-- Tell us about your family, however you choose to define it: How big
-  was your family, including siblings and other extended family members?
-  Were you the oldest, the youngest, in between, or an only child?
-  How did that shape your experience?
+- Share about your family, however you choose to define it: How big was your immediate/extended family? Were you the oldest, the youngest, only child? How did that shape your experience?
 :::
 
 ::: {.column width="48%"}
-- What do you know of your family origins? Do you feel connected to
-  that heritage?
-- What languages are spoken in your family? What languages do you speak?
-- Are there family traditions or cultural values that you hold dear?
-  What are these, and why?
-- Are there any social identities that are important to you?
+- What do you know of your family origins? What do you want to know?
+- What languages are spoken in your family? What languages do you speak? Want to speak?
+- Are there family traditions or cultural values that you hold dear? What are these, and why?
+- What other social identities are important to you?
 :::
 ::::
 
@@ -134,9 +127,9 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 :::: columns
 ::: {.column width="48%"}
-- Where did you go to school (elementary, high school, or community college)? Briefly talk about your experience in these schools.
-- Do you have family members who have earned post-secondary degrees? Whether your answer is "yes" or "no", how did that shape your educational trajectory?
-- What influenced your decision to go to college? Why did you choose to attend this institution?
+- Where did you go to school (elementary, high school, or community college)? Share about your experiences.
+- Do you have family members who have earned post-secondary degrees? How did your family shape your educational trajectory?
+- What influenced your decision to go to college? Why did you choose to attend UIC?
 :::
 
 ::: {.column width="48%"}
@@ -151,7 +144,7 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 # Part 3 of 3: This Class
 
 - What does ethics mean to you?
-- Have you ever studied ethics? Moral philosophy? If so, when? What do you remember?
+- Have you ever studied ethics? Moral philosophy? Social justice? If so, when? What do you remember?
 - Do you currently follow a "code of ethics" of any kind?
 - Which topics are you especially excited to learn about?
 - Anything you are nervous about?
@@ -202,7 +195,7 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 # Attitudes Survey
 
-www.yellkey.com/short
+TODO: add link
 
 You can head out once you finish the survey. See you next class!
 
@@ -246,24 +239,23 @@ CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
 
 # Administrivia
 
-- I made progress on Canvas!
+- Canvas check-in
   - Submission portals for all out-of-class exercises
-  - At-a-glance schedule
-- Some exercise details still need to be updated in GitHub
-- No class on Monday (holiday)
+  - Updated grades, communication
+- Some exercise details may still be updated in GitHub
 - Start thinking about potential books you might want to read!
 
 ---
 
-# Schedule Details
+# Schedule Overview
 
-- Unit 1: Ethical Theories
+- Unit 1
   - 🟦 Forest Park Branch 🟦
   - Virtue, Deontology, Utilitarianism, Care
 - Unit 2: Stories
   - 🟦 Milwaukee-Dearborn Subway 🟦
   - Short stories and famous case studies
-- Unit 3: Contemporary Issues
+- Unit 3
   - 🟦 O'Hare Branch 🟦
   - Algorithmic fairness, LLMs, data ethics, etc.
 
@@ -467,6 +459,27 @@ Example virtues:
 ---
 
 # "The Golden Mean"
+
+---
+
+# Moral Virtues {.embed-slide}
+
+::: {.embed-layout}
+::: {.embed-copy}
+<h2>Common Examples</h2>
+
+[Open in a new tab](https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues)
+:::
+
+::: {.embed-frame}
+<iframe
+  src="https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues"
+  title="Moral Virtues"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 

@@ -219,8 +219,27 @@ $code-block-border-color: $border;
     min-height: 0;
   }
 
+  .embed-layout.embed-full {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .embed-copy {
     align-self: center;
+  }
+
+  .embed-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+    font-size: 0.5em;
+
+    a {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid $border;
+      border-radius: 4px;
+      padding: 0.35em 0.8em;
+    }
   }
 
   .embed-frame {
@@ -413,6 +432,20 @@ $photo-only-footer-opacity: 0.6;
 
 .photo-only {
   @include photo-footer($photo-only-footer-opacity);
+}
+
+// "A bit about me" photo grid: keep portraits short enough that the
+// caption never overflows the slide.
+.photo-grid-slide {
+  .columns img {
+    max-height: 32vh;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .columns p {
+    font-size: 0.72em;
+  }
 }
 
 @media screen and (max-width: 760px) {
