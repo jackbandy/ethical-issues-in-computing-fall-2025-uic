@@ -46,12 +46,13 @@
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: .55rem; border: 1px solid var(--border); text-align: left; vertical-align: top; }
     th { background: var(--soft); }
-    nav { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
-    nav ul { columns: 2; }
+    /* Scoped to the table of contents so the site menu above it keeps its own look. */
+    nav[aria-label="Table of contents"] { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
+    nav[aria-label="Table of contents"] ul { columns: 2; }
     .meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; color: #666; font-size: .85rem; }
     @media (max-width: 700px) {
       body { padding: 2rem 1.25rem 4rem; }
-      nav ul { columns: 1; }
+      nav[aria-label="Table of contents"] ul { columns: 1; }
       .meta { display: block; }
       table { font-size: .85rem; }
     }
@@ -60,10 +61,15 @@
       body { max-width: none; padding: 0; }
       body::before { color: rgba(35, 31, 32, .07); }
     }
+    /* The site menu (css/site-nav.css) is designed for full-viewport pages; the
+       syllabus body is a 900px sheet, so break the rails and the header out of
+       it to match every other page. */
+    body > .blue-line { width: 100vw; margin-left: calc(50% - 50vw); }
   </style>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
 </head>
 <body>
-  {% include masthead.html %}
+  {% include site-nav.html nav_current="syllabus" %}
   <header>
     <div class="meta">
       <span>Generated $created$</span>
@@ -76,5 +82,6 @@
   </header>
   $if(toc)$<nav aria-label="Table of contents">$toc$</nav>$endif$
   <main>$body$</main>
+  {% include masthead.html %}
 </body>
 </html>

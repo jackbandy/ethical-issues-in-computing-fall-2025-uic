@@ -1,27 +1,26 @@
 ---
 ---
 <!doctype html>
+<!--
+  /slides/ used to be a hand-maintained index of every deck. The schedule page
+  now lists each week's deck alongside what that week covers, so this file is
+  just a redirect: it catches old bookmarks and the fallback URL in the deck
+  footers (docs/slides/_metadata.yml). Individual decks — /slides/week1.html and
+  friends — are unaffected.
+
+  Plain meta-refresh rather than jekyll-redirect-from, so there is no plugin to
+  install and GitHub Pages needs no extra configuration.
+-->
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS 377 Slides</title>
-  <style>
-    body { max-width: 48rem; margin: 0 auto 4rem; padding: 0 1.25rem; color: #231f20; font: 18px/1.5 FreeSans, Helvetica, Arial, sans-serif; }
-    h1 { color: #005daa; }
-    a { color: #005daa; }
-    /* Break the masthead train out of the centered content column so it spans
-       the full viewport (like every other page). */
-    body > .ble-masthead { width: 100vw; margin-left: calc(50% - 50vw); }
-  </style>
+  <title>Slides — Blue Line Ethics</title>
+  <link rel="canonical" href="https://doethics.fun/schedule.html">
+  <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/schedule.html">
+  <meta name="robots" content="noindex">
 </head>
 <body>
-  {% include masthead.html %}
-  <h1>CS 377 Slides</h1>
-  <p>Quarto Reveal.js decks for Ethical Issues in Computing.</p>
-  <ul>
-    <li>Week 0 template: <a href="week0.html">HTML</a> · <a href="week0.pdf">PDF</a></li>
-  </ul>
-  <p><a href="../">Back to Blue Line Ethics</a></p>
+  <p>The slide decks are listed week by week on the
+    <a href="{{ site.baseurl }}/schedule.html">course schedule</a>.</p>
 </body>
 </html>

@@ -1,50 +1,38 @@
-# 🟦 Blue Line Ethics 🟦
-## Schedule for Ethical Issues in Computing, Spring 2026
+---
+layout: schedule
+title: Full Schedule
+nav_current: schedule
+description: Day-by-day schedule for Ethical Issues in Computing (CS 377), Spring 2026 — one stop per class meeting, with slides and source materials.
+subtitle: Spring 2026 — one stop per class meeting. Each stop links to its slides and source materials.
+---
 
-Course publishing sources:
+<!-- This markdown file is the source for the published schedule page at
+     /schedule.html. Edit it here; the layout (_layouts/schedule.html) and
+     css/schedule.css turn it into the styled page. Keep the shape below:
+     `## Unit`, then `#### Week N`, then one top-level bullet per class day,
+     each with a `` `🟦 Station 🟦` `` line and nested bullets for that day. -->
 
-- Edit `syllabus_source/syllabus.md`, then run `syllabus_source/build.sh` to publish HTML and PDF versions under `docs/syllabus/`.
-- Edit `docs/schedule.md` — that file is the source for the published schedule page at [doethics.fun/schedule.html](https://doethics.fun/schedule.html). Jekyll styles it via `docs/_layouts/schedule.html` and `docs/css/schedule.css`. The schedule below is the same material in plain README form; keep the two in sync when a week changes.
-- Edit the Quarto decks under `docs/slides/`. GitHub Actions builds the slide HTML on pushes to `main`; run `docs/slides/build.sh` locally when you want to preview changes or generate PDFs.
+* [Unit 1: Ethical Theories](#unit-1-ethical-theories): Forest Park Branch (weeks 1–4)
+* [Unit 2: Stories and Histories](#unit-2-stories-and-histories): Milwaukee–Dearborn Subway (weeks 5–8)
+* [Unit 3: Contemporary Issues](#unit-3-contemporary-issues): O’Hare Branch (weeks 9–16)
+{: .unit-links}
 
-- The "read a book" assignment pages are published from `docs/read-a-book/*.md` (each one records the `read-a-book/` file it came from in its front matter). Out-of-class exercise pages work the same way, from `docs/exercises/*.md`.
-- Book gallery covers are self-hosted in `docs/assets/book-cover-cache/`. `books.csv` keeps the original Bookshop URLs as the provenance record; run `python3 docs/fetch-book-covers.py` after adding a book to download its cover and point `books-data.js` at the local copy.
-
-Previewing the site locally:
-
-```bash
-cd docs
-bundle install          # first time only, or after Gemfile changes
-bundle exec jekyll serve # then open http://127.0.0.1:4000
-```
-
-`jekyll serve` rebuilds on save, so edits to `schedule.md`, the layouts, or the CSS show up on refresh. Anything that goes through a build script — the syllabus (`syllabus_source/build.sh`) and the slide decks (`docs/slides/build.sh`) — needs that script run first; Jekyll only serves what those scripts have already written into `docs/`. Add `--port 4011` (or any free port) to run alongside another Jekyll site. Output lands in `docs/_site/`, which is gitignored.
-
-![Trolley to 74181](docs/assets/trolley-to-74181.png)
-The trolley problem is only the beginning.
-
-| Forest Park Branch | Milwaukee–Dearborn Subway | O’Hare Branch |
-|--------|--------|--------|
-| (Unit 1) | (Unit 2) | (Unit 3) |
-| [Week 1](#week-1) | [Week 5](#week-5) | [Week 9](#week-9) |
-| [Week 2](#week-2) | [Week 6](#week-6) | [Week 10](#week-10) |
-| [Week 3](#week-3) | [Week 7](#week-7) | [Week 11](#week-11) |
-| [Week 4](#week-4) | [Week 8](#week-8) | [Week 12](#week-12) |
-|  |  | [Week 13](#week-13) |
-|  |  | [Week 14](#week-14) |
-|  |  | [Week 15](#week-15) |
-
+<div class="rail" markdown="1">
 
 ## Unit 1: Ethical Theories
 
 #### Week 1
-* Monday, January 12, 2026  
+
+Slides: [HTML](slides/week1.html) · [PDF](slides/week1.pdf)
+{: .week-slides}
+
+* Monday, January 12, 2026
   `🟦 Forest Park 🟦`
   * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
-* Wednesday, January 14, 2026  
+* Wednesday, January 14, 2026
   `🟦 Oak Park 🟦`
   * Introduction to Virtue Ethics
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * [Virtue Ethics, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/)
     * [*After Virtue* by Alasdair MacIntyre](https://archive.org/details/isbn_0268006040)
@@ -55,22 +43,30 @@ The trolley problem is only the beginning.
     </details>
 
 #### Week 2
-* Monday, January 19, 2026  
+
+Slides: [HTML](slides/week2.html) · [PDF](slides/week2.pdf)
+{: .week-slides}
+
+* Monday, January 19, 2026
   * Martin Luther King Jr. Day. **No classes.**
-* Wednesday, January 21, 2026  
+* Wednesday, January 21, 2026
   `🟦 Cicero 🟦`
   * Introduction to Deontological Ethics
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
 
     </details>
 
 #### Week 3
-* Monday, January 26, 2026  
+
+Slides: [HTML](slides/week3.html) · [PDF](slides/week3.pdf)
+{: .week-slides}
+
+* Monday, January 26, 2026
   `🟦 Western 🟦`
   * Introduction to Utilitarian Ethics
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Journal Article by Margery Bedford Naylor, [The Moral of the Trolley Problem](https://doi.org/10.2307/2108017)
     * Journal Article by Michael Clark, [Sacrificing One to Save Many](https://www.jstor.org/stable/24354077)
@@ -81,13 +77,13 @@ The trolley problem is only the beginning.
     * "Absurd Trolley Problems" [curated by Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
 
     </details>
-* Wednesday, January 28, 2026  
+* Wednesday, January 28, 2026
   `🟦 Illinois Medical District 🟦`
   * Introduction to Care Ethics
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
-    * The [Porcupine and the Moles](dilemmas/care-ethics-porcupine-and-moles.md)
-    * The [Heinz Dilemma](care-ethics-heinz-dilemma.md)
+    * The [Porcupine and the Moles](dilemmas/care-ethics-porcupine-and-moles/)
+    * The [Heinz Dilemma](dilemmas/care-ethics-heinz-dilemma/)
     * Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/)
     * Encyclopedia Britannica, [Carol Gilligan](https://www.britannica.com/biography/Carol-Gilligan)
     * From "a different voice" to ["a human voice"](https://www.newstatesman.com/culture/books/2023/10/carol-gilligan-gender-binary-human-voice)
@@ -97,10 +93,14 @@ The trolley problem is only the beginning.
     </details>
 
 #### Week 4
-* Monday, February 2, 2026  
+
+Slides: [HTML](slides/week4.html) · [PDF](slides/week4.pdf)
+{: .week-slides}
+
+* Monday, February 2, 2026
   `🟦 Racine 🟦`
   * Review theories of ethics
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
     * (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
@@ -109,12 +109,12 @@ The trolley problem is only the beginning.
       * The [constitution in full](https://www.anthropic.com/constitution)
 
     </details>
-* Wednesday, February 4, 2026  
+* Wednesday, February 4, 2026
   `🟦 UIC-Halsted 🟦`
   * Ethics in Algorithmic Feeds
     * Values in Ranking
     * Content Moderation
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Nick Hopkins, [Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
     * UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
@@ -122,16 +122,19 @@ The trolley problem is only the beginning.
 
     </details>
 
-
-
 ## Unit 2: Stories and Histories
+
 #### Week 5
-* Monday, February 9, 2026  
+
+Slides: [HTML](slides/week5.html) · [PDF](slides/week5.pdf)
+{: .week-slides}
+
+* Monday, February 9, 2026
   `🟦 Clinton 🟦`
   * Algorithmic Feeds and Content Moderation, Continued
   * Intro to Privacy
   * Preview short story ("[Here and Now](https://archive.ph/p7w46)")
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Tarleton Gillespie, [*Custodians of the Internet: platforms, content moderation, and the hidden decisions that shape social media*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf)
     * Tarleton Gillespie, [Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
@@ -140,38 +143,46 @@ The trolley problem is only the beginning.
     * Reddit's [Platform-wide Rules](https://redditinc.com/policies/reddit-rules)
 
     </details>
-* Wednesday, February 11, 2026  
+* Wednesday, February 11, 2026
   `🟦 LaSalle 🟦`
   * Privacy, Continued
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
-    * Nathan Malkin, [Contextual Integrity, Explained:  A More Usable Privacy Definition](https://doi.org/10.1109/MSEC.2022.3201585)
+    * Nathan Malkin, [Contextual Integrity, Explained: A More Usable Privacy Definition](https://doi.org/10.1109/MSEC.2022.3201585)
 
     </details>
 
 #### Week 6
-* Monday, February 16, 2026  
+
+Slides: [HTML](slides/week6.html) · [PDF](slides/week6.pdf)
+{: .week-slides}
+
+* Monday, February 16, 2026
   `🟦 Jackson 🟦`
   * Privacy, Continued
   * Discuss short story ("Here and Now")
   * Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
     * PDF available in Canvas
-* Wednesday, February 18, 2026  
+* Wednesday, February 18, 2026
   `🟦 Monroe 🟦`
   * Dr. Bandy in St. Louis for [SIGCSE](https://sigcse2026.sigcse.org)
   * Asynchronous class to work on exercises
 
 #### Week 7
-* Monday, February 23, 2026  
+
+Slides: [HTML](slides/week7.html) · [PDF](slides/week7.pdf)
+{: .week-slides}
+
+* Monday, February 23, 2026
   `🟦 Washington 🟦`
   * Inequality and Justice
   * Discuss short story ("Message in a Bottle")
   * Preview short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
-* Wednesday, February 25, 2026  
+* Wednesday, February 25, 2026
   `🟦 Clark/Lake 🟦`
   * Inequality and Justice, Continued
   * Faces and Fairness
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
     * [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
@@ -182,13 +193,17 @@ The trolley problem is only the beginning.
     </details>
 
 #### Week 8
-* Monday, March 2, 2026  
+
+Slides: [HTML](slides/week8.html) · [PDF](slides/week8.pdf)
+{: .week-slides}
+
+* Monday, March 2, 2026
   `🟦 Grand 🟦`
   * Computing and War
   * Discuss short story ("Codename Delphi")
   * Preview short story ("[If an Algorithm Can Cast a Shadow](https://clarkesworldmagazine.com/jia-wen_06_25/)")
     * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
     * Ross Andersen, ["Inside Anthropic’s Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/)
@@ -202,11 +217,11 @@ The trolley problem is only the beginning.
     * Juan Pablo Hourcade, ["Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
 
     </details>
-* Wednesday, March 4, 2026  
+* Wednesday, March 4, 2026
   `🟦 Chicago 🟦`
   * Medical and health technologies
   * Intro to CyberSecurity
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
     * California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
@@ -218,14 +233,18 @@ The trolley problem is only the beginning.
 
     </details>
 
-
 ## Unit 3: Contemporary Issues
+
 #### Week 9
-* Monday, March 9, 2026  
+
+Slides: [HTML](slides/week9.html) · [PDF](slides/week9.pdf)
+{: .week-slides}
+
+* Monday, March 9, 2026
   `🟦 Division 🟦`
   * Intro to Ethical Challenges from LLMs
   * Discuss Speculative Fiction Exercise
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * _The Wall Street Journal_, [Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
     * Bender and Gebru et al. [On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
@@ -233,13 +252,13 @@ The trolley problem is only the beginning.
     * Chiang and Zheng et al. [An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=3MW8GKNyzI)
       * [LMArena](https://lmarena.ai/?mode=side-by-side) / [About](https://lmarena.ai/about)
     * [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
-  </details>
 
-* Wednesday, March 11, 2026  
+    </details>
+* Wednesday, March 11, 2026
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
   * Discuss short story ("If an Algorithm Can Cast a Shadow")
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Open to Debate, [Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
     * Casey Newton, [Grammarly turned me into an AI editor against my will and I hate it](https://www.platformer.news/grammarly-expert-review-reviewed/)
@@ -252,76 +271,91 @@ The trolley problem is only the beginning.
 
     </details>
 
-
 #### Week 10
-* Monday, March 16, 2026  
+
+Slides: [HTML](slides/week10.html) · [PDF](slides/week10.pdf)
+{: .week-slides}
+
+* Monday, March 16, 2026
   `🟦 Western 🟦`
   * Intellectual property
-  * <details><summary>Source materials</summary>
+  * <details markdown="1"><summary>Source materials</summary>
 
     * Digital Millenium Copyright Act (DMCA), [Section 1202: Integrity of copyright management information](https://www.law.cornell.edu/uscode/text/17/1202)
     * Ashley Belanger, [OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million.](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/)
     * Matt O'Brien, [Anthropic to pay authors $1.5 billion to settle lawsuit over pirated books used to train AI chatbots](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164)
     * The New York Times’s Complaint against Microsoft and OpenAI, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
 
-  </details>
-* Wednesday, March 18, 2026  
+    </details>
+* Wednesday, March 18, 2026
   `🟦 California 🟦`
   * Intellectual property
 
 #### Week 11
-* Monday, March 23, 2026  
+
+* Monday, March 23, 2026
   * Spring vacation. **No classes**.
-* Wednesday, March 25, 2026  
+* Wednesday, March 25, 2026
   * Spring vacation. **No classes**.
 
 #### Week 12
-* Monday, March 30, 2026  
+
+Slides: [HTML](slides/week12.html) · [PDF](slides/week12.pdf)
+{: .week-slides}
+
+* Monday, March 30, 2026
   `🟦 Logan Square 🟦`
   * "Hooks" and "Nudges" in Design
-  * <details><summary>Source materials</summary>
-    
+  * Presentation Tips
+  * <details markdown="1"><summary>Source materials</summary>
+
     * BJ Fogg, [Persuasive Computers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
     * [Behavior Design Lab](https://behaviordesign.stanford.edu/about-us)
     * Nir Eyal, [Hooked - How to Build Habit-Forming Products](https://www.nirandfar.com/hooked/)
     * Yasmin Samrai, [How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
     * Thomas Mildner, [Cheat Sheet of Dark Design Patterns](https://thomasessmeyer.com/darkpatterns.html)
     * ASCI Academy, [Gallery of "Conscious" Design patterns](https://www.consciouspatterns.in/ethical-gallery)
-  </details>
-  * Presentation Tips
-* Wednesday, April 1, 2026  
+
+    </details>
+* Wednesday, April 1, 2026
   `🟦 Belmont 🟦`
   * Book Presentations
   * Overview of Fairness Definitions Exercise
 
 #### Week 13
-* Monday, April 6, 2026  
+
+* Monday, April 6, 2026
   `🟦 Addison 🟦`
   * Book Presentations
-* Wednesday, April 8, 2026  
+* Wednesday, April 8, 2026
   `🟦 Irving Park 🟦`
   * Book Presentations
 
 #### Week 14
-* Monday, April 13, 2026  
+
+* Monday, April 13, 2026
   `🟦 Montrose 🟦`
   * Book Presentations
-* Wednesday, April 15, 2026  
+* Wednesday, April 15, 2026
   `🟦 Jefferson Park 🟦`
   * Book Presentations
 
 #### Week 15
-* Monday, April 20, 2026  
+
+* Monday, April 20, 2026
   `🟦 Harlem 🟦`
   * Book Presentations
-* Wednesday, April 22, 2026  
+* Wednesday, April 22, 2026
   `🟦 Cumberland 🟦`
   * Book Presentations
 
 #### Week 16
-* Monday, April 27, 2026  
+
+* Monday, April 27, 2026
   `🟦 Rosemont 🟦`
   * Synthesis and conclusions
-* Wednesday, April 29, 2026  
+* Wednesday, April 29, 2026
   `🟦 O'Hare 🟦`
   * Synthesis and conclusions
+
+</div>

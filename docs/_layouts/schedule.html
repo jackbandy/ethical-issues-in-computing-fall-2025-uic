@@ -1,0 +1,40 @@
+<!--
+  Layout for the full-schedule page. The content comes from docs/schedule.md —
+  edit that file, not this one, to change what the schedule says.
+
+  Note: this file was largely written by an LLM (Claude Code).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00A1DE">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>{{ page.title }} — Blue Line Ethics</title>
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Blue Line Ethics">
+  <meta property="og:title" content="{{ page.title }}">
+  {% if page.description %}<meta property="og:description" content="{{ page.description | escape }}">{% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/schedule.css">
+</head>
+<body>
+  {% include site-nav.html nav_current=page.nav_current %}
+
+  <main class="schedule-main">
+    <h1 class="schedule-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="schedule-subtitle">{{ page.subtitle }}</p>{% endif %}
+    <div class="schedule-body">
+      {{ content }}
+    </div>
+  </main>
+
+  {% include masthead.html %}
+  {% include footer.html %}
+</body>
+</html>

@@ -2,10 +2,10 @@
 
 ## GitHub Pages
 - [ ] Seat shuffler needs way to mark absences / empty seats
-- [ ] Book gallery takes too long to load (remote images)
-- [ ] Convert schedule/home page to Jekyll / GitHub Pages
-  - [ ] Add navigation/index for all course materials
-  - [ ] Link PDFs from pages
+- [x] Book gallery takes too long to load (remote images) — covers are now self-hosted in `docs/assets/book-cover-cache/`, fetched by `docs/fetch-book-covers.py`, and the grid lazy-loads
+- [x] Convert schedule/home page to Jekyll / GitHub Pages — `docs/schedule.md` renders at `/schedule.html`
+  - [x] Add navigation/index for all course materials — site menu in `docs/_includes/site-nav.html`
+  - [ ] Link PDFs from pages — slide PDFs and the syllabus PDF are linked; worksheet/dilemma PDFs are not
   - [ ] Verify source materials
 
 ## LaTeX Versions of Existing PDFs
@@ -20,21 +20,22 @@ Convert the PDFs to have markdown/LaTeX source files (similar to syllabus):
 
 ## Out-of-Class Exercises
 - [ ] Create pages for exercises that only exist as markdown:
-  - [ ] `02-online-account-biopsy.md`
-  - [ ] `03-online-account-rag-doll.md`
-  - [ ] `04-speculative-fiction.md`
-  - [ ] `05-fairness-definition.md`
-  - [ ] `06-personal-commitments.md`
+  - [x] `02-online-account-biopsy.md`
+  - [x] `03-online-account-rag-doll.md`
+  - [x] `04-speculative-fiction.md`
+  - [x] `05-fairness-definition.md`
+  - [x] `06-personal-commitments.md`
   - [ ] `07-automated-decisions.md`
 
 ## Read-a-Book Materials
 - [ ] Update book gallery
-- [ ] Create pages for read-a-book markdown files:
-  - [ ] `01-select-a-book.md`
-  - [ ] `02-book-report.md`
-  - [ ] `03-book-presentation.md`
-  - [ ] `04-public-communication.md`
-  - [ ] `05-read-the-book.md`
+- [ ] Update prompts for book assignments
+- [x] Create pages for read-a-book markdown files — published at `/read-a-book/`, sources in `docs/read-a-book/`:
+  - [x] `01-select-a-book.md`
+  - [x] `02-book-report.md`
+  - [x] `03-book-presentation.md`
+  - [x] `04-public-communication.md`
+  - [x] `05-read-the-book.md`
 
 ## Slides
 - [x] Fix timer embed in slides - added `data-external="1"` to the iframe in `week0.md`; Quarto skips embedding it and loads from jackbandy.com directly

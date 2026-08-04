@@ -6,9 +6,10 @@
 <meta charset="UTF-8">
 <title>Book Gallery - Student Selections for Ethical Issues in Computing</title>
 <link rel="stylesheet" href="books.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
 </head>
 <body>
-{% include masthead.html %}
+{% include site-nav.html nav_current="books" %}
 <div class="top-bar">
   <h1>Book Gallery – Ethical Issues in Computing</h1>
   <button onclick="shuffleBooks()">🔀 Shuffle</button>
@@ -24,6 +25,8 @@
 </div>
 
 <script src="books-data.js"></script>
+
+{% include masthead.html %}
 
 <div class="footnotes">
   <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
@@ -42,7 +45,7 @@ function renderGallery(bookList) {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <img src="${book.Image}" alt="${book.Title}">
+      <img src="${book.Image}" alt="${book.Title}" loading="lazy">
       <h3>${book.Title}</h3>
       <p>${book.Author}</p>
     `;

@@ -9,7 +9,7 @@ const books = [
     Author: "Joy Buolamwini",
     ISBN: "9780593241837",
     Link: "https://bookshop.org/p/books/unmasking-ai-a-story-of-hope-and-justice-in-a-world-of-algorithms-joy-buolamwini/20010838?ean=9780593241844",
-    Image: "https://images-us.bookshop.org/ingram/9780593241844.jpg?height=500&v=v2-3af71f0ecb94b12d8f377e16e7a299df",
+    Image: "assets/book-cover-cache/9780593241837.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -25,7 +25,7 @@ const books = [
     Author: "Siddharth Kara",
     ISBN: "9781250322159",
     Link: "https://bookshop.org/p/books/cobalt-red-how-the-blood-of-the-congo-powers-our-lives-siddharth-kara/18411025?ean=9781250322159",
-    Image: "https://images-us.bookshop.org/ingram/9781250322159.jpg?height=500&v=v2-d313fec179460fd37e88bda775b0ffb4",
+    Image: "assets/book-cover-cache/9781250322159.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -41,7 +41,7 @@ const books = [
     Author: "Karen Hao",
     ISBN: "9780593657508",
     Link: "https://bookshop.org/p/books/empire-of-ai-dreams-and-nightmares-in-sam-altman-s-openai-karen-hao/22156498?ean=9780593657508",
-    Image: "https://images-us.bookshop.org/ingram/9780593657508.jpg?height=500&v=v2-58322673ac904ac76869519a5910af4c",
+    Image: "assets/book-cover-cache/9780593657508.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -57,7 +57,7 @@ const books = [
     Author: "Sherry Turkle",
     ISBN: "9780465093656",
     Link: "https://bookshop.org/search?keywords=9780465093656",
-    Image: "https://images-us.bookshop.org/ingram/9780465093656.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780465093656.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -73,7 +73,7 @@ const books = [
     Author: "Chris Bail",
     ISBN: "9780691203423",
     Link: "https://bookshop.org/search?keywords=9780691203423",
-    Image: "https://images-us.bookshop.org/ingram/9780691203423.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780691203423.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -89,7 +89,7 @@ const books = [
     Author: "Neil Postman and Andrew Postman",
     ISBN: "9780143036531",
     Link: "https://bookshop.org/p/books/amusing-ourselves-to-death-public-discourse-in-the-age-of-show-business-neil-postman/6781325?ean=9780143036531",
-    Image: "https://images-us.bookshop.org/ingram/9780143036531.jpg?height=500&v=v2-c7d5465cc6e0031b506bae12ee7768bb",
+    Image: "assets/book-cover-cache/9780143036531.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -105,7 +105,7 @@ const books = [
     Author: "Cal Newport",
     ISBN: "9780525536512",
     Link: "https://bookshop.org/p/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world-cal-newport/12081448?ean=9780525536512",
-    Image: "https://images-us.bookshop.org/ingram/9780525536512.jpg?height=500&v=v2-e2220c4f0251619e7025bddcce051139",
+    Image: "assets/book-cover-cache/9780525536512.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -121,7 +121,7 @@ const books = [
     Author: "Nicholas Carr",
     ISBN: "9780393357820",
     Link: "https://bookshop.org/p/books/the-shallows-what-the-internet-is-doing-to-our-brains-nicholas-carr/15563044?ean=9780393357820",
-    Image: "https://images-us.bookshop.org/ingram/9780393357820.jpg?height=500&v=v2-8e1c1d03c07d41f894d11e6667bb33bc",
+    Image: "assets/book-cover-cache/9780393357820.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -137,7 +137,7 @@ const books = [
     Author: "Richard K. Morgan",
     ISBN: "9780345457684",
     Link: "https://bookshop.org/search?keywords=9780345457684",
-    Image: "https://images-us.bookshop.org/ingram/9780345457684.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780345457684.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -153,7 +153,7 @@ const books = [
     Author: "Bruce Schneier",
     ISBN: "9781324074533",
     Link: "https://bookshop.org/search?keywords=9781324074533",
-    Image: "https://images-us.bookshop.org/ingram/9781324074533.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781324074533.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -169,7 +169,7 @@ const books = [
     Author: "Robert E. Burns",
     ISBN: "9781610273763",
     Link: "https://bookshop.org/search?keywords=9781610273763",
-    Image: "https://images-us.bookshop.org/ingram/9781610273763.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781610273763.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -185,7 +185,7 @@ const books = [
     Author: "Daniel H. Wilson",
     ISBN: "9780307949103",
     Link: "https://bookshop.org/search?keywords=9780307949103",
-    Image: "https://images-us.bookshop.org/ingram/9780307949103.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780307949103.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -201,7 +201,7 @@ const books = [
     Author: "Adam Alter",
     ISBN: "9780735222847",
     Link: "https://bookshop.org/search?keywords=9780735222847",
-    Image: "https://images-us.bookshop.org/ingram/9780735222847.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780735222847.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -217,7 +217,7 @@ const books = [
     Author: "David J. Gunkel",
     ISBN: "9780262304511",
     Link: "https://bookshop.org/search?keywords=9780262304511",
-    Image: "https://images-us.bookshop.org/ingram/9780262304511.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780262304511.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
        {
@@ -233,7 +233,7 @@ const books = [
     Author: "Kazuo Ishiguro",
     ISBN: "9780593318188",
     Link: "https://bookshop.org/search?keywords=9780593318188",
-    Image: "https://images-us.bookshop.org/ingram/9780593318188.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780593318188.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -249,7 +249,7 @@ const books = [
     Author: "Paul Kalanithi",
     ISBN: "9780812988413",
     Link: "https://bookshop.org/search?keywords=9780812988413",
-    Image: "https://images-us.bookshop.org/ingram/9780812988413.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780812988413.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -265,7 +265,7 @@ const books = [
     Author: "George Orwell",
     ISBN: "9780452262935",
     Link: "https://bookshop.org/search?keywords=9780452262935",
-    Image: "https://images-us.bookshop.org/ingram/9780452262935.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780452262935.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -281,7 +281,7 @@ const books = [
     Author: "Max Fisher",
     ISBN: "9780316703307",
     Link: "https://bookshop.org/search?keywords=9780316703307",
-    Image: "https://images-us.bookshop.org/ingram/9780316703307.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780316703307.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -297,7 +297,7 @@ const books = [
     Author: "Adam Aleksic",
     ISBN: "9780593804087",
     Link: "https://bookshop.org/search?keywords=9780593804087",
-    Image: "https://images-us.bookshop.org/ingram/9780593804087.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780593804087.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -313,7 +313,7 @@ const books = [
     Author: "Neal Stephenson",
     ISBN: "9780553898194",
     Link: "https://bookshop.org/search?keywords=9780553898194",
-    Image: "https://images-us.bookshop.org/ingram/9780553898194.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780553898194.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -329,7 +329,7 @@ const books = [
     Author: "C. J. Farley",
     ISBN: "9780063418660",
     Link: "https://bookshop.org/search?keywords=9780063418660",
-    Image: "https://images-us.bookshop.org/ingram/9780063418660.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780063418660.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -345,7 +345,7 @@ const books = [
     Author: "Charles Stross",
     ISBN: "9781101208472",
     Link: "https://bookshop.org/search?keywords=9781101208472",
-    Image: "https://images-us.bookshop.org/ingram/9781101208472.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781101208472.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -361,7 +361,7 @@ const books = [
     Author: "Cory Doctorow",
     ISBN: "9781804292143",
     Link: "https://bookshop.org/p/books/the-internet-con-how-to-seize-the-means-of-computation-cory-doctorow/18771891?ean=9781804292143",
-    Image: "https://images-us.bookshop.org/ingram/9781804292143.jpg?height=500&v=v2-51a8e25efb2e0954626ea1677d11059c",
+    Image: "assets/book-cover-cache/9781804292143.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -377,7 +377,7 @@ const books = [
     Author: "Scott Westerfeld",
     ISBN: "9781442419810",
     Link: "https://bookshop.org/search?keywords=9781442419810",
-    Image: "https://images-us.bookshop.org/ingram/9781442419810.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781442419810.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -393,7 +393,7 @@ const books = [
     Author: "Carol Gilligan",
     ISBN: "9780674970960",
     Link: "https://bookshop.org/search?keywords=9780674970960",
-    Image: "https://images-us.bookshop.org/ingram/9780674970960.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780674970960.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -409,7 +409,7 @@ const books = [
     Author: "Brian Christian",
     ISBN: "9780393635836",
     Link: "https://bookshop.org/search?keywords=9780393635836",
-    Image: "https://images-us.bookshop.org/ingram/9780393635836.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780393635836.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -425,7 +425,7 @@ const books = [
     Author: "James Muldoon",
     ISBN: "9780745346953",
     Link: "https://bookshop.org/search?keywords=9780745346953",
-    Image: "https://images-us.bookshop.org/ingram/9780745346953.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780745346953.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -441,7 +441,7 @@ const books = [
     Author: "Rick Rubin",
     ISBN: "9780593653425",
     Link: "https://bookshop.org/search?keywords=9780593653425",
-    Image: "https://images-us.bookshop.org/ingram/9780593653425.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780593653425.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       {
@@ -457,7 +457,7 @@ const books = [
     Author: "Kevin Mitnick and William L. Simon",
     ISBN: "9780316037723",
     Link: "https://bookshop.org/search?keywords=9780316037723",
-    Image: "https://images-us.bookshop.org/ingram/9780316037723.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780316037723.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -473,7 +473,7 @@ const books = [
     Author: "Beena Ammanath",
     ISBN: "9781119867920",
     Link: "https://bookshop.org/search?keywords=9781119867920",
-    Image: "https://images-us.bookshop.org/ingram/9781119867920.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781119867920.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -489,7 +489,7 @@ const books = [
     Author: "Harlan Ellison",
     ISBN: "9781454969280",
     Link: "https://bookshop.org/search?keywords=9781454969280",
-    Image: "https://images-us.bookshop.org/ingram/9781454969280.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781454969280.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -505,7 +505,7 @@ const books = [
     Author: "Timothy Henry and Sara Baase",
     ISBN: "9780134615271",
     Link: "https://bookshop.org/p/books/a-gift-of-fire-social-legal-and-ethical-issues-for-computing-technology-timothy-henry/9446498?ean=9780134615271",
-    Image: "https://images-us.bookshop.org/ingram/9780134615271.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780134615271.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -521,7 +521,7 @@ const books = [
     Author: "Natasha Dow Sch\u00fcll",
     ISBN: "9780691160887",
     Link: "https://bookshop.org/p/books/addiction-by-design-machine-gambling-in-las-vegas-natasha-dow-schull/8970988?ean=9780691160887",
-    Image: "https://images-us.bookshop.org/ingram/9780691160887.jpg?height=500&v=v2-3b6baf93e1753354aa729a78344df1b7",
+    Image: "assets/book-cover-cache/9780691160887.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -537,7 +537,7 @@ const books = [
     Author: "Kai-Fu Lee and Chen Qiufan",
     ISBN: "9780593238318",
     Link: "https://bookshop.org/p/books/ai-2041-ten-visions-for-our-future-kai-fu-lee/15911526?ean=9780593238318",
-    Image: "https://images-us.bookshop.org/ingram/9780593238318.jpg?height=500&v=v2-9b50a89a985d2bbcd45af70c7e20551a",
+    Image: "assets/book-cover-cache/9780593238318.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -553,7 +553,7 @@ const books = [
     Author: "Sayash Kapoor and Arvind Narayanan",
     ISBN: "9780691249148",
     Link: "https://bookshop.org/p/books/ai-snake-oil-what-artificial-intelligence-can-do-what-it-can-t-and-how-to-tell-the-difference-arvind-narayanan/21324674?ean=9780691249148",
-    Image: "https://images-us.bookshop.org/ingram/9780691249148.jpg?height=500&v=v2-ef5d757aa9ceec699f9da5cb493fb9c1",
+    Image: "assets/book-cover-cache/9780691249148.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -569,7 +569,7 @@ const books = [
     Author: "Safiya Umoja Noble",
     ISBN: "9781479837243",
     Link: "https://bookshop.org/p/books/algorithms-of-oppression-how-search-engines-reinforce-racism-safiya-umoja-noble/966821?ean=9781479837243",
-    Image: "https://images-us.bookshop.org/ingram/9781479837243.jpg?height=500&v=v2-3512467cb0fa5407dbfec0b29d68874f",
+    Image: "assets/book-cover-cache/9781479837243.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -585,7 +585,7 @@ const books = [
     Author: "Tom Griffiths and Brian Christian",
     ISBN: "9781250118363",
     Link: "https://bookshop.org/p/books/algorithms-to-live-by-the-computer-science-of-human-decisions-tom-griffiths/230238?ean=9781250118363",
-    Image: "https://images-us.bookshop.org/ingram/9781250118363.jpg?height=500&v=v2-4ae616b6ea5d3fc72146bbffa0ea898a",
+    Image: "assets/book-cover-cache/9781250118363.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -601,7 +601,7 @@ const books = [
     Author: "Martha Wells",
     ISBN: "9780765397539",
     Link: "https://bookshop.org/p/books/all-systems-red-martha-wells/7104100?ean=9780765397539",
-    Image: "https://images-us.bookshop.org/ingram/9780765397539.jpg?height=500&v=v2-f65a450467e18ffba3d7ae555786acbf",
+    Image: "assets/book-cover-cache/9780765397539.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       {
@@ -622,7 +622,7 @@ const books = [
     Author: "Kate Crawford",
     ISBN: "9780300264630",
     Link: "https://bookshop.org/p/books/atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial-intelligence-kate-crawford/17465404?ean=9780300264630",
-    Image: "https://images-us.bookshop.org/ingram/9780300264630.jpg?height=500&v=v2-b383bd51a9084bc667ae28bf97822552",
+    Image: "assets/book-cover-cache/9780300264630.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -638,7 +638,7 @@ const books = [
     Author: "Aaron Benanav",
     ISBN: "9781839761324",
     Link: "https://bookshop.org/p/books/automation-and-the-future-of-work-aaron-benanav/14654313?ean=9781839761324",
-    Image: "https://images-us.bookshop.org/ingram/9781839761324.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781839761324.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -654,7 +654,7 @@ const books = [
     Author: "Madhumita Murgia",
     ISBN: "9781250867391",
     Link: "https://bookshop.org/p/books/code-dependent-our-lives-with-algorithms-madhumita-murgia/19995380?ean=9781250867391",
-    Image: "https://images-us.bookshop.org/ingram/9781250867391.jpg?height=500&v=v2-61b7cfec704afeb1e11573ec9fc369d5",
+    Image: "assets/book-cover-cache/9781250867391.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -670,7 +670,7 @@ const books = [
     Author: "H\u00e9ctor Beltr\u00e1n",
     ISBN: "9780691245041",
     Link: "https://bookshop.org/p/books/code-work-hacking-across-the-us-mexico-techno-borderlands-hector-beltran/19947891?ean=9780691245041",
-    Image: "https://images-us.bookshop.org/ingram/9780691245041.jpg?height=500&v=v2-44f9f3d73fdb9bb43dbedf3dd1faea11",
+    Image: "assets/book-cover-cache/9780691245041.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -686,7 +686,7 @@ const books = [
     Author: "Eric Schlosser",
     ISBN: "9780143125785",
     Link: "https://bookshop.org/p/books/command-and-control-nuclear-weapons-the-damascus-accident-and-the-illusion-of-safety-eric-schlosser/6676064?ean=9780143125785",
-    Image: "https://images-us.bookshop.org/ingram/9780143125785.jpg?height=500&v=v2-17d15bed5efbf187a07f2165d9c3e2ff",
+    Image: "assets/book-cover-cache/9780143125785.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -702,7 +702,7 @@ const books = [
     Author: "Kim Zetter",
     ISBN: "9780770436193",
     Link: "https://bookshop.org/p/books/countdown-to-zero-day-stuxnet-and-the-launch-of-the-world-s-first-digital-weapon-kim-zetter/7650650?ean=9780770436193",
-    Image: "https://images-us.bookshop.org/ingram/9780770436193.jpg?height=500&v=v2-908f1e101179113ddbfecff88ac4d8b2",
+    Image: "assets/book-cover-cache/9780770436193.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -718,7 +718,7 @@ const books = [
     Author: "Bruce Schneier",
     ISBN: "9780393352177",
     Link: "https://bookshop.org/p/books/data-and-goliath-the-hidden-battles-to-collect-your-data-and-control-your-world-bruce-schneier/8771636?ean=9780393352177",
-    Image: "https://images-us.bookshop.org/ingram/9780393352177.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780393352177.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -734,7 +734,7 @@ const books = [
     Author: "Catherine D'Ignazio and Lauren F. Klein",
     ISBN: "9780262547185",
     Link: "https://bookshop.org/p/books/data-feminism-lauren-f-klein/13050994?ean=9780262547185",
-    Image: "https://images-us.bookshop.org/ingram/9780262547185.jpg?height=500&v=v2-beac2e16af66c276bd83fc8e247c4cbc",
+    Image: "assets/book-cover-cache/9780262547185.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -750,7 +750,7 @@ const books = [
     Author: "Kris Shaffer",
     ISBN: "9781484245392",
     Link: "https://bookshop.org/p/books/data-versus-democracy-how-big-data-algorithms-shape-opinions-and-alter-the-course-of-history-kris-shaffer/8862690?ean=9781484245392",
-    Image: "https://images-us.bookshop.org/ingram/9781484245392.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781484245392.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -766,7 +766,7 @@ const books = [
     Author: "Robert W. McChesney",
     ISBN: "9781620970317",
     Link: "https://bookshop.org/p/books/digital-disconnect-how-capitalism-is-turning-the-internet-against-democracy-robert-w-mcchesney/594496?ean=9781620970317",
-    Image: "https://images-us.bookshop.org/ingram/9781620970317.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781620970317.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -782,7 +782,7 @@ const books = [
     Author: "Gerard O'Regan",
     ISBN: "9783031526633",
     Link: "https://bookshop.org/p/books/ethical-and-legal-aspects-of-computing-a-professional-perspective-from-software-engineering-2024-gerard-o-regan/20985526?ean=9783031526633",
-    Image: "https://images-us.bookshop.org/ingram/9783031526633.jpg?height=500&v=v2-a3f5f385e970f93e71fefaecd15643c8",
+    Image: "assets/book-cover-cache/9783031526633.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -798,7 +798,7 @@ const books = [
     Author: "Taylor Lorenz",
     ISBN: "9781982146870",
     Link: "https://bookshop.org/p/books/extremely-online-the-untold-story-of-fame-influence-and-power-on-the-internet-taylor-lorenz/19718842?ean=9781982146870",
-    Image: "https://images-us.bookshop.org/ingram/9781982146870.jpg?height=500&v=v2-a160420cd941e665c1a751541612e4a3",
+    Image: "assets/book-cover-cache/9781982146870.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -814,7 +814,7 @@ const books = [
     Author: "Ray Bradbury",
     ISBN: "9781451673319",
     Link: "https://bookshop.org/p/books/fahrenheit-451-ray-d-bradbury/18152942?ean=9781451673319",
-    Image: "https://images-us.bookshop.org/ingram/9781451673319.jpg?height=500&v=v2-dc65e30376a0b848ad515d65993e1aed",
+    Image: "assets/book-cover-cache/9781451673319.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -830,7 +830,7 @@ const books = [
     Author: "Daniel Keyes",
     ISBN: "9780156030304",
     Link: "https://bookshop.org/p/books/flowers-for-algernon-daniel-keyes/6683258?ean=9780156030304",
-    Image: "https://images-us.bookshop.org/ingram/9780156030304.jpg?height=500&v=v2-908ea7c6953b52a6a0dda40027640be4",
+    Image: "assets/book-cover-cache/9780156030304.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -846,7 +846,7 @@ const books = [
     Author: "Jill Lepore",
     ISBN: "9781324091127",
     Link: "https://bookshop.org/p/books/if-then-how-the-simulmatics-corporation-invented-the-future-jill-lepore/14327786?ean=9781324091127",
-    Image: "https://images-us.bookshop.org/ingram/9781324091127.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781324091127.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -862,7 +862,7 @@ const books = [
     Author: "Jean M. Twenge",
     ISBN: "9781501152016",
     Link: "https://bookshop.org/p/books/igen-why-today-s-super-connected-kids-are-growing-up-less-rebellious-more-tolerant-less-happy-and-completely-unprepared-jean-m-twenge/6690796?ean=9781501152016",
-    Image: "https://images-us.bookshop.org/ingram/9781501152016.jpg?height=500&v=v2-6cc34e832703a6c943c682ebf500a4a4",
+    Image: "assets/book-cover-cache/9781501152016.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -878,7 +878,7 @@ const books = [
     Author: "Max Tegmark",
     ISBN: "9781101970317",
     Link: "https://bookshop.org/p/books/life-3-0-being-human-in-the-age-of-artificial-intelligence-max-tegmark/7482820?ean=9781101970317",
-    Image: "https://images-us.bookshop.org/ingram/9781101970317.jpg?height=500&v=v2-6cb92d5fd4289b2160ef8bf9ca3a4191",
+    Image: "assets/book-cover-cache/9781101970317.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -894,7 +894,7 @@ const books = [
     Author: "P. W. Singer and Emerson T Brooking",
     ISBN: "9780358108474",
     Link: "https://bookshop.org/p/books/likewar-the-weaponization-of-social-media-p-w-singer/6961043?ean=9780358108474",
-    Image: "https://images-us.bookshop.org/ingram/9780358108474.jpg?height=500&v=v2-4faa76c96ff8c1558d16a273ad8e5a51",
+    Image: "assets/book-cover-cache/9780358108474.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -910,7 +910,7 @@ const books = [
     Author: "Joan Donovan, Emily Dreyfuss, et al.",
     ISBN: "9781635578638",
     Link: "https://bookshop.org/p/books/meme-wars-the-untold-story-of-the-online-battles-upending-democracy-in-america-joan-donovan/17875088?ean=9781635578638",
-    Image: "https://images-us.bookshop.org/ingram/9781635578638.jpg?height=500&v=v2-d6f6c37394fd3fe3319066bf2a5fa0f5",
+    Image: "assets/book-cover-cache/9781635578638.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -926,7 +926,7 @@ const books = [
     Author: "Meredith Broussard",
     ISBN: "9780262548328",
     Link: "https://bookshop.org/p/books/more-than-a-glitch-confronting-race-gender-and-ability-bias-in-tech-meredith-broussard/20870739?ean=9780262548328",
-    Image: "https://images-us.bookshop.org/ingram/9780262548328.jpg?height=500&v=v2-fe8905a47d6aacce2511e32f03a352f6",
+    Image: "assets/book-cover-cache/9780262548328.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -942,7 +942,7 @@ const books = [
     Author: "William Gibson",
     ISBN: "9780441007462",
     Link: "https://bookshop.org/p/books/neuromancer-william-gibson/7503287?ean=9780441007462",
-    Image: "https://images-us.bookshop.org/ingram/9780441007462.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780441007462.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -958,7 +958,7 @@ const books = [
     Author: "Ernest Cline",
     ISBN: "9780307887443",
     Link: "https://bookshop.org/p/books/ready-player-one-ernest-cline/228873?ean=9780307887443",
-    Image: "https://images-us.bookshop.org/ingram/9780307887443.jpg?height=500&v=v2-dad53e23bfdc141ee88cdb4798534045",
+    Image: "assets/book-cover-cache/9780307887443.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -974,7 +974,7 @@ const books = [
     Author: "Sara Wachter-Boettcher",
     ISBN: "9780393356045",
     Link: "https://bookshop.org/p/books/technically-wrong-sexist-apps-biased-algorithms-and-other-threats-of-toxic-tech-sara-wachter-boettcher/11186625?ean=9780393356045",
-    Image: "https://images-us.bookshop.org/ingram/9780393356045.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780393356045.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -990,7 +990,7 @@ const books = [
     Author: "Emily M. Bender and Alex Hanna",
     ISBN: "9780063418561",
     Link: "https://bookshop.org/p/books/the-ai-con-how-to-fight-big-tech-s-hype-and-create-the-future-we-want-alex-hanna/22044744?ean=9780063418561",
-    Image: "https://images-us.bookshop.org/ingram/9780063418561.jpg?height=500&v=v2-4bdfd16707e1d28d8c04ea12ba6c83b5",
+    Image: "assets/book-cover-cache/9780063418561.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1006,7 +1006,7 @@ const books = [
     Author: "Shannon Vallor",
     ISBN: "9780197759066",
     Link: "https://bookshop.org/p/books/the-ai-mirror-how-to-reclaim-our-humanity-in-an-age-of-machine-thinking-shannon-vallor/20842432?ean=9780197759066",
-    Image: "https://images-us.bookshop.org/ingram/9780197759066.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780197759066.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1022,7 +1022,7 @@ const books = [
     Author: "Hilke Schellmann",
     ISBN: "9780306827341",
     Link: "https://bookshop.org/p/books/the-algorithm-how-ai-decides-who-get-hired-monitored-promoted-and-fired-and-why-we-need-to-fight-back-now-hilke-schellmann/20055224?ean=9780306827341",
-    Image: "https://images-us.bookshop.org/ingram/9780306827341.jpg?height=500&v=v2-d712839470cb3c2eb104e71cef298606",
+    Image: "assets/book-cover-cache/9780306827341.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1038,7 +1038,7 @@ const books = [
     Author: "Neal Stephenson",
     ISBN: "9780553380965",
     Link: "https://bookshop.org/p/books/the-diamond-age-or-a-young-lady-s-illustrated-primer-neal-stephenson/8466804?ean=9780553380965",
-    Image: "https://images-us.bookshop.org/ingram/9780553380965.jpg?height=500&v=v2-c041df464430345e0f9335f3e293d585",
+    Image: "assets/book-cover-cache/9780553380965.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1054,7 +1054,7 @@ const books = [
     Author: "Michael Kearns and Aaron Roth",
     ISBN: "9780190948207",
     Link: "https://bookshop.org/p/books/the-ethical-algorithm-the-science-of-socially-aware-algorithm-design-michael-kearns/11705689?ean=9780190948207",
-    Image: "https://images-us.bookshop.org/ingram/9780190948207.jpg?height=500&v=v2-6d02da94294b0595b0f5facd0532abc2",
+    Image: "assets/book-cover-cache/9780190948207.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1070,7 +1070,7 @@ const books = [
     Author: "Nicholas Carr",
     ISBN: "9780393351637",
     Link: "https://bookshop.org/p/books/the-glass-cage-how-our-computers-are-changing-us-nicholas-carr/8769635?ean=9780393351637",
-    Image: "https://images-us.bookshop.org/ingram/9780393351637.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780393351637.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1086,7 +1086,7 @@ const books = [
     Author: "Erik J. Larson",
     ISBN: "9780674278660",
     Link: "https://bookshop.org/p/books/the-myth-of-artificial-intelligence-why-computers-can-t-think-the-way-we-do-erik-j-larson/18467605?ean=9780674278660",
-    Image: "https://images-us.bookshop.org/ingram/9780674278660.jpg?height=500&v=v2-a2b0f99387e02160d7d276c3b9dec6ac",
+    Image: "assets/book-cover-cache/9780674278660.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1102,7 +1102,7 @@ const books = [
     Author: "Dee Lanier and Ken Shelton",
     ISBN: "9798990840508",
     Link: "https://bookshop.org/p/books/the-promises-and-perils-of-ai-in-education-ethics-and-equity-have-entered-the-chat-ken-shelton/22161072?ean=9798990840508",
-    Image: "https://images-us.bookshop.org/ingram/9798990840508.jpg?height=500&v=v2-4266c395fc4cd7a5227723ba63ac581d",
+    Image: "assets/book-cover-cache/9798990840508.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1118,7 +1118,7 @@ const books = [
     Author: "Tarleton Gillespie",
     ISBN: "9780300261431",
     Link: "https://bookshop.org/p/books/custodians-of-the-internet-platforms-content-moderation-and-the-hidden-decisions-that-shape-social-media-tarleton-gillespie/ebca8ee6033c0f53?ean=9780300261431",
-    Image: "https://images-us.bookshop.org/ingram/9780300261431.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780300261431.jpg",
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1134,7 +1134,7 @@ const books = [
     Author: "Cory Doctorow",
     ISBN: "9780374619329",
     Link: "https://bookshop.org/p/books/enshittification-why-everything-suddenly-got-worse-and-what-to-do-about-it-cory-doctorow/d3f8483b158906ce?ean=9780374619329",
-    Image: "https://images-us.bookshop.org/ingram/9780374619329.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9780374619329.jpg",
     reviews: [
       {
         reviewer: "Jack Bandy",
@@ -1155,7 +1155,7 @@ const books = [
     Author: "Steve Portigal",
     ISBN: "9781933820347",
     Link: "https://bookshop.org/p/books/doorbells-danger-and-dead-batteries-user-research-war-stories-steve-portigal/ade90384212ba5d0?ean=9781933820347&next=t",
-    Image: "https://images-us.bookshop.org/ingram/9781933820347.jpg?height=500&v=v2",
+    Image: "assets/book-cover-cache/9781933820347.jpg",
     reviews: [
       {
         reviewer: "Trenton Coleman",

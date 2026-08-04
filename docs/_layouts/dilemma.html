@@ -10,9 +10,10 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/dilemmas.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
 </head>
 <body class="dilemma-page">
-  {% include masthead.html %}
+  {% include site-nav.html nav_current="dilemmas" %}
 
   <main class="dilemma-detail-main">
     <p class="dilemma-breadcrumb"><a href="{{ site.baseurl }}/dilemmas/">&larr; All dilemmas</a></p>
@@ -24,6 +25,7 @@
     </article>
   </main>
 
+  {% include masthead.html %}
   {% include footer.html %}
 
   <script>

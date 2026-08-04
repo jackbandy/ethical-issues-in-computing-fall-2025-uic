@@ -1,0 +1,114 @@
+/* Styles for docs/_includes/site-nav.html. Kept separate from index.css so
+   pages that bring their own stylesheet (the generated syllabus, the timer) can
+   wear the header alone. The @font-face is repeated from index.css for that
+   reason; same URL, so the browser still fetches the file once.
+
+   Note: this file was largely written by an LLM (Claude Code). */
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('../assets/fonts/libre-franklin/LibreFranklin.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CTA Blue Line: #00A1DE. `margin: 0` is load-bearing, not redundant: index.css
+   zeroes it via a `*` reset, but pages without that reset would otherwise show
+   the browser's default `hr` margin and push the header down. Every rule below
+   likewise avoids inheriting from the host page, so the header renders
+   identically wherever it is included. */
+.blue-line {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  height: 12px;
+  background-color: #00A1DE;
+  display: block;
+  width: 100%;
+}
+
+.site-masthead {
+  box-sizing: border-box;
+  max-width: 700px;
+  margin: 48px auto;
+  padding: 0 24px;
+}
+
+.site-masthead h1 {
+  font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #222;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.site-masthead h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #555;
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 3px solid transparent;
+}
+
+.site-nav a:hover {
+  color: #00A1DE;
+}
+
+/* Arrow-out-of-box icon for links that leave the page (the timer opens in its
+   own tab). Drawn as a mask rather than a background so it inherits the link's
+   current color. */
+.site-nav a.is-external::after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-left: 5px;
+  vertical-align: middle;
+  opacity: 0.7;
+  background-color: currentColor;
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M6 1h5v5L8.5 3.5 4.8 7.2 3.8 6.2l3.7-3.7z"/><path d="M2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/></svg>') no-repeat center / contain;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M6 1h5v5L8.5 3.5 4.8 7.2 3.8 6.2l3.7-3.7z"/><path d="M2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/></svg>') no-repeat center / contain;
+}
+
+.site-nav a[aria-current="page"] {
+  color: #222;
+  border-bottom-color: #00A1DE;
+}
+
+@media (max-width: 640px) {
+  .site-masthead {
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .site-masthead h1 {
+    font-size: 34px;
+  }
+}
+
+@media print {
+  .site-nav {
+    display: none;
+  }
+}

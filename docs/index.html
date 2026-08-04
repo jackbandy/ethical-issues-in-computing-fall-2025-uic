@@ -20,13 +20,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://doethics.fun/assets/blue-line-full-path.png">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/site-nav.css">
 </head>
 <body>
-  <hr class="blue-line">
-  <div class="container">
-    <h1><a href="{{ site.baseurl }}/">Ethical Issues in Computing (CS 377)</a></h1>
-  </div>
-  <hr class="blue-line">
+  {% include site-nav.html nav_current="home" %}
   <div class="container">
     <div class="sign">
       <div class="sign-top">
@@ -40,9 +37,9 @@
     <p class="sign-detail">I'm working on this for Fall 2026. Previously this was a bunch of markdown files, and I want to make it a more coherent, navigable site. The Book Gallery is functional and accessible below, and the "seat shuffler" is also usable.</p>
     <h2>Materials</h2>
     <ul class="sources">
+      <li><a href="schedule.html">Full Schedule</a></li>
       <li><a href="syllabus/">Syllabus (HTML)</a></li>
       <li><a href="syllabus/syllabus.pdf">Syllabus (PDF)</a></li>
-      <li><a href="slides/">Slides</a></li>
       <li><a href="books.html">Book Gallery</a></li>
       <li><a href="dilemmas/">Dilemmas</a></li>
       <li><a href="in-progress/visual-seat-shuffle.html">Visual Seat Shuffle</a></li>
@@ -56,6 +53,14 @@
       <li><a href="exercises/speculative-fiction.html">Exercise 4: Speculative Fiction</a></li>
       <li><a href="exercises/fairness-definition.html">Exercise 5: Fairness Definition</a></li>
       <li><a href="exercises/personal-commitments.html">Exercise 6: Personal Commitment</a></li>
+    </ul>
+    <h2><a href="read-a-book/">Read a Book</a></h2>
+    <ul class="sources">
+      <li><a href="read-a-book/select-a-book.html">Part 1: Select a Book to Read!</a></li>
+      <li><a href="read-a-book/book-report.html">Part 2: Book Report</a></li>
+      <li><a href="read-a-book/book-presentation.html">Part 3: Book Presentation</a></li>
+      <li><a href="read-a-book/public-communication.html">Part 4: Public Communication (Your "Unessay")</a></li>
+      <li><a href="read-a-book/read-the-book.html">Part 5: Read the Book</a></li>
     </ul>
   </div>
   {% include masthead.html %}

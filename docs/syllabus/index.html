@@ -46,12 +46,13 @@
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: .55rem; border: 1px solid var(--border); text-align: left; vertical-align: top; }
     th { background: var(--soft); }
-    nav { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
-    nav ul { columns: 2; }
+    /* Scoped to the table of contents so the site menu above it keeps its own look. */
+    nav[aria-label="Table of contents"] { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
+    nav[aria-label="Table of contents"] ul { columns: 2; }
     .meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; color: #666; font-size: .85rem; }
     @media (max-width: 700px) {
       body { padding: 2rem 1.25rem 4rem; }
-      nav ul { columns: 1; }
+      nav[aria-label="Table of contents"] ul { columns: 1; }
       .meta { display: block; }
       table { font-size: .85rem; }
     }
@@ -60,13 +61,18 @@
       body { max-width: none; padding: 0; }
       body::before { color: rgba(35, 31, 32, .07); }
     }
+    /* The site menu (css/site-nav.css) is designed for full-viewport pages; the
+       syllabus body is a 900px sheet, so break the rails and the header out of
+       it to match every other page. */
+    body > .blue-line { width: 100vw; margin-left: calc(50% - 50vw); }
   </style>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
 </head>
 <body>
-  {% include masthead.html %}
+  {% include site-nav.html nav_current="syllabus" %}
   <header>
     <div class="meta">
-      <span>Generated July 23, 2026 at 4:51 PM CDT</span>
+      <span>Generated August 3, 2026 at 6:41 PM CDT</span>
       <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
     </div>
     <h1>COLLEGE OF ENGINEERING, UIC</h1>
@@ -78,88 +84,23 @@ Arendt</p>
   </header>
   <nav aria-label="Table of contents"><ul>
 <li><a href="#instructor-course-details"
-id="toc-instructor-course-details">Instructor &amp; Course Details</a>
-<ul>
-<li><a href="#course-site" id="toc-course-site">Course Site</a></li>
-</ul></li>
+id="toc-instructor-course-details">Instructor &amp; Course
+Details</a></li>
 <li><a href="#course-information" id="toc-course-information">Course
-Information</a>
-<ul>
-<li><a href="#catalog-course-description"
-id="toc-catalog-course-description">Catalog Course Description</a></li>
-<li><a href="#dr.-bandys-course-description"
-id="toc-dr.-bandys-course-description">Dr. Bandy’s Course
-Description</a></li>
-<li><a href="#learning-priorities" id="toc-learning-priorities">Learning
-Priorities</a></li>
-<li><a href="#learning-materials" id="toc-learning-materials">Learning
-Materials</a></li>
-<li><a href="#growth-mindset" id="toc-growth-mindset">Growth
-Mindset</a></li>
-<li><a href="#technology-outside-class"
-id="toc-technology-outside-class">Technology Outside Class</a></li>
-<li><a href="#technology-in-the-classroom"
-id="toc-technology-in-the-classroom">Technology in the
-Classroom</a></li>
-</ul></li>
+Information</a></li>
 <li><a href="#course-policies-classroom-expectations"
 id="toc-course-policies-classroom-expectations">Course Policies &amp;
-Classroom Expectations</a>
-<ul>
-<li><a href="#assessment" id="toc-assessment">Assessment</a></li>
-<li><a href="#tests" id="toc-tests">Tests</a></li>
-<li><a href="#attendance-and-participation"
-id="toc-attendance-and-participation">Attendance and
-Participation</a></li>
-<li><a href="#late-work" id="toc-late-work">Late Work</a></li>
-<li><a href="#academic-integrity" id="toc-academic-integrity">Academic
-Integrity</a></li>
-<li><a href="#visitors" id="toc-visitors">Visitors</a></li>
-<li><a href="#email-expectations" id="toc-email-expectations">Email
-Expectations</a></li>
-</ul></li>
+Classroom Expectations</a></li>
 <li><a href="#approximate-course-schedule"
-id="toc-approximate-course-schedule">Approximate Course Schedule</a>
-<ul>
-<li><a href="#another-disclaimer" id="toc-another-disclaimer">Another
-Disclaimer</a></li>
-</ul></li>
-<li><a href="#accommodations" id="toc-accommodations">Accommodations</a>
-<ul>
-<li><a href="#disability-accommodation-procedures"
-id="toc-disability-accommodation-procedures">Disability Accommodation
-Procedures</a></li>
-<li><a href="#religious-accommodations"
-id="toc-religious-accommodations">Religious Accommodations</a></li>
-</ul></li>
+id="toc-approximate-course-schedule">Approximate Course
+Schedule</a></li>
+<li><a href="#accommodations"
+id="toc-accommodations">Accommodations</a></li>
 <li><a href="#classroom-environment"
-id="toc-classroom-environment">Classroom Environment</a>
-<ul>
-<li><a href="#classroom-community"
-id="toc-classroom-community">Classroom Community</a></li>
-<li><a href="#preferred-names-and-pronouns"
-id="toc-preferred-names-and-pronouns">Preferred Names and
-Pronouns</a></li>
-<li><a href="#guidelines-for-participation-and-classroom-conduct"
-id="toc-guidelines-for-participation-and-classroom-conduct">Guidelines
-for Participation and Classroom Conduct</a></li>
-<li><a href="#content-notices" id="toc-content-notices">Content
-Notices</a></li>
-</ul></li>
+id="toc-classroom-environment">Classroom Environment</a></li>
 <li><a href="#resources-academic-success-wellness-and-safety"
 id="toc-resources-academic-success-wellness-and-safety">Resources:
-Academic Success, Wellness, and Safety</a>
-<ul>
-<li><a href="#student-wellbeing" id="toc-student-wellbeing">Student
-Wellbeing</a></li>
-<li><a href="#academic-success" id="toc-academic-success">Academic
-Success</a></li>
-<li><a href="#wellness" id="toc-wellness">Wellness</a></li>
-<li><a href="#safety" id="toc-safety">Safety</a></li>
-<li><a href="#support-for-parenting-students"
-id="toc-support-for-parenting-students">Support for Parenting
-Students</a></li>
-</ul></li>
+Academic Success, Wellness, and Safety</a></li>
 </ul></nav>
   <main><h1 id="instructor-course-details">Instructor &amp; Course
 Details</h1>
@@ -909,5 +850,6 @@ class="uri">https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design
 href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></main>
+  {% include masthead.html %}
 </body>
 </html>

@@ -1,0 +1,228 @@
+/* Styles for the full-schedule page (docs/schedule.md + _layouts/schedule.html).
+   Loaded after index.css, which supplies the fonts, the `*` margin/padding
+   reset, and the footer.
+
+   The visual scheme reads the semester as a Blue Line trip, because that is what
+   the course calls it: each unit is a branch, each week a segment of track, and
+   each class meeting a stop. So the day list hangs off a vertical blue rail with
+   a station dot per meeting, and the station names — written as `code` spans in
+   the markdown — render as CTA-style station plaques.
+
+   Note: this file was largely written by an LLM (Claude Code). */
+
+.schedule-main {
+  max-width: 860px;
+  /* Generous gap under the header's blue rail, so the title reads as its own
+     block rather than sitting on the line. */
+  margin: 88px auto 64px;
+  padding: 0 24px;
+}
+
+.schedule-title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.schedule-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #555;
+  max-width: 46rem;
+  margin-bottom: 40px;
+}
+
+.schedule-body {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #222;
+}
+
+.schedule-body a {
+  color: #0077a3;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 161, 222, 0.45);
+}
+
+.schedule-body a:hover {
+  color: #005b7d;
+  border-bottom-color: #005b7d;
+}
+
+/* ── Unit links: a plain list of the three units, at the top of the page ── */
+.unit-links {
+  list-style: disc;
+  margin: 0 0 48px;
+  padding-left: 1.3rem;
+  line-height: 1.9;
+}
+
+/* ── Unit headings: a branch banner ── */
+.schedule-body h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #222;
+  margin: 56px 0 8px;
+  padding-bottom: 10px;
+  border-bottom: 6px solid #00A1DE;
+}
+
+/* ── Week headings ── */
+.schedule-body h4 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #00577a;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 36px 0 6px;
+  scroll-margin-top: 16px;   /* jump-link anchors land below the viewport edge */
+}
+
+/* Slide links for the week, set apart from the day-by-day list below. */
+.schedule-body .week-slides {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+/* ── The rail ── */
+/* One continuous Blue Line running the length of the semester, the same 12px
+   #00A1DE bar as the horizontal rails in the masthead and page header, with a
+   station dot per class meeting sitting on top of it. Everything from Unit 1 to
+   Week 16 lives inside <div class="rail"> in schedule.md so the bar can be a
+   single element rather than one segment per week. */
+.rail {
+  position: relative;
+  padding-left: 58px;
+}
+
+.rail::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  border-radius: 6px;   /* rounded caps, like a drawn transit line */
+  background: #00A1DE;
+}
+
+.rail > ul {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 4px 0;
+}
+
+.rail > ul > li {
+  position: relative;
+  margin: 0 0 18px;
+  font-weight: 700;
+}
+
+.rail > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+/* The station dot, centred on the rail (its centre line is 6px from the left
+   edge of .rail, and the list content starts 58px in). */
+.rail > ul > li::before {
+  content: "";
+  position: absolute;
+  left: -65px;
+  top: 0.15em;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid #00A1DE;
+  box-sizing: border-box;
+}
+
+/* Nested lists — what actually happens that day — are the plain-text layer. */
+.rail > ul ul {
+  list-style: disc;
+  font-weight: 400;
+  margin: 6px 0 0;
+  padding-left: 1.3rem;
+}
+
+.rail > ul ul li {
+  margin: 2px 0;
+}
+
+/* ── Station plaques ── */
+/* Station names are written as `🟦 Name 🟦` code spans in the markdown. On real
+   CTA signage the station name sits in a white field with the line's color beside
+   it, which is exactly what the emoji already do — so the plaque is white with a
+   blue rule, not a blue block. */
+.schedule-body code {
+  display: block;
+  width: fit-content;
+  font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #00577a;
+  border: 1px solid #b8e3f5;
+  border-radius: 3px;
+  padding: 1px 8px;
+  margin: 4px 0 0;
+}
+
+/* ── Source materials disclosures ── */
+.schedule-body details {
+  margin: 8px 0 4px;
+  font-weight: 400;
+}
+
+.schedule-body summary {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #666;
+  list-style-position: outside;
+}
+
+.schedule-body summary:hover {
+  color: #00A1DE;
+}
+
+.schedule-body details[open] > summary {
+  margin-bottom: 6px;
+}
+
+.schedule-body details ul {
+  list-style: disc;
+  padding-left: 1.3rem;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.schedule-body details > ul {
+  border-left: 2px solid #e5e5e5;
+  padding: 4px 0 4px 1.6rem;
+  margin-left: 2px;
+}
+
+@media (max-width: 640px) {
+  .schedule-main {
+    padding: 0 20px;
+  }
+
+  .schedule-title {
+    font-size: 1.9rem;
+  }
+
+  .rail {
+    padding-left: 44px;
+  }
+
+  .rail > ul > li::before {
+    left: -49px;
+    width: 22px;
+    height: 22px;
+  }
+}

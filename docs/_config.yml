@@ -20,3 +20,4 @@ kramdown:
 exclude:
   - "*.csv"
   - "*.bib"
+  - "*.py"     # build helpers (fetch-book-covers.py, slides/stamp_source_note.py)

@@ -21,7 +21,7 @@ pandoc "$INPUT" \
   --template "$SOURCE_DIR/template.html" \
   --metadata created="$CREATED" \
   --toc \
-  --toc-depth=2 \
+  --toc-depth=1 \
   -o "$OUTPUT_DIR/index.html"
 
 pandoc "$INPUT" \

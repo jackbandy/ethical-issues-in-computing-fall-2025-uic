@@ -1,0 +1,45 @@
+<!--
+  Layout for the "read a book" assignment pages (docs/read-a-book/*.md), whose
+  markdown sources are the same files kept in the repo's read-a-book/ folder.
+
+  Deliberately parallel to _layouts/exercise.html and sharing css/exercise.css:
+  these are assignment pages like the out-of-class exercises, so they should read
+  like them. Separate file rather than a shared template so the breadcrumb and
+  the part label can differ.
+
+  Note: this file was largely written by an LLM (Claude Code).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Blue Line Ethics</title>
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/exercise.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
+</head>
+<body>
+  {% include site-nav.html %}
+  <div class="container">
+
+    <p class="breadcrumb"><a href="{{ site.baseurl }}/">Blue Line Ethics</a> &rsaquo; <a href="{{ site.baseurl }}/read-a-book/">Read a Book</a></p>
+
+    {% if page.part_number %}
+    <p class="exercise-label">Part {{ page.part_number }}</p>
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    <div class="exercise-body">
+      {{ content }}
+    </div>
+
+  </div>
+
+  {% include masthead.html %}
+  {% include footer.html %}
+</body>
+</html>

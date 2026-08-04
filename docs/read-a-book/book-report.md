@@ -1,4 +1,10 @@
-# Book Report
+---
+layout: read-a-book
+title: 'Book Report'
+part_number: 2
+description: "A two-page report on the book you read, with the rubric used to grade it."
+source: read-a-book/02-book-report.md
+---
 
 You selected a book, you read the book, and you will soon present to the class about the book (if you have not already)!
 
@@ -33,7 +39,7 @@ type of book)
 
 There is an example book report [here](https://docs.google.com/document/d/1OftR2At4jJsN6LPDjcYTOsjX-vnPaFd_pBx7PQIKPic/edit?usp=sharing).
 
-<details>
+<details markdown="1">
   <summary>Standard Guidelines for Academic Integrity Apply</summary>
   Students are expected to comply with the UIC Guidelines for Academic Integrity found at <a href="https://go.uic.edu/AcademicGuidelines">go.uic.edu/AcademicGuidelines</a>
   
@@ -74,6 +80,3 @@ I plan to use the following rubric, mostly borrowed from Behrooz Shirazi at [Was
 
 
 As always, please do email me (`jxb@uic.edu`) with any questions.
-
-
-
