@@ -1,0 +1,123 @@
+Collection Title: joyab-TJrak.jpg
+Collection Description: 
+Asset Count: 12
+--
+File Name: gender shades infographic.png
+Asset Title: gender shades infographic.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gender shades infographic.png
+Asset Credit: <p>MIT Media Lab / The Noun Project</p>
+Asset Caption: <p>Gender Shades explanation graphic</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by-nc-nd
+Asset Dimensions WxH: 1735x1210
+--
+File Name: gs01.png
+Asset Title: gs01.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs01.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Gender Shades company performance metrics</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by-nc-nd
+Asset Dimensions WxH: 950x810
+--
+File Name: gs02.png
+Asset Title: gs02.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs02.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Gender Shades company performance metrics</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by-nc-nd
+Asset Dimensions WxH: 932x793
+--
+File Name: gs03.png
+Asset Title: gs03.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs03.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Gender Shades company performance metrics</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by-nc-nd
+Asset Dimensions WxH: 925x830
+--
+File Name: gs04.png
+Asset Title: gs04.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs04.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Gender Shades company performance metrics</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by-nc-nd
+Asset Dimensions WxH: 935x791
+--
+File Name: gs05.png
+Asset Title: gs05.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs05.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>The difference in error rates is greatest between darker-skinned female faces and&nbsp;lighter-skinned male faces in the IBM gender classifier using the PPB dataset.</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by
+Asset Dimensions WxH: 923x456
+--
+File Name: gs06.png
+Asset Title: gs06.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs06.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>93.6% of error for the Microsoft gender classifier came from the misgendering of darker-skinned (Fitzpatrick skin types IV, V, VI) faces from PPB dataset.&nbsp;&nbsp;</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by
+Asset Dimensions WxH: 935x712
+--
+File Name: gs07.png
+Asset Title: gs07.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs07.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>95.9% of error for the Face++ gender classifier came from the misgendering of female faces from PPB dataset.&nbsp;&nbsp;</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by
+Asset Dimensions WxH: 934x696
+--
+File Name: gs08.png
+Asset Title: gs08.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs08.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Gender Shades: recommended reading</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by
+Asset Dimensions WxH: 735x543
+--
+File Name: gs09.png
+Asset Title: gs09.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs09.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Potential harms from algorithmic decision making.</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by
+Asset Dimensions WxH: 842x512
+--
+File Name: gs10.png
+Asset Title: gs10.png
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/gs10.png
+Asset Credit: Joy Buolamwini
+Asset Caption: <p>Sample images and average faces from the Pilot Parliaments Benchmark dataset</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by
+Asset Dimensions WxH: 925x616
+--
+File Name: joyab-TJrak.jpg
+Asset Title: joyab-TJrak.jpg
+Asset Description: 
+Asset DAM URL: https://dam/x/2018/02/05/joyab-TJrak.jpg
+Asset Credit: <p>TJ Rak</p>
+Asset Caption: <p>Joy Buolamwini</p>
+Asset Copyright: 
+Asset Creative Commons License: cc-by-nc-nd
+Asset Dimensions WxH: 500x345
