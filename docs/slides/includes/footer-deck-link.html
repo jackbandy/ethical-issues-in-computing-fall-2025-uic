@@ -5,10 +5,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   const link = document.querySelector(".footer a[href*='doethics.fun/slides']");
   if (!link) return;
+  // build.sh renders PDFs from a throwaway copy named .<deck>-pdf-export.html,
+  // so strip that decoration and printed decks show the real deck URL.
   const slug = window.location.pathname
     .split("/")
     .pop()
-    .replace(/\.html?$/, "");
+    .replace(/\.html?$/, "")
+    .replace(/^\./, "")
+    .replace(/-pdf-export$/, "");
   if (!slug || slug === "index") return;
   link.href = "https://doethics.fun/slides/" + slug;
   link.textContent = "doethics.fun/slides/" + slug;

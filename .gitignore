@@ -25,7 +25,6 @@ docs/slides/**/*.quarto_ipynb
 docs/slides/.*-pdf-export.html
 docs/slides/*_files/
 docs/slides/*.pdf
-docs/slides/export-pdf.js
 docs/slides/old-slides/
 
 # Slide HTML is CI-managed; local PDF export is optional.

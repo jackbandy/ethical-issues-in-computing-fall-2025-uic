@@ -6,6 +6,10 @@ DOCS_DIR="$(cd "$SLIDES_DIR/.." && pwd)"
 QUARTO="${QUARTO_CMD:-quarto}"
 BUILD_PDFS="${BUILD_PDFS:-false}"
 PORT="${QUARTO_PORT:-}"
+# Python resolves its user site-packages under HOME, so pinning HOME to the
+# build sandbox below would hide pip --user installs (PyMuPDF, needed for PDF
+# export). Resolve the real user base first and keep pointing at it.
+export PYTHONUSERBASE="${PYTHONUSERBASE:-$(python3 -m site --user-base 2>/dev/null || true)}"
 export HOME="${QUARTO_BUILD_HOME:-$SLIDES_DIR/.quarto/home}"
 export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$SLIDES_DIR/.quarto/cache}"
 export DENO_DIR="${DENO_DIR:-$SLIDES_DIR/.quarto/deno}"

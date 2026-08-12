@@ -17,6 +17,19 @@
   <meta property="og:url" content="https://doethics.fun/timer/">
   <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="timer.css">
+  <script>
+    // Embedded in an iframe (the course slides) the attribution footer is noise,
+    // and the viewer has no way out of the frame. Swap it for a link to the real
+    // page. Set in <head> so the footer never flashes before it is hidden.
+    if (window.self !== window.top) {
+      document.documentElement.classList.add('embedded');
+      document.addEventListener('DOMContentLoaded', function () {
+        // Point at whatever copy of the timer is actually framed, so this works
+        // from the deployed site and from a local build alike.
+        document.getElementById('openStandalone').href = window.location.href;
+      });
+    }
+  </script>
 </head>
 <body>
 
@@ -29,6 +42,8 @@
       </svg>
       <b>cta</b> style timer
     </h1>
+    <a class="open-standalone" id="openStandalone" href="https://doethics.fun/timer/"
+       target="_blank" rel="noopener">Open in new tab</a>
   </div>
 
   <div class="timer-selector">
@@ -51,12 +66,6 @@
       <span>minutes</span>
     </div>
     <button id="startBtn">Start</button>
-    <a class="route-btn" href="../">
-      <svg class="route-btn-icon" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"/>
-      </svg>
-      Course Home
-    </a>
   </div>
 
   <section class="estimated-arrivals">
@@ -97,6 +106,7 @@
 <div class="footnotes">
   <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
   <a href="https://www.transitchicago.com/traintracker/">Based on the CTA train tracker</a>
+  <a href="https://doethics.fun/">CS 377 Course Home</a>
 </div>
 
 <script src="timer.js"></script>

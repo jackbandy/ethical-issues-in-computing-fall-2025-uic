@@ -2,10 +2,14 @@ format:
   revealjs:
     embed-resources: true
     theme: theme/blue-line.scss
-    css: theme/responsive-footer.css
+    css:
+      - theme/responsive-footer.css
+      - theme/radio-player.css
     include-after-body:
       - includes/slide-number-after-body.html
       - includes/footer-deck-link.html
+      - includes/radio-player-after-body.html
+      - includes/sources-fit-after-body.html
     width: 1280
     height: 720
     margin: 0

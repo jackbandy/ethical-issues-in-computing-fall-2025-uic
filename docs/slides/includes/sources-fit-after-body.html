@@ -1,0 +1,93 @@
+<script>
+// Shrink long References & Credits lists until they fit above the footer.
+// Reveal does not scale overflowing slides, and these lists grow every term.
+// Item count alone is a bad proxy — a 10-item list whose entries wrap to two
+// lines overflows where a 12-item list of short entries does not — so this
+// measures the rendered list and steps the type down until it clears the
+// footer, keeping the theme's size for lists that already fit.
+(() => {
+  const STEPS = 14;         // shrink attempts before giving up
+  const SHRINK = 0.05;      // font-size reduction per step
+  const TIGHTEN = 0.06;     // line-height reduction per step
+  const MIN_RATIO = 1.3;    // never crowd lines tighter than this
+  const GAP = 10;           // breathing room above the footer, in px
+
+  function listsOf(slide) {
+    return slide.querySelectorAll(":scope > ol, :scope > .references, :scope > #refs");
+  }
+
+  function footerHeight() {
+    const footer = document.querySelector(".reveal .footer");
+    const height = footer ? footer.getBoundingClientRect().height : 0;
+    // A hidden footer (data-footer="false") reports zero height.
+    return height > 0 ? height : 0;
+  }
+
+  // The lowest the list may reach. On screen the footer is fixed to the
+  // viewport, so its top is the floor. In print view the slides are stacked
+  // down a long scrolling document and the footer repeats per page, so the
+  // floor is the bottom of this slide's own page.
+  function floorPx(slide) {
+    const page = slide.closest(".pdf-page");
+    if (page) return page.getBoundingClientRect().bottom - footerHeight() - GAP;
+
+    const footer = document.querySelector(".reveal .footer");
+    if (footer) {
+      const rect = footer.getBoundingClientRect();
+      if (rect.height > 0) return rect.top - GAP;
+    }
+    return window.innerHeight - GAP;
+  }
+
+  function fit(slide) {
+    const lists = listsOf(slide);
+    if (!lists.length) return;
+
+    const limit = floorPx(slide);
+    const overflows = () =>
+      Array.from(lists).some((l) => l.getBoundingClientRect().bottom > limit);
+
+    lists.forEach((l) => {
+      l.style.fontSize = "";
+      l.style.lineHeight = "";
+    });
+    if (!overflows()) return;
+
+    const base = Array.from(lists).map((l) => {
+      const cs = window.getComputedStyle(l);
+      const size = parseFloat(cs.fontSize);
+      return { size: size, ratio: parseFloat(cs.lineHeight) / size };
+    });
+
+    for (let step = 1; step <= STEPS; step++) {
+      lists.forEach((l, i) => {
+        l.style.fontSize = (base[i].size * (1 - SHRINK * step)).toFixed(2) + "px";
+        l.style.lineHeight = Math.max(MIN_RATIO, base[i].ratio - TIGHTEN * step).toFixed(2);
+      });
+      if (!overflows()) return;
+    }
+  }
+
+  function fitCurrent() {
+    const slide = window.Reveal && Reveal.getCurrentSlide();
+    if (slide && slide.classList.contains("sources")) fit(slide);
+  }
+
+  function fitAll() {
+    document.querySelectorAll(".reveal .slides section.sources").forEach(fit);
+  }
+
+  function boot() {
+    if (!window.Reveal) { window.setTimeout(boot, 50); return; }
+    // In print view every slide is laid out at once; on screen only the
+    // current slide has a measurable box, so refit on each visit.
+    const printing = document.documentElement.classList.contains("reveal-print");
+    Reveal.on("ready", printing ? fitAll : fitCurrent);
+    Reveal.on("slidechanged", fitCurrent);
+    window.addEventListener("resize", fitCurrent);
+  }
+
+  document.addEventListener("DOMContentLoaded", boot);
+  window.addEventListener("load", boot);
+})();
+</script>

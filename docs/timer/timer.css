@@ -1,5 +1,12 @@
 /* NOTICE: This file was substantially generated/modified by an LLM.
-   Adapted from jackbandy.com/extras/cta-style-timer */
+   Adapted from jackbandy.com/extras/cta-style-timer.
+
+   Palette (CTA's official developer route colors):
+     Blue Line    #00A1DE  — the arrival row and the active-station highlight
+     Blue dark    #005DAA  — masthead rule, title, and the Start button
+                             (CTA corporate blue, as on the real tracker)
+     Sign grey    #565A5C  — CTA's official neutral, used for the header bands
+*/
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -7,7 +14,7 @@ body {
   /* CTA's own stack — the tracker sets Helvetica, so match it rather than the
      site's Franklin Gothic. FreeSans is the free/metric-compatible first choice. */
   font-family: FreeSans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: #f4f4f4;
+  background: #f4f4f2;
   color: rgb(35, 31, 32);
   line-height: 25.6px;
 }
@@ -71,10 +78,9 @@ body {
 }
 
 /* Route pill, after the route buttons in `.title-routes` on a CTA station page:
-   solid fill, white bold label, small radius. Start matches it. Filled with the
-   darker interface blue rather than Blue Line #00a1de, for label contrast. */
-.timer-selector button,
-.timer-selector .route-btn {
+   solid fill, white bold label, small radius. Start matches it. Filled with
+   $blue-dark rather than Blue Line #00a1de, for label contrast. */
+.timer-selector button {
   padding: 7px 16px;
   font-size: 14px;
   font-weight: 700;
@@ -89,28 +95,12 @@ body {
   white-space: nowrap;
 }
 
-.timer-selector button:hover,
-.timer-selector .route-btn:hover { background: #004a8a; }
-
-/* Right-justified at the end of the control row */
-.timer-selector .route-btn {
-  margin-left: auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-}
-
-.route-btn-icon {
-  width: 14px;
-  height: 14px;
-  fill: #fff;
-  flex-shrink: 0;
-}
+.timer-selector button:hover { background: #004a8a; }
 
 .estimated-arrivals { background: #fff; }
 
 .service-header-row {
-  background: #333;
+  background: #3a3c3d;
   color: #fff;
   padding: 10px 15px;
 }
@@ -122,7 +112,7 @@ body {
 }
 
 .estimated-arrivals-header {
-  background: #444;
+  background: #4a4d4e;
   color: #fff;
   padding: 12px 15px;
   display: flex;
@@ -168,8 +158,8 @@ body {
 
 .station-picker {
   display: none;
-  background: #3a3a3a;
-  border-top: 1px solid #555;
+  background: #414344;
+  border-top: 1px solid #565a5c;
   padding: 10px 15px;
   max-height: 300px;
   overflow-y: auto;
@@ -187,7 +177,7 @@ body {
   padding: 8px 10px;
   font-size: 14px;
   cursor: pointer;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #565a5c;
 }
 
 .station-picker button:last-child { border-bottom: none; }
@@ -199,7 +189,7 @@ body {
 }
 
 .estimated-arrivals-subheader {
-  background: #555;
+  background: #565a5c;
   color: #fff;
   padding: 8px 15px;
   font-size: 14px;
@@ -282,7 +272,7 @@ body {
   font-size: 11px;
   color: #999;
   text-align: center;
-  background: #f4f4f4;
+  background: #f4f4f2;
 }
 
 .footnotes a {
@@ -292,3 +282,39 @@ body {
 }
 
 .footnotes a:hover { text-decoration: underline; }
+
+/* Embedded (in an iframe) the page loses its footer and the masthead gains the
+   one link a framed viewer actually needs: a way out to the standalone timer.
+   Right gutter matches the 15px used by the content rows below. Coloured
+   $blue-dark like the title and Start button, since it is an action. */
+.open-standalone {
+  display: none;
+  margin-left: auto;
+  padding-right: 15px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #005daa;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Arrow-out-of-box icon, matching the `is-external` links in the site masthead
+   (css/masthead.css). Same mask-not-background trick, so it inherits the link
+   colour instead of shipping a second, differently-coloured copy of the glyph. */
+.open-standalone::after {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-left: 4px;
+  vertical-align: middle;
+  opacity: 0.7;
+  background-color: currentColor;
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M6 1h5v5L8.5 3.5 4.8 7.2 3.8 6.2l3.7-3.7z"/><path d="M2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/></svg>') no-repeat center / contain;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M6 1h5v5L8.5 3.5 4.8 7.2 3.8 6.2l3.7-3.7z"/><path d="M2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/></svg>') no-repeat center / contain;
+}
+
+.open-standalone:hover { text-decoration: underline; }
+
+.embedded .footnotes { display: none; }
+.embedded .open-standalone { display: inline-block; }

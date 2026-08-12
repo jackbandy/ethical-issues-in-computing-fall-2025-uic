@@ -2,19 +2,24 @@
 layout: schedule
 title: Full Schedule
 nav_current: schedule
-description: Day-by-day schedule for Ethical Issues in Computing (CS 377), Spring 2026 — one stop per class meeting, with slides and source materials.
-subtitle: Spring 2026 — one stop per class meeting. Each stop links to its slides and source materials.
+description: Day-by-day schedule for Ethical Issues in Computing (CS 377), Fall 2026 — one stop per class meeting, with slides and source materials.
+subtitle: Fall 2026 — one stop per class meeting. Each stop links to its slides and source materials.
 ---
 
 <!-- This markdown file is the source for the published schedule page at
      /schedule.html. Edit it here; the layout (_layouts/schedule.html) and
      css/schedule.css turn it into the styled page. Keep the shape below:
      `## Unit`, then `#### Week N`, then one top-level bullet per class day,
-     each with a `` `🟦 Station 🟦` `` line and nested bullets for that day. -->
+     each with a `` `🟦 Station 🟦` `` line and nested bullets for that day.
+
+     Note: slide decks are still named slides/weekN.* after the *Spring 2026*
+     week numbering. Fall 2026 has a different calendar, so a deck number no
+     longer matches the week it is taught in. Links below point at the deck
+     that actually holds the material, labeled "Deck N". -->
 
 * [Unit 1: Ethical Theories](#unit-1-ethical-theories): Forest Park Branch (weeks 1–4)
-* [Unit 2: Stories and Histories](#unit-2-stories-and-histories): Milwaukee–Dearborn Subway (weeks 5–8)
-* [Unit 3: Contemporary Issues](#unit-3-contemporary-issues): O’Hare Branch (weeks 9–16)
+* [Unit 2: Stories and Histories](#unit-2-stories-and-histories): Milwaukee–Dearborn Subway (weeks 5–7)
+* [Unit 3: Contemporary Issues](#unit-3-contemporary-issues): O’Hare Branch (weeks 8–15)
 {: .unit-links}
 
 <div class="rail" markdown="1">
@@ -23,13 +28,13 @@ subtitle: Spring 2026 — one stop per class meeting. Each stop links to its sli
 
 #### Week 1
 
-Slides: [HTML](slides/week1.html) · [PDF](slides/week1.pdf)
+Slides: [Deck 1](slides/week1.html) ([PDF](slides/week1.pdf))
 {: .week-slides}
 
-* Monday, January 12, 2026
+* Monday, August 24, 2026
   `🟦 Forest Park 🟦`
   * Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
-* Wednesday, January 14, 2026
+* Wednesday, August 26, 2026
   `🟦 Oak Park 🟦`
   * Introduction to Virtue Ethics
   * <details markdown="1"><summary>Source materials</summary>
@@ -44,12 +49,10 @@ Slides: [HTML](slides/week1.html) · [PDF](slides/week1.pdf)
 
 #### Week 2
 
-Slides: [HTML](slides/week2.html) · [PDF](slides/week2.pdf)
+Slides: [Deck 2](slides/week2.html) ([PDF](slides/week2.pdf)) · [Deck 3](slides/week3.html) ([PDF](slides/week3.pdf))
 {: .week-slides}
 
-* Monday, January 19, 2026
-  * Martin Luther King Jr. Day. **No classes.**
-* Wednesday, January 21, 2026
+* Monday, August 31, 2026
   `🟦 Cicero 🟦`
   * Introduction to Deontological Ethics
   * <details markdown="1"><summary>Source materials</summary>
@@ -57,13 +60,7 @@ Slides: [HTML](slides/week2.html) · [PDF](slides/week2.pdf)
     * Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
 
     </details>
-
-#### Week 3
-
-Slides: [HTML](slides/week3.html) · [PDF](slides/week3.pdf)
-{: .week-slides}
-
-* Monday, January 26, 2026
+* Wednesday, September 2, 2026
   `🟦 Western 🟦`
   * Introduction to Utilitarian Ethics
   * <details markdown="1"><summary>Source materials</summary>
@@ -77,7 +74,15 @@ Slides: [HTML](slides/week3.html) · [PDF](slides/week3.pdf)
     * "Absurd Trolley Problems" [curated by Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
 
     </details>
-* Wednesday, January 28, 2026
+
+#### Week 3
+
+Slides: [Deck 3](slides/week3.html) ([PDF](slides/week3.pdf))
+{: .week-slides}
+
+* Monday, September 7, 2026
+  * Labor Day holiday. **No classes.**
+* Wednesday, September 9, 2026
   `🟦 Illinois Medical District 🟦`
   * Introduction to Care Ethics
   * <details markdown="1"><summary>Source materials</summary>
@@ -94,10 +99,10 @@ Slides: [HTML](slides/week3.html) · [PDF](slides/week3.pdf)
 
 #### Week 4
 
-Slides: [HTML](slides/week4.html) · [PDF](slides/week4.pdf)
+Slides: [Deck 4](slides/week4.html) ([PDF](slides/week4.pdf))
 {: .week-slides}
 
-* Monday, February 2, 2026
+* Monday, September 14, 2026
   `🟦 Racine 🟦`
   * Review theories of ethics
   * <details markdown="1"><summary>Source materials</summary>
@@ -109,7 +114,7 @@ Slides: [HTML](slides/week4.html) · [PDF](slides/week4.pdf)
       * The [constitution in full](https://www.anthropic.com/constitution)
 
     </details>
-* Wednesday, February 4, 2026
+* Wednesday, September 16, 2026
   `🟦 UIC-Halsted 🟦`
   * Ethics in Algorithmic Feeds
     * Values in Ranking
@@ -126,10 +131,10 @@ Slides: [HTML](slides/week4.html) · [PDF](slides/week4.pdf)
 
 #### Week 5
 
-Slides: [HTML](slides/week5.html) · [PDF](slides/week5.pdf)
+Slides: [Deck 5](slides/week5.html) ([PDF](slides/week5.pdf))
 {: .week-slides}
 
-* Monday, February 9, 2026
+* Monday, September 21, 2026
   `🟦 Clinton 🟦`
   * Algorithmic Feeds and Content Moderation, Continued
   * Intro to Privacy
@@ -143,7 +148,7 @@ Slides: [HTML](slides/week5.html) · [PDF](slides/week5.pdf)
     * Reddit's [Platform-wide Rules](https://redditinc.com/policies/reddit-rules)
 
     </details>
-* Wednesday, February 11, 2026
+* Wednesday, September 23, 2026
   `🟦 LaSalle 🟦`
   * Privacy, Continued
   * <details markdown="1"><summary>Source materials</summary>
@@ -154,32 +159,29 @@ Slides: [HTML](slides/week5.html) · [PDF](slides/week5.pdf)
 
 #### Week 6
 
-Slides: [HTML](slides/week6.html) · [PDF](slides/week6.pdf)
+Slides: [Deck 6](slides/week6.html) ([PDF](slides/week6.pdf)) · [Deck 7](slides/week7.html) ([PDF](slides/week7.pdf))
 {: .week-slides}
 
-* Monday, February 16, 2026
+* Monday, September 28, 2026
   `🟦 Jackson 🟦`
   * Privacy, Continued
   * Discuss short story ("Here and Now")
   * Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
     * PDF available in Canvas
-* Wednesday, February 18, 2026
-  `🟦 Monroe 🟦`
-  * Dr. Bandy in St. Louis for [SIGCSE](https://sigcse2026.sigcse.org)
-  * Asynchronous class to work on exercises
-
-#### Week 7
-
-Slides: [HTML](slides/week7.html) · [PDF](slides/week7.pdf)
-{: .week-slides}
-
-* Monday, February 23, 2026
+* Wednesday, September 30, 2026
   `🟦 Washington 🟦`
   * Inequality and Justice
   * Discuss short story ("Message in a Bottle")
   * Preview short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
-* Wednesday, February 25, 2026
+
+#### Week 7
+
+Slides: [Deck 7](slides/week7.html) ([PDF](slides/week7.pdf)) · [Deck 8](slides/week8.html) ([PDF](slides/week8.pdf))
+{: .week-slides}
+
+* Monday, October 5, 2026
   `🟦 Clark/Lake 🟦`
+  * **Asynchronous class.** Dr. Bandy away.
   * Inequality and Justice, Continued
   * Faces and Fairness
   * <details markdown="1"><summary>Source materials</summary>
@@ -191,14 +193,9 @@ Slides: [HTML](slides/week7.html) · [PDF](slides/week7.pdf)
     * _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
 
     </details>
-
-#### Week 8
-
-Slides: [HTML](slides/week8.html) · [PDF](slides/week8.pdf)
-{: .week-slides}
-
-* Monday, March 2, 2026
+* Wednesday, October 7, 2026
   `🟦 Grand 🟦`
+  * **Asynchronous class.** Dr. Bandy away.
   * Computing and War
   * Discuss short story ("Codename Delphi")
   * Preview short story ("[If an Algorithm Can Cast a Shadow](https://clarkesworldmagazine.com/jia-wen_06_25/)")
@@ -217,7 +214,15 @@ Slides: [HTML](slides/week8.html) · [PDF](slides/week8.pdf)
     * Juan Pablo Hourcade, ["Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
 
     </details>
-* Wednesday, March 4, 2026
+
+## Unit 3: Contemporary Issues
+
+#### Week 8
+
+Slides: [Deck 8](slides/week8.html) ([PDF](slides/week8.pdf)) · [Deck 9](slides/week9.html) ([PDF](slides/week9.pdf))
+{: .week-slides}
+
+* Monday, October 12, 2026
   `🟦 Chicago 🟦`
   * Medical and health technologies
   * Intro to CyberSecurity
@@ -232,15 +237,7 @@ Slides: [HTML](slides/week8.html) · [PDF](slides/week8.pdf)
         * [Part 4](https://www.youtube.com/watch?v=g3te10iU9Vk)
 
     </details>
-
-## Unit 3: Contemporary Issues
-
-#### Week 9
-
-Slides: [HTML](slides/week9.html) · [PDF](slides/week9.pdf)
-{: .week-slides}
-
-* Monday, March 9, 2026
+* Wednesday, October 14, 2026
   `🟦 Division 🟦`
   * Intro to Ethical Challenges from LLMs
   * Discuss Speculative Fiction Exercise
@@ -254,7 +251,13 @@ Slides: [HTML](slides/week9.html) · [PDF](slides/week9.pdf)
     * [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
 
     </details>
-* Wednesday, March 11, 2026
+
+#### Week 9
+
+Slides: [Deck 9](slides/week9.html) ([PDF](slides/week9.pdf)) · [Deck 10](slides/week10.html) ([PDF](slides/week10.pdf))
+{: .week-slides}
+
+* Monday, October 19, 2026
   `🟦 Damen 🟦`
   * Ethical Challenges from LLMs, Continued
   * Discuss short story ("If an Algorithm Can Cast a Shadow")
@@ -270,13 +273,7 @@ Slides: [HTML](slides/week9.html) · [PDF](slides/week9.pdf)
       * Matthew Gault, [What’s the Point of School When AI Can Do Your Homework?](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
 
     </details>
-
-#### Week 10
-
-Slides: [HTML](slides/week10.html) · [PDF](slides/week10.pdf)
-{: .week-slides}
-
-* Monday, March 16, 2026
+* Wednesday, October 21, 2026
   `🟦 Western 🟦`
   * Intellectual property
   * <details markdown="1"><summary>Source materials</summary>
@@ -287,23 +284,16 @@ Slides: [HTML](slides/week10.html) · [PDF](slides/week10.pdf)
     * The New York Times’s Complaint against Microsoft and OpenAI, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
 
     </details>
-* Wednesday, March 18, 2026
-  `🟦 California 🟦`
-  * Intellectual property
 
-#### Week 11
+#### Week 10
 
-* Monday, March 23, 2026
-  * Spring vacation. **No classes**.
-* Wednesday, March 25, 2026
-  * Spring vacation. **No classes**.
-
-#### Week 12
-
-Slides: [HTML](slides/week12.html) · [PDF](slides/week12.pdf)
+Slides: [Deck 10](slides/week10.html) ([PDF](slides/week10.pdf)) · [Deck 12](slides/week12.html) ([PDF](slides/week12.pdf))
 {: .week-slides}
 
-* Monday, March 30, 2026
+* Monday, October 26, 2026
+  `🟦 California 🟦`
+  * Intellectual property
+* Wednesday, October 28, 2026
   `🟦 Logan Square 🟦`
   * "Hooks" and "Nudges" in Design
   * Presentation Tips
@@ -317,44 +307,52 @@ Slides: [HTML](slides/week12.html) · [PDF](slides/week12.pdf)
     * ASCI Academy, [Gallery of "Conscious" Design patterns](https://www.consciouspatterns.in/ethical-gallery)
 
     </details>
-* Wednesday, April 1, 2026
+
+#### Week 11
+
+Slides: [Deck 12](slides/week12.html) ([PDF](slides/week12.pdf))
+{: .week-slides}
+
+* Monday, November 2, 2026
   `🟦 Belmont 🟦`
   * Book Presentations
   * Overview of Fairness Definitions Exercise
+* Wednesday, November 4, 2026
+  `🟦 Addison 🟦`
+  * Book Presentations
+
+#### Week 12
+
+* Monday, November 9, 2026
+  `🟦 Irving Park 🟦`
+  * Book Presentations
+* Wednesday, November 11, 2026
+  `🟦 Montrose 🟦`
+  * Book Presentations
 
 #### Week 13
 
-* Monday, April 6, 2026
-  `🟦 Addison 🟦`
+* Monday, November 16, 2026
+  `🟦 Jefferson Park 🟦`
   * Book Presentations
-* Wednesday, April 8, 2026
-  `🟦 Irving Park 🟦`
+* Wednesday, November 18, 2026
+  `🟦 Harlem 🟦`
   * Book Presentations
 
 #### Week 14
 
-* Monday, April 13, 2026
-  `🟦 Montrose 🟦`
+* Monday, November 23, 2026
+  `🟦 Cumberland 🟦`
   * Book Presentations
-* Wednesday, April 15, 2026
-  `🟦 Jefferson Park 🟦`
-  * Book Presentations
+* Wednesday, November 25, 2026
+  * Student Wellness Day. **No classes.**
 
 #### Week 15
 
-* Monday, April 20, 2026
-  `🟦 Harlem 🟦`
-  * Book Presentations
-* Wednesday, April 22, 2026
-  `🟦 Cumberland 🟦`
-  * Book Presentations
-
-#### Week 16
-
-* Monday, April 27, 2026
+* Monday, November 30, 2026
   `🟦 Rosemont 🟦`
   * Synthesis and conclusions
-* Wednesday, April 29, 2026
+* Wednesday, December 2, 2026
   `🟦 O'Hare 🟦`
   * Synthesis and conclusions
 
