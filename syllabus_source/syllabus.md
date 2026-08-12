@@ -83,9 +83,11 @@ All exercises will be submitted and graded in Canvas.
 
 ## Technology in the Classroom
 
-I remember the frustration and shock I felt when I showed up to my first Computer Science course in college and learned that I was not allowed to use my computer. I have slowly realized that this policy was best for me as a student, and in most cases, is the best policy for 
+**TLDR: no phones, no laptops in class - take notes on paper!**
 
-In Summer 2026, I looked at peer-reviewed scientific evidence on the subject. As with other times I have explored the evidence, my impression was that these **devices in the classroom are still detrimental for learning**, even when students feel accustomed to multitasking. Individual studies as well as meta-reviews continue to characterize devices in class as fundamentally distracting, with a negative influence on learning and performance.
+I remember the frustration and shock I felt when I showed up to my first Computer Science course in college and learned that I was not allowed to use my computer. I have slowly realized that this policy was best for me as a student, and in most cases, is the best policy for an effective learning environment.
+
+In Summer 2026, I looked at peer-reviewed scientific evidence on the subject. As with other times I have explored the evidence, my impression was that **in-class device usage is detrimental for learning**, even when students feel accustomed to multitasking. Individual studies as well as meta-reviews continue to characterize devices in class as fundamentally distracting, with a negative influence on various measure of learning and performance.
 
 Interestingly, while some students can multitask and still comprehend material *during* class time, those students experience significantly reduced long-term retention ([Glass & Kang, 2019](https://doi.org/10.1080/01443410.2018.1489046)).
 
@@ -95,7 +97,7 @@ This policy is intended for your own benefit as well as the benefit of your clas
 
 You will be provided a notebook and/or paper for the course to take notes and write down questions that arise or factoids you wish to research after class. You are always encouraged to ask about factoids that you might otherwise look up on your device - someone in the class might know the answer, or at least have some insight!
 
-Also, if you prefer to take notes on a device that can sit flat on the table, and you are confident that you can do this without distracting yourself and without distracting others, pleas come see me to make an arrangement.
+Also, if you prefer to take notes on a device that can sit flat on the table, and you are confident that you can do this without distracting yourself and without distracting others, please come see me to make an arrangement.
 
 Finally, **I will revisit the no-phone no-laptop policy with students throughout the semester**, and I remain open to revising the policy based on feedback / student needs.
 
