@@ -164,6 +164,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 ::: {#refs}
 :::
 
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week0.md>.
 2. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
 3. Theme colors and interface cues adapt the CTA-style timer at
    [jackbandy.com/timer](https://jackbandy.com/timer).

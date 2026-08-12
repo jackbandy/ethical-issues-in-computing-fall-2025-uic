@@ -40,17 +40,35 @@ Let me know (1) you are here and (2) what you had for breakfast
 
 ---
 
+# About Me {.title-slide .section-header}
+
+---
+
 # A bit about me
 
+:::: columns
+::: {.column width="68%"}
+::: {.incremental}
 - Undergrad: Wheaton College (2016)
 - Masters: University of Kentucky (2018)
 - PhD: Northwestern University (2023)
 - Worked at Twitter: Machine Learning Ethics, Transparency, Accountability (2021)
 - Started teaching full-time in 2023
 - Started at UIC in 2025
+:::
+:::
 
-<!-- image: "Born" / "Raised" map graphic -->
-- TODO: add image — *"Born" / "Raised" map graphic*
+::: {.column width="30%"}
+<div style="border:2px dashed #aaa; border-radius:8px; aspect-ratio:1/1; display:flex; align-items:center; justify-content:center; text-align:center; color:#666; padding:0.5em;">
+Placeholder
+</div>
+
+<!-- TODO: add image — "Born" / "Raised" map graphic -->
+::: {.caption}
+"Born" / "Raised" map graphic
+:::
+:::
+::::
 
 ---
 
@@ -84,6 +102,10 @@ San Diego, ACL 2026
 
 ---
 
+# Conocimiento {.title-slide .section-header}
+
+---
+
 # Conocimiento! {.quote-slide}
 
 > It is essential that we learn who we are so that we have a context
@@ -108,16 +130,20 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 :::: columns
 ::: {.column width="48%"}
+::: {.incremental}
 - Is there a place — or more than one place — you consider "home"?
   If so, where is it, and why? If not, why not?
 - Share about your family, however you choose to define it: How big was your immediate/extended family? Were you the oldest, the youngest, only child? How did that shape your experience?
 :::
+:::
 
 ::: {.column width="48%"}
+::: {.incremental}
 - What do you know of your family origins? What do you want to know?
 - What languages are spoken in your family? What languages do you speak? Want to speak?
 - Are there family traditions or cultural values that you hold dear? What are these, and why?
 - What other social identities are important to you?
+:::
 :::
 ::::
 
@@ -127,15 +153,19 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 :::: columns
 ::: {.column width="48%"}
+::: {.incremental}
 - Where did you go to school (elementary, high school, or community college)? Share about your experiences.
 - Do you have family members who have earned post-secondary degrees? How did your family shape your educational trajectory?
 - What influenced your decision to go to college? Why did you choose to attend UIC?
 :::
+:::
 
 ::: {.column width="48%"}
+::: {.incremental}
 - What are your educational or career goals at the moment? How did you identify them? Have these goals changed over time?
 - What do you wish your faculty knew about you, and why?
 - What aspect of college has been easier than you anticipated? What is an aspect that has been harder?
+:::
 :::
 ::::
 
@@ -143,12 +173,18 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 # Part 3 of 3: This Class
 
+::: {.incremental}
 - What does ethics mean to you?
 - Have you ever studied ethics? Moral philosophy? Social justice? If so, when? What do you remember?
 - Do you currently follow a "code of ethics" of any kind?
 - Which topics are you especially excited to learn about?
 - Anything you are nervous about?
 - What else are you studying and doing this semester?
+:::
+
+---
+
+# Syllabus & Logistics {.title-slide .section-header}
 
 ---
 
@@ -157,10 +193,11 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 ---
 
 
-# What piques your interest?
+# What piques your interest? {.smaller}
 
 :::: columns
 ::: {.column width="48%"}
+::: {.incremental}
 - Value-sensitive / culturally-sensitive design
 - Labor displacement and deskilling
 - Privacy as contextual integrity
@@ -170,8 +207,10 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 - Online safety and content moderation
 - Bias, discrimination in large language models
 :::
+:::
 
 ::: {.column width="48%"}
+::: {.incremental}
 - Digital rights (to repair, to be forgotten, etc.)
 - Microtargeting and behavioral manipulation
 - Environmental costs of computing
@@ -179,6 +218,7 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 - Anonymity and security for data analytics
 - Monopoly power / the politics of "big tech"
 - Inequality and the "digital divide"
+:::
 :::
 ::::
 
@@ -237,6 +277,10 @@ CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
 
 ---
 
+# Course Logistics {.title-slide .section-header}
+
+---
+
 # Administrivia
 
 - Canvas check-in
@@ -281,6 +325,10 @@ Ask two or more questions (can be about logistics, schedule, content, syllabus, 
 # Invitation/reminder
 
 Turn off phones, laptops, other distractions
+
+---
+
+# What Is Ethics? {.title-slide .section-header}
 
 ---
 
@@ -356,6 +404,10 @@ Utilitarian
 Care Ethics
 :::
 ::::
+
+---
+
+# Virtue Ethics {.title-slide .section-header}
 
 ---
 
@@ -495,7 +547,10 @@ See you next week!
 
 # References & Credits {.sources}
 
-1. Conocimiento activity adapted from a version developed by leaders at San José State University (¡Somos SJSU!). See also [UIC's Conocimiento activity guide](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/).
-2. Virtue ethics definition from the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/).
-3. Title photo: [Jane M. Byrne Interchange](https://commons.wikimedia.org/wiki/File:Jane_M._Byrne_Interchange_4-1-22.jpg) by Sea Cow, via Wikimedia Commons, CC BY-SA 4.0.
-4. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week1.md>.
+2. Conocimiento activity adapted from a version developed by leaders at San José State University (¡Somos SJSU!). See also [UIC's Conocimiento activity guide](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/).
+3. Virtue ethics definition from the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/).
+4. Title photo: [Jane M. Byrne Interchange](https://commons.wikimedia.org/wiki/File:Jane_M._Byrne_Interchange_4-1-22.jpg) by Sea Cow, via Wikimedia Commons, CC BY-SA 4.0.
+5. Day 1 title photo: [Forest Park](https://commons.wikimedia.org/wiki/File:Forest_Park.JPG) by Zol87, via Wikimedia Commons, CC BY-SA 3.0.
+6. Day 2 title photo: [Oak Park Blue Line staircase](https://commons.wikimedia.org/wiki/File:OakPark_BlueLine_Staircase.jpg) by Paul Goyette, via Wikimedia Commons, CC BY-SA 2.0.
+7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

@@ -632,11 +632,12 @@ See you next week for more presentations!
 
 # References & Credits {.sources}
 
-1. BJ Fogg, ["Persuasive Computers: Perspectives and Research Directions"](https://dl.acm.org/doi/10.1145/274644.274677), *CHI 1998*.
-2. Thomas Mildner, ["Cheat Sheet of Dark Design Patterns"](https://thomasessmeyer.com/darkpatterns.html); [darkpatterns.uxp2.com](https://darkpatterns.uxp2.com/).
-3. ASCI Academy, [Gallery of "Conscious" Design Patterns](https://www.consciouspatterns.in/ethical-gallery).
-4. ProPublica, ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing), 2016.
-5. Cathy O'Neil, [*Weapons of Math Destruction*](https://weaponsofmathdestructionbook.com/) (2016).
-6. Chouldechova, A. (2017). ["Fair Prediction with Disparate Impact."](https://doi.org/10.1089/big.2016.0047) *Big Data.*
-7. Census Bureau, ["Income in the United States: 2024"](https://www.census.gov/library/publications/2024/demo/p60-282.html).
-8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week12.md>.
+2. BJ Fogg, ["Persuasive Computers: Perspectives and Research Directions"](https://dl.acm.org/doi/10.1145/274644.274677), *CHI 1998*.
+3. Thomas Mildner, ["Cheat Sheet of Dark Design Patterns"](https://thomasessmeyer.com/darkpatterns.html); [darkpatterns.uxp2.com](https://darkpatterns.uxp2.com/).
+4. ASCI Academy, [Gallery of "Conscious" Design Patterns](https://www.consciouspatterns.in/ethical-gallery).
+5. ProPublica, ["Machine Bias"](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing), 2016.
+6. Cathy O'Neil, [*Weapons of Math Destruction*](https://weaponsofmathdestructionbook.com/) (2016).
+7. Chouldechova, A. (2017). ["Fair Prediction with Disparate Impact."](https://doi.org/10.1089/big.2016.0047) *Big Data.*
+8. Census Bureau, ["Income in the United States: 2024"](https://www.census.gov/library/publications/2024/demo/p60-282.html).
+9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

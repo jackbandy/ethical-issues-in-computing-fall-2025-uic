@@ -429,8 +429,10 @@ See you next week!
 
 # References & Credits {.sources}
 
-1. Georgetown/KGI, *Recommender Systems 101* (March 2025). Pipeline architecture diagram.
-2. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
-3. UChicago, [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu).
-4. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
-5. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week4.md>.
+2. Day 1 title photo: [Racine CTA](https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg) by JeremyA, via Wikimedia Commons, CC BY-SA 3.0.
+3. Georgetown/KGI, *Recommender Systems 101* (March 2025). Pipeline architecture diagram.
+4. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
+5. UChicago, [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu).
+6. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
+7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

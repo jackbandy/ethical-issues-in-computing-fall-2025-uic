@@ -419,9 +419,11 @@ See you next week!
 
 # References & Credits {.sources}
 
-1. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
-2. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
-3. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
-4. Chiang and Zheng et al., ["An Open Platform for Evaluating LLMs by Human Preference"](https://openreview.net/forum?id=3MW8GKNyzI); [LMArena](https://lmarena.ai).
-5. Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU).
-6. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week9.md>.
+2. Day 2 title photo: [Damen stop, Blue Line](https://commons.wikimedia.org/wiki/File:Damen_Stop-Blue_Line_(3456034326).jpg) by Tripp, via Wikimedia Commons, CC BY 2.0.
+3. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
+4. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
+5. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
+6. Chiang and Zheng et al., ["An Open Platform for Evaluating LLMs by Human Preference"](https://openreview.net/forum?id=3MW8GKNyzI); [LMArena](https://lmarena.ai).
+7. Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU).
+8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

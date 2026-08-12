@@ -597,9 +597,11 @@ A character has just demonstrated their virtue by responding to a difficult chal
 
 # References & Credits {.sources}
 
-1. Ashley Belanger, ["OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million."](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/) *Ars Technica* (2025).
-2. Matt O'Brien, ["Anthropic to pay authors $1.5 billion to settle lawsuit…"](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164) *AP News*.
-3. NYT's Complaint, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/).
-4. Digital Millennium Copyright Act (DMCA), [Section 1202](https://www.law.cornell.edu/uscode/text/17/1202).
-5. Casey Newton, ["Grammarly turned me into an AI editor against my will"](https://www.platformer.news/grammarly-expert-review-reviewed/), *Platformer*.
-6. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week10.md>.
+2. Day 1 title photo: [Western Avenue station](https://commons.wikimedia.org/wiki/File:Western_Avenue_Station_2.jpg) by Adam Moss, via Wikimedia Commons, CC BY-SA 2.0.
+3. Ashley Belanger, ["OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million."](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/) *Ars Technica* (2025).
+4. Matt O'Brien, ["Anthropic to pay authors $1.5 billion to settle lawsuit…"](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164) *AP News*.
+5. NYT's Complaint, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/).
+6. Digital Millennium Copyright Act (DMCA), [Section 1202](https://www.law.cornell.edu/uscode/text/17/1202).
+7. Casey Newton, ["Grammarly turned me into an AI editor against my will"](https://www.platformer.news/grammarly-expert-review-reviewed/), *Platformer*.
+8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

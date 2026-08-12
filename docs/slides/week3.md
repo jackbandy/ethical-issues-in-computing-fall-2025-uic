@@ -523,9 +523,10 @@ See you next class!
 
 # References & Credits {.sources}
 
-1. Illinois Medical District station image via exp.com; Racine station
-   house (circa 1970) image: CTA via jlkarch.com.
-2. Street trolley photo credit Aaron Henkin / WYPR.
-3. Kohlberg stages illustration via RebelMango on YouTube.
-4. Carol Gilligan photo by Sasha Arutyunova / New York Times / Redux / eyevine.
-5. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week3.md>.
+2. Day 1 title photo: [Illinois Medical District CTA, view of Rush University Medical Center](https://commons.wikimedia.org/wiki/File:Illinois_Medical_District_CTA_view_of_Rush_University_Medical_Center.jpg) by Zol87, via Wikimedia Commons, CC BY 3.0.
+3. Day 2 title photo: [Racine CTA](https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg) by JeremyA, via Wikimedia Commons, CC BY-SA 3.0.
+4. Street trolley photo credit Aaron Henkin / WYPR.
+5. Kohlberg stages illustration via RebelMango on YouTube.
+6. Carol Gilligan photo by Sasha Arutyunova / New York Times / Redux / eyevine.
+7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

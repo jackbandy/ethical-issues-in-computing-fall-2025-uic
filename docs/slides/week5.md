@@ -601,11 +601,12 @@ See you next week!
 
 # References & Credits {.sources}
 
-1. Tarleton Gillespie, [*Custodians of the Internet*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) (2018).
-2. Tarleton Gillespie, ["Content Moderation, AI, and the Question of Scale"](https://doi.org/10.1177/2053951720943234), *Big Data & Society* (2020).
-3. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
-4. Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585), *IEEE Security & Privacy* (2022).
-5. White House OSTP, [Blueprint for an AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/) (2022).
-6. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
-7. Eleanor Roosevelt with UDHR photo, 1949, via Wikimedia Commons.
-8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md>.
+2. Tarleton Gillespie, [*Custodians of the Internet*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) (2018).
+3. Tarleton Gillespie, ["Content Moderation, AI, and the Question of Scale"](https://doi.org/10.1177/2053951720943234), *Big Data & Society* (2020).
+4. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
+5. Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585), *IEEE Security & Privacy* (2022).
+6. White House OSTP, [Blueprint for an AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/) (2022).
+7. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
+8. Eleanor Roosevelt with UDHR photo, 1949, via Wikimedia Commons.
+9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

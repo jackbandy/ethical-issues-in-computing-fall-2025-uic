@@ -443,6 +443,8 @@ See you next class!
 
 # References & Credits {.sources}
 
-1. Cicero Blue Line station photo (April 1976) via Jeffrey Lindmark.
-2. Factory safety sign image via the Chicago History Museum.
-3. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week2.md>.
+2. Day 1 title photo: [Cicero (Blue) entrance](https://commons.wikimedia.org/wiki/File:Cicero_(Blue)_entrance_(51377780442).jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
+3. Day 2 title photo: [Inbound track at Western (Blue — Forest Park)](https://commons.wikimedia.org/wiki/File:Inbound_track_at_Western_(Blue_-_Forest_Park),_looking_east.jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
+4. Factory safety sign image via the Chicago History Museum.
+5. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

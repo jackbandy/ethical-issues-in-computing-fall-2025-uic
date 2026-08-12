@@ -507,38 +507,103 @@ Examples from a 2020 Algorithmic Justice League report:
 
 ---
 
-# Gender Shades Dataset
+# Gender Shades Dataset {.figure-slide}
 
-<!-- image: PPB dataset breakdown by gender and skin tone (Fitzpatrick scale), MIT Media Lab -->
-- TODO: add image — *PPB dataset breakdown by gender and skin tone (Fitzpatrick scale), MIT Media Lab*
+![](../assets/gender-shades-press-kit/gs10.png)
 
----
-
-# Overall Accuracy
-
-<!-- image: overall accuracy rates across three commercial facial recognition systems, MIT Media Lab -->
-- TODO: add image — *overall accuracy rates across three commercial facial recognition systems, MIT Media Lab*
+::: {.figure-caption}
+Sample images and average faces from the Pilot Parliaments Benchmark. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+:::
 
 ---
 
-# Accuracy by Gender
+# Overall Accuracy {.figure-slide}
 
-<!-- image: accuracy rates for male vs. female subjects, MIT Media Lab -->
-- TODO: add image — *accuracy rates for male vs. female subjects, MIT Media Lab*
+![](../assets/gender-shades-press-kit/gs01.png)
 
----
-
-# Accuracy by Skin Tone
-
-<!-- image: accuracy rates for darker vs. lighter-skinned subjects, MIT Media Lab -->
-- TODO: add image — *accuracy rates for darker vs. lighter-skinned subjects, MIT Media Lab*
+::: {.figure-caption}
+Overall accuracy on all subjects in the Pilot Parliaments Benchmark (2017). Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+:::
 
 ---
 
-# Intersectional Accuracy Rates
+# Accuracy by Gender {.figure-slide}
 
-<!-- image: intersectional accuracy rates showing compound disadvantage for darker-skinned women, MIT Media Lab -->
-- TODO: add image — *intersectional accuracy rates showing compound disadvantage for darker-skinned women, MIT Media Lab*
+![](../assets/gender-shades-press-kit/gs02.png)
+
+::: {.figure-caption}
+Accuracy for female vs. male subjects. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+:::
+
+---
+
+# Accuracy by Skin Tone {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs03.png)
+
+::: {.figure-caption}
+Accuracy for darker vs. lighter subjects. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+:::
+
+---
+
+# Intersectional Accuracy Rates {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs04.png)
+
+::: {.figure-caption}
+Accuracy broken out by skin tone *and* gender — the largest gap reaches 34.4%. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+:::
+
+---
+
+# Where IBM's Errors Came From {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs05.png)
+
+::: {.figure-caption}
+The difference in error rates is greatest between darker-skinned female faces and lighter-skinned male faces in the IBM gender classifier using the PPB dataset. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+:::
+
+---
+
+# Where Microsoft's Errors Came From {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs06.png)
+
+::: {.figure-caption}
+93.6% of error for the Microsoft gender classifier came from the misgendering of darker-skinned (Fitzpatrick skin types IV, V, VI) faces from the PPB dataset. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+:::
+
+---
+
+# Where Face++'s Errors Came From {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs07.png)
+
+::: {.figure-caption}
+95.9% of error for the Face++ gender classifier came from the misgendering of female faces from the PPB dataset. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+:::
+
+---
+
+# Potential Harms from Algorithmic Decision-Making {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs09.png)
+
+::: {.figure-caption}
+Chart contents courtesy of Megan Smith, former CTO of the United States. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+:::
+
+---
+
+# Recommended Reading {.figure-slide}
+
+![](../assets/gender-shades-press-kit/gs08.png)
+
+::: {.figure-caption}
+Gender Shades: recommended reading. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+:::
 
 ---
 
@@ -588,11 +653,14 @@ How do the four ethical frameworks apply to facial recognition?
 
 # References & Credits {.sources}
 
-1. Buolamwini, J. & Gebru, T. (2018). ["Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification."](https://proceedings.mlr.press/v81/buolamwini18a.html) *FAccT 2018*.
-2. Joy Buolamwini, ["How I'm fighting bias in algorithms"](https://www.youtube.com/watch?v=UG_X_7g63rY), TED (2017).
-3. John Oliver, ["Facial Recognition"](https://youtu.be/jZjmlJPJgug), *Last Week Tonight* (2021).
-4. Algorithmic Justice League, [*Facial Recognition Technologies: A Primer*](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf) (2020).
-5. Folded Map Project: [foldedmapproject.com](https://foldedmapproject.com).
-6. D'Ignazio, C. & Klein, L. (2020). [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), MIT Press.
-7. *New York Times*, ["Meta Plans to Add Facial Recognition Technology to Its Smart Glasses"](https://archive.ph/hwGd4).
-8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week7.md>.
+2. Day 1 title photo: [Chicago Blue Line Washington station](https://commons.wikimedia.org/wiki/File:Chicago_Blue_Line_Washington_Station.jpg) by Thomas Sly, via Wikimedia Commons, CC BY 2.0.
+3. Day 2 title photo: [Clark/Lake](https://commons.wikimedia.org/wiki/File:Chicago-20240927-110_(54285583882).jpg) by Nairn McWilliams, via Wikimedia Commons, CC BY-SA 2.0.
+4. Buolamwini, J. & Gebru, T. (2018). ["Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification."](https://proceedings.mlr.press/v81/buolamwini18a.html) *FAccT 2018*.
+5. Joy Buolamwini, ["How I'm fighting bias in algorithms"](https://www.youtube.com/watch?v=UG_X_7g63rY), TED (2017).
+6. John Oliver, ["Facial Recognition"](https://youtu.be/jZjmlJPJgug), *Last Week Tonight* (2021).
+7. Algorithmic Justice League, [*Facial Recognition Technologies: A Primer*](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf) (2020).
+8. Folded Map Project: [foldedmapproject.com](https://foldedmapproject.com).
+9. D'Ignazio, C. & Klein, L. (2020). [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), MIT Press.
+10. *New York Times*, ["Meta Plans to Add Facial Recognition Technology to Its Smart Glasses"](https://archive.ph/hwGd4).
+11. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

@@ -408,8 +408,10 @@ Ratings for **obscure** movies can de-identify:
 
 # References & Credits {.sources}
 
-1. Latanya Sweeney, ["Simple Demographics Often Identify People Uniquely"](https://dataprivacylab.org/projects/identifiability/paper1.pdf), Carnegie Mellon University (2000).
-2. Arvind Narayanan and Vitaly Shmatikov, ["Robust De-anonymization of Large Sparse Datasets"](https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf), *IEEE S&P* (2008).
-3. Burton, Goldsmith, & Mattei (2018). ["How to teach computer ethics through science fiction."](https://doi.org/10.1145/3230977) *CACM.*
-4. De-anonymization demo: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity).
-5. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week6.md>.
+2. Day 1 title photo: [Stairs to Red Line at Jackson](https://commons.wikimedia.org/wiki/File:Stairs_to_Red_Line_at_Jackson.jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
+3. Latanya Sweeney, ["Simple Demographics Often Identify People Uniquely"](https://dataprivacylab.org/projects/identifiability/paper1.pdf), Carnegie Mellon University (2000).
+4. Arvind Narayanan and Vitaly Shmatikov, ["Robust De-anonymization of Large Sparse Datasets"](https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf), *IEEE S&P* (2008).
+5. Burton, Goldsmith, & Mattei (2018). ["How to teach computer ethics through science fiction."](https://doi.org/10.1145/3230977) *CACM.*
+6. De-anonymization demo: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity).
+7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
