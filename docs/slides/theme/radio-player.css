@@ -1,0 +1,76 @@
+/* UIC Radio play button (injected into the footer by
+   includes/radio-player-after-body.html). Hidden by default: it appears on
+   photo-title slides, and stays put while the stream is playing so it can be
+   stopped from any slide. */
+.reveal .footer .radio-toggle {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 3px 12px 3px 10px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.88em;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+/* Fixed 16x16 icon box: play and sound icons occupy identical space and stay
+   optically centered in the pill regardless of which one is showing. */
+.reveal .footer .radio-toggle .radio-toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+
+.reveal .footer .radio-toggle .radio-toggle-icon svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  box-shadow: none;
+  border: 0;
+}
+
+.reveal .footer .radio-toggle .radio-toggle-label {
+  display: block;
+  line-height: 16px;
+}
+
+.photo-title .reveal .footer .radio-toggle,
+.reveal .footer .radio-toggle.radio-playing {
+  display: inline-flex;
+}
+
+.reveal .footer .radio-toggle:hover {
+  opacity: 1;
+}
+
+.reveal .footer .radio-toggle.radio-playing {
+  opacity: 1;
+  border-color: #005daa;
+  color: #005daa;
+}
+
+.reveal .footer .radio-toggle.radio-loading .radio-toggle-icon {
+  animation: radio-toggle-pulse 1s ease-in-out infinite;
+}
+
+.reveal .footer .radio-toggle.radio-error {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+@keyframes radio-toggle-pulse {
+  50% { opacity: 0.25; }
+}
+
+html.reveal-print .reveal .footer .radio-toggle {
+  display: none !important;
+}

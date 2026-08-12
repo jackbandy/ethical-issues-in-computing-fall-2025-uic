@@ -1,0 +1,95 @@
+<script>
+// Footer play button for the UIC student radio stream (https://www.uicradio.net/).
+// Shows on photo-title slides only; stays visible while playing so the stream
+// can always be stopped. Stream URL comes from the station's .pls/.m3u
+// playlists (https://us7.maindigitalstream.com/4672/?pl=vlc) — a plain
+// Shoutcast MP3 an <audio> element can play directly.
+(() => {
+  const STREAM_URL = "https://us2.maindigitalstream.com/ssl/UIC";
+  // Both icons share one 16x16 viewBox so the pill never resizes mid-swap.
+  const SVG = (body) =>
+    '<svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" ' +
+    'aria-hidden="true" focusable="false">' + body + "</svg>";
+  const PLAY = SVG('<path d="M4.5 2.6 13 8 4.5 13.4Z"/>');
+  const SOUND = SVG(
+    '<path d="M2 6.1h2.4L7.6 3.2v9.6L4.4 9.9H2Z"/>' +
+    '<path fill="none" stroke="currentColor" stroke-width="1.2" ' +
+    'stroke-linecap="round" d="M9.9 5.6a3.3 3.3 0 0 1 0 4.8M12.1 3.5a6.2 6.2 0 0 1 0 9"/>'
+  );
+
+  let button = null;
+  let audio = null;
+  let tries = 0;
+
+  function setState(playing, loading) {
+    button.classList.toggle("radio-playing", playing);
+    button.classList.toggle("radio-loading", !!loading);
+    button.querySelector(".radio-toggle-icon").innerHTML = playing ? SOUND : PLAY;
+    button.setAttribute("aria-pressed", playing ? "true" : "false");
+    button.setAttribute(
+      "title",
+      playing ? "Stop UIC Radio" : "Play UIC Radio (uicradio.net)"
+    );
+  }
+
+  function toggle() {
+    if (!audio) {
+      audio = new Audio();
+      audio.preload = "none";
+      audio.addEventListener("playing", () => setState(true, false));
+      audio.addEventListener("pause", () => setState(false, false));
+      audio.addEventListener("error", () => {
+        setState(false, false);
+        button.classList.add("radio-error");
+        button.setAttribute("title", "UIC Radio stream unavailable");
+      });
+    }
+
+    if (!audio.paused) {
+      audio.pause();
+      // Drop the connection instead of buffering a live stream in the background.
+      audio.removeAttribute("src");
+      audio.load();
+      setState(false, false);
+      return;
+    }
+
+    button.classList.remove("radio-error");
+    // Cache-buster keeps a replay from resuming a stale buffered segment.
+    audio.src = STREAM_URL + "?_=" + Date.now();
+    setState(false, true);
+    const played = audio.play();
+    if (played && played.catch) played.catch(() => setState(false, false));
+  }
+
+  function install() {
+    if (button) return;
+    // Quarto's support plugin moves .footer-default into .reveal during init,
+    // so the footer may not be in place on the first attempt.
+    if (!document.querySelector(".reveal .footer p")) {
+      if (tries++ < 20) window.setTimeout(install, 100);
+      return;
+    }
+
+    button = document.createElement("button");
+    button.className = "radio-toggle";
+    button.type = "button";
+    button.innerHTML =
+      '<span class="radio-toggle-icon" aria-hidden="true"></span>' +
+      '<span class="radio-toggle-label">UIC Radio</span>';
+    setState(false, false);
+    button.addEventListener("click", toggle);
+
+    document.querySelector(".reveal .footer p").appendChild(button);
+  }
+
+  function boot() {
+    if (!window.Reveal) { window.setTimeout(boot, 50); return; }
+    Reveal.on("ready", install);
+    install();
+  }
+
+  document.addEventListener("DOMContentLoaded", boot);
+  window.addEventListener("load", boot);
+})();
+</script>
