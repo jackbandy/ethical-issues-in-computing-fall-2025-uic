@@ -27,11 +27,13 @@ See also: ["Ford Pinto"](https://en.wikipedia.org/wiki/Ford_Pinto), Wikipedia, o
 
 This dilemma is drawn from the Ford Pinto. Schwartz argues that the popular version of that story is a myth.
 
-The "mythical" version of the story suggests that Ford did a cost-benefit analysis: a fix costing **$11 per car** across 12.5 million vehicles totals **$137 million**, while the deaths it would prevent (180 burn deaths at **$200,000** each, 180 serious burn injuries at $67,000, and 2,100 burned vehicles at $700) total only **$49.5 million**. 
+The "mythical" version of the story suggests that Ford did a cost-benefit analysis: a fix that cost **$11 per car** across 12.5 million vehicles totals $137 million, while the deaths it would prevent (180 burn deaths at **$200,000** each, 180 serious burn injuries at $67,000, and 2,100 burned vehicles at $700) totaled only $49.5 million. 
 
 As the story goes, Ford did the math and decided deaths were cheaper.
 
-Gary Schwartz argues many elements of this are wrong. The document analyzed **rollover** leakage, not rear-end impacts; its figures covered all cars and light trucks sold in the U.S. in a typical year, not Pintos; and it was an attachment to a 1973 petition to NHTSA, filed three years after Pinto production began, having nothing to do with lawsuits. The $200,000 life value actually came from a 1972 NHTSA study, not from Ford. The death toll of 500–900 (Mother Jones) or "thousands" (Jack Anderson) is off by one to two orders of magnitude — NHTSA found 27. Finally, though its rear-end fire record was worse than most subcompacts, the Pinto's overall fatality rate was lower than the Corolla's, the VW Beetle's, and other vehicles at the time. Ford was **acquitted** in the Indiana reckless homicide prosecution.
+Gary Schwartz argues many elements of this are simply wrong. The actual document analyzed "rollover leakage," not rear-end impacts; its figures covered all cars and light trucks sold in the U.S. in a typical year, not Pintos; and the document was actually an attachment to a 1973 petition to NHTSA, filed three years after Pinto production began, independent of the lawsuits. The $200,000 life value actually came from a 1972 NHTSA study, not from Ford. And the death toll of 500–900 (Mother Jones) or "thousands" (Jack Anderson) is off by one to two orders of magnitude, as the NHTSA found 27 verified deaths.
+
+Finally, though its rear-end fire record was worse than most subcompacts, the Ford Pinto's overall fatality rate was lower than the Corolla's, the VW Beetle's, and other vehicles at the time. Ford was eventually acquitted in the Indiana reckless homicide prosecution.
 
 Still, many elements are accurate. Schwartz concludes Ford plausibly declined it on cost (the $9 package), knowing the decision would increase the chance of deaths, so I think the spirit of the story remains.
 
