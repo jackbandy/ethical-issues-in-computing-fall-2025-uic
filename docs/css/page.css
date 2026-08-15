@@ -1,0 +1,89 @@
+/*
+  Styles for plain prose pages using _layouts/page.html (currently the FAQ).
+  The layout already borrows schedule.css for links and lists; this file only
+  adds what a long question-and-answer page needs.
+
+  Note: this file was largely written by an LLM (Claude Code).
+*/
+
+/* Each `## Topic` starts a new question. The rule above it does the work a
+   horizontal rule would, so the markdown does not need `---` between entries
+   and the page stays readable as plain text. */
+.prose-page h2 {
+  margin-top: 42px;
+  padding-top: 22px;
+  border-top: 2px solid #e2e2e2;
+}
+
+.prose-page h2:first-of-type {
+  margin-top: 26px;
+}
+
+/* The question itself: the first paragraph after the topic heading, written as
+   bold "Q: …" in the markdown. Pulling it out of the body text makes the page
+   skimmable — a reader looking for one answer reads only these. */
+.prose-page h2 + p {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #00577a;
+  margin-bottom: 14px;
+}
+
+/* schedule.css styles every `code` span as a CTA station plaque, which is right
+   on the schedule page and wrong here: on a prose page a backticked word is
+   just inline code, and a block-level plaque would break the sentence around
+   it. Undo the plaque for prose pages. */
+.prose-page code {
+  display: inline;
+  width: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #24292f;
+  background: #f3f4f6;
+  border: 1px solid #e2e4e8;
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin: 0;
+}
+
+.prose-page p {
+  line-height: 1.65;
+  margin: 0 0 14px;
+}
+
+.prose-page h3 {
+  font-size: 1.05rem;
+  margin: 24px 0 8px;
+}
+
+.prose-page ul {
+  line-height: 1.6;
+  margin: 0 0 14px;
+  padding-left: 1.4rem;
+}
+
+.prose-page li {
+  margin: 4px 0;
+}
+
+/* Answers sometimes close on a note the instructor still means to write. Mark
+   those plainly rather than letting them read as finished prose. */
+.prose-page .todo {
+  display: block;
+  border-left: 4px solid #f0c000;
+  background: #fffdf2;
+  padding: 8px 12px;
+  margin: 0 0 14px;
+  font-size: 0.92rem;
+  color: #6a5600;
+}
+
+@media (max-width: 600px) {
+  .prose-page h2 {
+    margin-top: 32px;
+    padding-top: 18px;
+  }
+}

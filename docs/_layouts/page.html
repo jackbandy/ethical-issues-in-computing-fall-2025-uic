@@ -1,0 +1,50 @@
+<!--
+  Layout for a plain prose page — one that is just markdown, with the site's
+  chrome around it (nav, masthead, footer). The schedule layout cannot be used
+  for this: it renders the schedule itself from _includes, so it only ever
+  suits schedule.md.
+
+  Front matter it reads: title (heading and <title>), subtitle (optional line
+  under the heading), description (meta + Open Graph), nav_current (which nav
+  link is marked as the current page).
+
+  Prose styling is borrowed from schedule.css via .schedule-body, so links,
+  headings, and lists match the schedule page without a second stylesheet.
+
+  Note: this file was largely written by an LLM (Claude Code).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00A1DE">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>{{ page.title }} — Blue Line Ethics</title>
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Blue Line Ethics">
+  <meta property="og:title" content="{{ page.title }}">
+  {% if page.description %}<meta property="og:description" content="{{ page.description | escape }}">{% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/schedule.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/page.css">
+</head>
+<body>
+  {% include site-nav.html nav_current=page.nav_current %}
+
+  <main class="schedule-main">
+    <h1 class="schedule-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="schedule-subtitle">{{ page.subtitle }}</p>{% endif %}
+    <div class="schedule-body prose-page">
+      {{ content }}
+    </div>
+  </main>
+
+  {% include masthead.html %}
+  {% include footer.html %}
+</body>
+</html>
