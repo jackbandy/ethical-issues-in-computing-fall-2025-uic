@@ -1,31 +1,31 @@
-Unit,Branch,Week,Date,Station,Due,Notes
-Unit 1: Ethical Theories,Forest Park Branch,1,2026-08-24,Forest Park,,
-Unit 1: Ethical Theories,Forest Park Branch,1,2026-08-26,Oak Park,,
-Unit 1: Ethical Theories,Forest Park Branch,2,2026-08-31,Cicero,,
-Unit 1: Ethical Theories,Forest Park Branch,2,2026-09-02,Western,,
-Unit 1: Ethical Theories,Forest Park Branch,3,2026-09-07,,,
-Unit 1: Ethical Theories,Forest Park Branch,3,2026-09-09,Illinois Medical District,,
-Unit 1: Ethical Theories,Forest Park Branch,4,2026-09-14,Racine,,
-Unit 1: Ethical Theories,Forest Park Branch,4,2026-09-16,UIC-Halsted,,
-Unit 2: Stories and Histories,Milwaukee–Dearborn Subway,5,2026-09-21,Clinton,,
-Unit 2: Stories and Histories,Milwaukee–Dearborn Subway,5,2026-09-23,LaSalle,,
-Unit 2: Stories and Histories,Milwaukee–Dearborn Subway,6,2026-09-28,Jackson,,
-Unit 2: Stories and Histories,Milwaukee–Dearborn Subway,6,2026-09-30,Washington,,
-Unit 2: Stories and Histories,Milwaukee–Dearborn Subway,7,2026-10-05,Clark/Lake,,
-Unit 2: Stories and Histories,Milwaukee–Dearborn Subway,7,2026-10-07,Grand,,
-Unit 3: Contemporary Issues,O’Hare Branch,8,2026-10-12,Chicago,,
-Unit 3: Contemporary Issues,O’Hare Branch,8,2026-10-14,Division,,
-Unit 3: Contemporary Issues,O’Hare Branch,9,2026-10-19,Damen,,
-Unit 3: Contemporary Issues,O’Hare Branch,9,2026-10-21,Western,,
-Unit 3: Contemporary Issues,O’Hare Branch,10,2026-10-26,California,,
-Unit 3: Contemporary Issues,O’Hare Branch,10,2026-10-28,Logan Square,,
-Unit 3: Contemporary Issues,O’Hare Branch,11,2026-11-02,Belmont,,
-Unit 3: Contemporary Issues,O’Hare Branch,11,2026-11-04,Addison,,
-Unit 3: Contemporary Issues,O’Hare Branch,12,2026-11-09,Irving Park,,
-Unit 3: Contemporary Issues,O’Hare Branch,12,2026-11-11,Montrose,,
-Unit 3: Contemporary Issues,O’Hare Branch,13,2026-11-16,Jefferson Park,,
-Unit 3: Contemporary Issues,O’Hare Branch,13,2026-11-18,Harlem,,
-Unit 3: Contemporary Issues,O’Hare Branch,14,2026-11-23,Cumberland,,
-Unit 3: Contemporary Issues,O’Hare Branch,14,2026-11-25,,,
-Unit 3: Contemporary Issues,O’Hare Branch,15,2026-11-30,Rosemont,,
-Unit 3: Contemporary Issues,O’Hare Branch,15,2026-12-02,O'Hare,,
+Unit,Branch,Week,Date,Station,Due,Notes,Topic
+Unit 1: Ethical Theories,Forest Park Branch,1,2026-08-24,Forest Park,,,Course introduction and conocimiento
+Unit 1: Ethical Theories,Forest Park Branch,1,2026-08-26,Oak Park,,,Virtue ethics
+Unit 1: Ethical Theories,Forest Park Branch,2,2026-08-31,Cicero,,,Deontological ethics
+Unit 1: Ethical Theories,Forest Park Branch,2,2026-09-02,Western,,,Utilitarian ethics
+Unit 1: Ethical Theories,Forest Park Branch,3,2026-09-07,,,,
+Unit 1: Ethical Theories,Forest Park Branch,3,2026-09-09,Illinois Medical District,,,Care ethics
+Unit 1: Ethical Theories,Forest Park Branch,4,2026-09-14,Racine,,,Review of the four ethical theories
+Unit 1: Ethical Theories,Forest Park Branch,4,2026-09-16,UIC-Halsted,,,Algorithmic feeds and values in ranking
+Unit 2: Stories,Milwaukee–Dearborn Subway,5,2026-09-21,Clinton,,,Content moderation and intro to privacy
+Unit 2: Stories,Milwaukee–Dearborn Subway,5,2026-09-23,LaSalle,,,Privacy as contextual integrity
+Unit 2: Stories,Milwaukee–Dearborn Subway,6,2026-09-28,Jackson,,,Privacy in data and short stories
+Unit 2: Stories,Milwaukee–Dearborn Subway,6,2026-09-30,Washington,,,Inequality and justice
+Unit 2: Stories,Milwaukee–Dearborn Subway,7,2026-10-05,Clark/Lake,,,Facial recognition and fairness
+Unit 2: Stories,Milwaukee–Dearborn Subway,7,2026-10-07,Grand,,,Computing and war
+Unit 3: Contemporary Issues,Milwaukee–Dearborn Subway,8,2026-10-12,Chicago,,,Medical technology and cybersecurity
+Unit 3: Contemporary Issues,Milwaukee–Dearborn Subway,8,2026-10-14,Division,,,Intro to LLMs
+Unit 3: Contemporary Issues,O’Hare Branch,9,2026-10-19,Damen,,,LLMs continued
+Unit 3: Contemporary Issues,O’Hare Branch,9,2026-10-21,Western,,,Intellectual property
+Unit 3: Contemporary Issues,O’Hare Branch,10,2026-10-26,California,,,Intellectual property
+Unit 3: Contemporary Issues,O’Hare Branch,10,2026-10-28,Logan Square,,,Nudges and dark design patterns
+Unit 3: Contemporary Issues,O’Hare Branch,11,2026-11-02,Belmont,,,Algorithmic fairness
+Unit 3: Contemporary Issues,O’Hare Branch,11,2026-11-04,Addison,,,Book presentations
+Unit 3: Contemporary Issues,O’Hare Branch,12,2026-11-09,Irving Park,,,Book presentations
+Unit 3: Contemporary Issues,O’Hare Branch,12,2026-11-11,Montrose,,,Book presentations
+Unit 3: Contemporary Issues,O’Hare Branch,13,2026-11-16,Jefferson Park,,,Book presentations
+Unit 3: Contemporary Issues,O’Hare Branch,13,2026-11-18,Harlem,,,Book presentations
+Unit 3: Contemporary Issues,O’Hare Branch,14,2026-11-23,Cumberland,,,Book presentations
+Unit 3: Contemporary Issues,O’Hare Branch,14,2026-11-25,,,,
+Unit 3: Contemporary Issues,O’Hare Branch,15,2026-11-30,Rosemont,,,Synthesis and conclusions
+Unit 3: Contemporary Issues,O’Hare Branch,15,2026-12-02,O'Hare,,,Synthesis and conclusions

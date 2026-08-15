@@ -322,6 +322,15 @@ CS 377, Week 2, Day 2 🟦 Western 🟦
 
 ---
 
+## Questions to Consider if Stuck
+
+- How many people depend on this person for survival and/or wellbeing?
+- What are the chances the transplant will be successful and last a long time?
+- How many years of life could they gain from a transplant?
+- What contributions do they make to their communities?
+
+---
+
 ## Transplant Reflection
 
 - What was that like?
@@ -332,6 +341,10 @@ CS 377, Week 2, Day 2 🟦 Western 🟦
 ---
 
 # Utilitarianism {.title-slide .section-header}
+
+---
+
+## Mini-lecture: intro to utilitarian ethics
 
 ---
 

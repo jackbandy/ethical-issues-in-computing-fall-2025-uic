@@ -12,7 +12,7 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
+# Content Moderation and Intro to Privacy {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
 
 CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
@@ -68,29 +68,12 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ## Clinton Connection
 
-<!-- image: Clinton station connection photo 1 -->
-- TODO: add image — *Clinton station connection photo 1*
+- Named for DeWitt Clinton (1769–1828)
+- Championed the Erie Canal's construction (completed 1825)
+- Connected the Hudson River to Lake Erie, fueling Midwest settlement and trade growth
 
----
-
-## Clinton Connection
-
-<!-- image: Clinton station connection photo 2 -->
-- TODO: add image — *Clinton station connection photo 2*
-
----
-
-## Clinton Connection
-
-<!-- image: Clinton station connection photo 3 -->
-- TODO: add image — *Clinton station connection photo 3*
-
----
-
-## Clinton Connection
-
-<!-- image: Clinton station connection photo 4 -->
-- TODO: add image — *Clinton station connection photo 4*
+<!-- image: DeWitt Clinton / Erie Canal images -->
+- TODO: add image — *DeWitt Clinton / Erie Canal images*
 
 ---
 
@@ -98,6 +81,12 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+
+---
+
+## iClicker Question
+
+How many ads did you see in the first ten posts?
 
 ---
 
@@ -155,7 +144,7 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-## What Is Content Moderation? {.quote-slide}
+## Moderation as the Product {.quote-slide}
 
 > "Moderation is, in many ways, the commodity that platforms offer."
 >
@@ -245,6 +234,15 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
+## Activity: Review the Rules
+
+- Review the rules at your table
+- Which rule(s) would you change?
+- Come up with examples that "toe the line" or break the rules
+  - Community standards may be more ambiguous than you expect
+
+---
+
 ## Ethical Questions in Content Moderation
 
 :::: columns
@@ -329,7 +327,7 @@ CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
+# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
 
 CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
@@ -467,6 +465,14 @@ Information about a data subject can be varied:
 
 ---
 
+## Two Principles, Illustrated
+
+- **Consent** — the data subject makes an informed agreement
+- **Confidentiality** — the recipient keeps the information secret
+  - Example: a therapist keeps client sessions confidential
+
+---
+
 # Contextual Integrity Examples {.title-slide .section-header}
 
 ---
@@ -557,6 +563,20 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
+## Overview: Federal Privacy Laws in the U.S.
+
+| Law | Year | Covers |
+|---|---|---|
+| FERPA | 1974 | Student education records |
+| HIPAA | 1996 | Health information |
+| COPPA | 1998 | Children under 13 online |
+| GLBA | 1999 | Financial institutions |
+| Children's Internet Protection Act | 2000 | Schools and libraries |
+
+There is no single comprehensive federal privacy law — coverage is sectoral.
+
+---
+
 # Digital Rights {.title-slide .section-header}
 
 ---
@@ -568,6 +588,22 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 - What are some rights you want to have, but are unsure whether you have?
 - What are some examples of "human rights"?
 - Where do these rights come from?
+- What is a privilege compared to a right?
+
+---
+
+## iClicker Question
+
+"I want to know more about my rights."
+
+- Strong disagree / Disagree / Not sure / Agree / Strong agree
+
+---
+
+## Rights and Laws
+
+- Where do rights come from? Declarations, constitutions, statutes, courts
+- A right without an enforcement mechanism behaves differently from one with it
 - What is a privilege compared to a right?
 
 ---

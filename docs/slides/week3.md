@@ -4,13 +4,13 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/05 Care Ethics.pdf and 06 Theory Review.pdf. Review and edit before use. -->
 
-CS 377, Week 3, Day 1 🟦 Illinois Medical District 🟦
+CS 377, Week 3, Day 2 🟦 Illinois Medical District 🟦
 
 ---
 
 # Introduction to Care Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
 
-CS 377, Week 3, Day 1 🟦 Illinois Medical District 🟦
+CS 377, Week 3, Day 2 🟦 Illinois Medical District 🟦
 
 <!-- image source: Illinois Medical District station, via exp.com -->
 
@@ -51,7 +51,8 @@ CS 377, Week 3, Day 1 🟦 Illinois Medical District 🟦
 
 ## 🔀 Seat Shuffle
 
-- TK
+<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
+- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
@@ -71,7 +72,18 @@ CS 377, Week 3, Day 1 🟦 Illinois Medical District 🟦
 
 ## Student trolley problems
 
-TK
+<!-- image: selected student-authored trolley dilemmas from this semester (add each term) -->
+- TODO: add image — *selected student-authored trolley dilemmas from this semester (add each term)*
+
+---
+
+## The Trolley Problem in the Wild
+
+- From r/trolleyProblem
+- From "How the Trolley Problem Explains 2016" by Clio Chang, *The New Republic*
+
+<!-- image: r/trolleyProblem meme and New Republic illustration -->
+- TODO: add image — *r/trolleyProblem meme and New Republic illustration*
 
 ---
 
@@ -158,7 +170,13 @@ our bodies, our selves, our environment
 
 ## Kohlberg's stages of moral development
 
-- TK - Heinz dilemma
+---
+
+## The Heinz Dilemma {.quote-slide}
+
+> A lady was dying because she was very sick. There was one drug the doctors said might save her. This medicine was discovered by a man living in that same town. It cost him $400 to make it, but he charged $4000 for just a little bit of it. The sick lady's husband, Heinz, tried to borrow enough money to buy the drug. He went to everyone he knew to borrow the money. But he could only borrow half of what he needed. He told the man who made the drug that his wife was dying, and asked him to sell the medicine cheaper or let him pay him later. But the man said "No, I made the drug and I am going to make money from it." So Heinz broke into the store and stole the drug.
+
+Should Heinz have stolen the drug? Why or why not?
 
 ---
 
@@ -307,233 +325,13 @@ See you next class!
 
 ---
 
-# Review Theories of Ethics {.title-slide}
-
-CS 377, Week 3, Day 2 🟦 Racine 🟦
-
----
-
-# Review of Ethical Theories {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
-
-CS 377, Week 3, Day 2 🟦 Racine 🟦
-
-<!-- image source: view of Blue Line station house, circa 1970. Image: CTA via jlkarch.com -->
-
----
-
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
-
----
-
-## Agenda for Today
-
-:::: columns
-::: {.column width="55%"}
-- Administrivia and questions
-- Shuffle seats
-- Conclude care ethics
-- Book selection check-in
-- Review ethical frameworks
-- Sample of other ethical theories
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-map-stops/stop10-racine.svg)
-:::
-::::
-
----
-
-## Attendance
-
-- On a scale of 0 (exhausted) to 5 (exhilarated), how much energy do you have today?
-
----
-
-## 🔀 Seat Shuffle
-
-<!-- image: room diagram — tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — tables 1–8, projector screens, door*
-
----
-
-## Invitation/reminder
-
-Turn off phones, laptops, other distractions
-
----
-
-# Concluding Care Ethics {.title-slide .section-header}
-
----
-
-## Concluding Care Ethics
-
----
-
-## Book Selection
-
-- To receive full credit answer the following six questions in the
-  Canvas text box:
-  - Which book did you choose?
-  - Who wrote the book?
-  - How long is the book?
-  - How did you learn about the book?
-  - What is one thing you want to learn from reading this book?
-  - Give two additional reasons why this book seems interesting to you.
-
----
-
-## Table Discussion: Share your book selection!
-
-- Which book did you choose? Who is the author?
-- How did you find it?
-- What made you choose it?
-- Have you started it? How do you like it so far?
-
----
-
-# Four Theories of Ethics {.title-slide .section-header}
-
----
-
-## Four Theories / Approaches to Ethics
-
-:::: columns
-::: {.column width="24%"}
-## 🏛
-Virtue Ethics
-:::
-
-::: {.column width="24%"}
-## 📖
-Deontological
-:::
-
-::: {.column width="24%"}
-## 📊
-Utilitarian
-:::
-
-::: {.column width="24%"}
-## 💟
-Care Ethics
-:::
-::::
-
----
-
-## Connect the dots…
-
-- William David Ross contended there are seven duties that determine what is right:
-
-| Duty | Description |
-|---|---|
-| Fidelity | Keep promises and tell the truth |
-| Reparation | Make amends for wrongful acts |
-| Gratitude | Return kindness to those who give |
-| Non-injury | Do not hurt others |
-| Beneficence | Promote the aggregate good |
-| Self-improvement | Improve your own condition |
-| Justice | Distribute benefits and burdens equitably |
-
----
-
-## Many flavors of each theory
-
-:::: columns
-::: {.column width="48%"}
-## 📖 Deontological
-
-- Agent-centered, patient-centered
-- Act deontology, rule deontology
-- Duty-based, rights-based
-- Divine command
-- Monistic, pluralistic
-- Perfect duties, imperfect duties
-:::
-
-::: {.column width="48%"}
-## 📊 Utilitarian
-
-- Act utilitarian, rule utilitarian
-- Hedonistic, preference, or objectivist
-- Maximizing, satisficing, or scalar
-- Objective, expectational
-- "Negative utilitarianism" (harm reduction)
-:::
-::::
-
----
-
-## Many flavors of each theory
-
-:::: columns
-::: {.column width="48%"}
-## 🏛 Virtue Ethics
-
-- Agent-based (focus on traits)
-- Exemplarist (focus on saints or heroes)
-- Perfectionistic, target-centered
-- Care-based virtue ethics
-- Universal, cross-cultural, relativistic
-:::
-
-::: {.column width="48%"}
-## 💟 Care Ethics
-
-- Psychological or philosophical focus
-- Maternal, political, global
-- Micro-relational, institutional, structural
-- Feminist or generalized
-:::
-::::
-
----
-
-## More than Four!
-
-- Communitarianism
-  - Common good, social lives
-- Responsibility ethics
-  - Individual accountability
-- The "capability approach"
-  - Opportunities for achieving practical values (e.g. health)
-- Ubuntu ethics
-- Others you know of?
-- Other questions?
-
----
-
-# Media Diary Exercise {.title-slide .section-header}
-
----
-
-## Food in your Feed (Media Diary)
-
-- Due tomorrow night
-- Intended to be enjoyable!
-- 20 data points and a few reflective questions
-- Submit a PDF or a link to an online document (e.g. Google doc,
-  GitHub repository)
-
-<!-- image: food-in-your-feed worksheet preview -->
-- TODO: add image — *food-in-your-feed worksheet preview*
-
----
-
-## That's all for today!
-
-See you next class!
-
----
-
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week3.md>.
 2. Day 1 title photo: [Illinois Medical District CTA, view of Rush University Medical Center](https://commons.wikimedia.org/wiki/File:Illinois_Medical_District_CTA_view_of_Rush_University_Medical_Center.jpg) by Zol87, via Wikimedia Commons, CC BY 3.0.
-3. Day 2 title photo: [Racine CTA](https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg) by JeremyA, via Wikimedia Commons, CC BY-SA 3.0.
 4. Street trolley photo credit Aaron Henkin / WYPR.
 5. Kohlberg stages illustration via RebelMango on YouTube.
 6. Carol Gilligan photo by Sasha Arutyunova / New York Times / Redux / eyevine.
-7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+7. Clio Chang, "How the Trolley Problem Explains 2016," *The New Republic*.
+8. The [Heinz Dilemma](https://doethics.fun/dilemmas/care-ethics-heinz-dilemma/) and the [Porcupine and the Moles](https://doethics.fun/dilemmas/care-ethics-porcupine-and-moles/).
+9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

@@ -7,7 +7,7 @@ CS 377, Week 4, Day 1 🟦 Racine 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
+# Review Theories of Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
 
 CS 377, Week 4, Day 1 🟦 Racine 🟦
 
@@ -139,6 +139,12 @@ Care Ethics
 
 ---
 
+## All at Once
+
+- Caleb Williams [responds to a trolley problem](https://www.youtube.com/watch?v=iM3Bu_S82Jc) (Pardon My Take)
+
+---
+
 ## Connect the dots…
 
 - William David Ross contended there are seven duties that determine what is right:
@@ -218,6 +224,12 @@ Care Ethics
 
 ---
 
+## Review Game
+
+- Ransom notes
+
+---
+
 # Media Diary Exercise {.title-slide .section-header}
 
 ---
@@ -247,7 +259,7 @@ CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
+# Ethical Issues in Algorithmic Feeds {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
 
 CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
@@ -295,6 +307,66 @@ CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+
+---
+
+## Review Question
+
+"What is morally right is whatever aligns with the law."
+
+- [A] Virtue ethics
+- [B] Utilitarian ethics
+- [C] Care ethics
+- [D] Deontological ethics
+- [E] Polymorphic ethics
+
+---
+
+## Review Question
+
+"How can we best meet one another's needs?"
+
+- [A] Virtue ethics
+- [B] Utilitarian ethics
+- [C] Care ethics
+- [D] Deontological ethics
+- [E] Encapsulated ethics
+
+---
+
+## Review Question
+
+"Doing the right thing often involves a golden mean between deficiency and excess of a given trait."
+
+- [A] Virtue ethics
+- [B] Utilitarian ethics
+- [C] Care ethics
+- [D] Deontological ethics
+- [E] Recursive ethics
+
+---
+
+## Review Question
+
+"We must do the most good for the most people."
+
+- [A] Virtue ethics
+- [B] Utilitarian ethics
+- [C] Care ethics
+- [D] Deontological ethics
+- [E] Von Neumann ethics
+
+---
+
+## Review Question
+
+Which theory do you feel most aligned with so far?
+
+- [A] Virtue ethics
+- [B] Utilitarian ethics
+- [C] Care ethics
+- [D] Deontological ethics
+- [E] Nihilism
 
 ---
 
@@ -351,44 +423,141 @@ A typical recommender system proceeds in four stages:
 
 ---
 
-## Values in Ranking
-
-- What a platform optimizes for shapes what users see
-- Common engagement metrics: clicks, watch time, shares, reactions
-- Each metric encodes assumptions about what "value" means
-
-::: {.fragment}
-What values are *not* captured by engagement alone?
-:::
-
----
-
-## Activity: Ranking
-
-- See handout
-- Small groups rank a sample set of posts
-- What signals did you use? What did you deprioritize?
-
----
-
 ## Mini-lecture: Values and Ethics in Ranking
 
 ---
 
-## What Does Ranking Optimize?
+## News Values
 
-- Short-term engagement vs. long-term user well-being
-- Engagement with any content vs. quality content
-- Individual satisfaction vs. societal information health
-- Advertiser interests vs. user interests
-
----
-
-# Content Moderation {.title-slide .section-header}
+- What goes on the "front page?"
+- What makes an event important?
+- Original study by Johan Galtung and Mari Holmboe Ruge (1965)
+  - "Elite" people and places
+  - Conflicts / scandals / disasters
+- Follow-up by Tony Harcup and Deirdre O'Neill (2017)
 
 ---
 
-## Mini-lecture: Content Moderation
+## News Values (Harcup and O'Neill, 2017)
+
+:::: columns
+::: {.column width="48%"}
+- Threshold/intensity
+- Meaningfulness
+- Clarity/unambiguity
+- Consonance
+- Composition
+- Elite nations, people
+- Negativity (conflict, disaster)
+:::
+
+::: {.column width="48%"}
+- Surprise
+- Bad news (death, injury)
+- Shareability
+- Show business, sport, humor
+- Follow-up stories
+- Drama (searches, rescues, etc.)
+- Local relevance to audience
+- Magnitude of impact
+:::
+::::
+
+---
+
+## Ranking Exercise
+
+- See handout
+- Items you want seen by more people should be ranked higher (1 = top item)
+
+---
+
+## How did you decide the ranking?
+
+---
+
+## "Can't you just score the posts?"
+
+- Current options on Reddit:
+  - Best, Hot, New, Top, Trending
+- Ranking algorithms are opinions embedded in code
+  - See Evan Miller, "How Not To Sort By Average Rating"
+
+---
+
+## Algorithms are opinions {.quote-slide}
+
+> Algorithms are opinions embedded in code…. They think algorithms are objective and true and scientific — that's a marketing trick.
+>
+> — Cathy O'Neil
+
+---
+
+## Crappy Ranking Options
+
+- Score = (Positive ratings) − (Negative ratings)
+  - Used by Urban Dictionary
+- Score = Upvote Percentage
+  - (Positive ratings) / (Total ratings)
+  - Can be skewed with a small number of observations
+  - Used by Amazon
+
+---
+
+## Improved Ranking
+
+- Your ideas?
+
+::: {.fragment}
+- Technical fix: binomial proportion confidence interval
+- Reddit hides the number of upvotes for the first few hours
+:::
+
+---
+
+## How Facebook ranks comments
+
+<!-- image: via "Representative Ranking for Deliberation in the Public Sphere" (2025) -->
+- TODO: add image — *via "Representative Ranking for Deliberation in the Public Sphere" (2025)*
+
+---
+
+## Instagram Notifications (Example of a "Tweak")
+
+- Author diversity
+
+<!-- image: via "A New Ranking Framework for Better Notification Quality on Instagram" (2025) -->
+- TODO: add image — *via "A New Ranking Framework for Better Notification Quality on Instagram" (2025)*
+
+---
+
+## Which ethical frameworks are at play? How?
+
+:::: columns
+::: {.column width="24%"}
+## 🏛
+Virtue Ethics
+:::
+
+::: {.column width="24%"}
+## 📖
+Deontological
+:::
+
+::: {.column width="24%"}
+## 📊
+Utilitarian
+:::
+
+::: {.column width="24%"}
+## 💟
+Care Ethics
+:::
+::::
+
+---
+
+# Previewing Content Moderation {.title-slide .section-header}
 
 ---
 
@@ -397,46 +566,15 @@ What values are *not* captured by engagement alone?
 - The practice of monitoring and applying rules to user-generated content
 - Decisions about what to allow, remove, label, or reduce in reach
 - Carried out by humans, automated systems, or both
+- Much more on this next class!
 
 ---
 
-## The Scale Problem
+## Gazing into feeds {.quote-slide}
 
-- Meta: ~3 billion daily active users
-- YouTube: ~500 hours of video uploaded per minute
-- Human review alone cannot scale to this volume
-
----
-
-## Community Standards and Their Limits
-
-- Platforms publish rules — but rules require interpretation
-- "Newsworthiness" exceptions: content that would otherwise be removed is kept because of public interest
-- Who decides what is newsworthy?
-
----
-
-## Ethical Questions in Content Moderation
-
-:::: columns
-::: {.column width="48%"}
-**Design questions**
-
-- Who writes the rules?
-- How are edge cases handled?
-- What appeals processes exist?
-- Who decides what is "newsworthy"?
-:::
-
-::: {.column width="48%"}
-**Outcome questions**
-
-- Who bears the burden of moderation labor?
-- Which communities are most affected by errors?
-- What is the cost of over- vs. under-moderation?
-- Whose speech is protected? Whose is suppressed?
-:::
-::::
+> He who fights with monsters should look to it that he himself does not become a monster. And if you gaze long into an abyss, the abyss also gazes into you.
+>
+> — Friedrich Nietzsche
 
 ---
 
@@ -451,7 +589,10 @@ See you next week!
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week4.md>.
 2. Day 1 title photo: [Racine CTA](https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg) by JeremyA, via Wikimedia Commons, CC BY-SA 3.0.
 3. Georgetown/KGI, *Recommender Systems 101* (March 2025). Pipeline architecture diagram.
-4. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
-5. UChicago, [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu).
-6. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
-7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+4. Johan Galtung and Mari Holmboe Ruge, "The Structure of Foreign News" (1965); Tony Harcup and Deirdre O'Neill, "What is News? News values revisited (again)" (2017).
+5. Evan Miller, ["How Not To Sort By Average Rating"](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html).
+6. Cathy O'Neil, *Weapons of Math Destruction* (2016).
+7. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
+8. UChicago, [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu).
+9. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
+10. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

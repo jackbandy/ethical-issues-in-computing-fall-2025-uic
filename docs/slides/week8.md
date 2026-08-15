@@ -4,262 +4,17 @@
 
 ---
 
-# Computing and War {.title-slide}
-
-<!-- NOTICE: Draft from old-slides/pdf-versions/15 War.pdf. Review and edit before use. -->
-
-CS 377, Week 8, Day 1 🟦 Grand 🟦
-
----
-
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
-
-CS 377, Week 8, Day 1 🟦 Grand 🟦
-
-<!-- image source: Rendering via altusworks.com -->
-
----
-
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
-
----
-
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- More grades released, more to come
-- Some of you will receive an attendance check-in email this week
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
-## Agenda for Today
-
-:::: columns
-::: {.column width="55%"}
-- Shuffle seats
-- Your feedback from the midpoint check-in
-- Overview of speculative fiction exercise
-- Mini-lecture: computing and war
-- Discuss "Codename Delphi"
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-map-stops/stop18-grand.svg)
-:::
-::::
-
----
-
-## 🔀 Seat Shuffle
-
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
-
----
-
-## Your Feedback from the Midpoint Check-in…
-
-<!-- image: summary of student feedback from the midpoint check-in — placeholder for instructor to add each semester -->
-- TODO: add image — *summary of student feedback from the midpoint check-in — placeholder for instructor to add each semester*
-
----
-
-## Invitation
-
-Turn off phones, laptops, and other distractions
-
----
-
-## Table Discussion: Book Check-in
-
-- How much have you read?
-- What helps you read? (Where? When? What else?)
-- How are you taking notes / keeping track of what you're learning?
-- What does your "reading schedule" look like for the next few weeks?
-
----
-
-## Speculative Fiction Exercise Overview
-
-- We've read three stories — now it's your turn to write your own!
-- In brief: write more than one page; have fun with it
-- See Canvas for the current deadline
-- We will vote on the best stories in class next week
-
----
-
-# War and Computing in the News {.title-slide .section-header}
-
----
-
-## War and Computing in Recent News
-
-<!-- image: recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal) -->
-- TODO: add image — *recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal)*
-
----
-
-## In (Very) Recent News
-
-- Pentagon banned Anthropic on February 27, designating it a "supply-chain risk"
-- OpenAI announced a Pentagon deal hours later
-- February 28 – March 1: U.S.–Israel strikes on Iran
-- Reports: Anthropic services were used in the attacks
-
----
-
-## Anthropic's "Red Lines"
-
-:::: columns
-::: {.column width="48%"}
-**Mass domestic surveillance**
-
-"Using these systems for mass domestic surveillance is incompatible with democratic values. AI-driven mass surveillance presents serious, novel risks to our fundamental liberties."
-:::
-
-::: {.column width="48%"}
-**Fully autonomous weapons**
-
-"Frontier AI systems are simply not reliable enough to power fully autonomous weapons. We will not knowingly provide a product that puts America's warfighters and civilians at risk."
-:::
-::::
-
----
-
-# Computing and War Before LLMs {.title-slide .section-header}
-
----
-
-## Computing and War: Before LLMs
-
----
-
-## ARPANET
-
-- U.S. DoD Advanced Research Projects Agency Network
-- Originally linked Pentagon-funded research computers
-- Needed robust / redundant communication tools during the Cold War
-- ARPANET went live in 1969
-- TCP/IP protocol launched in the 1970s, standardized in 1983
-- Civilian / academic networks evolved to become the Internet
-
----
-
-## Alan Turing and World War II
-
-- During WW2 (1939–1945), Turing worked at Bletchley Park to break German military ciphers
-- Automated search over Enigma keys, led to large-scale computational machinery ("Colossus")
-- Historians estimate this shortened the war by 2 years
-
----
-
-## Project Maven (2018)
-
-- Google provided image classification services to label objects from military drone videos
-- Thousands of Google employees signed petitions; some resigned
-- Google chose not to renew Project Maven; added AI ethics principles
-- Changes were largely a result of sustained worker pressure
-
----
-
-## Stuxnet (2009)
-
-- Computer worm used to sabotage Iran's nuclear program
-- Targeted Siemens industrial control systems (ICS) at Natanz
-- Caused centrifuges to spin irregularly but report normal readings to operators
-- *Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon* (Kim Zetter)
-
----
-
-# "Not Without Us" {.title-slide .section-header}
-
----
-
-## Not Without Us {.quote-slide}
-
-> "None of the weapon systems which today threaten murder on a genocidal scale,
-> and whose design, manufacture and sale condemns countless people, especially
-> children, to poverty and starvation, that none of these devices could be developed
-> without the earnest, even enthusiastic, cooperation of computer professionals.
-> It cannot go on without us!"
->
-> — Joseph Weizenbaum, "Not Without Us" (1986)
-
----
-
-## "Not Without Us": Key Arguments
-
-- 1986 speech by MIT computer scientist Joseph Weizenbaum
-- Argued that computing professionals must actively resist uses of computing that dehumanize
-- Warned about dissolved responsibility for harmful outcomes
-- "The machine said…" — humans must own moral decisions
-
----
-
-# "Codename Delphi" {.title-slide .section-header}
-
----
-
-## Switching to Fiction!
-
----
-
-## "Codename Delphi" (2014)
-
-- Written by Linda Nagata
-
----
-
-## Table Discussion: "Codename Delphi"
-
-- Imagine you had to do Karin's job for a week. What challenges do you imagine might come up?
-- Why does Karin find it unacceptable that some fellow handlers describe the job as being like a video game?
-- What virtues and habits has Karin cultivated in order to excel as a handler?
-- What else did the story make you think about?
-
----
-
-## Ethical Frameworks Applied
-
-- **Virtue ethics**: What virtues does Karin demonstrate? Which vices does she resist?
-- **Deontological**: Are there moral absolutes in warfare? (Weizenbaum says yes)
-- **Care ethics**: Who bears the relational costs of automated warfare?
-- **Utilitarian**: How do we weigh military effectiveness against human costs?
-
----
-
-## Preview: "If an Algorithm Can Cast a Shadow"
-
-- Written by Claire Jia-Wen
-- 34-minute audio version available (link in Canvas)
-- Read before Wednesday's class
-- Complete the Canvas discussion by Tuesday at 11:59pm
-
----
-
-## That's all for today!
-
-See you Wednesday!
-
----
-
 # Ethical Issues in Medical Technology {.title-slide}
 
-CS 377, Week 8, Day 2 🟦 Chicago 🟦
+<!-- NOTICE: Draft from old-slides/pdf-versions/16 Medical Tech.pdf. Review and edit before use. -->
+
+CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
+# Ethical Issues in Medical Technology {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
 
-CS 377, Week 8, Day 2 🟦 Chicago 🟦
+CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 <!-- image source: Rendering via altusworks.com -->
 
@@ -293,6 +48,7 @@ CS 377, Week 8, Day 2 🟦 Chicago 🟦
 - Group exercise: Therac-25
 - Real-world ethical dilemmas
 - Ethics in medical technology
+- Intro to cybersecurity
 :::
 
 ::: {.column width="40%"}
@@ -303,6 +59,8 @@ CS 377, Week 8, Day 2 🟦 Chicago 🟦
 ---
 
 ## Follow-up on "Codename Delphi"
+
+Seemed like we did not get to everyone's questions… lingering thoughts?
 
 <!-- image: discussion board student responses or highlights from Canvas -->
 - TODO: add image — *discussion board student responses or highlights from Canvas*
@@ -330,35 +88,9 @@ CS 377, Week 8, Day 2 🟦 Chicago 🟦
 
 ---
 
-## Normative and Descriptive Ethics
+## Ethics and Engineering
 
-:::: columns
-::: {.column width="48%"}
-## Normative
-
-- Is it right?
-- Is it wrong?
-- What should be done?
-- "Is this unethical?"
-:::
-
-::: {.column width="48%"}
-## Descriptive
-
-- Who is involved?
-- Who is making the decision(s)?
-- What are the stakes?
-- What are the options?
-- What are the potential outcomes?
-- What decisions led to this situation?
-:::
-::::
-
----
-
-## Why We'll Try to Avoid the Word "Ethical" in This Class
-
-- TODO: fill in — placeholder slide
+The papers we read use "ethical" as a verdict. In this class we keep asking the descriptive questions alongside it: who is involved, what are the stakes, what decisions led here?
 
 ---
 
@@ -447,6 +179,16 @@ Using both normative and descriptive lenses:
 
 ---
 
+# Intro to CyberSecurity {.title-slide .section-header}
+
+---
+
+## Mini-lecture: Intro to CyberSecurity
+
+- TODO: fill in — new topic for this semester
+
+---
+
 ## Reminders
 
 - Speculative fiction due Sunday at 11:59pm
@@ -457,18 +199,324 @@ Using both normative and descriptive lenses:
 
 ## That's all for today!
 
-See you next week!
+See you Wednesday!
+
+---
+
+# Ethical Challenges from LLMs {.title-slide}
+
+<!-- NOTICE: Draft from old-slides/pdf-versions/17 Intro to LLMs.pdf. Review and edit before use. -->
+
+CS 377, Week 8, Day 2 🟦 Division 🟦
+
+---
+
+# Ethical Challenges from LLMs {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
+
+CS 377, Week 8, Day 2 🟦 Division 🟦
+
+<!-- image source: picture from altusworks.com -->
+
+---
+
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
+
+---
+
+## Administrivia
+
+:::: columns
+::: {.column width="55%"}
+- Read "If an Algorithm Can Cast a Shadow" for next class
+- Keep reading your book!
+- Keep an eye on published grades
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-full-path.svg)
+:::
+::::
+
+---
+
+## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- Shuffle seats
+- Speculative fiction activity
+- What is a (large) language model?
+- "Stochastic Parrots" — four key issues
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop20-division.svg)
+:::
+::::
+
+---
+
+## 🔀 Seat Shuffle
+
+<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
+- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+
+---
+
+## Table Activity: Speculative Fiction
+
+<!-- image: student speculative fiction submissions / vote slide -->
+- TODO: add image — *student speculative fiction submissions / vote slide*
+
+---
+
+# What Is a Language Model? {.title-slide .section-header}
+
+---
+
+## What Is a (Large) Language Model?
+
+---
+
+## A Simple Language Model
+
+Training text: *"it was the best of times"*
+
+- Model: predicts the next token based on preceding context
+
+::: {.fragment}
+Training text: *"it was the best of times, it was the worst of times"*
+
+- Model now has more transitions to learn from
+:::
+
+---
+
+## From Text to Model
+
+<!-- image: diagram showing training text → next-token probability model (Dickens example) -->
+- TODO: add image — *diagram showing training text → next-token probability model (Dickens example)*
+
+---
+
+## LM Definition {.quote-slide}
+
+> "Systems which are trained on string prediction tasks: that is, predicting the
+> likelihood of a token (character, word, or string) given its preceding context."
+>
+> — Bender and Gebru et al., "Stochastic Parrots" (2021)
+
+---
+
+# "Stochastic Parrots" {.title-slide .section-header}
+
+---
+
+## 🦜 Stochastic Parrots
+
+- Bender, Gebru et al. (2021)
+- Paper drafted via Twitter DMs in Fall 2020
+- Google admin asked that the paper be retracted
+- Published in February 2021 at FAccT
+
+<!-- image: photos of the four authors (Emily Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell) -->
+- TODO: add image — *photos of the four authors (Emily Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell)*
+
+---
+
+## Behind the Research: AI Ethics at Google
+
+<!-- image: context on Timnit Gebru's departure from Google and the broader story of AI ethics research in industry -->
+- TODO: add image — *context on Timnit Gebru's departure from Google and the broader story of AI ethics research in industry*
+
+---
+
+## Table Activity: Learn About the Authors
+
+- Education? Early life?
+- Previous jobs / positions?
+- Major contributions / projects?
+
+---
+
+## Four Key Issues in "Stochastic Parrots"
+
+::: {.incremental}
+1. **Cost** — environmental and financial
+2. **"Unfathomable" training data** — scale makes auditing impossible
+3. **Misdirected research** — opportunity cost of pursuing scale
+4. **Human interactions** — the "ELIZA effect" and dangerous queries
+:::
+
+---
+
+# Costs and Training Data {.title-slide .section-header}
+
+---
+
+## Environmental Costs of LLMs
+
+- Thousands of GPUs for initial training
+- "Training a single BERT base model on GPUs was estimated to require as much energy as a trans-American flight"
+- Data center energy: cooling systems, water use, land
+
+---
+
+## Financial Costs of LLMs
+
+- As of 2020: $150k for every 0.1 increase in BLEU score (Strubell et al.)
+- Exact costs difficult to know; relative costs fairly clear
+
+---
+
+## "Unfathomable" Training Data (2 of 4)
+
+| Model | Year | Training Data |
+|---|---|---|
+| GPT-1 | 2018 | BookCorpus — 7,000 free books |
+| GPT-2 | 2019 | WebText — Reddit posts (>2 karma), 8B web pages |
+| GPT-3 | 2020 | WebText2 + 500B tokens |
+| GPT-4 | 2023 | Undisclosed |
+
+---
+
+## Why "Unfathomable"?
+
+::: {.incremental}
+- Larger text datasets are more difficult to understand, analyze, and audit
+- Training data from the Internet is often not representative
+  - Over-representation of men on Reddit (~67%), Wikipedia (~90%)
+- Efforts to "clean" datasets can have unintended consequences
+  - e.g. removing all pages mentioning the word "rapist"
+  - ["List of Dirty, Naughty, Obscene, and Otherwise Bad Words"](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
+:::
+
+---
+
+## On Filtering Marginalized Voices {.quote-slide}
+
+> "If we filter out the discourse of marginalized populations, we fail to provide
+> training data that reclaims slurs and otherwise describes marginalized identities
+> in a positive light."
+>
+> — Bender and Gebru et al., "Stochastic Parrots" (2021)
+
+---
+
+# Research Directions and Human Interactions {.title-slide .section-header}
+
+---
+
+## Misdirected Research (3 of 4)
+
+- Statistical language models are just one approach to AI
+- Other approaches emphasize understanding and structure
+  - Knowledge graphs, structured reasoning
+  - Example: passing AP exams posted on the internet
+- Scaling LLMs consumes resources that could be directed elsewhere
+
+<!-- image: chart via Stanford HAI showing research investment distribution -->
+- TODO: add image — *chart via Stanford HAI showing research investment distribution*
+
+---
+
+## Human Interactions (4 of 4): ELIZA
+
+<!-- image: ELIZA interface screenshot -->
+- TODO: add image — *ELIZA interface screenshot*
+
+---
+
+## Human Interactions (4 of 4)
+
+- "Humans are prepared to interpret strings belonging to languages they speak as meaningful"
+- But "an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data"
+- We project meaning onto things — sometimes erroneously
+- Early example: **ELIZA** (1966, Joseph Weizenbaum)
+  - Users became emotionally attached even knowing it was a program
+  - Weizenbaum was disturbed by this
+
+*Try ELIZA: [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)*
+
+---
+
+## Dangerous Queries
+
+::: {.incremental}
+- "Users might query LMs for 'dangerous knowledge'"
+- Examples:
+  - Tax avoidance
+  - Self-harm
+  - Weapon building
+  - Malicious / manipulative content
+  - Theft of identity and/or likeness
+  - Hacking / cybersecurity circumventions
+:::
+
+::: {.fragment}
+Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
+:::
+
+---
+
+# Managing the Risks {.title-slide .section-header}
+
+---
+
+## Managing the Risks
+
+---
+
+## Table Discussion: Ideas for Managing Risks?
+
+:::: columns
+::: {.column width="48%"}
+- **Environmental and financial costs** — what kind of metrics could be useful (or unhelpful)?
+- **Misdirected research** — better ways to approach and manage it?
+:::
+
+::: {.column width="48%"}
+- **Human interactions** — what are the practical, everyday benefits of language models?
+- How do we know when we reach over-reliance on a "responsible LLM" checklist?
+:::
+::::
+
+---
+
+## Which Risk(s) to Learn More About?
+
+- [A] Environmental and financial costs
+- [B] "Unfathomable" training data
+- [C] Misdirected research
+- [D] Human interactions
+
+---
+
+## Laptop/Phone Policy Check-in
+
+"To promote engagement and alertness in class, most class periods will follow a no-electronics policy."
+
+- Checking in throughout the semester to discuss the policy and potentially revise it based on student input
+
+---
+
+## Reminders
+
+- Read "If an Algorithm Can Cast a Shadow" by Claire Jia-Wen
+- Audio version is ~34 minutes (link in Canvas)
+- See you next week!
 
 ---
 
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week8.md>.
-2. Ross Andersen, ["Inside Anthropic's Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/), *The Atlantic* (2026).
-3. Joseph Weizenbaum, ["Not Without Us"](https://www.jstor.org/stable/48617451) (1986).
-4. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
-5. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
-6. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
-7. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
-8. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
-9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+2. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
+3. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
+4. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
+5. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
+6. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
+7. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
+8. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
+9. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
+10. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

@@ -12,7 +12,7 @@ CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
+# Privacy, Continued {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
 
 CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
@@ -26,7 +26,7 @@ CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
 :::: columns
 ::: {.column width="55%"}
-- Asynchronous class Wednesday
+- Asynchronous classes next week (Dr. Bandy away)
 - Food in your Feed — some reflections still missing
 - Canvas updates and upcoming deadlines
 :::
@@ -43,6 +43,7 @@ CS 377, Week 6, Day 1 🟦 Jackson 🟦
 :::: columns
 ::: {.column width="55%"}
 - Upcoming due dates
+- Privacy in data (de-anonymization, k-anonymity)
 - Why short stories?
 - Discuss "Here and Now"
 - Preview "Message in a Bottle"
@@ -129,151 +130,16 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Why Short Stories? {.title-slide .section-header}
-
----
-
-## Mini-lecture: Why Short Stories?
-
----
-
-## Why Short Stories?
-
-::: {.incremental}
-- **Defamiliarization** — detach from preconceptions, expose your assumptions
-- **Address recognizable human situations and problems** — explore them in terms of unfamiliar settings or technology
-- **Normative + descriptive analysis** — both "is it right?" and "who is affected?"
-- **It can be fun!**
-:::
-
-*Burton, Goldsmith, & Mattei (2018). "How to teach computer ethics through science fiction." CACM.*
-
----
-
-## Some Examples of Sci-Fi Ethics Cases
-
-<!-- image: examples of sci-fi/ethics short stories and novels used in ethics courses -->
-- TODO: add image — *examples of sci-fi/ethics short stories and novels used in ethics courses*
-
----
-
-## Normative and Descriptive Ethics
-
-:::: columns
-::: {.column width="48%"}
-## Normative
-
-- Is it right?
-- Is it wrong?
-- What should be done?
-- "Is this unethical?"
-:::
-
-::: {.column width="48%"}
-## Descriptive
-
-- Who is involved?
-- Who is making the decision(s)?
-- What are the stakes?
-- What are the options?
-- What are the potential outcomes?
-- What decisions led to this situation?
-:::
-::::
-
----
-
-# "Here and Now" {.title-slide .section-header}
-
----
-
-## "Here and Now"
-
----
-
-## Table Questions: Characters in "Here and Now"
-
-- What do we know about Aaron?
-  - What does he enjoy? How do you know?
-  - What does he want? What are his goals?
-  - What are his relationships?
-- How are Lucas and Aaron similar? Different?
-- What other characters did you notice?
-
----
-
-## Table Questions: The App in "Here and Now"
-
-- Would you use Tilly Here-and-Now? Explain.
-- Which use cases seemed comfortable or innocuous?
-- Which use cases made you feel uncomfortable?
-- What do you think of Centillion?
-
----
-
-## Connecting "Here and Now" to Privacy
-
-- What data does Centillion collect about users?
-- Apply contextual integrity: sender, recipient, subject, data type, transmission principle
-- Is this an appropriate information flow within the social context?
-
----
-
-## Preview: "Message in a Bottle"
-
-- Written by Nalo Hopkinson
-- Central character is Greg
-- Addresses challenges of utilitarian ethics
-- Longer than the first story!
-- Read by Sunday — complete reflection before Monday's class
-
----
-
-## No Class Meeting Wednesday!
-
-Dr. Bandy is in St. Louis for [SIGCSE 2026](https://sigcse2026.sigcse.org).
-
-Three things due soon — see Canvas for details!
-
----
-
-## That's all for today!
-
-See you next week!
-
----
-
-# Asynchronous Class {.title-slide}
-
-CS 377, Week 6, Day 2 🟦 Monroe 🟦
-
----
-
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
-
-CS 377, Week 6, Day 2 🟦 Monroe 🟦
-
----
-
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
-
----
-
-## No In-Person Class Today
-
-Dr. Bandy is at [SIGCSE 2026](https://sigcse2026.sigcse.org) in St. Louis.
-
-Complete the asynchronous work in Canvas by the due date.
-
----
-
 # De-Anonymization {.title-slide .section-header}
 
 ---
 
-## Privacy in Data (Async Content)
+## Privacy in Data
 
-The following slides are provided as a reference for the asynchronous content on privacy in data analysis. We will return to k-anonymity and de-anonymization in a future class.
+Two tales of privacy:
+
+- **Tale 1:** Census data (1997)
+- **Tale 2:** The Netflix Prize (2007)
 
 ---
 
@@ -314,6 +180,14 @@ The following slides are provided as a reference for the asynchronous content on
 > the more likely that those attributes combine uniquely to identify the entity."
 >
 > — Latanya Sweeney (2000)
+
+---
+
+## Why Attributes Combine Uniquely
+
+"Given a random sample of 500 people, there are at least ⌈500 / 365⌉ = 2 people with the same birthday, because there are only 365 possible birthdays."
+
+Each additional attribute (birthday, ZIP code, gender…) narrows the field much faster than intuition suggests.
 
 ---
 
@@ -411,6 +285,12 @@ Netflix released a dataset of ~500,000 users and 100 million ratings (with names
 
 ---
 
+## iClicker Poll: "This Dataset Is Anonymized"
+
+- Strong disagree / Disagree / Not sure / Agree / Strong agree
+
+---
+
 ## Was the Netflix Dataset Anonymous? {.quote-slide}
 
 Ratings for popular movies are less informative (e.g. top 10 most-rated: *Dark Knight, Fight Club, Godfather, Forrest Gump, The Matrix*…)
@@ -422,11 +302,499 @@ Ratings for **obscure** movies can de-identify:
 
 ---
 
+## Linking Netflix Data to IMDb
+
+| Source | Record | Title | Date |
+|---|---|---|---|
+| Netflix data | User 172373 | The Dark Knight | December 30, 2004 |
+| Netflix data | User 516182 | Jurassic Park | May 14, 2009 |
+| IMDb data | (public review) | Jurassic Park | May 14, 2009 |
+
+Public reviews carry names. Matching a handful of titles and dates re-attaches them.
+
+---
+
 ## Takeaways: Anonymous Datasets
 
 - Anonymous datasets still have risks
 - Can be combined with already-identified data (e.g. IMDb)
 - Apply contextual integrity: subject, sender, recipient, type, transmission principle?
+
+---
+
+# Why Short Stories? {.title-slide .section-header}
+
+---
+
+## Mini-lecture: Why Short Stories?
+
+---
+
+## Why Short Stories?
+
+::: {.incremental}
+- **Defamiliarization** — detach from preconceptions, expose your assumptions
+- **Address recognizable human situations and problems** — explore them in terms of unfamiliar settings or technology
+- **Normative + descriptive analysis** — both "is it right?" and "who is affected?"
+- **It can be fun!**
+:::
+
+*Burton, Goldsmith, & Mattei (2018). "How to teach computer ethics through science fiction." CACM.*
+
+---
+
+## Some Examples of Sci-Fi Ethics Cases
+
+<!-- image: examples of sci-fi/ethics short stories and novels used in ethics courses -->
+- TODO: add image — *examples of sci-fi/ethics short stories and novels used in ethics courses*
+
+---
+
+## Recall: Normative and Descriptive Ethics
+
+Stories give us both at once — the **normative** question ("was that right?") and the **descriptive** one ("who was involved, what were the stakes, what led here?").
+
+---
+
+# "Here and Now" {.title-slide .section-header}
+
+---
+
+## "Here and Now"
+
+---
+
+## Table Questions: Characters in "Here and Now"
+
+- What do we know about Aaron?
+  - What does he enjoy? How do you know?
+  - What does he want? What are his goals?
+  - What are his relationships?
+- How are Lucas and Aaron similar? Different?
+- What other characters did you notice?
+
+---
+
+## Table Questions: The App in "Here and Now"
+
+- Would you use Tilly Here-and-Now? Explain.
+- Which use cases seemed comfortable or innocuous?
+- Which use cases made you feel uncomfortable?
+- What do you think of Centillion?
+
+---
+
+## Connecting "Here and Now" to Privacy
+
+- What data does Centillion collect about users?
+- Apply contextual integrity: sender, recipient, subject, data type, transmission principle
+- Is this an appropriate information flow within the social context?
+
+---
+
+## Preview: "Message in a Bottle"
+
+- Written by Nalo Hopkinson
+- Central character is Greg
+- Addresses challenges of utilitarian ethics
+- Longer than the first story!
+- Read by Sunday — complete reflection before Monday's class
+
+---
+
+## No Class Meetings Next Week!
+
+Dr. Bandy is away — both classes next week are asynchronous.
+
+Three things due soon — see Canvas for details!
+
+---
+
+## That's all for today!
+
+See you Wednesday!
+
+---
+
+# Inequality, Justice, and "Message in a Bottle" {.title-slide}
+
+<!-- NOTICE: Draft from old-slides/pdf-versions/10 Message in a Bottle.pdf, 12 Privacy and Power.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
+
+CS 377, Week 6, Day 2 🟦 Washington 🟦
+
+---
+
+# Inequality, Justice, and "Message in a Bottle" {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
+
+CS 377, Week 6, Day 2 🟦 Washington 🟦
+
+---
+
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
+
+---
+
+## Administrivia
+
+:::: columns
+::: {.column width="55%"}
+- Keep reading your book!
+- Grading update this week
+- Canvas updates and upcoming deadlines
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-full-path.svg)
+:::
+::::
+
+---
+
+## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- Shuffle seats
+- Debrief "account biopsy" exercise
+- Discuss "Message in a Bottle"
+- Privacy and power: Ida B. Wells
+- Mini-lecture: digital inequality
+- Preview "Codename Delphi"
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop16-washington.svg)
+:::
+::::
+
+---
+
+## 🔀 Seat Shuffle
+
+<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
+- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+
+---
+
+## What might an advertiser infer from your location?
+
+::: {.fragment}
+- DePaul, Chicago, Northwestern?
+- Naperville, Evanston?
+:::
+
+---
+
+# Biopsy Debrief {.title-slide .section-header}
+
+---
+
+## Debriefing the Biopsy Exercise
+
+<!-- image: example student account biopsy analyses (with permission from prior semester) -->
+- TODO: add image — *example student account biopsy analyses (with permission from prior semester)*
+
+---
+
+## Table Discussion: Account Biopsy Debrief
+
+- How did you analyze the data?
+- Any insights about your habits?
+- Any changes you plan to make afterward?
+- What did you find surprising and/or fascinating?
+
+---
+
+# Privacy and Power {.title-slide .section-header}
+
+---
+
+## Warm-Up: Are Data Neutral?
+
+- "Data are neutral"
+  - Strong disagree / Disagree / Not sure / Agree / Strong agree
+
+---
+
+## Privacy and Power
+
+---
+
+## Discussion: "The Power Chapter"
+
+*From* Data Feminism *(D'Ignazio & Klein), Chapter 1*
+
+- 15 minutes at your tables
+- Feel free to pull up the chapter on your laptop or tablet
+- Be ready to share your table's example and one thing you learned
+- Bonus: which other chapter(s) from this book would you want to read and discuss?
+
+---
+
+# Contextual Integrity, Revisited {.title-slide .section-header}
+
+---
+
+## Privacy Connections: Contextual Integrity (Revisited)
+
+<!-- image: contextual integrity diagram — sender, receiver, data subject, data category, transmission principles -->
+- TODO: add image — *contextual integrity diagram — sender, receiver, data subject, data category, transmission principles*
+
+---
+
+## "Is this an appropriate information flow within the social context?" {.quote-slide}
+
+---
+
+## Contextual Integrity: Information Types and Principles
+
+:::: columns
+::: {.column width="48%"}
+**Information Types**
+
+- Medical
+- Financial
+- Location
+- Demographic information
+- Digital trace data (e.g. browsing history)
+:::
+
+::: {.column width="48%"}
+**Transmission Principles**
+
+- Confidentiality
+- Consent
+- Reciprocity
+- Entitlement
+- Stewardship
+- Notice
+:::
+::::
+
+---
+
+## Case Study: Instagram Real-Time Map
+
+- Sender? Receiver? Subject? Category? Transmission Principles?
+
+<!-- image: Instagram real-time location map example -->
+- TODO: add image — *Instagram real-time location map example*
+
+---
+
+## Case Study: Target Pregnancy Prediction
+
+How did this happen?
+
+<!-- image: Target / pregnancy prediction example -->
+- TODO: add image — *Target / pregnancy prediction example*
+
+---
+
+## Target Example: Apply the Framework
+
+- Sender? Receiver? Subject? Category? Transmission Principles?
+- "It's not just about privacy…"
+
+---
+
+# Ida B. Wells and Data Activism {.title-slide .section-header}
+
+---
+
+## What Do You Know About Ida B. Wells?
+
+<!-- image: Ida B. Wells portrait -->
+- TODO: add image — *Ida B. Wells portrait*
+
+---
+
+## Ida B. Wells and Data Activism
+
+- *"A Red Record: Tabulated Statistics and Alleged Causes of Lynchings in the United States, 1892–1893–1894"*
+- *"Respectfully submitted to the nineteenth century civilization in 'the land of the free and the home of the brave'"*
+- Practices: counterdata, agonistic data collection, data activism, statactivism, citizen science
+- Organized with National Equal Rights League (NERL) in Chicago
+- Organized a boycott of the World's Columbian Exposition (1893)
+
+---
+
+## Connections: Data as a Tool of Power and Resistance
+
+<!-- image: connections diagram linking Ida B. Wells to contextual integrity to privacy and power -->
+- TODO: add image — *connections diagram linking Ida B. Wells to contextual integrity to privacy and power*
+
+---
+
+# "Message in a Bottle" {.title-slide .section-header}
+
+---
+
+## Discuss: "Message in a Bottle"
+
+---
+
+## Story Overview: "Message in a Bottle"
+
+- Written by Nalo Hopkinson
+- Central character is Greg
+- Addresses challenges of utilitarian ethics
+- Set in an unusual temporal context
+
+---
+
+## Table Discussion: "Message in a Bottle"
+
+- What happened in this story? What was "the twist"?
+- Describe what Greg values throughout the story. How does he decide?
+- Children and adults are characterized as having different importance or significance — what differences did you notice?
+- What seems to inform Kamla's judgments?
+
+---
+
+# Inequality, Justice, and Art {.title-slide .section-header}
+
+---
+
+## Mini-lecture: Inequality, Justice, and Art
+
+---
+
+## "The Excavations"
+
+- Greg's exhibit, inspired by Russ's "anthill escapade"
+- "Historical artifacts that the researchers tossed aside in their zeal to get at the iconic past…"
+  - A rubber boot, a plastic jug
+- "Don't you think the living are more important?"
+
+---
+
+## "The Excavations" and Utilitarianism
+
+The "natural gallery" grant touches on key questions from utilitarianism:
+
+- **Whose well-being?** All species: mollusc, sea cucumber, etc.
+- **What is being used to define good/happiness/utility?**
+- **When is the measure of success taken?** Right now — but looking into the future
+
+---
+
+## Art and Change {.quote-slide}
+
+> Art helps us know how to do change.
+>
+> — Kamla, "Message in a Bottle"
+
+---
+
+# Digital Inequality {.title-slide .section-header}
+
+---
+
+## Mini-lecture: Digital Inequality
+
+---
+
+## The "Digital Divide" {.quote-slide}
+
+> "The Internet is one in a long series of information and communications
+> technologies — from speech, to printing, movable type, telegraphy,
+> telephony, radio, and television — that arguably influenced patterns of
+> social inequality by destroying existing competencies and permitting
+> early adopters to interact with more people and acquire more information
+> over greater distances and in a shorter time."
+>
+> — *From Unequal Access to Differentiated Use: A Literature Review*
+
+---
+
+## Who Uses the Internet More?
+
+Research from the 1990s and 2000s showed differences along:
+
+::: {.incremental}
+- **Region** — "Rates of Internet use are highest in the northeast and far west"
+- **Income** — "Internet use rates rise linearly with family income"
+- **Education**
+- **Age**
+:::
+
+---
+
+## From "Digital Divide" to "Digital Inequality"
+
+Key questions that reshaped the research:
+
+::: {.incremental}
+- What is "access"? (Device? Broadband? Skills?)
+- Which "digital divide"? (there are many)
+- How do we measure differences?
+- Which inequalities will persist?
+- What are people actually *able to do* when online?
+:::
+
+---
+
+## Folded Map Project
+
+- Initiative by Tonika Lewis Johnson (Chicago)
+- Goal: connect residents on the same street with "mirror" addresses
+- Reveals how a single street address means radically different things across the city
+
+<!-- image: Folded Map visualization -->
+- TODO: add image — *Folded Map visualization*
+
+---
+
+## Table Activity: Folded Map
+
+- Go to [foldedmapproject.com](https://foldedmapproject.com) → "Interactive Maps" (top right)
+- Choose Social, Business, or Schools layer
+- Explore and discuss
+  - Where are you from? Where do you live? Where do you visit?
+  - Try to find mirror addresses
+
+---
+
+## What Is This Map?
+
+**Blockbusting** — targeting areas to make wealthy families sell ("the minorities are moving here!")
+
+<!-- image: blockbusting map of Chicago -->
+- TODO: add image — *blockbusting map of Chicago*
+
+---
+
+## Implications
+
+Ads and algorithmic systems can reinforce inequality by influencing:
+
+- Education
+- Healthcare
+- Housing
+- Jobs
+
+Ads range in how helpful or exploitative they can be.
+
+::: {.fragment}
+Example ad: "Miracle cure for focus. Ace your midterms."
+:::
+
+---
+
+## Preview: "Codename Delphi"
+
+- Written by Linda Nagata
+- Main character: Karin
+- Explores war, trauma, and work
+- Read before next week
+- Discussion questions will be posted to Canvas
+
+---
+
+## That's all for today!
+
+See you Wednesday!
 
 ---
 
@@ -438,4 +806,7 @@ Ratings for **obscure** movies can de-identify:
 4. Arvind Narayanan and Vitaly Shmatikov, ["Robust De-anonymization of Large Sparse Datasets"](https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf), *IEEE S&P* (2008).
 5. Burton, Goldsmith, & Mattei (2018). ["How to teach computer ethics through science fiction."](https://doi.org/10.1145/3230977) *CACM.*
 6. De-anonymization demo: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity).
-7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+7. Day 2 title photo: [Chicago Blue Line Washington station](https://commons.wikimedia.org/wiki/File:Chicago_Blue_Line_Washington_Station.jpg) by Thomas Sly, via Wikimedia Commons, CC BY 2.0.
+8. D'Ignazio, C. & Klein, L. (2020). [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), MIT Press.
+9. Folded Map Project: [foldedmapproject.com](https://foldedmapproject.com).
+10. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

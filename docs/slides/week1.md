@@ -118,6 +118,12 @@ This Conocimiento is based on a version developed by leaders at San José State 
 
 ---
 
+## Conocimiento! {.quote-slide}
+
+> It is essential that we learn who we are so we have a context for the individuals who make up our classroom community.
+
+---
+
 ## Part 1 of 3: Identity and Background
 
 :::: columns
@@ -240,7 +246,7 @@ Sit wherever you like for now (we will shuffle seats in a bit)
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
+# Introduction to Virtue Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
 
 CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 
@@ -484,6 +490,14 @@ Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5)
 - Mencius and Confucius (~500 BCE)
   - harmonious society
   - virtues can be cultivated through education and self-reflection
+
+---
+
+## In other words…
+
+- Alasdair MacIntyre (*After Virtue*) observed a broad decline in how much the general public cares about and responds to virtue-oriented concerns or criteria
+- If people no longer care about virtue, how can it be cultivated?
+- This is a challenge for people whose decisions affect others
 
 ---
 

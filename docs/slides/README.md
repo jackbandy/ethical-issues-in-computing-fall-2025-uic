@@ -29,6 +29,27 @@ Sections show up as a vertical stack per topic and as the grouping in the
 navigation menu (press `M` while presenting). Navigation stays linear, so the
 arrow keys still walk the deck in order.
 
+## The slides index
+
+`index.html` lists every deck, the class days inside it, and the
+`{.section-header}` topics under each day. Everything between the
+`sync_slide_index.py` markers in that file is generated — edit the decks, not
+the index. `build.sh` regenerates it after rendering, and the script can be run
+on its own:
+
+```
+python3 sync_slide_index.py
+```
+
+Days come from each deck's `CS 377, Week N, Day M 🟦 Station 🟦` subtitle line.
+Meetings the decks say nothing about still get a stop, from
+`_includes/schedule.csv`: a cancelled class shows the reason from
+`_includes/schedule-topics.md`, and a class whose slides are not written yet is
+marked "slides to come". The summary table's Topic column is that CSV's `Topic`
+field, one short phrase per class day.
+
+A section header can stay out of the index with `{.section-header .no-index}`.
+
 `week0.md` is the starter deck. Copy it when beginning a new week and update
 the title, footer, URL, and content.
 

@@ -4,345 +4,17 @@
 
 ---
 
-# Inequality, Justice, and "Message in a Bottle" {.title-slide}
-
-<!-- NOTICE: Draft from old-slides/pdf-versions/10 Message in a Bottle.pdf, 12 Privacy and Power.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
-
-CS 377, Week 7, Day 1 🟦 Washington 🟦
-
----
-
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
-
-CS 377, Week 7, Day 1 🟦 Washington 🟦
-
----
-
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
-
----
-
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Keep reading your book!
-- Grading update this week
-- Canvas updates and upcoming deadlines
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
-## Agenda for Today
-
-:::: columns
-::: {.column width="55%"}
-- Shuffle seats
-- Debrief "account biopsy" exercise
-- Discuss "Message in a Bottle"
-- Privacy and power: Ida B. Wells
-- Mini-lecture: digital inequality
-- Preview "Codename Delphi"
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-map-stops/stop16-washington.svg)
-:::
-::::
-
----
-
-## 🔀 Seat Shuffle
-
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
-
----
-
-## What might an advertiser infer from your location?
-
----
-
-# Biopsy Debrief {.title-slide .section-header}
-
----
-
-## Debriefing the Biopsy Exercise
-
-<!-- image: example student account biopsy analyses (with permission from prior semester) -->
-- TODO: add image — *example student account biopsy analyses (with permission from prior semester)*
-
----
-
-## Student Biopsy Examples
-
-- What patterns emerged across different platforms?
-- What surprised you about your own data?
-- What data was missing that you expected to find?
-- What can an advertiser learn from your data?
-
----
-
-# Privacy and Power {.title-slide .section-header}
-
----
-
-## Warm-Up: Are Data Neutral?
-
-- "Data are neutral"
-  - Strong disagree / Disagree / Not sure / Agree / Strong agree
-
----
-
-## Privacy and Power
-
----
-
-## Discussion: "The Power Chapter"
-
-*From* Data Feminism *(D'Ignazio & Klein), Chapter 1*
-
-- 15 minutes at your tables
-- Feel free to pull up the chapter on your laptop or tablet
-- Be ready to share your table's example and one thing you learned
-- Bonus: which other chapter(s) from this book would you want to read and discuss?
-
----
-
-# Contextual Integrity, Revisited {.title-slide .section-header}
-
----
-
-## Privacy Connections: Contextual Integrity (Revisited)
-
-<!-- image: contextual integrity diagram — sender, receiver, data subject, data category, transmission principles -->
-- TODO: add image — *contextual integrity diagram — sender, receiver, data subject, data category, transmission principles*
-
----
-
-## "Is this an appropriate information flow within the social context?" {.quote-slide}
-
----
-
-## Contextual Integrity: Information Types and Principles
-
-:::: columns
-::: {.column width="48%"}
-**Information Types**
-
-- Medical
-- Financial
-- Location
-- Demographic information
-- Digital trace data (e.g. browsing history)
-:::
-
-::: {.column width="48%"}
-**Transmission Principles**
-
-- Confidentiality
-- Consent
-- Reciprocity
-- Entitlement
-- Stewardship
-- Notice
-:::
-::::
-
----
-
-## Case Study: Instagram Real-Time Map
-
-- Sender? Receiver? Subject? Category? Transmission Principles?
-
-<!-- image: Instagram real-time location map example -->
-- TODO: add image — *Instagram real-time location map example*
-
----
-
-## Case Study: Target Pregnancy Prediction
-
-How did this happen?
-
-<!-- image: Target / pregnancy prediction example -->
-- TODO: add image — *Target / pregnancy prediction example*
-
----
-
-## Target Example: Apply the Framework
-
-- Sender? Receiver? Subject? Category? Transmission Principles?
-- "It's not just about privacy…"
-
----
-
-# Ida B. Wells and Data Activism {.title-slide .section-header}
-
----
-
-## What Do You Know About Ida B. Wells?
-
-<!-- image: Ida B. Wells portrait -->
-- TODO: add image — *Ida B. Wells portrait*
-
----
-
-## Ida B. Wells and Data Activism
-
-- *"A Red Record: Tabulated Statistics and Alleged Causes of Lynchings in the United States, 1892–1893–1894"*
-- *"Respectfully submitted to the nineteenth century civilization in 'the land of the free and the home of the brave'"*
-- Practices: counterdata, agonistic data collection, data activism, statactivism, citizen science
-- Organized with National Equal Rights League (NERL) in Chicago
-- Organized a boycott of the World's Columbian Exposition (1893)
-
----
-
-## Connections: Data as a Tool of Power and Resistance
-
-<!-- image: connections diagram linking Ida B. Wells to contextual integrity to privacy and power -->
-- TODO: add image — *connections diagram linking Ida B. Wells to contextual integrity to privacy and power*
-
----
-
-# "Message in a Bottle" {.title-slide .section-header}
-
----
-
-## Discuss: "Message in a Bottle"
-
----
-
-## Story Overview: "Message in a Bottle"
-
-- Written by Nalo Hopkinson
-- Central character is Greg
-- Addresses challenges of utilitarian ethics
-- Set in an unusual temporal context
-
----
-
-## Table Discussion: "Message in a Bottle"
-
-- What do we know about Greg? What does he want?
-- What is the central ethical dilemma in the story?
-- Which theory of ethics best illuminates the dilemma?
-  - Utilitarian? Deontological? Care ethics?
-- What did you find most surprising or thought-provoking?
-
----
-
-# Digital Inequality {.title-slide .section-header}
-
----
-
-## Mini-lecture: Digital Inequality
-
----
-
-## The "Digital Divide" {.quote-slide}
-
-> "The Internet is one in a long series of information and communications
-> technologies — from speech, to printing, movable type, telegraphy,
-> telephony, radio, and television — that arguably influenced patterns of
-> social inequality by destroying existing competencies and permitting
-> early adopters to interact with more people and acquire more information
-> over greater distances and in a shorter time."
->
-> — *From Unequal Access to Differentiated Use: A Literature Review*
-
----
-
-## Who Uses the Internet More?
-
-Research from the 1990s and 2000s showed differences along:
-
-::: {.incremental}
-- **Region** — "Rates of Internet use are highest in the northeast and far west"
-- **Income** — "Internet use rates rise linearly with family income"
-- **Education**
-- **Age**
-:::
-
----
-
-## From "Digital Divide" to "Digital Inequality"
-
-Key questions that reshaped the research:
-
-::: {.incremental}
-- What is "access"? (Device? Broadband? Skills?)
-- Which "digital divide"? (there are many)
-- How do we measure differences?
-- Which inequalities will persist?
-- What are people actually *able to do* when online?
-:::
-
----
-
-## Folded Map Project
-
-- Initiative by Tonika Lewis Johnson (Chicago)
-- Goal: connect residents on the same street with "mirror" addresses
-- Reveals how a single street address means radically different things across the city
-
-<!-- image: Folded Map visualization -->
-- TODO: add image — *Folded Map visualization*
-
----
-
-## Table Activity: Folded Map
-
-- Go to [foldedmapproject.com](https://foldedmapproject.com) → "Interactive Maps" (top right)
-- Choose Social, Business, or Schools layer
-- Explore and discuss
-  - Where are you from? Where do you live? Where do you visit?
-  - Try to find mirror addresses
-
----
-
-## Implications
-
-Ads and algorithmic systems can reinforce inequality by influencing:
-
-- Education
-- Healthcare
-- Housing
-- Jobs
-
-Ads range in how helpful or exploitative they can be.
-
----
-
-## Preview: "Codename Delphi"
-
-- Written by Linda Nagata
-- Main character: Karin
-- Explores war, trauma, and work
-- Read before Monday, March 2
-- Discussion questions will be posted to Canvas
-
----
-
-## That's all for today!
-
-See you Wednesday!
-
----
-
 # Inequality, Justice, and Faces {.title-slide}
 
-CS 377, Week 7, Day 2 🟦 Clark/Lake 🟦
+<!-- NOTICE: Draft from old-slides/pdf-versions/09 Faces.pdf, 11 Faces.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
+
+CS 377, Week 7, Day 1 🟦 Clark/Lake 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
+# Inequality, Justice, and Faces {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
 
-CS 377, Week 7, Day 2 🟦 Clark/Lake 🟦
+CS 377, Week 7, Day 1 🟦 Clark/Lake 🟦
 
 ---
 
@@ -354,6 +26,7 @@ CS 377, Week 7, Day 2 🟦 Clark/Lake 🟦
 
 :::: columns
 ::: {.column width="55%"}
+- **Asynchronous class.** Dr. Bandy away.
 - Keep reading your book!
 - Canvas updates and upcoming deadlines
 - Questions?
@@ -448,6 +121,14 @@ Care Ethics
 
 ---
 
+## iClicker Check-in
+
+"Facial recognition systems pose significant ethical issues."
+
+- Strong disagree / Disagree / Not sure / Agree / Strong agree
+
+---
+
 ## Facial Recognition in (Somewhat) Recent News
 
 $**???** — Amount Facebook paid to each user after breaking the Illinois Biometric Information Privacy Act (BIPA): collecting and storing biometric data without obtaining proper consent
@@ -511,6 +192,17 @@ $**397** per user
 
 <!-- image: Amazon "Just Walk Out" technology at Market at Halsted -->
 - TODO: add image — *Amazon "Just Walk Out" technology at Market at Halsted*
+
+---
+
+## Small Group Discussion
+
+- Where have you seen facial recognition used?
+- Which task(s) do you think it was performing, and why?
+  - Is there a face in the image? (detection)
+  - What are the attributes of the face shown? (classification)
+  - Whose face is shown? (identification)
+- What could go wrong?
 
 ---
 
@@ -679,28 +371,293 @@ How do the four ethical frameworks apply to facial recognition?
 
 ---
 
+## iClicker Check-in
+
+"Facial recognition should be approached as a technical task, independent from social context."
+
+- Strong disagree / Disagree / Not sure / Agree / Strong agree
+
+---
+
+## Debrief
+
+- What did you learn?
+- What stuck out to you?
+- What questions do you still have?
+
+---
+
 ## Preview: "Codename Delphi"
 
 - Written by Linda Nagata
-- Read before Monday, March 2
+- Read before next class
 - Discussion questions will be posted to Canvas
 
 ---
 
-## That's all for today! See you Monday!
+## That's all for today! See you Wednesday!
+
+---
+
+# Computing and War {.title-slide}
+
+<!-- NOTICE: Draft from old-slides/pdf-versions/15 War.pdf. Review and edit before use. -->
+
+CS 377, Week 7, Day 2 🟦 Grand 🟦
+
+---
+
+# Computing and War {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
+
+CS 377, Week 7, Day 2 🟦 Grand 🟦
+
+<!-- image source: Rendering via altusworks.com -->
+
+---
+
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
+
+---
+
+## Administrivia
+
+:::: columns
+::: {.column width="55%"}
+- **Asynchronous class.** Dr. Bandy away.
+- More grades released, more to come
+- Some of you will receive an attendance check-in email this week
+- Canvas updates
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-full-path.svg)
+:::
+::::
+
+---
+
+## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- Shuffle seats
+- Your feedback from the midpoint check-in
+- Overview of speculative fiction exercise
+- Mini-lecture: computing and war
+- Discuss "Codename Delphi"
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop18-grand.svg)
+:::
+::::
+
+---
+
+## 🔀 Seat Shuffle
+
+<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
+- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+
+---
+
+## Your Feedback from the Midpoint Check-in…
+
+<!-- image: summary of student feedback from the midpoint check-in — placeholder for instructor to add each semester -->
+- TODO: add image — *summary of student feedback from the midpoint check-in — placeholder for instructor to add each semester*
+
+---
+
+## Invitation
+
+Turn off phones, laptops, and other distractions
+
+---
+
+## Table Discussion: Book Check-in
+
+- How much have you read?
+- What helps you read? (Where? When? What else?)
+- How are you taking notes / keeping track of what you're learning?
+- What does your "reading schedule" look like for the next few weeks?
+
+---
+
+## Speculative Fiction Exercise Overview
+
+- We've read three stories — now it's your turn to write your own!
+- In brief: write more than one page; have fun with it
+- See Canvas for the current deadline
+- We will vote on the best stories in class next week
+
+---
+
+# War and Computing in the News {.title-slide .section-header}
+
+---
+
+## War and Computing in Recent News
+
+<!-- image: recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal) -->
+- TODO: add image — *recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal)*
+
+---
+
+## In (Very) Recent News
+
+- Pentagon banned Anthropic on February 27, designating it a "supply-chain risk"
+- OpenAI announced a Pentagon deal hours later
+- February 28 – March 1: U.S.–Israel strikes on Iran
+- Reports: Anthropic services were used in the attacks
+
+---
+
+## Anthropic's "Red Lines"
+
+:::: columns
+::: {.column width="48%"}
+**Mass domestic surveillance**
+
+"Using these systems for mass domestic surveillance is incompatible with democratic values. AI-driven mass surveillance presents serious, novel risks to our fundamental liberties."
+:::
+
+::: {.column width="48%"}
+**Fully autonomous weapons**
+
+"Frontier AI systems are simply not reliable enough to power fully autonomous weapons. We will not knowingly provide a product that puts America's warfighters and civilians at risk."
+:::
+::::
+
+---
+
+# Computing and War Before LLMs {.title-slide .section-header}
+
+---
+
+## Computing and War: Before LLMs
+
+*(This was supposed to be the "stories" unit…)*
+
+---
+
+## ARPANET
+
+- U.S. DoD Advanced Research Projects Agency Network
+- Originally linked Pentagon-funded research computers
+- Needed robust / redundant communication tools during the Cold War
+- ARPANET went live in 1969
+- TCP/IP protocol launched in the 1970s, standardized in 1983
+- Civilian / academic networks evolved to become the Internet
+
+---
+
+## Alan Turing and World War II
+
+- During WW2 (1939–1945), Turing worked at Bletchley Park to break German military ciphers
+- Automated search over Enigma keys, led to large-scale computational machinery ("Colossus")
+- Historians estimate this shortened the war by 2 years
+
+---
+
+## Project Maven (2018)
+
+- Google provided image classification services to label objects from military drone videos
+- Thousands of Google employees signed petitions; some resigned
+- Google chose not to renew Project Maven; added AI ethics principles
+- Changes were largely a result of sustained worker pressure
+
+---
+
+## Stuxnet (2009)
+
+- Computer worm used to sabotage Iran's nuclear program
+- Targeted Siemens industrial control systems (ICS) at Natanz
+- Caused centrifuges to spin irregularly but report normal readings to operators
+- *Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon* (Kim Zetter)
+
+---
+
+# "Not Without Us" {.title-slide .section-header}
+
+---
+
+## Not Without Us {.quote-slide}
+
+> "None of the weapon systems which today threaten murder on a genocidal scale,
+> and whose design, manufacture and sale condemns countless people, especially
+> children, to poverty and starvation, that none of these devices could be developed
+> without the earnest, even enthusiastic, cooperation of computer professionals.
+> It cannot go on without us!"
+>
+> — Joseph Weizenbaum, "Not Without Us" (1986)
+
+---
+
+## "Not Without Us": Key Arguments
+
+- 1986 speech by MIT computer scientist Joseph Weizenbaum
+- Argued that computing professionals must actively resist uses of computing that dehumanize
+- Warned about dissolved responsibility for harmful outcomes
+- "The machine said…" — humans must own moral decisions
+
+---
+
+# "Codename Delphi" {.title-slide .section-header}
+
+---
+
+## Switching to Fiction!
+
+---
+
+## "Codename Delphi" (2014)
+
+- Written by Linda Nagata
+
+---
+
+## Table Discussion: "Codename Delphi"
+
+- Imagine you had to do Karin's job for a week. What challenges do you imagine might come up?
+- Why does Karin find it unacceptable that some fellow handlers describe the job as being like a video game?
+- What virtues and habits has Karin cultivated in order to excel as a handler?
+- What else did the story make you think about?
+
+---
+
+## Ethical Frameworks Applied
+
+- **Virtue ethics**: What virtues does Karin demonstrate? Which vices does she resist?
+- **Deontological**: Are there moral absolutes in warfare? (Weizenbaum says yes)
+- **Care ethics**: Who bears the relational costs of automated warfare?
+- **Utilitarian**: How do we weigh military effectiveness against human costs?
+
+---
+
+## Preview: "If an Algorithm Can Cast a Shadow"
+
+- Written by Claire Jia-Wen
+- 34-minute audio version available (link in Canvas)
+- Read before Wednesday's class
+- Complete the Canvas discussion by Tuesday at 11:59pm
+
+---
+
+## That's all for today!
+
+See you next week!
 
 ---
 
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week7.md>.
-2. Day 1 title photo: [Chicago Blue Line Washington station](https://commons.wikimedia.org/wiki/File:Chicago_Blue_Line_Washington_Station.jpg) by Thomas Sly, via Wikimedia Commons, CC BY 2.0.
-3. Day 2 title photo: [Clark/Lake](https://commons.wikimedia.org/wiki/File:Chicago-20240927-110_(54285583882).jpg) by Nairn McWilliams, via Wikimedia Commons, CC BY-SA 2.0.
-4. Buolamwini, J. & Gebru, T. (2018). ["Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification."](https://proceedings.mlr.press/v81/buolamwini18a.html) *FAccT 2018*.
-5. Joy Buolamwini, ["How I'm fighting bias in algorithms"](https://www.youtube.com/watch?v=UG_X_7g63rY), TED (2017).
-6. John Oliver, ["Facial Recognition"](https://youtu.be/jZjmlJPJgug), *Last Week Tonight* (2021).
-7. Algorithmic Justice League, [*Facial Recognition Technologies: A Primer*](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf) (2020).
-8. Folded Map Project: [foldedmapproject.com](https://foldedmapproject.com).
-9. D'Ignazio, C. & Klein, L. (2020). [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), MIT Press.
-10. *New York Times*, ["Meta Plans to Add Facial Recognition Technology to Its Smart Glasses"](https://archive.ph/hwGd4).
-11. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+2. Day 1 title photo: [Clark/Lake](https://commons.wikimedia.org/wiki/File:Chicago-20240927-110_(54285583882).jpg) by Nairn McWilliams, via Wikimedia Commons, CC BY-SA 2.0.
+3. Buolamwini, J. & Gebru, T. (2018). ["Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification."](https://proceedings.mlr.press/v81/buolamwini18a.html) *FAccT 2018*.
+4. Joy Buolamwini, ["How I'm fighting bias in algorithms"](https://www.youtube.com/watch?v=UG_X_7g63rY), TED (2017).
+5. John Oliver, ["Facial Recognition"](https://youtu.be/jZjmlJPJgug), *Last Week Tonight* (2021).
+6. Algorithmic Justice League, [*Facial Recognition Technologies: A Primer*](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf) (2020).
+7. *New York Times*, ["Meta Plans to Add Facial Recognition Technology to Its Smart Glasses"](https://archive.ph/hwGd4).
+8. Ross Andersen, ["Inside Anthropic's Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/), *The Atlantic* (2026).
+9. Joseph Weizenbaum, ["Not Without Us"](https://www.jstor.org/stable/48617451) (1986).
+10. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

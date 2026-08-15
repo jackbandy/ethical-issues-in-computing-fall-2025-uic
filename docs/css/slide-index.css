@@ -1,0 +1,211 @@
+/*
+  Styles for the slides index (/slides/), which borrows the schedule page's
+  frame (schedule.css) and adds what is specific to the deck outline: a three
+  level list of weeks, class days, and the topics inside each deck, plus the
+  summary table at the foot of the page.
+
+  Note: this file was largely written by an LLM (Claude Code).
+*/
+
+/* ── The deck outline ── */
+/* One continuous Blue Line running the length of the deck list, with a station
+   dot per class meeting sitting on top of it — the same rail the schedule page
+   draws down the semester (see .rail in schedule.css), so a week reads the same
+   way in both places. The rail is a single element on the <ul> rather than one
+   segment per week, which is what keeps it unbroken between decks.
+
+   Everything below the <ul> keeps zero left padding so each nesting level
+   starts at the same left edge; that is what lets the dots sit at one fixed
+   offset no matter how deep the item is. */
+.schedule-body ul.sources {
+  position: relative;
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 4px 0 4px 58px;
+}
+
+.schedule-body ul.sources::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  border-radius: 6px;   /* rounded caps, like a drawn transit line */
+  background: #00A1DE;
+}
+
+.schedule-body ul.sources > li {
+  margin: 0 0 26px;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.schedule-body ul.sources > li:last-child {
+  margin-bottom: 0;
+}
+
+.schedule-body ul.sources > li > ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.schedule-body ul.sources > li > ul > li {
+  margin: 0 0 14px;
+}
+
+.schedule-body ul.sources > li > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+/* Station plaques. schedule.css styles `code` as a block-level plaque under the
+   date; here the same plaque sits inside the day's line, so it goes back to
+   inline-block and sheds the link underline running beneath it. */
+.schedule-body ul.sources code {
+  display: inline-block;
+  margin: 0 2px;
+  vertical-align: baseline;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.schedule-body ul.sources a {
+  text-decoration-skip-ink: auto;
+}
+
+/* The station dot, centred on the rail: its centre line is 6px from the left
+   edge of the <ul>, and the list content starts 58px in. */
+.schedule-body ul.sources li.deck-day {
+  position: relative;
+}
+
+.schedule-body ul.sources li.deck-day::before {
+  content: "";
+  position: absolute;
+  left: -65px;
+  top: 0.15em;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid #00A1DE;
+  box-sizing: border-box;
+}
+
+/* Stops with no slides behind them. They keep their circle — the line should
+   show one per class meeting, whether or not the class met — but the circle
+   goes hollow grey and the text unlinked, so a reader can see at a glance
+   which stops the train does not actually call at. */
+.schedule-body ul.sources li.deck-day-off,
+.schedule-body ul.sources li.deck-day-todo {
+  font-weight: 400;
+  color: #6a6a6a;
+}
+
+.schedule-body ul.sources li.deck-day-off::before,
+.schedule-body ul.sources li.deck-day-todo::before {
+  border-color: #b3b3b3;
+}
+
+/* A cancelled class is settled, not pending, so it reads as an aside. */
+.schedule-body ul.sources li.deck-day-off {
+  font-style: italic;
+}
+
+.deck-hint {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a8a8a;
+  white-space: nowrap;
+}
+
+.deck-hint::before {
+  content: "· ";
+}
+
+/* The downloads bullet is an afterthought to the day list above it, not a peer
+   of those days, so it drops the heading weight. */
+.schedule-body ul.sources > li > ul > li.deck-more {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Topics — the innermost level, and the only one that is not a heading. */
+.schedule-body ul.sources ul ul {
+  list-style: disc;
+  margin: 4px 0 0;
+  padding-left: 1.4rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.schedule-body ul.sources ul ul li {
+  margin: 2px 0;
+}
+
+/* ── Summary table ── */
+.deck-table-wrap {
+  overflow-x: auto;
+  margin: 0 0 24px;
+}
+
+.deck-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.deck-table th,
+.deck-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.deck-table th {
+  border-bottom: 2px solid #00A1DE;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* The slide count reads as a number, not prose; the topics beside it are prose
+   and stay left-aligned. Narrow the count column so topics get the room. */
+.deck-table th:nth-child(2),
+.deck-table td:nth-child(2) {
+  text-align: right;
+  white-space: nowrap;
+  width: 1%;
+  font-variant-numeric: tabular-nums;
+}
+
+.deck-table td:first-child {
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  /* Pull the rail in so the text is not squeezed on a phone; the dot shrinks
+     with it and stays centred on the (still 12px) line. */
+  .schedule-body ul.sources {
+    padding-left: 38px;
+  }
+
+  .schedule-body ul.sources li.deck-day::before {
+    left: -43px;
+    width: 20px;
+    height: 20px;
+    border-width: 4px;
+  }
+
+  .schedule-body ul.sources > li {
+    font-size: 1.05rem;
+  }
+
+  .schedule-body ul.sources > li > ul {
+    font-size: 0.95rem;
+  }
+}

@@ -80,6 +80,12 @@ for deck in "${decks[@]}"; do
   mv -f "$deck.stampbak" "$deck"
 done
 
+# Refresh the deck outline and summary on /slides/ from the sources just
+# rendered. Runs after the loop so the slide counts it reads out of the built
+# HTML are current.
+echo "Syncing slides/index.html"
+python3 "$SLIDES_DIR/sync_slide_index.py" "$SLIDES_DIR"
+
 if [[ "$BUILD_PDFS" == "false" ]]; then
   echo "Skipping PDF generation."
   exit 0

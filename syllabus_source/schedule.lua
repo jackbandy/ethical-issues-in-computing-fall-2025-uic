@@ -13,8 +13,11 @@
 local ROOT = PANDOC_SCRIPT_FILE:gsub("[^/]*$", "")
 local CSV = ROOT .. "../docs/_includes/schedule.csv"
 local TOPICS = ROOT .. "../docs/_includes/schedule-topics.md"
--- Notes is a scratch column for the course author; nothing renders it.
-local HEADERS = { "Unit", "Branch", "Week", "Date", "Station", "Due", "Notes" }
+-- Notes is a scratch column for the course author; nothing renders it. Topic is
+-- a one-line summary of the day, read by the slides index (docs/slides/
+-- sync_slide_index.py); the syllabus table spells each day out in full from
+-- schedule-topics.md, so it does not render Topic either.
+local HEADERS = { "Unit", "Branch", "Week", "Date", "Station", "Due", "Notes", "Topic" }
 local OUT_HEADERS = { "Week", "Topic(s) / In-Class Activities", "Readings / Work Due" }
 local WIDTHS = { 0.08, 0.52, 0.40 }
 
