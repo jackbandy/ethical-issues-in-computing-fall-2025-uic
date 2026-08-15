@@ -124,6 +124,18 @@ $code-block-border-color: $border;
     }
   }
 
+  // Section header: opens a topic group inside a day. Same frame as the day
+  // title, but centered, so it reads as a stop between topics rather than the
+  // start of a class meeting.
+  .title-slide.section-header {
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      margin: 0 auto;
+    }
+  }
+
   // Photo title slide: pair with a full-bleed background-image and
   // data-state="photo-title" (the state restyles the fixed footer below).
   .title-slide.photo-title {

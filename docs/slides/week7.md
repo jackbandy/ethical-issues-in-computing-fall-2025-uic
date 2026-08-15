@@ -8,21 +8,21 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/10 Message in a Bottle.pdf, 12 Privacy and Power.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
 
-CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
+CS 377, Week 7, Day 1 🟦 Washington 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
 
-CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
+CS 377, Week 7, Day 1 🟦 Washington 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -38,7 +38,7 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -57,25 +57,29 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# What might an advertiser infer from your location?
+## What might an advertiser infer from your location?
 
 ---
 
-# Debriefing the Biopsy Exercise
+# Biopsy Debrief {.title-slide .section-header}
+
+---
+
+## Debriefing the Biopsy Exercise
 
 <!-- image: example student account biopsy analyses (with permission from prior semester) -->
 - TODO: add image — *example student account biopsy analyses (with permission from prior semester)*
 
 ---
 
-# Student Biopsy Examples
+## Student Biopsy Examples
 
 - What patterns emerged across different platforms?
 - What surprised you about your own data?
@@ -84,18 +88,22 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
-# Warm-Up: Are Data Neutral?
+# Privacy and Power {.title-slide .section-header}
+
+---
+
+## Warm-Up: Are Data Neutral?
 
 - "Data are neutral"
   - Strong disagree / Disagree / Not sure / Agree / Strong agree
 
 ---
 
-# Privacy and Power
+## Privacy and Power
 
 ---
 
-# Discussion: "The Power Chapter"
+## Discussion: "The Power Chapter"
 
 *From* Data Feminism *(D'Ignazio & Klein), Chapter 1*
 
@@ -106,18 +114,22 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
-# Privacy Connections: Contextual Integrity (Revisited)
+# Contextual Integrity, Revisited {.title-slide .section-header}
+
+---
+
+## Privacy Connections: Contextual Integrity (Revisited)
 
 <!-- image: contextual integrity diagram — sender, receiver, data subject, data category, transmission principles -->
 - TODO: add image — *contextual integrity diagram — sender, receiver, data subject, data category, transmission principles*
 
 ---
 
-# "Is this an appropriate information flow within the social context?" {.quote-slide}
+## "Is this an appropriate information flow within the social context?" {.quote-slide}
 
 ---
 
-# Contextual Integrity: Information Types and Principles
+## Contextual Integrity: Information Types and Principles
 
 :::: columns
 ::: {.column width="48%"}
@@ -144,7 +156,7 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
-# Case Study: Instagram Real-Time Map
+## Case Study: Instagram Real-Time Map
 
 - Sender? Receiver? Subject? Category? Transmission Principles?
 
@@ -153,7 +165,7 @@ CS 377 · Week 7, Day 1 · 🟦 Washington 🟦
 
 ---
 
-# Case Study: Target Pregnancy Prediction
+## Case Study: Target Pregnancy Prediction
 
 How did this happen?
 
@@ -162,21 +174,25 @@ How did this happen?
 
 ---
 
-# Target Example: Apply the Framework
+## Target Example: Apply the Framework
 
 - Sender? Receiver? Subject? Category? Transmission Principles?
 - "It's not just about privacy…"
 
 ---
 
-# What Do You Know About Ida B. Wells?
+# Ida B. Wells and Data Activism {.title-slide .section-header}
+
+---
+
+## What Do You Know About Ida B. Wells?
 
 <!-- image: Ida B. Wells portrait -->
 - TODO: add image — *Ida B. Wells portrait*
 
 ---
 
-# Ida B. Wells and Data Activism
+## Ida B. Wells and Data Activism
 
 - *"A Red Record: Tabulated Statistics and Alleged Causes of Lynchings in the United States, 1892–1893–1894"*
 - *"Respectfully submitted to the nineteenth century civilization in 'the land of the free and the home of the brave'"*
@@ -186,18 +202,22 @@ How did this happen?
 
 ---
 
-# Connections: Data as a Tool of Power and Resistance
+## Connections: Data as a Tool of Power and Resistance
 
 <!-- image: connections diagram linking Ida B. Wells to contextual integrity to privacy and power -->
 - TODO: add image — *connections diagram linking Ida B. Wells to contextual integrity to privacy and power*
 
 ---
 
-# Discuss: "Message in a Bottle"
+# "Message in a Bottle" {.title-slide .section-header}
 
 ---
 
-# Story Overview: "Message in a Bottle"
+## Discuss: "Message in a Bottle"
+
+---
+
+## Story Overview: "Message in a Bottle"
 
 - Written by Nalo Hopkinson
 - Central character is Greg
@@ -206,7 +226,7 @@ How did this happen?
 
 ---
 
-# Table Discussion: "Message in a Bottle"
+## Table Discussion: "Message in a Bottle"
 
 - What do we know about Greg? What does he want?
 - What is the central ethical dilemma in the story?
@@ -216,11 +236,15 @@ How did this happen?
 
 ---
 
-# Mini-lecture: Digital Inequality
+# Digital Inequality {.title-slide .section-header}
 
 ---
 
-# The "Digital Divide" {.quote-slide}
+## Mini-lecture: Digital Inequality
+
+---
+
+## The "Digital Divide" {.quote-slide}
 
 > "The Internet is one in a long series of information and communications
 > technologies — from speech, to printing, movable type, telegraphy,
@@ -233,7 +257,7 @@ How did this happen?
 
 ---
 
-# Who Uses the Internet More?
+## Who Uses the Internet More?
 
 Research from the 1990s and 2000s showed differences along:
 
@@ -246,7 +270,7 @@ Research from the 1990s and 2000s showed differences along:
 
 ---
 
-# From "Digital Divide" to "Digital Inequality"
+## From "Digital Divide" to "Digital Inequality"
 
 Key questions that reshaped the research:
 
@@ -260,7 +284,7 @@ Key questions that reshaped the research:
 
 ---
 
-# Folded Map Project
+## Folded Map Project
 
 - Initiative by Tonika Lewis Johnson (Chicago)
 - Goal: connect residents on the same street with "mirror" addresses
@@ -271,7 +295,7 @@ Key questions that reshaped the research:
 
 ---
 
-# Table Activity: Folded Map
+## Table Activity: Folded Map
 
 - Go to [foldedmapproject.com](https://foldedmapproject.com) → "Interactive Maps" (top right)
 - Choose Social, Business, or Schools layer
@@ -281,7 +305,7 @@ Key questions that reshaped the research:
 
 ---
 
-# Implications
+## Implications
 
 Ads and algorithmic systems can reinforce inequality by influencing:
 
@@ -294,7 +318,7 @@ Ads range in how helpful or exploitative they can be.
 
 ---
 
-# Preview: "Codename Delphi"
+## Preview: "Codename Delphi"
 
 - Written by Linda Nagata
 - Main character: Karin
@@ -304,7 +328,7 @@ Ads range in how helpful or exploitative they can be.
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you Wednesday!
 
@@ -312,21 +336,21 @@ See you Wednesday!
 
 # Inequality, Justice, and Faces {.title-slide}
 
-CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
+CS 377, Week 7, Day 2 🟦 Clark/Lake 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
 
-CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
+CS 377, Week 7, Day 2 🟦 Clark/Lake 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -342,7 +366,7 @@ CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -362,11 +386,15 @@ CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
 
 ---
 
-# Midpoint Check-in
+# Midpoint Check-in {.title-slide .section-header}
 
 ---
 
-# Table Activity: Midpoint Check-in
+## Midpoint Check-in
+
+---
+
+## Table Activity: Midpoint Check-in
 
 - Front page: where we're at
 - Back page: "I like / I wish" → complete as individuals, then share as "We like / We wish"
@@ -374,7 +402,7 @@ CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
 
 ---
 
-# Table Discussion: Scrap Doll Debrief
+## Table Discussion: Scrap Doll Debrief
 
 - How did you make the scrap doll? What were the materials?
 - What connections did you make between data and doll?
@@ -386,7 +414,7 @@ CS 377 · Week 7, Day 2 · 🟦 Clark/Lake 🟦
 
 ---
 
-# Connecting Some Dots
+## Connecting Some Dots
 
 :::: columns
 ::: {.column width="24%"}
@@ -412,11 +440,15 @@ Care Ethics
 
 ---
 
-# Mini-lecture: Ethical Issues in Facial Recognition
+# Facial Recognition {.title-slide .section-header}
 
 ---
 
-# Facial Recognition in (Somewhat) Recent News
+## Mini-lecture: Ethical Issues in Facial Recognition
+
+---
+
+## Facial Recognition in (Somewhat) Recent News
 
 $**???** — Amount Facebook paid to each user after breaking the Illinois Biometric Information Privacy Act (BIPA): collecting and storing biometric data without obtaining proper consent
 
@@ -426,11 +458,11 @@ $**397** per user
 
 ---
 
-# Background on Facial Recognition
+## Background on Facial Recognition
 
 ---
 
-# Categories of Tasks
+## Categories of Tasks
 
 ::: {.incremental}
 - **Detection** — is there a face in the image?
@@ -440,49 +472,49 @@ $**397** per user
 
 ---
 
-# Is there a face in the image?
+## Is there a face in the image?
 
 <!-- image: face detection examples -->
 - TODO: add image — *face detection examples*
 
 ---
 
-# What kind of face is shown in the image?
+## What kind of face is shown in the image?
 
 <!-- image: face classification examples (e.g. age/gender estimation) -->
 - TODO: add image — *face classification examples (e.g. age/gender estimation)*
 
 ---
 
-# Whose face is shown in the image?
+## Whose face is shown in the image?
 
 <!-- image: face identification examples -->
 - TODO: add image — *face identification examples*
 
 ---
 
-# Figure from MIT Media Lab
+## Figure from MIT Media Lab
 
 <!-- image: Figure from MIT Media Lab showing facial recognition task types -->
 - TODO: add image — *Figure from MIT Media Lab showing facial recognition task types*
 
 ---
 
-# Example: Cameras at the UIC-Halsted Station
+## Example: Cameras at the UIC-Halsted Station
 
 <!-- image: camera installation at UIC-Halsted -->
 - TODO: add image — *camera installation at UIC-Halsted*
 
 ---
 
-# Example: Market at Halsted, "Just Walk Out"
+## Example: Market at Halsted, "Just Walk Out"
 
 <!-- image: Amazon "Just Walk Out" technology at Market at Halsted -->
 - TODO: add image — *Amazon "Just Walk Out" technology at Market at Halsted*
 
 ---
 
-# Where Have You Seen Facial Recognition?
+## Where Have You Seen Facial Recognition?
 
 Examples from a 2020 Algorithmic Justice League report:
 
@@ -496,7 +528,11 @@ Examples from a 2020 Algorithmic Justice League report:
 
 ---
 
-# Gender Shades
+# Gender Shades {.title-slide .section-header}
+
+---
+
+## Gender Shades
 
 - Joy Buolamwini's master's project at the MIT Media Lab
 - The project began when a Halloween party mask was detected as a face, but her own face was not
@@ -507,107 +543,111 @@ Examples from a 2020 Algorithmic Justice League report:
 
 ---
 
-# Gender Shades Dataset {.figure-slide}
+## Gender Shades Dataset {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs10.png)
 
 ::: {.figure-caption}
-Sample images and average faces from the Pilot Parliaments Benchmark. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+Sample images and average faces from the Pilot Parliaments Benchmark. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY)
 :::
 
 ---
 
-# Overall Accuracy {.figure-slide}
+## Overall Accuracy {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs01.png)
 
 ::: {.figure-caption}
-Overall accuracy on all subjects in the Pilot Parliaments Benchmark (2017). Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+Overall accuracy on all subjects in the Pilot Parliaments Benchmark (2017). Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
 :::
 
 ---
 
-# Accuracy by Gender {.figure-slide}
+## Accuracy by Gender {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs02.png)
 
 ::: {.figure-caption}
-Accuracy for female vs. male subjects. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+Accuracy for female vs. male subjects. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
 :::
 
 ---
 
-# Accuracy by Skin Tone {.figure-slide}
+## Accuracy by Skin Tone {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs03.png)
 
 ::: {.figure-caption}
-Accuracy for darker vs. lighter subjects. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+Accuracy for darker vs. lighter subjects. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
 :::
 
 ---
 
-# Intersectional Accuracy Rates {.figure-slide}
+## Intersectional Accuracy Rates {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs04.png)
 
 ::: {.figure-caption}
-Accuracy broken out by skin tone *and* gender — the largest gap reaches 34.4%. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
+Accuracy broken out by skin tone *and* gender — the largest gap reaches 34.4%. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY-NC-ND)
 :::
 
 ---
 
-# Where IBM's Errors Came From {.figure-slide}
+## Where IBM's Errors Came From {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs05.png)
 
 ::: {.figure-caption}
-The difference in error rates is greatest between darker-skinned female faces and lighter-skinned male faces in the IBM gender classifier using the PPB dataset. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+The difference in error rates is greatest between darker-skinned female faces and lighter-skinned male faces in the IBM gender classifier using the PPB dataset. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY)
 :::
 
 ---
 
-# Where Microsoft's Errors Came From {.figure-slide}
+## Where Microsoft's Errors Came From {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs06.png)
 
 ::: {.figure-caption}
-93.6% of error for the Microsoft gender classifier came from the misgendering of darker-skinned (Fitzpatrick skin types IV, V, VI) faces from the PPB dataset. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+93.6% of error for the Microsoft gender classifier came from the misgendering of darker-skinned (Fitzpatrick skin types IV, V, VI) faces from the PPB dataset. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY)
 :::
 
 ---
 
-# Where Face++'s Errors Came From {.figure-slide}
+## Where Face++'s Errors Came From {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs07.png)
 
 ::: {.figure-caption}
-95.9% of error for the Face++ gender classifier came from the misgendering of female faces from the PPB dataset. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+95.9% of error for the Face++ gender classifier came from the misgendering of female faces from the PPB dataset. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY)
 :::
 
 ---
 
-# Potential Harms from Algorithmic Decision-Making {.figure-slide}
+## Potential Harms from Algorithmic Decision-Making {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs09.png)
 
 ::: {.figure-caption}
-Chart contents courtesy of Megan Smith, former CTO of the United States. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+Chart contents courtesy of Megan Smith, former CTO of the United States. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY)
 :::
 
 ---
 
-# Recommended Reading {.figure-slide}
+## Recommended Reading {.figure-slide}
 
 ![](../assets/gender-shades-press-kit/gs08.png)
 
 ::: {.figure-caption}
-Gender Shades: recommended reading. Joy Buolamwini, MIT Media Lab · [gendershades.org](http://gendershades.org) (CC BY)
+Gender Shades: recommended reading. Joy Buolamwini, MIT Media Lab, [gendershades.org](http://gendershades.org) (CC BY)
 :::
 
 ---
 
-# Evaluating Systems
+# Evaluating Systems {.title-slide .section-header}
+
+---
+
+## Evaluating Systems
 
 ::: {.incremental}
 - **"How well does this work overall?"**
@@ -621,7 +661,7 @@ Gender Shades: recommended reading. Joy Buolamwini, MIT Media Lab · [gendershad
 
 ---
 
-# Connecting Some Dots (Again)
+## Connecting Some Dots (Again)
 
 How do the four ethical frameworks apply to facial recognition?
 
@@ -639,7 +679,7 @@ How do the four ethical frameworks apply to facial recognition?
 
 ---
 
-# Preview: "Codename Delphi"
+## Preview: "Codename Delphi"
 
 - Written by Linda Nagata
 - Read before Monday, March 2
@@ -647,7 +687,7 @@ How do the four ethical frameworks apply to facial recognition?
 
 ---
 
-# That's all for today! See you Monday!
+## That's all for today! See you Monday!
 
 ---
 

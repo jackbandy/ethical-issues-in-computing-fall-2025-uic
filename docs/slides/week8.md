@@ -8,23 +8,23 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/15 War.pdf. Review and edit before use. -->
 
-CS 377 · Week 8, Day 1 · 🟦 Grand 🟦
+CS 377, Week 8, Day 1 🟦 Grand 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
 
-CS 377 · Week 8, Day 1 · 🟦 Grand 🟦
+CS 377, Week 8, Day 1 🟦 Grand 🟦
 
 <!-- image source: Rendering via altusworks.com -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -40,7 +40,7 @@ CS 377 · Week 8, Day 1 · 🟦 Grand 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -58,27 +58,27 @@ CS 377 · Week 8, Day 1 · 🟦 Grand 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Your Feedback from the Midpoint Check-in…
+## Your Feedback from the Midpoint Check-in…
 
 <!-- image: summary of student feedback from the midpoint check-in — placeholder for instructor to add each semester -->
 - TODO: add image — *summary of student feedback from the midpoint check-in — placeholder for instructor to add each semester*
 
 ---
 
-# Invitation
+## Invitation
 
 Turn off phones, laptops, and other distractions
 
 ---
 
-# Table Discussion: Book Check-in
+## Table Discussion: Book Check-in
 
 - How much have you read?
 - What helps you read? (Where? When? What else?)
@@ -87,7 +87,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Speculative Fiction Exercise Overview
+## Speculative Fiction Exercise Overview
 
 - We've read three stories — now it's your turn to write your own!
 - In brief: write more than one page; have fun with it
@@ -96,14 +96,18 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# War and Computing in Recent News
+# War and Computing in the News {.title-slide .section-header}
+
+---
+
+## War and Computing in Recent News
 
 <!-- image: recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal) -->
 - TODO: add image — *recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal)*
 
 ---
 
-# In (Very) Recent News
+## In (Very) Recent News
 
 - Pentagon banned Anthropic on February 27, designating it a "supply-chain risk"
 - OpenAI announced a Pentagon deal hours later
@@ -112,7 +116,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Anthropic's "Red Lines"
+## Anthropic's "Red Lines"
 
 :::: columns
 ::: {.column width="48%"}
@@ -130,11 +134,15 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Computing and War: Before LLMs
+# Computing and War Before LLMs {.title-slide .section-header}
 
 ---
 
-# ARPANET
+## Computing and War: Before LLMs
+
+---
+
+## ARPANET
 
 - U.S. DoD Advanced Research Projects Agency Network
 - Originally linked Pentagon-funded research computers
@@ -145,7 +153,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Alan Turing and World War II
+## Alan Turing and World War II
 
 - During WW2 (1939–1945), Turing worked at Bletchley Park to break German military ciphers
 - Automated search over Enigma keys, led to large-scale computational machinery ("Colossus")
@@ -153,7 +161,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Project Maven (2018)
+## Project Maven (2018)
 
 - Google provided image classification services to label objects from military drone videos
 - Thousands of Google employees signed petitions; some resigned
@@ -162,7 +170,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Stuxnet (2009)
+## Stuxnet (2009)
 
 - Computer worm used to sabotage Iran's nuclear program
 - Targeted Siemens industrial control systems (ICS) at Natanz
@@ -171,7 +179,11 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Not Without Us {.quote-slide}
+# "Not Without Us" {.title-slide .section-header}
+
+---
+
+## Not Without Us {.quote-slide}
 
 > "None of the weapon systems which today threaten murder on a genocidal scale,
 > and whose design, manufacture and sale condemns countless people, especially
@@ -183,7 +195,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# "Not Without Us": Key Arguments
+## "Not Without Us": Key Arguments
 
 - 1986 speech by MIT computer scientist Joseph Weizenbaum
 - Argued that computing professionals must actively resist uses of computing that dehumanize
@@ -192,17 +204,21 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Switching to Fiction!
+# "Codename Delphi" {.title-slide .section-header}
 
 ---
 
-# "Codename Delphi" (2014)
+## Switching to Fiction!
+
+---
+
+## "Codename Delphi" (2014)
 
 - Written by Linda Nagata
 
 ---
 
-# Table Discussion: "Codename Delphi"
+## Table Discussion: "Codename Delphi"
 
 - Imagine you had to do Karin's job for a week. What challenges do you imagine might come up?
 - Why does Karin find it unacceptable that some fellow handlers describe the job as being like a video game?
@@ -211,7 +227,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Ethical Frameworks Applied
+## Ethical Frameworks Applied
 
 - **Virtue ethics**: What virtues does Karin demonstrate? Which vices does she resist?
 - **Deontological**: Are there moral absolutes in warfare? (Weizenbaum says yes)
@@ -220,7 +236,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Preview: "If an Algorithm Can Cast a Shadow"
+## Preview: "If an Algorithm Can Cast a Shadow"
 
 - Written by Claire Jia-Wen
 - 34-minute audio version available (link in Canvas)
@@ -229,7 +245,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you Wednesday!
 
@@ -237,23 +253,23 @@ See you Wednesday!
 
 # Ethical Issues in Medical Technology {.title-slide}
 
-CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
+CS 377, Week 8, Day 2 🟦 Chicago 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
 
-CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
+CS 377, Week 8, Day 2 🟦 Chicago 🟦
 
 <!-- image source: Rendering via altusworks.com -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -269,7 +285,7 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -286,14 +302,14 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 ---
 
-# Follow-up on "Codename Delphi"
+## Follow-up on "Codename Delphi"
 
 <!-- image: discussion board student responses or highlights from Canvas -->
 - TODO: add image — *discussion board student responses or highlights from Canvas*
 
 ---
 
-# Group Exercise: Therac-25
+## Group Exercise: Therac-25
 
 - See handout
 - The Therac-25 was a radiation therapy machine responsible for several patient deaths in the mid-1980s due to software errors
@@ -301,7 +317,11 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 ---
 
-# A Brief Aside: What Is "Ethics"?
+# Revisiting Ethics {.title-slide .section-header}
+
+---
+
+## A Brief Aside: What Is "Ethics"?
 
 - Many papers say ethics is "right vs. wrong"
 - This is just one branch: **normative ethics** — prescriptive moral standards
@@ -310,7 +330,7 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 ---
 
-# Normative and Descriptive Ethics
+## Normative and Descriptive Ethics
 
 :::: columns
 ::: {.column width="48%"}
@@ -336,13 +356,13 @@ CS 377 · Week 8, Day 2 · 🟦 Chicago 🟦
 
 ---
 
-# Why We'll Try to Avoid the Word "Ethical" in This Class
+## Why We'll Try to Avoid the Word "Ethical" in This Class
 
 - TODO: fill in — placeholder slide
 
 ---
 
-# Table Discussion: Real-World Ethical Dilemmas
+## Table Discussion: Real-World Ethical Dilemmas
 
 Using both normative and descriptive lenses:
 
@@ -352,18 +372,22 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Ethical Issues in Medical Technology
+# Ethics in Medical Technology {.title-slide .section-header}
 
 ---
 
-# AI in the Operating Room
+## Ethical Issues in Medical Technology
+
+---
+
+## AI in the Operating Room
 
 - Reuters (2026): "As AI enters the operating room, reports arise of botched surgeries and misidentified body parts"
 - What went wrong? Who is responsible?
 
 ---
 
-# Electronic Health Records
+## Electronic Health Records
 
 - California Healthline: "Death By 1,000 Clicks: Where Electronic Health Records Went Wrong"
 - "Botched Operation" YouTube series on EHR failures (4 parts — link in Canvas)
@@ -371,7 +395,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Pacemaker Security (IoMT)
+## Pacemaker Security (IoMT)
 
 - *Internet of Medical Things* — pacemakers, home monitors, connected devices
 - Researchers demonstrated ability to:
@@ -387,7 +411,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Robot-Assisted Surgery: Ethics Landscape
+## Robot-Assisted Surgery: Ethics Landscape
 
 - ~6,000 Da Vinci surgical systems in operation worldwide
 - Seven major ethical strands identified in systematic review:
@@ -403,7 +427,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Bias in Medical AI
+## Bias in Medical AI
 
 - Biases arise and compound throughout the AI lifecycle
 - Can lead to substandard clinical decisions and worsened healthcare disparities
@@ -414,7 +438,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Ethical Questions in Medical Technology
+## Ethical Questions in Medical Technology
 
 - **Virtue ethics**: What virtues should medical software engineers cultivate?
 - **Deontological**: What duties do engineers have to patients who depend on their systems?
@@ -423,7 +447,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Reminders
+## Reminders
 
 - Speculative fiction due Sunday at 11:59pm
 - "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
@@ -431,7 +455,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week!
 

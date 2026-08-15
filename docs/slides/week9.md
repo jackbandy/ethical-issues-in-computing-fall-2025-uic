@@ -8,23 +8,23 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/17 Intro to LLMs.pdf. Review and edit before use. -->
 
-CS 377 · Week 9, Day 1 · 🟦 Division 🟦
+CS 377, Week 9, Day 1 🟦 Division 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
 
-CS 377 · Week 9, Day 1 · 🟦 Division 🟦
+CS 377, Week 9, Day 1 🟦 Division 🟦
 
 <!-- image source: picture from altusworks.com -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -40,7 +40,7 @@ CS 377 · Week 9, Day 1 · 🟦 Division 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -57,25 +57,29 @@ CS 377 · Week 9, Day 1 · 🟦 Division 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Table Activity: Speculative Fiction
+## Table Activity: Speculative Fiction
 
 <!-- image: student speculative fiction submissions / vote slide -->
 - TODO: add image — *student speculative fiction submissions / vote slide*
 
 ---
 
-# What Is a (Large) Language Model?
+# What Is a Language Model? {.title-slide .section-header}
 
 ---
 
-# A Simple Language Model
+## What Is a (Large) Language Model?
+
+---
+
+## A Simple Language Model
 
 Training text: *"it was the best of times"*
 
@@ -89,14 +93,14 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# From Text to Model
+## From Text to Model
 
 <!-- image: diagram showing training text → next-token probability model (Dickens example) -->
 - TODO: add image — *diagram showing training text → next-token probability model (Dickens example)*
 
 ---
 
-# LM Definition {.quote-slide}
+## LM Definition {.quote-slide}
 
 > "Systems which are trained on string prediction tasks: that is, predicting the
 > likelihood of a token (character, word, or string) given its preceding context."
@@ -105,7 +109,11 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# 🦜 Stochastic Parrots
+# "Stochastic Parrots" {.title-slide .section-header}
+
+---
+
+## 🦜 Stochastic Parrots
 
 - Bender, Gebru et al. (2021)
 - Paper drafted via Twitter DMs in Fall 2020
@@ -117,14 +125,14 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Behind the Research: AI Ethics at Google
+## Behind the Research: AI Ethics at Google
 
 <!-- image: context on Timnit Gebru's departure from Google and the broader story of AI ethics research in industry -->
 - TODO: add image — *context on Timnit Gebru's departure from Google and the broader story of AI ethics research in industry*
 
 ---
 
-# Table Activity: Learn About the Authors
+## Table Activity: Learn About the Authors
 
 - Education? Early life?
 - Previous jobs / positions?
@@ -132,7 +140,7 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Four Key Issues in "Stochastic Parrots"
+## Four Key Issues in "Stochastic Parrots"
 
 ::: {.incremental}
 1. **Cost** — environmental and financial
@@ -143,7 +151,11 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Environmental Costs of LLMs
+# Costs and Training Data {.title-slide .section-header}
+
+---
+
+## Environmental Costs of LLMs
 
 - Thousands of GPUs for initial training
 - "Training a single BERT base model on GPUs was estimated to require as much energy as a trans-American flight"
@@ -151,14 +163,14 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Financial Costs of LLMs
+## Financial Costs of LLMs
 
 - As of 2020: $150k for every 0.1 increase in BLEU score (Strubell et al.)
 - Exact costs difficult to know; relative costs fairly clear
 
 ---
 
-# "Unfathomable" Training Data (2 of 4)
+## "Unfathomable" Training Data (2 of 4)
 
 | Model | Year | Training Data |
 |---|---|---|
@@ -169,7 +181,7 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Why "Unfathomable"?
+## Why "Unfathomable"?
 
 ::: {.incremental}
 - Larger text datasets are more difficult to understand, analyze, and audit
@@ -182,7 +194,7 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# On Filtering Marginalized Voices {.quote-slide}
+## On Filtering Marginalized Voices {.quote-slide}
 
 > "If we filter out the discourse of marginalized populations, we fail to provide
 > training data that reclaims slurs and otherwise describes marginalized identities
@@ -192,7 +204,11 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Misdirected Research (3 of 4)
+# Research Directions and Human Interactions {.title-slide .section-header}
+
+---
+
+## Misdirected Research (3 of 4)
 
 - Statistical language models are just one approach to AI
 - Other approaches emphasize understanding and structure
@@ -205,14 +221,14 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Human Interactions (4 of 4)
+## Human Interactions (4 of 4)
 
 <!-- image: ELIZA interface screenshot -->
 - TODO: add image — *ELIZA interface screenshot*
 
 ---
 
-# Human Interactions (4 of 4)
+## Human Interactions (4 of 4)
 
 - "Humans are prepared to interpret strings belonging to languages they speak as meaningful"
 - But "an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data"
@@ -225,7 +241,7 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-# Dangerous Queries
+## Dangerous Queries
 
 ::: {.incremental}
 - "Users might query LMs for 'dangerous knowledge'"
@@ -244,7 +260,7 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-# Reminders
+## Reminders
 
 - Read "If an Algorithm Can Cast a Shadow" by Claire Jia-Wen
 - Audio version is ~34 minutes (link in Canvas)
@@ -254,23 +270,23 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 # LLMs, Continued {.title-slide}
 
-CS 377 · Week 9, Day 2 · 🟦 Damen 🟦
+CS 377, Week 9, Day 2 🟦 Damen 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop21-damen-c.jpg" background-size="cover"}
 
-CS 377 · Week 9, Day 2 · 🟦 Damen 🟦
+CS 377, Week 9, Day 2 🟦 Damen 🟦
 
 <!-- image source: photo by Graham Garfield -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop21-damen-c.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop21-damen-c.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -286,7 +302,7 @@ CS 377 · Week 9, Day 2 · 🟦 Damen 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -304,13 +320,13 @@ CS 377 · Week 9, Day 2 · 🟦 Damen 🟦
 
 ---
 
-# Invitation
+## Invitation
 
 Turn off phones, laptops, and other distractions
 
 ---
 
-# Table Discussion: Book Check-in
+## Table Discussion: Book Check-in
 
 - How much have you read? What helps you read?
 - How are you taking notes / keeping track of what you're learning?
@@ -319,14 +335,18 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Returning to "Stochastic Parrots"
+# Revisiting the Four Issues {.title-slide .section-header}
+
+---
+
+## Returning to "Stochastic Parrots"
 
 <!-- image: stochastic parrots paper cover / overview slide -->
 - TODO: add image — *stochastic parrots paper cover / overview slide*
 
 ---
 
-# Review: Four Key Issues
+## Review: Four Key Issues
 
 ::: {.incremental}
 1. **Cost** — environmental and financial
@@ -339,7 +359,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# Human Interactions: "Digital Doubles?"
+## Human Interactions: "Digital Doubles?"
 
 <!-- image: news example of AI "digital double" or companion AI relationship -->
 - TODO: add image — *news example of AI "digital double" or companion AI relationship*
@@ -350,7 +370,7 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-# LLMs In the News: Dangerous Queries
+## LLMs In the News: Dangerous Queries
 
 <!-- image: news screenshot on OpenAI and Canada shooting suspect -->
 - TODO: add image — *news screenshot on OpenAI and Canada shooting suspect*
@@ -362,7 +382,11 @@ June 2025: *"Posts flagged by an automated review system alarmed employees at Op
 
 ---
 
-# LLMs and Education
+# LLMs in Education and Work {.title-slide .section-header}
+
+---
+
+## LLMs and Education
 
 - Futurism: ["New AI Agent Logs Directly Into Canvas to Do Your Homework for You"](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
 - Matthew Gault: ["What's the Point of School When AI Can Do Your Homework?"](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
@@ -370,7 +394,7 @@ June 2025: *"Posts flagged by an automated review system alarmed employees at Op
 
 ---
 
-# LLMs at Work
+## LLMs at Work
 
 - Financial Times: ["Amazon service was taken down by AI coding bot"](https://archive.ph/msZJ3)
 - Casey Newton: ["Grammarly turned me into an AI editor against my will and I hate it"](https://www.platformer.news/grammarly-expert-review-reviewed/)
@@ -378,11 +402,15 @@ June 2025: *"Posts flagged by an automated review system alarmed employees at Op
 
 ---
 
-# Discuss: "If an Algorithm Can Cast a Shadow"
+# "If an Algorithm Can Cast a Shadow" {.title-slide .section-header}
 
 ---
 
-# Story Overview
+## Discuss: "If an Algorithm Can Cast a Shadow"
+
+---
+
+## Story Overview
 
 - Who are the characters?
 - What is a "digital double"?
@@ -392,14 +420,14 @@ June 2025: *"Posts flagged by an automated review system alarmed employees at Op
 
 ---
 
-# Table Discussion: Your Questions
+## Table Discussion: Your Questions
 
 - Share and discuss your questions from Canvas
 - Choose one or two you would like to pose to the whole class
 
 ---
 
-# Preview: Intellectual Property (Week 10)
+## Preview: Intellectual Property (Week 10)
 
 - Guest lecture details coming in Canvas
 - **Maurine Jo Neiberg** — Intellectual Property Attorney
@@ -411,7 +439,7 @@ June 2025: *"Posts flagged by an automated review system alarmed employees at Op
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week!
 

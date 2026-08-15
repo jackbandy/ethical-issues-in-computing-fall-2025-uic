@@ -1,30 +1,25 @@
-# Draft — Needs Review {.draft-notice}
-
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
 
 # Review Theories of Ethics {.title-slide}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/06 Theory Review.pdf and 07 Feeds.pdf. Review and edit before use. -->
 
-CS 377 · Week 4, Day 1 · 🟦 Racine 🟦
+CS 377, Week 4, Day 1 🟦 Racine 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
 
-CS 377 · Week 4, Day 1 · 🟦 Racine 🟦
+CS 377, Week 4, Day 1 🟦 Racine 🟦
 
 <!-- image source: View of Blue Line station house, circa 1970. Image: CTA via jlkarch.com -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -40,7 +35,7 @@ CS 377 · Week 4, Day 1 · 🟦 Racine 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -59,30 +54,34 @@ CS 377 · Week 4, Day 1 · 🟦 Racine 🟦
 
 ---
 
-# Attendance
+## Attendance
 
 - On a scale of 0 (exhausted) to 5 (exhilarated), how much energy do you have today?
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Invitation/reminder
+## Invitation/reminder
 
 Turn off phones, laptops, other distractions
 
 ---
 
-# Concluding Care Ethics
+# Concluding Care Ethics {.title-slide .section-header}
 
 ---
 
-# Book Selection
+## Concluding Care Ethics
+
+---
+
+## Book Selection
 
 - To receive full credit, answer the following six questions in the Canvas text box:
   - Which book did you choose?
@@ -94,7 +93,7 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Table Discussion: Share your book selection!
+## Table Discussion: Share your book selection!
 
 - Which book did you choose? Who is the author?
 - How did you find it?
@@ -103,7 +102,11 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Four Theories / Approaches to Ethics
+# Four Theories of Ethics {.title-slide .section-header}
+
+---
+
+## Four Theories / Approaches to Ethics
 
 :::: columns
 ::: {.column width="24%"}
@@ -129,14 +132,14 @@ Care Ethics
 
 ---
 
-# Four Theories / Approaches to Ethics (Labeled)
+## Four Theories / Approaches to Ethics (Labeled)
 
 <!-- image: four-theory diagram with labels building in sequence -->
 - TODO: add image — *four-theory diagram with labels building in sequence*
 
 ---
 
-# Connect the dots…
+## Connect the dots…
 
 - William David Ross contended there are seven duties that determine what is right:
 
@@ -152,7 +155,7 @@ Care Ethics
 
 ---
 
-# Many Flavors of Each Theory
+## Many Flavors of Each Theory
 
 :::: columns
 ::: {.column width="48%"}
@@ -179,7 +182,7 @@ Care Ethics
 
 ---
 
-# Many Flavors of Each Theory
+## Many Flavors of Each Theory
 
 :::: columns
 ::: {.column width="48%"}
@@ -205,7 +208,7 @@ Care Ethics
 
 ---
 
-# More than Four
+## More than Four
 
 - **Communitarianism** — common good, social lives
 - **Responsibility ethics** — individual accountability
@@ -215,7 +218,11 @@ Care Ethics
 
 ---
 
-# Food in your Feed (Media Diary)
+# Media Diary Exercise {.title-slide .section-header}
+
+---
+
+## Food in your Feed (Media Diary)
 
 Due tomorrow night at 11:59pm
 
@@ -230,27 +237,27 @@ Due tomorrow night at 11:59pm
 
 ---
 
-# That's all for today! See you Wednesday!
+## That's all for today! See you Wednesday!
 
 ---
 
 # Ethical Issues in Algorithmic Feeds {.title-slide}
 
-CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
+CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
 
-CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
+CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -266,7 +273,7 @@ CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -284,14 +291,14 @@ CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Table Discussion: Your Feed Sample (8 min)
+## Table Discussion: Your Feed Sample (8 min)
 
 - Which app did you use? When did you check it?
 - What would you remove, if you had to choose?
@@ -302,18 +309,22 @@ CS 377 · Week 4, Day 2 · 🟦 UIC-Halsted 🟦
 
 ---
 
-# Feed Algorithms 101
+# Feed Algorithms {.title-slide .section-header}
 
 ---
 
-# Facebook's Feed System (2021)
+## Feed Algorithms 101
+
+---
+
+## Facebook's Feed System (2021)
 
 <!-- image: Facebook's feed system architecture diagram (2021) -->
 - TODO: add image — *Facebook's feed system architecture diagram (2021)*
 
 ---
 
-# Generic Feed System Architecture
+## Generic Feed System Architecture
 
 A typical recommender system proceeds in four stages:
 
@@ -329,14 +340,18 @@ A typical recommender system proceeds in four stages:
 
 ---
 
-# Generic Feed System Architecture
+## Generic Feed System Architecture
 
 <!-- image: same diagram with annotation showing approximate item counts at each stage for a large platform -->
 - TODO: add image — *same diagram with annotation showing approximate item counts at each stage for a large platform*
 
 ---
 
-# Values in Ranking
+# Values in Ranking {.title-slide .section-header}
+
+---
+
+## Values in Ranking
 
 - What a platform optimizes for shapes what users see
 - Common engagement metrics: clicks, watch time, shares, reactions
@@ -348,7 +363,7 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# Activity: Ranking
+## Activity: Ranking
 
 - See handout
 - Small groups rank a sample set of posts
@@ -356,11 +371,11 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# Mini-lecture: Values and Ethics in Ranking
+## Mini-lecture: Values and Ethics in Ranking
 
 ---
 
-# What Does Ranking Optimize?
+## What Does Ranking Optimize?
 
 - Short-term engagement vs. long-term user well-being
 - Engagement with any content vs. quality content
@@ -369,11 +384,15 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# Mini-lecture: Content Moderation
+# Content Moderation {.title-slide .section-header}
 
 ---
 
-# What Is Content Moderation?
+## Mini-lecture: Content Moderation
+
+---
+
+## What Is Content Moderation?
 
 - The practice of monitoring and applying rules to user-generated content
 - Decisions about what to allow, remove, label, or reduce in reach
@@ -381,7 +400,7 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# The Scale Problem
+## The Scale Problem
 
 - Meta: ~3 billion daily active users
 - YouTube: ~500 hours of video uploaded per minute
@@ -389,7 +408,7 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# Community Standards and Their Limits
+## Community Standards and Their Limits
 
 - Platforms publish rules — but rules require interpretation
 - "Newsworthiness" exceptions: content that would otherwise be removed is kept because of public interest
@@ -397,7 +416,7 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# Ethical Questions in Content Moderation
+## Ethical Questions in Content Moderation
 
 :::: columns
 ::: {.column width="48%"}
@@ -421,7 +440,7 @@ What values are *not* captured by engagement alone?
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week!
 

@@ -8,23 +8,23 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/07b Moderating Feeds.pdf, 08 Privacy Fundamentals.pdf, and 08 Rights.pdf. Review and edit before use. -->
 
-CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
+CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
 
-CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
+CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 <!-- image source: Clinton station, via Jim Parker on Flickr -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -40,7 +40,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -59,49 +59,49 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Notes on Unit 2
+## Notes on Unit 2
 
 <!-- image: Unit 2 overview / structure slide -->
 - TODO: add image — *Unit 2 overview / structure slide*
 
 ---
 
-# Clinton Connection
+## Clinton Connection
 
 <!-- image: Clinton station connection photo 1 -->
 - TODO: add image — *Clinton station connection photo 1*
 
 ---
 
-# Clinton Connection
+## Clinton Connection
 
 <!-- image: Clinton station connection photo 2 -->
 - TODO: add image — *Clinton station connection photo 2*
 
 ---
 
-# Clinton Connection
+## Clinton Connection
 
 <!-- image: Clinton station connection photo 3 -->
 - TODO: add image — *Clinton station connection photo 3*
 
 ---
 
-# Clinton Connection
+## Clinton Connection
 
 <!-- image: Clinton station connection photo 4 -->
 - TODO: add image — *Clinton station connection photo 4*
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Table Discussion: Book Check-in
+## Table Discussion: Book Check-in
 
 - How is your book coming along?
 - How much have you read?
@@ -112,11 +112,15 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Mini-lecture: Content Moderation
+# Content Moderation {.title-slide .section-header}
 
 ---
 
-# Generic Feed System Architecture (Recap)
+## Mini-lecture: Content Moderation
+
+---
+
+## Generic Feed System Architecture (Recap)
 
 ::: {.incremental}
 1. **Moderation** — remove policy-violating items
@@ -130,28 +134,28 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Free Speech
+## Free Speech
 
 <!-- image: First Amendment text -->
 - TODO: add image — *First Amendment text*
 
 ---
 
-# Free Speech
+## Free Speech
 
 - **First Amendment:** "Congress shall make no law…abridging the freedom of speech, or of the press"
 - **Section 230 (Communications Decency Act):** "It is the policy of the United States… to encourage the development of technologies which maximize user control over what information is received by individuals…who use the Internet…"
 
 ---
 
-# What Is Content Moderation?
+## What Is Content Moderation?
 
 <!-- image: content moderation framing diagram -->
 - TODO: add image — *content moderation framing diagram*
 
 ---
 
-# What Is Content Moderation? {.quote-slide}
+## What Is Content Moderation? {.quote-slide}
 
 > "Moderation is, in many ways, the commodity that platforms offer."
 >
@@ -159,7 +163,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Platform Moderation at Scale
+## Platform Moderation at Scale
 
 :::: columns
 ::: {.column width="48%"}
@@ -187,7 +191,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Moderation Labor at OpenAI
+## Moderation Labor at OpenAI
 
 - Moderators label and filter toxic and/or explicit text for model training
 - Violence, hate speech, explicit material
@@ -198,21 +202,25 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Marginal Content at Twitter
+## Marginal Content at Twitter
 
 <!-- image: Twitter internal moderation documentation example -->
 - TODO: add image — *Twitter internal moderation documentation example*
 
 ---
 
-# Example: "The Terror of War" (1972)
+# Moderation Case Studies {.title-slide .section-header}
+
+---
+
+## Example: "The Terror of War" (1972)
 
 <!-- image: Kim Phúc photo by Nick Ut — note: this contains graphic war violence and is a famous content moderation test case -->
 - TODO: add image — *Kim Phúc photo by Nick Ut — note: this contains graphic war violence and is a famous content moderation test case*
 
 ---
 
-# Example: The Terror of War {.quote-slide}
+## Example: The Terror of War {.quote-slide}
 
 > "Napalm is very powerful, but faith, forgiveness, and love are much more powerful.
 > We would not have war at all if everyone could learn how to live with true love,
@@ -228,7 +236,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Example: "Credible Violence"
+## Example: "Credible Violence"
 
 <!-- image: excerpt from Facebook's internal rulebook (The Guardian, 2017) showing the "credible violence" policy category -->
 - TODO: add image — *excerpt from Facebook's internal rulebook (The Guardian, 2017) showing the "credible violence" policy category*
@@ -237,7 +245,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Ethical Questions in Content Moderation
+## Ethical Questions in Content Moderation
 
 :::: columns
 ::: {.column width="48%"}
@@ -261,15 +269,19 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Thoughts or Questions on Algorithmic Feeds?
+## Thoughts or Questions on Algorithmic Feeds?
 
 ---
 
-# Intro to Privacy
+# Introduction to Privacy {.title-slide .section-header}
 
 ---
 
-# Table Discussion: What Is Privacy?
+## Intro to Privacy
+
+---
+
+## Table Discussion: What Is Privacy?
 
 - What comes to mind when you think of privacy?
 - What are some examples of privacy controls?
@@ -278,7 +290,7 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Defining Privacy
+## Defining Privacy
 
 - Often conceptualized as a **right**
 - Often associated with protection, security, safety
@@ -289,14 +301,14 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# Contextual Integrity Preview
+## Contextual Integrity Preview
 
 <!-- image: contextual integrity diagram (subject, sender, receiver, data category, transmission principles) -->
 - TODO: add image — *contextual integrity diagram (subject, sender, receiver, data category, transmission principles)*
 
 ---
 
-# Short Story Preview: "Here and Now"
+## Short Story Preview: "Here and Now"
 
 - Written by Ken Liu
 - Main character is Aaron
@@ -307,29 +319,29 @@ CS 377 · Week 5, Day 1 · 🟦 Clinton 🟦
 
 ---
 
-# That's all for today! See you Wednesday!
+## That's all for today! See you Wednesday!
 
 ---
 
 # Privacy as Contextual Integrity {.title-slide}
 
-CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
+CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
 
-CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
+CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 <!-- image source: LaSalle station, photo by Cragin Spring -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -345,7 +357,7 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -364,14 +376,14 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Online Account Biopsy
+## Online Account Biopsy
 
 - Introduce yourselves at your table
 - Discuss which app or website you want to use
@@ -381,11 +393,15 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 ---
 
-# Mini-lecture: Privacy as Contextual Integrity
+# Contextual Integrity {.title-slide .section-header}
 
 ---
 
-# Perspectives on Privacy
+## Mini-lecture: Privacy as Contextual Integrity
+
+---
+
+## Perspectives on Privacy
 
 - **Control over information** — analogous to property rights, managing "data boundaries"
 - **Adherence to rules** (contextual norms)
@@ -393,7 +409,7 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 ---
 
-# Contextual Integrity
+## Contextual Integrity
 
 - Privacy as **appropriate data flows**
 - Beyond binary (e.g. public/private)
@@ -405,7 +421,7 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 ---
 
-# Contextual Integrity: The Five-Tuple Model
+## Contextual Integrity: The Five-Tuple Model
 
 <!-- image: contextual integrity improved figure (Nathan Malkin) -->
 - TODO: add image — *contextual integrity improved figure (Nathan Malkin)*
@@ -424,7 +440,7 @@ CS 377 · Week 5, Day 2 · 🟦 LaSalle 🟦
 
 ---
 
-# Data Types
+## Data Types
 
 Information about a data subject can be varied:
 
@@ -438,7 +454,7 @@ Information about a data subject can be varied:
 
 ---
 
-# Common Transmission Principles
+## Common Transmission Principles
 
 - Existence of a warrant / court order
 - Consent of the subject (or parent/guardian if minor)
@@ -451,7 +467,11 @@ Information about a data subject can be varied:
 
 ---
 
-# Example: Student Grades (1)
+# Contextual Integrity Examples {.title-slide .section-header}
+
+---
+
+## Example: Student Grades (1)
 
 Dr. Bandy is offered $100 from a marketing corporation seeking email addresses and grades from all students in CS 377.
 
@@ -459,7 +479,7 @@ Dr. Bandy is offered $100 from a marketing corporation seeking email addresses a
 
 ---
 
-# Example: Student Grades (2)
+## Example: Student Grades (2)
 
 Dr. Bandy is approached by the chair of the CS department, who requests recent grades for CS 377.
 
@@ -467,7 +487,7 @@ Dr. Bandy is approached by the chair of the CS department, who requests recent g
 
 ---
 
-# Example: Job Interviews
+## Example: Job Interviews
 
 In job interviews, interviewers are not allowed to ask candidates about their religious practices.
 
@@ -475,7 +495,7 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# Example: Raine v. OpenAI
+## Example: Raine v. OpenAI
 
 - Ongoing lawsuit (filed August 2025) by parents of Adam Raine
 - OpenAI: *"We are currently not referring self-harm cases to law enforcement to respect people's privacy given the uniquely private nature of ChatGPT interactions"*
@@ -484,7 +504,11 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# Group Exercise: Privacy Policies
+# Privacy Policies {.title-slide .section-header}
+
+---
+
+## Group Exercise: Privacy Policies
 
 - See handout — choose a company:
   - YouTube, Snapchat, TikTok, Anthropic, Amazon, Instagram, Google, Reddit, Facebook, LinkedIn, Apple, others
@@ -493,7 +517,7 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# ChatGPT / OpenAI Policy: What's Collected
+## ChatGPT / OpenAI Policy: What's Collected
 
 - Name, contact information, date of birth
 - Prompts, files, images
@@ -502,7 +526,7 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# ChatGPT / OpenAI Policy: Third Parties
+## ChatGPT / OpenAI Policy: Third Parties
 
 - "trusted security and safety partners"
 - "advertisers and other data partners" (e.g. info about purchases from advertisers)
@@ -510,7 +534,7 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# ChatGPT / OpenAI Policy: Location Data
+## ChatGPT / OpenAI Policy: Location Data
 
 - "General area" based on IP address
 - More precise GPS info for other services
@@ -518,7 +542,7 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# ChatGPT / OpenAI Policy: Retention
+## ChatGPT / OpenAI Policy: Retention
 
 - Temporary chats automatically deleted within 30 days
 - Other info retained until deletion
@@ -526,14 +550,18 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# ChatGPT / OpenAI Policy: Length
+## ChatGPT / OpenAI Policy: Length
 
 - About 3,000 words; 5–6 pages
 - Seems to have stayed about the same length over time
 
 ---
 
-# Warm-up Discussion: What Are Rights?
+# Digital Rights {.title-slide .section-header}
+
+---
+
+## Warm-up Discussion: What Are Rights?
 
 - What comes to mind when you hear the word "rights"?
 - What are some examples of rights you have?
@@ -544,14 +572,14 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# Eleanor Roosevelt and the UDHR
+## Eleanor Roosevelt and the UDHR
 
 <!-- image: Eleanor Roosevelt holding the English language version of the Universal Declaration of Human Rights, November 1949 -->
 - TODO: add image — *Eleanor Roosevelt holding the English language version of the Universal Declaration of Human Rights, November 1949*
 
 ---
 
-# Eleanor Roosevelt on the UDHR {.quote-slide}
+## Eleanor Roosevelt on the UDHR {.quote-slide}
 
 > "It is not a treaty; it is not an international agreement. It is not and does not purport
 > to be a statement of law or of legal obligation. It is a declaration of basic principles
@@ -563,21 +591,21 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-# From 1949 to 2022
+## From 1949 to 2022
 
 <!-- image: UDHR 1949 → AI Bill of Rights 2022 comparison -->
 - TODO: add image — *UDHR 1949 → AI Bill of Rights 2022 comparison*
 
 ---
 
-# Blueprint for an "AI Bill of Rights"
+## Blueprint for an "AI Bill of Rights"
 
 - Office of Science and Technology Policy (2022)
 - "Intended to support the development of policies and practices that protect civil rights and promote democratic values in the building, deployment, and governance of automated systems"
 
 ---
 
-# Activity: Proposed Digital Rights
+## Activity: Proposed Digital Rights
 
 Review each proposed right — strengths? Weaknesses? Examples where it would come into play?
 
@@ -593,7 +621,7 @@ Review each proposed right — strengths? Weaknesses? Examples where it would co
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week!
 

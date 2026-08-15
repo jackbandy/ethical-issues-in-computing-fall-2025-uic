@@ -15,6 +15,20 @@ browser executable if it is not found automatically, or set
 
 HTML output is CI-managed. PDFs are generated locally and ignored by default.
 
+## Deck structure
+
+`_metadata.yml` sets `slide-level: 2`, so the two heading levels do different
+jobs:
+
+- `#` opens a section: the day title slides (`{.title-slide}` and
+  `{.title-slide .photo-title}`), the topic dividers
+  (`# Topic {.title-slide .section-header}`), and the closing sources slide.
+- `##` is an ordinary slide, grouped under the section above it.
+
+Sections show up as a vertical stack per topic and as the grouping in the
+navigation menu (press `M` while presenting). Navigation stays linear, so the
+arrow keys still walk the deck in order.
+
 `week0.md` is the starter deck. Copy it when beginning a new week and update
 the title, footer, URL, and content.
 

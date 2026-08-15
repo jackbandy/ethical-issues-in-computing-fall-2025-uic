@@ -8,21 +8,21 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/09 Here and Now.pdf, 11 Privacy in Data.pdf, and 12 Privacy and Power.pdf. Review and edit before use. -->
 
-CS 377 · Week 6, Day 1 · 🟦 Jackson 🟦
+CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
 
-CS 377 · Week 6, Day 1 · 🟦 Jackson 🟦
+CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -38,7 +38,7 @@ CS 377 · Week 6, Day 1 · 🟦 Jackson 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -55,13 +55,13 @@ CS 377 · Week 6, Day 1 · 🟦 Jackson 🟦
 
 ---
 
-# Invitation
+## Invitation
 
 Turn off phones, laptops, other distractions
 
 ---
 
-# Upcoming Exercises
+## Upcoming Exercises
 
 :::: columns
 ::: {.column width="48%"}
@@ -86,21 +86,25 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Account Biopsy: Example Analyses
+# The Account Biopsy and the Doll {.title-slide .section-header}
+
+---
+
+## Account Biopsy: Example Analyses
 
 <!-- image: example student account biopsy analyses (anonymized) — placeholder for instructor to add -->
 - TODO: add image — *example student account biopsy analyses (anonymized) — placeholder for instructor to add*
 
 ---
 
-# The Doll: A Conceptual Model
+## The Doll: A Conceptual Model
 
 <!-- image: Generic Model → Early Model → Detailed Model progression -->
 - TODO: add image — *Generic Model → Early Model → Detailed Model progression*
 
 ---
 
-# What Goes Into the Doll?
+## What Goes Into the Doll?
 
 - **Generic model** — demographic info, account type
 - **Early model** — posting patterns, topics
@@ -111,25 +115,29 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Doll Examples
+## Doll Examples
 
 <!-- image: mamapapabubba.com doll example -->
 - TODO: add image — *mamapapabubba.com doll example*
 
 ---
 
-# Doll Examples from Class
+## Doll Examples from Class
 
 <!-- image: examples from prior semesters (GitHub) -->
 - TODO: add image — *examples from prior semesters (GitHub)*
 
 ---
 
-# Mini-lecture: Why Short Stories?
+# Why Short Stories? {.title-slide .section-header}
 
 ---
 
-# Why Short Stories?
+## Mini-lecture: Why Short Stories?
+
+---
+
+## Why Short Stories?
 
 ::: {.incremental}
 - **Defamiliarization** — detach from preconceptions, expose your assumptions
@@ -142,14 +150,14 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Some Examples of Sci-Fi Ethics Cases
+## Some Examples of Sci-Fi Ethics Cases
 
 <!-- image: examples of sci-fi/ethics short stories and novels used in ethics courses -->
 - TODO: add image — *examples of sci-fi/ethics short stories and novels used in ethics courses*
 
 ---
 
-# Normative and Descriptive Ethics
+## Normative and Descriptive Ethics
 
 :::: columns
 ::: {.column width="48%"}
@@ -175,11 +183,15 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# "Here and Now"
+# "Here and Now" {.title-slide .section-header}
 
 ---
 
-# Table Questions: Characters in "Here and Now"
+## "Here and Now"
+
+---
+
+## Table Questions: Characters in "Here and Now"
 
 - What do we know about Aaron?
   - What does he enjoy? How do you know?
@@ -190,7 +202,7 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Table Questions: The App in "Here and Now"
+## Table Questions: The App in "Here and Now"
 
 - Would you use Tilly Here-and-Now? Explain.
 - Which use cases seemed comfortable or innocuous?
@@ -199,7 +211,7 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Connecting "Here and Now" to Privacy
+## Connecting "Here and Now" to Privacy
 
 - What data does Centillion collect about users?
 - Apply contextual integrity: sender, recipient, subject, data type, transmission principle
@@ -207,7 +219,7 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Preview: "Message in a Bottle"
+## Preview: "Message in a Bottle"
 
 - Written by Nalo Hopkinson
 - Central character is Greg
@@ -217,7 +229,7 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# No Class Meeting Wednesday!
+## No Class Meeting Wednesday!
 
 Dr. Bandy is in St. Louis for [SIGCSE 2026](https://sigcse2026.sigcse.org).
 
@@ -225,7 +237,7 @@ Three things due soon — see Canvas for details!
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week!
 
@@ -233,21 +245,21 @@ See you next week!
 
 # Asynchronous Class {.title-slide}
 
-CS 377 · Week 6, Day 2 · 🟦 Monroe 🟦
+CS 377, Week 6, Day 2 🟦 Monroe 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
 
-CS 377 · Week 6, Day 2 · 🟦 Monroe 🟦
+CS 377, Week 6, Day 2 🟦 Monroe 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop15-monroe-a.jpg" background-size="cover"}
 
 ---
 
-# No In-Person Class Today
+## No In-Person Class Today
 
 Dr. Bandy is at [SIGCSE 2026](https://sigcse2026.sigcse.org) in St. Louis.
 
@@ -255,13 +267,17 @@ Complete the asynchronous work in Canvas by the due date.
 
 ---
 
-# Privacy in Data (Async Content)
+# De-Anonymization {.title-slide .section-header}
+
+---
+
+## Privacy in Data (Async Content)
 
 The following slides are provided as a reference for the asynchronous content on privacy in data analysis. We will return to k-anonymity and de-anonymization in a future class.
 
 ---
 
-# Latanya Sweeney
+## Latanya Sweeney
 
 - Faculty at Harvard; PhD from MIT (2001)
 - Public Interest Tech Lab; Data Privacy Lab
@@ -272,7 +288,7 @@ The following slides are provided as a reference for the asynchronous content on
 
 ---
 
-# De-Anonymization: Census Data (1997) {.quote-slide}
+## De-Anonymization: Census Data (1997) {.quote-slide}
 
 > "For twenty dollars I purchased the voter registration list for
 > Cambridge Massachusetts and received the information on two diskettes."
@@ -281,7 +297,7 @@ The following slides are provided as a reference for the asynchronous content on
 
 ---
 
-# De-Anonymization: Hospital Data {.quote-slide}
+## De-Anonymization: Hospital Data {.quote-slide}
 
 > "Most states (44 of 50 or 88%) collect hospital discharge data.
 > Many of these states have subsequently distributed copies of these
@@ -292,7 +308,7 @@ The following slides are provided as a reference for the asynchronous content on
 
 ---
 
-# The Re-Identification Problem {.quote-slide}
+## The Re-Identification Problem {.quote-slide}
 
 > "The greater the number and detail of attributes reported about an entity,
 > the more likely that those attributes combine uniquely to identify the entity."
@@ -301,13 +317,17 @@ The following slides are provided as a reference for the asynchronous content on
 
 ---
 
-# De-Anonymization Demo
+## De-Anonymization Demo
 
 Try it yourself: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity)
 
 ---
 
-# K-Anonymity Demo
+# K-Anonymity {.title-slide .section-header}
+
+---
+
+## K-Anonymity Demo
 
 **Full dataset:**
 
@@ -321,7 +341,7 @@ Try it yourself: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity)
 
 ---
 
-# K-Anonymity Demo: Names Suppressed
+## K-Anonymity Demo: Names Suppressed
 
 | Name | Age | Team | Stop |
 |---|---|---|---|
@@ -333,7 +353,7 @@ Try it yourself: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity)
 
 ---
 
-# K-Anonymity Demo: Ages Generalized
+## K-Anonymity Demo: Ages Generalized
 
 | Name | Age | Team | Stop |
 |---|---|---|---|
@@ -345,7 +365,7 @@ Try it yourself: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity)
 
 ---
 
-# K-Anonymity Demo: Stops Suppressed
+## K-Anonymity Demo: Stops Suppressed
 
 | Name | Age | Team | Stop |
 |---|---|---|---|
@@ -359,7 +379,7 @@ This data has **2-anonymity** with respect to Age, Team: for any combination of 
 
 ---
 
-# K-Anonymity Limitations
+## K-Anonymity Limitations
 
 - Limited to one dataset (can still be linked to other records)
 - All values are potentially identifying with "auxiliary" data
@@ -369,7 +389,11 @@ This data has **2-anonymity** with respect to Age, Team: for any combination of 
 
 ---
 
-# Arvind Narayanan
+# The Netflix Prize {.title-slide .section-header}
+
+---
+
+## Arvind Narayanan
 
 - Directs "Center for Information Technology Policy" (Princeton)
 - Degrees from Indian Institute of Technology Madras (2004)
@@ -378,7 +402,7 @@ This data has **2-anonymity** with respect to Age, Team: for any combination of 
 
 ---
 
-# Netflix Prize De-Anonymization
+## Netflix Prize De-Anonymization
 
 Netflix released a dataset of ~500,000 users and 100 million ratings (with names replaced by user IDs) for a $1M prize competition.
 
@@ -387,7 +411,7 @@ Netflix released a dataset of ~500,000 users and 100 million ratings (with names
 
 ---
 
-# Was the Netflix Dataset Anonymous? {.quote-slide}
+## Was the Netflix Dataset Anonymous? {.quote-slide}
 
 Ratings for popular movies are less informative (e.g. top 10 most-rated: *Dark Knight, Fight Club, Godfather, Forrest Gump, The Matrix*…)
 
@@ -398,7 +422,7 @@ Ratings for **obscure** movies can de-identify:
 
 ---
 
-# Takeaways: Anonymous Datasets
+## Takeaways: Anonymous Datasets
 
 - Anonymous datasets still have risks
 - Can be combined with already-identified data (e.g. IMDb)

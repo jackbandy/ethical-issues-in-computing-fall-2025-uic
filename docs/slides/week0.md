@@ -1,25 +1,25 @@
 # Demo Slide Deck {.title-slide}
 
-Jack Bandy · CS 377 · UIC
+Jack Bandy, CS 377, UIC
 
 ---
 
 
-# A Content Slide
+# Content Slides {.title-slide .section-header}
+
+---
+
+## A Content Slide
 
 Use this template for:
 
-- a concise claim or question;
-- five or six primary bullets;
-- links and citations near the material they support; and
-
-::: notes
-Speaker notes are visible in presenter mode. Press `S` while presenting.
-:::
+- a concise claim or question
+- five or six bullets
+- links and citations near relevant material
 
 ---
 
-# Incremental Discussion
+## Incremental Discussion
 
 ::: {.incremental}
 1. First
@@ -31,7 +31,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
-# Two Columns
+## Two Columns
 
 :::: columns
 ::: {.column width="48%"}
@@ -55,7 +55,11 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
-# Embedded Web Page {.embed-slide}
+# Embeds and Activities {.title-slide .section-header}
+
+---
+
+## Embedded Web Page {.embed-slide}
 
 ::: {.embed-layout}
 ::: {.embed-copy}
@@ -80,7 +84,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
-# Discussion Template w Timer {.embed-slide}
+## Discussion Template w Timer {.embed-slide}
 
 ::: {.embed-layout}
 ::: {.embed-copy}
@@ -101,7 +105,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
-# Visual Seat Shuffle {.embed-slide}
+## Visual Seat Shuffle {.embed-slide}
 
 ::: {.embed-layout}
 ::: {.embed-copy}
@@ -131,7 +135,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
-# Kranzberg's First Law {.quote-slide}
+## Kranzberg's First Law {.quote-slide}
 
 > Technology is neither good nor bad; nor is it neutral.
 >
@@ -139,7 +143,7 @@ Speaker notes are visible in presenter mode. Press `S` while presenting.
 
 ---
 
-# Full-Screen Webpage {.embed-slide}
+## Full-Screen Webpage {.embed-slide}
 
 ::: {.embed-layout .embed-full}
 ::: {.embed-frame style="width:100%;height:100%;margin:0;"}

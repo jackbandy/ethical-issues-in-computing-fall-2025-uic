@@ -1,30 +1,26 @@
-# Draft — Needs Review {.draft-notice}
 
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
 
 # Introduction to Care Ethics {.title-slide}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/05 Care Ethics.pdf and 06 Theory Review.pdf. Review and edit before use. -->
 
-CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
+CS 377, Week 3, Day 1 🟦 Illinois Medical District 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
+# Introduction to Care Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
 
-CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
+CS 377, Week 3, Day 1 🟦 Illinois Medical District 🟦
 
 <!-- image source: Illinois Medical District station, via exp.com -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -43,24 +39,27 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 
 ---
 
-# Meet our TA!
+## Meet our TA!
 
 ---
 
-# Attendance
+## Attendance
 
 - What is something you are looking forward to?
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
-<!-- image: room diagram — tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — tables 1–8, projector screens, door*
+- TK
 
 ---
 
-# Table Discussion: Share your trolley problem(s)!
+# Trolley Problems Debrief {.title-slide .section-header}
+
+---
+
+## Table Discussion: Share your trolley problem(s)!
 
 - Describe the dilemma.
 - What was your inspiration?
@@ -70,20 +69,13 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 
 ---
 
-# Student trolley problems
+## Student trolley problems
 
-<!-- image: gallery of student-created trolley problems from prior semesters,
-     e.g. "Kitten" dilemma, "Ethics Professor" dilemma, "Mom or Dad,"
-     "Random Rail," plus examples from The New Republic and r/trolleyProblem
-     (one per slide in the original deck) -->
-- TODO: add image — *gallery of student-created trolley problems from prior semesters,
-     e.g. "Kitten" dilemma, "Ethics Professor" dilemma, "Mom or Dad,"
-     "Random Rail," plus examples from The New Republic and r/trolleyProblem
-     (one per slide in the original deck)*
+TK
 
 ---
 
-# Trolley Breakdown
+## Trolley Breakdown
 
 - What do you think of this dilemma?
 - Have you seen or encountered any similar real-world dilemmas?
@@ -94,11 +86,15 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 
 ---
 
-# Brief aside: "Why Read a Book?"
+# Choosing a Book {.title-slide .section-header}
 
 ---
 
-# "Why read a book?"
+## Brief aside: "Why Read a Book?"
+
+---
+
+## "Why read a book?"
 
 ::: {.incremental}
 - Reason #1: Feed and follow your curiosity
@@ -109,7 +105,7 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 
 ---
 
-# Table Discussion: Which book will you read?
+## Table Discussion: Which book will you read?
 
 - Any specific topics you are looking for?
 - Any genre you are drawn to? (i.e. biography, essays, memoir,
@@ -119,14 +115,17 @@ CS 377 · Week 3, Day 1 · 🟦 Illinois Medical District 🟦
 
 ---
 
-# Mini-lecture: introduction to care ethics
+# Introduction to Care Ethics {.title-slide .section-header}
 
 ---
 
-# Care {.quote-slide}
+## Mini-lecture: introduction to care ethics
 
-> A species of activity that includes everything we do to maintain,
-> contain, and repair our world so we can live in it as well as possible.
+---
+
+## Care {.quote-slide}
+
+> A species of activity that includes everything we do to maintain, contain, and repair our world so we can live in it as well as possible.
 >
 > — Joan Tronto and Bernice Fischer
 
@@ -136,7 +135,7 @@ our bodies, our selves, our environment
 
 ---
 
-# Two psychologists
+## Two psychologists
 
 :::: columns
 ::: {.column width="48%"}
@@ -153,24 +152,17 @@ our bodies, our selves, our environment
 
 ---
 
-# Kohlberg's stages of moral development
-
-A lady was dying because she was very sick. There was one drug the
-doctors said might save her. This medicine was discovered by a man
-living in that same town. It cost him $400 to make it, but he charged
-$4000 for just a little bit of it. The sick lady's husband, Heinz,
-tried to borrow enough money to buy the drug. He went to everyone he
-knew to borrow the money. But he could only borrow half of what he
-needed.
-
-He told the man who made the drug that his wife was dying, and asked
-him to sell the medicine cheaper or let him pay him later. But the man
-said "No, I made the drug and I am going to make money from it." So
-Heinz broke into the store and stole the drug.
+# Kohlberg and Gilligan {.title-slide .section-header}
 
 ---
 
-# Common Considerations in the Heinz Dilemma
+## Kohlberg's stages of moral development
+
+- TK - Heinz dilemma
+
+---
+
+## Common Considerations in the Heinz Dilemma
 
 - "He would be breaking the law"
 - "Steal the drug and accept the consequences (prison)"
@@ -184,7 +176,7 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# Kohlberg's stages
+## Kohlberg's stages
 
 ::: {.incremental}
 - Preconventional stages: external motivations, punishment, obedience,
@@ -213,7 +205,7 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# Gilligan's PhD Advisors
+## Gilligan's PhD Advisors
 
 :::: columns
 ::: {.column width="48%"}
@@ -227,13 +219,13 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# Table Discussion: the Porcupine and the Moles
+## Table Discussion: the Porcupine and the Moles
 
 - See handout
 
 ---
 
-# The Porcupine and the Moles
+## The Porcupine and the Moles
 
 - Gilligan found that Kohlberg's theory did not explain all responses
   to the Heinz Dilemma
@@ -243,7 +235,7 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# Carol Gilligan
+## Carol Gilligan
 
 - Received her PhD in psychology in 1964 from Harvard
 - Started at UChicago
@@ -257,13 +249,17 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# What is care, exactly?
+# What Is Care? {.title-slide .section-header}
+
+---
+
+## What is care, exactly?
 
 - A practice, a value, a disposition, or a virtue?
 
 ---
 
-# First do no harm {.quote-slide}
+## First do no harm {.quote-slide}
 
 > First do no harm. Then do what's best for the patient.
 >
@@ -271,7 +267,7 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# What is care, exactly?
+## What is care, exactly?
 
 - A practice, a value, a disposition, or a virtue?
 - Yes
@@ -288,14 +284,14 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# Contributors to Ethics of Care
+## Contributors to Ethics of Care
 
 <!-- image: photo collage of care ethics contributors -->
 - TODO: add image — *photo collage of care ethics contributors*
 
 ---
 
-# Reminders
+## Reminders
 
 - Book selection due Sunday, 11:59pm
 - Care ethics reflection due Sunday, 11:59pm
@@ -305,7 +301,7 @@ Heinz broke into the store and stole the drug.
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next class!
 
@@ -313,23 +309,23 @@ See you next class!
 
 # Review Theories of Ethics {.title-slide}
 
-CS 377 · Week 3, Day 2 · 🟦 Racine 🟦
+CS 377, Week 3, Day 2 🟦 Racine 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
+# Review of Ethical Theories {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
 
-CS 377 · Week 3, Day 2 · 🟦 Racine 🟦
+CS 377, Week 3, Day 2 🟦 Racine 🟦
 
 <!-- image source: view of Blue Line station house, circa 1970. Image: CTA via jlkarch.com -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -348,31 +344,34 @@ CS 377 · Week 3, Day 2 · 🟦 Racine 🟦
 
 ---
 
-# Attendance
+## Attendance
 
-- On a scale of 0 (exhausted) to 5 (exhilarated), how much energy do
-  you have today?
+- On a scale of 0 (exhausted) to 5 (exhilarated), how much energy do you have today?
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — tables 1–8, projector screens, door*
 
 ---
 
-# Invitation/reminder
+## Invitation/reminder
 
 Turn off phones, laptops, other distractions
 
 ---
 
-# Concluding Care Ethics
+# Concluding Care Ethics {.title-slide .section-header}
 
 ---
 
-# Book Selection
+## Concluding Care Ethics
+
+---
+
+## Book Selection
 
 - To receive full credit answer the following six questions in the
   Canvas text box:
@@ -385,7 +384,7 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Table Discussion: Share your book selection!
+## Table Discussion: Share your book selection!
 
 - Which book did you choose? Who is the author?
 - How did you find it?
@@ -394,7 +393,11 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Four Theories / Approaches to Ethics
+# Four Theories of Ethics {.title-slide .section-header}
+
+---
+
+## Four Theories / Approaches to Ethics
 
 :::: columns
 ::: {.column width="24%"}
@@ -420,10 +423,9 @@ Care Ethics
 
 ---
 
-# Connect the dots…
+## Connect the dots…
 
-- William David Ross contended there are seven duties that determine
-  what is right:
+- William David Ross contended there are seven duties that determine what is right:
 
 | Duty | Description |
 |---|---|
@@ -437,7 +439,7 @@ Care Ethics
 
 ---
 
-# Many flavors of each theory
+## Many flavors of each theory
 
 :::: columns
 ::: {.column width="48%"}
@@ -464,7 +466,7 @@ Care Ethics
 
 ---
 
-# Many flavors of each theory
+## Many flavors of each theory
 
 :::: columns
 ::: {.column width="48%"}
@@ -489,7 +491,7 @@ Care Ethics
 
 ---
 
-# More than Four
+## More than Four!
 
 - Communitarianism
   - Common good, social lives
@@ -497,12 +499,17 @@ Care Ethics
   - Individual accountability
 - The "capability approach"
   - Opportunities for achieving practical values (e.g. health)
+- Ubuntu ethics
 - Others you know of?
 - Other questions?
 
 ---
 
-# Food in your Feed (Media Diary)
+# Media Diary Exercise {.title-slide .section-header}
+
+---
+
+## Food in your Feed (Media Diary)
 
 - Due tomorrow night
 - Intended to be enjoyable!
@@ -515,7 +522,7 @@ Care Ethics
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next class!
 

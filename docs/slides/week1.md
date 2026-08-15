@@ -1,23 +1,22 @@
 
 # Introduction to Ethical Issues in Computing {.title-slide .photo-title data-state="photo-title" background-image="../assets/chicago-aerial-jane-byrne.jpg" background-size="cover"}
 
-<!-- NOTICE: Draft from old-slides/pdf-versions/01 Day 1, Day 2.pdf. Review and edit before use. -->
 
-CS 377 · Week 1, Day 1
-
----
-
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover"}
-
-CS 377 · Week 1, Day 1 · 🟦 Forest Park 🟦
+CS 377, Week 1, Day 1
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover"}
+# Conocimiento and Syllabus Day {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover"}
+
+CS 377, Week 1, Day 1 🟦 Forest Park 🟦
 
 ---
 
-# Agenda for Today
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover"}
+
+---
+
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -34,9 +33,9 @@ CS 377 · Week 1, Day 1 · 🟦 Forest Park 🟦
 
 ---
 
-# Attendance
+## Attendance
 
-Let me know (1) you are here and (2) what you had for breakfast
+Let me know (1) that you are here and (2) something you enjoyed eating or drinking in the last week
 
 ---
 
@@ -44,7 +43,7 @@ Let me know (1) you are here and (2) what you had for breakfast
 
 ---
 
-# A bit about me
+## A bit about me
 
 :::: columns
 ::: {.column width="68%"}
@@ -72,7 +71,7 @@ Placeholder
 
 ---
 
-# A bit about me {.photo-grid-slide}
+## A bit about me {.photo-grid-slide}
 
 :::: columns
 ::: {.column width="32%" .fragment}
@@ -106,34 +105,27 @@ San Diego, ACL 2026
 
 ---
 
-# Conocimiento! {.quote-slide}
 
-> It is essential that we learn who we are so that we have a context
-> for the individuals who make up our classroom community.
-
----
-
-# Invitation
+## Invitation
 
 Turn off phones, laptops, and other distractions
 
 ---
 
-# Conocimiento Activity
+## Conocimiento Activity
 
-This Conocimiento is based on a version developed by leaders at San José
-State University as part of their HSI campus framework, ¡Somos SJSU!
+This Conocimiento is based on a version developed by leaders at San José State University as part of their HSI campus framework, ¡Somos SJSU!
 
 ---
 
-# Part 1 of 3: Identity and Background
+## Part 1 of 3: Identity and Background
 
 :::: columns
 ::: {.column width="48%"}
 ::: {.incremental}
 - Is there a place — or more than one place — you consider "home"?
   If so, where is it, and why? If not, why not?
-- Share about your family, however you choose to define it: How big was your immediate/extended family? Were you the oldest, the youngest, only child? How did that shape your experience?
+- Share about your family, however you choose to define it: How big is your immediate/extended family? Were you the oldest, the youngest, only child? How did that shape your experience?
 :::
 :::
 
@@ -141,15 +133,15 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 ::: {.incremental}
 - What do you know of your family origins? What do you want to know?
 - What languages are spoken in your family? What languages do you speak? Want to speak?
-- Are there family traditions or cultural values that you hold dear? What are these, and why?
-- What other social identities are important to you?
+- Are there family traditions, cultural practices, etc. that you value? What are these, and why?
+- What other social/community identities are important to you?
 :::
 :::
 ::::
 
 ---
 
-# Part 2 of 3: Educational Experiences
+## Part 2 of 3: Educational Experiences
 
 :::: columns
 ::: {.column width="48%"}
@@ -171,7 +163,7 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 ---
 
-# Part 3 of 3: This Class
+## Part 3 of 3: This Class
 
 ::: {.incremental}
 - What does ethics mean to you?
@@ -188,24 +180,24 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 ---
 
-# Syllabus overview
+## Syllabus overview
 
 ---
 
 
-# What piques your interest? {.smaller}
+## What piques your interest? {.smaller}
 
 :::: columns
 ::: {.column width="48%"}
 ::: {.incremental}
 - Value-sensitive / culturally-sensitive design
 - Labor displacement and deskilling
-- Privacy as contextual integrity
+- Privacy (contextual integrity)
 - Ethics through speculative fiction and sci-fi
 - Addiction and "dark patterns" in UI design
 - Economic bubbles and hype cycles in tech
 - Online safety and content moderation
-- Bias, discrimination in large language models
+- Bias, discrimination, safety in AI/LLMs
 :::
 :::
 
@@ -224,16 +216,15 @@ State University as part of their HSI campus framework, ¡Somos SJSU!
 
 ---
 
-# Preview of Next Class
+## Preview of Next Class
 
 - More schedule details
-- Musical chairs
 - Warm-up discussion (what is ethics?)
 - Intro to Virtue Ethics
 
 ---
 
-# Attitudes Survey
+## Attitudes Survey
 
 TODO: add link
 
@@ -243,7 +234,7 @@ You can head out once you finish the survey. See you next class!
 
 # Introduction to Virtue Ethics {.title-slide}
 
-CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
+CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 
 Sit wherever you like for now (we will shuffle seats in a bit)
 
@@ -251,15 +242,15 @@ Sit wherever you like for now (we will shuffle seats in a bit)
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
 
-CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
+CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -281,7 +272,7 @@ CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
 
 ---
 
-# Administrivia
+## Administrivia
 
 - Canvas check-in
   - Submission portals for all out-of-class exercises
@@ -291,38 +282,61 @@ CS 377 · Week 1, Day 2 · 🟦 Oak Park 🟦
 
 ---
 
-# Schedule Overview
+## Schedule Overview
 
 - Unit 1
   - 🟦 Forest Park Branch 🟦
   - Virtue, Deontology, Utilitarianism, Care
 - Unit 2: Stories
   - 🟦 Milwaukee-Dearborn Subway 🟦
-  - Short stories and famous case studies
+  - Short stories, famous case studies
 - Unit 3
   - 🟦 O'Hare Branch 🟦
   - Algorithmic fairness, LLMs, data ethics, etc.
 
 ---
 
-# Questions
+## Questions
 
 Ask two or more questions (can be about logistics, schedule, content, syllabus, etc.)
 
 ---
 
-# Musical chairs!
+## Musical chairs!
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+::: {.embed-layout}
+::: {.embed-copy}
+<h2>Visual Seat Shuffle</h2>
+
+- Classroom seating chart, shown live in the deck
+- Enter a seed and shuffle to assign tables
+- "Draw Paths" kinda chaotic
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+<!-- TODO: tweak/polish the seat shuffle embedding (scale, sizing, layout) -->
+::: {.embed-frame style="position:absolute;top:0;right:0;width:49%;height:100%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<div style="width:100%;height:100%;overflow:hidden;">
+<div style="width:1060px;height:1200px;transform:scale(0.55);transform-origin:0 0;">
+<iframe
+  src="https://doethics.fun/in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+</div>
+</div>
+:::
+:::
 
 ---
 
-# Invitation/reminder
+## Invitation/reminder
 
 Turn off phones, laptops, other distractions
 
@@ -332,24 +346,28 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Warm-up Discussion (5min)
+## Warm-up Discussion (5min)
 
 - What comes to mind when you hear "ethics?"
-- Why do you think this class is required?
+- Why do you think this class is part of the CS major??
 - Can your table offer a (tentative) definition of ethics?
 
 ---
 
-# A Brief Aside: What Is "Ethics"?
+## A Brief Aside: What Is "Ethics"?
 
+::: {.incremental}
 - People often say ethics is knowing "right vs. wrong"
-- This is just one branch: **normative ethics** — prescriptive - should
+- Right vs. wrong is one branch: **normative ethics** — prescriptive - should/shouldn't
 - Other branches: applied, meta-ethics, descriptive ethics
 - Etymology: from ancient Greek *ethos* — "relating to one's character"
+- Morality vs. ethics
+::: {.incremental}
+
 
 ---
 
-# Normative and Descriptive Ethics
+## Normative and Descriptive Ethics
 
 :::: columns
 ::: {.column width="48%"}
@@ -375,13 +393,22 @@ Turn off phones, laptops, other distractions
 
 ---
 
-# Why We'll Try to Avoid the Word "Ethical" in This Class
+## Why We'll Try to Avoid the Word "Ethical" in This Class
 
-- TODO: fill in — placeholder slide
+- We want more **descriptive clarity**
+- "That's unethical" is kind
 
 ---
 
-# Four Theories for This Class
+## "Tell me more" {.quote-slide}
+
+> Any question in the form "Is X right or wrong?" could benefit from another round of clarifying, story-oriented questions. Question: "Is X good or bad?" Story: "For whom? On what day, under what conditions? Might there be some unintended consequences associated with X? Some good hidden in the bad that is X? Some bad hidden in the good that is X? Tell me more."
+>
+> — George Saunders ([via The Marginalian](https://www.themarginalian.org/2026/07/20/george-saunders-uncertainty/))
+
+---
+
+## Four Theories for This Class
 
 :::: columns
 ::: {.column width="24%"}
@@ -411,34 +438,34 @@ Care Ethics
 
 ---
 
-# Mini-lecture: intro to virtue ethics 🏛
+## Mini-lecture: intro to virtue ethics 🏛
 
-<!-- image: opening illustration -->
-- TODO: add image — *opening illustration*
-
----
-
-# "Good intentions"
-
-::: {.fragment}
-A potential conundrum…
+:::: columns
+::: {.column width="55%"}
+- Aristotle (384–322 BCE)
+- Asks "what kind of person should I be?" rather than "what rule applies?"
 :::
 
-<!-- image: good-intentions illustration -->
-- TODO: add image — *good-intentions illustration*
+::: {.column width="40%"}
+![](../assets/portraits/aristotle.jpg)
+
+Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5)
+:::
+::::
 
 ---
 
-# A virtuous person {.quote-slide}
 
-> A virtuous person is a morally good, excellent, or admirable person
-> who acts and feels as they should.
+
+## A virtuous person {.quote-slide}
+
+> A virtuous person is a morally good, excellent, or admirable person who acts and feels as they should.
 >
 > — The Stanford Encyclopedia of Philosophy
 
 ---
 
-# Virtue
+## Virtue
 
 - "An excellent trait of character"
 - Virtues are generally associated with intrinsic motivation
@@ -449,7 +476,7 @@ A potential conundrum…
 
 ---
 
-# Virtue Ethics' Origins
+## Virtue Ethics' Origins
 
 - Plato and Aristotle (~400 BCE)
   - *Nicomachean Ethics*
@@ -460,7 +487,7 @@ A potential conundrum…
 
 ---
 
-# "People can change and improve their ethics" {.quote-slide}
+## "People can change and improve their ethics" {.quote-slide}
 
 ::: {.fragment}
 "I can change and improve my ethics"
@@ -468,7 +495,7 @@ A potential conundrum…
 
 ---
 
-# Practical Wisdom
+## Practical Wisdom
 
 - Understanding how to actually do the right thing
 - Comes with experience
@@ -482,7 +509,7 @@ What virtues and/or vices are at play here?
 
 ---
 
-# Activity: Virtues and Vices
+## Activity: Virtues and Vices
 
 :::: columns
 ::: {.column width="58%"}
@@ -510,11 +537,11 @@ Example virtues:
 
 ---
 
-# "The Golden Mean"
+## "The Golden Mean"
 
 ---
 
-# Moral Virtues {.embed-slide}
+## Moral Virtues {.embed-slide}
 
 ::: {.embed-layout}
 ::: {.embed-copy}
@@ -535,11 +562,11 @@ Example virtues:
 
 ---
 
-# Preview of Pre-Class Reflection
+## Preview of Pre-Class Reflection
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week!
 

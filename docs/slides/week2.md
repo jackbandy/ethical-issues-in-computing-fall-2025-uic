@@ -1,30 +1,24 @@
-# Draft — Needs Review {.draft-notice}
-
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
 
 # Introduction to Deontological Ethics {.title-slide}
 
-<!-- NOTICE: Draft from old-slides/pdf-versions/03 Deontological Ethics.pdf and 04 Utilitarian Ethics.pdf. Review and edit before use. -->
 
-CS 377 · Week 2, Day 1 · 🟦 Cicero 🟦
+CS 377, Week 2, Day 1 🟦 Cicero 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover"}
+# Introduction to Deontological Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover"}
 
-CS 377 · Week 2, Day 1 · 🟦 Cicero 🟦
+CS 377, Week 2, Day 1 🟦 Cicero 🟦
 
 <!-- image source: Cicero Blue Line station, April 1976, via Jeffrey Lindmark -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover"}
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -44,7 +38,7 @@ CS 377 · Week 2, Day 1 · 🟦 Cicero 🟦
 
 ---
 
-# Administrivia
+## Administrivia
 
 - How was Canvas?
 - Ideas for future reflections?
@@ -53,25 +47,29 @@ CS 377 · Week 2, Day 1 · 🟦 Cicero 🟦
 
 ---
 
-# Questions
+## Questions
 
 Ask two or more questions (can be about virtue ethics, logistics,
 instructor, content, syllabus, etc.)
 
 ---
 
-# Musical chairs!
+## Musical chairs!
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Four Theories for This Class
+# Review: Virtue Ethics {.title-slide .section-header}
+
+---
+
+## Four Theories for This Class
 
 :::: columns
 ::: {.column width="24%"}
@@ -97,7 +95,7 @@ Care Ethics
 
 ---
 
-# Table Discussion: Virtue Ethics 🏛
+## Table Discussion: Virtue Ethics 🏛
 
 - Introduce yourselves!
 - Who were your positive exemplars?
@@ -107,7 +105,7 @@ Care Ethics
 
 ---
 
-# Virtue Ethics 🏛
+## Virtue Ethics 🏛
 
 - How can virtues be cultivated?
 
@@ -121,17 +119,21 @@ Care Ethics
 
 ---
 
-# Mini-lecture: intro to deontological ethics
+# Deontological Ethics {.title-slide .section-header}
 
 ---
 
-# Invitation/reminder
+## Mini-lecture: intro to deontological ethics
+
+---
+
+## Invitation/reminder
 
 Turn off phones, laptops, other distractions
 
 ---
 
-# Table discussion
+## Table discussion
 
 What are some potential rules for the class?
 (Feel free to borrow from other classes)
@@ -140,7 +142,7 @@ Write two of these potential rules on the board.
 
 ---
 
-# Right and wrong
+## Right and wrong
 
 Deontological ("there is right and wrong")
 
@@ -149,21 +151,21 @@ Deontological ("there is right and wrong")
 
 ---
 
-# Following the law
+## Following the law
 
 <!-- image: attitudes survey results, current and previous semester -->
 - TODO: add image — *attitudes survey results, current and previous semester*
 
 ---
 
-# Right vs. good
+## Right vs. good
 
 Deontology is primarily concerned with what is "right"
 (rather than what is "good")
 
 ---
 
-# Deontology in Brief
+## Deontology in Brief
 
 - Focused on duties, rights, and moral obligations (i.e. laws)
 - Laws might be prohibitions or obligations
@@ -180,38 +182,40 @@ Deontology is primarily concerned with what is "right"
 
 ---
 
-# The Categorical Imperative {.quote-slide}
+## The Categorical Imperative {.quote-slide}
 
-> Act only in accordance with that maxim through which you can at the
-> same time will that it become a universal law.
+> Act only in accordance with that maxim through which you can at the same time will that it become a universal law.
 >
 > — Immanuel Kant
 
 ---
 
-# The Categorical Imperative {.quote-slide}
+## The Categorical Imperative {.quote-slide}
 
-> Act as if the maxims of your action were to become through your will
-> a universal law of nature.
+> Act as if the maxims of your action were to become through your will a universal law of nature.
 >
 > — Immanuel Kant
 
 ---
 
-# Categorical Imperative Examples
+## Categorical Imperative Examples
 
 ::: {.incremental}
 - Should I tell a lie?
   - If it were universally acceptable to lie…
   - How would we believe anyone?
 - Should I park at the airport terminal to wait?
-  - If everyone did this…
+  - If everyone did this...
   - More traffic issues
 :::
 
 ---
 
-# Normative Ethics and Descriptive Ethics
+# Normative and Descriptive Ethics {.title-slide .section-header}
+
+---
+
+## Normative Ethics and Descriptive Ethics
 
 :::: columns
 ::: {.column width="48%"}
@@ -237,31 +241,24 @@ Deontology is primarily concerned with what is "right"
 
 ---
 
-# Interest survey
-
-yellkey.com/test
-
-You can head out once you finish the survey. See you next class!
-
----
 
 # Introduction to Utilitarian Ethics {.title-slide}
 
-CS 377 · Week 2, Day 2 · 🟦 Western 🟦
+CS 377, Week 2, Day 2 🟦 Western 🟦
 
 ---
 
-# Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
+# Introduction to Utilitarian Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
 
-CS 377 · Week 2, Day 2 · 🟦 Western 🟦
-
----
-
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
+CS 377, Week 2, Day 2 🟦 Western 🟦
 
 ---
 
-# Agenda for Today
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
+
+---
+
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -280,21 +277,24 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 
 ---
 
-# Attendance / warm-up
+## Attendance / warm-up
 
 - *Random letter via random.org*
 - What's something you like that starts with the letter \_?
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
-<!-- image: room diagram — tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — tables 1–8, projector screens, door*
+- TODO
 
 ---
 
-# Review: approaching ethical decisions based on…
+# Review and Warm-Up {.title-slide .section-header}
+
+---
+
+## Review: approaching ethical decisions based on…
 
 - Virtue ethics
 - Deontological ethics
@@ -306,7 +306,7 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 
 ---
 
-# Another theory!
+## Another theory!
 
 - Virtue ethics: character
 - Deontological: duty
@@ -314,7 +314,7 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 
 ---
 
-# Organ Transplant Exercise
+## Organ Transplant Exercise
 
 - See handout
 - Try to consider the question from different ethical approaches
@@ -322,7 +322,7 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 
 ---
 
-# Transplant Reflection
+## Transplant Reflection
 
 - What was that like?
 - What factors did you consider?
@@ -331,21 +331,25 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 
 ---
 
-# Consequences
+# Utilitarianism {.title-slide .section-header}
+
+---
+
+## Consequences
 
 <!-- image: attitudes survey results, current and previous semester -->
 - TODO: add image — *attitudes survey results, current and previous semester*
 
 ---
 
-# Social Impact
+## Social Impact
 
 <!-- image: attitudes survey results, current and previous semester -->
 - TODO: add image — *attitudes survey results, current and previous semester*
 
 ---
 
-# Utilitarianism
+## Utilitarianism
 
 - Based on the outcomes or consequences of an action
 - John Stuart Mill, Jeremy Bentham
@@ -358,14 +362,14 @@ CS 377 · Week 2, Day 2 · 🟦 Western 🟦
 
 ---
 
-# Pleasures
+## Different Kinds of Pleasures
 
 - Watching a movie
 - Reading a poem
 - Earning an A on a final exam
 - Meeting a new friend
 - Attending a concert
-- Scrolling on TikTok or Reels or Shorts
+- Scrolling on TikTok / Reels / Shorts
 
 ::: {.fragment}
 Qualitative / quantitative differences in pleasures
@@ -373,7 +377,7 @@ Qualitative / quantitative differences in pleasures
 
 ---
 
-# Mill's Parameters of Pleasure
+## Mill's Parameters of Pleasure
 
 - intensity
 - duration
@@ -385,31 +389,33 @@ Qualitative / quantitative differences in pleasures
 
 ---
 
-# Happiness {.quote-slide}
+## Happiness {.quote-slide}
 
-> Actions are right in proportion as they tend to promote happiness,
-> wrong as they tend to produce the reverse of happiness.
+> Actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness.
 >
 > — John Stuart Mill
 
 ---
 
-# Happiness {.quote-slide}
+## Happiness {.quote-slide}
 
-> By happiness is intended pleasure, and the absence of pain; by
-> unhappiness, pain and the privation of pleasure.
+> By happiness is intended pleasure, and the absence of pain; by  unhappiness, pain and the privation of pleasure.
 >
 > — John Stuart Mill
 
 ---
 
-# Trolley Problem Exercise
+# Measuring Impact {.title-slide .section-header}
+
+---
+
+## Trolley Problem Exercise
 
 - See handout
 
 ---
 
-# Measuring Impact: Pain/Harms
+## Measuring Impact: Pain/Harms
 
 - "X days without an accident"
 - Excess deaths / covid dashboards
@@ -420,7 +426,7 @@ Qualitative / quantitative differences in pleasures
 
 ---
 
-# Measuring Impact: Utility/Happiness
+## Measuring Impact: Utility/Happiness
 
 - Social mobility
 - Enrollment numbers
@@ -429,13 +435,13 @@ Qualitative / quantitative differences in pleasures
 
 ---
 
-# Reflection Preview
+## Reflection Preview
 
 Due in Canvas tomorrow at 11:59pm
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next class!
 

@@ -8,23 +8,23 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/21 Nudges.pdf and 20 Dark Patterns.pdf. Review and edit before use. -->
 
-CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
+CS 377, Week 12, Day 1 🟦 Logan Square 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover"}
 
-CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
+CS 377, Week 12, Day 1 🟦 Logan Square 🟦
 
 <!-- image source: Image via CDOT, Jacobs Engineering -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -40,7 +40,7 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -57,14 +57,14 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# Table Discussion: Book Check-in
+## Table Discussion: Book Check-in
 
 - How much have you read? What helps you read? (Where? When? What else?)
 - How are you taking notes / keeping track of what you're learning?
@@ -74,25 +74,29 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# Mini-Lecture: "Nudging" and Dark Design Patterns
+# Dark Design Patterns {.title-slide .section-header}
 
 ---
 
-# Dolls and Puppets
+## Mini-Lecture: "Nudging" and Dark Design Patterns
+
+---
+
+## Dolls and Puppets
 
 <!-- image: photo of puppet/doll — Study Breaks Magazine, Danielle Kuzel — connecting to the earlier rag-doll exercise -->
 - TODO: add image — *photo of puppet/doll — Study Breaks Magazine, Danielle Kuzel — connecting to the earlier rag-doll exercise*
 
 ---
 
-# Poll: Screen Time
+## Poll: Screen Time
 
 - "I would like to spend less time on my phone and more time doing other activities"
   - Strong disagree / Disagree / Not sure / Agree / Strong agree
 
 ---
 
-# Poll: Average Daily Screen Time
+## Poll: Average Daily Screen Time
 
 - What is your average daily screen time?
   - iOS: Settings → Screen Time → See All App & Website Activity
@@ -101,7 +105,7 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# "Persuasive Design"
+## "Persuasive Design"
 
 - Also referred to as "Captology" (Computers as Persuasive Technology)
 - More broadly about behavior change
@@ -115,7 +119,7 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# Common Examples of Dark/Deceptive Design
+## Common Examples of Dark/Deceptive Design
 
 ::: {.incremental}
 - False urgency ("Only 2 left!")
@@ -131,7 +135,11 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# "Nudging" toward Habits and Virtues
+# Nudging {.title-slide .section-header}
+
+---
+
+## "Nudging" toward Habits and Virtues
 
 - Positive habit-building can also be done persuasively
 - "Humane design," "value-centered design," etc.
@@ -139,7 +147,7 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# A Nudge Defined {.quote-slide}
+## A Nudge Defined {.quote-slide}
 
 > "A nudge is an intervention that maintains freedom of choice but steers people
 > in a particular direction."
@@ -148,7 +156,7 @@ CS 377 · Week 12, Day 1 · 🟦 Logan Square 🟦
 
 ---
 
-# Nudging Examples
+## Nudging Examples
 
 Basketball-style cues to encourage recycling
 
@@ -157,14 +165,14 @@ Basketball-style cues to encourage recycling
 
 ---
 
-# Nudging Examples
+## Nudging Examples
 
 <!-- image: bike-friendly speed bump on the Alameda Ridge (Jonathan Maus / BikePortland) -->
 - TODO: add image — *bike-friendly speed bump on the Alameda Ridge (Jonathan Maus / BikePortland)*
 
 ---
 
-# Nudging Examples
+## Nudging Examples
 
 Staircase of the James B. Hunt Library, North Carolina State University (Snøhetta, 2013)
 
@@ -173,14 +181,14 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Nudges for Behavior Change
+## Nudges for Behavior Change
 
 <!-- image: summary diagram of nudges for behavior change -->
 - TODO: add image — *summary diagram of nudges for behavior change*
 
 ---
 
-# Other Nudges
+## Other Nudges
 
 - Doors or barriers guiding walking paths
 - Grocery store layouts (prominence of produce)
@@ -190,7 +198,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# BJ Fogg
+## BJ Fogg
 
 - "Persuasive Technology Lab" at Stanford
 - Taught in the 2000s
@@ -199,7 +207,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Group Activity: Find a Nudge on Campus
+## Group Activity: Find a Nudge on Campus
 
 - Find a design nudge (or hook) somewhere on campus
 - Take a picture of the nudge or hook in action, using group members as actors
@@ -209,14 +217,14 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Your Examples
+## Your Examples
 
 <!-- image: group photos — placeholders for student submissions, organized by section (12:30, 2:00, 3:30) and group number -->
 - TODO: add image — *group photos — placeholders for student submissions, organized by section (12:30, 2:00, 3:30) and group number*
 
 ---
 
-# Table Discussion: Hooks and Nudges
+## Table Discussion: Hooks and Nudges
 
 - Explore examples at [consciouspatterns.in](https://www.consciouspatterns.in/ethical-gallery)
 - What's your experience with hooks and nudges?
@@ -227,21 +235,25 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Case Study: ChatGPT Age Verification
+# Case Study: Age Verification {.title-slide .section-header}
+
+---
+
+## Case Study: ChatGPT Age Verification
 
 <!-- image: ChatGPT age verification flow using Yoti -->
 - TODO: add image — *ChatGPT age verification flow using Yoti*
 
 ---
 
-# Discussion: What Could Go Wrong?
+## Discussion: What Could Go Wrong?
 
 <!-- image: age verification discussion slide — what failure modes exist? -->
 - TODO: add image — *age verification discussion slide — what failure modes exist?*
 
 ---
 
-# Yoti Security Testing
+## Yoti Security Testing
 
 | Materials | Cost | Status |
 |---|---|---|
@@ -252,7 +264,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Yoti Privacy Testing
+## Yoti Privacy Testing
 
 - By default, advertising IDs and IP addresses submitted to third parties without consent:
   - Google (Firebase)
@@ -264,14 +276,14 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Yoti Bias Testing
+## Yoti Bias Testing
 
 <!-- image: Yoti bias testing results — accuracy disparities by skin tone / demographics -->
 - TODO: add image — *Yoti bias testing results — accuracy disparities by skin tone / demographics*
 
 ---
 
-# Evolution of OpenAI
+## Evolution of OpenAI
 
 | Period | Status | Leadership | Valuation | Revenue |
 |---|---|---|---|---|
@@ -282,7 +294,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Connecting to Ethical Theories
+## Connecting to Ethical Theories
 
 - **Virtue ethics**: Is a nudge virtuous? Does it help us become better people?
 - **Deontological**: Does a nudge respect autonomy? Is manipulation ever permissible?
@@ -291,11 +303,15 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Presentation Tips
+# Book Presentation Tips {.title-slide .section-header}
 
 ---
 
-# What Makes a Strong Book Presentation?
+## Presentation Tips
+
+---
+
+## What Makes a Strong Book Presentation?
 
 - **Clear thesis**: what is the book's central argument?
 - **Specific evidence**: concrete examples and quotes
@@ -305,7 +321,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Reminders
+## Reminders
 
 - Continue reading your book!
 - More grades incoming!
@@ -314,7 +330,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you Wednesday!
 
@@ -322,21 +338,21 @@ See you Wednesday!
 
 # Book Presentations + Intro to Fairness {.title-slide}
 
-CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
+CS 377, Week 12, Day 2 🟦 Belmont 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover"}
 
-CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
+CS 377, Week 12, Day 2 🟦 Belmont 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -352,7 +368,7 @@ CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -367,13 +383,17 @@ CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
 
 ---
 
-# Book Presentations
+# Book Presentations {.title-slide .section-header}
+
+---
+
+## Book Presentations
 
 *See Canvas for the presentation schedule.*
 
 ---
 
-# Discussion Protocol
+## Discussion Protocol
 
 - Listen actively — one presenter at a time
 - Questions should be genuine and respectful
@@ -381,17 +401,21 @@ CS 377 · Week 12, Day 2 · 🟦 Belmont 🟦
 
 ---
 
-# Overview: Fairness Definitions Exercise
+# Algorithmic Fairness {.title-slide .section-header}
 
 ---
 
-# What Is Algorithmic Fairness?
+## Overview: Fairness Definitions Exercise
+
+---
+
+## What Is Algorithmic Fairness?
 
 Fairness in algorithmic systems is not a single concept — it is a family of competing definitions.
 
 ---
 
-# Warm-Up Discussion: Debrief Fairness Definitions
+## Warm-Up Discussion: Debrief Fairness Definitions
 
 - Which definition did you choose? What made you choose it? Did others stick out?
 - Which moral and/or political values did you see in this definition? What is the underlying ethical theory?
@@ -401,7 +425,7 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# Definitions Covered
+## Definitions Covered
 
 :::: columns
 ::: {.column width="48%"}
@@ -430,7 +454,11 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# Opening Example: Rory Fresco
+# Examples of Algorithmic Bias {.title-slide .section-header}
+
+---
+
+## Opening Example: Rory Fresco
 
 - Rory Fresco's "Lowkey" had ~5k plays on SoundCloud
 - January 8, 2016: Kanye West releases "Real Friends" on SoundCloud
@@ -440,7 +468,7 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# What Are the Stakes of Algorithmic Bias?
+## What Are the Stakes of Algorithmic Bias?
 
 | Harm Type | Example |
 |---|---|
@@ -452,18 +480,18 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# (In)Famous Examples of Algorithmic Bias
+## (In)Famous Examples of Algorithmic Bias
 
 ---
 
-# Example: ChatGPT Salary Advice
+## Example: ChatGPT Salary Advice
 
 <!-- image: "ChatGPT advises women to ask for lower salaries, study finds" — The Next Web -->
 - TODO: add image — *"ChatGPT advises women to ask for lower salaries, study finds" — The Next Web*
 
 ---
 
-# Example: Apple Card
+## Example: Apple Card
 
 - Launched August 2019
 - People noticed smaller lines of credit to women than to men
@@ -481,34 +509,38 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# Example: Twitter Image Cropping
+## Example: Twitter Image Cropping
 
 <!-- image: Twitter image cropping examples showing systematic bias toward lighter-skinned faces (series of 4 images) -->
 - TODO: add image — *Twitter image cropping examples showing systematic bias toward lighter-skinned faces (series of 4 images)*
 
 ---
 
-# Bias Bounty
+## Bias Bounty
 
 <!-- image: Twitter Bias Bounty competition announcement -->
 - TODO: add image — *Twitter Bias Bounty competition announcement*
 
 ---
 
-# Bias Bounty: Student Submission by Bogdan Kulynych
+## Bias Bounty: Student Submission by Bogdan Kulynych
 
 <!-- image: Kulynych's bias bounty submission showing systematic cropping bias -->
 - TODO: add image — *Kulynych's bias bounty submission showing systematic cropping bias*
 
 ---
 
-# "Machine Bias" in COMPAS
+# COMPAS and Machine Bias {.title-slide .section-header}
+
+---
+
+## "Machine Bias" in COMPAS
 
 - "Will this person re-offend?"
 
 ---
 
-# The COMPAS System
+## The COMPAS System
 
 - Used for **recidivism prediction** — predicting likelihood of re-offending
 - Supposed to help judges determine whether a defendant should remain in jail until trial
@@ -518,7 +550,7 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# COMPAS: Prediction Disparities
+## COMPAS: Prediction Disparities
 
 ::: {.incremental}
 - **61% overall accuracy**
@@ -532,7 +564,7 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# Legacy of "Machine Bias"
+## Legacy of "Machine Bias"
 
 - Pulitzer Prize Finalist in Explanatory Reporting
 - Wisconsin Supreme Court allowed COMPAS as long as warnings given
@@ -540,7 +572,7 @@ Fairness in algorithmic systems is not a single concept — it is a family of co
 
 ---
 
-# "Old School" Bias (1996)
+## "Old School" Bias (1996)
 
 Examples from earlier automated systems:
 
@@ -550,7 +582,11 @@ Examples from earlier automated systems:
 
 ---
 
-# *Weapons of Math Destruction* (Cathy O'Neil)
+# Weapons of Math Destruction {.title-slide .section-header}
+
+---
+
+## *Weapons of Math Destruction* (Cathy O'Neil)
 
 Examples from WMD:
 
@@ -563,7 +599,7 @@ Examples from WMD:
 
 ---
 
-# A bit about Cathy O'Neil
+## A bit about Cathy O'Neil
 
 - Education: UC Berkeley, Harvard (PhD)
 - Alice T. Schafer Prize winner (1993) — for "excellence in mathematics"
@@ -574,11 +610,15 @@ Examples from WMD:
 
 ---
 
-# (Un)Fairness as (In)Equality: The Gini Coefficient
+# Measuring Inequality {.title-slide .section-header}
 
 ---
 
-# Measuring Inequality
+## (Un)Fairness as (In)Equality: The Gini Coefficient
+
+---
+
+## Measuring Inequality
 
 - "The top 1% own 26.5% of household wealth in the U.S." (Dec 2023)
 - "Three people own more wealth than the bottom half of society" (Jan 2024)
@@ -589,7 +629,7 @@ Examples from WMD:
 
 ---
 
-# Gini Coefficient
+## Gini Coefficient
 
 - Max Lorenz (American economist) → Lorenz curve
 - Corrado Gini (Italian statistician), *Variabilità e mutabilità* (1912)
@@ -601,21 +641,21 @@ Examples from WMD:
 
 ---
 
-# Gini as Equality (versus Equity)
+## Gini as Equality (versus Equity)
 
 <!-- image: equality vs. equity illustration -->
 - TODO: add image — *equality vs. equity illustration*
 
 ---
 
-# U.S. Income Gini Trends
+## U.S. Income Gini Trends
 
 <!-- image: Census Bureau, "Income in the United States: 2024" — Gini coefficient trend chart -->
 - TODO: add image — *Census Bureau, "Income in the United States: 2024" — Gini coefficient trend chart*
 
 ---
 
-# Fairness Definitions Exercise
+## Fairness Definitions Exercise
 
 - Choose one fairness definition from the tutorial
 - Identify the underlying ethical theory and values
@@ -624,7 +664,7 @@ Examples from WMD:
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you next week for more presentations!
 

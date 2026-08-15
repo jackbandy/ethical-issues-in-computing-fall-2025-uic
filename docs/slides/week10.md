@@ -8,21 +8,21 @@
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/19 Intellectual Property.pdf and 13 Intro to Copyright.pdf. Review and edit before use. -->
 
-CS 377 · Week 10, Day 1 · 🟦 Western 🟦
+CS 377, Week 10, Day 1 🟦 Western 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover"}
 
-CS 377 · Week 10, Day 1 · 🟦 Western 🟦
+CS 377, Week 10, Day 1 🟦 Western 🟦
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -38,7 +38,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -54,7 +54,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Guest Lecture: Maurine Jo Neiberg
+## Guest Lecture: Maurine Jo Neiberg
 
 - Intellectual Property Attorney
 - Expert in patent, computer law, copyright, trademark, intellectual property
@@ -69,7 +69,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Converging Topics: IP and the Stories We Read
+## Converging Topics: IP and the Stories We Read
 
 :::: columns
 ::: {.column width="48%"}
@@ -83,15 +83,19 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Introduction to Intellectual Property Rights
+# IP and AI Training Data {.title-slide .section-header}
 
 ---
 
-# Example 1: The New York Times vs. OpenAI
+## Introduction to Intellectual Property Rights
 
 ---
 
-# Why Is The New York Times Suing OpenAI?
+## Example 1: The New York Times vs. OpenAI
+
+---
+
+## Why Is The New York Times Suing OpenAI?
 
 - *The New York Times v. OpenAI and Microsoft*, filed in 2023
 - Digital Millennium Copyright Act (DMCA), 1998 — Section 1202
@@ -100,7 +104,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Exhibit J: GPT-4 Memorizing the NYT
+## Exhibit J: GPT-4 Memorizing the NYT
 
 - "One Hundred Examples of GPT-4 Memorizing Content from the New York Times"
 - Each example includes:
@@ -110,7 +114,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# How Did We Get Here? GPT Training Data
+## How Did We Get Here? GPT Training Data
 
 | Model | Year | Training Data |
 |---|---|---|
@@ -121,7 +125,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Obtaining Data: Pirated Materials
+## Obtaining Data: Pirated Materials
 
 - Extensive use of pirated materials at Anthropic, Meta, Google, and OpenAI
 - Employees often hesitant
@@ -130,7 +134,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Anthropic's "Project Panama"
+## Anthropic's "Project Panama"
 
 - Internal 2024 document: *"We don't want it to be known that we are working on this"*
 - Scanning company's "hydraulic powered cutting machine" would "neatly cut" books
@@ -139,7 +143,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# What's Next for AI Training Data?
+## What's Next for AI Training Data?
 
 - Anthropic accepted a $1.5 billion settlement in 2025
   - Each qualifying author will receive ~$3,000 per book
@@ -150,7 +154,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Contextual Integrity: AI and Copyright
+## Contextual Integrity: AI and Copyright
 
 :::: columns
 ::: {.column width="48%"}
@@ -168,11 +172,15 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Example 2: Grammarly and the Right of Publicity
+# The Right of Publicity {.title-slide .section-header}
 
 ---
 
-# Revisiting Grammarly
+## Example 2: Grammarly and the Right of Publicity
+
+---
+
+## Revisiting Grammarly
 
 - Why did Grammarly add an "AI writing" feature?
 - Why was it a "premium" feature?
@@ -183,7 +191,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Revisiting Grammarly: New Lawsuit
+## Revisiting Grammarly: New Lawsuit
 
 - Julia Angwin is lead plaintiff
 - New York law protects *"Any person whose name, portrait, picture or voice is used within this state for advertising purposes or for the purposes of trade without the written consent"*
@@ -192,7 +200,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Adjusting Our Laws
+## Adjusting Our Laws
 
 - Most laws assume: (1) AI content as a visual replica, (2) it will be "indistinguishable"
 - Grammarly case was different:
@@ -207,42 +215,46 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Example 3: "Consentful Tech"
+# Consentful Tech {.title-slide .section-header}
+
+---
+
+## Example 3: "Consentful Tech"
 
 - "Consentful technology is about having control over our digital bodies"
 - **FRIES** acronym:
 
 ---
 
-# Freely Given
+## Freely Given
 
 - "A decision should be made without pressure"
 - "If an interface is designed to mislead people into doing something they normally wouldn't do, the application is not consentful"
 
 ---
 
-# Reversible
+## Reversible
 
 - "Anyone can change their mind about what they want to do, at any time"
 - "In technology, you should have the right to limit access or entirely remove your data at any time"
 
 ---
 
-# Informed
+## Informed
 
 - Informed consent involves honesty
 - "Consentful applications use clear and accessible language to inform users about the risks they present and the data they are storing, rather than burying these important details" (e.g. in the fine print of terms & conditions)
 
 ---
 
-# Enthusiastic
+## Enthusiastic
 
 - Consent is not hesitant
 - "If people are giving up their data because they have to in order to access necessary services and not because they want to, that is not consentful"
 
 ---
 
-# Specific
+## Specific
 
 - "Saying yes to one thing doesn't mean they've said yes to others"
 - "A consentful app only uses data the user has directly given, not data acquired through other means like scraping or buying"
@@ -250,7 +262,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# "Consentful Tech": Summary
+## "Consentful Tech": Summary
 
 - **F**reely Given — no pressure, no misleading interfaces
 - **R**eversible — change your mind at any time; right to delete data
@@ -260,7 +272,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# Group Exercise: Analyze a License
+## Group Exercise: Analyze a License
 
 - See handout
 - Review a software or Creative Commons license
@@ -268,7 +280,7 @@ CS 377 · Week 10, Day 1 · 🟦 Western 🟦
 
 ---
 
-# That's all for today!
+## That's all for today!
 
 See you Wednesday!
 
@@ -276,23 +288,23 @@ See you Wednesday!
 
 # IP and Enshittification {.title-slide}
 
-CS 377 · Week 10, Day 2 · 🟦 California 🟦
+CS 377, Week 10, Day 2 🟦 California 🟦
 
 ---
 
 # Topic Title Placeholder {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover"}
 
-CS 377 · Week 10, Day 2 · 🟦 California 🟦
+CS 377, Week 10, Day 2 🟦 California 🟦
 
 <!-- image source: John Ringor -->
 
 ---
 
-# {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover"}
 
 ---
 
-# Administrivia
+## Administrivia
 
 :::: columns
 ::: {.column width="55%"}
@@ -308,7 +320,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Agenda for Today
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
@@ -326,24 +338,28 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# 🔀 Seat Shuffle
+## 🔀 Seat Shuffle
 
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 - TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
 
 ---
 
-# "Personal Commitment" Exercise: Samples from Previous Semesters
+# Personal Commitment Samples {.title-slide .section-header}
 
 ---
 
-# {.quote-slide}
+## "Personal Commitment" Exercise: Samples from Previous Semesters
+
+---
+
+## {.quote-slide}
 
 > "I should make every effort to base my decisions on kindness and care for others."
 
 ---
 
-# {.quote-slide}
+## {.quote-slide}
 
 > "I will remember that each person has their own goals, struggles, and background,
 > so I should not rush to judge their actions. Instead of assuming I know everything,
@@ -351,42 +367,42 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# {.quote-slide}
+## {.quote-slide}
 
 > "I will only perform actions that I can irrefutably justify as being rooted in faith,
 > virtue, discipline, or any combination of the three."
 
 ---
 
-# {.quote-slide}
+## {.quote-slide}
 
 > "Virtues I will try my absolute best to commit to: Patience, Wisdom, Optimism,
 > Tolerance, and Growth."
 
 ---
 
-# {.quote-slide}
+## {.quote-slide}
 
 > "I will strive to become the kind of person I would trust by cultivating honesty,
 > humility, accountability, and courage in my day-to-day actions."
 
 ---
 
-# {.quote-slide}
+## {.quote-slide}
 
 > "I do not want to work on any of the machines, bombs, etcetera that directly leads
 > to the harm or suffering of others. I do not care what the paycheck is."
 
 ---
 
-# {.quote-slide}
+## {.quote-slide}
 
 > "My personal commitment is to always consider who my work will impact, whether
 > it's professional work or a personal project."
 
 ---
 
-# Table Discussion: Head Start on Ethics Commitments
+## Table Discussion: Head Start on Ethics Commitments
 
 - What are your initial ideas for commitments?
 - Are there specific virtues, values, or character strengths that come to mind?
@@ -396,18 +412,22 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Respecting Licenses and Intellectual Property
+## Respecting Licenses and Intellectual Property
 
 <!-- image: license comparison chart / examples from prior exercise -->
 - TODO: add image — *license comparison chart / examples from prior exercise*
 
 ---
 
-# Mini-lecture: IP and "Enshittification"
+# The EFF and Digital Rights {.title-slide .section-header}
 
 ---
 
-# Operation Sun Devil (1990)
+## Mini-lecture: IP and "Enshittification"
+
+---
+
+## Operation Sun Devil (1990)
 
 - U.S. Secret Service conducted raids across the U.S.
 - Supposedly a crackdown on "illegal computer hacking activities"
@@ -416,7 +436,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Birth of the EFF
+## Birth of the EFF
 
 - GURPS Cyberpunk sourcebook was allegedly a hacker manual "for taking over the 911 emergency network"
 - Loyd Blankenship ("The Mentor") had consulted on the book; was likely the target
@@ -424,7 +444,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Electronic Frontier Foundation
+## Electronic Frontier Foundation
 
 - Group formed (including Steve Wozniak, John Perry Barlow)
 - *Steve Jackson Games, Inc. v. United States Secret Service*
@@ -434,7 +454,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# EFF Mission {.quote-slide}
+## EFF Mission {.quote-slide}
 
 > "EFF's mission is to ensure that technology supports freedom, justice, and innovation
 > for all people of the world."
@@ -443,7 +463,11 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Cory Doctorow
+# Enshittification {.title-slide .section-header}
+
+---
+
+## Cory Doctorow
 
 - Worked ~20 years at EFF
 - Completed a high school diploma after dropping out
@@ -453,7 +477,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Four-Step Theory of Enshittification {.quote-slide}
+## Four-Step Theory of Enshittification {.quote-slide}
 
 > 1. First, services are good to their users.
 > 2. Then they abuse their users to make things better for their business customers.
@@ -464,7 +488,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Example of Intermediation: Apple
+## Example of Intermediation: Apple
 
 :::: columns
 ::: {.column width="48%"}
@@ -487,7 +511,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Example of Intermediation: Amazon
+## Example of Intermediation: Amazon
 
 :::: columns
 ::: {.column width="48%"}
@@ -510,11 +534,15 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# The Cures for Enshittification
+## The Cures for Enshittification
 
 ---
 
-# What Stops Organizations from Enshittifying?
+# Forces for Good {.title-slide .section-header}
+
+---
+
+## What Stops Organizations from Enshittifying?
 
 ::: {.incremental}
 - **Competition** — market alternatives give users exit options
@@ -525,14 +553,14 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Force for Good #1: Competition
+## Force for Good #1: Competition
 
 <!-- image: market concentration visualizations (popular chart by u/_Spyguy_, 2017; updated 2023 version) -->
 - TODO: add image — *market concentration visualizations (popular chart by u/_Spyguy_, 2017; updated 2023 version)*
 
 ---
 
-# Force for Good #2: Regulation
+## Force for Good #2: Regulation
 
 - "The job of an intermediary should be to deliver the things you want, not the things that they wish you wanted"
 - Unpopular in tech circles
@@ -541,7 +569,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Force for Good #3: Interoperability
+## Force for Good #3: Interoperability
 
 - Standards and protocols: TCP/IP, email, telephone service
 - Support right to repair
@@ -549,7 +577,7 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Attitudes That Can Produce Enshittification
+## Attitudes That Can Produce Enshittification
 
 - Collusions and monopolies (rather than competition)
 - Deregulation / laissez-faire (rather than oversight and regulation)
@@ -558,31 +586,35 @@ CS 377 · Week 10, Day 2 · 🟦 California 🟦
 
 ---
 
-# Review Game: Prompt 1 of 4
+# Review Game {.title-slide .section-header}
+
+---
+
+## Review Game: Prompt 1 of 4
 
 Summarize Kant's categorical imperative (from deontological ethics).
 
 ---
 
-# Review Game: Prompt 2 of 4
+## Review Game: Prompt 2 of 4
 
 Write a new version of the trolley problem (from utilitarian ethics).
 
 ---
 
-# Review Game: Prompt 3 of 4
+## Review Game: Prompt 3 of 4
 
 What might the moles say to the porcupine? (From the care ethics dilemma)
 
 ---
 
-# Review Game: Prompt 4 of 4
+## Review Game: Prompt 4 of 4
 
 A character has just demonstrated their virtue by responding to a difficult challenge. Complete their explanation: *"My parents always told me…"*
 
 ---
 
-# Reminders Before Spring Break
+## Reminders Before Spring Break
 
 - Continue reading your book!
 - Email with any grade questions
@@ -591,7 +623,7 @@ A character has just demonstrated their virtue by responding to a difficult chal
 
 ---
 
-# That's all for today, see you after break!
+## That's all for today, see you after break!
 
 ---
 
