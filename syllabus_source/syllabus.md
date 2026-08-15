@@ -4,7 +4,7 @@ college: "COLLEGE OF ENGINEERING, UIC"
 course: "CS 377"
 course-title: "Ethical Issues in Computing"
 credit-hours: "3"
-term: "Spring 2026"
+term: "Fall 2026"
 epigraph: "“Evil comes from a failure to think” —Hannah Arendt"
 ---
 
@@ -259,24 +259,8 @@ The detailed and most current schedule will be published on the ["do ethics"](ht
 
 University deadlines for adding, dropping, and withdrawing from courses are listed on the [UIC Academic Calendar](https://catalog.uic.edu/ucat/academic-calendar/).
 
-| **Week** | **Topic(s) / In-Class Activities** | **Readings / Work Due** |
-|:--|:--|:--|
-| 1 | Warm-up activity; intro to Virtue Ethics | |
-| 2 | MLK Day (no class); intro to Deontological Ethics | Virtue Ethics Reflection |
-| 3 | Intro to Utilitarian Ethics and trolley problems; intro to Care Ethics | Reflection(s) |
-| 4 | Ethical theory review and case studies; Ethics in Algorithmic Feeds | Care Ethics Reflection; Select a Book; Food in your Feed; Ranking Exercise |
-| 5 | Algorithmic feeds; intro to Privacy and contextual integrity | In-class Privacy Policy Exercise |
-| 6 | Privacy and short story analysis; Dr. Bandy at SIGCSE | Here-and-Now Reflection; Online Account Biopsy |
-| 7 | Inequality, Justice, algorithmic fairness | Message in a Bottle Reflection; Online Account Scrap Doll |
-| 8 | Cybersecurity; medical and health technologies in AI | Speculative Fiction |
-| 9 | LLM ethical challenges | Reflection(s) |
-| 10 | Intellectual property | Fairness Definitions |
-| 11 | *Spring Vacation — No Classes* | |
-| 12 | Environmental computing impact; book presentations begin | Reflection(s) |
-| 13 | Book presentations | |
-| 14 | Book presentations | |
-| 15 | Book presentations | Personal Ethics Commitments |
-| 16 | Synthesis and conclusions | Book Report/Un-essay, Presentation |
+```schedule
+```
 
 ## Another Disclaimer
 

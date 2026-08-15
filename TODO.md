@@ -7,14 +7,13 @@
   - [x] Add navigation/index for all course materials — site menu in `docs/_includes/site-nav.html`
   - [ ] Link PDFs from pages
     - [ ] `docs/exercises/food-in-your-feed.md` links `../out-of-class-exercises/01-food-in-your-feed-worksheet.pdf`, which lives at the repo root, outside `docs/` — the link 404s on the published site
-    - [ ] `docs/schedule.md` links `slides/weekN.pdf` for every week with a deck; none of those PDFs exist yet (see Slides)
+    - [ ] The schedule page links `slides/weekN.pdf` for every week with a deck; none of those PDFs exist yet (see Slides)
     - [ ] Worksheet and dilemma PDFs are not linked at all
   - [ ] Verify source materials
 
 ## LaTeX Versions of Existing PDFs
 Convert the PDFs to have markdown/LaTeX source files (similar to syllabus):
 - [ ] `dilemmas/create-your-own-trolley-problem.pdf`
-- [ ] `galleries/doll-gallery.pdf`
 - [ ] `out-of-class-exercises/01-food-in-your-feed-worksheet.pdf`
 - [ ] `out-of-class-exercises/make-up-sheets/01-ranking-spring-2026.pdf`
 - [ ] `out-of-class-exercises/make-up-sheets/02-privacy-policy.pdf`
@@ -22,7 +21,7 @@ Convert the PDFs to have markdown/LaTeX source files (similar to syllabus):
 - [ ] `out-of-class-exercises/make-up-sheets/04-therac-25.pdf`
 - [ ] `out-of-class-exercises/make-up-sheets/05-speculative-fiction.pdf`
 - [ ] `out-of-class-exercises/make-up-sheets/06-license-analysis.pdf`
-- [ ] Group exercises
+- [ ] Group exercises?
 
 ## Out-of-Class Exercises
 - [ ] Create pages for exercises that only exist as markdown:
@@ -72,4 +71,4 @@ schedule, then drop the notice.
 - Week 11 is spring vacation; weeks 13–15 are book presentations. No decks needed.
 
 ### Export
-- [ ] Generate the slide PDFs — `BUILD_PDFS=true docs/slides/build.sh` (needs Node, Chrome, and PyMuPDF). `docs/schedule.md` already links them, so those links stay broken until this runs.
+- [ ] Generate the slide PDFs — `BUILD_PDFS=true docs/slides/build.sh` (needs Node, Chrome, and PyMuPDF). The schedule page already links them, so those links stay broken until this runs.

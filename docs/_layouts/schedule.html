@@ -1,6 +1,11 @@
 <!--
-  Layout for the full-schedule page. The content comes from docs/schedule.md —
-  edit that file, not this one, to change what the schedule says.
+  Layout for the full-schedule page. Everything the schedule says comes from
+  two files — edit those, not this one:
+
+    _includes/schedule.csv         weeks, dates, stations, work due
+    _includes/schedule-topics.md   what happens each day
+
+  The syllabus build reads the same two files, so the two can never disagree.
 
   Note: this file was largely written by an LLM (Claude Code).
 -->
@@ -31,6 +36,119 @@
     {% if page.subtitle %}<p class="schedule-subtitle">{{ page.subtitle }}</p>{% endif %}
     <div class="schedule-body">
       {{ content }}
+
+      {%- comment -%}
+        Both sources are pulled in with {% include %} rather than read as data,
+        because that is the only way to get their raw text — Jekyll's _data
+        loader ignores .md entirely, and renders anything it does load to HTML
+        before a layout can see it. The cost is parsing the CSV by hand below:
+        the first five columns must not contain commas. Due is last and unused
+        here (it feeds the syllabus), so a comma in it cannot shift anything.
+      {%- endcomment -%}
+      {%- capture newline %}
+{% endcapture -%}
+      {%- capture schedulecsv %}{% include schedule.csv %}{% endcapture -%}
+      {%- capture topicsfile %}{% include schedule-topics.md %}{% endcapture -%}
+      {%- assign csvrows = schedulecsv | strip | split: newline -%}
+      {%- assign sectionsep = newline | append: "## " -%}
+      {%- assign sections = topicsfile | split: sectionsep -%}
+
+      {%- comment -%} Unit names, in the order they first appear. {%- endcomment -%}
+      {%- assign unitnames = "" -%}
+      {%- for row in csvrows -%}
+        {%- unless forloop.first -%}
+          {%- assign name = row | split: "," | first -%}
+          {%- unless unitnames contains name -%}
+            {%- assign unitnames = unitnames | append: name | append: "|" -%}
+          {%- endunless -%}
+        {%- endunless -%}
+      {%- endfor -%}
+      {%- assign units = unitnames | split: "|" -%}
+
+      <ul class="unit-links">
+      {%- for unit in units -%}
+        {%- assign branch = "" -%}
+        {%- assign firstweek = "" -%}
+        {%- assign lastweek = "" -%}
+        {%- for row in csvrows -%}
+          {%- unless forloop.first -%}
+            {%- assign cells = row | split: "," -%}
+            {%- if cells[0] == unit -%}
+              {%- if firstweek == "" -%}
+                {%- assign branch = cells[1] -%}
+                {%- assign firstweek = cells[2] -%}
+              {%- endif -%}
+              {%- assign lastweek = cells[2] -%}
+            {%- endif -%}
+          {%- endunless -%}
+        {%- endfor -%}
+        <li><a href="#{{ unit | slugify }}">{{ unit }}</a>:
+          {{ branch }} (weeks {{ firstweek }}–{{ lastweek }})</li>
+      {%- endfor -%}
+      </ul>
+
+      {%- comment -%}
+        One pass down the CSV, opening a heading whenever the unit or week
+        changes. Each day's bullets come from schedule-topics.md, whose
+        sections are keyed `## Week N, Day M`. Week N is also deck N, so the
+        slide link is derived from the week number and shown only when that
+        deck has been built.
+      {%- endcomment -%}
+      <div class="rail">
+      {%- assign prevunit = "" -%}
+      {%- assign prevweek = "" -%}
+      {%- assign dayindex = 0 -%}
+      {%- for row in csvrows -%}
+        {%- unless forloop.first -%}
+          {%- assign cells = row | split: "," -%}
+          {%- assign unit = cells[0] -%}
+          {%- assign week = cells[2] -%}
+          {%- assign station = cells[4] -%}
+
+          {%- if week != prevweek -%}
+            {%- if prevweek != "" %}</ul>{% endif -%}
+            {%- if unit != prevunit -%}
+              <h2 id="{{ unit | slugify }}">{{ unit }}</h2>
+              {%- assign prevunit = unit -%}
+            {%- endif -%}
+            <h4 id="week-{{ week }}">Week {{ week }}</h4>
+            {%- assign deckpath = "/slides/week" | append: week | append: ".html" -%}
+            {%- assign deck = site.static_files | where: "path", deckpath | first -%}
+            {%- if deck -%}
+            <p class="week-slides">Slides:
+              <a href="{{ site.baseurl }}/slides/week{{ week }}.html">Deck {{ week }}</a>
+              (<a href="{{ site.baseurl }}/slides/week{{ week }}.pdf">PDF</a>)</p>
+            {%- endif -%}
+            <ul>
+            {%- assign prevweek = week -%}
+            {%- assign dayindex = 0 -%}
+          {%- endif -%}
+          {%- assign dayindex = dayindex | plus: 1 -%}
+
+          <li>{{ cells[3] | date: "%A, %B %-d, %Y" }}
+            {%- if station and station != "" %} <code>🟦 {{ station }} 🟦</code>{% endif -%}
+            {%- assign key = "Week " | append: week | append: ", Day " | append: dayindex | append: " (" -%}
+            {%- for section in sections -%}
+              {%- assign head = section | split: newline | first | strip -%}
+              {%- if head contains key -%}
+                {%- assign body = section | remove_first: head -%}
+                {%- assign parts = body | split: "### Sources" -%}
+                {%- assign topics = parts.first | markdownify | strip -%}
+                {%- if parts.size > 1 -%}
+                  {%- assign sources = parts.last | markdownify | strip -%}
+                  {{ topics | split: "</ul>" | join: "</ul>" }}
+                    <li><details><summary>Source materials</summary>{{ sources }}</details></li>
+                  </ul>
+                {%- else -%}
+                  {{ topics }}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </li>
+        {%- endunless -%}
+      {%- endfor -%}
+      </ul>
+      </div>
     </div>
   </main>
 

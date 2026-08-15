@@ -16,9 +16,12 @@ Both outputs are intended to be committed so GitHub Pages serves them at
 
 ## Files
 
-- `syllabus.md` — the syllabus content (paste schedule updates into the table
-  in the Course Schedule section; `schedule.csv` holds the same rows for
-  spreadsheet editing, but is not yet wired into the build)
+- `syllabus.md` — the syllabus content. The Course Schedule section holds an
+  empty ` ```schedule ` block, not a table; do not type one there.
+- `schedule.lua` — Pandoc filter that expands that block into the per-week
+  table, reading `../docs/_includes/schedule.csv` (weeks, dates, work due) and
+  `../docs/_includes/schedule-topics.md` (what happens each day). The website's
+  schedule page reads the same two files. Edit those, never the table.
 - `template.tex` — PDF template, styled after Jakob Eriksson's UIC syllabus
   template (gray boxed section headings, CMU Serif/Sans)
 - `template.html` — HTML template with matching section styling

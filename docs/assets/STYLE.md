@@ -8,17 +8,17 @@ Visual conventions for figures, diagrams, and slide assets.
 
 From `docs/slides/theme/blue-line.scss`. CTA blue = brand accent; rest is neutral.
 
-- `#00a1de` — CTA blue (brand) · `$cta-blue`
-- `#005daa` — CTA blue dark (links / hover) · `$cta-blue-dark`
-- `#003087` — CTA blue deep (emphasis) · `$cta-blue-deep`
-- `#c60c30` — CTA red (sparing accent) · `$cta-red`
-- `#231f20` — ink (headings, strong text) · `$ink`
-- `#333` — charcoal · `$charcoal`
-- `#666` — muted · `$muted`
-- `#aaa` — quiet · `$quiet`
-- `#fff` — paper / background · `$paper`
-- `#f4f4f4` — soft (code/panels) · `$soft`
-- `#d8d8d8` — border · `$border`
+- `#00a1de` — CTA blue (brand), `$cta-blue`
+- `#005daa` — CTA blue dark (links / hover), `$cta-blue-dark`
+- `#003087` — CTA blue deep (emphasis), `$cta-blue-deep`
+- `#c60c30` — CTA red (sparing accent), `$cta-red`
+- `#231f20` — ink (headings, strong text), `$ink`
+- `#333` — charcoal, `$charcoal`
+- `#666` — muted, `$muted`
+- `#aaa` — quiet, `$quiet`
+- `#fff` — paper / background, `$paper`
+- `#f4f4f4` — soft (code/panels), `$soft`
+- `#d8d8d8` — border, `$border`
 
 Figures:
 - default to grayscale neutrals; blue as an accent on the focal element
@@ -28,7 +28,7 @@ Figures:
 
 We follow the [CTA Trademark Guidelines for Developers](https://www.transitchicago.com/developers/branding/). The aesthetic is a **minimal** read of the CTA system: the official route color as a sparing accent, everything else neutral.
 
-- **Official `'L'` route colors** — CTA explicitly encourages developers to use these "to help people immediately associate the output of your application with…the same visual cues." This repo's accent is the **Blue Line `#00A1DE`** (matches `$cta-blue` exactly); **Red `#C60C30`** (= `$cta-red`) is the official Red Line color, used sparingly. Full spec for reference: Red `#C60C30` · Blue `#00A1DE` · Brown `#62361B` · Green `#009B3A` · Orange `#F9461C` · Purple `#522398` · Pink `#E27EA6` · Yellow `#F9E300`; **Sign Grey `#565A5C`** (official neutral). (`$cta-blue-dark`/`$cta-blue-deep` are derived UI shades, not official line colors.)
+- **Official `'L'` route colors** — CTA explicitly encourages developers to use these "to help people immediately associate the output of your application with…the same visual cues." This repo's accent is the **Blue Line `#00A1DE`** (matches `$cta-blue` exactly); **Red `#C60C30`** (= `$cta-red`) is the official Red Line color, used sparingly. Full spec for reference: Red `#C60C30`, Blue `#00A1DE`, Brown `#62361B`, Green `#009B3A`, Orange `#F9461C`, Purple `#522398`, Pink `#E27EA6`, Yellow `#F9E300`; **Sign Grey `#565A5C`** (official neutral). (`$cta-blue-dark`/`$cta-blue-deep` are derived UI shades, not official line colors.)
 - **No CTA logos or marks** — per the guidelines, "Don't use any CTA logo…or any approximations thereof" (incl. the CTA circle logo and text-based logos). Use route *colors* + an original transit motif only; never imply CTA affiliation.
 - **Minimal by default** — blue as an accent on the focal element; neutrals carry everything else.
 

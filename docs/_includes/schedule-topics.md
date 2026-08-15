@@ -1,0 +1,274 @@
+<!-- What happens on each class day. This file is the source for the "Topics"
+     and "Source materials" on the schedule page AND for the syllabus's
+     per-week table; syllabus_source/schedule.lua reads it too.
+
+     Sections are keyed by `## Week N, Day M` — the date in parentheses is for
+     readers only. The schedule spine (dates, stations, units, work due) lives
+     in schedule.csv next door, so rolling the course to a new semester means
+     changing dates there, not here. Bullets under a heading are that day's
+     topics; bullets under `### Sources` become the collapsed list. -->
+
+## Week 1, Day 1 (2026-08-24)
+
+* Warm-up: [🔗 Conocimiento](https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/conocimiento-activity/)
+
+## Week 1, Day 2 (2026-08-26)
+
+* Introduction to Virtue Ethics
+
+### Sources
+
+* [Virtue Ethics, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/)
+* [*After Virtue* by Alasdair MacIntyre](https://archive.org/details/isbn_0268006040)
+* [List of Moral Virtues, Wikipedia](https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted)
+* [Adventures from the Book of Virtues, IMDB](https://www.imdb.com/title/tt0227868/)
+  * Some episodes available online, e.g. [Generosity](https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted)
+
+## Week 2, Day 1 (2026-08-31)
+
+* Introduction to Deontological Ethics
+
+### Sources
+
+* Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/)
+
+## Week 2, Day 2 (2026-09-02)
+
+* Introduction to Utilitarian Ethics
+
+### Sources
+
+* Journal Article by Margery Bedford Naylor, [The Moral of the Trolley Problem](https://doi.org/10.2307/2108017)
+* Journal Article by Michael Clark, [Sacrificing One to Save Many](https://www.jstor.org/stable/24354077)
+* Stanford Encyclopedia of Philosophy, [History of Utilitarianism](https://plato.stanford.edu/ENTRiES/utilitarianism-history/)
+* Blog Post by S. Matthiew Liao, [The Transplant Case in Real Life](https://blog.uehiro.ox.ac.uk/2008/02/the-transplant-case-in-real-life/)
+* Trolley Problem(s) [images by Jesse Prinz](http://subcortex.com/pictures/)
+* Trolley Problem(s) [text by Chad Vance](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
+* "Absurd Trolley Problems" [curated by Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
+
+## Week 3, Day 1 (2026-09-07)
+
+* Labor Day holiday. **No classes.**
+
+## Week 3, Day 2 (2026-09-09)
+
+* Introduction to Care Ethics
+
+### Sources
+
+* The [Porcupine and the Moles](dilemmas/care-ethics-porcupine-and-moles/)
+* The [Heinz Dilemma](dilemmas/care-ethics-heinz-dilemma/)
+* Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/)
+* Encyclopedia Britannica, [Carol Gilligan](https://www.britannica.com/biography/Carol-Gilligan)
+* From "a different voice" to ["a human voice"](https://www.newstatesman.com/culture/books/2023/10/carol-gilligan-gender-binary-human-voice)
+* Kohlberg's [theory of moral development](https://media.lanecc.edu/users/kime/Ch9CKohlberg.pdf)
+* More [about Carol Gilligan](https://www.latimes.com/archives/la-xpm-1985-09-25-vw-20040-story.html)
+
+## Week 4, Day 1 (2026-09-14)
+
+* Review theories of ethics
+
+### Sources
+
+* (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
+* (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
+* Caleb Williams [responds to a trolley problem](https://www.youtube.com/watch?v=iM3Bu_S82Jc)
+* Discussing Anthropic's 80-page "Constitution" document with [Amanda Askell](https://archive.is/Xlv9q)
+  * The [constitution in full](https://www.anthropic.com/constitution)
+
+## Week 4, Day 2 (2026-09-16)
+
+* Ethics in Algorithmic Feeds
+  * Values in Ranking
+  * Content Moderation
+
+### Sources
+
+* Nick Hopkins, [Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
+* UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
+* Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
+
+## Week 5, Day 1 (2026-09-21)
+
+* Algorithmic Feeds and Content Moderation, Continued
+* Intro to Privacy
+* Preview short story ("[Here and Now](https://archive.ph/p7w46)")
+
+### Sources
+
+* Tarleton Gillespie, [*Custodians of the Internet: platforms, content moderation, and the hidden decisions that shape social media*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf)
+* Tarleton Gillespie, [Content Moderation, AI, and the Question of Scale](https://doi.org/10.1177/2053951720943234)
+* Meta's [Community Standards](https://transparency.meta.com/policies/community-standards/)
+* Meta's [exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
+* Reddit's [Platform-wide Rules](https://redditinc.com/policies/reddit-rules)
+
+## Week 5, Day 2 (2026-09-23)
+
+* Privacy, Continued
+
+### Sources
+
+* Nathan Malkin, [Contextual Integrity, Explained: A More Usable Privacy Definition](https://doi.org/10.1109/MSEC.2022.3201585)
+
+## Week 6, Day 1 (2026-09-28)
+
+* Privacy, Continued
+* Discuss short story ("Here and Now")
+* Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
+  * PDF available in Canvas
+
+## Week 6, Day 2 (2026-09-30)
+
+* Inequality and Justice
+* Discuss short story ("Message in a Bottle")
+* Preview short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
+
+## Week 7, Day 1 (2026-10-05)
+
+* **Asynchronous class.** Dr. Bandy away.
+* Inequality and Justice, Continued
+* Faces and Fairness
+
+### Sources
+
+* ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
+* [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
+* [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
+* Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
+* _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
+
+## Week 7, Day 2 (2026-10-07)
+
+* **Asynchronous class.** Dr. Bandy away.
+* Computing and War
+* Discuss short story ("Codename Delphi")
+* Preview short story ("[If an Algorithm Can Cast a Shadow](https://clarkesworldmagazine.com/jia-wen_06_25/)")
+  * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
+
+### Sources
+
+* Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
+* Ross Andersen, ["Inside Anthropic’s Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/)
+* Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
+* Ed Pilkington, ["US military reportedly used Claude in Iran strikes despite Trump’s ban"](https://www.theguardian.com/technology/2026/mar/01/claude-anthropic-iran-strikes-us-military)
+* Edward Ongweso Jr, ["Big Tech Has Made Billions Off the 20-Year War on Terror"](https://www.vice.com/en/article/big-tech-has-made-billions-off-the-20-year-war-on-terror/)
+* Pavel Aksenov, ["Stanislav Petrov: The man who may have saved the world"](https://www.bbc.com/news/world-europe-24280831)
+* Stavroula Pabst, ["How the Pentagon Built Silicon Valley"](https://responsiblestatecraft.org/silicon-valley/)
+* Roberto J. González, ["How Big Tech and Silicon Valley are Transforming the Military-Industrial Complex"](https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex)
+* Eric P.S. Baumer and M. Six Silberman ["When the implication is not to design (technology)"](https://doi.org/10.1145/1978942.1979275)
+* Juan Pablo Hourcade, ["Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
+
+## Week 8, Day 1 (2026-10-12)
+
+* Medical and health technologies
+* Intro to CyberSecurity
+
+### Sources
+
+* Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
+* California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
+  * "Botched Operaion" YouTube Series about electronic health records:
+    * [Part 1](https://www.youtube.com/watch?v=-45n_0Rl8M4)
+    * [Part 2](https://www.youtube.com/watch?v=UjFFaN0Ue2E)
+    * [Part 3](https://www.youtube.com/watch?v=-3EJdWDMCa0)
+    * [Part 4](https://www.youtube.com/watch?v=g3te10iU9Vk)
+
+## Week 8, Day 2 (2026-10-14)
+
+* Intro to Ethical Challenges from LLMs
+* Discuss Speculative Fiction Exercise
+
+### Sources
+
+* _The Wall Street Journal_, [Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
+* Bender and Gebru et al. [On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
+  * [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
+* Chiang and Zheng et al. [An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=3MW8GKNyzI)
+  * [LMArena](https://lmarena.ai/?mode=side-by-side) / [About](https://lmarena.ai/about)
+* [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
+
+## Week 9, Day 1 (2026-10-19)
+
+* Ethical Challenges from LLMs, Continued
+* Discuss short story ("If an Algorithm Can Cast a Shadow")
+
+### Sources
+
+* Open to Debate, [Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
+* Casey Newton, [Grammarly turned me into an AI editor against my will and I hate it](https://www.platformer.news/grammarly-expert-review-reviewed/)
+* Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
+* Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
+  * Laura Cress (BBC), [Family of child injured in Canada school shooting sues OpenAI](https://www.bbc.com/news/articles/c309y25prnlo)
+* Futurism, [New AI Agent Logs Directly Into College Platform Canvas to Do Your Homework for You](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
+  * Sonel Cutler (Chronicle), ['Einstein' May Have Been a Prank. But the Agentic AI Tool Put Higher Ed on Notice.](https://www.chronicle.com/article/einstein-may-have-been-a-prank-but-the-agentic-ai-tool-put-higher-ed-on-notice)
+  * Matthew Gault, [What’s the Point of School When AI Can Do Your Homework?](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
+
+## Week 9, Day 2 (2026-10-21)
+
+* Intellectual property
+
+### Sources
+
+* Digital Millenium Copyright Act (DMCA), [Section 1202: Integrity of copyright management information](https://www.law.cornell.edu/uscode/text/17/1202)
+* Ashley Belanger, [OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million.](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/)
+* Matt O'Brien, [Anthropic to pay authors $1.5 billion to settle lawsuit over pirated books used to train AI chatbots](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164)
+* The New York Times’s Complaint against Microsoft and OpenAI, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
+
+## Week 10, Day 1 (2026-10-26)
+
+* Intellectual property
+
+## Week 10, Day 2 (2026-10-28)
+
+* "Hooks" and "Nudges" in Design
+* Presentation Tips
+
+### Sources
+
+* BJ Fogg, [Persuasive Computers - Perspectives and Research Directions](https://dl.acm.org/doi/10.1145/274644.274677)
+* [Behavior Design Lab](https://behaviordesign.stanford.edu/about-us)
+* Nir Eyal, [Hooked - How to Build Habit-Forming Products](https://www.nirandfar.com/hooked/)
+* Yasmin Samrai, [How Stanford Profits Off Addiction](https://stanfordreview.org/how-stanford-profits-tech-addiction-social-media/)
+* Thomas Mildner, [Cheat Sheet of Dark Design Patterns](https://thomasessmeyer.com/darkpatterns.html)
+* ASCI Academy, [Gallery of "Conscious" Design patterns](https://www.consciouspatterns.in/ethical-gallery)
+
+## Week 11, Day 1 (2026-11-02)
+
+* Book Presentations
+* Overview of Fairness Definitions Exercise
+
+## Week 11, Day 2 (2026-11-04)
+
+* Book Presentations
+
+## Week 12, Day 1 (2026-11-09)
+
+* Book Presentations
+
+## Week 12, Day 2 (2026-11-11)
+
+* Book Presentations
+
+## Week 13, Day 1 (2026-11-16)
+
+* Book Presentations
+
+## Week 13, Day 2 (2026-11-18)
+
+* Book Presentations
+
+## Week 14, Day 1 (2026-11-23)
+
+* Book Presentations
+
+## Week 14, Day 2 (2026-11-25)
+
+* Student Wellness Day. **No classes.**
+
+## Week 15, Day 1 (2026-11-30)
+
+* Synthesis and conclusions
+
+## Week 15, Day 2 (2026-12-02)
+
+* Synthesis and conclusions
