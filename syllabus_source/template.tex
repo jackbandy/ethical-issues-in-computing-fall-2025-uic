@@ -20,6 +20,7 @@
 \usepackage[explicit]{titlesec}
 \usepackage{tikz}
 \usepackage{eso-pic}
+\usepackage{fancyhdr}
 
 \IfFontExistsTF{CMU Serif}{\setmainfont{CMU Serif}}{\setmainfont{Times New Roman}}
 \IfFontExistsTF{CMU Sans Serif}{\setsansfont{CMU Sans Serif}}{\setsansfont{Arial}}
@@ -70,6 +71,33 @@
 \renewcommand{\arraystretch}{1.15}
 \setlength{\tabcolsep}{6pt}
 
+% Running footer: build provenance and links on every page, set in the body
+% serif at footnote size and gray so it reads as metadata, not content.
+\definecolor{footergray}{gray}{0.40}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{footergray}\leaders\hrule height \footrulewidth\hfill}}
+\newcommand{\syllabusfooter}{%
+  \footnotesize\color{footergray}%
+  Generated $created$%
+  \hspace{1.5em}\textbullet\hspace{1.5em}%
+  \href{https://doethics.fun/syllabus/}{HTML version}%
+  \hspace{1.5em}\textbullet\hspace{1.5em}%
+  \href{https://doethics.fun/}{Course site}%
+}
+\fancyfoot[L]{\syllabusfooter}
+\fancyfoot[R]{\footnotesize\color{footergray}\thepage}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0.4pt}%
+  \fancyfoot[L]{\syllabusfooter}%
+  \fancyfoot[R]{\footnotesize\color{footergray}\thepage}%
+}
+\setlength{\footskip}{28pt}
+
 % Pandoc shims
 \newcounter{none}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -101,10 +129,6 @@
   {\itshape $epigraph$}\par
   \vspace{0.5em}
   {\large $term$}\par
-  \vspace{0.5em}
-  {\small\sffamily Generated $created$ \quad
-  \href{https://doethics.fun/syllabus/}{HTML version} \quad
-  \href{https://doethics.fun/}{Course site}}\par
 \end{center}
 
 \vspace{0.9\baselineskip}

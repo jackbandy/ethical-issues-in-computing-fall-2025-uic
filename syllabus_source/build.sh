@@ -31,7 +31,7 @@ pandoc "$INPUT" \
   --template "$SOURCE_DIR/template.tex" \
   --pdf-engine=xelatex \
   --metadata created="$CREATED" \
-  --resource-path "$SOURCE_DIR" \
+  --resource-path "$SOURCE_DIR:$OUTPUT_DIR" \
   -o "$OUTPUT_DIR/syllabus.pdf"
 
 cp "$SOURCE_DIR/arendt.jpg" "$OUTPUT_DIR/arendt.jpg"

@@ -10,21 +10,33 @@ epigraph: "“Evil comes from a failure to think” —Hannah Arendt"
 
 # Instructor & Course Details
 
-**Instructor:** Jack Bandy ([jxb@uic.edu](mailto:jxb@uic.edu))
+**Course:** CS 377, Section TBD — Ethical Issues in Computing (3 credit hours)
 
-**Office:** CDRLC 3454
+**Term:** Fall 2026
+
+**Class meetings:** Mondays and Wednesdays, TBD (see the schedule below for dates)
 
 **Classroom:** CDRLC 2411
 
+**Method of instruction:** In-person. Class time is built around short framing talks, table discussions, and small-group exercises rather than lecture; readings and materials are distributed through Canvas and the course website, and most written work is done on paper in class.
+
+**Instructor:** Jack Bandy (he/him), [jxb@uic.edu](mailto:jxb@uic.edu).
+
+**Office:** CDRLC 3454
+
+**Office phone:** TBD
+
+**Drop-in (office) hours:** TBD — days, times, and location will be posted in Canvas during the first week, and will include at least one slot outside of standard business hours. You are welcome to drop in without an appointment.
+
 **Teaching assistants:** TBD
 
-**Course site:** [doethics.fun](https://doethics.fun/)
+**Email:** [jxb@uic.edu](mailto:jxb@uic.edu). I generally reply within 24 hours on weekdays, and I generally do not check email on Saturday and Sunday. See "Email Expectations" below.
 
-<!-- TODO: add office hours scheduling link -->
 
-Details and updates about class meetings, office hours, teaching assistants, assignment due dates, and grades will be regularly updated in **Canvas**.
 
 ## Course Site
+
+Details and updates about class meetings, office hours, teaching assistants, assignment due dates, and grades will be regularly updated in **Canvas**. Other materials go on the public website whenever possible.
 
 [Canvas Course](https://canvas.uic.edu) ([canvas.uic.edu](https://canvas.uic.edu)) - Students are expected to log in to Canvas regularly to learn about any developments related to the course, upload assignments, monitor grades, etc.
 
@@ -42,9 +54,9 @@ Details and updates about class meetings, office hours, teaching assistants, ass
 
 **Further information:** [UIC Computer Science course catalog](https://catalog.uic.edu/ucat/course-descriptions/cs/).
 
-## Dr. Bandy's Course Description
+## Section-Specific Course Description
 
-What does it mean for Computer Scientists to be socially responsible? Billions of people interact with computational systems every day for communication, amusement, work, and more. Although many interactions appear to happen seamlessly, even the most mundane human-computer interaction often has ethical implications related to privacy, climate, power, inequality, public health, and more. To explore these ethical implications, this course will survey classical perspectives of ethics (i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care Ethics) and practice using them to interpret real-world situations involving humans and computers. Students will engage with a range of scholarship related to ethical issues in algorithmic decision-making, data management, user interface design, software engineering, search engines, algorithmic media feeds, large language models, and chatbots, to name some examples. Class sessions will promote active engagement through peer teaching, small group discussions, and more.
+What does it mean for Computer Scientists to be socially responsible? Billions of people interact with computational systems every day for communication, amusement, work, travel, education, and more. Although many such interactions appear to happen seamlessly, even the most mundane human-computer interaction often has ethical implications (e.g. related to privacy, climate, power, inequality, public health). To explore these ethical implications, this course will survey classical perspectives of ethics (i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care Ethics) and practice using them to interpret real-world situations involving humans and computers. Students will explore ethical issues in algorithmic decision-making, data management, user interface design, software engineering, search engines, algorithmic media feeds, large language models, and chatbots, to name some examples. Class sessions will promote active engagement through peer teaching, small group discussions, and other interactive exercises.
 
 ## Learning Priorities
 
@@ -55,9 +67,11 @@ Namely, learning ethics is an ongoing practice. This class will therefore encour
 Still, by the end of the course, you should be able to:
 
 - analyze events and ethical dilemmas through the four lenses discussed in class: virtue ethics, deontological ethics, utilitarian ethics, and care ethics;
-- identify and describe recurring ethical challenges in the design and use of computing systems;
-- explain fundamental professional responsibilities related to ethical, legal, security, and social issues in computing; and
-- communicate ethical analyses clearly to different audiences.
+- explain fundamental professional responsibilities related to ethical, legal, security, and social issues in computing, including recurring ethical challenges;
+- communicate ethical analyses clearly to different audiences, in writing and in a spoken presentation with visual aids;
+- trace hypothetical and real-world ethical issues through various design and engineering decisions (iand describe alternatives);
+- read a full-length book related to a computing ethics topic and describe what you learned to your peers; and
+- articulate and justify your own emerging ethical commitments
 
 **Course requirement status:** CS 377 is [required](https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/) for a BS in Computer Science at UIC.
 
@@ -77,23 +91,43 @@ Still, by the end of the course, you should be able to:
 | Technology's role in peace, conflict, and war | Intellectual property, licensing, open-sourcing |
 | Dilemmas in cybersecurity | Medical/health technologies |
 
-## Learning Materials
+## Materials
 
-Readings and other materials will be provided through Canvas, printed copies, web archives, and/or linked PDFs.
+Readings and other materials will be provided through the course website, web archives, and/or links in the public course website. Materials with copyright restrictions will be distributed through Canvas and/or printed copies. Please protect the copyright integrity of that material.
 
 There is no required textbook, however, the course draws heavily from *Computing and Technology Ethics: Engaging through Science Fiction* by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
 
-Students will occasionally make their own selections of different research papers, news articles, case studies, books, and other materials to present and/or discuss in class.
+Students will occasionally make their own selections of different research papers, news articles, case studies, books, and/or other materials.
+
+If obtaining any course material presents a challenge for any reason, please tell me as soon as possible.
+
+## Respect for Copyright
+
+I try to build this course out of open materials (public domain, Creative Commons, open-access preprints, and things I wrote myself), and where I can, I link them publicly on [doethics.fun](https://doethics.fun/).
+
+Some materials are not open, and those are distributed only through Canvas. Please protect the integrity of that material: do not upload course materials you did not create to third-party websites, and do not share them with people who are not enrolled in the course. This includes worksheets, rubrics, and any readings posted behind the Canvas login.
+
+Work you create for this course belongs to you. If I would like to reuse something you made — as an example for a future class, or on the course website — I will ask you first, and "no" is a complete answer with no effect on your grade.
 
 ## Growth Mindset
 
-Once again, unlike many other courses in the Computer Science department, the questions and problems discussed in this class often lack verifiable, complete, computable solutions. In many cases, there is no correct answer (nor even a general consensus!) to resolve ethical challenges.
+Once again, unlike many other courses in the Computer Science department, the questions and "problems" discussed in this class often lack verifiable, complete, computable solutions. In many cases, there is no correct answer (maybe not even a general consensus!) to resolve ethical challenges.
 
-For this reason as well as others, you may find course materials and exercises to be uniquely challenging. However, they are crucial to your personal growth and development. They are intended to help your intellectual development, not to trick you or discourage you. There may be times when you need extra help or extra time to process materials in order to reach your own understanding, which is quite normal.
+For this reason as well as others, you may find course materials and exercises to be uniquely challenging. However, they are crucial to your personal growth and development. They are not intended to trick you or discourage you or make you feel uncomfortable. That being said, there may be times when you need extra help or extra time to process materials in order to reach your own understanding, which is quite normal.
 
-Any student can succeed if they attend class consistently, participate in discussions, complete exercises, thoughtfully engage with feedback (including feedback from the instructor, TAs, and peers), and contact the instructor when struggling. These habits will help you develop a thorough understanding of the course material and ultimately succeed in the course.
+Any student can succeed if they attend class consistently, participate in discussions, complete exercises, thoughtfully engage with feedback (including feedback from the instructor, TAs, and peers), and ask for help when struggling. These habits will help you develop a thorough understanding of the course material and ultimately succeed in the course.
 
 If we are indeed successful, by the end of the course, you will develop an understanding of your own values and the ethical reasoning behind them. This is useful not only for the course, the CS degree, and your future career, but also for your life in general.
+
+## Tips for Success
+
+Concretely, "successful" students in this class will:
+
+- review materials (readings, videos, etc.) before class, and write the pre-class reflection while the reading is still fresh
+- bring questions to class
+- start the "read a book" exercise early rather than treating it as an end-of-semester problem
+- come to drop-in hours at least once
+- reach out as early as possible if/when feeling lost or confused about anything
 
 ## Technology Outside the Classroom
 
@@ -175,25 +209,46 @@ You can expect the following correspondence between your percentage grade in the
 | 59% or below | 60–69% | 70–79% | 80–89% | 90–100% |
 | Failure | Poor but passing | Average | Good | Excellent |
 
-## Tests
+## Student Accountability for Coursework
+
+Detailed instructions and a rubric for every exercise will be posted on Canvas, usually at least one week before the work is due. If an exercise is still being developed, its Canvas page will say so, and I will announce it in class once it is ready.
+
+Unless an exercise says otherwise:
+
+- Out-of-class exercises and pre-class reflections are submitted in Canvas by the posted due date.
+- In-class group exercises are completed and turned in on paper during class
+	- another reason why attendance matters.
+- "Read a Book" milestones (selection, report, presentation) each have their own due date, spread across the semester
+
+Expect feedback on exercises within about one week of the due date, and feel free to ask me if it gets later. See also "Feedback, Revisions, and Regrading" below.
+
+## Midterm Grades
+
+Grades in Canvas are kept current throughout the semester, so you can check where you stand at any point.
+
+Around the midpoint of the semester I will also do a check-in: if your grade or attendance suggests you are at risk of not passing, I will email you directly so we have time to intervene. You are always welcome to come to drop-in hours to ask about your grade.
+
+## Tests and Final Exams
 
 There will be no tests or examinations in this class. I agree with Carl Rogers^[*On Becoming a Person*, Chapter 14] that life itself offers enough examinations, and I hope that what you learn in this class will help you meet life's tests with more confidence and satisfaction. See above for details regarding your final grade.
 
+**There is no final exam in this course**, and no meeting will be scheduled during the university's final examination period. Check Canvas for due dates at the end of the semester.
+
 ## Attendance and Participation
 
-Showing up makes a substantial difference in this course (and in life). For this class in particular, meetings are designed around table discussions and group work, so students are expected to attend, arrive on time, and participate.
+Showing up makes a substantial difference in this course (and in life). Many class meetings are intentionally designed around table discussions and group work, so students are expected to attend, arrive on time, and participate.
 
-**Please notify the instructor as soon as possible** when illness, personal emergencies, university obligations, religious observances, or other circumstances may prevent attendance. This is a courtesy to the community, as unexpected absences and late arrivals can be disruptive.
+**Please notify the instructor as soon as possible** when illness, personal emergencies, university obligations, religious observances, or other circumstances may prevent attendance. Note that this is also a courtesy to the community, as unexpected absences and late arrivals can be disruptive to everyone in class.
 
-I take attendance each class. Three absences may be taken without penalty, and they do not have to be explicitly excused. If a student misses more than three classes without notifying the instructor, the instructor will reach out to them, and reserves the right to lower the "Attendance, Participation, and Civility" portion of the overall grade.
+I take attendance each class. Four absences may be taken without penalty, and they do not have to be explicitly excused. If a student misses more than four classes without notifying the instructor, the instructor will reach out to them, and reserves the right to lower the "Attendance, Participation, and Civility" portion of the overall grade.
 
-Generally, if you miss a fourth class without notifying the instructor, your "Attendance, Participation, and Civility" grade will be lowered from 20/20 to 18/20. These deductions will be noted in Canvas.
+Generally, if you miss a fifth class without notifying the instructor, your "Attendance, Participation, and Civility" grade will be lowered from 20/20 to 18/20. Additional deductions (i.e. two points per unexcused absence) will be noted in Canvas.
 
-**Students who miss more than half of all class sessions will not be able to pass the course.** I hope we will not have to get into the specific counts - gain, I will reach out if your attendance becomes an issue.
+**Students who miss more than half of all class sessions will not be able to pass the course.** I hope we will not have to get into the specific metrics and rounding schemes - again, I will reach out if your attendance becomes an issue.
 
-**Attendance-related accommodations:** If you have a Letter of Accommodation from the Disability Resource Center that includes accommodations around attendance, those accommodations take precedence over the attendance and late work policies described here. Please share your LOA with me and we will work out how the accommodations apply to this course.
+**Attendance-related accommodations:** If you have a Letter of Accommodation from the Disability Resource Center that includes accommodations around attendance, those accommodations take precedence. Please share your LOA with me as soon as possible and we will work out how the accommodations apply to this course.
 
-**Student-athletes:** UIC has an [official missed class time policy](https://uicflames.com/sports/2020/10/26/advising-services) under which student-athletes provide formal documentation for class time missed due to NCAA or institutionally sanctioned events. Student Athlete Academic Services (SAAS) will provide you with that documentation; please bring it to me as early as you can so we can plan around it.
+**Student-athletes:** UIC has an [official missed class time policy](https://uicflames.com/sports/2020/10/26/advising-services) under which student-athletes provide formal documentation for class time missed due to NCAA or institutionally sanctioned events. Student Athlete Academic Services (SAAS) will provide you with that documentation; please bring it to me as early as you can.
 
 ## Late Work
 
@@ -201,11 +256,11 @@ Due dates will be listed in Canvas, and there is an automatic "sliding scale" th
 
 Anything submitted more than one week after the original due date will only receive 50% credit.
 
-If you anticipate any difficulty meeting a due date, contact the instructor as soon as possible.
+If you anticipate any difficulty meeting a due date, contact the instructor as soon as possible. I am often able to adjust due dates, especially if multiple people want/need an extension.
 
 ## Feedback, Revisions, and Regrading
 
-We aim to return feedback on each exercise within about one week of its due date, give or take.
+I aim to return feedback on each exercise within about one week of its due date, give or take.
 
 Opportunities to revise an exercise are specific to that exercise, as is the process for requesting a regrade. Both will be described in the instructions and rubric for the exercise on Canvas. If you believe an exercise was graded in error, contact the instructor as soon as possible (I prefer to avoid end-of-semester panic sessions).
 
@@ -213,13 +268,13 @@ Opportunities to revise an exercise are specific to that exercise, as is the pro
 
 Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/).
 
-Although I try to use open materials (i.e. public domain, Creative Commons, etc.), please help protect copyright integrity when appropriate, namely for materials distributed through Canvas.
+Although I try to use open materials (i.e. public domain, Creative Commons, etc.), please help protect copyright integrity when appropriate, namely for materials distributed through Canvas or printed copies.
 
 In line with UIC's mission to provide "an environment in which research, learning, and scholarship can flourish and in which all endeavors are guided by academic and professional integrity," **the work you turn in for this class must be your own work**.
 
 This is to ensure that **you** develop skills and knowledge from this course that will be valuable to you in your future courses, your career, and other areas of your life. 
 
-This does not mean that you need to complete all work in a bunker. Rather, you are encouraged to discuss your ideas with friends and classmates, and to explore related work (i.e. academic papers, blogs, video essays, forums, etc.). An important part of scholarship is standing on the shoulders of giants,^[Ironically, while this phrase is often attributed to Isaac Newton in a letter from 1676, it was first recorded in John of Salisbury's book *Metalogicon* from 1159. I learned this from a blog post on BookBrowse.com] (after all, we are in the City of the Big Shoulders^[Sandburg, Carl. "Chicago." *Poetry* (March 1914).]) and acknowledging whose shoulders we stand upon.
+This does not mean that you need to complete all work in a personal Faraday cage. Rather, you are encouraged to discuss your ideas with friends and classmates, and to explore related work (i.e. academic papers, blogs, video essays, forums, etc.). An important part of scholarship is standing on the shoulders of giants,^[Ironically, while this phrase is often attributed to Isaac Newton in a letter from 1676, it was first recorded in John of Salisbury's book *Metalogicon* from 1159. I learned this from a blog post on BookBrowse.com] (after all, we are in the City of the Big Shoulders^[Sandburg, Carl. "Chicago." *Poetry* (March 1914).]) and acknowledging whose shoulders we stand upon.
 
 In other words, **always cite your sources**!
 
@@ -227,11 +282,42 @@ In other words, **always cite your sources**!
 
 I will reach out to you personally before submitting a report of academic misconduct.
 
-Of particular interest as of August 2026 is the use of LLM-based tools and their implications for academic integrity. I am intentionally setting up many exercises this semester to be in-class, on-paper, in-person, etc., to reduce the possibility of using such tools for class exercises.
+## Use of Generative AI
 
-Some exercises will have a "yellow light" policy for using LLM-based tools such as ChatGPT, Claude, Gemini, etc. This means that you may "proceed with caution" and use such tools to complete the exercise, provided that you cite your use of it.
+Of particular interest as of August 2026 is the use of LLM-based tools and their implications for academic integrity (i.e. ChatGPT, Claude, Gemini, etc.). I am intentionally setting up many exercises this semester to be in-class, on-paper, in-person, etc., to reduce the possibility of using such tools for class exercises.
 
-TODO. More details TK.
+For individual exercise policies, this course uses **CTA rail signals**. Whereas a traffic light has one lamp and one meaning, a rail signal stacks two lamps and tells you about the block you are in *and* the block ahead. The explanations below are from the 1973 CTA rulebook.
+
+**Every exercise on Canvas will have a signal in the rubric.**
+
+### Double red — "stop and stay"
+
+![Two red lamps stacked vertically. CTA rulebook: "Stop and stay."](../assets/signals/signal-01-stop-stay.svg){height=1.5in}
+
+**No use of AI/LLM-based tools.** This is the default for this course, and it covers all in-class work, all pre-class reflections, and the "read the book" portion of the book project.
+
+
+### Yellow over red — "proceed with caution, prepared to stop"
+
+![A yellow lamp above a red lamp. CTA rulebook: "Proceed with caution on main route, prepared to stop at next signal."](../assets/signals/signal-02-caution-main.svg){height=1.5in}
+
+**Limited, optional, specific use, with citation.** Certain exercises name a narrow set of tasks where LLM-based tools are permitted but not required.
+
+
+### Double yellow — "proceed at restricted speed"
+
+![Two yellow lamps stacked vertically. CTA rulebook: "Proceed with caution at restricted speed."](../assets/signals/signal-09-caution-restricted.svg){height=1.5in}
+
+**You choose where the tools fit, with citation.** A small number of later exercises may give the judgment call entirely to you. This seems to be how the real world works, so it's good to get some practice.
+
+
+### Citing your use
+
+Whenever the signal is yellow-over-red or double yellow, include a citation:
+
+> I used [tool and version] to [what you asked it to do]. My prompt was: [prompt, or a summary if it was long]. Here is what I did with the output: [what you kept, changed, or threw away].
+
+This policy is my current best judgment as of August 2026, and it will keep evolving, maybe even during this semester. I am genuinely curious about evidence-based arguments for various policies - if you see them, bring them to class!
 
 ## Visitors
 
@@ -241,7 +327,7 @@ This class may welcome visitors (i.e. prospective students, guest speakers, etc.
 
 As of right now I do not plan to record class sessions this semester. If this changes, I will ask for your permission to record, and it will most likely be only audio.
 
-This is especially important in a discussion-based class: recording can discourage open conversation, particularly around sensitive content, and much of what we do together depends on that openness.
+This is especially important in a discussion-based class: recording can discourage open conversation and participation, and our class will be more engaging for everyone if more people can participate.
 
 Similarly, please do not record any video or audio from class without permission.
 
@@ -276,7 +362,7 @@ To receive accommodations, you will need to disclose the disability to the DRC, 
 
 ## Religious Accommodations
 
-I will make every effort to avoid requiring that work be submitted on [religious holidays](https://oae.uic.edu/religious-calendar/). Students seeking religious accommodations should notify the instructor by the tenth day of the semester, or at least five days in advance when the observance occurs earlier. Please submit this form by email with the subject heading: "YOUR NAME: Requesting Religious Accommodation."
+I will make every effort to avoid requiring that work be submitted on [religious holidays](https://oae.uic.edu/religious-calendar/). Students seeking religious accommodations should notify the instructor by the tenth day of the semester, or at least five days in advance when the observance occurs earlier. Please email me with the subject heading "YOUR NAME: Requesting Religious Accommodation" and the date(s) you will be absent. You do not need to supply any verification of your attendance at religious services.
 
 I will make every reasonable effort to honor your request and not penalize you for missing class. If an assignment is due during your absence, you will be given an assignment equivalent to the one completed by students in attendance. Students may appeal through [campus grievance procedures](https://oae.uic.edu/religious/) for religious accommodations.
 
@@ -297,6 +383,12 @@ In my view, being an effective educator is a life-long journey, meaning I still 
 ## Preferred Names and Pronouns
 
 If your name or pronouns do not match the class roster, please let the class know so that we can address you the way you want to be addressed. I use he/him pronouns. For more information, see: <https://www.mypronouns.org/what-and-why>.
+
+## Community Agreement
+
+The list below is a starting point, not a finished rulebook. During the first week we will go through it together, and I will ask you to suggest additions — practices you want from me, from the TAs, and from each other. We will take a straw vote on the final version, post it in Canvas, and revisit it during the semester.
+
+The version we agree on governs how we treat each other in this room. If something in it stops working, say so and we will change it.
 
 ## Guidelines for Participation and Classroom Conduct
 
@@ -332,8 +424,8 @@ Below are some of the many support services and resources available to all UIC s
 
 - [Current Student Resources](https://today.uic.edu/resources/current-student-resources) – a one-stop shop for links to resources in the following categories: General, Academic, Student Support, Student Life, Technology, Health and Safety, and Getting Around Campus
 - UIC [Tutoring Resources](https://tutoring.uic.edu/)
-- UIC College of Engineering Tutoring Program
-- The First-at-LAS academic success program for first-generation students
+- UIC College of Engineering Tutoring Program (link TBD — ask your Engineering advisor, or see me)
+- Academic success programming for first-generation students (link TBD)
 - Programs and initiatives supporting the UIC undergraduate experience and academic programs through the [Student Success Initiative](https://studentsuccess.uic.edu/programs-and-supports/)
 - If you are experiencing personal hardships (e.g. personal and family emergencies, academics, interpersonal conflicts, personal safety, physical and mental health concerns, food or housing insecurity) and need resources and assistance, please reach out to the [Student Assistance](https://dos.uic.edu/student-assistance/) division, supported by UIC's Office of the Dean of Students
 - [Student Guide for Information Technology](https://uofi.app.box.com/s/0nyho51r24yo0pivafibb1nvqogjm401) – a comprehensive resource for UIC students describing the most commonly used IT services and tools supporting your success
@@ -347,28 +439,34 @@ We all need the help and the support of our UIC community. Please visit my offic
 
 ## Academic Success
 
-- Equity and Inclusion in Engineering Program
-- **UIC Library** – locations on east and west campus, with research support in person or online via chat. Stop by the reference desk in the IDEA Commons at Daley Library, make an appointment for research help, or consult the subject-specific Research Guides.
-- Offices supporting the UIC undergraduate experience and academic programs
+- Equity and Inclusion in Engineering Program (link TBD — ask your Engineering advisor, or see me)
+- **[UIC Library](https://library.uic.edu/)** – locations on east and west campus, with research support in person or online via chat. Stop by the reference desk in the IDEA Commons at Daley Library, make an appointment for research help, or consult the subject-specific [Research Guides](https://researchguides.uic.edu/).
+- **[Academic Center for Excellence (ACE)](https://ace.uic.edu/)** – individualized help with reading, writing, study skills, and time management. Call (312) 413-0031.
+- [Academic advising](https://advising.uic.edu/) and the offices supporting the UIC undergraduate experience and academic programs
 
 ## Wellness
 
-- Access U&I Care Program for assistance with personal hardships
-- **UIC Counseling Center** – free, confidential intake with a trained therapist for students who pay the student health services fee, leading to brief individual or group therapy, psychiatry referrals, or care coordination with a community provider. Located in the Student Services Building; call (312) 996-3490 during business hours. (See above for 24/7 crisis intervention.)
-- **Campus Advocacy Network** – confidential victim services and advocacy under Title IX, which gives you the right to an education free from gender-based violence and discrimination, including sexual assault, domestic violence, harassment, and stalking. Call 312-413-8206 or visit <http://can.uic.edu/>. To make a report to UIC's Title IX office, email [TitleIX@uic.edu](mailto:TitleIX@uic.edu) or call (312) 996-8670.
+- **[U&I Care Program](https://dos.uic.edu/student-assistance/ui-care/)** – assistance for students facing personal hardships, including emergency funds and referrals
+- **[UIC Counseling Center](https://counseling.uic.edu/)** – free, confidential intake with a trained therapist for students who pay the student health services fee, leading to brief individual or group therapy, psychiatry referrals, or care coordination with a community provider. Located in the Student Services Building; call (312) 996-3490 during business hours. (See above for 24/7 crisis intervention.)
+- **[Campus Advocacy Network](https://can.uic.edu/)** – confidential victim services and advocacy under Title IX, which gives you the right to an education free from gender-based violence and discrimination, including sexual assault, domestic violence, harassment, and stalking. Call 312-413-8206. To make a report to UIC's Title IX office, email [TitleIX@uic.edu](mailto:TitleIX@uic.edu) or call (312) 996-8670.
 
 ## Safety
 
 - **UIC SAFE App** ([link to download](https://ready.uic.edu/safetyresources/uic-safe-app/)) – a free personal security tool that puts you in easy contact with dispatchers and first responders in an emergency
-- UIC Safety Tips and Resources
+- [UIC Safety Resources](https://ready.uic.edu/safetyresources/) and the [UIC Police](https://police.uic.edu/) – safety tips, alerts, and campus security programs
 - **Walking Safety Escort and Night Ride** – use either if you are uncomfortable traveling anywhere on campus. You are discouraged from staying in university buildings alone, including lab rooms, after hours.
+- **[Emergency response guides](https://ready.uic.edu/)** – from the Office of Preparedness and Response. Please review the recommendations for various emergency situations.
 - Emergency: Dial 5-5555 from a campus phone, or (312) 355-5555 from a cell phone
-
-*The following are mostly boilerplate blurbs from the syllabus template published by UIC's Center for the Advancement of Teaching Excellence (CATE).*
 
 ## Support for Parenting Students
 
+Balancing school, childcare, and work can be difficult, and I would rather know about it than not. If you are a parenting student, please tell me early so we can plan around it. Occasionally bringing a child to class to cover an unexpected gap in care is perfectly acceptable — sit near the door so you can step out if you need to. Non-parenting classmates, please leave the seats near the door available for this.
+
 UIC supports parenting students by providing affordable, high-quality childcare for infants, toddlers, and young children, along with a comprehensive wraparound care system, study-play areas across campus, accessible lactation rooms, year-round family events, and more. For more information, contact Melinda Young ([mmcghe2@uic.edu](mailto:mmcghe2@uic.edu)) or visit the [Little Sparks website](https://littlesparks.uic.edu).
+
+## Tutoring and Academic Support Centers
+
+*The blurbs in this subsection are mostly boilerplate from the syllabus template published by UIC's Center for the Advancement of Teaching Excellence (CATE).*
 
 **The Writing Center** offers friendly and supportive tutors who can help you with reading and writing in any of your courses, not just English. Tutors are ready to help with other writing as well, such as job applications, personal statements, and resumes. The tutor and you will work together to decide how to improve your writing. If you have not started your assignment, that is OK. A tutor can help you brainstorm or make an outline. Tutors understand that you might be using the Writing Center for the first time. They are ready to guide you through your first session. You can choose to work with a tutor in person or in real time over the internet using video, audio, or chat and a whiteboard. For more information and to schedule an appointment, visit the [Writing Center website](https://writingcenter.uic.edu/).
 
@@ -376,9 +474,11 @@ UIC supports parenting students by providing affordable, high-quality childcare 
 
 **The Academic Center for Excellence (ACE)** can help if you feel you need more individualized instruction in reading and/or writing, study skills, time management, etc. Please call (312) 413-0031 or visit the [Academic Center for Excellence (ACE)](https://ace.uic.edu/) website for more information.
 
-**Emergency response guides** can be found at the [Office of Preparedness and Response](https://ready.uic.edu/). Please review and acquaint yourself with the guide and recommendations for various emergency situations.
+## Health Services
 
 **Student Health Services** are available if you get sick during the semester. The Family Medicine Center is committed to providing high-quality, student centered care and services. It has attending physicians, residents, and nurse practitioners on staff to provide the full range of primary health care services. The Family Medicine Center also offers a limited set of health services at no additional cost to students who pay the Student Health Service Fee (SHSF). Services include caring for an acute or urgent illness (e.g., cold, strep throat, asthma attack, flu) or an injury. More information can be found on the Family Medicine Center's Student Health webpage.
+
+# A Closing Note
 
 **Lastly**, here is a picture of Hannah Arendt. She said that "evil comes from a failure to think." If we are successful in this class, we will do some real thinking, and perhaps prevent some evil.
 
