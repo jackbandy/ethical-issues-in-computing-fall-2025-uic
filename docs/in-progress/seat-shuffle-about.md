@@ -10,19 +10,35 @@ From what I have observed in dozens of classrooms, as well as what I have read i
 
 ## How It Works
 
-The algorithm itself is pretty simple. Each table has four seats, so the basic goal is to create four "slips" for each destination table (e.g. four slips that say "table 1"), shuffle them around, and then give a random slip to each seat.
+The basic goal is to create a "slip" for each seat naming a destination table, shuffle them around, and then give a random slip to each occupied seat.
 
 If people were literally drawing slips from a hat, there is a possibility that they would end up at the same table where they are currently sitting. They might also migrate to a different table with the same people from their original table. This tool has constraints to prevent both such scenarios.
+
+Because the constraints interact — especially once seats are erased — the tool does not draw slips at all. It works out how many students each destination table should receive, then solves the routing as a small max-flow problem: each table supplies the students sitting at it, each destination demands its share, and every table-to-table link has capacity one, which is what forces a table's students to split up. A flow that moves everybody is a valid seating. The result is then randomly walked around the space of valid seatings by trading destinations between pairs of tables, which keeps every constraint intact while making sure the same room does not produce the same answer twice.
+
+## Showing the Result
+
+Two checkboxes control how much of the answer is drawn. **Colors** paints each table in its CTA line color and puts a dot at every occupied seat in the color of the table that seat is heading to, which is enough to read the room at a glance. **Paths** draws the actual routes, each one running through the aisles to the table it arrives at. They are independent, so you can use either, both, or neither.
+
+## Erasing Seats
+
+Click any seat to erase it, and click it again to bring it back. An erased seat is a student who is not there today — an absence, or a corner of the room you are not using. Erased seats are left out of the shuffle.
+
+The chair itself does not disappear, though, so a table with an erased seat can still *receive* a full four students. The exception is a table where every seat is erased: that table is out of the room entirely, and nobody is sent to it.
+
+With enough seats erased the constraints can become impossible to satisfy at once — a table of four has to split four ways, and those four destinations need at least twelve students between them. When that happens a ⚠️ appears in the top-right corner; hover it for an explanation of which rule ran out of room. The tool would rather say so than quietly break one of its own rules.
 
 The "loading" is purely for entertainment / amusement. The shuffle itself runs quickly (in constant time), but the spinner effect is fun to watch for a few seconds. Same with the drawing animation. If you want more details, check out the javascript (`shuffle.js`) in the repository. It was largely coded by Copilot.
 
 ## Constraints
 
-For now, this tool works for a single use case: there are eight tables with four seats each. When the seats are shuffled...
-- At any table, all four seats go to **different** destination tables.
+This tool assumes a room of eight tables with four seats each, with any number of those seats erased. When the seats are shuffled...
+- At any table, the occupied seats all go to **different** destination tables.
 - The destination table is always different from the current table.
-- Every table (1–8) receives exactly **four** assignments.
-- The same seed number always produces the same assignment.
+- Any table that receives students receives **at least three** of them — never a lone student or a pair — and never more than four.
+- No table sits empty unless there genuinely aren't enough students to fill it under the rules above.
+- A table with every seat erased is out of the room, and receives nobody.
+- The same seed number, with the same seats erased, always produces the same assignment.
 
 ## TODO
 

@@ -1,3 +1,49 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// Visual Seat Shuffle — sends every student to a new table.
+//
+// THE CONSTRAINTS
+//
+// A shuffle is only ever shown if it satisfies all of these at once. When they
+// can't all be met, the tool says so (⚠️ in the header) rather than quietly
+// breaking one. See generateAssignment() for how they are solved.
+//
+//   1. Nobody stays put.
+//      A seat's destination is never its own table.
+//
+//   2. Tablemates split up.
+//      The occupied seats at one table all go to different destinations, so no
+//      two people travel together.
+//
+//   3. No lonely tables.
+//      A table that receives anyone receives at least MIN_PER_TABLE of them.
+//      A destination of one or two people isn't a table discussion.
+//
+//   4. Nobody stands.
+//      A table receives at most SEATS_PER_TABLE students — it has that many
+//      chairs whether or not anyone is sitting in them today.
+//
+//   5. No wasted tables.
+//      As many tables are used as rules 1–4 allow. A table only goes empty
+//      when there genuinely aren't enough students to fill it.
+//
+//   6. Erased seats sit out.
+//      A seat clicked to "erase" it is an absent student. It gets no
+//      destination and sends nobody. The chair still counts toward rule 4,
+//      because the chair is still there.
+//
+//   7. Erasing a whole table removes it from the room.
+//      A table with every seat erased receives nobody at all — it is the one
+//      way to take a table out of rules 4 and 5.
+//
+//   8. Reproducible.
+//      The same seed with the same seats erased always produces the same
+//      assignment. Changing either changes the result.
+//
+// Rules 2 and 3 are the ones that fight each other: a table of four splits four
+// ways, and those four destinations need 4 × MIN_PER_TABLE students between
+// them. A small room can therefore be genuinely impossible to shuffle.
+// ─────────────────────────────────────────────────────────────────────────────
+
 // CTA line colors assigned to groups 1–8
 const CTA_COLORS = [
   '#c60c30', // 1 Red
@@ -27,6 +73,11 @@ const CTA_TABLE_COLORS = [
 const PILL_R    = 8;
 const PILL_LIFT = 8;
 
+// Origin marker at each occupied seat: a colored dot on a white halo. Sized to
+// stay legible when the colors layer is on by itself, with no line to follow.
+const DOT_RING_R = 13;
+const DOT_R      = 8.5;
+
 // Grid positions (row, col) for tables in DOM order: t1…t8
 const TABLE_GRID = [
   {row:0, col:1}, {row:0, col:2},
@@ -34,20 +85,22 @@ const TABLE_GRID = [
   {row:2, col:0}, {row:2, col:1}, {row:2, col:2},
 ];
 
-// Base assignment: each row is a set of 4 distinct groups for one table.
-// Every group 1–8 appears in exactly 4 of the 8 rows.
-const BASE = [
-  [1, 2, 3, 4],
-  [5, 6, 7, 8],
-  [1, 2, 5, 6],
-  [3, 4, 7, 8],
-  [1, 3, 5, 7],
-  [2, 4, 6, 8],
-  [1, 4, 6, 7],
-  [2, 3, 5, 8],
-];
+// Room shape.
+const NUM_TABLES      = 8;
+const SEATS_PER_TABLE = 4;
+const NUM_SEATS       = NUM_TABLES * SEATS_PER_TABLE;
 
-// Last computed assignment; used by drawLines so it doesn't rely on live DOM text.
+// A table either receives nobody or receives at least this many students —
+// a destination of one or two people isn't a table discussion.
+const MIN_PER_TABLE = 3;
+
+// Seats erased by clicking them: absent students, or a corner of the room that
+// isn't in use today. Indexed ti * SEATS_PER_TABLE + si.
+const erasedSeats = new Array(NUM_SEATS).fill(false);
+
+// Last computed assignment; used by drawOverlay so it does not rely on live DOM
+// text. Each entry is a destination table number (1–8), or null for an erased
+// seat.
 let currentAssignment = null;
 
 // Incremented on each shuffle to cancel in-flight animations from prior shuffles.
@@ -100,59 +153,226 @@ function fisherYates(arr, rand) {
 }
 
 // ── Constrained assignment ────────────────────────────────────────────────────
-// Guarantees every table has 4 seats assigned to 4 *different* groups.
-// Same seed always produces the same result.
+// Every active seat is sent to a table other than its own, the active seats at
+// any one table all go to different destinations, and any table that receives
+// students receives at least MIN_PER_TABLE of them and never more than its
+// SEATS_PER_TABLE chairs. As many tables are used as those rules allow, so a
+// table only goes empty when there genuinely aren't enough students to fill it.
+//
+// Same seed + same erased seats always produces the same result.
 
 function generateAssignment(seed) {
-  const rand = mulberry32(seed);
+  // Active seats per table.
+  const cap = [];
+  for (let t = 0; t < NUM_TABLES; t++) {
+    let c = 0;
+    for (let s = 0; s < SEATS_PER_TABLE; s++) {
+      if (!erasedSeats[t * SEATS_PER_TABLE + s]) c++;
+    }
+    cap.push(c);
+  }
+  const total = cap.reduce((a, b) => a + b, 0);
 
-  // 1. Permute group labels: relabel groups 1–8 with a random bijection
-  const groupPerm = [1, 2, 3, 4, 5, 6, 7, 8];
-  fisherYates(groupPerm, rand);
-
-  // 2. Permute which BASE row each physical table uses
-  const tableOrder = [0, 1, 2, 3, 4, 5, 6, 7];
-  fisherYates(tableOrder, rand);
-
-  // 3. For each physical table, apply the group relabeling and shuffle seat order
-  const result = [];
-  for (let ti = 0; ti < 8; ti++) {
-    const seats = BASE[tableOrder[ti]].map(g => groupPerm[g - 1]);
-    fisherYates(seats, rand);
-    result.push(...seats);
+  if (total === 0) {
+    return { ok: false, reason: 'Every seat is erased — click a seat to bring it back.' };
+  }
+  if (total < MIN_PER_TABLE) {
+    return {
+      ok: false,
+      reason: `Only ${total} seat${total === 1 ? '' : 's'} left, and a table needs at least ${MIN_PER_TABLE}.`,
+    };
   }
 
-  repairStationary(result);
-  return result; // 32 values, no stationarys, constraint guaranteed
-}
+  const rand = mulberry32(seedFor(seed));
 
-// Remove any "stationary" seats (where assigned group === home table number).
-// Deterministic: iterates ti 0→7, tj 0→7, picks the first valid swap.
-// Same seed always produces the same repaired output.
-function repairStationary(assignment) {
-  for (let ti = 0; ti < 8; ti++) {
-    const homeGroup = ti + 1;
-    for (let si = 0; si < 4; si++) {
-      if (assignment[ti * 4 + si] !== homeGroup) continue;
-      let fixed = false;
-      for (let tj = 0; tj < 8 && !fixed; tj++) {
-        if (tj === ti) continue;
-        for (let sj = 0; sj < 4 && !fixed; sj++) {
-          const gj = assignment[tj * 4 + sj];
-          if (gj === homeGroup) continue; // ti would still be stationary
-          // Ensure both tables keep 4 distinct groups after the swap
-          const tiNew = assignment.slice(ti * 4, ti * 4 + 4).map((g, k) => k === si ? gj : g);
-          const tjNew = assignment.slice(tj * 4, tj * 4 + 4).map((g, k) => k === sj ? homeGroup : g);
-          if (new Set(tiNew).size < 4) continue;
-          if (new Set(tjNew).size < 4) continue;
-          // Valid swap — gj into ti, homeGroup into tj (homeGroup ≠ tj+1 since ti ≠ tj)
-          assignment[ti * 4 + si] = gj;
-          assignment[tj * 4 + sj] = homeGroup;
-          fixed = true;
-        }
-      }
+  // Try each workable set of destination tables, the fullest room first.
+  for (const dests of candidateDestinations(cap, total, rand)) {
+    for (let attempt = 0; attempt < 40; attempt++) {
+      const incoming = distribute(dests, total, rand);
+      if (!incoming) break;
+      const sets = solveRouting(cap, dests, incoming);
+      if (!sets) continue;
+      diversify(sets, cap, rand);
+      return { ok: true, assignment: layOutSeats(sets, rand), cap };
     }
   }
+
+  // Both usual culprits trace back to the biggest table: its students split
+  // one per destination, so it needs that many other tables to send them to,
+  // and each of those tables needs MIN_PER_TABLE students of its own.
+  const biggest   = Math.max(...cap);
+  const liveCount = cap.filter(c => c > 0).length;
+
+  if (biggest > liveCount - 1) {
+    return {
+      ok: false,
+      reason: `A table of ${biggest} splits ${biggest} ways, but only ${liveCount - 1} other table${liveCount - 1 === 1 ? '' : 's'} ${liveCount - 1 === 1 ? 'is' : 'are'} still in the room. Erase a seat at one of the fullest tables, or restore a table.`,
+    };
+  }
+  if (MIN_PER_TABLE * biggest > total) {
+    return {
+      ok: false,
+      reason: `A table of ${biggest} splits ${biggest} ways, and ${biggest} tables need ${MIN_PER_TABLE * biggest} students between them — there are ${total}. Erase a seat at one of the fullest tables.`,
+    };
+  }
+  return {
+    ok: false,
+    reason: `No arrangement of ${total} students puts ${MIN_PER_TABLE}+ at every table in use — try erasing a seat at a full table, or restoring one elsewhere.`,
+  };
+}
+
+// Mix the erased-seat pattern into the seed, so the same seed number with a
+// different set of erased seats is a different (but still reproducible) shuffle.
+function seedFor(seed) {
+  let h = Math.imul(seed | 0, 0x9E3779B1) | 0;
+  for (let i = 0; i < NUM_SEATS; i++) {
+    if (erasedSeats[i]) h = Math.imul(h ^ (i + 1), 0x85EBCA6B) | 0;
+  }
+  return h;
+}
+
+// Every set of destination tables that could work, ordered by size — largest
+// first, because we want as few empty tables as possible. Ties are broken by
+// the seeded PRNG, so the choice varies between seeds but stays reproducible.
+//
+// An erased seat marks an absent student, not a chair that has been taken
+// away, so a destination table still seats SEATS_PER_TABLE. A table with every
+// seat erased is the exception: it has been taken out of the room, so nobody
+// is routed to it.
+function candidateDestinations(cap, total, rand) {
+  const live = [];
+  for (let t = 0; t < NUM_TABLES; t++) if (cap[t] > 0) live.push(t);
+
+  const out = [];
+  for (let mask = 1; mask < (1 << live.length); mask++) {
+    const dests = live.filter((_, i) => mask & (1 << i));
+
+    // The room must have enough students to give every destination its minimum...
+    if (MIN_PER_TABLE * dests.length > total) continue;
+    // ...and enough chairs between them to seat everybody.
+    if (SEATS_PER_TABLE * dests.length < total) continue;
+    // Each table's students split up, so it needs that many destinations open
+    // to it — its own table doesn't count.
+    const inDests = new Set(dests);
+    if (live.some(s => cap[s] > dests.length - (inDests.has(s) ? 1 : 0))) continue;
+
+    out.push({ dests, key: rand() });
+  }
+
+  out.sort((a, b) => b.dests.length - a.dests.length || a.key - b.key);
+  return out.map(o => o.dests);
+}
+
+// Split `total` students across the destination tables: MIN_PER_TABLE each to
+// start, then hand out the remainder at random among tables with a chair left.
+function distribute(dests, total, rand) {
+  const incoming = {};
+  dests.forEach(t => { incoming[t] = MIN_PER_TABLE; });
+
+  for (let left = total - MIN_PER_TABLE * dests.length; left > 0; left--) {
+    const room = dests.filter(t => incoming[t] < SEATS_PER_TABLE);
+    if (!room.length) return null;
+    incoming[room[Math.floor(rand() * room.length)]]++;
+  }
+  return incoming;
+}
+
+// Max-flow on a tiny network: each source table supplies its seated students,
+// each destination table demands `incoming[t]`, and every source→destination
+// arc has capacity 1, which is what forces a table's students to split up. A
+// flow that saturates the supply is a valid routing; anything less means this
+// particular split can't be seated.
+//
+// Returns one Set of destination tables per source table, or null.
+function solveRouting(cap, dests, incoming) {
+  const SRC = 0;
+  const SNK = 2 * NUM_TABLES + 1;
+  const n   = SNK + 1;
+  const dst = t => NUM_TABLES + 1 + t;
+
+  const res = Array.from({ length: n }, () => new Array(n).fill(0));
+
+  let supply = 0;
+  for (let s = 0; s < NUM_TABLES; s++) {
+    if (!cap[s]) continue;
+    res[SRC][s + 1] = cap[s];
+    supply += cap[s];
+    dests.forEach(t => { if (t !== s) res[s + 1][dst(t)] = 1; });
+  }
+  dests.forEach(t => { res[dst(t)][SNK] = incoming[t]; });
+
+  // Edmonds–Karp.
+  let flow = 0;
+  for (;;) {
+    const prev = new Array(n).fill(-1);
+    prev[SRC] = SRC;
+    const queue = [SRC];
+    while (queue.length && prev[SNK] === -1) {
+      const u = queue.shift();
+      for (let v = 0; v < n; v++) {
+        if (prev[v] === -1 && res[u][v] > 0) { prev[v] = u; queue.push(v); }
+      }
+    }
+    if (prev[SNK] === -1) break;
+
+    let bottleneck = Infinity;
+    for (let v = SNK; v !== SRC; v = prev[v]) bottleneck = Math.min(bottleneck, res[prev[v]][v]);
+    for (let v = SNK; v !== SRC; v = prev[v]) {
+      res[prev[v]][v] -= bottleneck;
+      res[v][prev[v]] += bottleneck;
+    }
+    flow += bottleneck;
+  }
+
+  if (flow !== supply) return null;
+
+  // A unit-capacity arc with no residual left is an arc that carried a student.
+  const sets = Array.from({ length: NUM_TABLES }, () => new Set());
+  for (let s = 0; s < NUM_TABLES; s++) {
+    if (!cap[s]) continue;
+    dests.forEach(t => { if (t !== s && res[s + 1][dst(t)] === 0) sets[s].add(t); });
+  }
+  return sets;
+}
+
+// Walk the solution to a random point in the space of valid solutions. Trading
+// one destination between two source tables leaves every constraint intact:
+// both tables keep the same number of distinct destinations, neither picks up
+// its own table, and both destinations keep the same head count.
+function diversify(sets, cap, rand) {
+  const live = [];
+  for (let t = 0; t < NUM_TABLES; t++) if (cap[t] > 0) live.push(t);
+  if (live.length < 2) return;
+
+  for (let i = 0; i < 400; i++) {
+    const s1 = live[Math.floor(rand() * live.length)];
+    const s2 = live[Math.floor(rand() * live.length)];
+    if (s1 === s2) continue;
+
+    const from1 = [...sets[s1]].filter(d => d !== s2 && !sets[s2].has(d));
+    const from2 = [...sets[s2]].filter(d => d !== s1 && !sets[s1].has(d));
+    if (!from1.length || !from2.length) continue;
+
+    const d1 = from1[Math.floor(rand() * from1.length)];
+    const d2 = from2[Math.floor(rand() * from2.length)];
+    sets[s1].delete(d1); sets[s1].add(d2);
+    sets[s2].delete(d2); sets[s2].add(d1);
+  }
+}
+
+// Drop each table's destinations onto its un-erased seats in random order.
+function layOutSeats(sets, rand) {
+  const assignment = new Array(NUM_SEATS).fill(null);
+  for (let t = 0; t < NUM_TABLES; t++) {
+    const dests = [...sets[t]].map(d => d + 1);
+    fisherYates(dests, rand);
+    let k = 0;
+    for (let s = 0; s < SEATS_PER_TABLE; s++) {
+      const i = t * SEATS_PER_TABLE + s;
+      if (!erasedSeats[i]) assignment[i] = dests[k++];
+    }
+  }
+  return assignment;
 }
 
 // ── DOM helpers ───────────────────────────────────────────────────────────────
@@ -169,18 +389,21 @@ function centerOf(el, ref) {
 
 // ── Seat spinner animation ────────────────────────────────────────────────────
 // Each seat gets its own random spin + deceleration duration (2–4.5 s total).
+// pool: the table numbers worth flashing during the spin — tables that have
+//   been erased out of the room never appear.
 // token: invalidated if the user clicks Shuffle again before this seat finishes.
 // onDone: called once the seat has settled on its final value.
 
-function animateSeat(seatEl, finalValue, token, onDone) {
+function animateSeat(seatEl, finalValue, pool, token, onDone) {
   const totalMs = 2000 + Math.random() * 2500; // 2.0 – 4.5 s per seat
   const spinMs  = totalMs * (0.30 + Math.random() * 0.15); // 30–45 % spinning
+  const flash   = () => pool[Math.floor(Math.random() * pool.length)];
 
   seatEl.style.color = 'rgba(255,255,255,0.30)';
 
   const spinInterval = setInterval(() => {
     if (shuffleToken !== token) { clearInterval(spinInterval); return; }
-    seatEl.textContent = Math.floor(Math.random() * 8) + 1;
+    seatEl.textContent = flash();
   }, 70);
 
   setTimeout(() => {
@@ -204,25 +427,45 @@ function animateSeat(seatEl, finalValue, token, onDone) {
           seatEl.style.color = ''; // restore full-white
           onDone();
         } else {
-          seatEl.textContent = Math.floor(Math.random() * 8) + 1;
+          seatEl.textContent = flash();
         }
       }, delay);
     });
   }, spinMs);
 }
 
-// ── Draw paths ────────────────────────────────────────────────────────────────
+// ── Draw overlay ──────────────────────────────────────────────────────────────
+// Two independent layers, each with its own checkbox:
+//
+//   Colors — the tables take their CTA line color and every occupied seat gets
+//            a dot in the color of the table it is heading to. Enough to read
+//            the room at a glance without a line to trace.
+//   Paths  — the routed lines, and the pill each route arrives in.
+//
+// Both are built from the same geometry, so one pass produces either or both.
 
-function drawLines() {
+function showColors() { return document.getElementById('colors-cb').checked; }
+function showPaths()  { return document.getElementById('paths-cb').checked; }
+
+function drawOverlay() {
   const existing = document.getElementById('lines-svg');
   if (existing) existing.remove();
-  if (!currentAssignment) return;
+  document.querySelectorAll('.table').forEach(t => { t.style.background = ''; });
+
+  const wantColors = showColors();
+  const wantPaths  = showPaths();
+  if (!currentAssignment || (!wantColors && !wantPaths)) return;
 
   if (statusClearTimeout) { clearTimeout(statusClearTimeout); statusClearTimeout = null; }
   document.getElementById('shuffle-status').className = 'status-loading';
 
   const tables = Array.from(document.querySelectorAll('.table'));
-  tables.forEach((t, ti) => { t.style.background = CTA_TABLE_COLORS[ti]; });
+  if (wantColors) {
+    tables.forEach((t, ti) => {
+      if (t.classList.contains('table-off')) return; // erased out of the room
+      t.style.background = CTA_TABLE_COLORS[ti];
+    });
+  }
 
   const room     = document.querySelector('.room');
   const roomRect = room.getBoundingClientRect();
@@ -274,9 +517,10 @@ function drawLines() {
   const rawRoutes = [];
   for (let ti = 0; ti < 8; ti++) {
     const { col } = TABLE_GRID[ti];
-    for (let si = 0; si < 4; si++) {
-      const group    = currentAssignment[ti * 4 + si];
-      if (ti === group - 1) continue; // stationarys removed by repairStationary
+    for (let si = 0; si < SEATS_PER_TABLE; si++) {
+      const group    = currentAssignment[ti * SEATS_PER_TABLE + si];
+      if (group === null) continue;   // erased seat — nobody sitting there
+      if (ti === group - 1) continue; // stationarys ruled out by generateAssignment
       const dti      = group - 1;
       const exitLeft = (si % 2 === 0);
       const exitY    = seatCenters[ti][si][1]; // seat y-center
@@ -319,16 +563,21 @@ function drawLines() {
     return { ti, si, group, dti, pts };
   });
 
-  // Offset lines sharing an aisle so they run as adjacent parallel tracks
-  applyParallelOffsets(routes, aisles);
+  // Lane-packing only matters when the lines are actually drawn. Skipping it
+  // also leaves each route's first point exactly on its seat's outer edge,
+  // which is where the colors layer wants its dot.
+  if (wantPaths) {
+    // Offset lines sharing an aisle so they run as adjacent parallel tracks
+    applyParallelOffsets(routes, aisles);
 
-  // The parallel-lane offset above can push a route's approach-aisle segment
-  // as low as (or lower than) its own destination pill when many routes share
-  // an aisle — which would make the final segment climb into the pill from
-  // below instead of dropping into it from above. Re-clamp the last "lane"
-  // waypoint (and its horizontal partner) so the final descent always has a
-  // safe, strictly-downward run into the pill's top.
-  clampApproachDescents(routes);
+    // The parallel-lane offset above can push a route's approach-aisle segment
+    // as low as (or lower than) its own destination pill when many routes share
+    // an aisle — which would make the final segment climb into the pill from
+    // below instead of dropping into it from above. Re-clamp the last "lane"
+    // waypoint (and its horizontal partner) so the final descent always has a
+    // safe, strictly-downward run into the pill's top.
+    clampApproachDescents(routes);
+  }
 
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.id = 'lines-svg';
@@ -346,48 +595,56 @@ function drawLines() {
   const pillElems    = []; // destination pills
 
   routes.forEach(({ group, pts }) => {
-    const color     = CTA_COLORS[group - 1];
-    const pointsStr = pts.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+    const color = CTA_COLORS[group - 1];
 
-    const outline = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
-    outline.setAttribute('points', pointsStr);
-    outline.setAttribute('stroke', 'white');
-    outline.setAttribute('stroke-width', '8');
-    outline.setAttribute('fill', 'none');
-    outline.setAttribute('stroke-linecap', 'round');
-    outline.setAttribute('stroke-linejoin', 'round');
-    outlineElems.push(outline);
+    if (wantPaths) {
+      const pointsStr = pts.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
 
-    const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
-    line.setAttribute('points', pointsStr);
-    line.setAttribute('stroke', color);
-    line.setAttribute('stroke-width', '4.5');
-    line.setAttribute('fill', 'none');
-    line.setAttribute('stroke-linecap', 'round');
-    line.setAttribute('stroke-linejoin', 'round');
-    lineElems.push(line);
+      const outline = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+      outline.setAttribute('points', pointsStr);
+      outline.setAttribute('stroke', 'white');
+      outline.setAttribute('stroke-width', '8');
+      outline.setAttribute('fill', 'none');
+      outline.setAttribute('stroke-linecap', 'round');
+      outline.setAttribute('stroke-linejoin', 'round');
+      outlineElems.push(outline);
 
-    // Origin marker: white ring with colored dot on top
-    const [ox, oy] = pts[0];
-    const ring = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    ring.setAttribute('cx', ox); ring.setAttribute('cy', oy);
-    ring.setAttribute('r', '8'); ring.setAttribute('fill', 'white');
-    ring.setAttribute('stroke', '#bbb'); ring.setAttribute('stroke-width', '1');
-    ringElems.push(ring);
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+      line.setAttribute('points', pointsStr);
+      line.setAttribute('stroke', color);
+      line.setAttribute('stroke-width', '4.5');
+      line.setAttribute('fill', 'none');
+      line.setAttribute('stroke-linecap', 'round');
+      line.setAttribute('stroke-linejoin', 'round');
+      lineElems.push(line);
+    }
 
-    const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    dot.setAttribute('cx', ox); dot.setAttribute('cy', oy);
-    dot.setAttribute('r', '5'); dot.setAttribute('fill', color);
-    dotElems.push(dot);
+    if (wantColors) {
+      // Origin marker: white ring with colored dot on top
+      const [ox, oy] = pts[0];
+      const ring = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      ring.setAttribute('cx', ox); ring.setAttribute('cy', oy);
+      ring.setAttribute('r', DOT_RING_R); ring.setAttribute('fill', 'white');
+      ring.setAttribute('stroke', '#bbb'); ring.setAttribute('stroke-width', '1');
+      ringElems.push(ring);
+
+      const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      dot.setAttribute('cx', ox); dot.setAttribute('cy', oy);
+      dot.setAttribute('r', DOT_R); dot.setAttribute('fill', color);
+      dotElems.push(dot);
+    }
   });
 
-  // One horizontal pill per destination table, lifted clear of the table label
+  // One horizontal pill per destination table, lifted clear of the table label.
+  // A pill marks where routes arrive, so it belongs to the paths layer.
   const pillGroups = {};
-  routes.forEach(({ dti, pts }) => {
-    const [ex] = pts[pts.length - 1]; // entryX at the pill's top edge
-    if (!pillGroups[dti]) pillGroups[dti] = { top: tRects[dti].top - PILL_LIFT, exs: [] };
-    pillGroups[dti].exs.push(ex);
-  });
+  if (wantPaths) {
+    routes.forEach(({ dti, pts }) => {
+      const [ex] = pts[pts.length - 1]; // entryX at the pill's top edge
+      if (!pillGroups[dti]) pillGroups[dti] = { top: tRects[dti].top - PILL_LIFT, exs: [] };
+      pillGroups[dti].exs.push(ex);
+    });
+  }
   Object.values(pillGroups).forEach(({ top, exs }) => {
     const minX = Math.min(...exs) - PILL_R;
     const maxX = Math.max(...exs) + PILL_R;
@@ -411,6 +668,10 @@ function drawLines() {
   ringElems.forEach(el => svg.appendChild(el));
   dotElems.forEach(el => svg.appendChild(el));
   pillElems.forEach(el => svg.appendChild(el));
+
+  // Nothing to animate when only the colors layer is on — the dots are already
+  // on screen, so the shuffle is done.
+  if (!wantPaths) { setStatusDone(); return; }
 
   // Compute lengths (requires elements in DOM)
   const lengths = lineElems.map(el => el.getTotalLength());
@@ -550,24 +811,41 @@ function shuffle() {
   shuffleToken++;
   const token = shuffleToken;
 
-  const seed = parseInt(document.getElementById('seed').value, 10);
-  currentAssignment = generateAssignment(seed);
+  const seed   = parseInt(document.getElementById('seed').value, 10);
+  const result = generateAssignment(Number.isFinite(seed) ? seed : 0);
+
+  if (!result.ok) {
+    currentAssignment = null;
+    clearSeatText();
+    showMessage(result.reason);
+    document.getElementById('shuffle-status').className = 'status-error';
+    return;
+  }
+
+  showMessage('');
+  currentAssignment = result.assignment;
+
+  // Numbers the spinner is allowed to flash: tables still in the room.
+  const pool = [];
+  for (let t = 0; t < NUM_TABLES; t++) if (result.cap[t] > 0) pool.push(t + 1);
 
   // Show loading spinner
   const statusEl = document.getElementById('shuffle-status');
   statusEl.className = 'status-loading';
 
-  pendingSeats = 32;
+  pendingSeats = currentAssignment.reduce((n, v) => v === null ? n : n + 1, 0);
 
   document.querySelectorAll('.table').forEach((table, ti) => {
     table.querySelectorAll('.seat').forEach((seat, si) => {
-      animateSeat(seat, currentAssignment[ti * 4 + si], token, () => {
+      const value = currentAssignment[ti * SEATS_PER_TABLE + si];
+      if (value === null) { seat.textContent = ''; return; } // erased
+      animateSeat(seat, value, pool, token, () => {
         if (shuffleToken !== token) return; // superseded shuffle
         pendingSeats--;
         if (pendingSeats === 0) {
-          if (document.getElementById('paths-cb').checked) {
-            // drawLines will own the status transition (loading → ✅ → clear)
-            drawLines();
+          if (showColors() || showPaths()) {
+            // drawOverlay owns the status transition (loading → ✅ → clear)
+            drawOverlay();
           } else {
             setStatusDone();
           }
@@ -577,6 +855,64 @@ function shuffle() {
   });
 }
 
+// ── Erasing seats ─────────────────────────────────────────────────────────────
+// Clicking a seat erases it — the student is absent, or that corner of the room
+// isn't in use — and clicking it again brings it back.
+
+function toggleSeat(i) {
+  erasedSeats[i] = !erasedSeats[i];
+
+  // Erasing or restoring a seat changes the arithmetic for the whole room, so
+  // whatever is on screen is no longer a valid assignment. Wipe it and wait for
+  // a fresh shuffle rather than leaving a stale one up.
+  shuffleToken++; // cancels any in-flight seat animations
+  currentAssignment = null;
+  clearLines();
+  clearSeatText();
+  showMessage('');
+  refreshSeats();
+}
+
+function clearSeatText() {
+  document.querySelectorAll('.seat').forEach(seat => {
+    seat.textContent = '';
+    seat.style.color = '';
+  });
+}
+
+// Reflect the erased set in the DOM: an erased seat reads as a hole punched
+// through the table, and a table with every seat erased drops out of the room.
+function refreshSeats() {
+  document.querySelectorAll('.table').forEach((table, ti) => {
+    let live = 0;
+    table.querySelectorAll('.seat').forEach((seat, si) => {
+      const erased = erasedSeats[ti * SEATS_PER_TABLE + si];
+      seat.classList.toggle('erased', erased);
+      seat.setAttribute('aria-label', `Table ${ti + 1}, seat ${si + 1} — ` +
+        (erased ? 'erased, click to restore' : 'click to erase'));
+      seat.setAttribute('aria-pressed', erased ? 'true' : 'false');
+      if (!erased) live++;
+    });
+    table.classList.toggle('table-off', live === 0);
+  });
+}
+
+// The reason a shuffle couldn't run lives behind the ⚠️ in the header corner,
+// not inline — an impossible room is rare, and the header stays quiet when the
+// tool is working.
+function showMessage(text) {
+  document.getElementById('shuffle-tip-why').textContent =
+    text ? `(Can't meet the constraints: ${text})` : '';
+  const status = document.getElementById('shuffle-status');
+  if (text) {
+    status.setAttribute('tabindex', '0');   // reachable without a mouse
+    status.setAttribute('aria-label', `Shuffle seats another day! Can't meet the constraints: ${text}`);
+  } else {
+    status.removeAttribute('tabindex');
+    status.removeAttribute('aria-label');
+  }
+}
+
 // ── Fit room to viewport ───────────────────────────────────────────────────────
 // The room's contents have fixed pixel sizes. Scale it to fill as much of the
 // space between header and footer as possible — up when there's room to
@@ -584,7 +920,7 @@ function shuffle() {
 // is tighter so it never overflows sideways either.
 
 let roomNaturalSize = null; // cached; the room's own content size never changes
-let currentRoomScale = 1;   // last scale factor applied to .room; used by drawLines()
+let currentRoomScale = 1;   // last scale factor applied to .room; used by drawOverlay()
 
 function fitRoom() {
   const wrapper = document.getElementById('room-scale');
@@ -652,15 +988,30 @@ function closePanel() {
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 
+function setUpSeats() {
+  document.querySelectorAll('.table').forEach((table, ti) => {
+    table.querySelectorAll('.seat').forEach((seat, si) => {
+      const i = ti * SEATS_PER_TABLE + si;
+      seat.setAttribute('role', 'button');
+      seat.setAttribute('tabindex', '0');
+      seat.addEventListener('click', () => toggleSeat(i));
+      seat.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSeat(i); }
+      });
+    });
+  });
+  refreshSeats();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('seed').value = Math.floor(Math.random() * 1001);
   document.getElementById('shuffle-btn').addEventListener('click', shuffle);
-  document.getElementById('paths-cb').addEventListener('change', e => {
-    if (e.target.checked) {
-      drawLines();
-    } else {
-      clearLines();
-    }
+  setUpSeats();
+  showMessage('');
+  ['colors-cb', 'paths-cb'].forEach(id => {
+    document.getElementById(id).addEventListener('change', () => {
+      if (showColors() || showPaths()) drawOverlay(); else clearLines();
+    });
   });
 
   document.getElementById('about-link').addEventListener('click', e => { e.preventDefault(); openPanel(); });
@@ -671,6 +1022,6 @@ document.addEventListener('DOMContentLoaded', () => {
   fitRoom();
   window.addEventListener('resize', () => {
     fitRoom();
-    if (document.getElementById('paths-cb').checked) drawLines();
+    if (showColors() || showPaths()) drawOverlay();
   });
 });

@@ -1,7 +1,7 @@
 # Summer 2026 To-Do List
 
 ## GitHub Pages
-- [ ] Seat shuffler needs way to mark absences / empty seats
+- [x] Seat shuffler needs way to mark absences / empty seats — click a seat to erase it; erased seats are left out of the shuffle, a fully-erased table drops out of the room, and destinations still get 3–4 students each
 - [x] Book gallery takes too long to load (remote images) — covers are now self-hosted in `docs/assets/book-cover-cache/`, fetched by `docs/fetch-book-covers.py`, and the grid lazy-loads
 - [x] Convert schedule/home page to Jekyll / GitHub Pages — `docs/schedule.md` renders at `/schedule.html`
   - [x] Add navigation/index for all course materials — site menu in `docs/_includes/site-nav.html`
