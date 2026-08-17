@@ -38,6 +38,11 @@ ABOUT_OUTPUT = DOCS_DIR / "_includes" / "dilemmas-about.html"
 
 SOURCE_PREFIXES = ("source:", "sources:", "see also:", "related:",
                    "image source:", "text source:", "older source:")
+# Lines that begin the "sources and context" part. A "Context:" paragraph is
+# usually preceded by a source line, but it can also come first — either way it
+# belongs behind the toggle. It is not styled as a source, hence the separate
+# tuple.
+CONTEXT_PREFIXES = SOURCE_PREFIXES + ("context:",)
 
 
 def parse_frontmatter(text):
@@ -63,7 +68,7 @@ def split_context(body):
     split = None
     for i, raw in enumerate(lines):
         stripped = raw.strip()
-        if (stripped.lstrip("_*").lower().startswith(SOURCE_PREFIXES)
+        if (stripped.lstrip("_*").lower().startswith(CONTEXT_PREFIXES)
                 or re.match(r'#{2,6}\s', stripped)):
             split = i
             break
