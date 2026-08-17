@@ -128,19 +128,10 @@ body {
   text-decoration: none;
   color: inherit;
   background: #fff;
-  border: 1px solid #e0e0e0;
-  border-top: 6px solid #00A1DE;
-  border-radius: 8px;
+  border: 1px solid #e5e5e5;
   padding: 20px 22px 22px;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-
-.dilemma-card:hover,
-.dilemma-card:focus-visible {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
 }
 
 .dilemma-card:focus-visible {
