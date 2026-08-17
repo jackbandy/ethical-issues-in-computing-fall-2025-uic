@@ -18,6 +18,7 @@ mkdir -p "$OUTPUT_DIR"
 pandoc "$INPUT" \
   --from markdown+smart \
   --lua-filter "$SOURCE_DIR/schedule.lua" \
+  --lua-filter "$SOURCE_DIR/signal.lua" \
   --standalone \
   --template "$SOURCE_DIR/template.html" \
   --metadata created="$CREATED" \
@@ -28,6 +29,7 @@ pandoc "$INPUT" \
 pandoc "$INPUT" \
   --from markdown+smart \
   --lua-filter "$SOURCE_DIR/schedule.lua" \
+  --lua-filter "$SOURCE_DIR/signal.lua" \
   --template "$SOURCE_DIR/template.tex" \
   --pdf-engine=xelatex \
   --metadata created="$CREATED" \

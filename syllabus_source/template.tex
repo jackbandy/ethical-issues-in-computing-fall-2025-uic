@@ -65,6 +65,19 @@
 \titleformat{\subsection}{\bfseries}{}{0em}{#1}
 \titlespacing*{\subsection}{0pt}{0.8\baselineskip}{0.35\baselineskip}
 
+% CTA signal aspects (see signal.lua): the drawing sits to the left of the rule
+% it stands for, the way you read a signal trackside — aspect first, then what
+% it tells you to do. Two top-aligned minipages stand in for the HTML flexbox.
+\newlength{\signalwidth}
+\setlength{\signalwidth}{1.1in}
+\newcommand{\signalaspectstart}{%
+  \par\medskip\noindent
+  \begin{minipage}[t]{\signalwidth}\vspace{0pt}}
+\newcommand{\signalaspectmid}{%
+  \end{minipage}\hfill
+  \begin{minipage}[t]{\dimexpr\textwidth-\signalwidth-1.2em\relax}\vspace{0pt}}
+\newcommand{\signalaspectend}{\end{minipage}\par\medskip}
+
 % Longtable spacing and padding similar to Word
 \setlength{\LTpre}{0.4\baselineskip}
 \setlength{\LTpost}{0.4\baselineskip}
@@ -79,22 +92,23 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.4pt}
 \renewcommand{\footrule}{\hbox to\headwidth{\color{footergray}\leaders\hrule height \footrulewidth\hfill}}
+% The four items are spread across the full footer width by equal \hfil glue,
+% so the three gaps between them are identical.
 \newcommand{\syllabusfooter}{%
   \footnotesize\color{footergray}%
-  Generated $created$%
-  \hspace{1.5em}\textbullet\hspace{1.5em}%
-  \href{https://doethics.fun/syllabus/}{HTML version}%
-  \hspace{1.5em}\textbullet\hspace{1.5em}%
-  \href{https://doethics.fun/}{Course site}%
+  \hbox to\headwidth{%
+    Generated $created$\hfil
+    \href{https://doethics.fun/syllabus/}{HTML version}\hfil
+    \href{https://doethics.fun/}{doethics.fun}\hfil
+    \thepage
+  }%
 }
-\fancyfoot[L]{\syllabusfooter}
-\fancyfoot[R]{\footnotesize\color{footergray}\thepage}
+\fancyfoot[C]{\syllabusfooter}
 \fancypagestyle{plain}{%
   \fancyhf{}%
   \renewcommand{\headrulewidth}{0pt}%
   \renewcommand{\footrulewidth}{0.4pt}%
-  \fancyfoot[L]{\syllabusfooter}%
-  \fancyfoot[R]{\footnotesize\color{footergray}\thepage}%
+  \fancyfoot[C]{\syllabusfooter}%
 }
 \setlength{\footskip}{28pt}
 

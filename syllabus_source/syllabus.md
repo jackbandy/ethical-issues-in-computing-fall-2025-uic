@@ -10,27 +10,25 @@ epigraph: "“Evil comes from a failure to think” —Hannah Arendt"
 
 # Instructor & Course Details
 
-**Course:** CS 377, Section TBD — Ethical Issues in Computing (3 credit hours)
+**Course:** CS 377 — Ethical Issues in Computing (3 credit hours)
 
 **Term:** Fall 2026
 
-**Class meetings:** Mondays and Wednesdays, TBD (see the schedule below for dates)
+**Class meetings:** Mondays and Wednesdays
 
 **Classroom:** CDRLC 2411
 
-**Method of instruction:** In-person. Class time is built around short framing talks, table discussions, and small-group exercises rather than lecture; readings and materials are distributed through Canvas and the course website, and most written work is done on paper in class.
+**Method of instruction:** In-person. Class time is built around table discussions, small-group exercises, and "mini-lectures." Readings and materials are distributed through Canvas and the course website, and most written work is done on paper in class.
 
 **Instructor:** Jack Bandy (he/him), [jxb@uic.edu](mailto:jxb@uic.edu).
 
 **Office:** CDRLC 3454
 
-**Office phone:** TBD
-
-**Drop-in (office) hours:** TBD — days, times, and location will be posted in Canvas during the first week, and will include at least one slot outside of standard business hours. You are welcome to drop in without an appointment.
+**Drop-in (office) hours:** See canvas
 
 **Teaching assistants:** TBD
 
-**Email:** [jxb@uic.edu](mailto:jxb@uic.edu). I generally reply within 24 hours on weekdays, and I generally do not check email on Saturday and Sunday. See "Email Expectations" below.
+**Email:** [jxb@uic.edu](mailto:jxb@uic.edu). I generally reply within 24 hours on weekdays, and I generally do not check email on Saturday and Sunday. Students are responsible for all messages sent to their UIC email and Canvas accounts.
 
 
 
@@ -38,9 +36,9 @@ epigraph: "“Evil comes from a failure to think” —Hannah Arendt"
 
 Details and updates about class meetings, office hours, teaching assistants, assignment due dates, and grades will be regularly updated in **Canvas**. Other materials go on the public website whenever possible.
 
-[Canvas Course](https://canvas.uic.edu) ([canvas.uic.edu](https://canvas.uic.edu)) - Students are expected to log in to Canvas regularly to learn about any developments related to the course, upload assignments, monitor grades, etc.
+[Canvas Course](https://canvas.uic.edu) ([canvas.uic.edu](https://canvas.uic.edu)) - Students are expected to log in to Canvas regularly to upload assignments, monitor grades, and learn about any developments related to the course.
 
-[Public Website](https://doethics.fun) ([doethics.fun](https://doethics.fun)) - As of this semester, the course now has a public site with reference materials for such as slides, assignment descriptions, ethical dilemmas, and more. The site is new and there are still improvements to be made, so you are encouraged to submit fixes/improvements in the [Github repository](https://github.com/jackbandy/ethical-issues-in-computing-uic).
+[Public Website](https://doethics.fun) ([doethics.fun](https://doethics.fun)) - New this semester! The course now has a public site with reference materials such as slides, assignment descriptions, ethical dilemmas, and more. The site is new and there are still improvements to be made, so you are encouraged to submit fixes/improvements in the [Github repository](https://github.com/jackbandy/ethical-issues-in-computing-uic).
 
 # Course Information
 
@@ -48,7 +46,7 @@ Details and updates about class meetings, office hours, teaching assistants, ass
 
 [CS 377. Ethical Issues in Computing. 3 hours.](https://catalog.uic.edu/search/?P=CS%20377)
 
-**Official catalog course description:** Communication skills for computing professionals, including presentation organization, visual aids, delivery techniques, and argument support. Ethical and societal issues in computing include privacy, intellectual property and ownership, and crime.
+**Official catalog course description:** Communication skills for computing professionals: presentation organization, visual aides, delivery techniques, argument support. Ethical and societal issues in computing: privacy, intellectual property and ownership, crime.
 
 **Prerequisite:** Credit or concurrent registration in CS 251.
 
@@ -56,24 +54,26 @@ Details and updates about class meetings, office hours, teaching assistants, ass
 
 ## Section-Specific Course Description
 
-What does it mean for Computer Scientists to be socially responsible? Billions of people interact with computational systems every day for communication, amusement, work, travel, education, and more. Although many such interactions appear to happen seamlessly, even the most mundane human-computer interaction often has ethical implications (e.g. related to privacy, climate, power, inequality, public health). To explore these ethical implications, this course will survey classical perspectives of ethics (i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care Ethics) and practice using them to interpret real-world situations involving humans and computers. Students will explore ethical issues in algorithmic decision-making, data management, user interface design, software engineering, search engines, algorithmic media feeds, large language models, and chatbots, to name some examples. Class sessions will promote active engagement through peer teaching, small group discussions, and other interactive exercises.
+What does it mean for Computer Scientists to be socially responsible? Billions of people interact with computational systems every day for communication, amusement, work, travel, education, and more. Although many such interactions appear to happen seamlessly, even the most mundane human-computer interaction often has ethical implications (e.g. related to privacy, climate, power, inequality, public health). To explore these ethical implications, this course will survey classical perspectives of ethics (i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care Ethics) and practice using them to interpret real-world situations involving humans and computers. Students will explore ethical issues in algorithmic decision-making, data stewardship, user interface design, software engineering, search engines, algorithmic media feeds, large language models, and chatbots, to name some examples. Class sessions will promote active engagement through peer teaching, small group discussions, and other interactive exercises.
 
 ## Learning Priorities
 
-You are probably used to seeing concrete and specific "learning outcomes" for your math and CS classes. The outcomes for this class are more nebulous.
+You may be accustomed to seeing concrete and specific "learning outcomes" for math and CS classes. The outcomes for this class are more nebulous.
 
 Namely, learning ethics is an ongoing practice. This class will therefore encourage you to continue discovering and practicing your own values and your own personal ethical commitments. In your other math and CS classes, you may eventually reach full expertise in a topic area, such as binary arithmetic. But you will not know everything there is to know about ethics just by completing this course.
 
-Still, by the end of the course, you should be able to:
+Still, by the end of the course, you will hopefully be able to do the following:
 
 - analyze events and ethical dilemmas through the four lenses discussed in class: virtue ethics, deontological ethics, utilitarian ethics, and care ethics;
-- explain fundamental professional responsibilities related to ethical, legal, security, and social issues in computing, including recurring ethical challenges;
+- explain fundamental professional responsibilities related to ethical, legal, security, and social issues in computing, including recurring ethical challenges in computing;
 - communicate ethical analyses clearly to different audiences, in writing and in a spoken presentation with visual aids;
-- trace hypothetical and real-world ethical issues through various design and engineering decisions (iand describe alternatives);
+- trace hypothetical and real-world ethical issues through various design and engineering decisions (and describe alternative options as needed);
 - read a full-length book related to a computing ethics topic and describe what you learned to your peers; and
-- articulate and justify your own emerging ethical commitments
+- articulate and justify your own ethical commitments
 
 **Course requirement status:** CS 377 is [required](https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/) for a BS in Computer Science at UIC.
+
+\newpage
 
 **Potential topics:** Beyond the classical ethical theories (Virtue, Deontological, Utilitarian, and Care Ethics), the course draws on a rotating set of topics, including:
 
@@ -93,9 +93,9 @@ Still, by the end of the course, you should be able to:
 
 ## Materials
 
-Readings and other materials will be provided through the course website, web archives, and/or links in the public course website. Materials with copyright restrictions will be distributed through Canvas and/or printed copies. Please protect the copyright integrity of that material.
+Readings and other materials will be provided through the course website, web archives, and/or links in the public course website. Materials with copyright restrictions will be distributed through Canvas and/or printed copies. See also "Respect for Copyright" below.
 
-There is no required textbook, however, the course draws heavily from *Computing and Technology Ethics: Engaging through Science Fiction* by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
+There is no required textbook, however, the course draws heavily from [*Computing and Technology Ethics: Engaging through Science Fiction*](https://mitpress.mit.edu/9780262374279/computing-and-technology-ethics/) by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and Sara-Jo Swiatek.
 
 Students will occasionally make their own selections of different research papers, news articles, case studies, books, and/or other materials.
 
@@ -123,10 +123,11 @@ If we are indeed successful, by the end of the course, you will develop an under
 
 Concretely, "successful" students in this class will:
 
-- review materials (readings, videos, etc.) before class, and write the pre-class reflection while the reading is still fresh
-- bring questions to class
-- start the "read a book" exercise early rather than treating it as an end-of-semester problem
+- review materials (readings, videos, etc.) before class, and write pre-class reflections before class starts
+- bring questions to class, sharing them with their table and/or with the whole class
+- begin the "read a book" exercise early rather than treating it as an end-of-semester assignment
 - come to drop-in hours at least once
+- contribute to the GitHub repository at least once
 - reach out as early as possible if/when feeling lost or confused about anything
 
 ## Technology Outside the Classroom
@@ -181,31 +182,31 @@ Still, in order to provide a final letter grade at the end of the class, I will 
 | **Category** | **Weight** |
 |:--|--:|
 | **Out-of-class exercises** | **20%** |
-| *Food in your feed* | |
-| *Online account biopsy* | |
-| *Online account scrap doll* | |
-| *Speculative fiction* | |
-| *Fairness definition* | |
-| *Personal ethical commitment* | |
+| &nbsp;&nbsp;&nbsp;*Food in your feed* | |
+| &nbsp;&nbsp;&nbsp;*Online account biopsy* | |
+| &nbsp;&nbsp;&nbsp;*Online account scrap doll* | |
+| &nbsp;&nbsp;&nbsp;*Speculative fiction* | |
+| &nbsp;&nbsp;&nbsp;*Fairness definition* | |
+| &nbsp;&nbsp;&nbsp;*Personal ethical commitment* | |
 | **"Read a Book" project** | **20%** |
-| *Book selection and justification* | |
-| *2-page book report or un-essay* | |
-| *Peer instruction / book presentation* | |
-| *Actually reading the book* | |
+| &nbsp;&nbsp;&nbsp;*Book selection and justification* | |
+| &nbsp;&nbsp;&nbsp;*2-page book report or un-essay* | |
+| &nbsp;&nbsp;&nbsp;*Peer instruction / book presentation* | |
+| &nbsp;&nbsp;&nbsp;*Actually reading the book* | |
 | **In-class group exercises** | **20%** |
-| *Expect about one per week* | |
+| &nbsp;&nbsp;&nbsp;*Expect about one per week* | |
 | **Pre-class reflections** | **20%** |
-| *Expect about one per week* | |
+| &nbsp;&nbsp;&nbsp;*Expect about one per week* | |
 | **Attendance, participation, and civility** | **20%** |
 
 Further details and rubrics for each exercise will be published on Canvas.
 
-Final grades use the following scale: A = 90–100%, B = 80–89%, C = 70–79%, D = 60–69%, and F = below 60%.
+## Grading Scale
 
 You can expect the following correspondence between your percentage grade in the course and your final letter grade, and the "equivalent" description from the registrar.
 
 | **F** | **D** | **C** | **B** | **A** |
-|:--|:--|:--|:--|:--|
+|:-------------|:-------------|:-------------|:-------------|:-------------|
 | 59% or below | 60–69% | 70–79% | 80–89% | 90–100% |
 | Failure | Poor but passing | Average | Good | Excellent |
 
@@ -220,7 +221,9 @@ Unless an exercise says otherwise:
 	- another reason why attendance matters.
 - "Read a Book" milestones (selection, report, presentation) each have their own due date, spread across the semester
 
-Expect feedback on exercises within about one week of the due date, and feel free to ask me if it gets later. See also "Feedback, Revisions, and Regrading" below.
+**If you miss an in-class group exercise**, tell me as soon as you can. Makeups are not guaranteed because some exercises only work with a group in the room, however, some can be made up in some form so it is worth asking.
+
+See "Feedback, Revisions, and Regrading" below for when to expect feedback and how to request a revision or regrade.
 
 ## Midterm Grades
 
@@ -244,7 +247,9 @@ I take attendance each class. Four absences may be taken without penalty, and th
 
 Generally, if you miss a fifth class without notifying the instructor, your "Attendance, Participation, and Civility" grade will be lowered from 20/20 to 18/20. Additional deductions (i.e. two points per unexcused absence) will be noted in Canvas.
 
-**Students who miss more than half of all class sessions will not be able to pass the course.** I hope we will not have to get into the specific metrics and rounding schemes - again, I will reach out if your attendance becomes an issue.
+**Separately, and regardless of points earned in other categories, students who miss more than half of all class sessions will not be able to pass the course.** I hope we will not have to get into the specific metrics and rounding schemes - again, I will reach out if your attendance becomes an issue.
+
+**Asynchronous sessions:** A small number of sessions are asynchronous rather than in-person (currently October 5 and October 7 — see the schedule below). There is no class meeting on those days. Work posted in Canvas takes the place of both attendance and the in-class exercise, and completing it by the posted deadline counts as attending.
 
 **Attendance-related accommodations:** If you have a Letter of Accommodation from the Disability Resource Center that includes accommodations around attendance, those accommodations take precedence. Please share your LOA with me as soon as possible and we will work out how the accommodations apply to this course.
 
@@ -260,7 +265,7 @@ If you anticipate any difficulty meeting a due date, contact the instructor as s
 
 ## Feedback, Revisions, and Regrading
 
-I aim to return feedback on each exercise within about one week of its due date, give or take.
+I aim to return feedback on each exercise within about one week of its due date, give or take. Feel free to ask me if it gets later than that.
 
 Opportunities to revise an exercise are specific to that exercise, as is the process for requesting a regrade. Both will be described in the instructions and rubric for the exercise on Canvas. If you believe an exercise was graded in error, contact the instructor as soon as possible (I prefer to avoid end-of-semester panic sessions).
 
@@ -268,7 +273,7 @@ Opportunities to revise an exercise are specific to that exercise, as is the pro
 
 Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/).
 
-Although I try to use open materials (i.e. public domain, Creative Commons, etc.), please help protect copyright integrity when appropriate, namely for materials distributed through Canvas or printed copies.
+Academic integrity also includes respecting the copyright of course materials — see "Respect for Copyright" above.
 
 In line with UIC's mission to provide "an environment in which research, learning, and scholarship can flourish and in which all endeavors are guided by academic and professional integrity," **the work you turn in for this class must be your own work**.
 
@@ -282,42 +287,52 @@ In other words, **always cite your sources**!
 
 I will reach out to you personally before submitting a report of academic misconduct.
 
-## Use of Generative AI
+## Use of Generative AI/LLMs
 
 Of particular interest as of August 2026 is the use of LLM-based tools and their implications for academic integrity (i.e. ChatGPT, Claude, Gemini, etc.). I am intentionally setting up many exercises this semester to be in-class, on-paper, in-person, etc., to reduce the possibility of using such tools for class exercises.
 
-For individual exercise policies, this course uses **CTA rail signals**. Whereas a traffic light has one lamp and one meaning, a rail signal stacks two lamps and tells you about the block you are in *and* the block ahead. The explanations below are from the 1973 CTA rulebook.
-
-**Every exercise on Canvas will have a signal in the rubric.**
+For individual exercise policies, this course uses CTA rail signals. Every exercise on Canvas will have a signal in the description/rubric.
 
 ### Double red — "stop and stay"
 
-![Two red lamps stacked vertically. CTA rulebook: "Stop and stay."](../assets/signals/signal-01-stop-stay.svg){height=1.5in}
+::: {.signal-aspect}
+![Two red lamps stacked vertically. CTA rulebook: "Stop and stay."](../assets/signals/signal-01-stop-stay.svg)\
 
-**No use of AI/LLM-based tools.** This is the default for this course, and it covers all in-class work, all pre-class reflections, and the "read the book" portion of the book project.
+::: {.signal-aspect-body}
+**No use of AI/LLM-based tools.** This is the default for the course, and it covers all in-class work, all pre-class reflections, and the "read the book" exercises.
+:::
+:::
 
 
 ### Yellow over red — "proceed with caution, prepared to stop"
 
-![A yellow lamp above a red lamp. CTA rulebook: "Proceed with caution on main route, prepared to stop at next signal."](../assets/signals/signal-02-caution-main.svg){height=1.5in}
+::: {.signal-aspect}
+![A yellow lamp above a red lamp. CTA rulebook: "Proceed with caution on main route, prepared to stop at next signal."](../assets/signals/signal-02-caution-main.svg)\
 
-**Limited, optional, specific use, with citation.** Certain exercises name a narrow set of tasks where LLM-based tools are permitted but not required.
+::: {.signal-aspect-body}
+**Limited, optional, specific use; use cautiously, with citation.** Certain exercises will offer a narrow set of tasks where LLM-based tools are permitted but not required. This will usually guide you to scrutinize, evaluate, and/or critique the system in some way.
+:::
+:::
 
 
 ### Double yellow — "proceed at restricted speed"
 
-![Two yellow lamps stacked vertically. CTA rulebook: "Proceed with caution at restricted speed."](../assets/signals/signal-09-caution-restricted.svg){height=1.5in}
+::: {.signal-aspect}
+![Two yellow lamps stacked vertically. CTA rulebook: "Proceed with caution at restricted speed."](../assets/signals/signal-09-caution-restricted.svg)\
 
-**You choose where the tools fit, with citation.** A small number of later exercises may give the judgment call entirely to you. This seems to be how the real world works, so it's good to get some practice.
+::: {.signal-aspect-body}
+**You choose how to use it; use cautiously, with citation.** A small number of later exercises may give the judgment call entirely to you. This seems to be how the real world works, so it's good to get some practice.
+:::
+:::
 
 
-### Citing your use
+### Citing your use of AI/LLMs
 
-Whenever the signal is yellow-over-red or double yellow, include a citation:
+Whenever the signal is yellow-over-red or double yellow, if you do use an AI/LLM-based tool, include a citation:
 
 > I used [tool and version] to [what you asked it to do]. My prompt was: [prompt, or a summary if it was long]. Here is what I did with the output: [what you kept, changed, or threw away].
 
-This policy is my current best judgment as of August 2026, and it will keep evolving, maybe even during this semester. I am genuinely curious about evidence-based arguments for various policies - if you see them, bring them to class!
+This policy is my current best judgment as of August 2026, and it will keep evolving, maybe even during this semester. I am genuinely curious about evidence-based arguments for various different policies - if you see them, bring them to class so we can discuss!
 
 ## Visitors
 
@@ -325,32 +340,28 @@ This class may welcome visitors (i.e. prospective students, guest speakers, etc.
 
 ## Privacy Note on Recording in Class
 
-As of right now I do not plan to record class sessions this semester. If this changes, I will ask for your permission to record, and it will most likely be only audio.
+As of right now I do not plan to record class sessions this semester. If this changes, I will ask for your permission to record, and it will most likely be only audio of mini-lectures.
 
-This is especially important in a discussion-based class: recording can discourage open conversation and participation, and our class will be more engaging for everyone if more people can participate.
+Privacy is especially important in a discussion-based class, as recording can discourage open conversation and participation. Our class will be more engaging for everyone if more people can freely participate without worrying about being recorded.
 
-Similarly, please do not record any video or audio from class without permission.
+So, please do not record any video or audio from class without permission.
 
 ## FERPA
 
-Federal law (the [Family Educational Rights and Privacy Act](https://registrar.uic.edu/ferpa/)) prohibits me from disclosing or discussing your grades over email. Please come see me during office hours if you want to talk about your work. I will work with TAs to try to keep grades updated in Canvas, so you can see how you are performing in class.
-
-## Email Expectations
-
-Students are responsible for all messages sent to UIC email and Canvas accounts. I generally aim to respond to emails within 24 hours during weekdays. I generally do not check my email on Saturday and Sunday.
+Federal law (the [Family Educational Rights and Privacy Act](https://registrar.uic.edu/ferpa/)) prohibits me from disclosing or discussing your grades over email. Please come see me during office hours if you want to talk about your work. I will work with TAs to try to keep grades updated in Canvas, so you can easily see how you are performing in class.
 
 # Approximate Course Schedule
 
-The detailed and most current schedule will be published on the ["do ethics"](https://doethics.fun/) website. We may revise readings, activities, or due dates as course needs develop. Any changes will be announced in class and updated in Canvas.
+The most current schedule will be published on the ["do ethics"](https://doethics.fun/) website. Readings, activities, and due dates may be revised as course needs develop — see "Disclaimer" below.
 
 University deadlines for adding, dropping, and withdrawing from courses are listed on the [UIC Academic Calendar](https://catalog.uic.edu/ucat/academic-calendar/).
 
 ```schedule
 ```
 
-## Another Disclaimer
+## Disclaimer
 
-This syllabus is intended to give the student guidance on what may be covered during the semester and will be followed as closely as possible. However, again, we might decide to alter this syllabus as course needs arise, and I will communicate such changes through in-class announcements and in writing via Canvas and/or email.
+This syllabus is intended to give the student guidance on what may be covered during the semester and will be followed as closely as possible. However, we might decide to alter this syllabus as course needs arise, and I will communicate such changes through in-class announcements and in writing via Canvas and/or email.
 
 # Accommodations
 
@@ -386,9 +397,7 @@ If your name or pronouns do not match the class roster, please let the class kno
 
 ## Community Agreement
 
-The list below is a starting point, not a finished rulebook. During the first week we will go through it together, and I will ask you to suggest additions — practices you want from me, from the TAs, and from each other. We will take a straw vote on the final version, post it in Canvas, and revisit it during the semester.
-
-The version we agree on governs how we treat each other in this room. If something in it stops working, say so and we will change it.
+We will build our community agreement together in class (week 2, day 1), and post the version we agree on in Canvas.
 
 ## Guidelines for Participation and Classroom Conduct
 
@@ -460,7 +469,7 @@ We all need the help and the support of our UIC community. Please visit my offic
 
 ## Support for Parenting Students
 
-Balancing school, childcare, and work can be difficult, and I would rather know about it than not. If you are a parenting student, please tell me early so we can plan around it. Occasionally bringing a child to class to cover an unexpected gap in care is perfectly acceptable — sit near the door so you can step out if you need to. Non-parenting classmates, please leave the seats near the door available for this.
+Balancing school, childcare, and work can be difficult. If you are a parenting student, you can tell me so we can plan around it. Occasionally bringing a child to class to cover an unexpected gap in care is perfectly acceptable, and you can sit near the door so you can step out if you need to.
 
 UIC supports parenting students by providing affordable, high-quality childcare for infants, toddlers, and young children, along with a comprehensive wraparound care system, study-play areas across campus, accessible lactation rooms, year-round family events, and more. For more information, contact Melinda Young ([mmcghe2@uic.edu](mailto:mmcghe2@uic.edu)) or visit the [Little Sparks website](https://littlesparks.uic.edu).
 
@@ -480,10 +489,10 @@ UIC supports parenting students by providing affordable, high-quality childcare 
 
 # A Closing Note
 
-**Lastly**, here is a picture of Hannah Arendt. She said that "evil comes from a failure to think." If we are successful in this class, we will do some real thinking, and perhaps prevent some evil.
+**Lastly**, here is a picture of Hannah Arendt. She said that "evil comes from a failure to think." If we are successful in this class, we will do some real thinking, and perhaps even prevent some evil.
 
 ![Hannah Arendt, photographed on New Year's Day, 1944. © Fred Stein/dpa/Corbis](arendt.jpg){width=55%}
 
 ---
 
-*Parts of this syllabus are based on the syllabus template from UIC's Center for the Advancement of Teaching Excellence (CATE), available at <https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/>.*
+*Many parts of this syllabus are based on the syllabus template from UIC's Center for the Advancement of Teaching Excellence (CATE), available at <https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/>.*

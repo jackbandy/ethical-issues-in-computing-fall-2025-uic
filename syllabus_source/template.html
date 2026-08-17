@@ -49,12 +49,25 @@
     /* Scoped to the table of contents so the site menu above it keeps its own look. */
     nav[aria-label="Table of contents"] { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
     nav[aria-label="Table of contents"] ul { columns: 2; }
+    /* CTA signal aspects in the AI/LLM section: the drawing sits to the left of
+       the rule it stands for, the way you read a signal trackside — aspect
+       first, then what it tells you to do. The hairline border stands in for
+       the signal's backing plate, which is what makes the lamps legible. */
+    .signal-aspect { display: flex; align-items: flex-start; gap: 1.25rem; margin: 1rem 0 1.5rem; }
+    .signal-aspect > p:first-child { flex: 0 0 130px; margin: 0; }
+    /* The escaped space that keeps pandoc from making this a figure leaves a <br>. */
+    .signal-aspect > p:first-child br { display: none; }
+    .signal-aspect img { display: block; width: 100%; height: auto; border: 1px solid #565a5c; border-radius: 2px; }
+    .signal-aspect-body > :first-child { margin-top: 0; }
+    .signal-aspect-body > :last-child { margin-bottom: 0; }
     .meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; color: #666; font-size: .85rem; }
     @media (max-width: 700px) {
       body { padding: 2rem 1.25rem 4rem; }
       nav[aria-label="Table of contents"] ul { columns: 1; }
       .meta { display: block; }
       table { font-size: .85rem; }
+      .signal-aspect { gap: 1rem; }
+      .signal-aspect > p:first-child { flex-basis: 90px; }
     }
     @media print {
       html { background: #fff; font-size: 11pt; }

@@ -49,12 +49,25 @@
     /* Scoped to the table of contents so the site menu above it keeps its own look. */
     nav[aria-label="Table of contents"] { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--soft); border-left: 6px solid var(--blue); }
     nav[aria-label="Table of contents"] ul { columns: 2; }
+    /* CTA signal aspects in the AI/LLM section: the drawing sits to the left of
+       the rule it stands for, the way you read a signal trackside — aspect
+       first, then what it tells you to do. The hairline border stands in for
+       the signal's backing plate, which is what makes the lamps legible. */
+    .signal-aspect { display: flex; align-items: flex-start; gap: 1.25rem; margin: 1rem 0 1.5rem; }
+    .signal-aspect > p:first-child { flex: 0 0 130px; margin: 0; }
+    /* The escaped space that keeps pandoc from making this a figure leaves a <br>. */
+    .signal-aspect > p:first-child br { display: none; }
+    .signal-aspect img { display: block; width: 100%; height: auto; border: 1px solid #565a5c; border-radius: 2px; }
+    .signal-aspect-body > :first-child { margin-top: 0; }
+    .signal-aspect-body > :last-child { margin-bottom: 0; }
     .meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; color: #666; font-size: .85rem; }
     @media (max-width: 700px) {
       body { padding: 2rem 1.25rem 4rem; }
       nav[aria-label="Table of contents"] ul { columns: 1; }
       .meta { display: block; }
       table { font-size: .85rem; }
+      .signal-aspect { gap: 1rem; }
+      .signal-aspect > p:first-child { flex-basis: 90px; }
     }
     @media print {
       html { background: #fff; font-size: 11pt; }
@@ -72,7 +85,7 @@
   {% include site-nav.html nav_current="syllabus" %}
   <header>
     <div class="meta">
-      <span>Generated August 17, 2026 at 11:39 AM CDT</span>
+      <span>Generated August 17, 2026 at 3:29 PM CDT</span>
       <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
     </div>
     <h1>COLLEGE OF ENGINEERING, UIC</h1>
@@ -113,100 +126,94 @@ Computing (3 credit hours)</p>
 schedule below for dates)</p>
 <p><strong>Classroom:</strong> CDRLC 2411</p>
 <p><strong>Method of instruction:</strong> In-person. Class time is
-built around short framing talks, table discussions, and small-group
-exercises rather than lecture; readings and materials are distributed
-through Canvas and the course website, and most written work is done on
-paper in class.</p>
+built around table discussions, small-group exercises, and
+“mini-lectures.” Readings and materials are distributed through Canvas
+and the course website, and most written work is done on paper in
+class.</p>
 <p><strong>Instructor:</strong> Jack Bandy (he/him), <a
-href="mailto:jxb@uic.edu">jxb@uic.edu</a>. You may call me Dr. Bandy or
-Jack, whichever you prefer.</p>
+href="mailto:jxb@uic.edu">jxb@uic.edu</a>.</p>
 <p><strong>Office:</strong> CDRLC 3454</p>
-<p><strong>Office phone:</strong> TBD</p>
-<p><strong>Drop-in (office) hours:</strong> TBD — days, times, and
-location will be posted in Canvas during the first week, and will
-include at least one slot outside of standard business hours. You are
-welcome to drop in without an appointment.</p>
-<p><strong>Teaching assistants:</strong> TBD — names, emails, and
-drop-in hours will be posted in Canvas.</p>
+<p><strong>Drop-in (office) hours:</strong> See canvas</p>
+<p><strong>Teaching assistants:</strong> TBD</p>
 <p><strong>Email:</strong> <a href="mailto:jxb@uic.edu">jxb@uic.edu</a>.
 I generally reply within 24 hours on weekdays, and I generally do not
-check email on Saturday and Sunday. See “Email Expectations” below.</p>
-<p><strong>Course site:</strong> <a
-href="https://doethics.fun/">doethics.fun</a></p>
+check email on Saturday and Sunday. Students are responsible for all
+messages sent to their UIC email and Canvas accounts.</p>
+<h2 id="course-site">Course Site</h2>
 <p>Details and updates about class meetings, office hours, teaching
 assistants, assignment due dates, and grades will be regularly updated
-in <strong>Canvas</strong>.</p>
-<h2 id="course-site">Course Site</h2>
+in <strong>Canvas</strong>. Other materials go on the public website
+whenever possible.</p>
 <p><a href="https://canvas.uic.edu">Canvas Course</a> (<a
 href="https://canvas.uic.edu">canvas.uic.edu</a>) - Students are
-expected to log in to Canvas regularly to learn about any developments
-related to the course, upload assignments, monitor grades, etc.</p>
+expected to log in to Canvas regularly to upload assignments, monitor
+grades, and learn about any developments related to the course.</p>
 <p><a href="https://doethics.fun">Public Website</a> (<a
-href="https://doethics.fun">doethics.fun</a>) - As of this semester, the
-course now has a public site with reference materials for such as
-slides, assignment descriptions, ethical dilemmas, and more. The site is
-new and there are still improvements to be made, so you are encouraged
-to submit fixes/improvements in the <a
+href="https://doethics.fun">doethics.fun</a>) - New this semester! The
+course now has a public site with reference materials such as slides,
+assignment descriptions, ethical dilemmas, and more. The site is new and
+there are still improvements to be made, so you are encouraged to submit
+fixes/improvements in the <a
 href="https://github.com/jackbandy/ethical-issues-in-computing-uic">Github
 repository</a>.</p>
 <h1 id="course-information">Course Information</h1>
 <h2 id="catalog-course-description">Catalog Course Description</h2>
 <p><a href="https://catalog.uic.edu/search/?P=CS%20377">CS 377. Ethical
 Issues in Computing. 3 hours.</a></p>
-<p><strong>Official catalog course description:</strong> Communication
-skills for computing professionals, including presentation organization,
-visual aids, delivery techniques, and argument support. Ethical and
-societal issues in computing include privacy, intellectual property and
-ownership, and crime.</p>
+<p><strong>Official catalog course description:</strong> CCommunication
+skills for computing professionals: presentation organization, visual
+aides, delivery techniques, argument support. Ethical and societal
+issues in computing: privacy, intellectual property and ownership,
+crime.</p>
 <p><strong>Prerequisite:</strong> Credit or concurrent registration in
 CS 251.</p>
 <p><strong>Further information:</strong> <a
 href="https://catalog.uic.edu/ucat/course-descriptions/cs/">UIC Computer
 Science course catalog</a>.</p>
-<h2 id="dr.-bandys-course-description">Dr. Bandy’s Course
+<h2 id="section-specific-course-description">Section-Specific Course
 Description</h2>
 <p>What does it mean for Computer Scientists to be socially responsible?
 Billions of people interact with computational systems every day for
-communication, amusement, work, and more. Although many interactions
-appear to happen seamlessly, even the most mundane human-computer
-interaction often has ethical implications related to privacy, climate,
-power, inequality, public health, and more. To explore these ethical
-implications, this course will survey classical perspectives of ethics
-(i.e. Deontological Ethics, Utilitarian Ethics, Virtue Ethics, Care
-Ethics) and practice using them to interpret real-world situations
-involving humans and computers. Students will engage with a range of
-scholarship related to ethical issues in algorithmic decision-making,
-data management, user interface design, software engineering, search
-engines, algorithmic media feeds, large language models, and chatbots,
-to name some examples. Class sessions will promote active engagement
-through peer teaching, small group discussions, and more.</p>
+communication, amusement, work, travel, education, and more. Although
+many such interactions appear to happen seamlessly, even the most
+mundane human-computer interaction often has ethical implications
+(e.g. related to privacy, climate, power, inequality, public health). To
+explore these ethical implications, this course will survey classical
+perspectives of ethics (i.e. Deontological Ethics, Utilitarian Ethics,
+Virtue Ethics, Care Ethics) and practice using them to interpret
+real-world situations involving humans and computers. Students will
+explore ethical issues in algorithmic decision-making, data stewardship,
+user interface design, software engineering, search engines, algorithmic
+media feeds, large language models, and chatbots, to name some examples.
+Class sessions will promote active engagement through peer teaching,
+small group discussions, and other interactive exercises.</p>
 <h2 id="learning-priorities">Learning Priorities</h2>
-<p>You are probably used to seeing concrete and specific “learning
-outcomes” for your math and CS classes. The outcomes for this class are
-more nebulous.</p>
+<p>You may be accustomed to seeing concrete and specific “learning
+outcomes” for math and CS classes. The outcomes for this class are more
+nebulous.</p>
 <p>Namely, learning ethics is an ongoing practice. This class will
 therefore encourage you to continue discovering and practicing your own
 values and your own personal ethical commitments. In your other math and
 CS classes, you may eventually reach full expertise in a topic area,
 such as binary arithmetic. But you will not know everything there is to
 know about ethics just by completing this course.</p>
-<p>Still, by the end of the course, you should be able to:</p>
+<p>Still, by the end of the course, you will hopefully be able to do the
+following:</p>
 <ul>
 <li>analyze events and ethical dilemmas through the four lenses
 discussed in class: virtue ethics, deontological ethics, utilitarian
 ethics, and care ethics;</li>
-<li>identify and describe recurring ethical challenges in the design and
-use of computing systems;</li>
 <li>explain fundamental professional responsibilities related to
-ethical, legal, security, and social issues in computing;</li>
+ethical, legal, security, and social issues in computing, including
+recurring ethical challenges in computing;</li>
 <li>communicate ethical analyses clearly to different audiences, in
 writing and in a spoken presentation with visual aids;</li>
-<li>trace an ethical issue in a computing system back to specific design
-and engineering decisions, and propose alternatives;</li>
-<li>read a full-length book on a computing ethics topic and teach its
-central argument to your peers; and</li>
-<li>articulate and defend your own emerging ethical commitments as a
-computing professional.</li>
+<li>trace hypothetical and real-world ethical issues through various
+design and engineering decisions (and describe alternative options as
+needed);</li>
+<li>read a full-length book related to a computing ethics topic and
+describe what you learned to your peers; and</li>
+<li>articulate and justify your own ethical commitments</li>
 </ul>
 <p><strong>Course requirement status:</strong> CS 377 is <a
 href="https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/">required</a>
@@ -281,20 +288,22 @@ open-sourcing</td>
 </tr>
 </tbody>
 </table>
-<h2 id="learning-materials">Learning Materials</h2>
-<p>Readings and other materials will be provided through Canvas, printed
-copies, web archives, and/or linked PDFs.</p>
+<h2 id="materials">Materials</h2>
+<p>Readings and other materials will be provided through the course
+website, web archives, and/or links in the public course website.
+Materials with copyright restrictions will be distributed through Canvas
+and/or printed copies. See also “Respect for Copyright” below.</p>
 <p>There is no required textbook, however, the course draws heavily from
-<em>Computing and Technology Ethics: Engaging through Science
-Fiction</em> by Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory
-Siler, and Sara-Jo Swiatek.</p>
+<a
+href="https://mitpress.mit.edu/9780262374279/computing-and-technology-ethics/"><em>Computing
+and Technology Ethics: Engaging through Science Fiction</em></a> by
+Emanuelle Burton, Judy Goldsmith, Nicholas Mattei, Cory Siler, and
+Sara-Jo Swiatek.</p>
 <p>Students will occasionally make their own selections of different
-research papers, news articles, case studies, books, and other materials
-to present and/or discuss in class.</p>
-<p>If obtaining any course material presents a financial challenge,
-please tell me — there is nearly always a free path (library reserve, an
-open-access version, or a copy from me), and I would much rather arrange
-one than have you go without.</p>
+research papers, news articles, case studies, books, and/or other
+materials.</p>
+<p>If obtaining any course material presents a challenge for any reason,
+please tell me as soon as possible.</p>
 <h2 id="respect-for-copyright">Respect for Copyright</h2>
 <p>I try to build this course out of open materials (public domain,
 Creative Commons, open-access preprints, and things I wrote myself), and
@@ -312,46 +321,40 @@ course website — I will ask you first, and “no” is a complete answer
 with no effect on your grade.</p>
 <h2 id="growth-mindset">Growth Mindset</h2>
 <p>Once again, unlike many other courses in the Computer Science
-department, the questions and problems discussed in this class often
+department, the questions and “problems” discussed in this class often
 lack verifiable, complete, computable solutions. In many cases, there is
-no correct answer (nor even a general consensus!) to resolve ethical
-challenges.</p>
+no correct answer (maybe not even a general consensus!) to resolve
+ethical challenges.</p>
 <p>For this reason as well as others, you may find course materials and
 exercises to be uniquely challenging. However, they are crucial to your
-personal growth and development. They are intended to help your
-intellectual development, not to trick you or discourage you. There may
-be times when you need extra help or extra time to process materials in
-order to reach your own understanding, which is quite normal.</p>
+personal growth and development. They are not intended to trick you or
+discourage you or make you feel uncomfortable. That being said, there
+may be times when you need extra help or extra time to process materials
+in order to reach your own understanding, which is quite normal.</p>
 <p>Any student can succeed if they attend class consistently,
 participate in discussions, complete exercises, thoughtfully engage with
 feedback (including feedback from the instructor, TAs, and peers), and
-contact the instructor when struggling. These habits will help you
-develop a thorough understanding of the course material and ultimately
-succeed in the course.</p>
+ask for help when struggling. These habits will help you develop a
+thorough understanding of the course material and ultimately succeed in
+the course.</p>
 <p>If we are indeed successful, by the end of the course, you will
 develop an understanding of your own values and the ethical reasoning
 behind them. This is useful not only for the course, the CS degree, and
 your future career, but also for your life in general.</p>
 <h2 id="tips-for-success">Tips for Success</h2>
-<p>Concretely, students who do well in this class tend to:</p>
+<p>Concretely, “successful” students in this class will:</p>
 <ul>
-<li>do the reading before class, and write the pre-class reflection
-while the reading is still fresh</li>
-<li>bring a question to class, even (especially) a question they think
-is obvious</li>
-<li>say the half-formed version of the idea out loud instead of waiting
-until it is polished</li>
-<li>take notes by hand, and review them once within a day or two of
-class</li>
-<li>start the book project early rather than treating it as an
-end-of-semester problem</li>
-<li>come to drop-in hours at least once, before anything has gone
-wrong</li>
-<li>tell me early when something is going sideways, rather than after a
-deadline has passed</li>
+<li>review materials (readings, videos, etc.) before class, and write
+pre-class reflections before class starts</li>
+<li>bring questions to class, sharing them with their table and/or with
+the whole class</li>
+<li>begin the “read a book” exercise early rather than treating it as an
+end-of-semester assignment</li>
+<li>come to drop-in hours at least once</li>
+<li>contribute to the GitHub repository at least once</li>
+<li>reach out as early as possible if/when feeling lost or confused
+about anything</li>
 </ul>
-<p>None of these require you to already be good at ethics. They mostly
-require showing up and being willing to think in public.</p>
 <h2 id="technology-outside-the-classroom">Technology Outside the
 Classroom</h2>
 <p>Students will need access to a web browser in order to use Canvas and
@@ -474,27 +477,28 @@ exercises</strong></td>
 <td style="text-align: right;"><strong>20%</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Food in your feed</em></td>
+<td style="text-align: left;">   <em>Food in your feed</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Online account biopsy</em></td>
+<td style="text-align: left;">   <em>Online account biopsy</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Online account scrap doll</em></td>
+<td style="text-align: left;">   <em>Online account scrap doll</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Speculative fiction</em></td>
+<td style="text-align: left;">   <em>Speculative fiction</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Fairness definition</em></td>
+<td style="text-align: left;">   <em>Fairness definition</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Personal ethical commitment</em></td>
+<td style="text-align: left;">   <em>Personal ethical
+commitment</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
@@ -503,22 +507,22 @@ project</strong></td>
 <td style="text-align: right;"><strong>20%</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Book selection and
+<td style="text-align: left;">   <em>Book selection and
 justification</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>2-page book report or
+<td style="text-align: left;">   <em>2-page book report or
 un-essay</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Peer instruction / book
+<td style="text-align: left;">   <em>Peer instruction / book
 presentation</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Actually reading the book</em></td>
+<td style="text-align: left;">   <em>Actually reading the book</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
@@ -527,7 +531,7 @@ exercises</strong></td>
 <td style="text-align: right;"><strong>20%</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Expect about one per week</em></td>
+<td style="text-align: left;">   <em>Expect about one per week</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
@@ -536,7 +540,7 @@ reflections</strong></td>
 <td style="text-align: right;"><strong>20%</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><em>Expect about one per week</em></td>
+<td style="text-align: left;">   <em>Expect about one per week</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
@@ -548,12 +552,18 @@ civility</strong></td>
 </table>
 <p>Further details and rubrics for each exercise will be published on
 Canvas.</p>
-<p>Final grades use the following scale: A = 90–100%, B = 80–89%, C =
-70–79%, D = 60–69%, and F = below 60%.</p>
+<h2 id="grading-scale">Grading Scale</h2>
 <p>You can expect the following correspondence between your percentage
 grade in the course and your final letter grade, and the “equivalent”
 description from the registrar.</p>
 <table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
 <thead>
 <tr>
 <th style="text-align: left;"><strong>F</strong></th>
@@ -582,33 +592,31 @@ description from the registrar.</p>
 </table>
 <h2 id="student-accountability-for-coursework">Student Accountability
 for Coursework</h2>
-<p>Detailed instructions and a rubric for every exercise are posted on
-Canvas, usually at least one week before the work is due. If an exercise
-is still being developed, its Canvas page will say so, and I will
-announce it in class once it is ready.</p>
+<p>Detailed instructions and a rubric for every exercise will be posted
+on Canvas, usually at least one week before the work is due. If an
+exercise is still being developed, its Canvas page will say so, and I
+will announce it in class once it is ready.</p>
 <p>Unless an exercise says otherwise:</p>
 <ul>
 <li>Out-of-class exercises and pre-class reflections are submitted in
 Canvas by the posted due date.</li>
 <li>In-class group exercises are completed and turned in on paper during
-class, which is part of why attendance matters.</li>
+class
+<ul>
+<li>another reason why attendance matters.</li>
+</ul></li>
 <li>“Read a Book” milestones (selection, report, presentation) each have
-their own due date, spread across the semester so the project does not
-pile up at the end.</li>
+their own due date, spread across the semester</li>
 </ul>
-<p>Expect feedback within about one week of the due date. See “Feedback,
-Revisions, and Regrading” below for how revisions and regrade requests
-work.</p>
+<p>See “Feedback, Revisions, and Regrading” below for when to expect
+feedback and how to request a revision or regrade.</p>
 <h2 id="midterm-grades">Midterm Grades</h2>
-<p>Midterm grades are not required for 300-level courses, so I do not
-file one with the registrar. Instead, grades in Canvas are kept current
-throughout the semester, so you can check where you stand at any
-point.</p>
+<p>Grades in Canvas are kept current throughout the semester, so you can
+check where you stand at any point.</p>
 <p>Around the midpoint of the semester I will also do a check-in: if
 your grade or attendance suggests you are at risk of not passing, I will
-email you directly so we have time to do something about it. You are
-always welcome to come to drop-in hours and ask me to walk through your
-standing with you.</p>
+email you directly so we have time to intervene. You are always welcome
+to come to drop-in hours to ask about your grade.</p>
 <h2 id="tests-and-final-exams">Tests and Final Exams</h2>
 <p>There will be no tests or examinations in this class. I agree with
 Carl Rogers<a href="#fn1" class="footnote-ref" id="fnref1"
@@ -616,47 +624,45 @@ role="doc-noteref"><sup>1</sup></a> that life itself offers enough
 examinations, and I hope that what you learn in this class will help you
 meet life’s tests with more confidence and satisfaction. See above for
 details regarding your final grade.</p>
-<p><strong>There is no final exam in this course</strong>, and nothing
-will be scheduled during the university’s final examination period. The
-last graded work is due during the regular semester; check Canvas for
-the exact date.</p>
+<p><strong>There is no final exam in this course</strong>, and no
+meeting will be scheduled during the university’s final examination
+period. Check Canvas for due dates at the end of the semester.</p>
 <h2 id="attendance-and-participation">Attendance and Participation</h2>
 <p>Showing up makes a substantial difference in this course (and in
-life). For this class in particular, meetings are designed around table
+life). Many class meetings are intentionally designed around table
 discussions and group work, so students are expected to attend, arrive
 on time, and participate.</p>
 <p><strong>Please notify the instructor as soon as possible</strong>
 when illness, personal emergencies, university obligations, religious
-observances, or other circumstances may prevent attendance. This is a
-courtesy to the community, as unexpected absences and late arrivals can
-be disruptive.</p>
-<p>I take attendance each class. Three absences may be taken without
+observances, or other circumstances may prevent attendance. Note that
+this is also a courtesy to the community, as unexpected absences and
+late arrivals can be disruptive to everyone in class.</p>
+<p>I take attendance each class. Four absences may be taken without
 penalty, and they do not have to be explicitly excused. If a student
-misses more than three classes without notifying the instructor, the
+misses more than four classes without notifying the instructor, the
 instructor will reach out to them, and reserves the right to lower the
 “Attendance, Participation, and Civility” portion of the overall
 grade.</p>
-<p>Generally, if you miss a fourth class without notifying the
+<p>Generally, if you miss a fifth class without notifying the
 instructor, your “Attendance, Participation, and Civility” grade will be
-lowered from 20/20 to 18/20. These deductions will be noted in
-Canvas.</p>
+lowered from 20/20 to 18/20. Additional deductions (i.e. two points per
+unexcused absence) will be noted in Canvas.</p>
 <p><strong>Students who miss more than half of all class sessions will
 not be able to pass the course.</strong> I hope we will not have to get
-into the specific counts - again, I will reach out if your attendance
-becomes an issue.</p>
+into the specific metrics and rounding schemes - again, I will reach out
+if your attendance becomes an issue.</p>
 <p><strong>Attendance-related accommodations:</strong> If you have a
 Letter of Accommodation from the Disability Resource Center that
 includes accommodations around attendance, those accommodations take
-precedence over the attendance and late work policies described here.
-Please share your LOA with me and we will work out how the
-accommodations apply to this course.</p>
+precedence. Please share your LOA with me as soon as possible and we
+will work out how the accommodations apply to this course.</p>
 <p><strong>Student-athletes:</strong> UIC has an <a
 href="https://uicflames.com/sports/2020/10/26/advising-services">official
 missed class time policy</a> under which student-athletes provide formal
 documentation for class time missed due to NCAA or institutionally
 sanctioned events. Student Athlete Academic Services (SAAS) will provide
-you with that documentation; please bring it to me as early as you can
-so we can plan around it.</p>
+you with that documentation; please bring it to me as early as you
+can.</p>
 <h2 id="late-work">Late Work</h2>
 <p>Due dates will be listed in Canvas, and there is an automatic
 “sliding scale” that will deduct points based on how late you submitted
@@ -664,11 +670,13 @@ the work, down to 50%.</p>
 <p>Anything submitted more than one week after the original due date
 will only receive 50% credit.</p>
 <p>If you anticipate any difficulty meeting a due date, contact the
-instructor as soon as possible.</p>
+instructor as soon as possible. I am often able to adjust due dates,
+especially if multiple people want/need an extension.</p>
 <h2 id="feedback-revisions-and-regrading">Feedback, Revisions, and
 Regrading</h2>
-<p>We aim to return feedback on each exercise within about one week of
-its due date, give or take.</p>
+<p>I aim to return feedback on each exercise within about one week of
+its due date, give or take. Feel free to ask me if it gets later than
+that.</p>
 <p>Opportunities to revise an exercise are specific to that exercise, as
 is the process for requesting a regrade. Both will be described in the
 instructions and rubric for the exercise on Canvas. If you believe an
@@ -680,9 +688,8 @@ href="https://dos.uic.edu/community-standards/">Community Standards</a>
 and policies on <a
 href="https://dos.uic.edu/community-standards/academic-integrity/">academic
 integrity</a>.</p>
-<p>Although I try to use open materials (i.e. public domain, Creative
-Commons, etc.), please help protect copyright integrity when
-appropriate, namely for materials distributed through Canvas.</p>
+<p>Academic integrity also includes respecting the copyright of course
+materials — see “Respect for Copyright” above.</p>
 <p>In line with UIC’s mission to provide “an environment in which
 research, learning, and scholarship can flourish and in which all
 endeavors are guided by academic and professional integrity,”
@@ -691,105 +698,80 @@ work</strong>.</p>
 <p>This is to ensure that <strong>you</strong> develop skills and
 knowledge from this course that will be valuable to you in your future
 courses, your career, and other areas of your life.</p>
-<p>This does not mean that you need to complete all work in a bunker.
-Rather, you are encouraged to discuss your ideas with friends and
-classmates, and to explore related work (i.e. academic papers, blogs,
-video essays, forums, etc.). An important part of scholarship is
-standing on the shoulders of giants,<a href="#fn2" class="footnote-ref"
-id="fnref2" role="doc-noteref"><sup>2</sup></a> (after all, we are in
-the City of the Big Shoulders<a href="#fn3" class="footnote-ref"
-id="fnref3" role="doc-noteref"><sup>3</sup></a>) and acknowledging whose
-shoulders we stand upon.</p>
+<p>This does not mean that you need to complete all work in a personal
+Faraday cage. Rather, you are encouraged to discuss your ideas with
+friends and classmates, and to explore related work (i.e. academic
+papers, blogs, video essays, forums, etc.). An important part of
+scholarship is standing on the shoulders of giants,<a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+(after all, we are in the City of the Big Shoulders<a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>)
+and acknowledging whose shoulders we stand upon.</p>
 <p>In other words, <strong>always cite your sources</strong>!</p>
 <p><strong>Please ask the instructor if you need clarity about academic
 integrity</strong> for specific exercises. When in doubt, it is always
 better to check.</p>
 <p>I will reach out to you personally before submitting a report of
 academic misconduct.</p>
-<h2 id="use-of-generative-ai">Use of Generative AI</h2>
+<h2 id="use-of-generative-aillms">Use of Generative AI/LLMs</h2>
 <p>Of particular interest as of August 2026 is the use of LLM-based
-tools and their implications for academic integrity. I am intentionally
-setting up many exercises this semester to be in-class, on-paper,
-in-person, etc., to reduce the possibility of using such tools for class
-exercises.</p>
-<p>For the exercises where the question does come up, this course uses
-<strong>CTA rail signal aspects</strong> rather than the usual
-red-yellow-green traffic light. A traffic light has one lamp and one
-meaning. A rail signal stacks two lamps and tells you about the block
-you are in <em>and</em> the block ahead, which is much closer to the
-actual judgment call: not only “may I use this tool here,” but “what
-does using it here do to my ability to do the next thing.” The aspects
-below are from the 1973 CTA rulebook.</p>
-<p><strong>Every exercise on Canvas states its signal in the
-rubric.</strong> If a rubric does not name one, assume double red and
-ask me.</p>
+tools and their implications for academic integrity (i.e. ChatGPT,
+Claude, Gemini, etc.). I am intentionally setting up many exercises this
+semester to be in-class, on-paper, in-person, etc., to reduce the
+possibility of using such tools for class exercises.</p>
+<p>For individual exercise policies, this course uses CTA rail signals.
+Every exercise on Canvas will have a signal in the
+description/rubric.</p>
 <h3 id="double-red-stop-and-stay">Double red — “stop and stay”</h3>
-<figure>
-<img src="../assets/signals/signal-01-stop-stay.svg"
-style="height:1.5in"
-alt="Two red lamps stacked vertically. CTA rulebook: “Stop and stay.”" />
-<figcaption aria-hidden="true">Two red lamps stacked vertically. CTA
-rulebook: “Stop and stay.”</figcaption>
-</figure>
+<div class="signal-aspect">
+<p><img src="../assets/signals/signal-01-stop-stay.svg"
+alt="Two red lamps stacked vertically. CTA rulebook: “Stop and stay.”" /><br />
+</p>
+<div class="signal-aspect-body">
 <p><strong>No use of AI/LLM-based tools.</strong> This is the default
-for this course, and it covers all in-class work, all pre-class
-reflections, and the “read the book” portion of the book project.</p>
-<p>Some things have to be fully learned and absorbed before you reach
-for a tool that will do them for you. Ethical reasoning is one of them:
-the point of the exercise is the thinking you do while you are stuck,
-and outsourcing that leaves you with an answer you cannot defend. You
-also need a foundational understanding of a domain before you have the
-discernment to judge whether a tool’s output is any good.</p>
+for the course, and it covers all in-class work, all pre-class
+reflections, and the “read the book” exercises..</p>
+</div>
+</div>
 <h3 id="yellow-over-red-proceed-with-caution-prepared-to-stop">Yellow
 over red — “proceed with caution, prepared to stop”</h3>
-<figure>
-<img src="../assets/signals/signal-02-caution-main.svg"
-style="height:1.5in"
-alt="A yellow lamp above a red lamp. CTA rulebook: “Proceed with caution on main route, prepared to stop at next signal.”" />
-<figcaption aria-hidden="true">A yellow lamp above a red lamp. CTA
-rulebook: “Proceed with caution on main route, prepared to stop at next
-signal.”</figcaption>
-</figure>
-<p><strong>Limited, optional, specific use, with citation.</strong>
-Certain exercises name a narrow set of tasks where an LLM is permitted
-but not required — for example, generating counterarguments to a
-position you have already written out, or checking a draft for
-clarity.</p>
-<p>The named task is the only permitted use. Take this as a marshmallow
-test: notice where the tool fails, notice whether you actually found it
-useful, and pay close attention.</p>
+<div class="signal-aspect">
+<p><img src="../assets/signals/signal-02-caution-main.svg"
+alt="A yellow lamp above a red lamp. CTA rulebook: “Proceed with caution on main route, prepared to stop at next signal.”" /><br />
+</p>
+<div class="signal-aspect-body">
+<p><strong>Limited, optional, specific use, use cautiously, with
+citation.</strong> Certain exercises will offer a narrow set of tasks
+where LLM-based tools are permitted but not required. This will usually
+guide you to scrutinize, evaluate, and/or critique the system in some
+way.</p>
+</div>
+</div>
 <h3 id="double-yellow-proceed-at-restricted-speed">Double yellow —
 “proceed at restricted speed”</h3>
-<figure>
-<img src="../assets/signals/signal-09-caution-restricted.svg"
-style="height:1.5in"
-alt="Two yellow lamps stacked vertically. CTA rulebook: “Proceed with caution at restricted speed.”" />
-<figcaption aria-hidden="true">Two yellow lamps stacked vertically. CTA
-rulebook: “Proceed with caution at restricted speed.”</figcaption>
-</figure>
-<p><strong>You choose where the tools fit, with citation.</strong> A
-small number of later exercises hand the judgment call to you.</p>
-<p>This phase matters because it is the default in the world you are
-about to enter — eventually you always choose your own adventure. It
-seems worth having some practice with that open-ended judgment in a room
-full of people who will talk it through with you, before you have to
-make it alone. Every use is still at reduced speed and full attention,
-and you should be prepared to justify it.</p>
-<h3 id="citing-your-use">Citing your use</h3>
-<p>Whenever the signal is yellow-over-red or double yellow, add a short
-note at the end of your submission:</p>
+<div class="signal-aspect">
+<p><img src="../assets/signals/signal-09-caution-restricted.svg"
+alt="Two yellow lamps stacked vertically. CTA rulebook: “Proceed with caution at restricted speed.”" /><br />
+</p>
+<div class="signal-aspect-body">
+<p><strong>You choose where to use it, use cautiously, with
+citation.</strong> A small number of later exercises may give the
+judgment call entirely to you. This seems to be how the real world
+works, so it’s good to get some practice.</p>
+</div>
+</div>
+<h3 id="citing-your-use-of-aillms">Citing your use of AI/LLMs</h3>
+<p>Whenever the signal is yellow-over-red or double yellow, include a
+citation:</p>
 <blockquote>
 <p>I used [tool and version] to [what you asked it to do]. My prompt
 was: [prompt, or a summary if it was long]. Here is what I did with the
 output: [what you kept, changed, or threw away].</p>
 </blockquote>
-<p>An honest citation is never penalized. Using a tool where the signal
-did not permit it, or using one without citing it, is a violation of the
-academic integrity policy above, and I will reach out to you personally
-before filing anything.</p>
-<p>This policy is my current best judgment, not a settled matter, and it
-will keep evolving. I am genuinely interested in evidence-based
-arguments that I have it wrong — bring them to class.</p>
+<p>This policy is my current best judgment as of August 2026, and it
+will keep evolving, maybe even during this semester. I am genuinely
+curious about evidence-based arguments for various policies - if you see
+them, bring them to class!</p>
 <h2 id="visitors">Visitors</h2>
 <p>This class may welcome visitors (i.e. prospective students, guest
 speakers, etc.) during the semester. When possible, students will be
@@ -799,28 +781,24 @@ Class</h2>
 <p>As of right now I do not plan to record class sessions this semester.
 If this changes, I will ask for your permission to record, and it will
 most likely be only audio.</p>
-<p>This is especially important in a discussion-based class: recording
-can discourage open conversation, particularly around sensitive content,
-and much of what we do together depends on that openness.</p>
-<p>Similarly, please do not record any video or audio from class without
+<p>Privacy is especially important in a discussion-based class, as
+recording can discourage open conversation and participation. Our class
+will be more engaging for everyone if more people can freely participate
+without worrying about being recorded.</p>
+<p>So, please do not record any video or audio from class without
 permission.</p>
 <h2 id="ferpa">FERPA</h2>
 <p>Federal law (the <a href="https://registrar.uic.edu/ferpa/">Family
 Educational Rights and Privacy Act</a>) prohibits me from disclosing or
 discussing your grades over email. Please come see me during office
 hours if you want to talk about your work. I will work with TAs to try
-to keep grades updated in Canvas, so you can see how you are performing
-in class.</p>
-<h2 id="email-expectations">Email Expectations</h2>
-<p>Students are responsible for all messages sent to UIC email and
-Canvas accounts. I generally aim to respond to emails within 24 hours
-during weekdays. I generally do not check my email on Saturday and
-Sunday.</p>
+to keep grades updated in Canvas, so you can easily see how you are
+performing in class.</p>
 <h1 id="approximate-course-schedule">Approximate Course Schedule</h1>
 <p>The detailed and most current schedule will be published on the <a
-href="https://doethics.fun/">“do ethics”</a> website. We may revise
-readings, activities, or due dates as course needs develop. Any changes
-will be announced in class and updated in Canvas.</p>
+href="https://doethics.fun/">“do ethics”</a> website. Readings,
+activities, and due dates may be revised as course needs develop — see
+“Disclaimer” below.</p>
 <p>University deadlines for adding, dropping, and withdrawing from
 courses are listed on the <a
 href="https://catalog.uic.edu/ucat/academic-calendar/">UIC Academic
@@ -935,12 +913,12 @@ Definitions Exercise</td>
 </tr>
 </tbody>
 </table>
-<h2 id="another-disclaimer">Another Disclaimer</h2>
+<h2 id="disclaimer">Disclaimer</h2>
 <p>This syllabus is intended to give the student guidance on what may be
 covered during the semester and will be followed as closely as possible.
-However, again, we might decide to alter this syllabus as course needs
-arise, and I will communicate such changes through in-class
-announcements and in writing via Canvas and/or email.</p>
+However, we might decide to alter this syllabus as course needs arise,
+and I will communicate such changes through in-class announcements and
+in writing via Canvas and/or email.</p>
 <h1 id="accommodations">Accommodations</h1>
 <h2 id="disability-accommodation-procedures">Disability Accommodation
 Procedures</h2>
@@ -1001,11 +979,8 @@ addressed. I use he/him pronouns. For more information, see: <a
 href="https://www.mypronouns.org/what-and-why"
 class="uri">https://www.mypronouns.org/what-and-why</a>.</p>
 <h2 id="community-agreement">Community Agreement</h2>
-<p>The list below is a starting point, not a finished rulebook. During
-the first week we will go through it together, and I will ask you to
-suggest additions — practices you want from me, from the TAs, and from
-each other. We will take a straw vote on the final version, post it in
-Canvas, and revisit it during the semester.</p>
+<p>We will build our community agreement together in class (week 2, day
+1), and post the version we agree on in Canvas.</p>
 <p>The version we agree on governs how we treat each other in this room.
 If something in it stops working, say so and we will change it.</p>
 <h2 id="guidelines-for-participation-and-classroom-conduct">Guidelines
@@ -1234,7 +1209,8 @@ can be found on the Family Medicine Center’s Student Health webpage.</p>
 <h1 id="a-closing-note">A Closing Note</h1>
 <p><strong>Lastly</strong>, here is a picture of Hannah Arendt. She said
 that “evil comes from a failure to think.” If we are successful in this
-class, we will do some real thinking, and perhaps prevent some evil.</p>
+class, we will do some real thinking, and perhaps even prevent some
+evil.</p>
 <figure>
 <img src="arendt.jpg" style="width:55.0%"
 alt="Hannah Arendt, photographed on New Year’s Day, 1944. © Fred Stein/dpa/Corbis" />
