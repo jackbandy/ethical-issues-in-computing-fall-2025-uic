@@ -27,9 +27,11 @@
   width: 100%;
 }
 
+/* Wider than the 700px body column below it: at 700px the menu could not fit
+   on one line, and the nav row is what sets this width. */
 .site-masthead {
   box-sizing: border-box;
-  max-width: 700px;
+  max-width: 760px;
   margin: 48px auto;
   padding: 0 24px;
 }
@@ -54,14 +56,21 @@
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 28px;
+  gap: 8px 24px;
   margin: 0;
   padding: 0;
 }
 
-.site-nav a {
+/* One line, no shrinking: this is what makes the width measurement in
+   _includes/site-nav-script.html meaningful. Applied only once that script has
+   run, so with scripting off the nav keeps its old wrapping behavior. */
+.site-masthead.has-js-nav .site-nav {
+  flex-wrap: nowrap;
+}
+
+.site-masthead.has-js-nav .site-nav a {
   font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: 0.01em;
@@ -94,6 +103,120 @@
 .site-nav a[aria-current="page"] {
   color: #222;
   border-bottom-color: #00A1DE;
+}
+
+/* --- The title row and its hamburger ------------------------------------
+   On a wide screen this is just the title: the button is hidden, so the h1
+   fills the row exactly as it did before. In the compact state the title
+   shrinks to sit beside a small round button on the right. */
+.site-masthead-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-nav-toggle {
+  display: none;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 9999px;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.site-nav-toggle:hover {
+  color: #00A1DE;
+  border-color: #00A1DE;
+}
+
+.site-nav-toggle-bars {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 12px;
+}
+
+.site-nav-toggle-bars span {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 2px;
+  background-color: currentColor;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.site-nav-toggle-bars span:nth-child(1) { top: 0; }
+.site-nav-toggle-bars span:nth-child(2) { top: 5px; }
+.site-nav-toggle-bars span:nth-child(3) { top: 10px; }
+
+/* Open: the outer bars cross, the middle one fades out. */
+.site-masthead.is-open .site-nav-toggle-bars span:nth-child(1) {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.site-masthead.is-open .site-nav-toggle-bars span:nth-child(2) {
+  opacity: 0;
+}
+
+.site-masthead.is-open .site-nav-toggle-bars span:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav-toggle-bars span {
+    transition: none;
+  }
+}
+
+/* --- Compact state: too narrow for the links on one line ----------------- */
+.site-masthead.is-compact {
+  margin: 20px auto;
+}
+
+.site-masthead.is-compact h1 {
+  font-size: 22px;
+  margin: 0;
+  /* Long course titles wrap rather than shoving the button off the edge. */
+  min-width: 0;
+}
+
+.site-masthead.is-compact .site-nav-toggle {
+  display: flex;
+}
+
+.site-masthead.is-compact .site-nav {
+  display: none;
+}
+
+/* The menu itself: one link per row, opened by the button. */
+.site-masthead.is-compact.is-open .site-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.site-masthead.is-compact.is-open .site-nav a {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  border-left: 3px solid transparent;
+}
+
+.site-masthead.is-compact.is-open .site-nav a[aria-current="page"] {
+  color: #222;
+  border-bottom-color: #eee;
+  border-left-color: #00A1DE;
+  padding-left: 12px;
 }
 
 @media (max-width: 640px) {

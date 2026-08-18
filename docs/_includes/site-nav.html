@@ -8,6 +8,11 @@
   runs tags even inside HTML comments, so that example can't be spelled out
   here: it would include this file inside itself.)
 
+  The menu sits on a single line at every width it fits on. When it no longer
+  fits, the script in _includes/site-nav-script.html puts `is-compact` on
+  `.site-masthead`, which shrinks the title and swaps the links for the round
+  hamburger button.
+
   Styles live in css/site-nav.css so pages with their own stylesheet (the
   generated syllabus, the timer) can wear the header without pulling in
   index.css.
@@ -17,8 +22,13 @@
 {% assign nav_current = include.nav_current %}
 <hr class="blue-line">
 <div class="site-masthead">
-  <h1><a href="{{ site.baseurl }}/">Ethical Issues in Computing (CS 377)</a></h1>
-  <nav class="site-nav" aria-label="Main">
+  <div class="site-masthead-bar">
+    <h1><a href="{{ site.baseurl }}/">Ethical Issues in Computing (CS 377)</a></h1>
+    <button class="site-nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav-menu" aria-label="Menu">
+      <span class="site-nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+  </div>
+  <nav class="site-nav" id="site-nav-menu" aria-label="Main">
     <a href="{{ site.baseurl }}/"{% if nav_current == "home" %} aria-current="page"{% endif %}>Home</a>
     <a href="{{ site.baseurl }}/schedule.html"{% if nav_current == "schedule" %} aria-current="page"{% endif %}>Schedule</a>
     <a href="{{ site.baseurl }}/syllabus/"{% if nav_current == "syllabus" %} aria-current="page"{% endif %}>Syllabus</a>
@@ -30,3 +40,4 @@
   </nav>
 </div>
 <hr class="blue-line">
+{% include site-nav-script.html %}

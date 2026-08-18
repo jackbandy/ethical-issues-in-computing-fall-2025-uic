@@ -1,0 +1,69 @@
+<!--
+  Behavior for the site nav. Included by _includes/site-nav.html.
+
+  The breakpoint is measured, not guessed: the nav is laid out on one
+  non-wrapping line whose links refuse to shrink, so `scrollWidth > clientWidth`
+  means the links no longer fit and the compact hamburger layout takes over.
+  Measuring means the header flips at whatever width this particular set of
+  links happens to need, and keeps flipping at the right place when a link is
+  added or the webfont swaps in.
+
+  Note: this file was largely written by an LLM (Claude Code).
+-->
+<script>
+(function () {
+  var masthead = document.querySelector('.site-masthead');
+  if (!masthead) return;
+  var nav = masthead.querySelector('.site-nav');
+  var toggle = masthead.querySelector('.site-nav-toggle');
+  if (!nav || !toggle) return;
+
+  // Opts the header into the JS-driven layout. Without this class the nav keeps
+  // the plain wrapping behavior, so a page with scripting off is still usable.
+  masthead.classList.add('has-js-nav');
+
+  function close() {
+    masthead.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  /* Does the whole nav fit on one line? Measured with the compact layout off,
+     since that layout hides the links. Both class changes happen inside one
+     task, so the browser never paints the intermediate state. */
+  function measure() {
+    masthead.classList.remove('is-compact');
+    if (nav.scrollWidth > nav.clientWidth + 1) {
+      masthead.classList.add('is-compact');
+    } else {
+      close();   // back on one line: there is no menu left to have open
+    }
+  }
+
+  toggle.addEventListener('click', function () {
+    var open = masthead.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && masthead.classList.contains('is-open')) {
+      close();
+      toggle.focus();
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (masthead.classList.contains('is-open') && !masthead.contains(e.target)) close();
+  });
+
+  var pending = false;
+  window.addEventListener('resize', function () {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(function () { pending = false; measure(); });
+  });
+
+  measure();
+  // The webfont is wider than the fallback, so remeasure once it has swapped in.
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+})();
+</script>
