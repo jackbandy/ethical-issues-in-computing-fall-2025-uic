@@ -32,6 +32,9 @@ docs/slides/old-slides/
 # LaTeX generated content directory
 syllabus/latex-syllabus-in-progress/generated/
 
+# Blue Line notebook intermediates (the two finished PDFs are tracked)
+blue-line-notebook/_build/
+
 # Reference-only artifacts
 docs/in-progress/tables.pdf
 docs/assets/blue-line-stops/
