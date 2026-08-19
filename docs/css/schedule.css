@@ -8,7 +8,7 @@
    a station dot per meeting, and the station names — written as `code` spans in
    the markdown — render as CTA-style station plaques.
 
-   Note: this file was largely written by an LLM (Claude Code). */
+   Note: this file was largely written by an LLM. It was tested and reviewed before being published. */
 
 .schedule-main {
   max-width: 860px;

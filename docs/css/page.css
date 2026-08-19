@@ -3,7 +3,7 @@
   The layout already borrows schedule.css for links and lists; this file only
   adds what a long question-and-answer page needs.
 
-  Note: this file was largely written by an LLM (Claude Code).
+  Note: this file was largely written by an LLM. It was tested and reviewed before being published.
 */
 
 /* Each `## Topic` starts a new question. The rule above it does the work a

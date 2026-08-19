@@ -3,7 +3,7 @@
    wear the header alone. The @font-face is repeated from index.css for that
    reason; same URL, so the browser still fetches the file once.
 
-   Note: this file was largely written by an LLM (Claude Code). */
+   Note: this file was largely written by an LLM. It was tested and reviewed before being published. */
 @font-face {
   font-family: 'Libre Franklin';
   src: url('../assets/fonts/libre-franklin/LibreFranklin.woff2') format('woff2-variations');
