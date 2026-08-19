@@ -38,7 +38,7 @@
 
 .site-masthead h1 {
   font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
-  font-size: 44px;
+  font-size: 36px;
   font-weight: 900;
   line-height: 1.1;
   color: #222;
@@ -101,7 +101,7 @@
 }
 
 .site-nav a[aria-current="page"] {
-  color: #222;
+  color: #00A1DE;
   border-bottom-color: #00A1DE;
 }
 
@@ -213,7 +213,7 @@
 }
 
 .site-masthead.is-compact.is-open .site-nav a[aria-current="page"] {
-  color: #222;
+  color: #00A1DE;
   border-bottom-color: #eee;
   border-left-color: #00A1DE;
   padding-left: 12px;
@@ -226,7 +226,7 @@
   }
 
   .site-masthead h1 {
-    font-size: 34px;
+    font-size: 28px;
   }
 }
 
