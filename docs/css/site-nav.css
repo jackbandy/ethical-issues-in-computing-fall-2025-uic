@@ -69,6 +69,14 @@
 }
 
 .site-masthead.has-js-nav .site-nav a {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+/* Unscoped on purpose: keeping these on `.site-nav a` leaves the :hover and
+   [aria-current] rules below able to win. Nested under `.has-js-nav` they
+   outranked both, so the hover color and the active underline never showed. */
+.site-nav a {
   font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.2;
@@ -101,7 +109,7 @@
 }
 
 .site-nav a[aria-current="page"] {
-  color: #00A1DE;
+  color: #222;
   border-bottom-color: #00A1DE;
 }
 
@@ -213,7 +221,7 @@
 }
 
 .site-masthead.is-compact.is-open .site-nav a[aria-current="page"] {
-  color: #00A1DE;
+  color: #222;
   border-bottom-color: #eee;
   border-left-color: #00A1DE;
   padding-left: 12px;
