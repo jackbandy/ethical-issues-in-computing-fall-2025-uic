@@ -71,7 +71,9 @@ HEAD_GEOMETRY = "headheight=22pt,headsep=14pt,footskip=12pt"
 DEFAULT_DOT_PITCH = "0.2in"   # center-to-center spacing of the grid
 DEFAULT_DOT_SIZE = "0.5pt"    # side of each square dot
 
-COVER_RULE_THICKNESS = HAIRLINE   # the two full-bleed CTA-blue cover rules
+COVER_RULE_THICKNESS = "9pt"      # the two full-bleed CTA-blue cover rules;
+                                   # matches the 12px .blue-line rule on the
+                                   # course website (12px * 0.75pt/px = 9pt)
 HEADER_RULE_THICKNESS = HAIRLINE  # the rule under each page's header
 NAMEBOX_WIDTH = "1.7in"           # write-in box in the cover's top-right corner
 NAMEBOX_HEIGHT = "0.55in"
