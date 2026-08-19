@@ -35,7 +35,7 @@ Technical details of each build are in the collapsible sections at the bottom.
 
 ## Course topics
 
-The semester runs in three units, one per Blue Line branch, with a station for each class meeting:
+The semester generally proceeds in three units, one for each major segment/branch of the Blue Line, with a station for each class meeting:
 
 * **Unit 1: Ethical Theories** 🟦 Forest Park Branch 🟦
   * Virtue ethics
@@ -43,11 +43,12 @@ The semester runs in three units, one per Blue Line branch, with a station for e
   * Utilitarian ethics
   * Care ethics
 * **Unit 2: Stories** 🟦 Milwaukee–Dearborn Subway 🟦
-  * Algorithmic feeds, ranking, and content moderation
-  * Privacy, contextual integrity, and privacy in data
-  * Short stories: ("Here and Now," "Message in a Bottle," "Codename Delphi")
-  * Inequality, justice, and the digital divide
+  * Short stories: ("Here and Now," "Message in a Bottle," "Codename Delphi", more)
+  * Famous case studies (e.g. Therac-25)
 * **Unit 3: Contemporary Issues** 🟦 O'Hare Branch 🟦
+  * Algorithmic feeds, ranking, and content moderation
+  * Inequality, justice, and the digital divide
+  * Privacy, contextual integrity, and privacy in data
   * Facial recognition and fairness
   * Computing and war
   * Medical technology and cybersecurity
@@ -62,11 +63,13 @@ The "ground truth" for the week-by-week schedule is [`docs/_includes/schedule.cs
 
 The `sandbox/` folder is a quarantine zone for anything modified by an AI/LLM system. My philosophy on LLM usage is [here](https://jackbandy.com/text/llm-code-philosophy.html), but in short: I use them sparingly, and with caution, sort of like a credit card. If I do not have sufficient "money" (understanding) to "pay back" (explain, modify, rewrite, etc.) what I "buy" (generate), I probably should use a different tool, or do some learning.
 
-I do not use LLMs to draft or design the teaching materials themselves. I do use them for the supporting code that serves those materials — the Jekyll workflows, the build scripts, and much of the HTML/CSS on this site.
+I do not use LLMs to draft or design the teaching materials themselves. I do use them for the supporting code that serves those materials — Jekyll workflows, the build scripts, formatting, and much of the HTML/CSS on this site.
+
+So for example, while would not prompt an LLM with "draft the slides for week 4," I sometimes give prompts like "Add a slide in week 4 with the picture at https://commons.wikimedia.org/wiki/File:Therac_25.png and add two blank placeholder slides with 'Therac-25' as the title"
 
 Files that were substantially modified by an LLM say so in a header, e.g. `NOTICE: This file modified by an LLM coding system...` or something like that.
 
-I willingly take responsibility for what is in this repository, including those files which were modified by LLMs. Please contact me if you notice any issues - those are my fault.
+I willingly take responsibility for what is in this repository, including files which were modified by LLMs. Any issues are my fault (please contact me if you notice any 🙂).
 
 All other materials hand-typed with 🩵 in Chicago, IL.
 
