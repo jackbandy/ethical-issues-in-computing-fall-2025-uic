@@ -10,7 +10,8 @@ Generates a fold-it-yourself Blue Line notebook:
 Two dot-grid pages per CTA Blue Line stop, plus a front and back cover, so the
 total page count is a multiple of 4 and folds as a single signature.
 
-Requires: pdflatex (with fancyhdr, geometry, pdfpages, helvet, xcolor).
+Requires: lualatex (with fancyhdr, geometry, pdfpages, fontspec, tikz,
+xcolor) and the Big Shoulders font family installed on the system.
 """
 
 import argparse
@@ -29,12 +30,19 @@ STOPS_CSV = HERE.parent / "misc" / "cta-blue-line-stops.csv"
 BUILD_DIRNAME = "_build"
 
 MAIN_STEM = "blue-line-notebook"
-BOOKLET_STEM = "blue-line-notebook-booklet"
+# Two booklets, one per duplex setting. The fold runs down the sheet's short
+# edge, so a short-edge flip lands the backs the right way up and this
+# imposition prints as-is; a long-edge flip turns every back over the other
+# axis, so that version has its backs pre-rotated 180 degrees to compensate.
+SHORT_EDGE_STEM = "blue-line-notebook-booklet-flip-SHORT-edge"
+LONG_EDGE_STEM = "blue-line-notebook-booklet-flip-LONG-edge"
 MAIN_PDF = f"{MAIN_STEM}.pdf"
-BOOKLET_PDF = f"{BOOKLET_STEM}.pdf"
+SHORT_EDGE_PDF = f"{SHORT_EDGE_STEM}.pdf"
+LONG_EDGE_PDF = f"{LONG_EDGE_STEM}.pdf"
 MAIN_TEX = f"{MAIN_STEM}.tex"
-BOOKLET_TEX = f"{BOOKLET_STEM}.tex"
-OUTPUT_PDFS = (MAIN_PDF, BOOKLET_PDF)
+SHORT_EDGE_TEX = f"{SHORT_EDGE_STEM}.tex"
+LONG_EDGE_TEX = f"{LONG_EDGE_STEM}.tex"
+OUTPUT_PDFS = (MAIN_PDF, SHORT_EDGE_PDF, LONG_EDGE_PDF)
 KEEP_SUFFIXES = (".tex", ".pdf")
 
 # --------------------------------------------------------------------------
@@ -65,16 +73,49 @@ RULE_GRAY = "0.55"          # xcolor gray level for every drawn line
 HAIRLINE = "0.4pt"          # thickness of every drawn line
 
 PAGE_W, PAGE_H = "5.5in", "8.5in"
-MARGINS = "top=0.5in,bottom=0.45in,inner=0.55in,outer=0.45in"
-HEAD_GEOMETRY = "headheight=22pt,headsep=14pt,footskip=12pt"
+# The top margin has to clear the whole header (headheight + headsep), which
+# now carries the route strip and the stop label as well as the page number.
+MARGINS = "top=0.72in,bottom=0.45in,inner=0.55in,outer=0.45in"
+HEAD_GEOMETRY = "headheight=38pt,headsep=12pt,footskip=12pt"
 
-DEFAULT_DOT_PITCH = "0.2in"   # center-to-center spacing of the grid
-DEFAULT_DOT_SIZE = "0.5pt"    # side of each square dot
+# Big Shoulders: a condensed grotesque drawn for Chicago (its name is
+# Sandburg's "City of the Big Shoulders"), so the notebook is set in the city
+# it rides through. The family ships optical sizes; the 18pt cut is drawn for
+# small text and carries the headers, the 60pt display cut carries the cover.
+BODY_FONT = "Big Shoulders 18pt"
+DISPLAY_FONT = "Big Shoulders 60pt"
+
+# The grid: just the dots needed to divide the page into eight even
+# rectangles, so the lattice runs GRID_COLS+1 by GRID_ROWS+1 points.
+GRID_COLS = 2
+GRID_ROWS = 4
+DEFAULT_DOT_SIZE = "2pt"      # diameter of each grid dot; with so few
+                              # dots on the page each one has to read
+DOT_OPACITY = "0.5"           # the dots guide the hand, they don't rule the
+                              # page, so they sit at half strength
+DRAW_DOT_GRID = True
 
 COVER_RULE_THICKNESS = "9pt"      # the two full-bleed CTA-blue cover rules;
                                    # matches the 12px .blue-line rule on the
                                    # course website (12px * 0.75pt/px = 9pt)
-HEADER_RULE_THICKNESS = HAIRLINE  # the rule under each page's header
+
+# Fixed vertical slots for the cover, so front and back rule up identically.
+COVER_NAME_SLOT = "0.78in"     # the name box's row, whether or not it's drawn
+COVER_BAND_TOP = "1.95in"      # name box row down to the first rule
+COVER_TITLE_SLOT = "1.15in"    # the title and subtitle, centered between rules
+COVER_FOOT_GAP = "22pt"        # second rule down to the route line
+
+# The route strip in the header: the whole Blue Line drawn end to end, Forest
+# Park at the left, O'Hare at the right, one dot per stop. The current stop is
+# the only open dot, so a reader can see where in the run the page sits. This
+# strip is also the rule that separates header from page, which is why the
+# header carries no other rule: the stop label rides above the line and the
+# page number sits below it.
+STRIP_LINE_WIDTH = "1.1pt"    # the route line itself
+STRIP_DOT_RADIUS = "1.4pt"    # every other stop: small and solid
+STRIP_OPEN_RADIUS = "2.6pt"   # this page's stop: larger and open
+STRIP_OPEN_WIDTH = "1.0pt"    # ring thickness of the open dot
+STRIP_LABEL_GAP = "5pt"       # from the route line up to the stop label
 NAMEBOX_WIDTH = "1.7in"           # write-in box in the cover's top-right corner
 NAMEBOX_HEIGHT = "0.55in"
 NAMEBOX_BORDER = HAIRLINE
@@ -95,15 +136,16 @@ TEX_ESCAPES = {
 
 PREAMBLE = r"""
 \documentclass[10pt,twoside]{article}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[scaled]{helvet}
+\usepackage{fontspec}
+\setsansfont{%(bodyfont)s}
+\newfontfamily{\displayfont}{%(displayfont)s}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{xcolor}
 \usepackage[paperwidth=%(pw)s,paperheight=%(ph)s,
             %(margins)s,%(head)s]{geometry}
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
+\usepackage{tikz}
 
 \definecolor{ctablue}{RGB}{%(blue)s}
 \definecolor{dotgray}{gray}{%(dotgray)s}
@@ -117,17 +159,51 @@ PREAMBLE = r"""
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-%% Header: stop name and page number, the number always on the outer edge,
-%% over a hairline rule that runs the full text width.
+%% The Blue Line itself, drawn across the top of every stop page: the route
+%% from Forest Park (left) to O'Hare (right) with one dot per stop. Every stop
+%% is a small solid dot except the page's own, which is larger and open, with
+%% the stop name set directly beneath it.
+\newlength{\blstep}
+\setlength{\blstep}{\dimexpr\textwidth/%(nlast)s\relax}
+\newsavebox{\bllabelbox}
+\newlength{\bllabelx}
+\newcommand{\stopindex}{0}
 \newcommand{\stopname}{}
-\fancyhead[LE]{\headerline{\thepage}{\stopname}}
-\fancyhead[RO]{\headerline{\stopname}{\thepage}}
 
-\newcommand{\headerline}[2]{%%
+\newcommand{\bluelinestrip}[2]{%%
+  \sbox{\bllabelbox}{\footnotesize\bfseries #2}%%
+  %% Center the label on the open dot, then slide it back inside the text
+  %% block when the stop sits near either end of the line.
+  \setlength{\bllabelx}{\dimexpr #1\blstep-0.5\wd\bllabelbox\relax}%%
+  \ifdim\bllabelx<0pt\relax\setlength{\bllabelx}{0pt}\fi
+  \ifdim\dimexpr\bllabelx+\wd\bllabelbox\relax>\textwidth\relax
+    \setlength{\bllabelx}{\dimexpr\textwidth-\wd\bllabelbox\relax}\fi
+  \begin{tikzpicture}[x=\blstep,y=1pt,baseline=0pt]
+    \draw[ctablue,line width=%(striplw)s] (0,0) -- (%(nlast)s,0);
+    \foreach \blidx in {0,...,%(nlast)s}{%%
+      \ifnum\blidx=#1\relax
+        \fill[white] (\blidx,0) circle[radius=%(openr)s];
+        \draw[ctablue,line width=%(openw)s] (\blidx,0) circle[radius=%(openr)s];
+      \else
+        \fill[ctablue] (\blidx,0) circle[radius=%(dotr)s];
+      \fi}%%
+    \node[anchor=south west,inner sep=0pt,
+          xshift=\bllabelx,yshift=%(labelgap)s] at (0,0) {\usebox{\bllabelbox}};
+  \end{tikzpicture}%%
+}
+
+%% Header: page number on the outer edge, the route strip beneath it. The
+%% strip's blue line doubles as the header rule.
+\fancyhead[LE]{\headerline{l}}
+\fancyhead[RO]{\headerline{r}}
+
+\newcommand{\headerline}[1]{%%
   \parbox[b]{\textwidth}{%%
-    \footnotesize\textbf{#1}\hfill
-    \footnotesize\textbf{#2}\\[2pt]
-    \textcolor{rulegray}{\rule{\textwidth}{%(headrule)s}}%%
+    %% The end dots are centered on the edges of the text block, so the strip
+    %% overhangs it by one dot radius; the \makebox keeps that overhang from
+    %% counting as an overfull line.
+    \makebox[\textwidth][c]{\bluelinestrip{\stopindex}{\stopname}}\\[3pt]
+    \makebox[\textwidth][#1]{\footnotesize\textbf{\thepage}}%%
   }%%
 }
 
@@ -137,7 +213,8 @@ PREAMBLE = r"""
 %% set in a zero-width box so it never counts as an overfull line.
 \newcommand{\fullrule}[1]{%%
   \par\noindent\makebox[0pt][l]{%%
-    \hspace*{-\dimexpr 1in+\oddsidemargin+\hoffset\relax}%%
+    \hspace*{-\dimexpr 1in+%%
+      \ifodd\value{page}\oddsidemargin\else\evensidemargin\fi+\hoffset\relax}%%
     \textcolor{ctablue}{\rule{\paperwidth}{#1}}}\par
 }
 
@@ -150,51 +227,70 @@ PREAMBLE = r"""
       \scriptsize\textbf{#1}}}}\par
 }
 
-%% A dot grid filling the text block. Each row is a \leaders run of
-%% pitch-wide boxes with a dot centered in each, so the columns line up
-%% without needing an external drawing package.
-\newlength{\dotpitch}\setlength{\dotpitch}{%(pitch)s}
+%% The grid: one dot at every corner of a %(gcols)s-by-%(grows)s division of the
+%% text block, which is the fewest marks that lay out eight even rectangles to
+%% write or sketch in.
+\newif\ifdotgrid\dotgrid%(dotgrid)s
 \newlength{\dotsize}\setlength{\dotsize}{%(dotsize)s}
 \makeatletter
-\newlength{\dg@y}
-\newcommand{\dg@mark}{\textcolor{dotgray}{\rule{\dotsize}{\dotsize}}}
-\newcommand{\dg@row}{%%
-  \hbox to \textwidth{%%
-    \leaders\hbox to \dotpitch{\hss\dg@mark\hss}\hfil}%%
+\newcommand{\dg@grid}{%%
+  \begin{tikzpicture}[x=\dimexpr\textwidth/%(gcols)s\relax,
+                      y=-\dimexpr\textheight/%(grows)s\relax,
+                      baseline=0pt]
+    \foreach \dg@c in {0,...,%(gcols)s}{%%
+      \foreach \dg@r in {0,...,%(grows)s}{%%
+        \fill[dotgray,opacity=%(dotopacity)s]
+          (\dg@c,\dg@r) circle[radius=0.5\dotsize];}}%%
+  \end{tikzpicture}%%
 }
-\newcommand{\dotpage}[1]{%%
-  \renewcommand{\stopname}{#1}%%
+\newcommand{\dotpage}[2]{%%
+  \renewcommand{\stopindex}{#1}%%
+  \renewcommand{\stopname}{#2}%%
   \noindent\vbox to \textheight{%%
-    \setlength{\dg@y}{0pt}%%
-    \@whiledim\dg@y<\dimexpr\textheight-\dotpitch\relax\do{%%
-      \nointerlineskip\dg@row
-      \vskip\dimexpr\dotpitch-\dotsize\relax
-      \global\advance\dg@y by \dotpitch
-    }%%
+    %% The edge dots are centered on the text block's edges, so the grid
+    %% overhangs it by one dot radius; the \makebox absorbs that.
+    \ifdotgrid\noindent\makebox[\textwidth][c]{\dg@grid}\fi
     \vss}%%
   \clearpage
 }
 \makeatother
 
+%% Front and back cover are the same object. They print side by side on the
+%% outer sheet, so the two CTA-blue rules have to land at exactly the same
+%% height on each for the blue to run unbroken across the folded booklet.
+%% That rules out \vfill: every element above the rules gets a fixed slot
+%% instead, and the back cover reserves those same slots empty.
+\newlength{\cvnameslot}\setlength{\cvnameslot}{%(cvnameslot)s}
+\newlength{\cvbandtop}\setlength{\cvbandtop}{%(cvbandtop)s}
+\newlength{\cvtitleslot}\setlength{\cvtitleslot}{%(cvtitleslot)s}
+\newlength{\cvfootgap}\setlength{\cvfootgap}{%(cvfootgap)s}
+
+%% #1 name-box row, #2 title block, #3 foot lines -- any of them may be empty.
+\newcommand{\coverpage}[3]{%%
+  \thispagestyle{empty}%%
+  \vbox to \cvnameslot{#1\vss}%%
+  \vskip\cvbandtop
+  \fullrule{%(coverrule)s}%%
+  \vbox to \cvtitleslot{\vss#2\vss}%%
+  \fullrule{%(coverrule)s}%%
+  \vskip\cvfootgap
+  #3%%
+  \vfill\null
+  \clearpage
+}
+
 \begin{document}
 """
 
-COVER_TEMPLATE = r"""\thispagestyle{empty}
-\namebox{%(nameline)s}
-\vfill
-\fullrule{%(rule)s}
-\vspace{18pt}
+COVER_TEMPLATE = r"""\coverpage{\namebox{%(nameline)s}}{%%
 \begin{center}
-{\Huge\bfseries %(title)s}\\[10pt]
-%(subtitle)s\end{center}
-\vspace{12pt}
-\fullrule{%(rule)s}
-\vspace{22pt}
+{\displayfont\Huge\bfseries %(title)s}\\[10pt]
+%(subtitle)s\end{center}}{%%
 \begin{center}
 %(lines)s
-\end{center}
-\vfill\null
-\clearpage"""
+\end{center}}"""
+
+BACK_COVER = r"\coverpage{}{}{}"
 
 COVER_SUBTITLE_TEMPLATE = "{\\large %s}\n"
 COVER_LINE_TEMPLATE = "{\\footnotesize %s}"
@@ -202,8 +298,19 @@ COVER_LINE_SEP = "\\\\[10pt]\n"
 
 BLANK_PAGE = r"\thispagestyle{empty}\null\clearpage"
 STOP_HEAD_TEMPLATE = r"%s {\scriptsize\mdseries(%s)}"
-DOTPAGE_TEMPLATE = r"\dotpage{%s}"
+DOTPAGE_TEMPLATE = r"\dotpage{%d}{%s}"
 END_DOCUMENT = r"\end{document}"
+
+# Each half of the letter sheet is exactly half-letter, so at full size the
+# header labels land in the strip most printers cannot reach. Scaling each
+# imposed page down a touch pulls everything inside the printable area.
+BOOKLET_SCALE = 0.94
+
+# No space between the two halves: each imposed page keeps its full trim, so
+# they meet exactly on the fold and the cover rules cross it unbroken. The
+# scaling above takes its margin from the outer edges, which is where the
+# printer needs it.
+BOOKLET_DELTA = "0pt 0pt"
 
 BOOKLET_TEMPLATE = r"""
 \documentclass[letterpaper,landscape]{article}
@@ -211,22 +318,45 @@ BOOKLET_TEMPLATE = r"""
 \usepackage{pdfpages}
 \begin{document}
 \includepdf[pages=-,nup=2x1,signature=%(signature)d,landscape=false,
-            noautoscale=false,delta=0pt 0pt]{%(src)s}
+            noautoscale=false,scale=%(scale)s,delta=%(delta)s]{%(src)s}
 \end{document}
 """
+
+LONG_EDGE_TEMPLATE = r"""
+\documentclass[letterpaper,landscape]{article}
+\usepackage[letterpaper,landscape,margin=0pt]{geometry}
+\usepackage{pdfpages}
+\begin{document}
+%(pages)s
+\end{document}
+"""
+
+# Sheet sides alternate front, back, front, back; only the backs turn over.
+LONG_EDGE_PAGE = (r"\includepdf[pages={%(page)d},angle=%(angle)d,"
+                  r"noautoscale=true]{%(src)s}")
+LONG_EDGE_BACK_ANGLE = 180
+
+
+def build_long_edge_tex(src_pdf: str, sheet_sides: int):
+    pages = [LONG_EDGE_PAGE % {"page": n, "src": src_pdf,
+                               "angle": LONG_EDGE_BACK_ANGLE if n % 2 == 0 else 0}
+             for n in range(1, sheet_sides + 1)]
+    return LONG_EDGE_TEMPLATE % {"pages": "\n".join(pages)}
+
 
 # --------------------------------------------------------------------------
 # Command line and messages
 # --------------------------------------------------------------------------
 
-PDFLATEX_CMD = ["pdflatex", "-interaction=nonstopmode", "-halt-on-error"]
+# lualatex, not pdflatex: fontspec needs it to reach the installed Big
+# Shoulders TrueType family.
+LATEX_CMD = ["lualatex", "-interaction=nonstopmode", "-halt-on-error"]
 LATEX_PASSES = 2
 LOG_TAIL_CHARS = 4000
 
 HELP_STOPS = "CSV of stop names, one per row"
 HELP_OUTDIR = "where the finished PDFs are written"
-HELP_DOT_PITCH = "center-to-center dot spacing"
-HELP_DOT_SIZE = "side length of each square dot"
+HELP_DOT_SIZE = "diameter of each grid dot"
 HELP_TITLE = "cover title"
 HELP_SUBTITLE = "cover subtitle"
 HELP_SIGNATURE = ("pages per folded signature (multiple of 4); "
@@ -235,7 +365,7 @@ HELP_KEEP_TEX = "leave the intermediate build files in place"
 
 ERR_PAGE_COUNT = "{n} pages is not a multiple of 4; add or remove a cover page."
 ERR_SIGNATURE = "--signature must be a multiple of 4"
-ERR_LATEX = "pdflatex failed on {name}"
+ERR_LATEX = "lualatex failed on {name}"
 MSG_SUMMARY = "{stops} stops -> {pages} pages ({sheets} folded sheets, signature={sig})"
 MSG_OUTPUT = "   {path}"
 
@@ -267,33 +397,47 @@ def cover_page(title, subtitle, lines, nameline):
     }
 
 
-def build_main_tex(stops, pitch, dotsize, title, subtitle):
+def build_main_tex(stops, dotsize, title, subtitle):
     out = [PREAMBLE % {"pw": PAGE_W, "ph": PAGE_H, "margins": MARGINS,
                        "head": HEAD_GEOMETRY, "blue": CTA_BLUE,
-                       "dotgray": DOT_GRAY, "pitch": pitch, "dotsize": dotsize,
+                       "dotgray": DOT_GRAY, "dotsize": dotsize,
                        "nbwidth": NAMEBOX_WIDTH, "nbheight": NAMEBOX_HEIGHT,
                        "nbborder": NAMEBOX_BORDER, "rulegray": RULE_GRAY,
-                       "headrule": HEADER_RULE_THICKNESS}]
+                       "nlast": len(stops) - 1,
+                       "striplw": STRIP_LINE_WIDTH, "dotr": STRIP_DOT_RADIUS,
+                       "openr": STRIP_OPEN_RADIUS, "openw": STRIP_OPEN_WIDTH,
+                       "labelgap": STRIP_LABEL_GAP,
+                       "dotgrid": "true" if DRAW_DOT_GRID else "false",
+                       "dotopacity": DOT_OPACITY,
+                       "bodyfont": BODY_FONT, "displayfont": DISPLAY_FONT,
+                       "gcols": GRID_COLS, "grows": GRID_ROWS,
+                       "coverrule": COVER_RULE_THICKNESS,
+                       "cvnameslot": COVER_NAME_SLOT,
+                       "cvbandtop": COVER_BAND_TOP,
+                       "cvtitleslot": COVER_TITLE_SLOT,
+                       "cvfootgap": COVER_FOOT_GAP}]
     out.append(cover_page(title, subtitle,
                           [COVER_STOPS_LINE.format(n=len(stops))],
                           COVER_NAME_LINE))
-    for name, branch in stops:
+    for i, (name, branch) in enumerate(stops):
         head = tex_escape(name)
         if branch:
             head = STOP_HEAD_TEMPLATE % (head, tex_escape(branch))
-        out.extend([DOTPAGE_TEMPLATE % head] * PAGES_PER_STOP)
-    out.append(BLANK_PAGE)  # back cover
+        out.extend([DOTPAGE_TEMPLATE % (i, head)] * PAGES_PER_STOP)
+    out.append(BACK_COVER)  # carries the cover rules through the fold
     out.append(END_DOCUMENT)
     return "\n".join(out)
 
 
 def build_booklet_tex(src_pdf: str, signature: int):
-    return BOOKLET_TEMPLATE % {"signature": signature, "src": src_pdf}
+    return BOOKLET_TEMPLATE % {"signature": signature, "src": src_pdf,
+                               "scale": BOOKLET_SCALE,
+                               "delta": BOOKLET_DELTA}
 
 
 def run_latex(tex_path: Path, workdir: Path):
     for _ in range(LATEX_PASSES):
-        proc = subprocess.run(PDFLATEX_CMD + [tex_path.name],
+        proc = subprocess.run(LATEX_CMD + [tex_path.name],
                               cwd=workdir, capture_output=True, text=True)
         if proc.returncode != 0:
             sys.stderr.write(proc.stdout[-LOG_TAIL_CHARS:])
@@ -304,7 +448,6 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--stops", type=Path, default=STOPS_CSV, help=HELP_STOPS)
     ap.add_argument("--outdir", type=Path, default=HERE, help=HELP_OUTDIR)
-    ap.add_argument("--dot-pitch", default=DEFAULT_DOT_PITCH, help=HELP_DOT_PITCH)
     ap.add_argument("--dot-size", default=DEFAULT_DOT_SIZE, help=HELP_DOT_SIZE)
     ap.add_argument("--title", default=DEFAULT_TITLE, help=HELP_TITLE)
     ap.add_argument("--subtitle", default=DEFAULT_SUBTITLE, help=HELP_SUBTITLE)
@@ -324,14 +467,19 @@ def main():
     build.mkdir(parents=True, exist_ok=True)
 
     main_tex = build / MAIN_TEX
-    main_tex.write_text(build_main_tex(stops, args.dot_pitch, args.dot_size,
+    main_tex.write_text(build_main_tex(stops, args.dot_size,
                                        args.title, args.subtitle),
                         encoding="utf-8")
     run_latex(main_tex, build)
 
-    bk_tex = build / BOOKLET_TEX
-    bk_tex.write_text(build_booklet_tex(MAIN_PDF, signature), encoding="utf-8")
-    run_latex(bk_tex, build)
+    short_tex = build / SHORT_EDGE_TEX
+    short_tex.write_text(build_booklet_tex(MAIN_PDF, signature), encoding="utf-8")
+    run_latex(short_tex, build)
+
+    long_tex = build / LONG_EDGE_TEX
+    long_tex.write_text(build_long_edge_tex(SHORT_EDGE_PDF, npages // 2),
+                        encoding="utf-8")
+    run_latex(long_tex, build)
 
     for name in OUTPUT_PDFS:
         shutil.copy(build / name, args.outdir / name)
