@@ -1,5 +1,5 @@
 ---
-summary: Staying silent would let an innocent man be punished in his place, but speaking up ends the life JV has rebuilt.
+summary: Staying silent would let an innocent man be punished in his place, but speaking up may JV's life.
 ---
 
 # JV's Conscience
