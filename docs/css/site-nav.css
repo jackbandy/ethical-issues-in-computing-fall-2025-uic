@@ -28,9 +28,19 @@
 }
 
 /* Wider than the 700px body column below it: at 700px the menu could not fit
-   on one line, and the nav row is what sets this width. */
+   on one line, and the nav row is what sets this width.
+
+   `width: 100%` is load-bearing on pages whose <body> is a flex container (the
+   individual dilemma pages use one for their sticky footer). There the auto
+   side margins keep the header from stretching, so without an explicit width it
+   shrink-to-fits to its own min-content — and because the nav is laid out
+   `nowrap`, that min-content is the combined width of every link. The header
+   would end up wider than a phone screen, the measurement in
+   _includes/site-nav-script.html would see the links "fitting", and the compact
+   hamburger layout would never turn on. */
 .site-masthead {
   box-sizing: border-box;
+  width: 100%;
   max-width: 760px;
   margin: 48px auto;
   padding: 0 24px;

@@ -18,12 +18,16 @@
   }
 
   /* On a narrow screen the full-size car is nearly as wide as the window, so it
-     has nowhere to glide. Scale it to 40% of the window width instead, keeping
+     has nowhere to glide. Scale it to 47% of the window width instead, keeping
      the artwork's 2440:400 aspect ratio (400 / 2440 = 0.1639). Sizing by height
-     keeps the wheels-on-the-rail offset below in one place. */
+     keeps the wheels-on-the-rail offset below in one place.
+
+     47% is a deliberate middle: the car is big enough to read as a train on a
+     phone (~188px wide at a 400px viewport, ~423px at 900px) while still leaving
+     over half the window as rail for it to glide along. */
   @media (max-width: 900px) {
     :root {
-      --masthead-train-height: calc(40vw * 0.1639);
+      --masthead-train-height: calc(47vw * 0.1639);
     }
   }
 
