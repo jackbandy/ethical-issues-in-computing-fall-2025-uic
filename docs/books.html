@@ -5,6 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Book Gallery - Student Selections for Ethical Issues in Computing</title>
+  {% include social-meta.html %}
+  {% include icons.html %}
 <link rel="stylesheet" href="books.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
 </head>
@@ -101,11 +103,11 @@ function closePanel() {
   document.getElementById("overlay").classList.remove("visible");
 }
 
-// Books marked `elevate: true` are always on display. The rest are held back
+// Books marked `curated: true` are always on display. The rest are held back
 // until "Show All Books" is checked.
 function visibleBooks() {
   const showAll = document.getElementById("showAll").checked;
-  return showAll ? books : books.filter(b => b.elevate);
+  return showAll ? books : books.filter(b => b.curated);
 }
 
 // Which ordering the gallery is currently in, so toggling the checkbox

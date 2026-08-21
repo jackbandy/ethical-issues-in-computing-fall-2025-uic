@@ -1,0 +1,34 @@
+{%- comment -%}
+Preview-card image tags, shared by every layout.
+
+Open Graph plus Twitter Cards is the whole convention -- Facebook, LinkedIn, Slack, Discord,
+Signal, Telegram, WhatsApp, iMessage, Mastodon, Bluesky and Teams all read one or both.
+There is no third vocabulary worth carrying.
+
+This site has no jekyll-seo-tag, so nothing else emits og:image or twitter:card; unlike the
+Orange Line site's split, this include owns them outright. The layouts still write og:title,
+og:description, og:url and og:type themselves, since those are per-page.
+
+The picture is the masthead train on its rail -- the same header a visitor lands on -- built
+by assets/branding/sandbox/make_branding.py. Defaults live in _config.yml under `social:`.
+
+Per-page overrides, from front matter: `image` (site-root-relative) and `image_alt`, plus
+`image_width`/`image_height` if the override is not 1200x630.
+{%- endcomment -%}
+{%- assign img = page.image | default: site.social.image -%}
+{%- assign img_alt = page.image_alt | default: site.social.image_alt -%}
+{%- assign img_url = img | prepend: site.baseurl | prepend: site.url -%}
+{%- assign img_w = page.image_width | default: site.social.image_width -%}
+{%- assign img_h = page.image_height | default: site.social.image_height -%}
+<meta property="og:image" content="{{ img_url }}">
+<meta property="og:image:secure_url" content="{{ img_url }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="{{ img_w }}">
+<meta property="og:image:height" content="{{ img_h }}">
+<meta property="og:image:alt" content="{{ img_alt | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ img_url }}">
+<meta name="twitter:image:alt" content="{{ img_alt | escape }}">
+{%- if site.twitter.username %}
+<meta name="twitter:site" content="@{{ site.twitter.username | remove: '@' }}">
+{%- endif %}

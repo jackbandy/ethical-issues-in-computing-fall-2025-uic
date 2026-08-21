@@ -1,0 +1,31 @@
+{%- comment -%}
+Tab identity: the Blue Line through the Loop -- the Milwaukee-Dearborn diagonal, the turn
+east under Lake, and the hook south past Washington and Jackson before the line heads west.
+It is a crop of the route map the site is built around (assets/blue-line-full-path-tweak-divided.svg),
+not a separate logo, so the tab, the home screen and the schedule all show the same drawing.
+
+Built by assets/branding/sandbox/make_branding.py -- edit the crop box there and re-run it,
+don't hand-edit favicon.ico or the PNGs.
+
+Browsers that understand an SVG icon take loop-icon.svg and stay sharp at any density; the
+rest fall back to favicon.ico (16/32/48/64/128px, each rendered from the vector). Station
+circles are dropped: at 16px they are grit, not stops.
+
+theme-color tints the browser chrome CTA Blue Line blue. A page whose own ground is a
+different color passes `theme_color="#..."` rather than emitting a second tag.
+
+iOS ignores the manifest's short_name, so a Home Screen save is labelled from <title> --
+"Full Schedule — Blue Line Ethics", truncated to about a dozen characters. apple-mobile-web-app-title
+names it instead; keep it in step with short_name in site.webmanifest.
+
+color-scheme tells the browser this design is light-only, which keeps Chrome's
+force-dark from inverting it into something that is not the design, and makes
+scrollbars and form controls match the page.
+{%- endcomment -%}
+<link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" sizes="32x32">
+<link rel="icon" href="{{ '/assets/branding/loop-icon.svg' | prepend: site.baseurl }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/branding/apple-touch-icon.png' | prepend: site.baseurl }}">
+<link rel="manifest" href="{{ '/site.webmanifest' | prepend: site.baseurl }}">
+<meta name="theme-color" content="{{ include.theme_color | default: site.theme_color }}">
+<meta name="apple-mobile-web-app-title" content="CS 377">
+<meta name="color-scheme" content="light">

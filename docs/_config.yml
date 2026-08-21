@@ -4,6 +4,22 @@ description: Ethical Issues in Computing — CS 377, UIC
 url: "https://doethics.fun"
 baseurl: ""
 
+# CTA Blue Line blue. Emitted as <meta name="theme-color"> by _includes/icons.html, and
+# repeated in site.webmanifest, which Jekyll copies through untouched.
+theme_color: "#00A1DE"
+
+# Preview card, emitted by _includes/social-meta.html. The image is one car of the masthead
+# train on its rail -- what a visitor sees at the top of the page they are being sent to --
+# rather than a separate logo. Built by assets/branding/sandbox/make_branding.py.
+twitter:
+  username: jackbandy
+social:
+  image: /assets/branding/blue-line-og.png
+  image_width: 1200
+  image_height: 630
+  image_alt: >-
+    A single CTA rail car resting on a horizontal blue line, lettered ETHICS.
+
 plugins:
   - jekyll-sitemap
 
