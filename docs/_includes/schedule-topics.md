@@ -1,12 +1,8 @@
-<!-- What happens on each class day. This file is the source for the "Topics"
-     and "Source materials" on the schedule page AND for the syllabus's
-     per-week table; syllabus_source/schedule.lua reads it too.
+<!-- What happens on each class day. This file is the source for the "Topics" and "Source materials" on the schedule page AND for the syllabus's per-week table; syllabus_source/schedule.lua reads it too.
 
-     Sections are keyed by `## Week N, Day M` — the date in parentheses is for
-     readers only. The schedule spine (dates, stations, units, work due) lives
-     in schedule.csv next door, so rolling the course to a new semester means
-     changing dates there, not here. Bullets under a heading are that day's
-     topics; bullets under `### Sources` become the collapsed list. -->
+Sections are keyed by `## Week N, Day M` — the date in parentheses is for readers only. The schedule "spine" (dates, stations, units, work due) is in schedule.csv.
+
+Bullets under a heading are that day's topics; bullets under `### Sources` become the collapsed list. -->
 
 ## Week 1, Day 1 (2026-08-24)
 
@@ -85,6 +81,7 @@
 ### Sources
 
 * Nick Hopkins, [Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
+* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
 * UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
 * Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
 
@@ -133,6 +130,7 @@
 
 * ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
 * [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
+* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
 * [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
 * Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
 * _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
@@ -186,6 +184,7 @@
 * Chiang and Zheng et al. [An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=3MW8GKNyzI)
   * [LMArena](https://lmarena.ai/?mode=side-by-side) / [About](https://lmarena.ai/about)
 * [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
+* Rumman Chowdhury, [Debates over AI consciousness are a trap](https://archive.ph/Bbs6p) (_MIT Technology Review_, 2026)
 
 ## Week 9, Day 1 (2026-10-19)
 

@@ -440,6 +440,25 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
+## ELIZA Effect and "Is It Conscious?"
+
+- The ELIZA effect: what we project onto a system
+- New extension: is the system itself "awake," a "moral patient," a legal person?
+- Chowdhury's argument
+- https://archive.ph/Bbs6p
+- TK
+
+
+---
+
+## Consciousness as "Moral Oursourcing" {.quote-slide}
+
+> "Discussing AI in anthropomorphic terms is a trap, distorting a legal system intended to protect us into one that protects corporate interests at the cost of countless human lives."
+>
+> — Rumman Chowdhury, *MIT Technology Review* (2026)
+
+---
+
 ## Dangerous Queries
 
 ::: {.incremental}
@@ -519,4 +538,5 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 7. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
 8. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
 9. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
-10. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+10. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (2026).
+11. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
