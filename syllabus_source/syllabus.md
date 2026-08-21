@@ -381,6 +381,7 @@ I will make every effort to avoid requiring that work be submitted on [religious
 
 I will make every reasonable effort to honor your request and not penalize you for missing class. If an assignment is due during your absence, you will be given an assignment equivalent to the one completed by students in attendance. Students may appeal through [campus grievance procedures](https://oae.uic.edu/religious/) for religious accommodations.
 
+
 # Classroom Environment
 
 ## Classroom Community
@@ -479,8 +480,6 @@ UIC supports parenting students by providing affordable, high-quality childcare 
 
 ## Tutoring and Academic Support Centers
 
-*The blurbs in this subsection are mostly boilerplate from the syllabus template published by UIC's Center for the Advancement of Teaching Excellence (CATE).*
-
 **The Writing Center** offers friendly and supportive tutors who can help you with reading and writing in any of your courses, not just English. Tutors are ready to help with other writing as well, such as job applications, personal statements, and resumes. The tutor and you will work together to decide how to improve your writing. If you have not started your assignment, that is OK. A tutor can help you brainstorm or make an outline. Tutors understand that you might be using the Writing Center for the first time. They are ready to guide you through your first session. You can choose to work with a tutor in person or in real time over the internet using video, audio, or chat and a whiteboard. For more information and to schedule an appointment, visit the [Writing Center website](https://writingcenter.uic.edu/).
 
 **The Math and Science Learning Center**, located in the Science and Engineering South Building (SES) at 845 W. Taylor St. 3rd Floor, Room 247, is a meeting place for students in Math, Biological Sciences, Chemistry, Earth and Environmental Sciences, and Physics. At the MSLC, students can meet with graduate teaching assistants for tutoring in 100-level courses, attend informal group study sessions with other students, or meet up with friends to attend one of the workshops, seminars, or other activities sponsored by the MSLC during the semester. Visit the [MSLC website](https://mslc.uic.edu/), call 312-355-4900, or email at [mslc@uic.edu](mailto:mslc@uic.edu).
@@ -499,4 +498,4 @@ UIC supports parenting students by providing affordable, high-quality childcare 
 
 ---
 
-*Many parts of this syllabus are based on the syllabus template from UIC's Center for the Advancement of Teaching Excellence (CATE), available at <https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/>.*
+*Parts of this syllabus were copied or lightly modified from the syllabus template published by UIC's Center for the Advancement of Teaching Excellence (CATE), available at <https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/>.*
