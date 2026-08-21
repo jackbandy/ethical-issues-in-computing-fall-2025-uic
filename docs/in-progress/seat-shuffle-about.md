@@ -14,7 +14,12 @@ The basic goal is to create a "slip" for each seat naming a destination table, s
 
 If people were literally drawing slips from a hat, there is a possibility that they would end up at the same table where they are currently sitting. They might also migrate to a different table with the same people from their original table. This tool has constraints to prevent both such scenarios.
 
-Because the constraints interact — especially once seats are erased — the tool does not draw slips at all. It works out how many students each destination table should receive, then solves the routing as a small max-flow problem: each table supplies the students sitting at it, each destination demands its share, and every table-to-table link has capacity one, which is what forces a table's students to split up. A flow that moves everybody is a valid seating. The result is then randomly walked around the space of valid seatings by trading destinations between pairs of tables, which keeps every constraint intact while making sure the same room does not produce the same answer twice.
+Because of these constraints, the tool does not actually "draw slips." The pseudocode is as follows:
+* Check absences / missing seats
+* Figure out how many students each destination table should receive
+* Route as a small "max-flow" problem, where each table supplies the students sitting at it, each destination demands its share, and every table-to-table link has capacity one (that forces a table's students to split up).
+* Any flow that moves everybody is a valid seating.
+* The result is then randomly walked around the space of valid seatings by trading destinations between pairs of tables, which keeps every constraint intact while spreading the result across the many valid seatings a room allows, rather than always returning the first one the solver happens to find.
 
 ## Showing the Result
 
@@ -28,7 +33,7 @@ The chair itself does not disappear, though, so a table with an erased seat can 
 
 With enough seats erased the constraints can become impossible to satisfy at once — a table of four has to split four ways, and those four destinations need at least twelve students between them. When that happens a ⚠️ appears in the top-right corner; hover it for an explanation of which rule ran out of room. The tool would rather say so than quietly break one of its own rules.
 
-The "loading" is purely for entertainment / amusement. The shuffle itself runs quickly (in constant time), but the spinner effect is fun to watch for a few seconds. Same with the drawing animation. If you want more details, check out the javascript (`shuffle.js`) in the repository. It was largely coded by Copilot.
+The "loading" is purely for entertainment / amusement. The shuffle itself finishes in a few milliseconds (I think it's an NP problem, but the room is fixed at eight tables, so there is never too much to search) but the spinner effect is fun to watch for a few seconds. Same with the drawing animation. If you want more details, check out the javascript (`shuffle.js`) in the repository. It was largely written by Copilot.
 
 ## Constraints
 
