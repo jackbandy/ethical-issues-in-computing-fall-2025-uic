@@ -269,15 +269,19 @@ I aim to return feedback on each exercise within about one week of its due date,
 
 Opportunities to revise an exercise are specific to that exercise, as is the process for requesting a regrade. Both will be described in the instructions and rubric for the exercise on Canvas. If you believe an exercise was graded in error, contact the instructor as soon as possible (I prefer to avoid end-of-semester panic sessions).
 
-## Academic Integrity
+## Academic Integrity and Assurance of Learning
 
-Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/). See also the [UIC Student Disciplinary Policy](https://dos.uic.edu/wp-content/uploads/sites/262/2024/11/Student-Disciplinary-Policy-2024-1.pdf), which describes how instances of academic misconduct are handled.
+UIC is an academic community committed to providing an environment in which research, learning, and scholarship can flourish and in which all endeavors are guided by academic and professional integrity. In this community, all members including faculty, administrators, staff, and students alike share the responsibility to uphold the highest standards of academic honesty and quality of academic work so that such a collegial and productive environment exists.
+
+Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/). See also the [UIC Student Disciplinary Policy](https://dos.uic.edu/wp-content/uploads/sites/262/2024/11/Student-Disciplinary-Policy-2024-1.pdf), which describes how instances of academic misconduct are handled. Unacceptable behavior includes cheating, unauthorized collaboration, fabrication or falsification, plagiarism, multiple submissions without instructor permission, using unauthorized study aids, coercion regarding grading or evaluation of coursework, and facilitating academic misconduct.
+
+By submitting your assignments for grading you acknowledge these terms, you declare that your work is solely your own, and you promise that, unless authorized by the instructor or proctor, you have not communicated with anyone in any way during an exam or other online assessment.
 
 Academic integrity also includes respecting the copyright of course materials — see "Respect for Copyright" above.
 
 In line with UIC's mission to provide "an environment in which research, learning, and scholarship can flourish and in which all endeavors are guided by academic and professional integrity," **the work you turn in for this class must be your own work**.
 
-This is to ensure that **you** develop skills and knowledge from this course that will be valuable to you in your future courses, your career, and other areas of your life. 
+This is to ensure that **you** develop skills and knowledge from this course that will be valuable to you in your future courses, your career, and other areas of your life. In other words, the point is to **assure that you are learning** so that UIC fulfills its educational mission.
 
 This does not mean that you need to complete all work in a personal Faraday cage. Rather, you are encouraged to discuss your ideas with friends and classmates, and to explore related work (i.e. academic papers, blogs, video essays, forums, etc.). An important part of scholarship is standing on the shoulders of giants,^[Ironically, while this phrase is often attributed to Isaac Newton in a letter from 1676, it was first recorded in John of Salisbury's book *Metalogicon* from 1159. I learned this from a blog post on BookBrowse.com] (after all, we are in the City of the Big Shoulders^[Sandburg, Carl. "Chicago." *Poetry* (March 1914).]) and acknowledging whose shoulders we stand upon.
 
@@ -286,6 +290,8 @@ In other words, **always cite your sources**!
 **Please ask the instructor if you need clarity about academic integrity** for specific exercises. When in doubt, it is always better to check.
 
 I will reach out to you personally before submitting a report of academic misconduct.
+
+*Adapted from the [UIC CATE syllabus template](https://teaching.uic.edu/cate-teaching-guides/syllabus-course-design/syllabus/).*
 
 ## Use of Generative AI/LLMs
 
