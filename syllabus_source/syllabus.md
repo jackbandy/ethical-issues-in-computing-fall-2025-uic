@@ -203,7 +203,7 @@ Further details and rubrics for each exercise will be published on Canvas.
 
 ## Grading Scale
 
-You can expect the following correspondence between your percentage grade in the course and your final letter grade, and the "equivalent" description from the registrar.
+You can expect the following correspondence between your percentage grade in the course and your final letter grade, and the "equivalent" description from the [registrar's grading system](https://registrar.uic.edu/student_records/grading_system.html).
 
 | **F** | **D** | **C** | **B** | **A** |
 |:-------------|:-------------|:-------------|:-------------|:-------------|
@@ -271,7 +271,7 @@ Opportunities to revise an exercise are specific to that exercise, as is the pro
 
 ## Academic Integrity
 
-Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/).
+Students are expected to follow UIC's [Community Standards](https://dos.uic.edu/community-standards/) and policies on [academic integrity](https://dos.uic.edu/community-standards/academic-integrity/). See also the [UIC Student Disciplinary Policy](https://dos.uic.edu/wp-content/uploads/sites/262/2024/11/Student-Disciplinary-Policy-2024-1.pdf), which describes how instances of academic misconduct are handled.
 
 Academic integrity also includes respecting the copyright of course materials — see "Respect for Copyright" above.
 
@@ -325,6 +325,10 @@ For individual exercise policies, this course uses CTA rail signals. Every exerc
 :::
 :::
 
+
+Just for fun, here is [the full set of eleven signals](https://doethics.fun/assets/signals/signals-only.pdf) from the 1973 CTA rulebook:
+
+![The eleven interlocking home signal aspects from the 1973 CTA rulebook.](../assets/signals/signals-only.png){width=100%}
 
 ### Citing your use of AI/LLMs
 
@@ -440,9 +444,9 @@ Below are some of the many support services and resources available to all UIC s
 - [Student Guide for Information Technology](https://uofi.app.box.com/s/0nyho51r24yo0pivafibb1nvqogjm401) – a comprehensive resource for UIC students describing the most commonly used IT services and tools supporting your success
 - [Navigating Health Resources at UIC](https://publichealthinitiatives.uic.edu/health-hub/navigating-health-resources/) – explore the many resources that are on campus to support students' health and wellbeing and learn about how you can access them.
 
-Importantly, **if you are in immediate distress**, please know the UIC Counseling Center provides high-quality crisis intervention services, available 24 hours a day, 7 days a week. You can walk into the Counseling Center during business hours to request to talk to a crisis counselor, or you can call the Counseling Center main line at (312) 996-3490. If you are calling outside of business hours, select "2" during the automated greeting to be connected to a crisis counselor. You can find additional mental health resources and services on the Counseling Center Website and the Student's Guide to Accessing Behavioral Health Services at UIC.
+Importantly, **if you are in immediate distress**, please know the UIC Counseling Center provides high-quality crisis intervention services, available 24 hours a day, 7 days a week. You can walk into the Counseling Center during business hours to request to talk to a crisis counselor, or you can call the Counseling Center main line at (312) 996-3490. If you are calling outside of business hours, select "2" during the automated greeting to be connected to a crisis counselor. You can find additional mental health resources and services on the [Counseling Center website](https://counseling.uic.edu/) and in the [Student's Guide to Accessing Behavioral Health Services at UIC](https://uofi.box.com/s/yh2aqt9sdhbkhx4xk6pkaat2ztm9nkvb).
 
-For immediate crisis support outside of UIC, call or text "9-8-8" any time, 24 hours a day, 7 days a week. Dialing 988 will connect you to a trained crisis professional. 988 offers services in Spanish, American Sign Language, and over 240 languages through tele-interpretation services. The 988 website has an online chat feature, too.
+For immediate crisis support outside of UIC, call or text "9-8-8" any time, 24 hours a day, 7 days a week. Dialing 988 will connect you to a trained crisis professional. 988 offers services in Spanish, American Sign Language, and over 240 languages through tele-interpretation services. The [988 website](https://988lifeline.org/) has an online chat feature, too.
 
 We all need the help and the support of our UIC community. Please visit my office hours for course consultation and other academic or research topics. For additional assistance, please contact your assigned college advisor and visit the support services available to all UIC students.
 
@@ -456,14 +460,14 @@ We all need the help and the support of our UIC community. Please visit my offic
 ## Wellness
 
 - **[U&I Care Program](https://dos.uic.edu/student-assistance/ui-care/)** – assistance for students facing personal hardships, including emergency funds and referrals
-- **[UIC Counseling Center](https://counseling.uic.edu/)** – free, confidential intake with a trained therapist for students who pay the student health services fee, leading to brief individual or group therapy, psychiatry referrals, or care coordination with a community provider. Located in the Student Services Building; call (312) 996-3490 during business hours. (See above for 24/7 crisis intervention.)
+- **[UIC Counseling Center](https://counseling.uic.edu/)** – free, confidential intake with a trained therapist for students who pay the student health services fee, leading to brief individual or group therapy, psychiatry referrals, or care coordination with a [community provider](https://counseling.uic.edu/case-management/community-provider-database/). Located in the Student Services Building; call (312) 996-3490 during business hours. (See above for 24/7 crisis intervention.)
 - **[Campus Advocacy Network](https://can.uic.edu/)** – confidential victim services and advocacy under Title IX, which gives you the right to an education free from gender-based violence and discrimination, including sexual assault, domestic violence, harassment, and stalking. Call 312-413-8206. To make a report to UIC's Title IX office, email [TitleIX@uic.edu](mailto:TitleIX@uic.edu) or call (312) 996-8670.
 
 ## Safety
 
-- **UIC SAFE App** ([link to download](https://ready.uic.edu/safetyresources/uic-safe-app/)) – a free personal security tool that puts you in easy contact with dispatchers and first responders in an emergency
+- **UIC SAFE App** ([link to download](https://ready.uic.edu/toolkit/uic-safe-app/)) – a free personal security tool that puts you in easy contact with dispatchers and first responders in an emergency
 - [UIC Safety Resources](https://ready.uic.edu/safetyresources/) and the [UIC Police](https://police.uic.edu/) – safety tips, alerts, and campus security programs
-- **Walking Safety Escort and Night Ride** – use either if you are uncomfortable traveling anywhere on campus. You are discouraged from staying in university buildings alone, including lab rooms, after hours.
+- **[Walking Safety Escort](https://police.uic.edu/rides-and-escorts/student-patrol/) and [Night Ride](https://transportation.uic.edu/night-ride/)** – use either if you are uncomfortable traveling anywhere on campus. You are discouraged from staying in university buildings alone, including lab rooms, after hours.
 - **[Emergency response guides](https://ready.uic.edu/)** – from the Office of Preparedness and Response. Please review the recommendations for various emergency situations.
 - Emergency: Dial 5-5555 from a campus phone, or (312) 355-5555 from a cell phone
 
@@ -485,7 +489,7 @@ UIC supports parenting students by providing affordable, high-quality childcare 
 
 ## Health Services
 
-**Student Health Services** are available if you get sick during the semester. The Family Medicine Center is committed to providing high-quality, student centered care and services. It has attending physicians, residents, and nurse practitioners on staff to provide the full range of primary health care services. The Family Medicine Center also offers a limited set of health services at no additional cost to students who pay the Student Health Service Fee (SHSF). Services include caring for an acute or urgent illness (e.g., cold, strep throat, asthma attack, flu) or an injury. More information can be found on the Family Medicine Center's Student Health webpage.
+**Student Health Services** are available if you get sick during the semester. The Family Medicine Center is committed to providing high-quality, student centered care and services. It has attending physicians, residents, and nurse practitioners on staff to provide the full range of primary health care services. The Family Medicine Center also offers a limited set of health services at no additional cost to students who pay the Student Health Service Fee (SHSF). Services include caring for an acute or urgent illness (e.g., cold, strep throat, asthma attack, flu) or an injury. More information can be found on the [Family Medicine Center's Student Health](https://hospital.uillinois.edu/primary-and-specialty-care/family-medicine/student-health) webpage.
 
 # A Closing Note
 
