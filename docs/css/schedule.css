@@ -57,14 +57,14 @@
   line-height: 1.9;
 }
 
-/* ── Unit headings: a branch banner ── */
+/* ── Unit headings ── */
 .schedule-body h2 {
   font-size: 1.5rem;
   font-weight: 900;
   color: #222;
   margin: 56px 0 8px;
   padding-bottom: 10px;
-  border-bottom: 6px solid #00A1DE;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 /* ── Week headings ── */
