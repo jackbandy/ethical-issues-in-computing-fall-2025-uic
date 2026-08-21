@@ -1,5 +1,5 @@
 ---
-summary: The classic: by pulling a lever to divert a trolley, only one person will be killed instead of five.
+summary: The classic: pulling a lever diverts a trolley so that only one person is killed instead of five.
 ---
 
 # The Trolley Problem (S Version)

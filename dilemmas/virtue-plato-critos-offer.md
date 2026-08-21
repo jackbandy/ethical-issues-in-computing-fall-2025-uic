@@ -1,5 +1,5 @@
 ---
-summary: Socrates is offered to escape an unjust death sentence, and considers breaking the laws of the city that raised him.
+summary: Socrates is offered the chance to escape an unjust death sentence, and considers breaking the laws of the city that raised him.
 ---
 
 # Crito's Offer

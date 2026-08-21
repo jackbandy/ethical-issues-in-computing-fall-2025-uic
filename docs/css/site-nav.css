@@ -123,6 +123,23 @@
   border-bottom-color: #00A1DE;
 }
 
+/* --- About link: an "i" circle pinned to the far right of the menu --------- */
+.site-nav-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;   /* push to the far right of the flex row */
+}
+.site-nav-info svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+/* Wide menu: icon only. The text label is for the compact (hamburger) menu. */
+.site-nav-info-label {
+  display: none;
+}
+
 /* --- The title row and its hamburger ------------------------------------
    On a wide screen this is just the title: the button is hidden, so the h1
    fills the row exactly as it did before. In the compact state the title
@@ -235,6 +252,16 @@
   border-bottom-color: #eee;
   border-left-color: #00A1DE;
   padding-left: 12px;
+}
+
+/* In the compact menu the About row shows its text label and sits in line
+   with the other links instead of being pushed to the right edge. */
+.site-masthead.is-compact.is-open .site-nav-info {
+  margin-left: 0;
+}
+
+.site-masthead.is-compact.is-open .site-nav-info-label {
+  display: inline;
 }
 
 @media (max-width: 640px) {

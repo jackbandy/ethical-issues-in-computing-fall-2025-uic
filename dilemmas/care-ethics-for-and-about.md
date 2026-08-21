@@ -6,7 +6,7 @@ summary: You can care for the person in front of you, or care about many people 
 
 Every Tuesday evening you volunteer-tutor a child in your neighborhood. The child is not doing well in school, and they are not easy to help, but over a few years of volunteering you have learned more about how they think, when they shut down, what makes them try again, etc.
 
-For the sake of this example, if you stop coming to tutor this child, no one else is going to take the volunteer hour.
+For the sake of this example, if you stop coming to tutor this child, no one else is going to take those volunteer hours.
 
 One week you are informed that the same volunteer hours given to a famine relief organization would do more measurable good. By volunteering in the organization's warehouse, you will support more lives for more years and prevent more suffering. You will never meet the children, they will never know your name, and you will never see their response.
 

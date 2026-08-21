@@ -4,7 +4,7 @@ A good way to approach these dilemmas is to begin by describing the dilemma in y
 
 When discussed in class, these dilemmas also give us an opportunity to notice how others approach ethical dilemmas. For example, students may "rank" some values higher than other values (e.g. generosity, frugality, honesty, hospitality), and these dilemmas often put some values in tension with other values.
 
-Additionally, discussing these values in the context of simulated/emulated/hypoethetical ethical dilemmas can help you prepare for dilemmas you will face in the real world.
+Additionally, discussing these values in the context of simulated/emulated/hypothetical ethical dilemmas can help you prepare for dilemmas you will face in the real world.
 
 A few other notes:
 

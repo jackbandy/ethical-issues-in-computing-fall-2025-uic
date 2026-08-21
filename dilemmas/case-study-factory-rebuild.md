@@ -8,7 +8,7 @@ You own a textile factory. One night in December, an accidental fire destroys mo
 
 Suppose you are 70 years old, and you have a large sum of insurance money in hand. Three options to consider are:
 
-1. **Take the payout and retire.** The business is insured, you have no obligation to rebuild, and you have earned the rest.
+1. **Take the payout and retire.** The business is insured, you have no obligation to rebuild, and you have earned your rest.
 2. **Rebuild somewhere cheaper.** Much of the industry has already moved to places where labor costs a fraction of what it costs here.
 3. **Rebuild here, and keep paying the idled workers in the meantime.** Full wages and benefits, millions of dollars a month, with no work for them to do and no guarantee the rebuilt business will survive.
 

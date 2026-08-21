@@ -4,7 +4,7 @@
   hand-rolled title block that used to live in each page.
 
   Pass `nav_current` from the including page to mark the active link — an
-  include tag with nav_current="schedule", "syllabus", "home", and so on. (Liquid
+  include tag with nav_current="schedule", "syllabus", "about", and so on. (Liquid
   runs tags even inside HTML comments, so that example can't be spelled out
   here: it would include this file inside itself.)
 
@@ -29,14 +29,17 @@
     </button>
   </div>
   <nav class="site-nav" id="site-nav-menu" aria-label="Main">
-    <a href="{{ site.baseurl }}/"{% if nav_current == "home" %} aria-current="page"{% endif %}>Home</a>
-    <a href="{{ site.baseurl }}/schedule.html"{% if nav_current == "schedule" %} aria-current="page"{% endif %}>Schedule</a>
+    <a href="{{ site.baseurl }}/"{% if nav_current == "schedule" %} aria-current="page"{% endif %}>Schedule</a>
     <a href="{{ site.baseurl }}/syllabus/"{% if nav_current == "syllabus" %} aria-current="page"{% endif %}>Syllabus</a>
     <a href="{{ site.baseurl }}/slides/"{% if nav_current == "slides" %} aria-current="page"{% endif %}>Slides</a>
     <a href="{{ site.baseurl }}/dilemmas/"{% if nav_current == "dilemmas" %} aria-current="page"{% endif %}>Dilemmas</a>
     <a href="{{ site.baseurl }}/books.html"{% if nav_current == "books" %} aria-current="page"{% endif %}>Books</a>
     <a href="{{ site.baseurl }}/faq.html"{% if nav_current == "faq" %} aria-current="page"{% endif %}>FAQ</a>
     <a class="is-external" href="{{ site.baseurl }}/timer/" target="_blank" rel="noopener">Timer</a>
+    <a class="site-nav-info" href="{{ site.baseurl }}/about.html"{% if nav_current == "about" %} aria-current="page"{% endif %} aria-label="About this site">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      <span class="site-nav-info-label">About</span>
+    </a>
   </nav>
 </div>
 <hr class="blue-line">

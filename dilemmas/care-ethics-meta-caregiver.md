@@ -6,7 +6,7 @@ summary: Caring for your parent full-time will cost you your career, so you hire
 
 Suppose your only surviving parent has an illness and can no longer be left alone. You are the child who lives closest, and everyone in the family assumes you will handle it.
 
-You have spent a decade building your career. If you choose to care for your parent full-time, you will lose your income, your health insurance, and live on your retirement savings.
+You have spent a decade building your career. If you choose to care for your parent full-time, you will lose your income and your health insurance, and live on your retirement savings.
 
 To avoid this, you decide to hire a home care aide. The aide is good at her work, and maybe even more attentive and patient with your parent than you would be. The aide is paid close to minimum wage, has no benefits, and sends most of her earnings home to her children in another country (who are being raised by a grandparent).
 

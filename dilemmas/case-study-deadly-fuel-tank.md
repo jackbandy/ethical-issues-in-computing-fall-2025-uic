@@ -35,6 +35,6 @@ Gary Schwartz argues many elements of this are simply wrong. The actual document
 
 Finally, though its rear-end fire record was worse than most subcompacts, the Ford Pinto's overall fatality rate was lower than that of the Corolla, the VW Beetle, and other similar vehicles at the time. Ford was eventually acquitted in the Indiana reckless homicide prosecution.
 
-Still, many elements are accurate. Schwartz concludes Ford plausibly declined it on cost (the $9 package), knowing the decision would increase the chance of deaths, so I think the spirit of the story remains.
+Still, many elements are accurate. Schwartz concludes Ford plausibly declined it on cost (the $9 package), knowing the decision would increase the chance of deaths, so I think the spirit of the story is unchanged.
 
 See also: the SEP page on [Risk](https://plato.stanford.edu/entries/risk/) - considering statistical risk on people who did not consent to it.
