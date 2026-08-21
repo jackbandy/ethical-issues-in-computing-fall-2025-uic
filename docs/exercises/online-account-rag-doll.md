@@ -18,7 +18,6 @@ Yes, an actual doll! Consider your observations from reviewing your trace data i
 * wire
 
 ## Examples
-* If you need some inspiration, [pictures of dolls from Fall 2025 are available here](https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/galleries/doll-gallery.pdf)
 
 
 ## Class Discussion Questions
