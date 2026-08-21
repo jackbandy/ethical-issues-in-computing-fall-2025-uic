@@ -87,3 +87,46 @@
     padding-top: 18px;
   }
 }
+
+/* Signal aspect blocks in the "Student AI Use" section: the signal drawing sits
+   on the left the way it does trackside -- you read the aspect first, then the
+   rule it stands for. The hairline border stands in for the signal's backing
+   plate, which is what makes the lamps legible against the sky. */
+.prose-page .signal-aspect {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+
+/* kramdown wraps the image in its own paragraph, so the <p> is the flex item. */
+.prose-page .signal-aspect > p:first-child {
+  flex: 0 0 200px;
+  margin: 0;
+}
+
+.prose-page .signal-aspect img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #565a5c; /* CTA Sign Grey */
+  border-radius: 2px;
+}
+
+.prose-page .signal-aspect-body > :first-child {
+  margin-top: 0;
+}
+
+.prose-page .signal-aspect-body > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .prose-page .signal-aspect {
+    gap: 1rem;
+  }
+
+  .prose-page .signal-aspect > p:first-child {
+    flex-basis: 90px;
+  }
+}
