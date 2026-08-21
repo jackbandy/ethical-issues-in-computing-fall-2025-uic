@@ -123,20 +123,11 @@
   border-bottom-color: #00A1DE;
 }
 
-/* --- About link: an "i" circle pinned to the far right of the menu --------- */
-.site-nav-info {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: auto;   /* push to the far right of the flex row */
-}
-.site-nav-info svg {
-  width: 20px;
-  height: 20px;
-  display: block;
-}
-/* Wide menu: icon only. The text label is for the compact (hamburger) menu. */
-.site-nav-info-label {
+/* --- Meta links (GitHub Source, About) ------------------------------------
+   On the wide nav they are not here at all: the footer carries them. They
+   appear only in the compact menu, which covers the page and puts the footer
+   out of reach. */
+.site-nav-meta {
   display: none;
 }
 
@@ -254,14 +245,31 @@
   padding-left: 12px;
 }
 
-/* In the compact menu the About row shows its text label and sits in line
-   with the other links instead of being pushed to the right edge. */
-.site-masthead.is-compact.is-open .site-nav-info {
-  margin-left: 0;
+/* The compact menu covers the footer, so it ends with the same two meta links:
+   quieter than the section links above them, icon on the left. */
+.site-masthead.is-compact.is-open .site-nav-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #888;
 }
 
-.site-masthead.is-compact.is-open .site-nav-info-label {
-  display: inline;
+/* The first meta row (the one that follows a section link) opens the group. */
+.site-masthead.is-compact.is-open :not(.site-nav-meta) + .site-nav-meta {
+  margin-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.site-masthead.is-compact.is-open .site-nav-meta svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.site-masthead.is-compact.is-open .site-nav-meta:hover {
+  color: #00A1DE;
 }
 
 @media (max-width: 640px) {
