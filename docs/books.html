@@ -14,7 +14,7 @@
   <h1>Book Gallery – Ethical Issues in Computing</h1>
   <button onclick="shuffleBooks()">🔀 Shuffle</button>
   <button onclick="sortBooks()">Sort A–Z</button>
-  <a class="btn" href="https://bookshop.org/lists/ethical-issues-in-computing" target="_blank" rel="noopener">View on Bookshop</a>
+  <label class="show-all"><input type="checkbox" id="showAll" onchange="renderCurrent()"> Show All Books</label>
 </div>
 <div class="gallery" id="gallery"></div>
 
@@ -30,7 +30,7 @@
 
 <div class="footnotes">
   <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
-  <a href="https://bookshop.org/lists/ethical-issues-in-computing">Bookshop uses affiliate links</a>
+  <a href="https://bookshop.org/lists/ethical-issues-in-computing" target="_blank" rel="noopener">View on Bookshop (this gallery includes affiliate links)</a>
 </div>
 <script>
 const AFFILIATE_ID = "122922";
@@ -38,9 +38,19 @@ function affiliateLink(isbn) {
   return `https://bookshop.org/a/${AFFILIATE_ID}/${isbn}`;
 }
 
+// The same book on Bookshop, with no referral tag attached. Prefers the
+// product URL recorded in books.csv; falls back to an ISBN search.
+function plainLink(book) {
+  return book.Link || `https://bookshop.org/search?keywords=${book.ISBN}`;
+}
+
 function renderGallery(bookList) {
   const gallery = document.getElementById("gallery");
   gallery.innerHTML = "";
+  if (bookList.length === 0) {
+    gallery.innerHTML = '<p class="gallery-empty">No books are featured right now \u2014 check "Show All Books" to see the full shelf.</p>';
+    return;
+  }
   bookList.forEach(book => {
     const card = document.createElement("div");
     card.className = "card";
@@ -72,7 +82,11 @@ function openPanel(book) {
     <h2 class="panel-title">${book.Title}</h2>
     <p class="panel-author">${book.Author}</p>
     <p class="panel-isbn">ISBN: ${book.ISBN}</p>
-    <a class="panel-link" href="${affiliateLink(book.ISBN)}" target="_blank" rel="noopener noreferrer">View on Bookshop.org &rarr;</a>
+    <div class="panel-links">
+      <a class="panel-link" href="${affiliateLink(book.ISBN)}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; affiliate link &rarr;</a>
+      <a class="panel-link" href="${plainLink(book)}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; plain link &rarr;</a>
+    </div>
+    <p class="panel-links-note">(Both go to the same book for the same price. The affiliate link credits this course; the plain link has no referral tag.)</p>
     <div class="reviews-heading">
       <h3>Reviews from students who chose this book (${book.reviews ? book.reviews.length : 0})</h3>
       ${reviews}
@@ -87,13 +101,30 @@ function closePanel() {
   document.getElementById("overlay").classList.remove("visible");
 }
 
+// Books marked `elevate: true` are always on display. The rest are held back
+// until "Show All Books" is checked.
+function visibleBooks() {
+  const showAll = document.getElementById("showAll").checked;
+  return showAll ? books : books.filter(b => b.elevate);
+}
+
+// Which ordering the gallery is currently in, so toggling the checkbox
+// re-filters without silently reshuffling the shelf under the reader.
+let currentOrder = "shuffle";
+
+function renderCurrent() {
+  if (currentOrder === "sort") sortBooks(); else shuffleBooks();
+}
+
 function shuffleBooks() {
-  const shuffled = [...books].sort(() => Math.random() - 0.5);
+  currentOrder = "shuffle";
+  const shuffled = [...visibleBooks()].sort(() => Math.random() - 0.5);
   renderGallery(shuffled);
 }
 
 function sortBooks() {
-  const sorted = [...books].sort((a, b) => a.Title.localeCompare(b.Title));
+  currentOrder = "sort";
+  const sorted = [...visibleBooks()].sort((a, b) => a.Title.localeCompare(b.Title));
   renderGallery(sorted);
 }
 

@@ -10,6 +10,7 @@ const books = [
     ISBN: "9780593241837",
     Link: "https://bookshop.org/p/books/unmasking-ai-a-story-of-hope-and-justice-in-a-world-of-algorithms-joy-buolamwini/20010838?ean=9780593241844",
     Image: "assets/book-cover-cache/9780593241837.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -26,6 +27,7 @@ const books = [
     ISBN: "9781250322159",
     Link: "https://bookshop.org/p/books/cobalt-red-how-the-blood-of-the-congo-powers-our-lives-siddharth-kara/18411025?ean=9781250322159",
     Image: "assets/book-cover-cache/9781250322159.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -42,6 +44,7 @@ const books = [
     ISBN: "9780593657508",
     Link: "https://bookshop.org/p/books/empire-of-ai-dreams-and-nightmares-in-sam-altman-s-openai-karen-hao/22156498?ean=9780593657508",
     Image: "assets/book-cover-cache/9780593657508.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -58,6 +61,7 @@ const books = [
     ISBN: "9780465093656",
     Link: "https://bookshop.org/search?keywords=9780465093656",
     Image: "assets/book-cover-cache/9780465093656.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -74,6 +78,7 @@ const books = [
     ISBN: "9780691203423",
     Link: "https://bookshop.org/search?keywords=9780691203423",
     Image: "assets/book-cover-cache/9780691203423.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -90,6 +95,7 @@ const books = [
     ISBN: "9780143036531",
     Link: "https://bookshop.org/p/books/amusing-ourselves-to-death-public-discourse-in-the-age-of-show-business-neil-postman/6781325?ean=9780143036531",
     Image: "assets/book-cover-cache/9780143036531.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -106,6 +112,7 @@ const books = [
     ISBN: "9780525536512",
     Link: "https://bookshop.org/p/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world-cal-newport/12081448?ean=9780525536512",
     Image: "assets/book-cover-cache/9780525536512.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -122,6 +129,7 @@ const books = [
     ISBN: "9780393357820",
     Link: "https://bookshop.org/p/books/the-shallows-what-the-internet-is-doing-to-our-brains-nicholas-carr/15563044?ean=9780393357820",
     Image: "assets/book-cover-cache/9780393357820.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -138,6 +146,7 @@ const books = [
     ISBN: "9780345457684",
     Link: "https://bookshop.org/search?keywords=9780345457684",
     Image: "assets/book-cover-cache/9780345457684.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -154,6 +163,7 @@ const books = [
     ISBN: "9781324074533",
     Link: "https://bookshop.org/search?keywords=9781324074533",
     Image: "assets/book-cover-cache/9781324074533.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -170,6 +180,7 @@ const books = [
     ISBN: "9781610273763",
     Link: "https://bookshop.org/search?keywords=9781610273763",
     Image: "assets/book-cover-cache/9781610273763.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -186,6 +197,7 @@ const books = [
     ISBN: "9780307949103",
     Link: "https://bookshop.org/search?keywords=9780307949103",
     Image: "assets/book-cover-cache/9780307949103.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -202,6 +214,7 @@ const books = [
     ISBN: "9780735222847",
     Link: "https://bookshop.org/search?keywords=9780735222847",
     Image: "assets/book-cover-cache/9780735222847.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -218,6 +231,7 @@ const books = [
     ISBN: "9780262304511",
     Link: "https://bookshop.org/search?keywords=9780262304511",
     Image: "assets/book-cover-cache/9780262304511.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
        {
@@ -234,6 +248,7 @@ const books = [
     ISBN: "9780593318188",
     Link: "https://bookshop.org/search?keywords=9780593318188",
     Image: "assets/book-cover-cache/9780593318188.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -250,6 +265,7 @@ const books = [
     ISBN: "9780812988413",
     Link: "https://bookshop.org/search?keywords=9780812988413",
     Image: "assets/book-cover-cache/9780812988413.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -266,6 +282,7 @@ const books = [
     ISBN: "9780452262935",
     Link: "https://bookshop.org/search?keywords=9780452262935",
     Image: "assets/book-cover-cache/9780452262935.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -282,6 +299,7 @@ const books = [
     ISBN: "9780316703307",
     Link: "https://bookshop.org/search?keywords=9780316703307",
     Image: "assets/book-cover-cache/9780316703307.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -298,6 +316,7 @@ const books = [
     ISBN: "9780593804087",
     Link: "https://bookshop.org/search?keywords=9780593804087",
     Image: "assets/book-cover-cache/9780593804087.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -314,6 +333,7 @@ const books = [
     ISBN: "9780553898194",
     Link: "https://bookshop.org/search?keywords=9780553898194",
     Image: "assets/book-cover-cache/9780553898194.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -330,6 +350,7 @@ const books = [
     ISBN: "9780063418660",
     Link: "https://bookshop.org/search?keywords=9780063418660",
     Image: "assets/book-cover-cache/9780063418660.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -346,6 +367,7 @@ const books = [
     ISBN: "9781101208472",
     Link: "https://bookshop.org/search?keywords=9781101208472",
     Image: "assets/book-cover-cache/9781101208472.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -362,6 +384,7 @@ const books = [
     ISBN: "9781804292143",
     Link: "https://bookshop.org/p/books/the-internet-con-how-to-seize-the-means-of-computation-cory-doctorow/18771891?ean=9781804292143",
     Image: "assets/book-cover-cache/9781804292143.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -378,6 +401,7 @@ const books = [
     ISBN: "9781442419810",
     Link: "https://bookshop.org/search?keywords=9781442419810",
     Image: "assets/book-cover-cache/9781442419810.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -394,6 +418,7 @@ const books = [
     ISBN: "9780674970960",
     Link: "https://bookshop.org/search?keywords=9780674970960",
     Image: "assets/book-cover-cache/9780674970960.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -410,6 +435,7 @@ const books = [
     ISBN: "9780393635836",
     Link: "https://bookshop.org/search?keywords=9780393635836",
     Image: "assets/book-cover-cache/9780393635836.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -426,6 +452,7 @@ const books = [
     ISBN: "9780745346953",
     Link: "https://bookshop.org/search?keywords=9780745346953",
     Image: "assets/book-cover-cache/9780745346953.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -442,6 +469,7 @@ const books = [
     ISBN: "9780593653425",
     Link: "https://bookshop.org/search?keywords=9780593653425",
     Image: "assets/book-cover-cache/9780593653425.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       {
@@ -458,6 +486,7 @@ const books = [
     ISBN: "9780316037723",
     Link: "https://bookshop.org/search?keywords=9780316037723",
     Image: "assets/book-cover-cache/9780316037723.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -474,6 +503,7 @@ const books = [
     ISBN: "9781119867920",
     Link: "https://bookshop.org/search?keywords=9781119867920",
     Image: "assets/book-cover-cache/9781119867920.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -490,6 +520,7 @@ const books = [
     ISBN: "9781454969280",
     Link: "https://bookshop.org/search?keywords=9781454969280",
     Image: "assets/book-cover-cache/9781454969280.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -506,6 +537,7 @@ const books = [
     ISBN: "9780134615271",
     Link: "https://bookshop.org/p/books/a-gift-of-fire-social-legal-and-ethical-issues-for-computing-technology-timothy-henry/9446498?ean=9780134615271",
     Image: "assets/book-cover-cache/9780134615271.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -522,6 +554,7 @@ const books = [
     ISBN: "9780691160887",
     Link: "https://bookshop.org/p/books/addiction-by-design-machine-gambling-in-las-vegas-natasha-dow-schull/8970988?ean=9780691160887",
     Image: "assets/book-cover-cache/9780691160887.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -538,6 +571,7 @@ const books = [
     ISBN: "9780593238318",
     Link: "https://bookshop.org/p/books/ai-2041-ten-visions-for-our-future-kai-fu-lee/15911526?ean=9780593238318",
     Image: "assets/book-cover-cache/9780593238318.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -554,6 +588,7 @@ const books = [
     ISBN: "9780691249148",
     Link: "https://bookshop.org/p/books/ai-snake-oil-what-artificial-intelligence-can-do-what-it-can-t-and-how-to-tell-the-difference-arvind-narayanan/21324674?ean=9780691249148",
     Image: "assets/book-cover-cache/9780691249148.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -570,6 +605,7 @@ const books = [
     ISBN: "9781479837243",
     Link: "https://bookshop.org/p/books/algorithms-of-oppression-how-search-engines-reinforce-racism-safiya-umoja-noble/966821?ean=9781479837243",
     Image: "assets/book-cover-cache/9781479837243.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -586,6 +622,7 @@ const books = [
     ISBN: "9781250118363",
     Link: "https://bookshop.org/p/books/algorithms-to-live-by-the-computer-science-of-human-decisions-tom-griffiths/230238?ean=9781250118363",
     Image: "assets/book-cover-cache/9781250118363.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -602,6 +639,7 @@ const books = [
     ISBN: "9780765397539",
     Link: "https://bookshop.org/p/books/all-systems-red-martha-wells/7104100?ean=9780765397539",
     Image: "assets/book-cover-cache/9780765397539.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       {
@@ -623,6 +661,7 @@ const books = [
     ISBN: "9780300264630",
     Link: "https://bookshop.org/p/books/atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial-intelligence-kate-crawford/17465404?ean=9780300264630",
     Image: "assets/book-cover-cache/9780300264630.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -639,6 +678,7 @@ const books = [
     ISBN: "9781839761324",
     Link: "https://bookshop.org/p/books/automation-and-the-future-of-work-aaron-benanav/14654313?ean=9781839761324",
     Image: "assets/book-cover-cache/9781839761324.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -655,6 +695,7 @@ const books = [
     ISBN: "9781250867391",
     Link: "https://bookshop.org/p/books/code-dependent-our-lives-with-algorithms-madhumita-murgia/19995380?ean=9781250867391",
     Image: "assets/book-cover-cache/9781250867391.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -671,6 +712,7 @@ const books = [
     ISBN: "9780691245041",
     Link: "https://bookshop.org/p/books/code-work-hacking-across-the-us-mexico-techno-borderlands-hector-beltran/19947891?ean=9780691245041",
     Image: "assets/book-cover-cache/9780691245041.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -687,6 +729,7 @@ const books = [
     ISBN: "9780143125785",
     Link: "https://bookshop.org/p/books/command-and-control-nuclear-weapons-the-damascus-accident-and-the-illusion-of-safety-eric-schlosser/6676064?ean=9780143125785",
     Image: "assets/book-cover-cache/9780143125785.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -703,6 +746,7 @@ const books = [
     ISBN: "9780770436193",
     Link: "https://bookshop.org/p/books/countdown-to-zero-day-stuxnet-and-the-launch-of-the-world-s-first-digital-weapon-kim-zetter/7650650?ean=9780770436193",
     Image: "assets/book-cover-cache/9780770436193.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -719,6 +763,7 @@ const books = [
     ISBN: "9780393352177",
     Link: "https://bookshop.org/p/books/data-and-goliath-the-hidden-battles-to-collect-your-data-and-control-your-world-bruce-schneier/8771636?ean=9780393352177",
     Image: "assets/book-cover-cache/9780393352177.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -735,6 +780,7 @@ const books = [
     ISBN: "9780262547185",
     Link: "https://bookshop.org/p/books/data-feminism-lauren-f-klein/13050994?ean=9780262547185",
     Image: "assets/book-cover-cache/9780262547185.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -751,6 +797,7 @@ const books = [
     ISBN: "9781484245392",
     Link: "https://bookshop.org/p/books/data-versus-democracy-how-big-data-algorithms-shape-opinions-and-alter-the-course-of-history-kris-shaffer/8862690?ean=9781484245392",
     Image: "assets/book-cover-cache/9781484245392.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -767,6 +814,7 @@ const books = [
     ISBN: "9781620970317",
     Link: "https://bookshop.org/p/books/digital-disconnect-how-capitalism-is-turning-the-internet-against-democracy-robert-w-mcchesney/594496?ean=9781620970317",
     Image: "assets/book-cover-cache/9781620970317.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -783,6 +831,7 @@ const books = [
     ISBN: "9783031526633",
     Link: "https://bookshop.org/p/books/ethical-and-legal-aspects-of-computing-a-professional-perspective-from-software-engineering-2024-gerard-o-regan/20985526?ean=9783031526633",
     Image: "assets/book-cover-cache/9783031526633.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -799,6 +848,7 @@ const books = [
     ISBN: "9781982146870",
     Link: "https://bookshop.org/p/books/extremely-online-the-untold-story-of-fame-influence-and-power-on-the-internet-taylor-lorenz/19718842?ean=9781982146870",
     Image: "assets/book-cover-cache/9781982146870.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -815,6 +865,7 @@ const books = [
     ISBN: "9781451673319",
     Link: "https://bookshop.org/p/books/fahrenheit-451-ray-d-bradbury/18152942?ean=9781451673319",
     Image: "assets/book-cover-cache/9781451673319.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -831,6 +882,7 @@ const books = [
     ISBN: "9780156030304",
     Link: "https://bookshop.org/p/books/flowers-for-algernon-daniel-keyes/6683258?ean=9780156030304",
     Image: "assets/book-cover-cache/9780156030304.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -847,6 +899,7 @@ const books = [
     ISBN: "9781324091127",
     Link: "https://bookshop.org/p/books/if-then-how-the-simulmatics-corporation-invented-the-future-jill-lepore/14327786?ean=9781324091127",
     Image: "assets/book-cover-cache/9781324091127.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -863,6 +916,7 @@ const books = [
     ISBN: "9781501152016",
     Link: "https://bookshop.org/p/books/igen-why-today-s-super-connected-kids-are-growing-up-less-rebellious-more-tolerant-less-happy-and-completely-unprepared-jean-m-twenge/6690796?ean=9781501152016",
     Image: "assets/book-cover-cache/9781501152016.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -879,6 +933,7 @@ const books = [
     ISBN: "9781101970317",
     Link: "https://bookshop.org/p/books/life-3-0-being-human-in-the-age-of-artificial-intelligence-max-tegmark/7482820?ean=9781101970317",
     Image: "assets/book-cover-cache/9781101970317.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -895,6 +950,7 @@ const books = [
     ISBN: "9780358108474",
     Link: "https://bookshop.org/p/books/likewar-the-weaponization-of-social-media-p-w-singer/6961043?ean=9780358108474",
     Image: "assets/book-cover-cache/9780358108474.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -911,6 +967,7 @@ const books = [
     ISBN: "9781635578638",
     Link: "https://bookshop.org/p/books/meme-wars-the-untold-story-of-the-online-battles-upending-democracy-in-america-joan-donovan/17875088?ean=9781635578638",
     Image: "assets/book-cover-cache/9781635578638.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -927,6 +984,7 @@ const books = [
     ISBN: "9780262548328",
     Link: "https://bookshop.org/p/books/more-than-a-glitch-confronting-race-gender-and-ability-bias-in-tech-meredith-broussard/20870739?ean=9780262548328",
     Image: "assets/book-cover-cache/9780262548328.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -943,6 +1001,7 @@ const books = [
     ISBN: "9780441007462",
     Link: "https://bookshop.org/p/books/neuromancer-william-gibson/7503287?ean=9780441007462",
     Image: "assets/book-cover-cache/9780441007462.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -959,6 +1018,7 @@ const books = [
     ISBN: "9780307887443",
     Link: "https://bookshop.org/p/books/ready-player-one-ernest-cline/228873?ean=9780307887443",
     Image: "assets/book-cover-cache/9780307887443.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -975,6 +1035,7 @@ const books = [
     ISBN: "9780393356045",
     Link: "https://bookshop.org/p/books/technically-wrong-sexist-apps-biased-algorithms-and-other-threats-of-toxic-tech-sara-wachter-boettcher/11186625?ean=9780393356045",
     Image: "assets/book-cover-cache/9780393356045.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -991,6 +1052,7 @@ const books = [
     ISBN: "9780063418561",
     Link: "https://bookshop.org/p/books/the-ai-con-how-to-fight-big-tech-s-hype-and-create-the-future-we-want-alex-hanna/22044744?ean=9780063418561",
     Image: "assets/book-cover-cache/9780063418561.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1007,6 +1069,7 @@ const books = [
     ISBN: "9780197759066",
     Link: "https://bookshop.org/p/books/the-ai-mirror-how-to-reclaim-our-humanity-in-an-age-of-machine-thinking-shannon-vallor/20842432?ean=9780197759066",
     Image: "assets/book-cover-cache/9780197759066.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1023,6 +1086,7 @@ const books = [
     ISBN: "9780306827341",
     Link: "https://bookshop.org/p/books/the-algorithm-how-ai-decides-who-get-hired-monitored-promoted-and-fired-and-why-we-need-to-fight-back-now-hilke-schellmann/20055224?ean=9780306827341",
     Image: "assets/book-cover-cache/9780306827341.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1039,6 +1103,7 @@ const books = [
     ISBN: "9780553380965",
     Link: "https://bookshop.org/p/books/the-diamond-age-or-a-young-lady-s-illustrated-primer-neal-stephenson/8466804?ean=9780553380965",
     Image: "assets/book-cover-cache/9780553380965.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1055,6 +1120,7 @@ const books = [
     ISBN: "9780190948207",
     Link: "https://bookshop.org/p/books/the-ethical-algorithm-the-science-of-socially-aware-algorithm-design-michael-kearns/11705689?ean=9780190948207",
     Image: "assets/book-cover-cache/9780190948207.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1071,6 +1137,7 @@ const books = [
     ISBN: "9780393351637",
     Link: "https://bookshop.org/p/books/the-glass-cage-how-our-computers-are-changing-us-nicholas-carr/8769635?ean=9780393351637",
     Image: "assets/book-cover-cache/9780393351637.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1087,6 +1154,7 @@ const books = [
     ISBN: "9780674278660",
     Link: "https://bookshop.org/p/books/the-myth-of-artificial-intelligence-why-computers-can-t-think-the-way-we-do-erik-j-larson/18467605?ean=9780674278660",
     Image: "assets/book-cover-cache/9780674278660.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1103,6 +1171,7 @@ const books = [
     ISBN: "9798990840508",
     Link: "https://bookshop.org/p/books/the-promises-and-perils-of-ai-in-education-ethics-and-equity-have-entered-the-chat-ken-shelton/22161072?ean=9798990840508",
     Image: "assets/book-cover-cache/9798990840508.jpg",
+    elevate: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1119,6 +1188,7 @@ const books = [
     ISBN: "9780300261431",
     Link: "https://bookshop.org/p/books/custodians-of-the-internet-platforms-content-moderation-and-the-hidden-decisions-that-shape-social-media-tarleton-gillespie/ebca8ee6033c0f53?ean=9780300261431",
     Image: "assets/book-cover-cache/9780300261431.jpg",
+    elevate: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
       // {
@@ -1135,6 +1205,7 @@ const books = [
     ISBN: "9780374619329",
     Link: "https://bookshop.org/p/books/enshittification-why-everything-suddenly-got-worse-and-what-to-do-about-it-cory-doctorow/d3f8483b158906ce?ean=9780374619329",
     Image: "assets/book-cover-cache/9780374619329.jpg",
+    elevate: false,
     reviews: [
       {
         reviewer: "Jack Bandy",
@@ -1156,6 +1227,7 @@ const books = [
     ISBN: "9781933820347",
     Link: "https://bookshop.org/p/books/doorbells-danger-and-dead-batteries-user-research-war-stories-steve-portigal/ade90384212ba5d0?ean=9781933820347&next=t",
     Image: "assets/book-cover-cache/9781933820347.jpg",
+    elevate: false,
     reviews: [
       {
         reviewer: "Trenton Coleman",

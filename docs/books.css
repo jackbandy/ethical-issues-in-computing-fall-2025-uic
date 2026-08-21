@@ -67,6 +67,16 @@ button:hover, .btn:hover { background-color: #007aa8; }
   flex-shrink: 0;
 }
 
+.show-all {
+  font-size: 0.85em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  cursor: pointer;
+  user-select: none;
+}
+.show-all input { cursor: pointer; }
+
 /* Gallery grid */
 .gallery {
   display: grid;
@@ -75,17 +85,23 @@ button:hover, .btn:hover { background-color: #007aa8; }
   padding: 1.2em 1.5em 2em;
 }
 .card {
-  text-align: center;
+  text-align: left;
   background: white;
   padding: 0.8em;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
   cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.15s, border-color 0.15s;
 }
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+  border-color: #00A1DE;
+}
+.gallery-empty {
+  grid-column: 1 / -1;
+  color: #555;
+  font-size: 0.95em;
+  margin: 1em 0;
 }
 .card img {
   max-width: 100%;
@@ -136,10 +152,21 @@ button:hover, .btn:hover { background-color: #007aa8; }
 .panel-title { margin: 0.3em 0 0.1em; }
 .panel-author { color: #555; margin: 0 0 0.5em; }
 .panel-isbn { font-size: 0.85em; color: #888; margin: 0 0 1em; }
+.panel-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  margin-bottom: 0.5em;
+}
 .panel-link {
   display: inline-block;
-  margin-bottom: 1.2em;
   color: #4a90e2;
+}
+.panel-links-note {
+  margin-bottom: 1.2em;
+  font-size: 0.85em;
+  color: #666;
+  line-height: 1.4;
 }
 .reviews-heading {
   border-top: 1px solid #ddd;
