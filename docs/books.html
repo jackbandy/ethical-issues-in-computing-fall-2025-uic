@@ -42,7 +42,7 @@ function affiliateLink(isbn) {
 }
 
 // The same book on Bookshop, with no referral tag attached. Prefers the
-// product URL recorded in books.csv; falls back to an ISBN search.
+// product URL recorded in books-data.js; falls back to an ISBN search.
 function plainLink(book) {
   return book.Link || `https://bookshop.org/search?keywords=${book.ISBN}`;
 }

@@ -15,9 +15,9 @@ Run it from anywhere:
     python3 sandbox/cover-colors.py            # fill in colors that are missing
     python3 sandbox/cover-colors.py --force    # recompute every color
 
-Like the `Image:` paths, `color:` lives only in books-data.js — it is derived
-from the cover art, not provenance, so it is not a books.csv column. If
-books-data.js is ever regenerated from the CSV, run this again.
+Like the `Image:` paths, `color:` is derived from the cover art rather than
+entered by hand, so this script owns that field. Run it again after adding
+books.
 
 NOTICE: this file was largely written by an LLM (Claude Code).
 """

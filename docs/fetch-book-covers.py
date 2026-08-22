@@ -11,16 +11,15 @@ Run it from anywhere:
     python3 docs/fetch-book-covers.py           # fetch what's missing, rewrite paths
     python3 docs/fetch-book-covers.py --force   # re-download every cover
 
-books.csv keeps the original Bookshop URLs — that column is the provenance
-record and where this script looks for anything it hasn't downloaded yet. If
-books-data.js is ever regenerated from the CSV, just run this again to put the
-local paths back.
+books-data.js is the single source of truth for the gallery. Each entry keeps
+its original Bookshop URL in `sourceImage:` — that field is the provenance
+record and where this script looks for anything it hasn't downloaded yet, while
+`Image:` holds the local path the page actually loads.
 
 NOTICE: this file was largely written by an LLM (Claude Code).
 """
 
 import argparse
-import csv
 import re
 import sys
 import urllib.error
@@ -28,7 +27,6 @@ import urllib.request
 from pathlib import Path
 
 DOCS = Path(__file__).resolve().parent
-CSV_PATH = DOCS / "books.csv"
 DATA_PATH = DOCS / "books-data.js"
 COVER_DIR = DOCS / "assets" / "book-cover-cache"
 # Path as written into books-data.js, relative to books.html at the docs root.
@@ -41,9 +39,20 @@ USER_AGENT = (
 )
 
 
+RECORD_FIELD = r'{field}:\s*"(?P<{field}>[^"]*)"'
+
+
 def read_books():
-    with CSV_PATH.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+    """Pull Title / ISBN / sourceImage out of each record in books-data.js."""
+    text = DATA_PATH.read_text(encoding="utf-8")
+    books = []
+    for chunk in text.split("\n  {")[1:]:
+        book = {}
+        for field in ("Title", "ISBN", "sourceImage"):
+            match = re.search(RECORD_FIELD.format(field=field), chunk)
+            book[field] = match.group(field) if match else ""
+        books.append(book)
+    return books
 
 
 def download(url, dest):
@@ -63,9 +72,9 @@ def fetch_covers(books, force):
 
     for book in books:
         isbn = book["ISBN"].strip()
-        url = book["Image"].strip()
+        url = book["sourceImage"].strip()
         if not isbn or not url:
-            failures.append((book["Title"], "missing ISBN or Image URL"))
+            failures.append((book["Title"], "missing ISBN or sourceImage URL"))
             continue
 
         dest = COVER_DIR / f"{isbn}.jpg"
@@ -126,7 +135,7 @@ def main():
     args = parser.parse_args()
 
     books = read_books()
-    print(f"{len(books)} books in {CSV_PATH.name}")
+    print(f"{len(books)} books in {DATA_PATH.name}")
 
     fetched, skipped, failures = fetch_covers(books, args.force)
     print(f"covers: {fetched} fetched, {skipped} already present, {len(failures)} failed")
