@@ -945,6 +945,24 @@ const books = [
     ]
   },
   {
+    id: "governing-the-commons--the-evolution-of-institutions-for-collective-action",
+    Title: "Governing the Commons: The Evolution of Institutions for Collective Action",
+    Author: "Elinor Ostrom",
+    ISBN: "9781107569782",
+    Link: "https://bookshop.org/p/books/governing-the-commons-the-evolution-of-institutions-for-collective-action-dr-elinor-ostrom/3ad6822c1832b1cd?ean=9781107569782",
+    Image: "assets/book-cover-cache/9781107569782.jpg",
+    color: "#e3e2e3",
+    curated: true,
+    reviews: [
+      // ---- To add a review, uncomment the block below and fill it in ----
+      // {
+      //   reviewer: "Your Name",
+      //   rating: 5,          // 1-5
+      //   text: "Write your review here."
+      // },
+    ]
+  },
+  {
     id: "if-then--how-the-simulmatics-corporation-invented-the-future",
     Title: "If Then: How the Simulmatics Corporation Invented the Future",
     Author: "Jill Lepore",
