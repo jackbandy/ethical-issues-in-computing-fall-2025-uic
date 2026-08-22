@@ -70,7 +70,7 @@ permalink: /dilemmas/
       noResults.hidden = list.length > 0;
     }
 
-    let order = [...dilemmas];
+    let order = [...dilemmas].sort(() => Math.random() - 0.5);
 
     function applyFilter() {
       const query = searchInput.value.trim().toLowerCase();

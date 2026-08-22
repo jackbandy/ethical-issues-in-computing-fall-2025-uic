@@ -29,4 +29,6 @@ See also: [Robert Axelrod, *The Evolution of Cooperation* (1984)](https://en.wik
 
 See also: the boat/ferry sequence in [*The Dark Knight*](https://en.wikipedia.org/wiki/The_Dark_Knight) (2008). There are two ferries evacuating Gotham, one carrying civilians, and one carrying prisoners. There is a detonator aboard each ship which is wired to the other ship. The passengers are told that whichever ferry presses/detonates first will survive, and if neither presses by midnight, both will be destroyed. 
 
-See also: the SEP page on [The Free Rider Problem](https://plato.stanford.edu/entries/free-rider/), alleged class of cases where individually rational choices supposedly leave everyone worse off.
+See also: the SEP page on [The Free Rider Problem](https://plato.stanford.edu/entries/free-rider/), alleged class of cases where individually rational choices supposedly leave everyone worse off. See also: [Elinor Ostrom's design principles for long-enduring CPR institutions](https://en.wikipedia.org/wiki/Elinor_Ostrom#%22Design_principles_illustrated_by_long-enduring_CPR_(Common_Pool_Resource)_institutions%22) — on how self-organizing groups can avoid both the free-rider problem and the "tragedy of the commons" (Ostrom won the 2009 Nobel Prize in Economics for this work.)
+
+See also: [the 1% button dilemma](https://doethics.fun/dilemmas/utilitarian-button-prisoners/) — a course-specific variation of the prisoner's dilemma in which two sections decide whether to push a button affecting their final grades.
