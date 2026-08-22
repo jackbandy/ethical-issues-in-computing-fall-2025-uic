@@ -10,6 +10,7 @@ const books = [
     ISBN: "9780593241837",
     Link: "https://bookshop.org/p/books/unmasking-ai-a-story-of-hope-and-justice-in-a-world-of-algorithms-joy-buolamwini/20010838?ean=9780593241844",
     Image: "assets/book-cover-cache/9780593241837.jpg",
+    color: "#0b0408",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -27,6 +28,7 @@ const books = [
     ISBN: "9781250322159",
     Link: "https://bookshop.org/p/books/cobalt-red-how-the-blood-of-the-congo-powers-our-lives-siddharth-kara/18411025?ean=9781250322159",
     Image: "assets/book-cover-cache/9781250322159.jpg",
+    color: "#9c6855",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -44,6 +46,7 @@ const books = [
     ISBN: "9780593657508",
     Link: "https://bookshop.org/p/books/empire-of-ai-dreams-and-nightmares-in-sam-altman-s-openai-karen-hao/22156498?ean=9780593657508",
     Image: "assets/book-cover-cache/9780593657508.jpg",
+    color: "#cbcedc",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -61,6 +64,7 @@ const books = [
     ISBN: "9780465093656",
     Link: "https://bookshop.org/search?keywords=9780465093656",
     Image: "assets/book-cover-cache/9780465093656.jpg",
+    color: "#f68f36",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -78,6 +82,7 @@ const books = [
     ISBN: "9780691203423",
     Link: "https://bookshop.org/search?keywords=9780691203423",
     Image: "assets/book-cover-cache/9780691203423.jpg",
+    color: "#dde5e8",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -95,6 +100,7 @@ const books = [
     ISBN: "9780143036531",
     Link: "https://bookshop.org/p/books/amusing-ourselves-to-death-public-discourse-in-the-age-of-show-business-neil-postman/6781325?ean=9780143036531",
     Image: "assets/book-cover-cache/9780143036531.jpg",
+    color: "#fa1e21",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -112,6 +118,7 @@ const books = [
     ISBN: "9780525536512",
     Link: "https://bookshop.org/p/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world-cal-newport/12081448?ean=9780525536512",
     Image: "assets/book-cover-cache/9780525536512.jpg",
+    color: "#f9ca14",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -129,6 +136,7 @@ const books = [
     ISBN: "9780393357820",
     Link: "https://bookshop.org/p/books/the-shallows-what-the-internet-is-doing-to-our-brains-nicholas-carr/15563044?ean=9780393357820",
     Image: "assets/book-cover-cache/9780393357820.jpg",
+    color: "#ecb832",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -146,6 +154,7 @@ const books = [
     ISBN: "9780345457684",
     Link: "https://bookshop.org/search?keywords=9780345457684",
     Image: "assets/book-cover-cache/9780345457684.jpg",
+    color: "#0a080a",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -163,6 +172,7 @@ const books = [
     ISBN: "9781324074533",
     Link: "https://bookshop.org/search?keywords=9781324074533",
     Image: "assets/book-cover-cache/9781324074533.jpg",
+    color: "#9ad9ef",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -180,6 +190,7 @@ const books = [
     ISBN: "9781610273763",
     Link: "https://bookshop.org/search?keywords=9781610273763",
     Image: "assets/book-cover-cache/9781610273763.jpg",
+    color: "#201f1f",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -197,6 +208,7 @@ const books = [
     ISBN: "9780307949103",
     Link: "https://bookshop.org/search?keywords=9780307949103",
     Image: "assets/book-cover-cache/9780307949103.jpg",
+    color: "#dae0e3",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -214,6 +226,7 @@ const books = [
     ISBN: "9780735222847",
     Link: "https://bookshop.org/search?keywords=9780735222847",
     Image: "assets/book-cover-cache/9780735222847.jpg",
+    color: "#10192e",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -231,6 +244,7 @@ const books = [
     ISBN: "9780262304511",
     Link: "https://bookshop.org/search?keywords=9780262304511",
     Image: "assets/book-cover-cache/9780262304511.jpg",
+    color: "#cacccb",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -248,6 +262,7 @@ const books = [
     ISBN: "9780593318188",
     Link: "https://bookshop.org/search?keywords=9780593318188",
     Image: "assets/book-cover-cache/9780593318188.jpg",
+    color: "#ec3537",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -265,6 +280,7 @@ const books = [
     ISBN: "9780812988413",
     Link: "https://bookshop.org/search?keywords=9780812988413",
     Image: "assets/book-cover-cache/9780812988413.jpg",
+    color: "#fcf5ee",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -282,6 +298,7 @@ const books = [
     ISBN: "9780452262935",
     Link: "https://bookshop.org/search?keywords=9780452262935",
     Image: "assets/book-cover-cache/9780452262935.jpg",
+    color: "#e20203",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -299,6 +316,7 @@ const books = [
     ISBN: "9780316703307",
     Link: "https://bookshop.org/search?keywords=9780316703307",
     Image: "assets/book-cover-cache/9780316703307.jpg",
+    color: "#080707",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -316,6 +334,7 @@ const books = [
     ISBN: "9780593804087",
     Link: "https://bookshop.org/search?keywords=9780593804087",
     Image: "assets/book-cover-cache/9780593804087.jpg",
+    color: "#f2f2e5",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -333,6 +352,7 @@ const books = [
     ISBN: "9780553898194",
     Link: "https://bookshop.org/search?keywords=9780553898194",
     Image: "assets/book-cover-cache/9780553898194.jpg",
+    color: "#070f11",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -350,6 +370,7 @@ const books = [
     ISBN: "9780063418660",
     Link: "https://bookshop.org/search?keywords=9780063418660",
     Image: "assets/book-cover-cache/9780063418660.jpg",
+    color: "#093524",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -367,6 +388,7 @@ const books = [
     ISBN: "9781101208472",
     Link: "https://bookshop.org/search?keywords=9781101208472",
     Image: "assets/book-cover-cache/9781101208472.jpg",
+    color: "#261210",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -384,6 +406,7 @@ const books = [
     ISBN: "9781804292143",
     Link: "https://bookshop.org/p/books/the-internet-con-how-to-seize-the-means-of-computation-cory-doctorow/18771891?ean=9781804292143",
     Image: "assets/book-cover-cache/9781804292143.jpg",
+    color: "#eae8e6",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -401,6 +424,7 @@ const books = [
     ISBN: "9781442419810",
     Link: "https://bookshop.org/search?keywords=9781442419810",
     Image: "assets/book-cover-cache/9781442419810.jpg",
+    color: "#171310",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -418,6 +442,7 @@ const books = [
     ISBN: "9780674970960",
     Link: "https://bookshop.org/search?keywords=9780674970960",
     Image: "assets/book-cover-cache/9780674970960.jpg",
+    color: "#ab0a3c",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -435,6 +460,7 @@ const books = [
     ISBN: "9780393635836",
     Link: "https://bookshop.org/search?keywords=9780393635836",
     Image: "assets/book-cover-cache/9780393635836.jpg",
+    color: "#efeee9",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -452,6 +478,7 @@ const books = [
     ISBN: "9780745346953",
     Link: "https://bookshop.org/search?keywords=9780745346953",
     Image: "assets/book-cover-cache/9780745346953.jpg",
+    color: "#d85758",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -469,6 +496,7 @@ const books = [
     ISBN: "9780593653425",
     Link: "https://bookshop.org/search?keywords=9780593653425",
     Image: "assets/book-cover-cache/9780593653425.jpg",
+    color: "#cacec5",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -486,6 +514,7 @@ const books = [
     ISBN: "9780316037723",
     Link: "https://bookshop.org/search?keywords=9780316037723",
     Image: "assets/book-cover-cache/9780316037723.jpg",
+    color: "#050505",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -503,6 +532,7 @@ const books = [
     ISBN: "9781119867920",
     Link: "https://bookshop.org/search?keywords=9781119867920",
     Image: "assets/book-cover-cache/9781119867920.jpg",
+    color: "#0a0a13",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -520,6 +550,7 @@ const books = [
     ISBN: "9781454969280",
     Link: "https://bookshop.org/search?keywords=9781454969280",
     Image: "assets/book-cover-cache/9781454969280.jpg",
+    color: "#141810",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -537,6 +568,7 @@ const books = [
     ISBN: "9780134615271",
     Link: "https://bookshop.org/p/books/a-gift-of-fire-social-legal-and-ethical-issues-for-computing-technology-timothy-henry/9446498?ean=9780134615271",
     Image: "assets/book-cover-cache/9780134615271.jpg",
+    color: "#070709",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -554,6 +586,7 @@ const books = [
     ISBN: "9780691160887",
     Link: "https://bookshop.org/p/books/addiction-by-design-machine-gambling-in-las-vegas-natasha-dow-schull/8970988?ean=9780691160887",
     Image: "assets/book-cover-cache/9780691160887.jpg",
+    color: "#060605",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -571,6 +604,7 @@ const books = [
     ISBN: "9780593238318",
     Link: "https://bookshop.org/p/books/ai-2041-ten-visions-for-our-future-kai-fu-lee/15911526?ean=9780593238318",
     Image: "assets/book-cover-cache/9780593238318.jpg",
+    color: "#140c66",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -588,6 +622,7 @@ const books = [
     ISBN: "9780691249148",
     Link: "https://bookshop.org/p/books/ai-snake-oil-what-artificial-intelligence-can-do-what-it-can-t-and-how-to-tell-the-difference-arvind-narayanan/21324674?ean=9780691249148",
     Image: "assets/book-cover-cache/9780691249148.jpg",
+    color: "#c53920",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -605,6 +640,7 @@ const books = [
     ISBN: "9781479837243",
     Link: "https://bookshop.org/p/books/algorithms-of-oppression-how-search-engines-reinforce-racism-safiya-umoja-noble/966821?ean=9781479837243",
     Image: "assets/book-cover-cache/9781479837243.jpg",
+    color: "#f0f1f1",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -622,6 +658,7 @@ const books = [
     ISBN: "9781250118363",
     Link: "https://bookshop.org/p/books/algorithms-to-live-by-the-computer-science-of-human-decisions-tom-griffiths/230238?ean=9781250118363",
     Image: "assets/book-cover-cache/9781250118363.jpg",
+    color: "#fafbfb",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -639,6 +676,7 @@ const books = [
     ISBN: "9780765397539",
     Link: "https://bookshop.org/p/books/all-systems-red-martha-wells/7104100?ean=9780765397539",
     Image: "assets/book-cover-cache/9780765397539.jpg",
+    color: "#252b25",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -661,6 +699,7 @@ const books = [
     ISBN: "9780300264630",
     Link: "https://bookshop.org/p/books/atlas-of-ai-power-politics-and-the-planetary-costs-of-artificial-intelligence-kate-crawford/17465404?ean=9780300264630",
     Image: "assets/book-cover-cache/9780300264630.jpg",
+    color: "#f9ded4",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -678,6 +717,7 @@ const books = [
     ISBN: "9781839761324",
     Link: "https://bookshop.org/p/books/automation-and-the-future-of-work-aaron-benanav/14654313?ean=9781839761324",
     Image: "assets/book-cover-cache/9781839761324.jpg",
+    color: "#0b0908",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -695,6 +735,7 @@ const books = [
     ISBN: "9781250867391",
     Link: "https://bookshop.org/p/books/code-dependent-our-lives-with-algorithms-madhumita-murgia/19995380?ean=9781250867391",
     Image: "assets/book-cover-cache/9781250867391.jpg",
+    color: "#d1a8a3",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -712,6 +753,7 @@ const books = [
     ISBN: "9780691245041",
     Link: "https://bookshop.org/p/books/code-work-hacking-across-the-us-mexico-techno-borderlands-hector-beltran/19947891?ean=9780691245041",
     Image: "assets/book-cover-cache/9780691245041.jpg",
+    color: "#fbf6ec",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -729,6 +771,7 @@ const books = [
     ISBN: "9780143125785",
     Link: "https://bookshop.org/p/books/command-and-control-nuclear-weapons-the-damascus-accident-and-the-illusion-of-safety-eric-schlosser/6676064?ean=9780143125785",
     Image: "assets/book-cover-cache/9780143125785.jpg",
+    color: "#69a4ae",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -746,6 +789,7 @@ const books = [
     ISBN: "9780770436193",
     Link: "https://bookshop.org/p/books/countdown-to-zero-day-stuxnet-and-the-launch-of-the-world-s-first-digital-weapon-kim-zetter/7650650?ean=9780770436193",
     Image: "assets/book-cover-cache/9780770436193.jpg",
+    color: "#676352",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -763,6 +807,7 @@ const books = [
     ISBN: "9780393352177",
     Link: "https://bookshop.org/p/books/data-and-goliath-the-hidden-battles-to-collect-your-data-and-control-your-world-bruce-schneier/8771636?ean=9780393352177",
     Image: "assets/book-cover-cache/9780393352177.jpg",
+    color: "#0dadd6",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -780,6 +825,7 @@ const books = [
     ISBN: "9780262547185",
     Link: "https://bookshop.org/p/books/data-feminism-lauren-f-klein/13050994?ean=9780262547185",
     Image: "assets/book-cover-cache/9780262547185.jpg",
+    color: "#ecebea",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -797,6 +843,7 @@ const books = [
     ISBN: "9781484245392",
     Link: "https://bookshop.org/p/books/data-versus-democracy-how-big-data-algorithms-shape-opinions-and-alter-the-course-of-history-kris-shaffer/8862690?ean=9781484245392",
     Image: "assets/book-cover-cache/9781484245392.jpg",
+    color: "#05adeb",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -814,6 +861,7 @@ const books = [
     ISBN: "9781620970317",
     Link: "https://bookshop.org/p/books/digital-disconnect-how-capitalism-is-turning-the-internet-against-democracy-robert-w-mcchesney/594496?ean=9781620970317",
     Image: "assets/book-cover-cache/9781620970317.jpg",
+    color: "#312f30",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -831,6 +879,7 @@ const books = [
     ISBN: "9783031526633",
     Link: "https://bookshop.org/p/books/ethical-and-legal-aspects-of-computing-a-professional-perspective-from-software-engineering-2024-gerard-o-regan/20985526?ean=9783031526633",
     Image: "assets/book-cover-cache/9783031526633.jpg",
+    color: "#04a4b9",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -848,6 +897,7 @@ const books = [
     ISBN: "9781982146870",
     Link: "https://bookshop.org/p/books/extremely-online-the-untold-story-of-fame-influence-and-power-on-the-internet-taylor-lorenz/19718842?ean=9781982146870",
     Image: "assets/book-cover-cache/9781982146870.jpg",
+    color: "#fbb42a",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -865,6 +915,7 @@ const books = [
     ISBN: "9781451673319",
     Link: "https://bookshop.org/p/books/fahrenheit-451-ray-d-bradbury/18152942?ean=9781451673319",
     Image: "assets/book-cover-cache/9781451673319.jpg",
+    color: "#d5272e",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -882,6 +933,7 @@ const books = [
     ISBN: "9780156030304",
     Link: "https://bookshop.org/p/books/flowers-for-algernon-daniel-keyes/6683258?ean=9780156030304",
     Image: "assets/book-cover-cache/9780156030304.jpg",
+    color: "#1f2c53",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -899,6 +951,7 @@ const books = [
     ISBN: "9781324091127",
     Link: "https://bookshop.org/p/books/if-then-how-the-simulmatics-corporation-invented-the-future-jill-lepore/14327786?ean=9781324091127",
     Image: "assets/book-cover-cache/9781324091127.jpg",
+    color: "#faf45e",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -916,6 +969,7 @@ const books = [
     ISBN: "9781501152016",
     Link: "https://bookshop.org/p/books/igen-why-today-s-super-connected-kids-are-growing-up-less-rebellious-more-tolerant-less-happy-and-completely-unprepared-jean-m-twenge/6690796?ean=9781501152016",
     Image: "assets/book-cover-cache/9781501152016.jpg",
+    color: "#eb1b32",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -933,6 +987,7 @@ const books = [
     ISBN: "9781101970317",
     Link: "https://bookshop.org/p/books/life-3-0-being-human-in-the-age-of-artificial-intelligence-max-tegmark/7482820?ean=9781101970317",
     Image: "assets/book-cover-cache/9781101970317.jpg",
+    color: "#140c1a",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -950,6 +1005,7 @@ const books = [
     ISBN: "9780358108474",
     Link: "https://bookshop.org/p/books/likewar-the-weaponization-of-social-media-p-w-singer/6961043?ean=9780358108474",
     Image: "assets/book-cover-cache/9780358108474.jpg",
+    color: "#eb432f",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -967,6 +1023,7 @@ const books = [
     ISBN: "9781635578638",
     Link: "https://bookshop.org/p/books/meme-wars-the-untold-story-of-the-online-battles-upending-democracy-in-america-joan-donovan/17875088?ean=9781635578638",
     Image: "assets/book-cover-cache/9781635578638.jpg",
+    color: "#161712",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -984,6 +1041,7 @@ const books = [
     ISBN: "9780262548328",
     Link: "https://bookshop.org/p/books/more-than-a-glitch-confronting-race-gender-and-ability-bias-in-tech-meredith-broussard/20870739?ean=9780262548328",
     Image: "assets/book-cover-cache/9780262548328.jpg",
+    color: "#141518",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1001,6 +1059,7 @@ const books = [
     ISBN: "9780441007462",
     Link: "https://bookshop.org/p/books/neuromancer-william-gibson/7503287?ean=9780441007462",
     Image: "assets/book-cover-cache/9780441007462.jpg",
+    color: "#04dc05",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1018,6 +1077,7 @@ const books = [
     ISBN: "9780307887443",
     Link: "https://bookshop.org/p/books/ready-player-one-ernest-cline/228873?ean=9780307887443",
     Image: "assets/book-cover-cache/9780307887443.jpg",
+    color: "#eae7e2",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1035,6 +1095,7 @@ const books = [
     ISBN: "9780393356045",
     Link: "https://bookshop.org/p/books/technically-wrong-sexist-apps-biased-algorithms-and-other-threats-of-toxic-tech-sara-wachter-boettcher/11186625?ean=9780393356045",
     Image: "assets/book-cover-cache/9780393356045.jpg",
+    color: "#faf9ec",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1052,6 +1113,7 @@ const books = [
     ISBN: "9780063418561",
     Link: "https://bookshop.org/p/books/the-ai-con-how-to-fight-big-tech-s-hype-and-create-the-future-we-want-alex-hanna/22044744?ean=9780063418561",
     Image: "assets/book-cover-cache/9780063418561.jpg",
+    color: "#101010",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1069,6 +1131,7 @@ const books = [
     ISBN: "9780197759066",
     Link: "https://bookshop.org/p/books/the-ai-mirror-how-to-reclaim-our-humanity-in-an-age-of-machine-thinking-shannon-vallor/20842432?ean=9780197759066",
     Image: "assets/book-cover-cache/9780197759066.jpg",
+    color: "#dbdde2",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1086,6 +1149,7 @@ const books = [
     ISBN: "9780306827341",
     Link: "https://bookshop.org/p/books/the-algorithm-how-ai-decides-who-get-hired-monitored-promoted-and-fired-and-why-we-need-to-fight-back-now-hilke-schellmann/20055224?ean=9780306827341",
     Image: "assets/book-cover-cache/9780306827341.jpg",
+    color: "#f0d824",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1103,6 +1167,7 @@ const books = [
     ISBN: "9780553380965",
     Link: "https://bookshop.org/p/books/the-diamond-age-or-a-young-lady-s-illustrated-primer-neal-stephenson/8466804?ean=9780553380965",
     Image: "assets/book-cover-cache/9780553380965.jpg",
+    color: "#110607",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1120,6 +1185,7 @@ const books = [
     ISBN: "9780190948207",
     Link: "https://bookshop.org/p/books/the-ethical-algorithm-the-science-of-socially-aware-algorithm-design-michael-kearns/11705689?ean=9780190948207",
     Image: "assets/book-cover-cache/9780190948207.jpg",
+    color: "#edf7fc",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1137,6 +1203,7 @@ const books = [
     ISBN: "9780393351637",
     Link: "https://bookshop.org/p/books/the-glass-cage-how-our-computers-are-changing-us-nicholas-carr/8769635?ean=9780393351637",
     Image: "assets/book-cover-cache/9780393351637.jpg",
+    color: "#f8fafa",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1154,6 +1221,7 @@ const books = [
     ISBN: "9780674278660",
     Link: "https://bookshop.org/p/books/the-myth-of-artificial-intelligence-why-computers-can-t-think-the-way-we-do-erik-j-larson/18467605?ean=9780674278660",
     Image: "assets/book-cover-cache/9780674278660.jpg",
+    color: "#fdfdfd",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1171,6 +1239,7 @@ const books = [
     ISBN: "9798990840508",
     Link: "https://bookshop.org/p/books/the-promises-and-perils-of-ai-in-education-ethics-and-equity-have-entered-the-chat-ken-shelton/22161072?ean=9798990840508",
     Image: "assets/book-cover-cache/9798990840508.jpg",
+    color: "#0b0b0b",
     curated: false,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1188,6 +1257,7 @@ const books = [
     ISBN: "9780300261431",
     Link: "https://bookshop.org/p/books/custodians-of-the-internet-platforms-content-moderation-and-the-hidden-decisions-that-shape-social-media-tarleton-gillespie/ebca8ee6033c0f53?ean=9780300261431",
     Image: "assets/book-cover-cache/9780300261431.jpg",
+    color: "#231f20",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1205,6 +1275,7 @@ const books = [
     ISBN: "9780374619329",
     Link: "https://bookshop.org/p/books/enshittification-why-everything-suddenly-got-worse-and-what-to-do-about-it-cory-doctorow/d3f8483b158906ce?ean=9780374619329",
     Image: "assets/book-cover-cache/9780374619329.jpg",
+    color: "#040708",
     curated: false,
     reviews: [
       {
@@ -1227,6 +1298,7 @@ const books = [
     ISBN: "9781933820347",
     Link: "https://bookshop.org/p/books/doorbells-danger-and-dead-batteries-user-research-war-stories-steve-portigal/ade90384212ba5d0?ean=9781933820347&next=t",
     Image: "assets/book-cover-cache/9781933820347.jpg",
+    color: "#6e6a56",
     curated: false,
     reviews: [
       {
@@ -1249,6 +1321,7 @@ const books = [
     ISBN: "9780553418835",
     Link: "https://bookshop.org/p/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-cathy-o-neil/ffc2bb128e435cfd?ean=9780553418835",
     Image: "assets/book-cover-cache/9780553418835.jpg",
+    color: "#faef10",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1266,6 +1339,7 @@ const books = [
     ISBN: "9781541758001",
     Link: "https://bookshop.org/p/books/the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power-shoshana-zuboff/7889d7dd8f793aeb?ean=9781541758001",
     Image: "assets/book-cover-cache/9781541758001.jpg",
+    color: "#fdfbe6",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1283,6 +1357,7 @@ const books = [
     ISBN: "9781509526406",
     Link: "https://bookshop.org/p/books/race-after-technology-abolitionist-tools-for-the-new-jim-code-ruha-benjamin/02977b73851a0b67?ean=9781509526406",
     Image: "assets/book-cover-cache/9781509526406.jpg",
+    color: "#151618",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1300,6 +1375,7 @@ const books = [
     ISBN: "9781250215789",
     Link: "https://bookshop.org/p/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor-virginia-eubanks/df3bdb7ddf18f167?ean=9781250215789",
     Image: "assets/book-cover-cache/9781250215789.jpg",
+    color: "#1f1a1d",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1317,6 +1393,7 @@ const books = [
     ISBN: "9780262537018",
     Link: "https://bookshop.org/p/books/artificial-unintelligence-how-computers-misunderstand-the-world-meredith-broussard/0df211dbaf6c2918?ean=9780262537018",
     Image: "assets/book-cover-cache/9780262537018.jpg",
+    color: "#dce359",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1334,6 +1411,7 @@ const books = [
     ISBN: "9780262043458",
     Link: "https://bookshop.org/p/books/design-justice-community-led-practices-to-build-the-worlds-we-need-sasha-costanza-chock/419ded55094591f4?ean=9780262043458",
     Image: "assets/book-cover-cache/9780262043458.jpg",
+    color: "#0e0709",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1351,6 +1429,7 @@ const books = [
     ISBN: "9781665127059",
     Link: "https://bookshop.org/p/books/ghost-work-how-to-stop-silicon-valley-from-building-a-new-global-underclass-mary-l-gray/7eadba749745ebef?ean=9781665127059",
     Image: "assets/book-cover-cache/9781665127059.jpg",
+    color: "#0b1113",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1368,6 +1447,7 @@ const books = [
     ISBN: "9780300234176",
     Link: "https://bookshop.org/p/books/twitter-and-tear-gas-the-power-and-fragility-of-networked-protest-zeynep-tufekci/5d4fbbb6d9272be4?ean=9780300234176",
     Image: "assets/book-cover-cache/9780300234176.jpg",
+    color: "#a5582c",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1385,6 +1465,7 @@ const books = [
     ISBN: "9780679745402",
     Link: "https://bookshop.org/p/books/technopoly-the-surrender-of-culture-to-technology-neil-postman/411fadc13061d77a?ean=9780679745402",
     Image: "assets/book-cover-cache/9780679745402.jpg",
+    color: "#9a9e9f",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1402,6 +1483,7 @@ const books = [
     ISBN: "9780345404473",
     Link: "https://bookshop.org/p/books/do-androids-dream-of-electric-sheep-the-inspiration-for-the-films-blade-runner-and-blade-runner-2049-philip-k-dick/718ef0ab48ecf273?ean=9780345404473",
     Image: "assets/book-cover-cache/9780345404473.jpg",
+    color: "#d7dadd",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1419,6 +1501,7 @@ const books = [
     ISBN: "9781101972083",
     Link: "https://bookshop.org/p/books/exhalation-stories-ted-chiang/d563593d55c2670f?ean=9781101972083",
     Image: "assets/book-cover-cache/9781101972083.jpg",
+    color: "#0f181f",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1436,6 +1519,7 @@ const books = [
     ISBN: "9780765323118",
     Link: "https://bookshop.org/p/books/little-brother-cory-doctorow/3ddcdf6e667f5b6d?ean=9780765323118",
     Image: "assets/book-cover-cache/9780765323118.jpg",
+    color: "#f8f7f7",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1453,6 +1537,7 @@ const books = [
     ISBN: "9780143131847",
     Link: "https://bookshop.org/p/books/frankenstein-the-1818-text-mary-shelley/4bf26b6b69b17441?ean=9780143131847",
     Image: "assets/book-cover-cache/9780143131847.jpg",
+    color: "#0b1315",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1470,6 +1555,7 @@ const books = [
     ISBN: "9781538732182",
     Link: "https://bookshop.org/p/books/parable-of-the-sower-a-novel-octavia-e-butler/251d041cc94c99c2?ean=9781538732182",
     Image: "assets/book-cover-cache/9781538732182.jpg",
+    color: "#f8f5ea",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1487,6 +1573,7 @@ const books = [
     ISBN: "9780765392084",
     Link: "https://bookshop.org/p/books/autonomous-a-novel-annalee-newitz/2aef20994294838a?ean=9780765392084",
     Image: "assets/book-cover-cache/9780765392084.jpg",
+    color: "#64bb04",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----
@@ -1504,6 +1591,61 @@ const books = [
     ISBN: "9781250214997",
     Link: "https://bookshop.org/p/books/severance-a-novel-ling-ma/c738b1415221c430?ean=9781250214997",
     Image: "assets/book-cover-cache/9781250214997.jpg",
+    color: "#f9cdd8",
+    curated: true,
+    reviews: [
+      // ---- To add a review, uncomment the block below and fill it in ----
+      // {
+      //   reviewer: "Your Name",
+      //   rating: 5,          // 1-5
+      //   text: "Write your review here."
+      // },
+    ]
+  },
+  {
+    id: "wool--book-one-of-the-silo-series",
+    Title: "Wool: Book One of the Silo Series",
+    Author: "Hugh Howey",
+    ISBN: "9780358447849",
+    Link: "https://bookshop.org/p/books/wool-book-one-of-the-silo-series-hugh-howey/51ab742c4dadfcbd?ean=9780358447849",
+    Image: "assets/book-cover-cache/9780358447849.jpg",
+    color: "#b3161b",
+    curated: true,
+    reviews: [
+      // ---- To add a review, uncomment the block below and fill it in ----
+      // {
+      //   reviewer: "Your Name",
+      //   rating: 5,          // 1-5
+      //   text: "Write your review here."
+      // },
+    ]
+  },
+  {
+    id: "the-three-body-problem",
+    Title: "The Three-Body Problem",
+    Author: "Cixin Liu",
+    ISBN: "9780765382030",
+    Link: "https://bookshop.org/p/books/the-three-body-problem-cixin-liu/55470a297b196134?ean=9780765382030",
+    Image: "assets/book-cover-cache/9780765382030.jpg",
+    color: "#275a9a",
+    curated: true,
+    reviews: [
+      // ---- To add a review, uncomment the block below and fill it in ----
+      // {
+      //   reviewer: "Your Name",
+      //   rating: 5,          // 1-5
+      //   text: "Write your review here."
+      // },
+    ]
+  },
+  {
+    id: "project-hail-mary--a-novel",
+    Title: "Project Hail Mary: A Novel",
+    Author: "Andy Weir",
+    ISBN: "9780593135228",
+    Link: "https://bookshop.org/p/books/project-hail-mary-a-novel-andy-weir/00f52c9d7f2ed7f2?ean=9780593135228",
+    Image: "assets/book-cover-cache/9780593135228.jpg",
+    color: "#15110b",
     curated: true,
     reviews: [
       // ---- To add a review, uncomment the block below and fill it in ----

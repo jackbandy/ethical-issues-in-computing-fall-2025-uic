@@ -17,6 +17,7 @@
   <button onclick="shuffleBooks()">🔀 Shuffle</button>
   <button onclick="sortBooks()">Sort A–Z</button>
   <label class="show-all"><input type="checkbox" id="showAll" onchange="renderCurrent()"> Show All Books</label>
+  <label class="show-all"><input type="checkbox" id="showCovers" onchange="renderCurrent()"> Show Covers</label>
 </div>
 <div class="gallery" id="gallery"></div>
 
@@ -53,11 +54,18 @@ function renderGallery(bookList) {
     gallery.innerHTML = '<p class="gallery-empty">No books are featured right now \u2014 check "Show All Books" to see the full shelf.</p>';
     return;
   }
+  const withCovers = showCovers();
   bookList.forEach(book => {
     const card = document.createElement("div");
     card.className = "card";
+    // Covers off: a block in the jacket's dominant color stands in (see
+    // sandbox/cover-colors.py), so the shelf stays recognizable without
+    // loading a cover for every book. Same footprint either way.
+    const cover = withCovers
+      ? `<img src="${book.Image}" alt="${book.Title}" loading="lazy">`
+      : `<div class="cover-placeholder" style="background: ${book.color || "#d8d8d8"}" aria-hidden="true"></div>`;
     card.innerHTML = `
-      <img src="${book.Image}" alt="${book.Title}" loading="lazy">
+      ${cover}
       <h3>${book.Title}</h3>
       <p>${book.Author}</p>
     `;
@@ -101,6 +109,10 @@ function openPanel(book) {
 function closePanel() {
   document.getElementById("sidePanel").classList.remove("open");
   document.getElementById("overlay").classList.remove("visible");
+}
+
+function showCovers() {
+  return document.getElementById("showCovers").checked;
 }
 
 // Books marked `curated: true` are always on display. The rest are held back
