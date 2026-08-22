@@ -193,11 +193,14 @@ Still, in order to provide a final letter grade at the end of the class, I will 
 | &nbsp;&nbsp;&nbsp;*2-page book report or un-essay* | |
 | &nbsp;&nbsp;&nbsp;*Peer instruction / book presentation* | |
 | &nbsp;&nbsp;&nbsp;*Actually reading the book* | |
-| **In-class group exercises** | **20%** |
-| &nbsp;&nbsp;&nbsp;*Expect about one per week* | |
 | **Pre-class reflections** | **20%** |
 | &nbsp;&nbsp;&nbsp;*Expect about one per week* | |
 | **Attendance, participation, and civility** | **20%** |
+| &nbsp;&nbsp;&nbsp;*Tracked in Canvas* | |
+| **In-class group exercises** | **19%** |
+| &nbsp;&nbsp;&nbsp;*Expect about one per week* | |
+| **The button** | **1%** |
+| &nbsp;&nbsp;&nbsp;*Details w* | |
 
 Further details and rubrics for each exercise will be published on Canvas.
 
