@@ -10,6 +10,15 @@
 
    Note: this file was largely written by an LLM. It was tested and reviewed before being published. */
 
+/* css/site-nav.css centers a 760px masthead column, but this page's content
+   column is 860px, so the title and menu sit 50px right of everything below
+   them. This stylesheet loads only on the schedule page, so widening the
+   masthead here aligns the two left edges without touching the narrower pages
+   that share the header. */
+.site-masthead {
+  max-width: 860px;
+}
+
 .schedule-main {
   max-width: 860px;
   /* Generous gap under the header's blue rail, so the title reads as its own

@@ -43,8 +43,11 @@ body {
   width: 100%;
 }
 
+/* Same width as the masthead's column in css/site-nav.css, so the body's left
+   edge lines up with the title and menu above it rather than sitting 30px
+   inside them. */
 .container {
-  max-width: 700px;
+  max-width: 760px;
   margin: 48px auto;
   padding: 0 24px;
 }
@@ -130,7 +133,11 @@ h2 a:hover {
   font-size: 1.75rem;
   font-weight: 800;
   color: #1a1a1a;
-  line-height: 1.2;
+  /* Matches the `.container p` rule below, so the sign keeps the same airy
+     white field wherever it sits — inside .container (About) or not (the
+     schedule homepage, which is wrapped in .schedule-main instead). */
+  line-height: 1.75;
+  margin-bottom: 16px;
 }
 
 .sign-detail {
