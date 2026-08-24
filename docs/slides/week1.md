@@ -215,7 +215,23 @@ This Conocimiento is based on a version developed by leaders at San José State 
 
 ---
 
-## Syllabus overview
+## Syllabus overview {.embed-slide}
+
+::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://doethics.fun/syllabus/"
+  title="Course syllabus"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://doethics.fun/syllabus/)
+:::
+:::
 
 ---
 
