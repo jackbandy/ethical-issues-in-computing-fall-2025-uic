@@ -21,8 +21,9 @@ CS 377, Week 1, Day 1 🟦 Forest Park 🟦
 :::: columns
 ::: {.column width="55%"}
 - Attendance
+- Seat shuffle
 - Conocimiento
-- Syllabus overview
+- Syllabus / logistics overview
 - Attitudes survey
 :::
 
@@ -35,7 +36,36 @@ CS 377, Week 1, Day 1 🟦 Forest Park 🟦
 
 ## Attendance
 
-Let me know (1) that you are here and (2) something you enjoyed eating or drinking in the last week
+Let me know:
+- (1) that you are here, and
+- (2) something you enjoyed eating or drinking recently
+
+---
+
+## Visual Seat Shuffle {.embed-slide}
+
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle to assign tables
+- Why do you think we do this?
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+::: {.embed-frame style="position:absolute;top:0;right:0;width:49%;height:100%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<div style="width:100%;height:100%;overflow:hidden;">
+<div style="width:1060px;height:1200px;transform:scale(0.55);transform-origin:0 0;">
+<iframe
+  src="https://doethics.fun/in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+</div>
+</div>
+:::
+:::
 
 ---
 
@@ -232,7 +262,7 @@ This Conocimiento is based on a version developed by leaders at San José State 
 
 ## Attitudes Survey
 
-TODO: add link
+- https://www.**yellkey.com/star**
 
 You can head out once you finish the survey. See you next class!
 
@@ -368,7 +398,7 @@ Turn off phones, laptops, other distractions
 - Other branches: applied, meta-ethics, descriptive ethics
 - Etymology: from ancient Greek *ethos* — "relating to one's character"
 - Morality vs. ethics
-::: {.incremental}
+:::
 
 
 ---

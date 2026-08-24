@@ -60,6 +60,12 @@ $code-block-border-color: $border;
       padding: 48px 64px 84px;
       background: $paper;
     }
+
+    // Wrapper around a vertical stack: never paints, or it would cover the
+    // background photo of a photo-title slide inside it.
+    section.stack {
+      background: transparent;
+    }
   }
 
   h1 {
