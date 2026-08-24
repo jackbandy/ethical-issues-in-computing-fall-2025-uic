@@ -161,7 +161,7 @@ This Conocimiento is based on a version developed by leaders at San José State 
 ::: {.incremental}
 - Is there a place — or more than one place — you consider "home"?
   If so, where is it, and why? If not, why not?
-- Share about your family, however you choose to define it: How big is your immediate/extended family? Were you the oldest, the youngest, only child? How did that shape your experience?
+- Share about your family, however you choose to define it: How big is your immediate/extended family? Were you the oldest, the youngest, only child? How did that shape you?
 :::
 :::
 
@@ -169,8 +169,7 @@ This Conocimiento is based on a version developed by leaders at San José State 
 ::: {.incremental}
 - What do you know of your family origins? What do you want to know?
 - What languages are spoken in your family? What languages do you speak? Want to speak?
-- Are there family traditions, cultural practices, etc. that you value? What are these, and why?
-- What other social/community identities are important to you?
+- Are there family traditions, cultural practices, etc. that you value? What are they? Why?
 :::
 :::
 ::::
@@ -262,9 +261,17 @@ This Conocimiento is based on a version developed by leaders at San José State 
 
 ## Attitudes Survey
 
+:::: columns
+::: {.column width="55%"}
 - https://www.**yellkey.com/star**
 
 You can head out once you finish the survey. See you next class!
+:::
+
+::: {.column width="40%"}
+![](../assets/survey.png)
+:::
+::::
 
 ---
 
