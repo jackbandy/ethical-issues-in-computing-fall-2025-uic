@@ -25,6 +25,10 @@
     * { box-sizing: border-box; }
     html { color: var(--ink); background: var(--soft); font: 17px/1.55 FreeSans, Helvetica, Arial, sans-serif; }
     body { position: relative; max-width: 900px; margin: 0 auto; padding: 0 4rem 5rem; background: var(--paper); }
+    /* DRAFT watermark, off while the syllabus is final. To switch it back on,
+       uncomment this rule and the body::before rule in the @media print block
+       below. The `body > *` stacking rule beneath stays put either way. */
+    /*
     body::before {
       content: "DRAFT";
       position: fixed;
@@ -39,6 +43,7 @@
       transform: translate(-50%, -50%) rotate(-28deg);
       white-space: nowrap;
     }
+    */
     body > * { position: relative; z-index: 1; }
     header { padding-top: 1.5rem; text-align: center; }
     h1, h2, h3 { line-height: 1.15; }
@@ -80,7 +85,8 @@
     @media print {
       html { background: #fff; font-size: 11pt; }
       body { max-width: none; padding: 0; }
-      body::before { color: rgba(35, 31, 32, .07); }
+      /* Paired with the DRAFT watermark above; uncomment both together. */
+      /* body::before { color: rgba(35, 31, 32, .07); } */
     }
     /* The site menu (css/site-nav.css) is designed for full-viewport pages; the
        syllabus body is a 900px sheet, so break the rails and the header out of
@@ -93,7 +99,7 @@
   {% include site-nav.html nav_current="syllabus" %}
   <header>
     <div class="meta">
-      <span>Generated August 21, 2026 at 6:42 PM CDT</span>
+      <span>Generated August 24, 2026 at 10:48 AM CDT</span>
       <span><a href="syllabus.pdf">PDF version</a> · <a href="https://doethics.fun/">Course site</a></span>
     </div>
     <h1>COLLEGE OF ENGINEERING, UIC</h1>
@@ -130,18 +136,21 @@ Details</h1>
 <p><strong>Course:</strong> CS 377 — Ethical Issues in Computing (3
 credit hours)</p>
 <p><strong>Term:</strong> Fall 2026</p>
-<p><strong>Class meetings:</strong> Mondays and Wednesdays</p>
+<p><strong>Class meetings:</strong> Mondays and Wednesdays<br />
+   12:30–1:45pm (for CRN 36199)<br />
+   2:00–3:15pm (for CRN 38340)</p>
 <p><strong>Classroom:</strong> CDRLC 2411</p>
-<p><strong>Method of instruction:</strong> In-person. Class time is
-built around table discussions, small-group exercises, and
-“mini-lectures.” Readings and materials are distributed through Canvas
-and the course website, and most written work is done on paper in
-class.</p>
+<p><strong>Method of instruction:</strong> In-person.</p>
 <p><strong>Instructor:</strong> Jack Bandy (he/him), <a
 href="mailto:jxb@uic.edu">jxb@uic.edu</a>.</p>
 <p><strong>Office:</strong> CDRLC 3454</p>
-<p><strong>Drop-in (office) hours:</strong> See canvas</p>
-<p><strong>Teaching assistants:</strong> TBD</p>
+<p><strong>Office phone:</strong> (312) 555-0101</p>
+<p><strong>Drop-in (office) hours:</strong> See Canvas</p>
+<p><strong>Teaching assistants:</strong><br />
+   Abhijith Sreenivasan (<a
+href="mailto:asree5@uic.edu">asree5@uic.edu</a>)<br />
+   Sai Samith Reddy Sudini (<a
+href="mailto:ssudi4@uic.edu">ssudi4@uic.edu</a>)</p>
 <p><strong>Email:</strong> <a href="mailto:jxb@uic.edu">jxb@uic.edu</a>.
 I generally reply within 24 hours on weekdays, and I generally do not
 check email on Saturday and Sunday. Students are responsible for all
@@ -222,9 +231,6 @@ needed);</li>
 describe what you learned to your peers; and</li>
 <li>articulate and justify your own ethical commitments</li>
 </ul>
-<p><strong>Course requirement status:</strong> CS 377 is <a
-href="https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/">required</a>
-for a BS in Computer Science at UIC.</p>
 <p><strong>Potential topics:</strong> Beyond the classical ethical
 theories (Virtue, Deontological, Utilitarian, and Care Ethics), the
 course draws on a rotating set of topics, including:</p>
@@ -314,7 +320,7 @@ please tell me as soon as possible.</p>
 <h2 id="respect-for-copyright">Respect for Copyright</h2>
 <p>I try to build this course out of open materials (public domain,
 Creative Commons, open-access preprints, and things I wrote myself), and
-where I can, I link them publicly on <a
+usually link them publicly on <a
 href="https://doethics.fun/">doethics.fun</a>.</p>
 <p>Some materials are not open, and those are distributed only through
 Canvas. Please protect the integrity of that material: do not upload
@@ -533,15 +539,6 @@ presentation</em></td>
 <td style="text-align: right;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>In-class group
-exercises</strong></td>
-<td style="text-align: right;"><strong>20%</strong></td>
-</tr>
-<tr>
-<td style="text-align: left;">   <em>Expect about one per week</em></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
 <td style="text-align: left;"><strong>Pre-class
 reflections</strong></td>
 <td style="text-align: right;"><strong>20%</strong></td>
@@ -554,6 +551,27 @@ reflections</strong></td>
 <td style="text-align: left;"><strong>Attendance, participation, and
 civility</strong></td>
 <td style="text-align: right;"><strong>20%</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">   <em>Tracked in Canvas</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>In-class group
+exercises</strong></td>
+<td style="text-align: right;"><strong>19%</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">   <em>Expect about one per week</em></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>The button</strong></td>
+<td style="text-align: right;"><strong>1%</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">   <em>Details TBA</em></td>
+<td style="text-align: right;"></td>
 </tr>
 </tbody>
 </table>
@@ -1026,6 +1044,15 @@ There will be structured opportunities for feedback throughout the
 course, but please do reach out directly with any additional feedback,
 questions, ideas, and/or suggestions about how the course might be
 improved.</p>
+<p>At the end of the term you will also be asked to complete UIC’s
+official course evaluation through the <a
+href="https://faculty.uic.edu/for-faculty/teaching-learning/student-evaluation-teaching-program/">Student
+Evaluation of Teaching</a> program. Responses are anonymous and I do not
+see them until after final grades are submitted. These evaluations play
+a real role in how courses get revised, so please take them seriously —
+though note that they arrive too late to change anything for
+<em>your</em> semester, which is exactly why I also ask for feedback
+while the course is still running.</p>
 <h2 id="preferred-names-and-pronouns">Preferred Names and Pronouns</h2>
 <p>If your name or pronouns do not match the class roster, please let
 the class know so that we can address you the way you want to be
@@ -1095,10 +1122,20 @@ Student Resources</a> – a one-stop shop for links to resources in the
 following categories: General, Academic, Student Support, Student Life,
 Technology, Health and Safety, and Getting Around Campus</li>
 <li>UIC <a href="https://tutoring.uic.edu/">Tutoring Resources</a></li>
-<li>UIC College of Engineering Tutoring Program (link TBD — ask your
-Engineering advisor, or see me)</li>
-<li>Academic success programming for first-generation students (link
-TBD)</li>
+<li><strong><a
+href="https://engineeringequity.uic.edu/services/resources/">Engineering
+Learning Center (ELC)</a></strong> – peer tutoring for required
+engineering courses, led by students who have already succeeded in them.
+Located in SELE NE2063 (950 S. Halsted), in person and online.</li>
+<li>Academic success programming for first-generation students: the
+College of Engineering runs <a
+href="https://engineeringequity.uic.edu/diversity/eiep-first-gen/">EIEP
+FIRST GEN</a> (faculty connections, dialogue events, community building,
+and career development), and campus-wide, <a
+href="https://trio.uic.edu/about-us/">TRIO Student Support Services</a>
+offers academic coaching, tutoring, and career/graduate school advising
+to students who are first-generation, from low-income families, and/or
+have documented disabilities.</li>
 <li>Programs and initiatives supporting the UIC undergraduate experience
 and academic programs through the <a
 href="https://studentsuccess.uic.edu/programs-and-supports/">Student
@@ -1139,14 +1176,17 @@ Sign Language, and over 240 languages through tele-interpretation
 services. The <a href="https://988lifeline.org/">988 website</a> has an
 online chat feature, too.</p>
 <p>We all need the help and the support of our UIC community. Please
-visit my office hours for course consultation and other academic or
+visit drop-in hours for course consultation and other academic or
 research topics. For additional assistance, please contact your assigned
 college advisor and visit the support services available to all UIC
 students.</p>
 <h2 id="academic-success">Academic Success</h2>
 <ul>
-<li>Equity and Inclusion in Engineering Program (link TBD — ask your
-Engineering advisor, or see me)</li>
+<li><strong><a href="https://engineeringequity.uic.edu/">Equity and
+Inclusion in Engineering Program (EIEP)</a></strong> – tutoring, study
+space, career advising, summer programs, support for affinity-based
+engineering student organizations, and resources for undocumented
+students.</li>
 <li><strong><a href="https://library.uic.edu/">UIC Library</a></strong>
 – locations on east and west campus, with research support in person or
 online via chat. Stop by the reference desk in the IDEA Commons at Daley

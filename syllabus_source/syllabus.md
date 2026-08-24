@@ -14,19 +14,25 @@ epigraph: "“Evil comes from a failure to think” —Hannah Arendt"
 
 **Term:** Fall 2026
 
-**Class meetings:** Mondays and Wednesdays
+**Class meetings:** Mondays and Wednesdays\
+&nbsp;&nbsp;&nbsp;12:30–1:45pm (for CRN 36199)\
+&nbsp;&nbsp;&nbsp;2:00–3:15pm (for CRN 38340)
 
 **Classroom:** CDRLC 2411
 
-**Method of instruction:** In-person. Class time is built around table discussions, small-group exercises, and "mini-lectures." Readings and materials are distributed through Canvas and the course website, and most written work is done on paper in class.
+**Method of instruction:** In-person.
 
 **Instructor:** Jack Bandy (he/him), [jxb@uic.edu](mailto:jxb@uic.edu).
 
 **Office:** CDRLC 3454
 
-**Drop-in (office) hours:** See canvas
+**Office phone:** (312) 555-0101
 
-**Teaching assistants:** TBD
+**Drop-in (office) hours:** See Canvas
+
+**Teaching assistants:**\
+&nbsp;&nbsp;&nbsp;Abhijith Sreenivasan ([asree5@uic.edu](mailto:asree5@uic.edu))\
+&nbsp;&nbsp;&nbsp;Sai Samith Reddy Sudini ([ssudi4@uic.edu](mailto:ssudi4@uic.edu))
 
 **Email:** [jxb@uic.edu](mailto:jxb@uic.edu). I generally reply within 24 hours on weekdays, and I generally do not check email on Saturday and Sunday. Students are responsible for all messages sent to their UIC email and Canvas accounts.
 
@@ -71,9 +77,6 @@ Still, by the end of the course, you will hopefully be able to do the following:
 - read a full-length book related to a computing ethics topic and describe what you learned to your peers; and
 - articulate and justify your own ethical commitments
 
-**Course requirement status:** CS 377 is [required](https://catalog.uic.edu/ucat/colleges-depts/engineering/cs/bs-cs/) for a BS in Computer Science at UIC.
-
-\newpage
 
 **Potential topics:** Beyond the classical ethical theories (Virtue, Deontological, Utilitarian, and Care Ethics), the course draws on a rotating set of topics, including:
 
@@ -103,7 +106,7 @@ If obtaining any course material presents a challenge for any reason, please tel
 
 ## Respect for Copyright
 
-I try to build this course out of open materials (public domain, Creative Commons, open-access preprints, and things I wrote myself), and where I can, I link them publicly on [doethics.fun](https://doethics.fun/).
+I try to build this course out of open materials (public domain, Creative Commons, open-access preprints, and things I wrote myself), and usually link them publicly on [doethics.fun](https://doethics.fun/).
 
 Some materials are not open, and those are distributed only through Canvas. Please protect the integrity of that material: do not upload course materials you did not create to third-party websites, and do not share them with people who are not enrolled in the course. This includes worksheets, rubrics, and any readings posted behind the Canvas login.
 
@@ -200,7 +203,7 @@ Still, in order to provide a final letter grade at the end of the class, I will 
 | **In-class group exercises** | **19%** |
 | &nbsp;&nbsp;&nbsp;*Expect about one per week* | |
 | **The button** | **1%** |
-| &nbsp;&nbsp;&nbsp;*Details w* | |
+| &nbsp;&nbsp;&nbsp;*Details TBA* | |
 
 Further details and rubrics for each exercise will be published on Canvas.
 
@@ -405,6 +408,8 @@ Assume goodwill, listen carefully, debate ideas rather than people, respect priv
 
 In my view, being an effective educator is a life-long journey, meaning I still have a lot to learn in order to do my job effectively. There will be structured opportunities for feedback throughout the course, but please do reach out directly with any additional feedback, questions, ideas, and/or suggestions about how the course might be improved.
 
+At the end of the term you will also be asked to complete UIC's official course evaluation through the [Student Evaluation of Teaching](https://faculty.uic.edu/for-faculty/teaching-learning/student-evaluation-teaching-program/) program. Responses are anonymous and I do not see them until after final grades are submitted. These evaluations play a real role in how courses get revised, so please take them seriously — though note that they arrive too late to change anything for *your* semester, which is exactly why I also ask for feedback while the course is still running.
+
 ## Preferred Names and Pronouns
 
 If your name or pronouns do not match the class roster, please let the class know so that we can address you the way you want to be addressed. I use he/him pronouns. For more information, see: <https://www.mypronouns.org/what-and-why>.
@@ -447,8 +452,8 @@ Below are some of the many support services and resources available to all UIC s
 
 - [Current Student Resources](https://today.uic.edu/resources/current-student-resources) – a one-stop shop for links to resources in the following categories: General, Academic, Student Support, Student Life, Technology, Health and Safety, and Getting Around Campus
 - UIC [Tutoring Resources](https://tutoring.uic.edu/)
-- UIC College of Engineering Tutoring Program (link TBD — ask your Engineering advisor, or see me)
-- Academic success programming for first-generation students (link TBD)
+- **[Engineering Learning Center (ELC)](https://engineeringequity.uic.edu/services/resources/)** – peer tutoring for required engineering courses, led by students who have already succeeded in them. Located in SELE NE2063 (950 S. Halsted), in person and online.
+- Academic success programming for first-generation students: the College of Engineering runs [EIEP FIRST GEN](https://engineeringequity.uic.edu/diversity/eiep-first-gen/) (faculty connections, dialogue events, community building, and career development), and campus-wide, [TRIO Student Support Services](https://trio.uic.edu/about-us/) offers academic coaching, tutoring, and career/graduate school advising to students who are first-generation, from low-income families, and/or have documented disabilities.
 - Programs and initiatives supporting the UIC undergraduate experience and academic programs through the [Student Success Initiative](https://studentsuccess.uic.edu/programs-and-supports/)
 - If you are experiencing personal hardships (e.g. personal and family emergencies, academics, interpersonal conflicts, personal safety, physical and mental health concerns, food or housing insecurity) and need resources and assistance, please reach out to the [Student Assistance](https://dos.uic.edu/student-assistance/) division, supported by UIC's Office of the Dean of Students
 - [Student Guide for Information Technology](https://uofi.app.box.com/s/0nyho51r24yo0pivafibb1nvqogjm401) – a comprehensive resource for UIC students describing the most commonly used IT services and tools supporting your success
@@ -458,11 +463,11 @@ Importantly, **if you are in immediate distress**, please know the UIC Counselin
 
 For immediate crisis support outside of UIC, call or text "9-8-8" any time, 24 hours a day, 7 days a week. Dialing 988 will connect you to a trained crisis professional. 988 offers services in Spanish, American Sign Language, and over 240 languages through tele-interpretation services. The [988 website](https://988lifeline.org/) has an online chat feature, too.
 
-We all need the help and the support of our UIC community. Please visit my office hours for course consultation and other academic or research topics. For additional assistance, please contact your assigned college advisor and visit the support services available to all UIC students.
+We all need the help and the support of our UIC community. Please visit drop-in hours for course consultation and other academic or research topics. For additional assistance, please contact your assigned college advisor and visit the support services available to all UIC students.
 
 ## Academic Success
 
-- Equity and Inclusion in Engineering Program (link TBD — ask your Engineering advisor, or see me)
+- **[Equity and Inclusion in Engineering Program (EIEP)](https://engineeringequity.uic.edu/)** – tutoring, study space, career advising, summer programs, support for affinity-based engineering student organizations, and resources for undocumented students.
 - **[UIC Library](https://library.uic.edu/)** – locations on east and west campus, with research support in person or online via chat. Stop by the reference desk in the IDEA Commons at Daley Library, make an appointment for research help, or consult the subject-specific [Research Guides](https://researchguides.uic.edu/).
 - **[Academic Center for Excellence (ACE)](https://ace.uic.edu/)** – individualized help with reading, writing, study skills, and time management. Call (312) 413-0031.
 - [Academic advising](https://advising.uic.edu/) and the offices supporting the UIC undergraduate experience and academic programs

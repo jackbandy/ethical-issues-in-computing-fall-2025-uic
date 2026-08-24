@@ -25,6 +25,10 @@
     * { box-sizing: border-box; }
     html { color: var(--ink); background: var(--soft); font: 17px/1.55 FreeSans, Helvetica, Arial, sans-serif; }
     body { position: relative; max-width: 900px; margin: 0 auto; padding: 0 4rem 5rem; background: var(--paper); }
+    /* DRAFT watermark, off while the syllabus is final. To switch it back on,
+       uncomment this rule and the body::before rule in the @media print block
+       below. The `body > *` stacking rule beneath stays put either way. */
+    /*
     body::before {
       content: "DRAFT";
       position: fixed;
@@ -39,6 +43,7 @@
       transform: translate(-50%, -50%) rotate(-28deg);
       white-space: nowrap;
     }
+    */
     body > * { position: relative; z-index: 1; }
     header { padding-top: 1.5rem; text-align: center; }
     h1, h2, h3 { line-height: 1.15; }
@@ -80,7 +85,8 @@
     @media print {
       html { background: #fff; font-size: 11pt; }
       body { max-width: none; padding: 0; }
-      body::before { color: rgba(35, 31, 32, .07); }
+      /* Paired with the DRAFT watermark above; uncomment both together. */
+      /* body::before { color: rgba(35, 31, 32, .07); } */
     }
     /* The site menu (css/site-nav.css) is designed for full-viewport pages; the
        syllabus body is a 900px sheet, so break the rails and the header out of
