@@ -172,7 +172,7 @@ def convert_markdown(text, images):
     bold, italics. Single newlines inside a paragraph become <br>."""
     out = []
     paragraph = []
-    list_tag = None
+    list_stack = []
 
     def flush_paragraph():
         if paragraph:
@@ -181,11 +181,14 @@ def convert_markdown(text, images):
             out.append(f"<p{classes}>" + "<br>\n".join(paragraph) + "</p>")
             paragraph.clear()
 
-    def close_list():
-        nonlocal list_tag
-        if list_tag:
-            out.append(f"</{list_tag}>")
-            list_tag = None
+    def close_li():
+        out[-1] += "</li>"
+
+    def close_list(depth=0):
+        while len(list_stack) > depth:
+            _, tag = list_stack.pop()
+            close_li()
+            out.append(f"</{tag}>")
 
     lines = text.splitlines()
     i = 0
@@ -225,12 +228,22 @@ def convert_markdown(text, images):
         if ordered or unordered:
             flush_paragraph()
             tag = "ol" if ordered else "ul"
-            if list_tag != tag:
-                close_list()
+            expanded = line.expandtabs(4)
+            indent = len(expanded) - len(expanded.lstrip())
+            while list_stack and indent < list_stack[-1][0]:
+                close_list(len(list_stack) - 1)
+            if list_stack and indent == list_stack[-1][0] and tag != list_stack[-1][1]:
+                close_list(len(list_stack) - 1)
+            if list_stack and indent > list_stack[-1][0]:
+                list_stack.append((indent, tag))
                 out.append(f"<{tag}>")
-                list_tag = tag
+            elif not list_stack:
+                list_stack.append((indent, tag))
+                out.append(f"<{tag}>")
+            else:
+                close_li()
             item = (ordered or unordered).group(1)
-            out.append(f"<li>{convert_inline(html.escape(item), images)}</li>")
+            out.append(f"<li>{convert_inline(html.escape(item), images)}")
             continue
         close_list()
         paragraph.append(convert_inline(html.escape(stripped), images))
