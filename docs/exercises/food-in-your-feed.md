@@ -10,7 +10,7 @@ Use the final column to collect additional data related to some information you 
 
 ## Data Template
 
-I recommend completing this exercise on real paper (either in your own notebook or using the [PDF available here](../out-of-class-exercises/01-food-in-your-feed-worksheet.pdf)).
+I recommend completing this exercise on real paper (either in your own notebook or using the [PDF available here]({{ site.baseurl }}/assets/food-in-your-feed.pdf)).
 
 | Post | Account Name | Account Type | Ad (Yes/No) | Video (Yes/No) | Additional Data |
 |------|--------------|--------------|-------------|----------------|-----------------|

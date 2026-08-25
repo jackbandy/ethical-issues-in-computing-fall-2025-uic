@@ -54,7 +54,5 @@ See also: [Robert Axelrod, *The Evolution of Cooperation* (1984)](https://en.wik
 
 See also: [Veritasium, "This game theory problem will change the way you see the world"](https://youtu.be/mScpHTIi-kM) — a video walkthrough of the dilemma and Axelrod's repeated-play tournament.
 
-See also: [Nick Bostrom, *Superintelligence* (2014)](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) — on race dynamics when multiple teams are independently developing powerful systems under time pressure.
-
 See also: the SEP page on [The Free Rider Problem](https://plato.stanford.edu/entries/free-rider/), alleged class of cases where individually rational choices supposedly leave everyone worse off. See also: [Elinor Ostrom's design principles for long-enduring CPR institutions](https://en.wikipedia.org/wiki/Elinor_Ostrom#%22Design_principles_illustrated_by_long-enduring_CPR_%28Common_Pool_Resource%29_institutions%22) — on how self-organizing groups can avoid both the free-rider problem and the "tragedy of the commons" (Ostrom won the 2009 Nobel Prize in Economics for this work.)
 
