@@ -17,7 +17,7 @@
   // source the /schedule page renders from). Rows with no station (no class
   // that day) are skipped. Used below to default the picker to whichever
   // stop is nearest to today.
-  {%- capture newline %}
+  {% capture newline %}
 {% endcapture -%}
   {%- capture schedulecsv %}{% include schedule.csv %}{% endcapture -%}
   {%- assign csvrows = schedulecsv | strip | split: newline -%}

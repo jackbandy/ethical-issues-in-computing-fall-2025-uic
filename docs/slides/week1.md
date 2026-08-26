@@ -710,6 +710,16 @@ Fra Bartolomeo, c. 1510–1517; Museum of San Marco, Florence (public domain) ; 
 
 ---
 
+## Relevant Survey Question {.survey-question}
+
+![](../assets/survey-screenshots/q22-it-s-important-to-me-that-my-daily-actions-have-a-positive-i.svg)
+
+::: {.question}
+"It's important to me that my daily actions have a positive influence on the state of the world."
+:::
+
+---
+
 ## Practical Wisdom
 
 - Understanding how to actually do the right thing
