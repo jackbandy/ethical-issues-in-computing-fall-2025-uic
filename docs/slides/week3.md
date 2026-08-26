@@ -1,6 +1,6 @@
 
 
-# Introduction to Care Ethics {.title-slide}
+# Introduction to Care Ethics {.title-slide data-menu-title="Week 3, Day 2"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/05 Care Ethics.pdf and 06 Theory Review.pdf. Review and edit before use. -->
 
@@ -8,7 +8,7 @@ CS 377, Week 3, Day 2 🟦 Illinois Medical District 🟦
 
 ---
 
-# Introduction to Care Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover"}
+# Introduction to Care Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop09-illinois-medical-district-b.jpg" background-size="cover" data-menu-title="Week 3, Day 2"}
 
 CS 377, Week 3, Day 2 🟦 Illinois Medical District 🟦
 
@@ -151,11 +151,11 @@ our bodies, our selves, our environment
 
 :::: columns
 ::: {.column width="48%"}
-## Erik Erikson
+### Erik Erikson
 :::
 
 ::: {.column width="48%"}
-## Lawrence Kohlberg
+### Lawrence Kohlberg
 :::
 ::::
 
@@ -227,11 +227,11 @@ Should Heinz have stolen the drug? Why or why not?
 
 :::: columns
 ::: {.column width="48%"}
-## Erik Erikson
+### Erik Erikson
 :::
 
 ::: {.column width="48%"}
-## Lawrence Kohlberg
+### Lawrence Kohlberg
 :::
 ::::
 

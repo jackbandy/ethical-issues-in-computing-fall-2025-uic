@@ -1,12 +1,12 @@
 
-# Introduction to Deontological Ethics {.title-slide}
+# Introduction to Deontological Ethics {.title-slide data-menu-title="Week 2, Day 1"}
 
 
 CS 377, Week 2, Day 1 🟦 Cicero 🟦
 
 ---
 
-# Introduction to Deontological Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover"}
+# Introduction to Deontological Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop05-cicero-b.jpg" background-size="cover" data-menu-title="Week 2, Day 1"}
 
 CS 377, Week 2, Day 1 🟦 Cicero 🟦
 
@@ -69,29 +69,18 @@ instructor, content, syllabus, etc.)
 
 ---
 
-## Four Theories for This Class
+## Four Theories for This Class {.theories-grid}
 
-:::: columns
-::: {.column width="24%"}
-## 🏛
-Virtue Ethics
-:::
-
-::: {.column width="24%"}
-## 📖
-Deontological
-:::
-
-::: {.column width="24%"}
-## 📊
-Utilitarian
-:::
-
-::: {.column width="24%"}
-## 💟
-Care Ethics
-:::
-::::
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
 
 ---
 
@@ -219,7 +208,7 @@ Deontology is primarily concerned with what is "right"
 
 :::: columns
 ::: {.column width="48%"}
-## Normative
+### Normative
 
 - Is it right?
 - Is it wrong?
@@ -228,7 +217,7 @@ Deontology is primarily concerned with what is "right"
 :::
 
 ::: {.column width="48%"}
-## Descriptive
+### Descriptive
 
 - Who is involved?
 - Who is making the decision(s)?
@@ -242,13 +231,13 @@ Deontology is primarily concerned with what is "right"
 ---
 
 
-# Introduction to Utilitarian Ethics {.title-slide}
+# Introduction to Utilitarian Ethics {.title-slide data-menu-title="Week 2, Day 2"}
 
 CS 377, Week 2, Day 2 🟦 Western 🟦
 
 ---
 
-# Introduction to Utilitarian Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover"}
+# Introduction to Utilitarian Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop08-western-b.jpg" background-size="cover" data-menu-title="Week 2, Day 2"}
 
 CS 377, Week 2, Day 2 🟦 Western 🟦
 

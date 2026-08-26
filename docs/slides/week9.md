@@ -4,13 +4,13 @@
 
 ---
 
-# LLMs, Continued {.title-slide}
+# LLMs, Continued {.title-slide data-menu-title="Week 9, Day 1"}
 
 CS 377, Week 9, Day 1 🟦 Damen 🟦
 
 ---
 
-# LLMs, Continued {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop21-damen-c.jpg" background-size="cover"}
+# LLMs, Continued {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop21-damen-c.jpg" background-size="cover" data-menu-title="Week 9, Day 1"}
 
 CS 377, Week 9, Day 1 🟦 Damen 🟦
 
@@ -181,7 +181,7 @@ See you next week!
 
 ---
 
-# Intellectual Property {.title-slide}
+# Intellectual Property {.title-slide data-menu-title="Week 9, Day 2"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/19 Intellectual Property.pdf and 13 Intro to Copyright.pdf. Review and edit before use. -->
 
@@ -189,7 +189,7 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 
 ---
 
-# Intellectual Property {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover"}
+# Intellectual Property {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover" data-menu-title="Week 9, Day 2"}
 
 CS 377, Week 9, Day 2 🟦 Western 🟦
 

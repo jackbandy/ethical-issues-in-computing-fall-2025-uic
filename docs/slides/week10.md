@@ -4,13 +4,13 @@
 
 ---
 
-# IP and Enshittification {.title-slide}
+# IP and Enshittification {.title-slide data-menu-title="Week 10, Day 1"}
 
 CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
-# IP and Enshittification {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover"}
+# IP and Enshittification {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover" data-menu-title="Week 10, Day 1"}
 
 CS 377, Week 10, Day 1 🟦 California 🟦
 
@@ -345,7 +345,7 @@ A character has just demonstrated their virtue by responding to a difficult chal
 
 ---
 
-# Nudges and Dark Design Patterns {.title-slide}
+# Nudges and Dark Design Patterns {.title-slide data-menu-title="Week 10, Day 2"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/21 Nudges.pdf and 20 Dark Patterns.pdf. Review and edit before use. -->
 
@@ -353,7 +353,7 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-# Nudges and Dark Design Patterns {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover"}
+# Nudges and Dark Design Patterns {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover" data-menu-title="Week 10, Day 2"}
 
 CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 

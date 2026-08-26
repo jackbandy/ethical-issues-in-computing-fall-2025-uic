@@ -11,6 +11,7 @@ below follow each Commons file page.
 | aristotle.jpg | Aristotle | [Commons](https://commons.wikimedia.org/wiki/File:Aristoteles_Louvre.jpg) | CC BY-SA 2.5 | Eric Gaba (Sting), 2005; Roman marble bust, Louvre |
 | arlie-russell-hochschild.jpg | Arlie Russell Hochschild | [Commons](https://commons.wikimedia.org/wiki/File:Arlie_Russell_Hochschild.jpg) | CC BY-SA 4.0 | Paul572, 2017 |
 | benjamin-constant.png | Benjamin Constant | [Commons](https://commons.wikimedia.org/wiki/File:Henri-Benjamin_Constant_de_Rebecque.png) | Public Domain | Lina Vallier, 1847 |
+| confucius.jpg | Confucius | [Commons](https://commons.wikimedia.org/wiki/File:Cropped_version_of_Confucius_Portrait,_Kongzi_(Confucius)_Family_Mansion,_Qufu_(13044335945).jpg) | Public Domain | Unknown artist, Ming dynasty (1368–1644); *Portrait of Confucius at Leisure* (孔子燕居像), Kong Family Mansion, Qufu |
 | corrado-gini.jpg | Corrado Gini | [Commons](https://commons.wikimedia.org/wiki/File:Corrado_Gini.jpg) | CC BY-SA 4.0 | Author unknown, c. 1945; via bookofproofs.org |
 | cory-doctorow.jpg | Cory Doctorow | [Commons](https://commons.wikimedia.org/wiki/File:Cory_Doctorow_portrait_by_Jonathan_Worth_1.jpg) | CC BY 2.0 | Jonathan Worth, 2009 |
 | doug-engelbart.jpg | Doug Engelbart | [Commons](https://commons.wikimedia.org/wiki/File:SRI_Douglas_Engelbart_2008.jpg) | CC BY-SA 3.0 | SRI International, November 2008 |

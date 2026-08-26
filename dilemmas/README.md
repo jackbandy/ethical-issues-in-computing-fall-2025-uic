@@ -27,6 +27,7 @@ I have also made an effort to include "established" ethical dilemmas rather than
 * [Jerusalem to Jericho](virtue-jerusalem-to-jericho.md)
 * [Jericho to Jerusalem](virtue-jericho-to-jerusalem.md)
 * [JV's Conscience](virtue-jvs-conscience.md)
+* [Upright Gong](virtue-role-conflict.md)
 
 ## Dilemmas from Deontological Ethics
 * [Marcel's Crime](deontological-marcels-crime-confidentiality.md)

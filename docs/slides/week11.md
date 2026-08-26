@@ -4,13 +4,13 @@
 
 ---
 
-# Book Presentations + Intro to Fairness {.title-slide}
+# Book Presentations + Intro to Fairness {.title-slide data-menu-title="Week 11, Day 1"}
 
 CS 377, Week 11, Day 1 🟦 Belmont 🟦
 
 ---
 
-# Book Presentations + Intro to Fairness {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover"}
+# Book Presentations + Intro to Fairness {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop25-belmont-a.jpg" background-size="cover" data-menu-title="Week 11, Day 1"}
 
 CS 377, Week 11, Day 1 🟦 Belmont 🟦
 

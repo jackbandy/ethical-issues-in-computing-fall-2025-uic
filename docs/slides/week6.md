@@ -4,7 +4,7 @@
 
 ---
 
-# Privacy, Continued {.title-slide}
+# Privacy, Continued {.title-slide data-menu-title="Week 6, Day 1"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/09 Here and Now.pdf, 11 Privacy in Data.pdf, and 12 Privacy and Power.pdf. Review and edit before use. -->
 
@@ -12,7 +12,7 @@ CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
 ---
 
-# Privacy, Continued {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover"}
+# Privacy, Continued {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop14-jackson-c.jpg" background-size="cover" data-menu-title="Week 6, Day 1"}
 
 CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
@@ -416,7 +416,7 @@ See you Wednesday!
 
 ---
 
-# Inequality, Justice, and "Message in a Bottle" {.title-slide}
+# Inequality, Justice, and "Message in a Bottle" {.title-slide data-menu-title="Week 6, Day 2"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/10 Message in a Bottle.pdf, 12 Privacy and Power.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
 
@@ -424,7 +424,7 @@ CS 377, Week 6, Day 2 🟦 Washington 🟦
 
 ---
 
-# Inequality, Justice, and "Message in a Bottle" {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
+# Inequality, Justice, and "Message in a Bottle" {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover" data-menu-title="Week 6, Day 2"}
 
 CS 377, Week 6, Day 2 🟦 Washington 🟦
 

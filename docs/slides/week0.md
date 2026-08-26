@@ -35,7 +35,7 @@ Use this template for:
 
 :::: columns
 ::: {.column width="48%"}
-## Left
+### Left
 
 - A
 - B
@@ -44,7 +44,7 @@ Use this template for:
 :::
 
 ::: {.column width="48%"}
-## Right
+### Right
 
 - E
 - F
@@ -86,7 +86,7 @@ Use this template for:
 
 ## Discussion Template w Timer {.embed-slide}
 
-::: {.embed-layout}
+::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
 1. Demo question 1
 2. Demo question 2
@@ -95,7 +95,7 @@ Use this template for:
 
 ::: {.embed-frame}
 <iframe
-  src="/timer/"
+  src="../timer/index.html"
   title="CTA-style countdown timer"
   loading="lazy"
   data-external="1">

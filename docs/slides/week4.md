@@ -1,5 +1,5 @@
 
-# Review Theories of Ethics {.title-slide}
+# Review Theories of Ethics {.title-slide data-menu-title="Week 4, Day 1"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/06 Theory Review.pdf and 07 Feeds.pdf. Review and edit before use. -->
 
@@ -7,7 +7,7 @@ CS 377, Week 4, Day 1 🟦 Racine 🟦
 
 ---
 
-# Review Theories of Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover"}
+# Review Theories of Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop10-racine-a.jpg" background-size="cover" data-menu-title="Week 4, Day 1"}
 
 CS 377, Week 4, Day 1 🟦 Racine 🟦
 
@@ -106,29 +106,18 @@ Turn off phones, laptops, other distractions
 
 ---
 
-## Four Theories / Approaches to Ethics
+## Four Theories / Approaches to Ethics {.theories-grid}
 
-:::: columns
-::: {.column width="24%"}
-## 🏛
-Virtue Ethics
-:::
-
-::: {.column width="24%"}
-## 📖
-Deontological
-:::
-
-::: {.column width="24%"}
-## 📊
-Utilitarian
-:::
-
-::: {.column width="24%"}
-## 💟
-Care Ethics
-:::
-::::
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
 
 ---
 
@@ -165,7 +154,7 @@ Care Ethics
 
 :::: columns
 ::: {.column width="48%"}
-## 📖 Deontological
+### 📖 Deontological
 
 - Agent-centered, patient-centered
 - Act deontology, rule deontology
@@ -176,7 +165,7 @@ Care Ethics
 :::
 
 ::: {.column width="48%"}
-## 📊 Utilitarian
+### 📊 Utilitarian
 
 - Act utilitarian, rule utilitarian
 - Hedonistic, preference, or objectivist
@@ -192,7 +181,7 @@ Care Ethics
 
 :::: columns
 ::: {.column width="48%"}
-## 🏛 Virtue Ethics
+### 🏛 Virtue Ethics
 
 - Agent-based (focus on traits)
 - Exemplarist (focus on saints or heroes)
@@ -202,7 +191,7 @@ Care Ethics
 :::
 
 ::: {.column width="48%"}
-## 💟 Care Ethics
+### 💟 Care Ethics
 
 - Psychological or philosophical focus
 - Maternal, political, global
@@ -253,13 +242,13 @@ Due tomorrow night at 11:59pm
 
 ---
 
-# Ethical Issues in Algorithmic Feeds {.title-slide}
+# Ethical Issues in Algorithmic Feeds {.title-slide data-menu-title="Week 4, Day 2"}
 
 CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
-# Ethical Issues in Algorithmic Feeds {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
+# Ethical Issues in Algorithmic Feeds {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover" data-menu-title="Week 4, Day 2"}
 
 CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
@@ -531,29 +520,18 @@ A typical recommender system proceeds in four stages:
 
 ---
 
-## Which ethical frameworks are at play? How?
+## Which ethical frameworks are at play? How? {.theories-grid}
 
-:::: columns
-::: {.column width="24%"}
-## 🏛
-Virtue Ethics
-:::
-
-::: {.column width="24%"}
-## 📖
-Deontological
-:::
-
-::: {.column width="24%"}
-## 📊
-Utilitarian
-:::
-
-::: {.column width="24%"}
-## 💟
-Care Ethics
-:::
-::::
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
 
 ---
 

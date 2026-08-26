@@ -4,7 +4,7 @@
 
 ---
 
-# Content Moderation and Intro to Privacy {.title-slide}
+# Content Moderation and Intro to Privacy {.title-slide data-menu-title="Week 5, Day 1"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/07b Moderating Feeds.pdf, 08 Privacy Fundamentals.pdf, and 08 Rights.pdf. Review and edit before use. -->
 
@@ -12,7 +12,7 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-# Content Moderation and Intro to Privacy {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
+# Content Moderation and Intro to Privacy {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover" data-menu-title="Week 5, Day 1"}
 
 CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
@@ -321,13 +321,13 @@ How many ads did you see in the first ten posts?
 
 ---
 
-# Privacy as Contextual Integrity {.title-slide}
+# Privacy as Contextual Integrity {.title-slide data-menu-title="Week 5, Day 2"}
 
 CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 ---
 
-# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
+# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover" data-menu-title="Week 5, Day 2"}
 
 CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 

@@ -4,7 +4,7 @@
 
 ---
 
-# Inequality, Justice, and Faces {.title-slide}
+# Inequality, Justice, and Faces {.title-slide data-menu-title="Week 7, Day 1"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/09 Faces.pdf, 11 Faces.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
 
@@ -12,7 +12,7 @@ CS 377, Week 7, Day 1 🟦 Clark/Lake 🟦
 
 ---
 
-# Inequality, Justice, and Faces {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover"}
+# Inequality, Justice, and Faces {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop17-clark-lake-c.jpg" background-size="cover" data-menu-title="Week 7, Day 1"}
 
 CS 377, Week 7, Day 1 🟦 Clark/Lake 🟦
 
@@ -87,29 +87,18 @@ CS 377, Week 7, Day 1 🟦 Clark/Lake 🟦
 
 ---
 
-## Connecting Some Dots
+## Connecting Some Dots {.theories-grid}
 
-:::: columns
-::: {.column width="24%"}
-## 🏛
-Virtue Ethics
-:::
-
-::: {.column width="24%"}
-## 📖
-Deontological
-:::
-
-::: {.column width="24%"}
-## 📊
-Utilitarian
-:::
-
-::: {.column width="24%"}
-## 💟
-Care Ethics
-:::
-::::
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
 
 ---
 
@@ -399,7 +388,7 @@ How do the four ethical frameworks apply to facial recognition?
 
 ---
 
-# Computing and War {.title-slide}
+# Computing and War {.title-slide data-menu-title="Week 7, Day 2"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/15 War.pdf. Review and edit before use. -->
 
@@ -407,7 +396,7 @@ CS 377, Week 7, Day 2 🟦 Grand 🟦
 
 ---
 
-# Computing and War {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover"}
+# Computing and War {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop18-grand-a.jpg" background-size="cover" data-menu-title="Week 7, Day 2"}
 
 CS 377, Week 7, Day 2 🟦 Grand 🟦
 

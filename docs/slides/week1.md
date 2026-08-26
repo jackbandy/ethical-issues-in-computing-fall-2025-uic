@@ -2,11 +2,10 @@
 # Introduction to Ethical Issues in Computing {.title-slide .photo-title data-state="photo-title" background-image="../assets/chicago-aerial-jane-byrne.jpg" background-size="cover"}
 
 
-CS 377, Week 1, Day 1
 
 ---
 
-# Conocimiento and Syllabus Day {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover"}
+# Conocimiento and Syllabus Day {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop01-forest-park-a.jpg" background-size="cover" data-menu-title="Week 1, Day 1"}
 
 CS 377, Week 1, Day 1 🟦 Forest Park 🟦
 
@@ -291,15 +290,8 @@ You can head out once you finish the survey. See you next class!
 
 ---
 
-# Introduction to Virtue Ethics {.title-slide}
 
-CS 377, Week 1, Day 2 🟦 Oak Park 🟦
-
-Sit wherever you like for now (we will shuffle seats in a bit)
-
----
-
-# Introduction to Virtue Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover"}
+# Introduction to Virtue Ethics {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop03-oak-park-b.jpg" background-size="cover" data-menu-title="Week 1, Day 2"}
 
 CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 
@@ -315,9 +307,9 @@ CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 ::: {.column width="55%"}
 - Administrivia
 - More schedule details
-- Musical chairs
-- Warm-up discussion (what is ethics?)
+- Warm-up discussion
 - Intro to Virtue Ethics
+- Group activity
 :::
 
 ::: {.column width="40%"}
@@ -343,13 +335,13 @@ CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 
 ## Schedule Overview
 
-- Unit 1
+- Unit 1: Theories
   - 🟦 Forest Park Branch 🟦
   - Virtue, Deontology, Utilitarianism, Care
 - Unit 2: Stories
   - 🟦 Milwaukee-Dearborn Subway 🟦
   - Short stories, famous case studies
-- Unit 3
+- Unit 3: Applications
   - 🟦 O'Hare Branch 🟦
   - Algorithmic fairness, LLMs, data ethics, etc.
 
@@ -361,39 +353,6 @@ Ask two or more questions (can be about logistics, schedule, content, syllabus, 
 
 ---
 
-## Musical chairs!
-
----
-
-## 🔀 Seat Shuffle
-
-::: {.embed-layout}
-::: {.embed-copy}
-<h2>Visual Seat Shuffle</h2>
-
-- Classroom seating chart, shown live in the deck
-- Enter a seed and shuffle to assign tables
-- "Draw Paths" kinda chaotic
-
-[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
-:::
-
-<!-- TODO: tweak/polish the seat shuffle embedding (scale, sizing, layout) -->
-::: {.embed-frame style="position:absolute;top:0;right:0;width:49%;height:100%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
-<div style="width:100%;height:100%;overflow:hidden;">
-<div style="width:1060px;height:1200px;transform:scale(0.55);transform-origin:0 0;">
-<iframe
-  src="https://doethics.fun/in-progress/visual-seat-shuffle.html"
-  title="Visual Seat Shuffle"
-  style="width:100%;height:100%;border:none;display:block;"
-  data-external="1">
-</iframe>
-</div>
-</div>
-:::
-:::
-
----
 
 ## Invitation/reminder
 
@@ -405,22 +364,37 @@ Turn off phones, laptops, other distractions
 
 ---
 
-## Warm-up Discussion (5min)
+## Warm-up Discussion {.embed-slide}
 
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Introduce yourselves
 - What comes to mind when you hear "ethics?"
-- Why do you think this class is part of the CS major??
+- Why do you think this class is part of the CS major?
 - Can your table offer a (tentative) definition of ethics?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
 ## A Brief Aside: What Is "Ethics"?
 
 ::: {.incremental}
-- People often say ethics is knowing "right vs. wrong"
+- People often consider ethics as knowing "right vs. wrong"
 - Right vs. wrong is one branch: **normative ethics** — prescriptive - should/shouldn't
-- Other branches: applied, meta-ethics, descriptive ethics
-- Etymology: from ancient Greek *ethos* — "relating to one's character"
+- Other branches: applied, meta-ethics, descriptive ethics, etc.
+- Etymology: from ancient Greek *ethos*, "relating to one's character"
 - Morality vs. ethics
+	- I still don't have a great answer! Do you?
 :::
 
 
@@ -430,7 +404,7 @@ Turn off phones, laptops, other distractions
 
 :::: columns
 ::: {.column width="48%"}
-## Normative
+### Normative
 
 - Is it right?
 - Is it wrong?
@@ -439,7 +413,7 @@ Turn off phones, laptops, other distractions
 :::
 
 ::: {.column width="48%"}
-## Descriptive
+### Descriptive
 
 - Who is involved?
 - Who is making the decision(s)?
@@ -455,41 +429,41 @@ Turn off phones, laptops, other distractions
 ## Why We'll Try to Avoid the Word "Ethical" in This Class
 
 - We want more **descriptive clarity**
-- "That's unethical" is kind
+- "That's unethical" is too generic
+- We want a story
 
 ---
 
 ## "Tell me more" {.quote-slide}
 
-> Any question in the form "Is X right or wrong?" could benefit from another round of clarifying, story-oriented questions. Question: "Is X good or bad?" Story: "For whom? On what day, under what conditions? Might there be some unintended consequences associated with X? Some good hidden in the bad that is X? Some bad hidden in the good that is X? Tell me more."
+> Any question in the form "Is X right or wrong?" could benefit from another round of clarifying, story-oriented questions.
 >
 > — George Saunders ([via The Marginalian](https://www.themarginalian.org/2026/07/20/george-saunders-uncertainty/))
 
 ---
 
-## Four Theories for This Class
+## "Tell me more" {.quote-slide}
 
-:::: columns
-::: {.column width="24%"}
-## 🏛
-Virtue Ethics
-:::
+> Question: "Is X good or bad?" Story: "For whom? On what day, under what conditions? Might there be some unintended consequences associated with X? Some good hidden in the bad that is X? Some bad hidden in the good that is X? Tell me more."
+>
+> — George Saunders ([via The Marginalian](https://www.themarginalian.org/2026/07/20/george-saunders-uncertainty/))
 
-::: {.column width="24%"}
-## 📖
-Deontological
-:::
+---
 
-::: {.column width="24%"}
-## 📊
-Utilitarian
-:::
 
-::: {.column width="24%"}
-## 💟
-Care Ethics
-:::
-::::
+
+## "Core Four" Theories in This Class {.theories-grid}
+
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
 
 ---
 
@@ -501,14 +475,20 @@ Care Ethics
 
 :::: columns
 ::: {.column width="55%"}
+::: {.incremental}
 - Aristotle (384–322 BCE)
-- Asks "what kind of person should I be?" rather than "what rule applies?"
+- We're starting with descriptive!
+- Not "what is right/wrong?" Or "what rule applies?"
+- Virtue ethics: "what kind of person should I be?"
+:::
 :::
 
 ::: {.column width="40%"}
 ![](../assets/portraits/aristotle.jpg)
 
-Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5)
+::: {.caption}
+Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5) ; [SEP, *Aristotle's Ethics*](https://plato.stanford.edu/entries/aristotle-ethics/)
+:::
 :::
 ::::
 
@@ -539,25 +519,193 @@ Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5)
 
 - Plato and Aristotle (~400 BCE)
   - *Nicomachean Ethics*
-  - eudaemonia
+  - eudaemonia / flourishing
 - Mencius and Confucius (~500 BCE)
   - harmonious society
   - virtues can be cultivated through education and self-reflection
 
 ---
 
-## In other words…
+## Socrates (c. 470–399 BCE) 🏛
 
-- Alasdair MacIntyre (*After Virtue*) observed a broad decline in how much the general public cares about and responds to virtue-oriented concerns or criteria
-- If people no longer care about virtue, how can it be cultivated?
-- This is a challenge for people whose decisions affect others
+:::: columns
+::: {.column width="55%"}
+::: {.incremental}
+- Original question: how should one live?
+- Treated virtue as a kind of *knowledge*
+	- nobody does wrong on purpose, they do it out of ignorance
+- Asked people about courage, piety, justice, etc., and whether they could define what they practiced
+	- "Socratic method"
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/portraits/socrates.jpg)
+
+::: {.caption}
+Photo: Eric Gaba (public domain); [Commons](https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg); [SEP, *Socrates*](https://plato.stanford.edu/entries/socrates/)
+:::
+:::
+::::
 
 ---
 
-## "People can change and improve their ethics" {.quote-slide}
+## Plato (c. 428–348 BCE) 🏛
 
-::: {.fragment}
-"I can change and improve my ethics"
+:::: columns
+::: {.column width="55%"}
+::: {.incremental}
+- Socrates' student / scribe (i.e. the dialogues)
+- Four cardinal virtues: wisdom, courage, temperance, justice
+- A good life: a soul with its parts in the right order
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/portraits/plato.jpg)
+
+::: {.caption}
+Roman copy of a Silanion bust, Capitoline Museums. Photo: Marie-Lan Nguyen (CC BY 2.5); [Commons](https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg); [SEP, *Plato's Ethics*](https://plato.stanford.edu/entries/plato-ethics/)
+:::
+:::
+::::
+
+---
+
+## Confucius (孔子, 551–479 BCE) {.smaller}
+
+:::: columns
+::: {.column width="55%"}
+::: {.caption}
+Source: [SEP, *Confucius*](https://plato.stanford.edu/entries/confucius/)
+:::
+
+::: {.incremental}
+- Lots of overlap with virtue ethics, including:
+- **仁 (rén)**: benevolence; in the *Analects*, "caring for others"
+- **禮 (lǐ)**: ritual propriety: everyday respect that doesn't just *indicate* values, it *inculcates* them
+- **義 (yì)**: righteousness: steadfastness against temptation, usually in public life
+- **君子 (jūnzǐ)** (the "gentleman"): virtue is taught through anecdotes about good people
+	- i.e. exemplars / role models
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/portraits/confucius.jpg)
+
+::: {.caption}
+*Portrait of Confucius at Leisure*, Kong Family Mansion, Qufu (public domain); [Commons](https://commons.wikimedia.org/wiki/File:Cropped_version_of_Confucius_Portrait,_Kongzi_(Confucius)_Family_Mansion,_Qufu_(13044335945).jpg)
+:::
+:::
+::::
+
+---
+
+## Confucius, continued {.smaller}
+
+:::: columns
+::: {.column width="55%"}
+::: {.caption}
+Sources: [SEP, *Confucius*](https://plato.stanford.edu/entries/confucius/) and [SEP, *Chinese Ethics*](https://plato.stanford.edu/entries/ethics-chinese/)
+:::
+
+::: {.incremental}
+- Character is cultivated by **practice until it becomes second nature**
+	- close to Aristotle's "habituation"
+- the self as **relational** ("the five relationships" and virtues attached to those roles)
+- "Care with distinctions"
+	- concern is graduated by relationship, not impartial
+- Emphasis on ethics in ordinary interactions
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/covers/analects-rongo-1533.jpg)
+
+::: {.caption}
+Cover of the *Rongo* (論語, *Analects*), "Tenmon version," Japan, 1533 ; [World Digital Library, item 11844](https://www.wdl.org/en/item/11844/), via [Commons](https://commons.wikimedia.org/wiki/File:The_Analects_of_Confucius_WDL11844.pdf) (public domain)
+:::
+:::
+::::
+
+---
+
+## Thomas Aquinas (1225–1274) 🏛
+
+:::: columns
+::: {.column width="55%"}
+::: {.incremental}
+- Kept the four cardinal virtues, added faith, hope, and love
+- Virtue as a *habitus*: a settled disposition that can be built over time
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/portraits/thomas-aquinas.jpg)
+
+::: {.caption}
+Fra Bartolomeo, c. 1510–1517; Museum of San Marco, Florence (public domain) ; [Commons](https://commons.wikimedia.org/wiki/File:Thomas_Aquinas_by_Fra_Bartolommeo.jpg) ; [SEP, *Aquinas's Moral, Political, and Legal Philosophy*](https://plato.stanford.edu/entries/aquinas-moral-political/)
+:::
+:::
+::::
+
+---
+
+## Alasdair MacIntyre (1929–2025)
+
+:::: columns
+::: {.column width="55%"}
+::: {.incremental}
+- *After Virtue* (1981)
+- Argues that we kept the vocabulary ("rights," "utility," "fairness") but lost the shared meaning and purpose
+- Reiterates that virtues are learned inside **practices** and communities
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/covers/after-virtue-macintyre.jpg)
+
+::: {.caption}
+*After Virtue*, 3rd ed., [University of Notre Dame Press](https://undpress.nd.edu/9780268035044/after-virtue/), 2007 ; [SEP, *Virtue Ethics*](https://plato.stanford.edu/entries/ethics-virtue/)
+:::
+:::
+::::
+
+---
+
+## A Challenge
+
+- Alasdair MacIntyre (*After Virtue*) observed a broad decline in how much the general public cares about virtue / character
+- If people no longer care about virtue, how can it be cultivated?
+
+---
+
+## Relevant Survey Question {.survey-question}
+
+![](../assets/survey-screenshots/q03-computing-itself-is-value-neutral-it-is-what-people-do-with.svg)
+
+::: {.question}
+"Computing itself is value-neutral: **it is what people do with the computing** that is right/wrong."
+:::
+
+---
+
+## Relevant Survey Question {.survey-question}
+
+![](../assets/survey-screenshots/q26-education-can-improve-someone-s-moral-ethical-decision-makin.svg)
+
+::: {.question}
+"Education can improve someone's moral/ethical decision-making."
+:::
+
+---
+
+## Relevant Survey Question {.survey-question}
+
+![](../assets/survey-screenshots/q27-major-aspects-of-my-moral-perspective-are-unlikely-to-change.svg)
+
+::: {.question}
+"Major aspects of my moral perspective are unlikely to change at this point in time."
 :::
 
 ---
@@ -565,62 +713,22 @@ Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5)
 ## Practical Wisdom
 
 - Understanding how to actually do the right thing
-- Comes with experience
+- Comes with experience / practice / **doing**
 
-::: {.fragment}
-What virtues and/or vices are at play here?
-:::
-
-<!-- image: practical-wisdom example images (build sequence in original) -->
-- TODO: add image — *practical-wisdom example images (build sequence in original)*
 
 ---
 
-## Activity: Virtues and Vices
+## Group Activity: Virtues and Vices {.embed-slide}
 
-:::: columns
-::: {.column width="58%"}
-- Many times, a virtue and a vice exist on the same scale
-- Small group activity
-- Choose an example virtue ➡
-- What would be versions of the virtue in excess or deficiency?
-- Choose another and repeat 🙂
-- Example: excess honesty = boastful
-:::
-
-::: {.column width="38%"}
-Example virtues:
-
-- Courage
-- Ambition
-- Generosity
-- Patience
-- Honesty
-- Whimsy / Wittiness
-- Friendliness
-- Many more!
-:::
-::::
-
----
-
-## "The Golden Mean"
-
----
-
-## Moral Virtues {.embed-slide}
-
-::: {.embed-layout}
+::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
-<h2>Common Examples</h2>
-
-[Open in a new tab](https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues)
+See handout
 :::
 
 ::: {.embed-frame}
 <iframe
-  src="https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues"
-  title="Moral Virtues"
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
   loading="lazy"
   data-external="1">
 </iframe>
@@ -629,7 +737,33 @@ Example virtues:
 
 ---
 
-## Preview of Pre-Class Reflection
+
+
+## Moral Virtues {.embed-slide}
+
+::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues"
+  title="Moral Virtues"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues)
+:::
+:::
+
+---
+
+
+
+## First due date is next week!
+
+See Canvas
 
 ---
 

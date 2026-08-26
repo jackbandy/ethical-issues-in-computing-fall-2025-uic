@@ -29,6 +29,9 @@ docs/slides/old-slides/
 
 # Slide HTML is CI-managed; local PDF export is optional.
 
+# Worksheet LaTeX build artifacts
+misc/worksheets/.build/
+
 # LaTeX generated content directory
 syllabus/latex-syllabus-in-progress/generated/
 

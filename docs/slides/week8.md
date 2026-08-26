@@ -4,7 +4,7 @@
 
 ---
 
-# Ethical Issues in Medical Technology {.title-slide}
+# Ethical Issues in Medical Technology {.title-slide data-menu-title="Week 8, Day 1"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/16 Medical Tech.pdf. Review and edit before use. -->
 
@@ -12,7 +12,7 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-# Ethical Issues in Medical Technology {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
+# Ethical Issues in Medical Technology {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover" data-menu-title="Week 8, Day 1"}
 
 CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
@@ -203,7 +203,7 @@ See you Wednesday!
 
 ---
 
-# Ethical Challenges from LLMs {.title-slide}
+# Ethical Challenges from LLMs {.title-slide data-menu-title="Week 8, Day 2"}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/17 Intro to LLMs.pdf. Review and edit before use. -->
 
@@ -211,7 +211,7 @@ CS 377, Week 8, Day 2 🟦 Division 🟦
 
 ---
 
-# Ethical Challenges from LLMs {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
+# Ethical Challenges from LLMs {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover" data-menu-title="Week 8, Day 2"}
 
 CS 377, Week 8, Day 2 🟦 Division 🟦
 
