@@ -32,5 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/slides/*.html
+          # -A over the whole dir so each deck's weekN_files/ assets are committed and
+          # stale ones from a previous render are pruned. Build-only paths stay gitignored.
+          git add -A docs/slides
           git diff --staged --quiet || (git commit -m "Build slides" && git push)

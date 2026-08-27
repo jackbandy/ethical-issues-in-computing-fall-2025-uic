@@ -21,9 +21,12 @@ docs/vendor/
 
 # Quarto slides
 docs/slides/.quarto/
-docs/slides/**/*.quarto_ipynb
+docs/slides/**/*.quarto_ipynb*
 docs/slides/.*-pdf-export.html
-docs/slides/*_files/
+# Emitted when the .scss theme fails to compile (data-science-fun has hit this).
+docs/slides/_quarto_internal_scss_error.scss
+# docs/slides/*_files/ is deliberately NOT ignored: with embed-resources off, each
+# deck's reveal.js/theme/fonts live there and GitHub Pages serves them from /docs.
 docs/slides/*.pdf
 docs/slides/old-slides/
 

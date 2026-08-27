@@ -1,6 +1,5 @@
 format:
   revealjs:
-    embed-resources: true
     theme: theme/blue-line.scss
     css:
       - theme/responsive-footer.css
