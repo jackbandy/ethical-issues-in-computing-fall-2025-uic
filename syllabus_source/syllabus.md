@@ -249,6 +249,8 @@ Showing up makes a substantial difference in this course (and in life). Many cla
 
 **Please notify the instructor as soon as possible** when illness, personal emergencies, university obligations, religious observances, or other circumstances may prevent attendance. Note that this is also a courtesy to the community, as unexpected absences and late arrivals can be disruptive to everyone in class.
 
+**Arriving more than 30 minutes late counts as an absence.** For example, if you arrive at 2:30pm for the 2:00pm section, that is treated the same as missing class, and will count against your four free absences (repeated occurrences will lower your "Attendance, Participation, and Civility" grade).
+
 I take attendance each class. Four absences may be taken without penalty, and they do not have to be explicitly excused. If a student misses more than four classes without notifying the instructor, the instructor will reach out to them, and reserves the right to lower the "Attendance, Participation, and Civility" portion of the overall grade.
 
 Generally, if you miss a fifth class without notifying the instructor, your "Attendance, Participation, and Civility" grade will be lowered from 20/20 to 18/20. Additional deductions (i.e. two points per unexcused absence) will be noted in Canvas.
