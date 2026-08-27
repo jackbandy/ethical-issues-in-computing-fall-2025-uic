@@ -283,13 +283,6 @@ body {
 
 .footnotes a:hover { text-decoration: underline; }
 
-/* LLM-generated solution to fix full-width setup in iframe embeds */
-.estimated-arrivals,
-.estimated-arrivals-line-wrapper {
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
-
 /* Embedded (in an iframe) the page loses its footer and the masthead gains the
    one link a framed viewer actually needs: a way out to the standalone timer.
    Right gutter matches the 15px used by the content rows below. Coloured
