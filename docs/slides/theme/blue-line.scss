@@ -258,6 +258,22 @@ $code-block-border-color: $border;
     text-align: center;
   }
 
+  // A source line that runs above the body copy rather than under a figure:
+  // names the reference a whole stretch of slides draws on, sitting just below
+  // the title rule so it reads as apparatus and not as the slide's first point.
+  .source-top {
+    margin: -0.3em 0 0.7em;
+    color: $muted;
+    font-size: $caption-size;
+    line-height: 1.3;
+    text-align: left;
+
+    a {
+      color: $muted;
+      text-decoration: underline;
+    }
+  }
+
   // A figure sharing a slide with a text column: cap it so the image and its
   // credit line both clear the footer. Kept at `.reveal .column img`
   // specificity so the tighter per-slide caps further down still win.
@@ -267,6 +283,13 @@ $code-block-border-color: $border;
     max-height: 50vh;
     width: auto;
     max-width: 100%;
+  }
+
+  // Two portraits stacked in one column (Aquinas over Kant): halve the cap so
+  // the pair and its shared credit line still clear the footer.
+  .portrait-pair img {
+    max-height: 24vh;
+    margin-bottom: 0.35em;
   }
 
   .quote-slide {
@@ -428,7 +451,13 @@ $code-block-border-color: $border;
       display: block;
       width: 100%;
       height: 100%;
+      // reveal.js caps embedded media at 95% of its box and quarto adds a
+      // 1em bottom margin to every iframe; both apply here and would leave the
+      // framed page short of the frame's right and bottom edges.
+      max-width: 100%;
+      max-height: 100%;
       min-height: 470px;
+      margin: 0;
       border: 0;
       background: $paper;
     }
@@ -635,6 +664,15 @@ $photo-only-footer-opacity: 0.6;
     text-align: center;
     opacity: 0.75;
   }
+}
+
+// A figure that has to read as a discrete panel on the white slide — the survey
+// charts are drawn on white themselves, so without an edge they bleed into it.
+.reveal .framed-figure img {
+  border: 1px solid $border;
+  border-radius: 6px;
+  box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
+  background: $paper;
 }
 
 // "A bit about me" photo grid: keep portraits short enough that the

@@ -19,7 +19,7 @@ format:
     progress: false
     transition: fade
     background-transition: fade
-    footer: '<img src="../images/uic-black-logo.svg" alt="UIC logo"><img src="../images/cc-by-nc-sa-small.svg" alt="CC BY-NC-SA"><span class="footer-text">CS 377 · Ethical Issues in Computing</span><span class="footer-text"><a href="https://doethics.fun/slides/">doethics.fun/slides</a></span>'
+    footer: '<img src="../images/uic-black-logo.svg" alt="UIC logo"><img src="../images/cc-by-nc-sa-small.svg" alt="CC BY-NC-SA"><span class="footer-text">Ethical Issues in Computing (CS 377)</span><span class="footer-text"><a href="https://doethics.fun/slides/">doethics.fun/slides</a></span>'
 bibliography: references.bib
 # `#` headings are section dividers (day titles, `.section-header` slides,
 # sources); `##` headings are the slides grouped under them, which is what

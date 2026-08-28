@@ -11,6 +11,10 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="CS 377">
   <meta name="color-scheme" content="light">
+  <script>
+    // Set in <head> so the embedded layout is in place before fitRoom() measures.
+    if (window.self !== window.top) document.documentElement.classList.add('embedded');
+  </script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -193,6 +197,19 @@
     }
 
     .footnotes a:hover { text-decoration: underline; }
+
+    /* Embedded in an iframe (the course slides) the room is what matters and
+       the frame is narrow: drop the attribution footer and the page title (the
+       slide already carries one) and tighten the padding, so fitRoom() spends
+       the whole frame on the seating chart instead of on chrome. Dropping the
+       title also keeps the controls on one line at slide widths. */
+    .embedded body { padding: 8px 12px; }
+    .embedded .page { width: 100%; }
+    .embedded .footnotes { display: none; }
+    .embedded .header h1 { display: none; }
+    .embedded .header-controls { gap: 10px; }
+    .embedded .header button { white-space: nowrap; }
+    .embedded .seed-range { display: none; }
 
     .footnotes .gh-icon {
       width: 11px;
@@ -497,7 +514,7 @@
     <h1>Visual Seat Shuffle</h1>
     <div class="header-controls">
       <button id="shuffle-btn">🔀 Shuffle</button>
-      <label>Seed (0–1000) <input type="number" id="seed" min="0" max="1000"></label>
+      <label>Seed <span class="seed-range">(0–1000)</span> <input type="number" id="seed" min="0" max="1000"></label>
       <label class="paths-label"><input type="checkbox" id="colors-cb" checked> Colors</label>
       <label class="paths-label"><input type="checkbox" id="paths-cb"> Paths</label>
     </div>

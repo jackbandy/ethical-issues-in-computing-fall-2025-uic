@@ -52,17 +52,12 @@ Let me know:
 [Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
 :::
 
-::: {.embed-frame style="position:absolute;top:0;right:0;width:49%;height:100%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
-<div style="width:100%;height:100%;overflow:hidden;">
-<div style="width:1060px;height:1200px;transform:scale(0.55);transform-origin:0 0;">
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
 <iframe
-  src="https://doethics.fun/in-progress/visual-seat-shuffle.html"
+  src="../in-progress/visual-seat-shuffle.html"
   title="Visual Seat Shuffle"
-  style="width:100%;height:100%;border:none;display:block;"
   data-external="1">
 </iframe>
-</div>
-</div>
 :::
 :::
 

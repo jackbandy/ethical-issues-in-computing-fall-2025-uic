@@ -3,6 +3,7 @@
 *.pages
 rosters/
 interests/
+attitudes/
 
 # LaTeX build artifacts
 *.aux

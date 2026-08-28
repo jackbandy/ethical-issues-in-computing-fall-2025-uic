@@ -27,8 +27,7 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 - Discuss exemplars
 - A couple more words about virtue ethics
 - Make up some rules
-- Mini-lecture: Kant's deontological ethics
-- Interest survey (if time)
+- Mini-lecture: deontological ethics
 :::
 
 ::: {.column width="40%"}
@@ -40,19 +39,14 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 
 ## Administrivia
 
-- How was Canvas?
-- Ideas for future reflections?
-- Still polishing some GitHub materials
-- Grades will trickle in
+- Grades will trickle in through Canvas
+- Reflections coming soon!
+- Canvas questions?
+- Book questions?
 
 ---
 
-## Questions
 
-Ask two or more questions (can be about virtue ethics, logistics,
-instructor, content, syllabus, etc.)
-
----
 
 ## Musical chairs! {.embed-slide}
 
@@ -60,22 +54,16 @@ instructor, content, syllabus, etc.)
 ::: {.embed-copy}
 - Shuffle seats!
 - Enter a seed and shuffle to assign tables
-- Why do you think we do this?
 
 [Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
 :::
 
-::: {.embed-frame style="position:absolute;top:0;right:0;width:49%;height:100%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
-<div style="width:100%;height:100%;overflow:hidden;">
-<div style="width:1060px;height:1200px;transform:scale(0.55);transform-origin:0 0;">
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
 <iframe
-  src="https://doethics.fun/in-progress/visual-seat-shuffle.html"
+  src="../in-progress/visual-seat-shuffle.html"
   title="Visual Seat Shuffle"
-  style="width:100%;height:100%;border:none;display:block;"
   data-external="1">
 </iframe>
-</div>
-</div>
 :::
 :::
 
@@ -100,7 +88,7 @@ instructor, content, syllabus, etc.)
 
 ---
 
-## Table Discussion: Virtue Ethics 🏛 {.embed-slide}
+## Warm-Up Discussion: Virtue Ethics 🏛 {.embed-slide}
 
 ::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
@@ -131,19 +119,17 @@ instructor, content, syllabus, etc.)
 - "Habitus"
   - Patterns of being
   - Social rituals
-- Which virtues do you want to cultivate this semester?
+  - Conditioning
 - What does any of this have to do with technology?
 :::
 
 ---
 
-# Deontological Ethics {.title-slide .section-header}
+# Fundamentals of Deontology {.title-slide .section-header}
 
 ---
 
-## Mini-lecture: intro to deontological ethics
 
----
 
 ## Invitation/reminder
 
@@ -155,10 +141,10 @@ Turn off phones, laptops, other distractions
 
 ::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
-What are some potential rules for the class?
-(Feel free to borrow from other classes)
-
-Write two of these potential rules on the board.
+- What are some potential rules for this class, CS 377?
+- Feel free to borrow from other classes!
+- Try to write down ten rules at your table.
+- Then choose two or three of your "best" rules and write them on the board.
 :::
 
 ::: {.embed-frame}
@@ -173,34 +159,41 @@ Write two of these potential rules on the board.
 
 ---
 
-## Right and wrong
 
-Deontological ("there is right and wrong")
+## Relevant Survey Question {.figure-slide .framed-figure}
 
-<!-- image: attitudes survey results, current and previous semester -->
-- TODO: add image — *attitudes survey results, current and previous semester*
+![](../assets/survey-fall26/q26-there-is-no-real-right-or-wrong-in-this-world-everything-is.svg)
 
----
-
-## Following the law
-
-<!-- image: attitudes survey results, current and previous semester -->
-- TODO: add image — *attitudes survey results, current and previous semester*
+::: {.figure-caption}
+CS 377 attitudes survey, Fall 2026, n≈50.
+:::
 
 ---
 
-## Right vs. good
 
-Deontology is primarily concerned with what is "right"
-(rather than what is "good")
+## Relevant Survey Question {.figure-slide .framed-figure}
+
+![](../assets/survey-fall26/q32-i-am-morally-obligated-to-follow-the-law-even-if-i-do-not-ag.svg)
+
+::: {.figure-caption}
+CS 377 attitudes survey, Fall 2026, n≈50.
+:::
 
 ---
+
 
 ## Deontology in Brief
 
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
+
+:::: columns
+::: {.column width="58%"}
 - Focused on duties, rights, and moral obligations (i.e. laws)
 - Laws might be prohibitions or obligations
 - Laws might come from different places
+- What is "right" vs what is "good"
 
 ::: {.fragment}
 - Key figures:
@@ -210,6 +203,17 @@ Deontology is primarily concerned with what is "right"
     - Ethical reasoning
     - Categorical imperative
 :::
+:::
+
+::: {.column .portrait-pair width="38%"}
+
+![](../assets/portraits/immanuel-kant.jpg)
+
+::: {.caption}
+Kant ([unknown artist, c. 1790](https://commons.wikimedia.org/wiki/File:Immanuel_Kant_%28painted_portrait%29.jpg)), public domain
+:::
+:::
+::::
 
 ---
 
@@ -229,35 +233,59 @@ Deontology is primarily concerned with what is "right"
 
 ---
 
-## Categorical Imperative Examples
+## Categorical Imperative Examples {.smaller}
 
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
+
+:::: columns
+::: {.column width="52%"}
 ::: {.incremental}
 - Should I tell a lie?
   - If it were universally acceptable to lie…
   - How would we believe anyone?
 - Should I park at the airport terminal to wait?
   - If everyone did this...
-  - More traffic issues
+  - More traffic issues?
 :::
+:::
+
+::: {.column width="44%"}
+![](../assets/ohare-terminal-roadway.jpg)
+
+::: {.caption}
+Arrivals pickup and departures drop-off at O'Hare. Photo: [AlphaBeta135](https://commons.wikimedia.org/wiki/File:O%27Hare_Airport_traffic_to_I-190_%28March_2024%29.jpg), CC BY 4.0
+:::
+:::
+::::
 
 ---
 
 ## The Right over the Good
 
-Deontology (from Greek *deon*, "duty") judges actions by rules, not results.
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
+
+Deontology (from Greek *deon*, "duty")
 
 ::: {.incremental}
-- Some actions are **required, forbidden, or permitted** in themselves
-- Contrast with consequentialism: outcomes decide everything
+- Some actions are **required, forbidden, or permitted**
 - Deontologists prioritize **"the Right"** over **"the Good"**
-- Some acts stay wrong *even when* they'd bring about good consequences
+- Some acts stay wrong *even when* those actions might bring about good consequences
+- (We will contrast with consequentialism, focused on outcomes)
 :::
 
 ---
 
 ## The Deontic Square {.figure-slide}
 
-![](../assets/deontic-square.svg)
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
+
+![](../assets/deontic-square-remix-v2.svg)
 
 ::: {.figure-caption}
 The deontic square of opposition: every act is **obligatory**, **permitted**, **omissible**, or **prohibited**. Source: [Wikipedia, "Deontic square"](https://en.wikipedia.org/wiki/File:Deontic_square.svg)
@@ -265,58 +293,164 @@ The deontic square of opposition: every act is **obligatory**, **permitted**, **
 
 ---
 
-## Whose Perspective? {.smaller}
+# Distinctions Within Deontology {.title-slide .section-header}
+
+---
+
+## Perspective
+
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
 
 :::: columns
-::: {.column width="48%"}
+::: {.column width="45%"}
 ### Agent-centered
 
-- Focused on **the agent's** own duties and intentions
+- Focused on the "agent's" own duties and intentions
+	- Agent is a human, not an LLM
 - "Keep your own moral house in order"
-- **Agent-relative** duties: special obligations to your own children, promises, projects
+- **Agent-relative** duties: e.g. obligations to your own children, promises, projects
 :::
 
 ::: {.column width="48%"}
 ### Patient-centered
 
-- Focused on **the victim** / recipient of an action
-- Rights-based
-- Core right: not to be **used merely as a means** without consent
+- Focused on the "victim"
+	- i.e. the recipient of an action
+- Rights-based (the duty to protect others' rights)
+- Core right not to be used as a means to an end
+	- Esp. without consent
 :::
 ::::
 
 ---
 
-## Doing vs. Allowing {.smaller}
+## Causing and Allowing
+
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
 
 ::: {.incremental}
-- **Doing and allowing:** causing harm differs from failing to prevent it
+- Also called "doing vs. allowing harm"
 - **Double effect:** intending a harm differs from foreseeing it as a side effect
   - Categorically forbidden to *intend* evils like killing the innocent...
-  - ...even if doing so would minimize such acts overall
-- Why "redirecting the trolley to kill one and save five" can feel permissible
+  - ...even if doing so would reduce total killing!
+- **Causing vs. omitting**
+- **Causing vs. allowing**
+- **Causing vs. enabling**
+- **Causing vs. redirecting** 
+- **Causing vs. accelerating**
 :::
 
 ---
 
-## Constraints, Thresholds, and a Paradox {.smaller}
+## Misc. {.smaller}
+
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
 
 ::: {.incremental}
-- **Constraints:** absolute prohibitions that bind even when breaking one would prevent more violations
-- **Threshold deontology:** rules hold *up to a point* — dire enough stakes let consequences take over
-- **The paradox of deontology:** if a violation is wrong, aren't more violations worse? Yet the rule forbids violating it to prevent others
+- **Constraints:** absolute prohibitions (even when breaking it could prevent more violations)
+- **Threshold deontology:** rules hold up to a point, so if the consequences are dire enough, forget about the rules
+	- Difficult part: what is the exact threshold?
+- **Alleged paradox of deontology:** if one violation is wrong, aren't more violations worse?
 :::
 
 ---
 
-## Criticisms of Deontology {.smaller}
+## Alleged Paradox of Deontology {.quote-slide}
 
-::: {.incremental}
-- **Too permissive?** It can allow terrible outcomes as long as no rule is broken
-- **Too demanding? / conflicting duties:** what when two duties collide?
-- **The catastrophe problem:** must we follow the rule even into disaster?
-- Consequentialists press: why don't rule-violations just "add up"?
+> If respecting Mary's and Susan's rights is as important morally as is protecting John's rights, then why isn't violating John's rights permissible (or even obligatory) when doing so is necessary to protect Mary's and Susan's rights from being violated?
+>
+> — [SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+
+---
+
+
+
+## Relevant Survey Question {.figure-slide .framed-figure}
+
+![](../assets/survey-fall26/q22-it-is-morally-acceptable-to-develop-software-for-the-guidanc.svg)
+
+::: {.figure-caption}
+CS 377 attitudes survey, Fall 2026, n≈50.
 :::
+
+---
+
+## Relevant Survey Question {.figure-slide .framed-figure}
+
+![](../assets/survey-fall26/q20-it-is-morally-acceptable-to-work-at-a-laboratory-that-design.svg)
+
+::: {.figure-caption}
+CS 377 attitudes survey, Fall 2026, n≈50.
+:::
+
+---
+
+## Relevant Survey Question {.figure-slide .framed-figure}
+
+![](../assets/survey-fall26/q24-it-is-morally-acceptable-to-buy-from-technology-companies-th.svg)
+
+::: {.figure-caption}
+CS 377 attitudes survey, Fall 2026, n≈50.
+:::
+
+---
+
+
+
+## Dilemma: Murderer at the Door {.embed-slide}
+
+::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://doethics.fun/dilemmas/deontological-inquiring-murderer/"
+  title="Dilemma: Murderer at the Door"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://doethics.fun/dilemmas/deontological-inquiring-murderer/)
+:::
+:::
+
+---
+
+# Criticisms of Deontology {.title-slide .section-header}
+
+---
+
+## Criticisms of Deontology
+
+::: {.source-top}
+[SEP, *Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/)
+:::
+
+:::: columns
+::: {.column width="58%"}
+::: {.incremental}
+- **Too permissive?** Allows any outcome as long as no rule is broken
+- **Conflicting duties:** what if two duties collide?
+- **The catastrophe problem:** will we follow the rule even into disaster?
+- **The murderer at the door:** Benjamin Constant asked Kant — must you tell the truth to a killer asking where your friend is hiding?
+:::
+:::
+
+::: {.column width="38%"}
+![](../assets/portraits/benjamin-constant.png)
+
+::: {.caption}
+Benjamin Constant, by Lina Vallier, 1847, public domain ; [Commons](https://commons.wikimedia.org/wiki/File:Henri-Benjamin_Constant_de_Rebecque.png)
+:::
+:::
+::::
 
 ---
 
@@ -324,10 +458,10 @@ The deontic square of opposition: every act is **obligatory**, **permitted**, **
 
 ---
 
-## Normative Ethics and Descriptive Ethics
+## Reminder: Normative Ethics and Descriptive Ethics
 
 :::: columns
-::: {.column width="48%"}
+::: {.column width="40%"}
 ### Normative
 
 - Is it right?
@@ -336,7 +470,7 @@ The deontic square of opposition: every act is **obligatory**, **permitted**, **
 - "Is this unethical?"
 :::
 
-::: {.column width="48%"}
+::: {.column width="55%"}
 ### Descriptive
 
 - Who is involved?
@@ -347,6 +481,28 @@ The deontic square of opposition: every act is **obligatory**, **permitted**, **
 - What decisions led to this situation?
 :::
 ::::
+
+---
+
+## Questions? {.theories-grid}
+
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
+
+---
+
+## That's all for today!
+
+- Your "selfie with books" is due Tuesday, 11:59pm
+- See you next class!
 
 ---
 
@@ -576,4 +732,7 @@ See you next class!
 3. Day 2 title photo: [Inbound track at Western (Blue — Forest Park)](https://commons.wikimedia.org/wiki/File:Inbound_track_at_Western_(Blue_-_Forest_Park),_looking_east.jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
 4. Factory safety sign image via the Chicago History Museum.
 5. Deontic square figure: [Deontic square](https://en.wikipedia.org/wiki/File:Deontic_square.svg) via Wikipedia. Deontology content drawn from Larry Alexander and Michael Moore, ["Deontological Ethics,"](https://plato.stanford.edu/entries/ethics-deontological/) *Stanford Encyclopedia of Philosophy*.
-6. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+6. O'Hare terminal roadway photo: ["O'Hare Airport traffic to I-190"](https://commons.wikimedia.org/wiki/File:O%27Hare_Airport_traffic_to_I-190_%28March_2024%29.jpg) by AlphaBeta135, via Wikimedia Commons, CC BY 4.0.
+7. Portraits: Thomas Aquinas by [Fra Bartolomeo](https://commons.wikimedia.org/wiki/File:Thomas_Aquinas_by_Fra_Bartolommeo.jpg), Immanuel Kant by an [unknown artist](https://commons.wikimedia.org/wiki/File:Immanuel_Kant_%28painted_portrait%29.jpg), and Benjamin Constant by [Lina Vallier](https://commons.wikimedia.org/wiki/File:Henri-Benjamin_Constant_de_Rebecque.png), all public domain via Wikimedia Commons.
+8. Murderer-at-the-door dilemma: [doethics.fun/dilemmas/deontological-inquiring-murderer](https://doethics.fun/dilemmas/deontological-inquiring-murderer/), drawing on Kant, "On a Supposed Right to Lie from Benevolent Motives" (1797) and Benjamin Constant, "On Political Reactions" (1797).
+9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
