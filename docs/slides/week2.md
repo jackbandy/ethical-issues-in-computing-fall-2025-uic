@@ -54,14 +54,30 @@ instructor, content, syllabus, etc.)
 
 ---
 
-## Musical chairs!
+## Musical chairs! {.embed-slide}
 
----
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle to assign tables
+- Why do you think we do this?
 
-## 🔀 Seat Shuffle
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
 
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+::: {.embed-frame style="position:absolute;top:0;right:0;width:49%;height:100%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<div style="width:100%;height:100%;overflow:hidden;">
+<div style="width:1060px;height:1200px;transform:scale(0.55);transform-origin:0 0;">
+<iframe
+  src="https://doethics.fun/in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+</div>
+</div>
+:::
+:::
 
 ---
 
@@ -84,13 +100,26 @@ instructor, content, syllabus, etc.)
 
 ---
 
-## Table Discussion: Virtue Ethics 🏛
+## Table Discussion: Virtue Ethics 🏛 {.embed-slide}
 
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
 - Introduce yourselves!
 - Who were your positive exemplars?
   - What were their virtues and how did those virtues show up?
 - Negative exemplars?
   - What were their vices and how did those vices show up?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
@@ -122,12 +151,25 @@ Turn off phones, laptops, other distractions
 
 ---
 
-## Table discussion
+## Table discussion {.embed-slide}
 
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
 What are some potential rules for the class?
 (Feel free to borrow from other classes)
 
 Write two of these potential rules on the board.
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
@@ -196,6 +238,84 @@ Deontology is primarily concerned with what is "right"
 - Should I park at the airport terminal to wait?
   - If everyone did this...
   - More traffic issues
+:::
+
+---
+
+## The Right over the Good
+
+Deontology (from Greek *deon*, "duty") judges actions by rules, not results.
+
+::: {.incremental}
+- Some actions are **required, forbidden, or permitted** in themselves
+- Contrast with consequentialism: outcomes decide everything
+- Deontologists prioritize **"the Right"** over **"the Good"**
+- Some acts stay wrong *even when* they'd bring about good consequences
+:::
+
+---
+
+## The Deontic Square {.figure-slide}
+
+![](../assets/deontic-square.svg)
+
+::: {.figure-caption}
+The deontic square of opposition: every act is **obligatory**, **permitted**, **omissible**, or **prohibited**. Source: [Wikipedia, "Deontic square"](https://en.wikipedia.org/wiki/File:Deontic_square.svg)
+:::
+
+---
+
+## Whose Perspective? {.smaller}
+
+:::: columns
+::: {.column width="48%"}
+### Agent-centered
+
+- Focused on **the agent's** own duties and intentions
+- "Keep your own moral house in order"
+- **Agent-relative** duties: special obligations to your own children, promises, projects
+:::
+
+::: {.column width="48%"}
+### Patient-centered
+
+- Focused on **the victim** / recipient of an action
+- Rights-based
+- Core right: not to be **used merely as a means** without consent
+:::
+::::
+
+---
+
+## Doing vs. Allowing {.smaller}
+
+::: {.incremental}
+- **Doing and allowing:** causing harm differs from failing to prevent it
+- **Double effect:** intending a harm differs from foreseeing it as a side effect
+  - Categorically forbidden to *intend* evils like killing the innocent...
+  - ...even if doing so would minimize such acts overall
+- Why "redirecting the trolley to kill one and save five" can feel permissible
+:::
+
+---
+
+## Constraints, Thresholds, and a Paradox {.smaller}
+
+::: {.incremental}
+- **Constraints:** absolute prohibitions that bind even when breaking one would prevent more violations
+- **Threshold deontology:** rules hold *up to a point* — dire enough stakes let consequences take over
+- **The paradox of deontology:** if a violation is wrong, aren't more violations worse? Yet the rule forbids violating it to prevent others
+:::
+
+---
+
+## Criticisms of Deontology {.smaller}
+
+::: {.incremental}
+- **Too permissive?** It can allow terrible outcomes as long as no rule is broken
+- **Too demanding? / conflicting duties:** what when two duties collide?
+- **The catastrophe problem:** must we follow the rule even into disaster?
+- Consequentialists press: why don't rule-violations just "add up"?
 :::
 
 ---
@@ -455,4 +575,5 @@ See you next class!
 2. Day 1 title photo: [Cicero (Blue) entrance](https://commons.wikimedia.org/wiki/File:Cicero_(Blue)_entrance_(51377780442).jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
 3. Day 2 title photo: [Inbound track at Western (Blue — Forest Park)](https://commons.wikimedia.org/wiki/File:Inbound_track_at_Western_(Blue_-_Forest_Park),_looking_east.jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
 4. Factory safety sign image via the Chicago History Museum.
-5. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+5. Deontic square figure: [Deontic square](https://en.wikipedia.org/wiki/File:Deontic_square.svg) via Wikipedia. Deontology content drawn from Larry Alexander and Michael Moore, ["Deontological Ethics,"](https://plato.stanford.edu/entries/ethics-deontological/) *Stanford Encyclopedia of Philosophy*.
+6. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

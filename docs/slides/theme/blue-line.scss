@@ -327,6 +327,19 @@ $code-block-border-color: $border;
     }
   }
 
+  // Full-grid table: the default reveal table draws only horizontal rules, so
+  // a slide that wants every cell boxed adds this class. The grid lines are
+  // inset box-shadows, not borders: collapsed borders are painted at the table
+  // layer, so they would stay visible on cells still hidden as reveal
+  // fragments (the golden-mean table builds in one cell at a time).
+  .grid-table {
+    th, td {
+      border: none;
+      text-align: center;
+      box-shadow: inset 0 0 0 1px $border;
+    }
+  }
+
   // A survey-question slide: the cohort's response chart centered, with the
   // full survey question printed beneath it.
   .survey-question {

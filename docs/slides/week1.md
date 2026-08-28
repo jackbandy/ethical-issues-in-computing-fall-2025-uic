@@ -515,6 +515,45 @@ Roman marble bust, Louvre. Photo: Eric Gaba (CC BY-SA 2.5) ; [SEP, *Aristotle's 
 
 ---
 
+## Examples of the Golden Mean {.grid-table}
+
+<!-- Raw HTML, not a pipe table: the cells build in one at a time as reveal
+     fragments (indices 1-9), while the whole "?" row shares index 10 so it
+     appears at once. -->
+<table>
+<thead>
+<tr>
+<th>Deficient</th>
+<th>Golden Mean</th>
+<th>Excess</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="fragment" data-fragment-index="1">impatient</td>
+<td class="fragment" data-fragment-index="2">patience</td>
+<td class="fragment" data-fragment-index="3">pushover</td>
+</tr>
+<tr>
+<td class="fragment" data-fragment-index="4">grumpy</td>
+<td class="fragment" data-fragment-index="5">friendliness</td>
+<td class="fragment" data-fragment-index="6">people-pleaser</td>
+</tr>
+<tr>
+<td class="fragment" data-fragment-index="7">cowardly</td>
+<td class="fragment" data-fragment-index="8">courage</td>
+<td class="fragment" data-fragment-index="9">reckless</td>
+</tr>
+<tr>
+<td class="fragment" data-fragment-index="10">?</td>
+<td class="fragment" data-fragment-index="10">?</td>
+<td class="fragment" data-fragment-index="10">?</td>
+</tr>
+</tbody>
+</table>
+
+---
+
 ## Virtue Ethics' Origins
 
 - Plato and Aristotle (~400 BCE)

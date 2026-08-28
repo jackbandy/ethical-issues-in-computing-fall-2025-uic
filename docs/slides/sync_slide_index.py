@@ -450,11 +450,13 @@ def main(slides_dir):
     index = os.path.join(slides_dir, 'index.html')
     original = open(index, encoding='utf-8').read()
 
+    # week0 is the starter deck kept for copying, not a real class week, so it
+    # is left out of the listing even though its file stays in place.
     weeks = sorted(
         int(m.group(1))
         for f in os.listdir(slides_dir)
         for m in [re.fullmatch(r'week(\d+)\.(?:md|qmd)', f)]
-        if m
+        if m and int(m.group(1)) != 0
     )
 
     text = original
