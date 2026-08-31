@@ -36,9 +36,11 @@ because `build.sh` puts `$OUTPUT_DIR` on Pandoc's `--resource-path`. Rendering
 those SVGs into the PDF needs `rsvg-convert` (`brew install librsvg`) in
 addition to Pandoc and XeLaTeX.
 
-Both templates include a DRAFT watermark; remove the `AddToShipoutPictureBG`
-block in `template.tex` and the `body::before` rule in `template.html` when
-the syllabus is final.
+Both templates carry a DRAFT watermark that is currently commented out, since
+the syllabus is final. To switch it back on, uncomment the
+`AddToShipoutPictureBG` block in `template.tex`, and in `template.html`
+uncomment both the `body::before` rule and its companion in the `@media print`
+block.
 
 Old syllabi (and the retired hand-written LaTeX output `SP26_CS377_jxb.pdf`
 this design came from) are in `../syllabus_archive/`.

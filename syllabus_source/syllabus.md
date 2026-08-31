@@ -28,7 +28,7 @@ epigraph: "“Evil comes from a failure to think” —Hannah Arendt"
 
 **Office phone:** (312) 555-0101
 
-**Drop-in (office) hours:** See Canvas
+**Drop-in (office) hours:** Tuesdays 1:30-2:30pm, more times via scheduling link in Canvas
 
 **Teaching assistants:**\
 &nbsp;&nbsp;&nbsp;Abhijith Sreenivasan ([asree5@uic.edu](mailto:asree5@uic.edu))\
@@ -249,7 +249,7 @@ Showing up makes a substantial difference in this course (and in life). Many cla
 
 **Please notify the instructor as soon as possible** when illness, personal emergencies, university obligations, religious observances, or other circumstances may prevent attendance. Note that this is also a courtesy to the community, as unexpected absences and late arrivals can be disruptive to everyone in class.
 
-**Arriving more than 30 minutes late counts as an absence.** For example, if you arrive at 2:30pm for the 2:00pm section, that is treated the same as missing class, and will count against your four free absences (repeated occurrences will lower your "Attendance, Participation, and Civility" grade).
+**Arriving more than 30 minutes late counts as an absence.** For example, if you arrive at 2:35pm for the 2:00pm section, that is treated the same as missing class, and will count against your four free absences (repeated occurrences will lower your "Attendance, Participation, and Civility" grade).
 
 I take attendance each class. Four absences may be taken without penalty, and they do not have to be explicitly excused. If a student misses more than four classes without notifying the instructor, the instructor will reach out to them, and reserves the right to lower the "Attendance, Participation, and Civility" portion of the overall grade.
 
@@ -329,7 +329,7 @@ For individual exercise policies, this course uses CTA rail signals. Every exerc
 :::
 
 
-### Double yellow — "proceed at restricted speed"
+### Double yellow — "proceed with caution at restricted speed"
 
 ::: {.signal-aspect}
 ![Two yellow lamps stacked vertically. CTA rulebook: "Proceed with caution at restricted speed."](../assets/signals/signal-09-caution-restricted.svg)\
