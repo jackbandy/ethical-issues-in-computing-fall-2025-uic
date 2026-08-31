@@ -40,9 +40,20 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 ## Administrivia
 
 - Grades will trickle in through Canvas
+- "Selfie with books" due tomorrow, 11:59pm!
 - Reflections coming soon!
 - Canvas questions?
 - Book questions?
+
+---
+
+## 👀 Initial survey analysis {.figure-slide .framed-figure}
+
+![](../assets/survey-fall26/optimism-swarm.svg)
+
+::: {.figure-caption}
+Responses to "I am generally optimistic about the collective future of…", CS 377 attitudes survey, Fall 2026, n≈54.
+:::
 
 ---
 
@@ -53,7 +64,7 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 ::: {.embed-layout}
 ::: {.embed-copy}
 - Shuffle seats!
-- Enter a seed and shuffle to assign tables
+- Enter a seed and shuffle
 
 [Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
 :::
@@ -125,7 +136,7 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 
 ---
 
-# Fundamentals of Deontology {.title-slide .section-header}
+# Basics of Deontological ethics {.title-slide .section-header}
 
 ---
 
@@ -190,22 +201,15 @@ CS 377 attitudes survey, Fall 2026, n≈50.
 
 :::: columns
 ::: {.column width="58%"}
-- Focused on duties, rights, and moral obligations (i.e. laws)
+- Focused on duties, rights, moral obligations (i.e. laws)
 - Laws might be prohibitions or obligations
 - Laws might come from different places
 - What is "right" vs what is "good"
+- Key figure: Immanuel Kant (1724 — 1804)
 
-::: {.fragment}
-- Key figures:
-  - Thomas Aquinas (1225 — 1274)
-    - Natural law
-  - Immanuel Kant (1724 — 1804)
-    - Ethical reasoning
-    - Categorical imperative
-:::
 :::
 
-::: {.column .portrait-pair width="38%"}
+::: {.column .portrait-solo width="38%"}
 
 ![](../assets/portraits/immanuel-kant.jpg)
 
@@ -242,12 +246,12 @@ Kant ([unknown artist, c. 1790](https://commons.wikimedia.org/wiki/File:Immanuel
 :::: columns
 ::: {.column width="52%"}
 ::: {.incremental}
-- Should I tell a lie?
-  - If it were universally acceptable to lie…
-  - How would we believe anyone?
 - Should I park at the airport terminal to wait?
   - If everyone did this...
   - More traffic issues?
+- Should I tell a lie?
+  - If it were universally acceptable to lie...
+  - How would we believe anyone?
 :::
 :::
 
@@ -279,6 +283,16 @@ Deontology (from Greek *deon*, "duty")
 
 ---
 
+## "She Would Do Her Duty" {.figure-slide}
+
+![](../assets/movies/star-wars-duty.png)
+
+::: {.figure-caption}
+From *Star Wars: Episode II — Attack of the Clones* (2002), dir. George Lucas.
+:::
+
+---
+
 ## The Deontic Square {.figure-slide}
 
 ::: {.source-top}
@@ -288,7 +302,7 @@ Deontology (from Greek *deon*, "duty")
 ![](../assets/deontic-square-remix-v2.svg)
 
 ::: {.figure-caption}
-The deontic square of opposition: every act is **obligatory**, **permitted**, **omissible**, or **prohibited**. Source: [Wikipedia, "Deontic square"](https://en.wikipedia.org/wiki/File:Deontic_square.svg)
+The deontic square: every act is **obligatory**, **permitted**, **omissible**, or **prohibited**. Source: [Wikipedia, "Deontic square"](https://en.wikipedia.org/wiki/File:Deontic_square.svg)
 :::
 
 ---
@@ -308,7 +322,7 @@ The deontic square of opposition: every act is **obligatory**, **permitted**, **
 ### Agent-centered
 
 - Focused on the "agent's" own duties and intentions
-	- Agent is a human, not an LLM
+	- Agent is a human :-)
 - "Keep your own moral house in order"
 - **Agent-relative** duties: e.g. obligations to your own children, promises, projects
 :::
@@ -319,8 +333,29 @@ The deontic square of opposition: every act is **obligatory**, **permitted**, **
 - Focused on the "victim"
 	- i.e. the recipient of an action
 - Rights-based (the duty to protect others' rights)
-- Core right not to be used as a means to an end
-	- Esp. without consent
+- Core right: to not be used as a means to an end
+:::
+::::
+
+---
+
+## "Every Right, and Every Responsibility" {.smaller .figure-pair}
+
+:::: columns
+::: {.column width="48%"}
+![](../assets/movies/odyssey-rights.png)
+
+::: {.caption}
+Screenplay excerpt from [The Odyssey (2026)](https://archive.org/details/odyssey-nolan-screenplay/page/n3/mode/2up).
+:::
+:::
+
+::: {.column width="48%"}
+![](../assets/movies/whirlpool-3-hiremy-hirschl-1910.jpg)
+
+::: {.caption}
+Adolf Hirémy-Hirschl, *Zwischen Skylla und Charybdis* (c. 1910). Via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adolf_Hiremy-Hirschl_-_Zwischen_Skylla_und_Charybdis.jpg), CC BY-SA 4.0
+:::
 :::
 ::::
 
@@ -405,13 +440,21 @@ CS 377 attitudes survey, Fall 2026, n≈50.
 
 ## Dilemma: Murderer at the Door {.embed-slide}
 
-::: {.embed-layout .embed-full}
-::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+::: {.embed-layout .golden-columns}
+::: {.embed-frame}
 <iframe
   src="https://doethics.fun/dilemmas/deontological-inquiring-murderer/"
   title="Dilemma: Murderer at the Door"
   loading="lazy"
-  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
   data-external="1">
 </iframe>
 :::
@@ -439,7 +482,7 @@ CS 377 attitudes survey, Fall 2026, n≈50.
 - **Too permissive?** Allows any outcome as long as no rule is broken
 - **Conflicting duties:** what if two duties collide?
 - **The catastrophe problem:** will we follow the rule even into disaster?
-- **The murderer at the door:** Benjamin Constant asked Kant — must you tell the truth to a killer asking where your friend is hiding?
+- **The murderer at the door:** Benjamin Constant: must you tell the truth to a killer asking where your friend is hiding?
 :::
 :::
 
@@ -454,7 +497,7 @@ Benjamin Constant, by Lina Vallier, 1847, public domain ; [Commons](https://comm
 
 ---
 
-# Normative and Descriptive Ethics {.title-slide .section-header}
+# Reminder: Normative and Descriptive Ethics {.title-slide .section-header}
 
 ---
 
@@ -735,4 +778,7 @@ See you next class!
 6. O'Hare terminal roadway photo: ["O'Hare Airport traffic to I-190"](https://commons.wikimedia.org/wiki/File:O%27Hare_Airport_traffic_to_I-190_%28March_2024%29.jpg) by AlphaBeta135, via Wikimedia Commons, CC BY 4.0.
 7. Portraits: Thomas Aquinas by [Fra Bartolomeo](https://commons.wikimedia.org/wiki/File:Thomas_Aquinas_by_Fra_Bartolommeo.jpg), Immanuel Kant by an [unknown artist](https://commons.wikimedia.org/wiki/File:Immanuel_Kant_%28painted_portrait%29.jpg), and Benjamin Constant by [Lina Vallier](https://commons.wikimedia.org/wiki/File:Henri-Benjamin_Constant_de_Rebecque.png), all public domain via Wikimedia Commons.
 8. Murderer-at-the-door dilemma: [doethics.fun/dilemmas/deontological-inquiring-murderer](https://doethics.fun/dilemmas/deontological-inquiring-murderer/), drawing on Kant, "On a Supposed Right to Lie from Benevolent Motives" (1797) and Benjamin Constant, "On Political Reactions" (1797).
-9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+9. Odyssey screenplay excerpt (`odyssey-rights.png`): source TBD.
+10. Charybdis painting: Adolf Hirémy-Hirschl, ["Zwischen Skylla und Charybdis"](https://commons.wikimedia.org/wiki/File:Adolf_Hiremy-Hirschl_-_Zwischen_Skylla_und_Charybdis.jpg) (c. 1910), via Wikimedia Commons, CC BY-SA 4.0.
+11. Duty still: *Star Wars: Episode II — Attack of the Clones* (2002), dir. George Lucas, Lucasfilm. Used for classroom commentary.
+12. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

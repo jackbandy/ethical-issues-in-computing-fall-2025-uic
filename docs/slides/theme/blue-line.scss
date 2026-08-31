@@ -292,6 +292,16 @@ $code-block-border-color: $border;
     margin-bottom: 0.35em;
   }
 
+  // A single portrait in a side column: the stacked-pair cap wastes most of the
+  // column, so run it much taller and leave only what the credit line and the
+  // slide's source note need above the footer. Capped in px, not vh, because
+  // reveal lays the slide out in a fixed 1280x720 box and only then scales it,
+  // so a vh cap grows past its share of the slide on any window taller than 16:9.
+  .portrait-solo img {
+    max-height: 380px;
+    margin-bottom: 0.2em;
+  }
+
   .quote-slide {
     display: flex !important;
     align-items: center;
@@ -664,6 +674,16 @@ $photo-only-footer-opacity: 0.6;
     text-align: center;
     opacity: 0.75;
   }
+}
+
+// Two captioned figures side by side (a screenplay page next to a painting).
+// Capped in px rather than the shared `.column img` vh cap: reveal lays the
+// slide out in a fixed 1280x720 box and scales it afterwards, so a vh cap grows
+// past its share of the slide on any window taller than 16:9 and drops the
+// credit lines behind the footer. 420px leaves room for a two-line credit.
+.reveal .figure-pair .column img {
+  max-height: 420px;
+  margin-bottom: 0.2em;
 }
 
 // A figure that has to read as a discrete panel on the white slide — the survey
