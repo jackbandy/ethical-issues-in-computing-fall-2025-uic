@@ -37,6 +37,7 @@
   <link rel="stylesheet" href="week5_files/libs/revealjs/dist/theme/quarto-355b5aa7d8cb19ee82b416f57cf410e8.css">
   <link rel="stylesheet" href="theme/responsive-footer.css">
   <link rel="stylesheet" href="theme/radio-player.css">
+  <link rel="stylesheet" href="theme/random-letter.css">
   <link href="week5_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="week5_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="week5_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -868,7 +869,7 @@
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md</a>.</li>
-<li>Last modified and compiled August 31, 17:19h.</li>
+<li>Last modified and compiled September 1, 21:48h.</li>
 <li>Tarleton Gillespie, <a href="https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf"><em>Custodians of the Internet</em></a> (2018).</li>
 <li>Tarleton Gillespie, <a href="https://doi.org/10.1177/2053951720943234">“Content Moderation, AI, and the Question of Scale”</a>, <em>Big Data &amp; Society</em> (2020).</li>
 <li>Nick Hopkins, <a href="https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence">“Facebook’s internal rulebook on sex, terrorism and violence”</a>, <em>The Guardian</em> (2017).</li>
@@ -1278,6 +1279,77 @@
 
       document.addEventListener("DOMContentLoaded", boot);
       window.addEventListener("load", boot);
+    })();
+    </script>
+    <script>
+    // Attendance warm-up: draw one true-random uppercase letter from random.org.
+    // Styling lives in theme/random-letter.css. No-ops on decks that have no
+    // .random-letter panel.
+    //
+    // random.org refuses to be framed (X-Frame-Options: SAMEORIGIN, CSP
+    // frame-ancestors 'self'), so the letter cannot come from an <iframe>. It does
+    // send Access-Control-Allow-Origin: *, so the panel fetches the plain-text
+    // response instead — the same approach as the random roll call in the
+    // data-science-fun deck.
+    (() => {
+      const ENDPOINT = "https://www.random.org/strings/?num=1&len=1&upperalpha=on&unique=on&format=plain&rnd=new";
+
+      function setup(root) {
+        if (root.dataset.wired) return;
+        root.dataset.wired = "1";
+
+        const display = root.querySelector(".random-letter-display");
+        const button = root.querySelector(".random-letter-button");
+        const status = root.querySelector(".random-letter-status");
+        if (!display || !button) return;
+
+        function placeholder(text) {
+          display.innerHTML = "";
+          const p = document.createElement("div");
+          p.className = "random-letter-placeholder";
+          p.textContent = text;
+          display.appendChild(p);
+        }
+
+        function render(letter) {
+          display.innerHTML = "";
+          const cell = document.createElement("div");
+          cell.className = "random-letter-value";
+          cell.textContent = letter;
+          display.appendChild(cell);
+        }
+
+        function draw() {
+          button.disabled = true;
+          status.textContent = "drawing from random.org…";
+          fetch(ENDPOINT, { cache: "no-store" })
+            .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+            .then((text) => {
+              const letter = text.trim().split(/\s+/).filter(Boolean)[0];
+              if (!letter) throw new Error("empty response");
+              render(letter);
+              status.textContent = "a true random letter from random.org";
+            })
+            .catch((err) => {
+              placeholder("Could not reach random.org (" + err.message + "). Open the draw in a new tab instead.");
+              status.textContent = "";
+            })
+            .then(() => { button.disabled = false; });
+        }
+
+        button.addEventListener("click", draw);
+        placeholder(display.dataset.placeholder || "Press “Draw” for a random letter.");
+      }
+
+      function init() {
+        document.querySelectorAll(".random-letter").forEach(setup);
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+      } else {
+        init();
+      }
     })();
     </script>
     <script>
