@@ -34,6 +34,7 @@ below follow each Commons file page.
 | magda-trocme.png | Magda Trocmé | [Commons](https://commons.wikimedia.org/wiki/File:Magda_Trocm%C3%A9_c1940b.png) | Public Domain | Anonymous, c. 1940 |
 | nel-noddings.jpg | Nel Noddings | [Commons](https://commons.wikimedia.org/wiki/File:Nel_Noddings_2011_(cropped).jpg) | CC BY-SA 4.0 | Jim Noddings, 2011 |
 | peter-singer.jpg | Peter Singer | [Commons](https://commons.wikimedia.org/wiki/File:Peter_Singer_(philosopher).jpg) | CC BY-SA 3.0 | Bbsrock, 2009 |
+| robert-axelrod.jpg | Robert Axelrod | [Commons](https://commons.wikimedia.org/wiki/File:Robert_Axelrod_2012.jpg) | CC BY-SA 2.0 | 5of7, Calgary Comic and Entertainment Expo, 2012 |
 | plato.jpg | Plato | [Commons](https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg) | CC BY 2.5 | Marie-Lan Nguyen, 2009; Roman copy of a Silanion bust, Capitoline Museums |
 | socrates.jpg | Socrates | [Commons](https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg) | Public Domain | Photo by Eric Gaba, 2005; Roman marble (1st c. AD), perhaps after Lysippos, Louvre |
 | thomas-aquinas.jpg | Thomas Aquinas | [Commons](https://commons.wikimedia.org/wiki/File:Thomas_Aquinas_by_Fra_Bartolommeo.jpg) | Public Domain | Fra Bartolomeo, c. 1510–1517; Museum of San Marco, Florence |

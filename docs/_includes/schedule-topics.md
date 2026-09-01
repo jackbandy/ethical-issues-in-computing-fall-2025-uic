@@ -41,6 +41,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * Trolley Problem(s) [images by Jesse Prinz](http://subcortex.com/pictures/)
 * Trolley Problem(s) [text by Chad Vance](https://rintintin.colorado.edu/~vancecd/phil3160/trolley.pdf)
 * "Absurd Trolley Problems" [curated by Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
+* Stanford Encyclopedia of Philosophy, [Prisoner's Dilemma](https://plato.stanford.edu/entries/prisoner-dilemma/)
 
 ## Week 3, Day 1 (2026-09-07)
 

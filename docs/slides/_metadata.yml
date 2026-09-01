@@ -4,12 +4,14 @@ format:
     css:
       - theme/responsive-footer.css
       - theme/radio-player.css
+      - theme/random-letter.css
     include-in-header:
       - includes/head-icons.html
     include-after-body:
       - includes/slide-number-after-body.html
       - includes/footer-deck-link.html
       - includes/radio-player-after-body.html
+      - includes/random-letter-after-body.html
       - includes/sources-fit-after-body.html
     width: 1280
     height: 720

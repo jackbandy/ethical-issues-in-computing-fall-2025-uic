@@ -1,0 +1,82 @@
+/* "Draw a letter" panel (markup lives in the deck, wiring in
+   includes/random-letter-after-body.html). Pulls one true-random uppercase
+   letter from random.org for the attendance warm-up.
+
+   Not an <iframe>: random.org answers with `X-Frame-Options: SAMEORIGIN` and
+   `Content-Security-Policy: frame-ancestors 'self'`, so the page refuses to be
+   framed from anywhere else. It does send `Access-Control-Allow-Origin: *`, so
+   the panel fetches the plain-text response and renders it here instead —
+   the same approach as the random roll call in the data-science-fun deck.
+
+   Colors are the theme's ($cta-blue #00a1de, $cta-blue-dark #005daa,
+   $ink #231f20, $muted #666, $soft #f4f4f4, $border #d8d8d8), hardcoded
+   because this file is plain CSS rather than part of the SCSS theme. */
+.reveal .random-letter {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 0;
+  padding: 18px;
+  background: #fff;
+}
+
+.reveal .random-letter-display {
+  display: grid;
+  flex: 1;
+  min-height: 0;
+  place-items: center;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  background: #f4f4f4;
+}
+
+.reveal .random-letter-value {
+  font-family: "Big Shoulders", "Arial Narrow", "Helvetica Neue Condensed", sans-serif;
+  font-size: 11rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #00a1de;
+}
+
+.reveal .random-letter-placeholder {
+  padding: 0 1.5em;
+  color: #666;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.reveal .random-letter-controls {
+  flex: none;
+  margin: 14px 0 0;
+  text-align: center;
+}
+
+.reveal .random-letter-button {
+  padding: 0.3em 1.4em;
+  border: none;
+  border-radius: 3px;
+  background: #005daa;
+  color: #fff;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reveal .random-letter-button:hover:not(:disabled) {
+  background: #003087;
+}
+
+.reveal .random-letter-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.reveal .random-letter-status {
+  display: block;
+  margin-top: 0.5em;
+  color: #666;
+  font-size: 0.8rem;
+}
