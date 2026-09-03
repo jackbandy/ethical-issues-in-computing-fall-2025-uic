@@ -103,6 +103,9 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 5, Day 2 (2026-09-23)
 
 * Privacy, Continued
+* Discuss short story ("Here and Now")
+* Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
+  * PDF available in Canvas
 
 ### Sources
 
@@ -110,42 +113,51 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 6, Day 1 (2026-09-28)
 
-* Privacy, Continued
-* Discuss short story ("Here and Now")
-* Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
-  * PDF available in Canvas
+* Privacy in data, Continued
+* **Virtue ethics through fiction:** discuss short story ("Message in a Bottle")
+* Preview short story (["Dolly" by Elizabeth Bear](https://www.apexbookcompany.com/blogs/apex-magazine/dolly))
+  * 34-minute audio version via [StarShipSofa episode 204](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
+
+### Sources
+
+* Stanford Encyclopedia of Philosophy, [Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/) (revisit from Week 1)
 
 ## Week 6, Day 2 (2026-09-30)
 
 * Inequality and Justice
-* Discuss short story ("Message in a Bottle")
-* Preview short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
+* **Deontology through fiction:** discuss short story ("Dolly")
+* Preview short story (["The Ones Who Walk Away from Omelas" by Ursula K. Le Guin](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf))
+  * Alternate PDF [here](https://users.manchester.edu/Facstaff/SSNaragon/Online/texts/201/-Essays/Leguin,%20Omelas.pdf)
+
+### Sources
+
+* Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/) (revisit from Week 2)
+* Elizabeth Bear's ["Dolly"](https://www.apexbookcompany.com/blogs/apex-magazine/dolly), full text at Apex Magazine
+  * Audio version via [StarShipSofa episode 204 (34 minutes)](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
+* Wikipedia, ["Dolly" (story)](https://en.wikipedia.org/wiki/Dolly_(story))
 
 ## Week 7, Day 1 (2026-10-05)
 
-* **Asynchronous class.** Dr. Bandy away.
-* Inequality and Justice, Continued
-* Faces and Fairness
-
-### Sources
-
-* ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
-* [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
-* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
-* [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
-* Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
-* _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
+* **Asynchronous class day**
+ Read ["The Ones Who Walk Away from Omelas"](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf) 
 
 ## Week 7, Day 2 (2026-10-07)
 
-* **Asynchronous class.** Dr. Bandy away.
+* **Asynchronous class day.** No class meeting.
+* Read ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
+  * 34-minute audio version of "If an Algorithm Can Cast a Shadow" [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
+* Work time for the online account scrap doll exercise
+
+## Week 8, Day 1 (2026-10-12)
+
 * Computing and War
-* Discuss short story ("Codename Delphi")
-* Preview short story ("[If an Algorithm Can Cast a Shadow](https://clarkesworldmagazine.com/jia-wen_06_25/)")
-  * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
+* **Utilitarianism through fiction:** discuss short story ("The Ones Who Walk Away from Omelas")
+* Also discuss short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
 
 ### Sources
 
+* Stanford Encyclopedia of Philosophy, [History of Utilitarianism](https://plato.stanford.edu/ENTRiES/utilitarianism-history/) (revisit from Week 2)
+* Ursula K. Le Guin, ["The Ones Who Walk Away from Omelas"](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf) (PDF hosted by the U.S. Naval Academy's Core Ethics program)
 * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
 * Ross Andersen, ["Inside Anthropic’s Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/)
 * Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
@@ -157,13 +169,16 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * Eric P.S. Baumer and M. Six Silberman ["When the implication is not to design (technology)"](https://doi.org/10.1145/1978942.1979275)
 * Juan Pablo Hourcade, ["Give peace a chance: a call to design technologies for peace"](https://doi.org/10.1145/1520340.1520354)
 
-## Week 8, Day 1 (2026-10-12)
+## Week 8, Day 2 (2026-10-14)
 
 * Medical and health technologies
 * Intro to CyberSecurity
+* **Care ethics through fiction:** discuss short story ("If an Algorithm Can Cast a Shadow")
+* Discuss Speculative Fiction Exercise
 
 ### Sources
 
+* Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) (revisit from Week 3)
 * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
 * California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
   * "Botched Operaion" YouTube Series about electronic health records:
@@ -172,10 +187,9 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
     * [Part 3](https://www.youtube.com/watch?v=-3EJdWDMCa0)
     * [Part 4](https://www.youtube.com/watch?v=g3te10iU9Vk)
 
-## Week 8, Day 2 (2026-10-14)
+## Week 9, Day 1 (2026-10-19)
 
 * Intro to Ethical Challenges from LLMs
-* Discuss Speculative Fiction Exercise
 
 ### Sources
 
@@ -186,14 +200,6 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
   * [LMArena](https://lmarena.ai/?mode=side-by-side) / [About](https://lmarena.ai/about)
 * [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)
 * Rumman Chowdhury, [Debates over AI consciousness are a trap](https://archive.ph/Bbs6p) (_MIT Technology Review_, 2026)
-
-## Week 9, Day 1 (2026-10-19)
-
-* Ethical Challenges from LLMs, Continued
-* Discuss short story ("If an Algorithm Can Cast a Shadow")
-
-### Sources
-
 * Open to Debate, [Andrew Yang and Chris Hughes Debate: “Will AI Make Work Obsolete?”](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
 * Casey Newton, [Grammarly turned me into an AI editor against my will and I hate it](https://www.platformer.news/grammarly-expert-review-reviewed/)
 * Financial Times, [Amazon service was taken down by AI coding bot](https://archive.ph/msZJ3)
@@ -234,12 +240,23 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 11, Day 1 (2026-11-02)
 
-* Book Presentations
-* Overview of Fairness Definitions Exercise
+* **Guest lecture (remote, synchronous).** Join the live session online. <!-- TODO: speaker, topic, and join link -->
 
 ## Week 11, Day 2 (2026-11-04)
 
-* Book Presentations
+* Algorithmic Fairness
+* Faces and Fairness
+* Overview of Fairness Definitions Exercise
+* Book Presentations begin
+
+### Sources
+
+* ["Gender Shades" study](https://proceedings.mlr.press/v81/buolamwini18a.html)
+* [John Oliver's Segment on Facial Recognition (21 minutes)](https://youtu.be/jZjmlJPJgug)
+* [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
+* Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
+* _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
+* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
 
 ## Week 12, Day 1 (2026-11-09)
 
