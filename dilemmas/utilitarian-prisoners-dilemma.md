@@ -31,4 +31,4 @@ See also: the boat/ferry sequence in [*The Dark Knight*](https://en.wikipedia.or
 
 See also: the SEP page on [The Free Rider Problem](https://plato.stanford.edu/entries/free-rider/), alleged class of cases where individually rational choices supposedly leave everyone worse off. See also: [Elinor Ostrom's design principles for long-enduring CPR institutions](https://en.wikipedia.org/wiki/Elinor_Ostrom#%22Design_principles_illustrated_by_long-enduring_CPR_%28Common_Pool_Resource%29_institutions%22) — on how self-organizing groups can avoid both the free-rider problem and the "tragedy of the commons" (Ostrom won the 2009 Nobel Prize in Economics for this work.)
 
-See also: [the 1% button dilemma](https://doethics.fun/dilemmas/utilitarian-button-prisoners/) — a course-specific variation of the prisoner's dilemma in which two sections decide whether to push a button affecting their final grades.
+See also: [the 1% button dilemma](https://doethics.fun/dilemmas/utilitarian-button-matrix/) — a course-specific variation of the prisoner's dilemma in which two sections decide whether to push a button affecting their final grades.
